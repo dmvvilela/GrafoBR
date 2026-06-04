@@ -1,0 +1,33 @@
+# Node / Next
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Env
+.env
+.env.local
+!.env.example
+
+# Generated data (one file per politician). Keep the folder + its README only.
+data/*
+!data/.gitkeep
+!data/README.md
+
+# Reference clones (br-acc etc.) — study material, never shipped. Keep the README.
+reference/*
+!reference/README.md
+
+# Caches / OS
+.duckdb/
+*.duckdb
+.cache/
+.DS_Store

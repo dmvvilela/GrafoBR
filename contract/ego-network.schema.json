@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://grafobr/contract/ego-network.schema.json",
+  "title": "GrafoBR Ego-Network",
+  "description": "One politician-centered connection graph. The single seam between pipeline (producer) and web (consumer). See docs/DATA-CONTRACT.md.",
+  "type": "object",
+  "required": ["nodes", "links"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "egoId": { "type": "integer", "description": "node id of the politician this file centers on" },
+        "egoName": { "type": "string" },
+        "generatedAt": { "type": "string", "format": "date-time" },
+        "sources": { "type": "array", "items": { "type": "string" }, "description": "portal keys that contributed, e.g. camara, tse, receita" },
+        "summary": { "type": ["string", "null"], "description": "optional plain-language summary; filled by build-time AI (Phase 5). Must be reviewable/neutral." },
+        "disclaimer": { "type": "string" }
+      }
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "category", "connectionCount"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "integer", "description": "opaque node id. NEVER a CPF/CNPJ." },
+          "name": { "type": "string" },
+          "category": {
+            "type": "string",
+            "enum": ["politician", "company", "donor", "relative", "other"],
+            "description": "drives node color"
+          },
+          "connectionCount": { "type": "integer", "minimum": 0, "description": "node degree; drives node size" }
+        }
+      }
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "source", "target", "connectionType"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "integer" },
+          "source": { "type": "integer", "description": "node id" },
+          "target": { "type": "integer", "description": "node id" },
+          "connectionType": {
+            "type": "string",
+            "enum": ["socio", "doacao", "contrato", "parente", "other"],
+            "description": "drives edge color"
+          },
+          "description": { "type": ["string", "null"], "description": "human-readable, source-attributed" },
+          "strength": { "type": "number", "description": "edge weight; currently unused in rendering" }
+        }
+      }
+    }
+  }
+}
