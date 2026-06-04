@@ -77,6 +77,7 @@ export default function NetworkGraph({
   onSelectNode,
 }: NetworkGraphProps) {
   const svgRef = useRef<SVGSVGElement | null>(null);
+  const onSelectNodeRef = useRef(onSelectNode);
   const normalizedQuery = searchQuery.trim().toLowerCase();
 
   const matchIds = useMemo(() => {
@@ -88,6 +89,10 @@ export default function NetworkGraph({
   }, [data.nodes, normalizedQuery]);
 
   const hasSearch = normalizedQuery.length > 0;
+
+  useEffect(() => {
+    onSelectNodeRef.current = onSelectNode;
+  }, [onSelectNode]);
 
   useEffect(() => {
     const svgElement = svgRef.current;
@@ -113,13 +118,7 @@ export default function NetworkGraph({
       .data(links)
       .join("line")
       .attr("stroke", (edge) => getEdgeColor(edge.connectionType))
-      .attr("stroke-opacity", (edge) => {
-        const sourceId = getLinkedNodeId(edge.source);
-        const targetId = getLinkedNodeId(edge.target);
-        return !hasSearch || (matchIds.has(sourceId) && matchIds.has(targetId))
-          ? 0.72
-          : 0.1;
-      })
+      .attr("stroke-opacity", 0.72)
       .attr("stroke-width", (edge) => Math.max(1.5, (edge.strength ?? 1) * 1.4))
       .attr("stroke-linecap", "round");
 
@@ -136,11 +135,11 @@ export default function NetworkGraph({
       .attr("fill", (graphNode) => getCategoryColor(graphNode.category))
       .attr("stroke", "#ffffff")
       .attr("stroke-width", 1.8)
-      .attr("opacity", (graphNode) =>
-        !hasSearch || matchIds.has(graphNode.id) ? 1 : 0.18,
-      )
+      .attr("opacity", 1)
       .attr("cursor", "grab")
-      .on("click", (_event, graphNode) => onSelectNode?.(graphNode));
+      .on("click", (_event, graphNode) =>
+        onSelectNodeRef.current?.(graphNode),
+      );
 
     node.append("title").text((graphNode) => {
       const label = CATEGORY_LABELS[graphNode.category];
@@ -161,9 +160,7 @@ export default function NetworkGraph({
       .attr("stroke", "#f9fafb")
       .attr("stroke-width", 3)
       .attr("stroke-linejoin", "round")
-      .attr("opacity", (graphNode) =>
-        !hasSearch || matchIds.has(graphNode.id) ? 0.92 : 0.16,
-      )
+      .attr("opacity", 0.92)
       .attr("pointer-events", "none");
 
     const simulation = d3
@@ -237,7 +234,35 @@ export default function NetworkGraph({
       simulation.stop();
       svg.on(".zoom", null);
     };
-  }, [data, hasSearch, matchIds, onSelectNode]);
+  }, [data]);
+
+  useEffect(() => {
+    const svgElement = svgRef.current;
+    if (!svgElement) return;
+
+    const svg = d3.select(svgElement);
+    svg
+      .selectAll<SVGCircleElement, SimulationNode>(".graph-nodes circle")
+      .attr("opacity", (graphNode) =>
+        !hasSearch || matchIds.has(graphNode.id) ? 1 : 0.18,
+      );
+
+    svg
+      .selectAll<SVGTextElement, SimulationNode>(".graph-labels text")
+      .attr("opacity", (graphNode) =>
+        !hasSearch || matchIds.has(graphNode.id) ? 0.92 : 0.16,
+      );
+
+    svg
+      .selectAll<SVGLineElement, SimulationLink>(".graph-links line")
+      .attr("stroke-opacity", (edge) => {
+        const sourceId = getLinkedNodeId(edge.source);
+        const targetId = getLinkedNodeId(edge.target);
+        return !hasSearch || (matchIds.has(sourceId) && matchIds.has(targetId))
+          ? 0.72
+          : 0.1;
+      });
+  }, [hasSearch, matchIds]);
 
   return (
     <div className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm">
