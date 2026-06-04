@@ -8,11 +8,14 @@
 
 import { useEffect, useState } from "react";
 import NetworkGraph from "@/components/NetworkGraph";
-import type { EgoNetwork } from "@/lib/contract";
+import type { EgoNetwork, GraphNode } from "@/lib/contract";
+import { CATEGORY_LABELS } from "@/lib/graph-colors";
 
 export default function Home() {
   const [data, setData] = useState<EgoNetwork | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedNode, setSelectedNode] = useState<GraphNode | null>(null);
 
   useEffect(() => {
     fetch("/data/sample-ego-network.json")
@@ -47,7 +50,40 @@ export default function Home() {
             {data.meta?.disclaimer ??
               "Dados públicos. Conexões não são acusações de irregularidade."}
           </p>
-          <NetworkGraph data={data} />
+
+          <div className="mb-4 grid gap-3 md:grid-cols-[1fr_280px]">
+            <label className="block">
+              <span className="mb-1 block text-xs font-medium text-gray-500">
+                Buscar no grafo
+              </span>
+              <input
+                value={searchQuery}
+                onChange={(event) => setSearchQuery(event.target.value)}
+                className="w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm shadow-sm outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+                placeholder="Nome da pessoa, empresa ou doador"
+              />
+            </label>
+
+            <aside className="rounded-md border border-gray-200 bg-white px-3 py-2 text-sm shadow-sm">
+              {selectedNode ? (
+                <>
+                  <p className="font-semibold text-gray-900">{selectedNode.name}</p>
+                  <p className="text-gray-500">
+                    {CATEGORY_LABELS[selectedNode.category]} ·{" "}
+                    {selectedNode.connectionCount} conexões
+                  </p>
+                </>
+              ) : (
+                <p className="text-gray-500">Selecione um nó para ver o resumo.</p>
+              )}
+            </aside>
+          </div>
+
+          <NetworkGraph
+            data={data}
+            searchQuery={searchQuery}
+            onSelectNode={setSelectedNode}
+          />
         </>
       )}
     </main>
