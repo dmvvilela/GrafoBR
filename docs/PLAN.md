@@ -114,6 +114,9 @@ force graph.
 
 ### Phase 2 — Pipeline v0 (one real source, a few politicians)
 **Goal:** produce a *real* ego-network JSON for ~5 politicians from **one** source.
+> **Read `docs/DATA-FEASIBILITY.md` first.** The 5 core extractors are verified *real*
+> (not stubs); it lists exactly which logic to reuse vs what's genuinely new work, and why
+> `parente` edges + amendment-steering are deferred past v1.
 - Clone br-acc into `reference/` (see `reference/README.md`); read its source registry to
   confirm base URLs + field meanings. **Reimplement clean — don't copy AGPL code.**
 - Start with **Câmara dados abertos** (deputies + their declared info) and **TSE
@@ -164,7 +167,7 @@ Defer until v1 is real. Treat as a separate, isolated addition.
 | Senado Federal | `https://legis.senado.leg.br/dadosabertos` | senators |
 | TSE (dados abertos) | `https://dadosabertos.tse.jus.br` | candidates, **campaign donations** |
 | Receita Federal CNPJ | `https://dadosabertos.rfb.gov.br/CNPJ/` | companies + **QSA** (sócios) |
-| Portal da Transparência | `https://api.portaldatransparencia.gov.br` | **contracts**, sanctions (needs API key) |
+| Portal da Transparência | `https://api.portaldatransparencia.gov.br` | **contracts**, amendments, sanctions. br-acc uses **bulk CSVs (no key)**; the API path needs a free key. |
 
 `pipeline/src/grafobr_pipeline/sources.py` holds the machine-readable registry. The
 authoritative, complete list of URLs/field mappings lives in br-acc's source registry —

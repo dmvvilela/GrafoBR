@@ -1,4 +1,4 @@
-# CLAUDE.md — orientation for the implementing model
+# AGENTS.md — orientation for the implementing model
 
 You're picking up a **scaffold**. Nothing is implemented; the structure, the data
 contract, and a detailed plan are in place. Your job is to implement it phase by phase.
