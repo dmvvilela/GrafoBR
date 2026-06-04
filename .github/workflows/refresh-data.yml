@@ -2,9 +2,8 @@ name: refresh-data
 
 # Weekly rebuild of the ego-network JSON from public sources.
 #
-# STUB: the pipeline isn't implemented yet. The "Build" step is a placeholder until
-# `python -m grafobr_pipeline.run` exists (see pipeline/ and docs/PLAN.md Phase 2-3).
-# Wire the real run + a publish path before relying on this.
+# Phase 2 runs a small Câmara+TSE slice. Phase 3 expands this toward the full
+# ~594-politician build and adds the heavier Receita/Transparência sources.
 
 on:
   schedule:
@@ -39,11 +38,9 @@ jobs:
       #   - uses: google-github-actions/auth@v2
       #     with: { credentials_json: '${{ secrets.GCP_SA_KEY }}' }
 
-      - name: Build ego-networks # STUB — implement in Phase 2/3
+      - name: Build ego-networks
         working-directory: pipeline
-        run: |
-          echo "TODO: python -m grafobr_pipeline.run  → writes ../data/*.json"
-          # python -m grafobr_pipeline.run
+        run: PYTHONPATH=src python -m grafobr_pipeline.run --limit 5 --output-dir ../data --cache-dir .cache
 
       # ---- Publish (pick ONE; A is the simplest while iterating) ----
 

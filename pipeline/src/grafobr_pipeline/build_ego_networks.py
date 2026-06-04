@@ -427,9 +427,12 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
     output_dir = Path(ctx.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    print("Fetching Câmara deputies...", flush=True)
     load_seed_politicians(con)
     normalize_keys(con)
+    print("Preparing TSE 2022 source files...", flush=True)
     candidates_csv, receipts_zip = prepare_2022_files(ctx.cache_dir)
+    print("Loading TSE candidates...", flush=True)
     _load_tse_candidates(con, candidates_csv)
 
     matches = _matched_candidates(con)
@@ -437,6 +440,10 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
         raise RuntimeError("No Câmara deputies matched TSE 2022 candidates")
 
     candidate_ids = {str(seed["sq_candidate"]) for seed in matches}
+    print(
+        f"Streaming TSE receipts for {len(candidate_ids)} matched deputies...",
+        flush=True,
+    )
     _load_tse_receipts(con, receipts_zip, candidate_ids)
 
     selected = con.execute(
@@ -486,6 +493,7 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
 
     index_rows: list[dict[str, Any]] = []
     for seed in seeds:
+        print(f"Emitting {seed['name']}...", flush=True)
         ego_network = to_contract(expand_ego_network(con, seed, ctx), seed)
         path = emit(ego_network, output_dir)
         index_rows.append(
