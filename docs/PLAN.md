@@ -144,6 +144,7 @@ force graph.
 - Disclaimers + source attribution visible on every page and edge (LEGAL.md).
 
 ### Phase 5 — Build-time AI enrichment (the RAG/agent learning track)
+> Full design + hardware/model choices + rung-by-rung learning track: **`docs/AI-PLAN.md`**.
 - Local **Gemma 4 12B** (Ollama) runs **in the pipeline**, not at request time:
   - Generate a plain-Portuguese summary per ego-network ("connected to N companies; one
     received R$X in contracts after a R$Y donation") — **templated + reviewable**, baked
