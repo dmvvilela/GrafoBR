@@ -21,6 +21,12 @@ def main() -> int:
         default=".cache",
         help="directory for downloaded/extracted source files",
     )
+    parser.add_argument(
+        "--camara-detail-pool",
+        type=int,
+        default=None,
+        help="number of Câmara deputy detail pages to fetch before matching",
+    )
     args = parser.parse_args()
 
     count = build_all(
@@ -28,6 +34,7 @@ def main() -> int:
             output_dir=str(Path(args.output_dir)),
             cache_dir=str(Path(args.cache_dir)),
             limit=args.limit,
+            camara_detail_pool=args.camara_detail_pool,
         )
     )
     print(f"OK — wrote {count} ego-network files")

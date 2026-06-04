@@ -31,6 +31,7 @@ class BuildContext:
     max_hops: int = 1
     max_fanout: int = 25
     limit: int = 5
+    camara_detail_pool: Optional[int] = None
 
 
 def _digits(value: Optional[str], width: Optional[int] = None) -> Optional[str]:
@@ -89,10 +90,15 @@ def _money(value: float) -> str:
     return f"R${formatted}"
 
 
-def load_seed_politicians(con: duckdb.DuckDBPyConnection) -> list[dict[str, Any]]:
+def load_seed_politicians(
+    con: duckdb.DuckDBPyConnection,
+    *,
+    cache_dir: str = ".cache",
+    detail_limit: Optional[int] = None,
+) -> list[dict[str, Any]]:
     """Load sitting federal deputies from Câmara Dados Abertos into DuckDB."""
 
-    deputies = fetch_current_deputies()
+    deputies = fetch_current_deputies(cache_dir, detail_limit=detail_limit)
     con.execute(
         """
         create or replace table camara_deputies (
@@ -427,8 +433,9 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
     output_dir = Path(ctx.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    print("Fetching Câmara deputies...", flush=True)
-    load_seed_politicians(con)
+    detail_pool = ctx.camara_detail_pool or max(ctx.limit * 10, 50)
+    print(f"Fetching Câmara deputies (detail pool: {detail_pool})...", flush=True)
+    load_seed_politicians(con, cache_dir=ctx.cache_dir, detail_limit=detail_pool)
     normalize_keys(con)
     print("Preparing TSE 2022 source files...", flush=True)
     candidates_csv, receipts_zip = prepare_2022_files(ctx.cache_dir)
@@ -490,6 +497,11 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
     seeds = [dict(zip(columns, row)) for row in selected]
     if not seeds:
         raise RuntimeError("No matched Câmara deputies had TSE receipt rows")
+    if len(seeds) < ctx.limit:
+        raise RuntimeError(
+            f"Only found {len(seeds)} deputies with TSE receipts in the first "
+            f"{detail_pool} Câmara rows; increase --camara-detail-pool."
+        )
 
     index_rows: list[dict[str, Any]] = []
     for seed in seeds:

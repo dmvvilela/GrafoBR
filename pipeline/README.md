@@ -22,6 +22,13 @@ PYTHONPATH=src python -m grafobr_pipeline.run --limit 5
 Phase 2 emits a small Câmara+TSE slice to `../data/<id>.json` plus
 `../data/index.json`. Phase 3 expands this toward the full ~594-politician build.
 
+The build caches Câmara API pages/details and TSE zip files under `.cache/`.
+For larger slices, increase the Câmara detail pool explicitly:
+
+```bash
+PYTHONPATH=src python -m grafobr_pipeline.run --limit 50 --camara-detail-pool 150
+```
+
 ## Modules
 
 ```
