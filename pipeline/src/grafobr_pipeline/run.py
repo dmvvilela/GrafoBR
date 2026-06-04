@@ -27,6 +27,16 @@ def main() -> int:
         default=None,
         help="number of Câmara deputy detail pages to fetch before matching",
     )
+    parser.add_argument(
+        "--cnpj-empresas-csv",
+        default=None,
+        help="local/scoped Receita Empresas CSV for optional socio edges",
+    )
+    parser.add_argument(
+        "--cnpj-socios-csv",
+        default=None,
+        help="local/scoped Receita Socios CSV for optional socio edges",
+    )
     args = parser.parse_args()
 
     count = build_all(
@@ -35,6 +45,8 @@ def main() -> int:
             cache_dir=str(Path(args.cache_dir)),
             limit=args.limit,
             camara_detail_pool=args.camara_detail_pool,
+            cnpj_empresas_csv=args.cnpj_empresas_csv,
+            cnpj_socios_csv=args.cnpj_socios_csv,
         )
     )
     print(f"OK — wrote {count} ego-network files")

@@ -21,6 +21,7 @@ import duckdb
 
 from .camara import Deputy, fetch_current_deputies
 from .emit import emit
+from .receita import iter_empresas_csv, iter_socios_csv
 from .tse import iter_receipts_for_candidates, prepare_2022_files
 
 
@@ -32,6 +33,8 @@ class BuildContext:
     max_fanout: int = 25
     limit: int = 5
     camara_detail_pool: Optional[int] = None
+    cnpj_empresas_csv: Optional[str] = None
+    cnpj_socios_csv: Optional[str] = None
 
 
 def _digits(value: Optional[str], width: Optional[int] = None) -> Optional[str]:
@@ -281,6 +284,58 @@ def _load_tse_receipts(
     return con.execute("select count(*) from tse_receipts").fetchone()[0]
 
 
+def _load_receita_qsa(
+    con: duckdb.DuckDBPyConnection, empresas_csv: str, socios_csv: str
+) -> int:
+    """Load a scoped/local Receita Empresas+Socios slice into DuckDB."""
+
+    companies = iter_empresas_csv(empresas_csv)
+    socios = iter_socios_csv(socios_csv)
+
+    con.execute(
+        """
+        create or replace table receita_empresas (
+          cnpj_root varchar,
+          razao_social varchar
+        )
+        """
+    )
+    con.execute(
+        """
+        create or replace table receita_socios (
+          cnpj_root varchar,
+          socio_doc varchar,
+          nome_socio varchar,
+          tipo_socio varchar,
+          qualificacao varchar,
+          data_entrada varchar
+        )
+        """
+    )
+
+    if companies:
+        con.executemany(
+            "insert into receita_empresas values (?, ?)",
+            [(row["cnpj_root"], row["razao_social"]) for row in companies],
+        )
+    if socios:
+        con.executemany(
+            "insert into receita_socios values (?, ?, ?, ?, ?, ?)",
+            [
+                (
+                    row["cnpj_root"],
+                    row["socio_doc"],
+                    row["nome_socio"],
+                    row["tipo_socio"],
+                    row["qualificacao"],
+                    row["data_entrada"],
+                )
+                for row in socios
+            ],
+        )
+    return len(socios)
+
+
 def expand_ego_network(
     con: duckdb.DuckDBPyConnection, seed: dict[str, Any], ctx: BuildContext
 ) -> dict[str, Any]:
@@ -354,6 +409,60 @@ def expand_ego_network(
             }
         )
 
+    has_receita = (
+        con.execute(
+            """
+            select count(*)
+            from information_schema.tables
+            where table_name = 'receita_socios'
+            """
+        ).fetchone()[0]
+        > 0
+    )
+    if has_receita and seed.get("cpf"):
+        socio_rows = con.execute(
+            """
+            select
+              s.cnpj_root,
+              coalesce(e.razao_social, concat('CNPJ raiz ', s.cnpj_root)) as company_name,
+              any_value(s.tipo_socio) as tipo_socio,
+              any_value(s.qualificacao) as qualificacao,
+              min(s.data_entrada) as data_entrada
+            from receita_socios s
+            left join receita_empresas e on e.cnpj_root = s.cnpj_root
+            where length(s.socio_doc) = 11
+              and s.socio_doc = ?
+            group by s.cnpj_root, company_name
+            order by company_name
+            limit ?
+            """,
+            [seed["cpf"], ctx.max_fanout],
+        ).fetchall()
+
+        for row in socio_rows:
+            cnpj_root, company_name, _tipo_socio, qualification, entry_date = row
+            company_key = f"company:{cnpj_root}"
+            nodes[company_key] = {
+                "key": company_key,
+                "name": company_name,
+                "category": "company",
+            }
+            description = "Participação societária registrada na base CNPJ/Receita Federal"
+            if qualification:
+                description += f" (qualificação {qualification})"
+            if entry_date:
+                description += f", entrada em {entry_date}"
+            links.append(
+                {
+                    "id": len(links) + 1,
+                    "source": politician_key,
+                    "target": company_key,
+                    "connectionType": "socio",
+                    "description": description,
+                    "strength": 1,
+                }
+            )
+
     return {"nodes": list(nodes.values()), "links": links}
 
 
@@ -408,7 +517,20 @@ def to_contract(raw_graph: dict[str, Any], seed: dict[str, Any]) -> dict[str, An
             "generatedAt": datetime.now(timezone.utc)
             .isoformat()
             .replace("+00:00", "Z"),
-            "sources": ["camara", "tse"],
+            "sources": sorted(
+                {
+                    "camara",
+                    "tse",
+                    *(
+                        ["receita"]
+                        if any(
+                            link["connectionType"] == "socio"
+                            for link in raw_graph["links"]
+                        )
+                        else []
+                    ),
+                }
+            ),
             "summary": None,
             "disclaimer": (
                 "Dados públicos. Conexões não são acusações de irregularidade."
@@ -441,6 +563,14 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
     candidates_csv, receipts_zip = prepare_2022_files(ctx.cache_dir)
     print("Loading TSE candidates...", flush=True)
     _load_tse_candidates(con, candidates_csv)
+
+    if ctx.cnpj_empresas_csv and ctx.cnpj_socios_csv:
+        print("Loading scoped Receita CNPJ/QSA CSVs...", flush=True)
+        _load_receita_qsa(con, ctx.cnpj_empresas_csv, ctx.cnpj_socios_csv)
+    elif ctx.cnpj_empresas_csv or ctx.cnpj_socios_csv:
+        raise RuntimeError(
+            "Both --cnpj-empresas-csv and --cnpj-socios-csv are required for socio edges."
+        )
 
     matches = _matched_candidates(con)
     if not matches:

@@ -29,6 +29,16 @@ For larger slices, increase the Câmara detail pool explicitly:
 PYTHONPATH=src python -m grafobr_pipeline.run --limit 50 --camara-detail-pool 150
 ```
 
+Optional Receita/QSA `socio` edges require explicit local/scoped CSV inputs. The
+pipeline does not download or ingest the full CNPJ base by default:
+
+```bash
+PYTHONPATH=src python -m grafobr_pipeline.run \
+  --limit 5 \
+  --cnpj-empresas-csv tests/fixtures/receita_empresas_sample.csv \
+  --cnpj-socios-csv tests/fixtures/receita_socios_sample.csv
+```
+
 ## Modules
 
 ```

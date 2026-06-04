@@ -8,8 +8,10 @@ neighborhood instead of loading the whole national company registry.
 from __future__ import annotations
 
 import argparse
+import csv
 from dataclasses import dataclass
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import Optional, Sequence
 
 import httpx
@@ -79,6 +81,108 @@ def cnpj_zip_names(file_types: Sequence[str] = CNPJ_FILE_TYPES) -> list[str]:
     """Return Receita's numbered main CNPJ zip names for the requested types."""
 
     return [f"{file_type}{index}.zip" for file_type in file_types for index in range(10)]
+
+
+def digits(value: Optional[str], width: Optional[int] = None) -> Optional[str]:
+    if not value:
+        return None
+    parsed = "".join(char for char in str(value) if char.isdigit())
+    if not parsed:
+        return None
+    return parsed.zfill(width) if width else parsed
+
+
+def company_root(value: Optional[str]) -> Optional[str]:
+    parsed = digits(value)
+    if not parsed:
+        return None
+    if len(parsed) >= 14:
+        return parsed[:8]
+    return parsed.zfill(8)
+
+
+def _has_header(path: Path) -> bool:
+    with path.open("r", encoding="latin-1", errors="ignore") as handle:
+        first = handle.readline()
+    lowered = first.lower()
+    return any(token in lowered for token in ("cnpj", "razao", "socio", "cpf"))
+
+
+def iter_empresas_csv(path: str | Path) -> list[dict[str, Optional[str]]]:
+    """Read a Receita Empresas CSV or a headered fixture into normalized rows."""
+
+    file_path = Path(path)
+    rows: list[dict[str, Optional[str]]] = []
+    with file_path.open("r", encoding="latin-1", newline="") as handle:
+        if _has_header(file_path):
+            reader = csv.DictReader(handle)
+            delimiter = ";" if reader.fieldnames and len(reader.fieldnames) == 1 else ","
+            handle.seek(0)
+            reader = csv.DictReader(handle, delimiter=delimiter)
+            for row in reader:
+                root = company_root(row.get("cnpj") or row.get("cnpj_basico"))
+                name = row.get("razao_social") or row.get("nome_empresarial")
+                if root and name:
+                    rows.append({"cnpj_root": root, "razao_social": name.strip().upper()})
+        else:
+            reader = csv.reader(handle, delimiter=";")
+            for row in reader:
+                if len(row) < 2:
+                    continue
+                root = company_root(row[0])
+                if root and row[1]:
+                    rows.append({"cnpj_root": root, "razao_social": row[1].strip().upper()})
+    return rows
+
+
+def iter_socios_csv(path: str | Path) -> list[dict[str, Optional[str]]]:
+    """Read a Receita Socios CSV or a headered fixture into normalized rows."""
+
+    file_path = Path(path)
+    rows: list[dict[str, Optional[str]]] = []
+    with file_path.open("r", encoding="latin-1", newline="") as handle:
+        if _has_header(file_path):
+            reader = csv.DictReader(handle)
+            delimiter = ";" if reader.fieldnames and len(reader.fieldnames) == 1 else ","
+            handle.seek(0)
+            reader = csv.DictReader(handle, delimiter=delimiter)
+            for row in reader:
+                root = company_root(row.get("cnpj") or row.get("cnpj_basico"))
+                doc = digits(row.get("cpf_socio") or row.get("cpf_cnpj_socio"))
+                name = row.get("nome_socio")
+                partner_type = row.get("tipo_socio") or row.get("identificador_socio")
+                qualification = row.get("qualificacao_socio") or row.get("qualificacao")
+                entry_date = row.get("data_entrada") or row.get("data_entrada_sociedade")
+                if root and doc and name:
+                    rows.append(
+                        {
+                            "cnpj_root": root,
+                            "socio_doc": doc,
+                            "nome_socio": name.strip().upper(),
+                            "tipo_socio": partner_type,
+                            "qualificacao": qualification,
+                            "data_entrada": entry_date,
+                        }
+                    )
+        else:
+            reader = csv.reader(handle, delimiter=";")
+            for row in reader:
+                if len(row) < 5:
+                    continue
+                root = company_root(row[0])
+                doc = digits(row[3])
+                if root and doc and row[2]:
+                    rows.append(
+                        {
+                            "cnpj_root": root,
+                            "socio_doc": doc,
+                            "nome_socio": row[2].strip().upper(),
+                            "tipo_socio": row[1],
+                            "qualificacao": row[4],
+                            "data_entrada": row[5] if len(row) > 5 else None,
+                        }
+                    )
+    return rows
 
 
 def resolve_cnpj_release(
