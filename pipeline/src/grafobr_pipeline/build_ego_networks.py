@@ -306,6 +306,7 @@ def _load_receita_qsa(
           cnpj_root varchar,
           socio_doc varchar,
           nome_socio varchar,
+          normalized_socio_name varchar,
           tipo_socio varchar,
           qualificacao varchar,
           data_entrada varchar
@@ -320,12 +321,13 @@ def _load_receita_qsa(
         )
     if socios:
         con.executemany(
-            "insert into receita_socios values (?, ?, ?, ?, ?, ?)",
+            "insert into receita_socios values (?, ?, ?, ?, ?, ?, ?)",
             [
                 (
                     row["cnpj_root"],
                     row["socio_doc"],
                     row["nome_socio"],
+                    _normalize_name(row["nome_socio"]),
                     row["tipo_socio"],
                     row["qualificacao"],
                     row["data_entrada"],
@@ -420,6 +422,14 @@ def expand_ego_network(
         > 0
     )
     if has_receita and seed.get("cpf"):
+        cpf_middle_six = seed["cpf"][3:9]
+        normalized_names = {
+            _normalize_name(seed.get("name")),
+            _normalize_name(seed.get("civil_name")),
+            _normalize_name(seed.get("ballot_name")),
+            _normalize_name(seed.get("full_name")),
+        }
+        normalized_names.discard("")
         socio_rows = con.execute(
             """
             select
@@ -430,13 +440,22 @@ def expand_ego_network(
               min(s.data_entrada) as data_entrada
             from receita_socios s
             left join receita_empresas e on e.cnpj_root = s.cnpj_root
-            where length(s.socio_doc) = 11
-              and s.socio_doc = ?
+            where (
+                length(s.socio_doc) = 11
+                and s.socio_doc = ?
+              )
+              or (
+                length(s.socio_doc) = 6
+                and s.socio_doc = ?
+                and s.normalized_socio_name in (
+                  select unnest(?::varchar[])
+                )
+              )
             group by s.cnpj_root, company_name
             order by company_name
             limit ?
             """,
-            [seed["cpf"], ctx.max_fanout],
+            [seed["cpf"], cpf_middle_six, list(normalized_names), ctx.max_fanout],
         ).fetchall()
 
         for row in socio_rows:

@@ -39,6 +39,10 @@ PYTHONPATH=src python -m grafobr_pipeline.run \
   --cnpj-socios-csv tests/fixtures/receita_socios_sample.csv
 ```
 
+Receita masks partner CPFs in real `Socios` files. The QSA join supports exact
+full-CPF rows and masked middle-six CPF rows only when the partner name also
+matches the deputy's known public/civil name. It does not infer family edges.
+
 ## Modules
 
 ```
