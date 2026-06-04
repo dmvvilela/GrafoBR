@@ -81,6 +81,30 @@ Everything else (sanctions, holdings, courts, RAIS, etc.) is **enrichment — sk
 4. **Masked CPF is already handled** in `cnpj.py` ("partial/masked documents") — a real gift.
    Study how they do the fuzzy fallback before reinventing it.
 
+## Storage & volume strategy (you do NOT need the full datasets)
+
+The "~1 TB" associated with br-acc is its **RAM** for the whole-nation Neo4j graph — which
+we don't build. Our footprint is small by design:
+
+- **Output is tiny:** ~594 ego-networks ≈ **tens of MB** of JSON total.
+- **Stream → filter → discard.** DuckDB reads big CSV/Parquet and `SELECT ... WHERE` in the
+  seed neighborhood **without loading into RAM** (streams + spills). Write the filtered slice,
+  **delete the raw dump.** Peak disk is transient, not cumulative.
+- **Receita CNPJ is smaller than it looks for us.** We need only **empresas** (names) +
+  **sócios/QSA** (ownership) — *skip the huge `estabelecimentos`/addresses file.* That's
+  ~10 GB uncompressed / ~2 GB Parquet, not 90 GB.
+- **Better: skip the local dump.** [Base dos Dados](https://basedosdados.org) hosts CNPJ on
+  **BigQuery** (free ~1 TB query/mo). Query just the sócios matching the ~594 seed CPFs →
+  pull a few MB. `cnpj.py` already supports the BigQuery-export format.
+- **Convert downloads to Parquet once** (columnar, ~5–10× smaller); query from there.
+
+**Realistic peak disk for a v1 build:** ~20–40 GB fully-local, or **near-zero via BigQuery**.
+Fits a 1 TB Mac trivially — just keep ≥ ~50 GB free during a local run.
+
+**This also unblocks the CI cron (Phase 3):** GitHub Actions runners have only ~14 GB disk,
+so they *can't* hold the full Receita dump. The stream/BigQuery approach is what makes the
+automated weekly refresh possible — design for it from the start.
+
 ## Bottom line for the plan
 
 Phase 2 should start with **`tse.py` (doacao) + `camara.py` (deputies)** — both small, clean,
