@@ -93,13 +93,18 @@ we don't build. Our footprint is small by design:
 - **Receita CNPJ is smaller than it looks for us.** We need only **empresas** (names) +
   **sócios/QSA** (ownership) — *skip the huge `estabelecimentos`/addresses file.* That's
   ~10 GB uncompressed / ~2 GB Parquet, not 90 GB.
-- **Better: skip the local dump.** [Base dos Dados](https://basedosdados.org) hosts CNPJ on
-  **BigQuery** (free ~1 TB query/mo). Query just the sócios matching the ~594 seed CPFs →
-  pull a few MB. `cnpj.py` already supports the BigQuery-export format.
-- **Convert downloads to Parquet once** (columnar, ~5–10× smaller); query from there.
+- **Default free path (no account): direct download.** Pull Receita's open-data dumps from
+  `dadosabertos.rfb.gov.br/CNPJ/` (~6 GB zipped), keep only empresas+sócios. Truly free, no
+  signup. Convert to Parquet once (~5–10× smaller) and query from there.
+- **Optional optimization: BigQuery.** [Base dos Dados](https://basedosdados.org) hosts CNPJ
+  on BigQuery; query just the sócios matching the ~594 seed CPFs → pull a few MB.
+  `cnpj.py` already supports the BigQuery-export format. **Caveat:** the free tier (1 TB
+  scanned/mo — we'd use a few GB) needs a **Google Cloud account + project**, normally with a
+  card on file (cardless "sandbox" mode exists with limits). Not required for v1 — its main
+  payoff is the CI cron below, where runners can't hold the local dump.
 
-**Realistic peak disk for a v1 build:** ~20–40 GB fully-local, or **near-zero via BigQuery**.
-Fits a 1 TB Mac trivially — just keep ≥ ~50 GB free during a local run.
+**Realistic peak disk for a v1 build:** ~20–40 GB fully-local (default), or near-zero via the
+optional BigQuery path. Fits a 1 TB Mac trivially — just keep ≥ ~50 GB free during a local run.
 
 **This also unblocks the CI cron (Phase 3):** GitHub Actions runners have only ~14 GB disk,
 so they *can't* hold the full Receita dump. The stream/BigQuery approach is what makes the
