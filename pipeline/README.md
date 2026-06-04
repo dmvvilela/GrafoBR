@@ -13,11 +13,14 @@ pip install -r requirements.txt
 cp .env.example .env     # add Portal da Transparência API key if/when needed
 ```
 
-## Run (once implemented)
+## Run
 
 ```bash
-python -m grafobr_pipeline.run          # full build → ../data/<id>.json
+PYTHONPATH=src python -m grafobr_pipeline.run --limit 5
 ```
+
+Phase 2 emits a small Câmara+TSE slice to `../data/<id>.json` plus
+`../data/index.json`. Phase 3 expands this toward the full ~594-politician build.
 
 ## Modules
 
@@ -26,7 +29,7 @@ src/grafobr_pipeline/
   sources.py             # registry of data sources (base URLs, keys). SEED it from br-acc.
   build_ego_networks.py  # the core: seed on politicians, expand bounded ego-networks (DuckDB)
   emit.py                # write + validate one EgoNetwork file against the contract schema
-  run.py                 # orchestrate: download → build → emit   (TODO: create in Phase 2)
+  run.py                 # orchestrate: download → build → emit
 ```
 
 ## The approach (see ../docs/PLAN.md Phase 2–3, ../docs/DATA-CONTRACT.md)

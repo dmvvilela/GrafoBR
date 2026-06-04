@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from typing import Union
 
 _CONTRACT_SCHEMA = (
     Path(__file__).resolve().parents[3] / "contract" / "ego-network.schema.json"
@@ -26,7 +27,7 @@ def validate(ego_network: dict) -> None:
     jsonschema.validate(instance=ego_network, schema=_load_schema())
 
 
-def emit(ego_network: dict, output_dir: str | Path) -> Path:
+def emit(ego_network: dict, output_dir: Union[str, Path]) -> Path:
     """Validate then write data/<egoId>.json. Returns the path written."""
     validate(ego_network)
     ego_id = ego_network.get("meta", {}).get("egoId")
