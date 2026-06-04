@@ -1,21 +1,21 @@
-// Color maps for the graph. Node color encodes category; edge color encodes
-// connectionType. Kept tiny and explicit so the legend is trivial to build.
+// Color maps for the graph, tuned to pop on the dark canvas. Node color encodes
+// category; edge color encodes connectionType. Kept tiny so the legend is trivial.
 import type { NodeCategory, ConnectionType } from "@/lib/contract";
 
 const CATEGORY_COLORS: Record<NodeCategory, string> = {
-  politician: "#2563eb", // blue
-  company: "#16a34a", // green
-  donor: "#d97706", // amber
-  relative: "#9333ea", // purple
-  other: "#6b7280", // gray
+  politician: "#818cf8", // indigo
+  company: "#34d399", // emerald
+  donor: "#fbbf24", // amber
+  relative: "#f472b6", // pink
+  other: "#94a3b8", // slate
 };
 
 const EDGE_COLORS: Record<ConnectionType, string> = {
-  socio: "#16a34a",
-  doacao: "#d97706",
-  contrato: "#2563eb",
-  parente: "#9333ea",
-  other: "#9ca3af",
+  socio: "#34d399",
+  doacao: "#fbbf24",
+  contrato: "#818cf8",
+  parente: "#f472b6",
+  other: "#64748b",
 };
 
 export function getCategoryColor(category: NodeCategory): string {

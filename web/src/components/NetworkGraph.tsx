@@ -155,9 +155,9 @@ export default function NetworkGraph({
       .attr("font-weight", (graphNode) =>
         graphNode.id === data.meta?.egoId ? 700 : 500,
       )
-      .attr("fill", "#111827")
+      .attr("fill", "#e4e4e7")
       .attr("paint-order", "stroke")
-      .attr("stroke", "#f9fafb")
+      .attr("stroke", "#09090b")
       .attr("stroke-width", 3)
       .attr("stroke-linejoin", "round")
       .attr("opacity", 0.92)
@@ -265,8 +265,8 @@ export default function NetworkGraph({
   }, [hasSearch, matchIds]);
 
   return (
-    <div className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm">
-      <div className="flex flex-wrap items-center gap-x-5 gap-y-2 border-b border-gray-200 px-4 py-3 text-xs text-gray-600">
+    <div className="overflow-hidden rounded-2xl border border-white/5 bg-white/[0.03]">
+      <div className="flex flex-wrap items-center gap-x-5 gap-y-2 border-b border-white/5 px-4 py-3 text-xs text-zinc-400">
         {Object.entries(CATEGORY_LABELS).map(([category, label]) => (
           <span key={category} className="inline-flex items-center gap-2">
             <span
@@ -285,7 +285,7 @@ export default function NetworkGraph({
       <div className="relative h-[560px]">
         <svg
           ref={svgRef}
-          className="h-full w-full touch-none"
+          className="graph-canvas h-full w-full touch-none"
           role="img"
           aria-label={`Grafo de conexões de ${data.meta?.egoName ?? "político"}`}
           viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
@@ -293,13 +293,13 @@ export default function NetworkGraph({
         />
 
         {hasSearch && matchIds.size === 0 ? (
-          <div className="pointer-events-none absolute inset-x-0 top-4 mx-auto w-fit rounded-md border border-gray-200 bg-white/90 px-3 py-2 text-sm text-gray-600 shadow-sm">
+          <div className="pointer-events-none absolute inset-x-0 top-4 mx-auto w-fit rounded-md border border-white/10 bg-zinc-900/90 px-3 py-2 text-sm text-zinc-300 shadow-sm backdrop-blur">
             Nenhum nó encontrado para “{searchQuery}”.
           </div>
         ) : null}
       </div>
 
-      <div className="flex flex-wrap items-center justify-between gap-3 border-t border-gray-200 px-4 py-3 text-xs text-gray-500">
+      <div className="flex flex-wrap items-center justify-between gap-3 border-t border-white/5 px-4 py-3 text-xs text-zinc-500">
         <div>
           {data.nodes.length} nós · {data.links.length} conexões
         </div>

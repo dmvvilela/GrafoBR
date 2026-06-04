@@ -22,6 +22,11 @@ data/*
 !data/.gitkeep
 !data/README.md
 
+# Pipeline output synced into the frontend by web/scripts/sync-data.mjs (generated).
+# Keep only the synthetic sample fixture.
+web/public/data/*.json
+!web/public/data/sample-ego-network.json
+
 # Reference clones (br-acc etc.) — study material, never shipped. Keep the README.
 reference/*
 !reference/README.md
