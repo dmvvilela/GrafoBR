@@ -45,10 +45,11 @@ SOURCES: list[Source] = [
     Source(
         key="receita",
         name="Receita Federal — CNPJ (Dados Abertos)",
-        base_url="https://dadosabertos.rfb.gov.br/CNPJ/",
+        base_url="https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/",
         gives="companies + QSA / quadro de sócios (socio edges)",
-        notes="Large bulk dump (~50M cos). DO NOT ingest whole — pull only entities "
-        "linked to a seed via the ego-network expansion.",
+        notes="Large bulk dump (~50M cos). Resolve current release with receita.py; "
+        "DO NOT ingest whole — pull only entities linked to a seed via the "
+        "ego-network expansion.",
     ),
     Source(
         key="transparencia",
