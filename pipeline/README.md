@@ -42,12 +42,17 @@ PYTHONPATH=src python -m grafobr_pipeline.receita slice-qsa \
 PYTHONPATH=src python -m grafobr_pipeline.run \
   --limit 5 \
   --cnpj-empresas-csv .cache/receita-scoped/receita_empresas_scoped.csv \
-  --cnpj-socios-csv .cache/receita-scoped/receita_socios_scoped.csv
+  --cnpj-socios-csv .cache/receita-scoped/receita_socios_scoped.csv \
+  --contratos-csv /path/to/scoped/contratos.csv
 ```
 
 Receita masks partner CPFs in real `Socios` files. The QSA join supports exact
 full-CPF rows and masked middle-six CPF rows only when the partner name also
 matches the deputy's known public/civil name. It does not infer family edges.
+
+`--contratos-csv` is optional and local-only for now. It links Portal da Transparência
+contract totals only to companies already present in the ego-network; it does not infer
+that a politician directed or influenced a contract.
 
 ## Modules
 

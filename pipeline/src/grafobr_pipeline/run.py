@@ -37,6 +37,11 @@ def main() -> int:
         default=None,
         help="local/scoped Receita Socios CSV for optional socio edges",
     )
+    parser.add_argument(
+        "--contratos-csv",
+        default=None,
+        help="local/scoped Portal da Transparência contracts CSV for optional contrato edges",
+    )
     args = parser.parse_args()
 
     count = build_all(
@@ -47,6 +52,7 @@ def main() -> int:
             camara_detail_pool=args.camara_detail_pool,
             cnpj_empresas_csv=args.cnpj_empresas_csv,
             cnpj_socios_csv=args.cnpj_socios_csv,
+            contratos_csv=args.contratos_csv,
         )
     )
     print(f"OK — wrote {count} ego-network files")

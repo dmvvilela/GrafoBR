@@ -22,6 +22,7 @@ import duckdb
 from .camara import Deputy, fetch_current_deputies
 from .emit import emit
 from .receita import iter_empresas_csv, iter_socios_csv
+from .transparencia import iter_contracts_csv
 from .tse import iter_receipts_for_candidates, prepare_2022_files
 
 
@@ -35,6 +36,7 @@ class BuildContext:
     camara_detail_pool: Optional[int] = None
     cnpj_empresas_csv: Optional[str] = None
     cnpj_socios_csv: Optional[str] = None
+    contratos_csv: Optional[str] = None
 
 
 def _digits(value: Optional[str], width: Optional[int] = None) -> Optional[str]:
@@ -338,6 +340,42 @@ def _load_receita_qsa(
     return len(socios)
 
 
+def _load_transparencia_contracts(
+    con: duckdb.DuckDBPyConnection, contratos_csv: str
+) -> int:
+    """Load a scoped/local Portal da Transparencia contracts CSV into DuckDB."""
+
+    contracts = iter_contracts_csv(contratos_csv)
+    con.execute(
+        """
+        create or replace table transparencia_contracts (
+          cnpj_root varchar,
+          razao_social varchar,
+          object varchar,
+          value double,
+          contracting_org varchar,
+          contract_date varchar
+        )
+        """
+    )
+    if contracts:
+        con.executemany(
+            "insert into transparencia_contracts values (?, ?, ?, ?, ?, ?)",
+            [
+                (
+                    row["cnpj_root"],
+                    row["razao_social"],
+                    row["object"],
+                    row["value"],
+                    row["contracting_org"],
+                    row["date"],
+                )
+                for row in contracts
+            ],
+        )
+    return len(contracts)
+
+
 def expand_ego_network(
     con: duckdb.DuckDBPyConnection, seed: dict[str, Any], ctx: BuildContext
 ) -> dict[str, Any]:
@@ -482,6 +520,84 @@ def expand_ego_network(
                 }
             )
 
+    company_keys = {
+        node["key"].removeprefix("company:"): node["key"]
+        for node in nodes.values()
+        if node["key"].startswith("company:")
+    }
+    has_transparencia = (
+        con.execute(
+            """
+            select count(*)
+            from information_schema.tables
+            where table_name = 'transparencia_contracts'
+            """
+        ).fetchone()[0]
+        > 0
+    )
+    if has_transparencia and company_keys:
+        contract_rows = con.execute(
+            """
+            select
+              cnpj_root,
+              coalesce(any_value(nullif(razao_social, '')), 'Empresa') as company_name,
+              count(*) as contract_count,
+              sum(value) as total_value,
+              min(contract_date) as first_contract_date,
+              max(contract_date) as last_contract_date,
+              any_value(nullif(contracting_org, '')) as sample_org
+            from transparencia_contracts
+            where cnpj_root in (select unnest(?::varchar[]))
+            group by cnpj_root
+            order by total_value desc nulls last, company_name
+            limit ?
+            """,
+            [list(company_keys.keys()), ctx.max_fanout],
+        ).fetchall()
+
+        for row in contract_rows:
+            (
+                cnpj_root,
+                company_name,
+                contract_count,
+                total_value,
+                first_date,
+                last_date,
+                sample_org,
+            ) = row
+            contract_key = _hash_key(
+                "contract", f"{cnpj_root}:{contract_count}:{total_value}"
+            )
+            nodes[contract_key] = {
+                "key": contract_key,
+                "name": f"Contratos públicos — {company_name}",
+                "category": "other",
+            }
+            period = None
+            if first_date and last_date:
+                period = first_date if first_date == last_date else f"{first_date}–{last_date}"
+            description = "Contratos públicos registrados no Portal da Transparência"
+            if total_value is not None:
+                description += f", total de {_money(total_value)}"
+            description += f" ({contract_count} contrato"
+            if contract_count != 1:
+                description += "s"
+            if sample_org:
+                description += f"; exemplo de órgão: {sample_org}"
+            if period:
+                description += f"; período: {period}"
+            description += ")"
+            links.append(
+                {
+                    "id": len(links) + 1,
+                    "source": company_keys[cnpj_root],
+                    "target": contract_key,
+                    "connectionType": "contrato",
+                    "description": description,
+                    "strength": 1,
+                }
+            )
+
     return {"nodes": list(nodes.values()), "links": links}
 
 
@@ -548,6 +664,14 @@ def to_contract(raw_graph: dict[str, Any], seed: dict[str, Any]) -> dict[str, An
                         )
                         else []
                     ),
+                    *(
+                        ["transparencia"]
+                        if any(
+                            link["connectionType"] == "contrato"
+                            for link in raw_graph["links"]
+                        )
+                        else []
+                    ),
                 }
             ),
             "summary": None,
@@ -590,6 +714,9 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
         raise RuntimeError(
             "Both --cnpj-empresas-csv and --cnpj-socios-csv are required for socio edges."
         )
+    if ctx.contratos_csv:
+        print("Loading scoped Portal da Transparência contracts CSV...", flush=True)
+        _load_transparencia_contracts(con, ctx.contratos_csv)
 
     matches = _matched_candidates(con)
     if not matches:
