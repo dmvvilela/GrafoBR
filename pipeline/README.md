@@ -33,10 +33,16 @@ Optional Receita/QSA `socio` edges require explicit local/scoped CSV inputs. The
 pipeline does not download or ingest the full CNPJ base by default:
 
 ```bash
+PYTHONPATH=src python -m grafobr_pipeline.receita slice-qsa \
+  --empresas-input /path/to/Empresas0.zip \
+  --socios-input /path/to/Socios0.zip \
+  --target-cpf-file /path/to/seed-cpfs.txt \
+  --output-dir .cache/receita-scoped
+
 PYTHONPATH=src python -m grafobr_pipeline.run \
   --limit 5 \
-  --cnpj-empresas-csv tests/fixtures/receita_empresas_sample.csv \
-  --cnpj-socios-csv tests/fixtures/receita_socios_sample.csv
+  --cnpj-empresas-csv .cache/receita-scoped/receita_empresas_scoped.csv \
+  --cnpj-socios-csv .cache/receita-scoped/receita_socios_scoped.csv
 ```
 
 Receita masks partner CPFs in real `Socios` files. The QSA join supports exact

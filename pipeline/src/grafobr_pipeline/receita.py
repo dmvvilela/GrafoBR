@@ -9,10 +9,13 @@ from __future__ import annotations
 
 import argparse
 import csv
+import io
+import zipfile
+from collections.abc import Iterable, Iterator
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Optional, Sequence
+from typing import Optional, Sequence, TextIO
 
 import httpx
 
@@ -47,6 +50,14 @@ class CnpjRelease:
     base_url: str
     mode: str
     checked_url: str
+
+
+@dataclass(frozen=True)
+class ScopedQsaPaths:
+    empresas_csv: Path
+    socios_csv: Path
+    matched_socios: int
+    matched_companies: int
 
 
 def _month_candidates(now: Optional[datetime] = None, months: int = 4) -> list[str]:
@@ -106,6 +117,43 @@ def _has_header(path: Path) -> bool:
         first = handle.readline()
     lowered = first.lower()
     return any(token in lowered for token in ("cnpj", "razao", "socio", "cpf"))
+
+
+def _detect_delimiter(first_line: str) -> str:
+    return ";" if first_line.count(";") > first_line.count(",") else ","
+
+
+def _open_text_members(path: Path) -> Iterator[TextIO]:
+    if path.is_dir():
+        for child in sorted(path.iterdir()):
+            yield from _open_text_members(child)
+        return
+
+    if path.suffix.lower() == ".zip":
+        with zipfile.ZipFile(path) as archive:
+            for member in archive.namelist():
+                if member.endswith("/"):
+                    continue
+                with archive.open(member) as raw:
+                    yield io.TextIOWrapper(raw, encoding="latin-1", newline="")
+        return
+
+    with path.open("r", encoding="latin-1", newline="") as handle:
+        yield handle
+
+
+def _iter_receita_records(inputs: Iterable[str | Path]) -> Iterator[list[str] | dict[str, str]]:
+    for source in inputs:
+        for handle in _open_text_members(Path(source)):
+            first = handle.readline()
+            if not first:
+                continue
+            delimiter = _detect_delimiter(first)
+            handle.seek(0)
+            if any(token in first.lower() for token in ("cnpj", "razao", "socio", "cpf")):
+                yield from csv.DictReader(handle, delimiter=delimiter)
+            else:
+                yield from csv.reader(handle, delimiter=delimiter)
 
 
 def iter_empresas_csv(path: str | Path) -> list[dict[str, Optional[str]]]:
@@ -185,6 +233,130 @@ def iter_socios_csv(path: str | Path) -> list[dict[str, Optional[str]]]:
     return rows
 
 
+def _empresa_from_record(record: list[str] | dict[str, str]) -> Optional[dict[str, str]]:
+    if isinstance(record, dict):
+        root = company_root(record.get("cnpj") or record.get("cnpj_basico"))
+        name = record.get("razao_social") or record.get("nome_empresarial")
+    else:
+        if len(record) < 2:
+            return None
+        root = company_root(record[0])
+        name = record[1]
+    if not root or not name:
+        return None
+    return {"cnpj_root": root, "razao_social": name.strip().upper()}
+
+
+def _socio_from_record(record: list[str] | dict[str, str]) -> Optional[dict[str, str]]:
+    if isinstance(record, dict):
+        root = company_root(record.get("cnpj") or record.get("cnpj_basico"))
+        doc = digits(record.get("cpf_socio") or record.get("cpf_cnpj_socio"))
+        name = record.get("nome_socio")
+        partner_type = record.get("tipo_socio") or record.get("identificador_socio")
+        qualification = record.get("qualificacao_socio") or record.get("qualificacao")
+        entry_date = record.get("data_entrada") or record.get("data_entrada_sociedade")
+    else:
+        if len(record) < 5:
+            return None
+        root = company_root(record[0])
+        partner_type = record[1]
+        name = record[2]
+        doc = digits(record[3])
+        qualification = record[4]
+        entry_date = record[5] if len(record) > 5 else None
+    if not root or not doc or not name:
+        return None
+    return {
+        "cnpj_root": root,
+        "socio_doc": doc,
+        "nome_socio": name.strip().upper(),
+        "tipo_socio": partner_type or "",
+        "qualificacao": qualification or "",
+        "data_entrada": entry_date or "",
+    }
+
+
+def slice_qsa_sources(
+    *,
+    empresas_inputs: Sequence[str | Path],
+    socios_inputs: Sequence[str | Path],
+    target_cpfs: Iterable[str],
+    output_dir: str | Path,
+) -> ScopedQsaPaths:
+    """Write scoped Empresas/Socios CSVs matching the target CPF neighborhood.
+
+    Real Receita Socios files mask CPF as the middle six digits. This slicer
+    keeps rows whose partner document is either a target full CPF or a target
+    middle-six CPF. Name disambiguation happens later during graph expansion.
+    """
+
+    full_cpfs = {value for value in (digits(cpf, 11) for cpf in target_cpfs) if value}
+    middle_six = {cpf[3:9] for cpf in full_cpfs}
+
+    output = Path(output_dir)
+    output.mkdir(parents=True, exist_ok=True)
+    socios_path = output / "receita_socios_scoped.csv"
+    empresas_path = output / "receita_empresas_scoped.csv"
+
+    company_roots: set[str] = set()
+    matched_socios = 0
+    with socios_path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=[
+                "cnpj",
+                "nome_socio",
+                "cpf_socio",
+                "tipo_socio",
+                "qualificacao",
+                "data_entrada",
+            ],
+        )
+        writer.writeheader()
+        for record in _iter_receita_records(socios_inputs):
+            socio = _socio_from_record(record)
+            if not socio:
+                continue
+            doc = socio["socio_doc"]
+            if not (doc in full_cpfs or (len(doc) == 6 and doc in middle_six)):
+                continue
+            company_roots.add(socio["cnpj_root"])
+            matched_socios += 1
+            writer.writerow(
+                {
+                    "cnpj": socio["cnpj_root"],
+                    "nome_socio": socio["nome_socio"],
+                    "cpf_socio": socio["socio_doc"],
+                    "tipo_socio": socio["tipo_socio"],
+                    "qualificacao": socio["qualificacao"],
+                    "data_entrada": socio["data_entrada"],
+                }
+            )
+
+    matched_companies = 0
+    with empresas_path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["cnpj", "razao_social"])
+        writer.writeheader()
+        seen_roots: set[str] = set()
+        for record in _iter_receita_records(empresas_inputs):
+            company = _empresa_from_record(record)
+            if not company:
+                continue
+            root = company["cnpj_root"]
+            if root not in company_roots or root in seen_roots:
+                continue
+            seen_roots.add(root)
+            matched_companies += 1
+            writer.writerow({"cnpj": root, "razao_social": company["razao_social"]})
+
+    return ScopedQsaPaths(
+        empresas_csv=empresas_path,
+        socios_csv=socios_path,
+        matched_socios=matched_socios,
+        matched_companies=matched_companies,
+    )
+
+
 def resolve_cnpj_release(
     *,
     year_month: Optional[str] = None,
@@ -247,13 +419,46 @@ def resolve_cnpj_release(
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Probe Receita Federal CNPJ release")
+    parser = argparse.ArgumentParser(description="Receita Federal CNPJ helpers")
     parser.add_argument("--release", help="specific YYYY-MM release to probe")
+    subparsers = parser.add_subparsers(dest="command")
+
+    probe = subparsers.add_parser("probe", help="probe the current CNPJ release")
+    probe.add_argument("--release", help="specific YYYY-MM release to probe")
+
+    slicer = subparsers.add_parser("slice-qsa", help="write scoped Empresas/Socios CSVs")
+    slicer.add_argument("--empresas-input", action="append", required=True)
+    slicer.add_argument("--socios-input", action="append", required=True)
+    slicer.add_argument("--target-cpf", action="append", default=[])
+    slicer.add_argument("--target-cpf-file")
+    slicer.add_argument("--output-dir", required=True)
+
     args = parser.parse_args()
 
-    release = resolve_cnpj_release(year_month=args.release)
-    print(f"{release.mode}: {release.base_url}")
-    print(f"checked: {release.checked_url}")
+    if args.command in {None, "probe"}:
+        release = resolve_cnpj_release(year_month=getattr(args, "release", None))
+        print(f"{release.mode}: {release.base_url}")
+        print(f"checked: {release.checked_url}")
+        return 0
+
+    target_cpfs = list(args.target_cpf)
+    if args.target_cpf_file:
+        target_cpfs.extend(
+            line.strip()
+            for line in Path(args.target_cpf_file).read_text(encoding="utf-8").splitlines()
+            if line.strip()
+        )
+    if not target_cpfs:
+        raise SystemExit("slice-qsa requires --target-cpf or --target-cpf-file")
+
+    paths = slice_qsa_sources(
+        empresas_inputs=args.empresas_input,
+        socios_inputs=args.socios_input,
+        target_cpfs=target_cpfs,
+        output_dir=args.output_dir,
+    )
+    print(f"empresas: {paths.empresas_csv} ({paths.matched_companies})")
+    print(f"socios: {paths.socios_csv} ({paths.matched_socios})")
     return 0
 
 
