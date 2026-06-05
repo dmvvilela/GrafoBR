@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "egoId": 204398,
+    "egoName": "Felipe Francischini",
+    "generatedAt": "2026-06-05T14:55:27.129710Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 204398,
+      "name": "Felipe Francischini",
+      "category": "politician",
+      "connectionCount": 3
+    },
+    {
+      "id": 3,
+      "name": "CLAUDIA NETTO SAFATLE",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "UNIAO BRASIL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "UNIAO BRASIL - PARANA - PR - ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 204398,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.000.000,00 em 2022 registrada no TSE (2 receitas, 23/08/2022–30/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 204398,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.029.786,03 em 2022 registrada no TSE (10 receitas, 25/08/2022–06/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 204398,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$13.530,00 em 2022 registrada no TSE (27/10/2022)",
+      "strength": 1
+    }
+  ]
+}

@@ -22,10 +22,9 @@ data/*
 !data/.gitkeep
 !data/README.md
 
-# Pipeline output synced into the frontend by web/scripts/sync-data.mjs (generated).
-# Keep only the synthetic sample fixture.
-web/public/data/*.json
-!web/public/data/sample-ego-network.json
+# web/public/data is COMMITTED as the deploy data snapshot (Vercel serves it directly).
+# Refresh it by re-running the pipeline (../data) then web/scripts/sync-data.mjs.
+# Root data/ above stays the local pipeline output (gitignored).
 
 # Reference clones (br-acc etc.) — study material, never shipped. Keep the README.
 reference/*

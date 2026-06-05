@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "egoId": 74043,
+    "egoName": "Wellington Roberto",
+    "generatedAt": "2026-06-05T14:55:31.258669Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 74043,
+      "name": "Wellington Roberto",
+      "category": "politician",
+      "connectionCount": 6
+    },
+    {
+      "id": 5,
+      "name": "DIRETORIO REGIONAL DO PARTIDO LIBERAL - PARAIBA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "ELEICAO 2022 JOAO PAULO BARBOSA LEAL SEGUNDO DEPUTADO ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "ELEICAO 2022 PAULA FRANCINETE LACERDA CAVALCANTI DE ALMEIDA DEPUTADO ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO LIBERAL (PL)",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "PARTIDO LIBERAL - PARAIBA - PB - ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "RICOL PARTICIPACOES E LOCACOES DE IMOVEIS LTDA",
+      "category": "company",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 74043,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.100.000,00 em 2022 registrada no TSE (06/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 74043,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$7.400,00 em 2022 registrada no TSE (09/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 74043,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$925,00 em 2022 registrada no TSE (2 receitas, 12/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 74043,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$423,53 em 2022 registrada no TSE (26/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 74043,
+      "target": 5,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 16), entrada em 20050912",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 74043,
+      "target": 6,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 22), entrada em 19801105",
+      "strength": 1
+    }
+  ]
+}

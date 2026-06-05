@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "egoId": 162067,
+    "egoName": "Kiko Celeguim",
+    "generatedAt": "2026-06-05T14:55:28.468841Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 162067,
+      "name": "Kiko Celeguim",
+      "category": "politician",
+      "connectionCount": 7
+    },
+    {
+      "id": 5,
+      "name": "#NULO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "DEMOCRATIZE TECNOLOGIA LTDA",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "FERNANDO RICARDO HARTMANN",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "FRAMAR PARTICIPACOES LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO DOS TRABALHADORES - BRASIL - BR - NACIONAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "PARTIDO DOS TRABALHADORES - SAO PAULO - SP - ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "WIDERSON TADEU ANZELOTTI",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 162067,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.685.600,00 em 2022 registrada no TSE (3 receitas, 18/08/2022–16/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 162067,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$6.311,48 em 2022 registrada no TSE (21/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 162067,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$5.564,09 em 2022 registrada no TSE (2 receitas, 06/09/2022–05/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 162067,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$5.000,00 em 2022 registrada no TSE (06/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 5,
+      "target": 162067,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$4.662,35 em 2022 registrada no TSE (26/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 6,
+      "target": 162067,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.500,00 em 2022 registrada no TSE (16/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 162067,
+      "target": 7,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 49), entrada em 20211020",
+      "strength": 1
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "egoId": 204450,
+    "egoName": "Doutor Luizinho",
+    "generatedAt": "2026-06-05T14:55:26.576462Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 204450,
+      "name": "Doutor Luizinho",
+      "category": "politician",
+      "connectionCount": 6
+    },
+    {
+      "id": 3,
+      "name": "HC ORTOTRAUMA CLINICA DE FRATURAS LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "L F H COMERCIO DE ARTIGOS ESPORTIVOS LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "L.A. CONSULTORIA E MARKETING LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "LBS PARTICIPACOES SOCIETARIAS IMOBILIARIAS E INCORPORACOES LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "LUIZ ANTONIO DE SOUZA TEIXEIRA JUNIOR",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PROGRESSISTAS - BRASIL - BR - NACIONAL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 204450,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.000.000,00 em 2022 registrada no TSE (23/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 204450,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$250.000,00 em 2022 registrada no TSE (3 receitas, 19/08/2022–23/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 204450,
+      "target": 3,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 49), entrada em 20050805",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 204450,
+      "target": 4,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 22), entrada em 20210722",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 204450,
+      "target": 5,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 22), entrada em 20121023",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 204450,
+      "target": 6,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 22), entrada em 20090616",
+      "strength": 1
+    }
+  ]
+}

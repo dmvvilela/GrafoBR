@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "egoId": 178947,
+    "egoName": "Sóstenes Cavalcante",
+    "generatedAt": "2026-06-05T14:55:30.980997Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 178947,
+      "name": "Sóstenes Cavalcante",
+      "category": "politician",
+      "connectionCount": 7
+    },
+    {
+      "id": 3,
+      "name": "DAVID TEODORO CORREIA",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "INSTITUTO DA FRENTE PARLAMENTAR EVANGELICA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "JORGE LUIZ DA SILVA RIBEIRO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO LIBERAL (PL)",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "RODRIGO DELGADO PINHEIRO LACERDA",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "SALOMAO FRANKLIN MACIEL SILVA",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "VIVIAN CRISTINA DE PAULA SILVA MENEGHITE",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 178947,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.000.000,00 em 2022 registrada no TSE (3 receitas, 22/08/2022–20/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 178947,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.500,00 em 2022 registrada no TSE (16/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 178947,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.000,00 em 2022 registrada no TSE (05/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 178947,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.000,00 em 2022 registrada no TSE (16/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 5,
+      "target": 178947,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.000,00 em 2022 registrada no TSE (16/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 6,
+      "target": 178947,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.000,00 em 2022 registrada no TSE (16/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 178947,
+      "target": 7,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 16), entrada em 20220331",
+      "strength": 1
+    }
+  ]
+}

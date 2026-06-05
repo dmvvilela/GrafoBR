@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "egoId": 160545,
+    "egoName": "Alexandre Leite",
+    "generatedAt": "2026-06-05T14:55:24.893630Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 160545,
+      "name": "Alexandre Leite",
+      "category": "politician",
+      "connectionCount": 6
+    },
+    {
+      "id": 4,
+      "name": "ALEXANDRE LEITE DA SILVA",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "CONSTRUTORA INCORPORADORA E COMERCIO NEUMAX LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "MILTON LEITE DA SILVA",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "UNIAO BRASIL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "UNIAO BRASIL - SAO PAULO - SP - ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "UNIAO BRASIL - SAO PAULO - SP - MUNICIPAL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 160545,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.000.000,00 em 2022 registrada no TSE (2 receitas, 17/08/2022–30/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 160545,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$793.951,94 em 2022 registrada no TSE (167 receitas, 07/08/2022–28/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 160545,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$8.460,00 em 2022 registrada no TSE (2 receitas, 08/08/2022–02/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 160545,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$4.300,00 em 2022 registrada no TSE (08/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 5,
+      "target": 160545,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.221,97 em 2022 registrada no TSE (10/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 160545,
+      "target": 6,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 49), entrada em 20100621",
+      "strength": 1
+    }
+  ]
+}

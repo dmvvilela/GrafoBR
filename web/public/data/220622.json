@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "egoId": 220622,
+    "egoName": "Nely Aquino",
+    "generatedAt": "2026-06-05T14:55:29.655574Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 220622,
+      "name": "Nely Aquino",
+      "category": "politician",
+      "connectionCount": 4
+    },
+    {
+      "id": 3,
+      "name": "#NULO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "AR AQUINO RINCO COMERCIO DE UTILIDADES LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "PODEMOS",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PODEMOS MINAS GERAIS - MG - ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 220622,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.998.042,50 em 2022 registrada no TSE (12 receitas, 31/08/2022–29/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 220622,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.040.100,00 em 2022 registrada no TSE (12/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 220622,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.249,27 em 2022 registrada no TSE (31/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 220622,
+      "target": 4,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 49), entrada em 20190710",
+      "strength": 1
+    }
+  ]
+}

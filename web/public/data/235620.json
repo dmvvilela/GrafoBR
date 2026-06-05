@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "egoId": 235620,
+    "egoName": "Ilacir Bicalho",
+    "generatedAt": "2026-06-05T14:55:27.870801Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 235620,
+      "name": "Ilacir Bicalho",
+      "category": "politician",
+      "connectionCount": 6
+    },
+    {
+      "id": 3,
+      "name": "ANDREI DUTRA BICALHO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "BRUNA ANTUNES DE OLIVEIRA LAGES",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "DIRETORIO NACIONAL DO PARTIDO SOCIAL CRISTAO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "GRUPO AMIGOS DA CIDADE",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "LUCILENE APARECIDA MONTEIRO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "POLIPRENE INDUSTRIA E COMERCIO LTDA",
+      "category": "company",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 235620,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$250.000,00 em 2022 registrada no TSE (23/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 235620,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$40.000,00 em 2022 registrada no TSE (12/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 235620,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$5.000,00 em 2022 registrada no TSE (22/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 235620,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$3.500,00 em 2022 registrada no TSE (30/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 235620,
+      "target": 5,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 16), entrada em 20130812",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 235620,
+      "target": 6,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 49), entrada em 19790604",
+      "strength": 1
+    }
+  ]
+}

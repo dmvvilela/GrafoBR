@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "egoId": 220613,
+    "egoName": "Roberto Monteiro Pai",
+    "generatedAt": "2026-06-05T14:55:30.512666Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 220613,
+      "name": "Roberto Monteiro Pai",
+      "category": "politician",
+      "connectionCount": 2
+    },
+    {
+      "id": 2,
+      "name": "#NULO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO LIBERAL (PL)",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 220613,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$64.385,00 em 2022 registrada no TSE (2 receitas, 23/09/2022–25/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 220613,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$25,00 em 2022 registrada no TSE (02/10/2022)",
+      "strength": 1
+    }
+  ]
+}

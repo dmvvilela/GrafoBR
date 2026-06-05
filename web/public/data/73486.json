@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "egoId": 73486,
+    "egoName": "Pompeo de Mattos",
+    "generatedAt": "2026-06-05T14:55:30.171406Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 73486,
+      "name": "Pompeo de Mattos",
+      "category": "politician",
+      "connectionCount": 2
+    },
+    {
+      "id": 2,
+      "name": "DARCI POMPEO DE MATTOS",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO DEMOCRATICO TRABALHISTA",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 73486,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.545.000,00 em 2022 registrada no TSE (3 receitas, 24/08/2022–04/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 73486,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.500,00 em 2022 registrada no TSE (19/08/2022)",
+      "strength": 1
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "egoId": 220618,
+    "egoName": "Sargento Portugal",
+    "generatedAt": "2026-06-05T14:55:30.802688Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 220618,
+      "name": "Sargento Portugal",
+      "category": "politician",
+      "connectionCount": 2
+    },
+    {
+      "id": 2,
+      "name": "ELEICAO 2022 MARCELO FERREIRA RIBEIRO DEPUTADO ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PODEMOS",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 220618,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$100.000,00 em 2022 registrada no TSE (26/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 220618,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$12.730,00 em 2022 registrada no TSE (5 receitas, 17/08/2022–22/09/2022)",
+      "strength": 1
+    }
+  ]
+}

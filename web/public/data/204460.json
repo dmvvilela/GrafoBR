@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "egoId": 204460,
+    "egoName": "Carlos Jordy",
+    "generatedAt": "2026-06-05T14:55:25.660048Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 204460,
+      "name": "Carlos Jordy",
+      "category": "politician",
+      "connectionCount": 2
+    },
+    {
+      "id": 2,
+      "name": "CARLOS ROBERTO COELHO DE MATTOS JUNIOR",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO LIBERAL (PL)",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 204460,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$500.000,00 em 2022 registrada no TSE (2 receitas, 25/08/2022–30/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 204460,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$10.000,00 em 2022 registrada no TSE (29/09/2022)",
+      "strength": 1
+    }
+  ]
+}

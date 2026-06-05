@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "egoId": 220663,
+    "egoName": "Eriberto Medeiros",
+    "generatedAt": "2026-06-05T14:55:26.946342Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 220663,
+      "name": "Eriberto Medeiros",
+      "category": "politician",
+      "connectionCount": 2
+    },
+    {
+      "id": 1,
+      "name": "DIRETORIO ESTADUAL DO PARTIDO SOCIALISTA BRASILEIRO - PSB",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "JOSE ERIBERTO MEDEIROS DE OLIVEIRA",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 220663,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.008.209,55 em 2022 registrada no TSE (3 receitas, 25/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 220663,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$52.250,00 em 2022 registrada no TSE (2 receitas, 29/08/2022–07/10/2022)",
+      "strength": 1
+    }
+  ]
+}

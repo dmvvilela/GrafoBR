@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "egoId": 179001,
+    "egoName": "Márcio Biolchi",
+    "generatedAt": "2026-06-05T14:55:29.561735Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 179001,
+      "name": "Márcio Biolchi",
+      "category": "politician",
+      "connectionCount": 7
+    },
+    {
+      "id": 4,
+      "name": "BBZA PARTICIPACOES LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "BIOLCHI EMPRESARIAL SS",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "EDITORA JORNALISTICA NOTICIOSO LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "JMB CONSULTORIA EMPRESARIAL LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "MOVIMENTO DEMOCRATICO BRASILEIRO - BRASIL - BR - NACIONAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA - RIO GRANDE DO SUL - RS - ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "REINALDO JOSE KROGER",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 179001,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.500.000,00 em 2022 registrada no TSE (23/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 179001,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$30.000,00 em 2022 registrada no TSE (14/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 179001,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$5.999,98 em 2022 registrada no TSE (9 receitas, 11/09/2022–13/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 179001,
+      "target": 4,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 22), entrada em 20230417",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 179001,
+      "target": 5,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 52), entrada em 20200128",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 179001,
+      "target": 6,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 22), entrada em 19980129",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 179001,
+      "target": 7,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 22), entrada em 20010117",
+      "strength": 1
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "egoId": 220529,
+    "egoName": "Gilson Daniel",
+    "generatedAt": "2026-06-05T14:55:27.502089Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 220529,
+      "name": "Gilson Daniel",
+      "category": "politician",
+      "connectionCount": 7
+    },
+    {
+      "id": 5,
+      "name": "CAPIXABA FUTEBOL CLUBE S/A",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "CONSULFORT SERVICOS LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "ELEICAO 2022 JOSE RENATO CASAGRANDE GOVERNADOR",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "MARCO ANTONIO DE BULHOES MARCIAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "MEG'S & BEEF INDUSTRIA E COMERCIO LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PODEMOS",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "SIDINA DELPUPO DA CUNHA DANIEL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 220529,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.415.000,00 em 2022 registrada no TSE (2 receitas, 24/08/2022–09/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 220529,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$50.000,00 em 2022 registrada no TSE (27/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 220529,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$6.530,00 em 2022 registrada no TSE (16/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 220529,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$6.161,34 em 2022 registrada no TSE (5 receitas, 16/08/2022–28/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 220529,
+      "target": 5,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 10), entrada em 20060609",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 220529,
+      "target": 6,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 22), entrada em 20110823",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 220529,
+      "target": 7,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 49), entrada em 20190819",
+      "strength": 1
+    }
+  ]
+}

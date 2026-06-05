@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "egoId": 204364,
+    "egoName": "Eli Borges",
+    "generatedAt": "2026-06-05T14:55:26.880979Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 204364,
+      "name": "Eli Borges",
+      "category": "politician",
+      "connectionCount": 3
+    },
+    {
+      "id": 3,
+      "name": "22- PARTIDO LIBERAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "ELEICAO 2022 RONALDO DIMAS NOGUEIRA PEREIRA GOVERNADOR",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO LIBERAL (PL)",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 204364,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.000.000,00 em 2022 registrada no TSE (2 receitas, 22/08/2022–26/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 204364,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$15.900,00 em 2022 registrada no TSE (01/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 204364,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$840,00 em 2022 registrada no TSE (05/09/2022)",
+      "strength": 1
+    }
+  ]
+}

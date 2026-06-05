@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "egoId": 220665,
+    "egoName": "Clarissa Tércio",
+    "generatedAt": "2026-06-05T14:55:25.810756Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 220665,
+      "name": "Clarissa Tércio",
+      "category": "politician",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PROGRESSISTAS - BRASIL - BR - NACIONAL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 220665,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.700.000,00 em 2022 registrada no TSE (3 receitas, 24/08/2022–09/09/2022)",
+      "strength": 1
+    }
+  ]
+}

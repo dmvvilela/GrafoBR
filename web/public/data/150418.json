@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "egoId": 150418,
+    "egoName": "Márcio Marinho",
+    "generatedAt": "2026-06-05T14:55:29.595421Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 150418,
+      "name": "Márcio Marinho",
+      "category": "politician",
+      "connectionCount": 8
+    },
+    {
+      "id": 7,
+      "name": "A.M & M.M COMUNICACOES E PUBLICIDADE LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "ANTONIO SANTOS FILGUEIRAS",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "EUNAPIO LADEIA DE QUEIROZ",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "LUIZ FERNANDO LUZ PESSOA DE SOUZA",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 8,
+      "name": "M.A. COMUNICACAO E ARTES CENICAS LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "MARCIO CARLOS MARINHO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "REPUBLICANOS - BAHIA - ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "REPUBLICANOS - BRASIL - BR - NACIONAL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 150418,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$815.000,00 em 2022 registrada no TSE (3 receitas, 30/08/2022–23/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 150418,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$283.042,42 em 2022 registrada no TSE (5 receitas, 09/09/2022–06/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 150418,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$10.000,00 em 2022 registrada no TSE (08/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 150418,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$10.000,00 em 2022 registrada no TSE (05/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 5,
+      "target": 150418,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$10.000,00 em 2022 registrada no TSE (05/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 6,
+      "target": 150418,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$10.000,00 em 2022 registrada no TSE (22/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 150418,
+      "target": 7,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 22), entrada em 20111011",
+      "strength": 1
+    },
+    {
+      "id": 8,
+      "source": 150418,
+      "target": 8,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 49), entrada em 20170214",
+      "strength": 1
+    }
+  ]
+}

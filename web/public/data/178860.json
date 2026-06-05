@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "egoId": 178860,
+    "egoName": "Paulo Azi",
+    "generatedAt": "2026-06-05T14:55:29.920078Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 178860,
+      "name": "Paulo Azi",
+      "category": "politician",
+      "connectionCount": 3
+    },
+    {
+      "id": 3,
+      "name": "PAULO VELLOSO DANTAS AZI",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "UNIAO BRASIL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "UNIAO BRASIL - BAHIA - BA - ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 178860,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.788.000,00 em 2022 registrada no TSE (4 receitas, 17/08/2022–15/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 178860,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$161.764,90 em 2022 registrada no TSE (2 receitas, 01/09/2022–29/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 178860,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$10.305,27 em 2022 registrada no TSE (2 receitas, 27/09/2022–27/10/2022)",
+      "strength": 1
+    }
+  ]
+}

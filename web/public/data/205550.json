@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "egoId": 205550,
+    "egoName": "Jorge Braz",
+    "generatedAt": "2026-06-05T14:55:28.079919Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 205550,
+      "name": "Jorge Braz",
+      "category": "politician",
+      "connectionCount": 3
+    },
+    {
+      "id": 2,
+      "name": "Direção Estadual/Distrital",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "JORGE BRAZ DE OLIVEIRA",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "REPUBLICANOS - BRASIL - BR - NACIONAL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 205550,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$663.000,00 em 2022 registrada no TSE (2 receitas, 26/08/2022–06/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 205550,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$376.826,00 em 2022 registrada no TSE (10 receitas, 29/08/2022–30/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 205550,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$9.000,00 em 2022 registrada no TSE (18/08/2022)",
+      "strength": 1
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "egoId": 141421,
+    "egoName": "Eduardo da Fonte",
+    "generatedAt": "2026-06-05T14:55:26.855298Z",
+    "sources": [
+      "camara",
+      "receita",
+      "transparencia",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 141421,
+      "name": "Eduardo da Fonte",
+      "category": "politician",
+      "connectionCount": 8
+    },
+    {
+      "id": 5,
+      "name": "ADPL MOTORS LTDA.",
+      "category": "company",
+      "connectionCount": 2
+    },
+    {
+      "id": 4,
+      "name": "ALDECI BATISTA DA MOTA ALMEIDA",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 9,
+      "name": "Contratos públicos — ADPL MOTORS LTDA.",
+      "category": "other",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "DIRETORIO REGIONAL DO PARTIDO PROGRESSISTA NO ESTADO DE PERNAMBUCO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "GARANTIA ADMINSTRACAO E PARTICIPACOES LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "MARCELO EDUARDO MARTINS",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "NACIONAL COMBUSTIVEIS LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PROGRESSISTAS - BRASIL - BR - NACIONAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 8,
+      "name": "SDA EQUIPAMENTOS ELETRONICOS LTDA",
+      "category": "company",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 141421,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.722.000,00 em 2022 registrada no TSE (2 receitas, 28/08/2022–02/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 141421,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$50.000,00 em 2022 registrada no TSE (27/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 141421,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$40.520,00 em 2022 registrada no TSE (7 receitas, 18/08/2022–30/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 141421,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$4.000,00 em 2022 registrada no TSE (20/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 141421,
+      "target": 5,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 22), entrada em 20020111",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 141421,
+      "target": 6,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 49), entrada em 20040921",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 141421,
+      "target": 7,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 49), entrada em 19991111",
+      "strength": 1
+    },
+    {
+      "id": 8,
+      "source": 141421,
+      "target": 8,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 49), entrada em 20000811",
+      "strength": 1
+    },
+    {
+      "id": 9,
+      "source": 5,
+      "target": 9,
+      "connectionType": "contrato",
+      "description": "Contratos públicos registrados no Portal da Transparência, total de R$46.908,00 (1 contrato; exemplo de órgão: MINISTÉRIO DA SAÚDE - UNIDADES COM VÍNCULO; período: 2018-08-01)",
+      "strength": 1
+    }
+  ]
+}

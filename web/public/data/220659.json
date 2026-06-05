@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "egoId": 220659,
+    "egoName": "Dayany Bittencourt",
+    "generatedAt": "2026-06-05T14:55:26.240705Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 220659,
+      "name": "Dayany Bittencourt",
+      "category": "politician",
+      "connectionCount": 2
+    },
+    {
+      "id": 2,
+      "name": "ELEICAO 2022 WAGNER SOUSA GOMES GOVERNADOR",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "UNIAO BRASIL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 220659,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.900.000,00 em 2022 registrada no TSE (4 receitas, 17/08/2022–08/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 220659,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$6.162,90 em 2022 registrada no TSE (22/09/2022)",
+      "strength": 1
+    }
+  ]
+}

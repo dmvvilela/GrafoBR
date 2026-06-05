@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "egoId": 115200,
+    "egoName": "Raniery Paulino",
+    "generatedAt": "2026-06-05T14:55:30.319397Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 115200,
+      "name": "Raniery Paulino",
+      "category": "politician",
+      "connectionCount": 3
+    },
+    {
+      "id": 3,
+      "name": "ELEICAO 2022 JOAO AZEVEDO LINS FILHO GOVERNADOR",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "REPUBLICANOS - BRASIL - BR - NACIONAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "REPUBLICANOS - PARAIBA - PB - ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 115200,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.100.479,08 em 2022 registrada no TSE (3 receitas, 30/08/2022–29/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 115200,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$149.420,92 em 2022 registrada no TSE (2 receitas, 22/08/2022–12/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 115200,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$4.369,00 em 2022 registrada no TSE (4 receitas, 05/09/2022)",
+      "strength": 1
+    }
+  ]
+}

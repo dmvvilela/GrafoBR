@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "egoId": 204570,
+    "egoName": "Pastor Gil",
+    "generatedAt": "2026-06-05T14:55:29.837754Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 204570,
+      "name": "Pastor Gil",
+      "category": "politician",
+      "connectionCount": 2
+    },
+    {
+      "id": 2,
+      "name": "GILDENEMIR DE LIMA SOUSA",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO LIBERAL (PL)",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 204570,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$500.000,00 em 2022 registrada no TSE (31/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 204570,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$36.150,00 em 2022 registrada no TSE (2 receitas, 09/08/2022–29/09/2022)",
+      "strength": 1
+    }
+  ]
+}

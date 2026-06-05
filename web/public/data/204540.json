@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "egoId": 204540,
+    "egoName": "Maria Rosas",
+    "generatedAt": "2026-06-05T14:55:29.101807Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 204540,
+      "name": "Maria Rosas",
+      "category": "politician",
+      "connectionCount": 3
+    },
+    {
+      "id": 3,
+      "name": "MAURICELIO JOVENTINO DOS SANTOS",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "REPUBLICANOS - BRASIL - BR - NACIONAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "REPUBLICANOS - SAO PAULO - SP - ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 204540,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.565.000,00 em 2022 registrada no TSE (3 receitas, 26/08/2022–23/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 204540,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$334.135,60 em 2022 registrada no TSE (28 receitas, 25/08/2022–26/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 204540,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$200,00 em 2022 registrada no TSE (29/08/2022)",
+      "strength": 1
+    }
+  ]
+}

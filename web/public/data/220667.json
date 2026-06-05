@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "egoId": 220667,
+    "egoName": "Pedro Campos",
+    "generatedAt": "2026-06-05T14:55:30.073086Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 220667,
+      "name": "Pedro Campos",
+      "category": "politician",
+      "connectionCount": 7
+    },
+    {
+      "id": 7,
+      "name": "BIGU APLICATIVO LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "DIRETORIO ESTADUAL DO PARTIDO SOCIALISTA BRASILEIRO - PSB",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "INACIO DE BARROS MELO NETO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "JOAO HENRIQUE DE ANDRADE LIMA CAMPOS",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "MARCUS VINICIUS ALENCAR SAMPAIO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "PARTIDO SOCIALISTA BRASILEIRO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "RENATA DE ANDRADE LIMA CAMPOS",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 220667,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.059.059,56 em 2022 registrada no TSE (18 receitas, 25/08/2022–06/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 220667,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$500.000,00 em 2022 registrada no TSE (28/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 220667,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$270.000,00 em 2022 registrada no TSE (2 receitas, 25/08/2022–09/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 220667,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$8.000,00 em 2022 registrada no TSE (17/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 5,
+      "target": 220667,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$7.500,00 em 2022 registrada no TSE (16/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 6,
+      "target": 220667,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$5.000,00 em 2022 registrada no TSE (18/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 220667,
+      "target": 7,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 49), entrada em 20160321",
+      "strength": 1
+    }
+  ]
+}

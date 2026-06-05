@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "egoId": 73701,
+    "egoName": "Benedita da Silva",
+    "generatedAt": "2026-06-05T14:55:25.415200Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 73701,
+      "name": "Benedita da Silva",
+      "category": "politician",
+      "connectionCount": 5
+    },
+    {
+      "id": 2,
+      "name": "DIRETORIO ESTADUAL DO PARTIDO DOS TRABALHADORES DO RIO DE JANEIRO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "ELEICAO 2022 ELIKA TAKIMOTO DEPUTADO ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "FUNDACAO BENEDITA DA SILVA DE ASSISTENCIA SOCIAL E DESENVOLVIMENTO ECONOMICO - FBS",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO DOS TRABALHADORES - BRASIL - BR - NACIONAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "RAFAEL SILVA DE FRANCA",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 73701,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.500.000,00 em 2022 registrada no TSE (3 receitas, 18/08/2022–12/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 73701,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$171.000,00 em 2022 registrada no TSE (4 receitas, 15/09/2022–30/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 73701,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$25.000,00 em 2022 registrada no TSE (2 receitas, 29/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 73701,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$100,00 em 2022 registrada no TSE (16/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 73701,
+      "target": 5,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 16), entrada em 20070830",
+      "strength": 1
+    }
+  ]
+}

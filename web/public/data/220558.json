@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "egoId": 220558,
+    "egoName": "Zé Trovão",
+    "generatedAt": "2026-06-05T14:55:31.417569Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 220558,
+      "name": "Zé Trovão",
+      "category": "politician",
+      "connectionCount": 2
+    },
+    {
+      "id": 2,
+      "name": "ELEICAO 2022 JORGINHO DOS SANTOS MELLO GOVERNADOR",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO LIBERAL (PL)",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 220558,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$500.000,00 em 2022 registrada no TSE (23/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 220558,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$13.898,14 em 2022 registrada no TSE (3 receitas, 25/08/2022–26/08/2022)",
+      "strength": 1
+    }
+  ]
+}

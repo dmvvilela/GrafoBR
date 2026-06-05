@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "egoId": 204445,
+    "egoName": "Fernando Mineiro",
+    "generatedAt": "2026-06-05T14:55:27.184567Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 204445,
+      "name": "Fernando Mineiro",
+      "category": "politician",
+      "connectionCount": 7
+    },
+    {
+      "id": 7,
+      "name": "EMPRESA GESTORA DE ATIVOS DO RIO GRANDE DO NORTE - EMGERN",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "FERNANDO WANDERLEY VARGAS DA SILVA",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "FRANCISCO CIPRIANO DE CARVALHO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "GILBERTO NUNES LACET",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "JOSE NILTO DANTAS PEREIRA",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "MICHELA KATIUSCIA CALACA ALVES DOS SANTOS",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO DOS TRABALHADORES - BRASIL - BR - NACIONAL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 204445,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$902.300,00 em 2022 registrada no TSE (3 receitas, 19/08/2022–16/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 204445,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$7.165,15 em 2022 registrada no TSE (16/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 204445,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$5.373,51 em 2022 registrada no TSE (16/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 204445,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$4.821,73 em 2022 registrada no TSE (16/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 5,
+      "target": 204445,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$4.063,34 em 2022 registrada no TSE (25/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 6,
+      "target": 204445,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.440,00 em 2022 registrada no TSE (08/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 204445,
+      "target": 7,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 05), entrada em 20190605",
+      "strength": 1
+    }
+  ]
+}

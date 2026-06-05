@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "egoId": 171623,
+    "egoName": "Fabio Reis",
+    "generatedAt": "2026-06-05T14:55:27.047625Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 171623,
+      "name": "Fabio Reis",
+      "category": "politician",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO SOCIAL DEMOCRATICO - PSD DIRETORIO NACIONAL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 171623,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.000.000,00 em 2022 registrada no TSE (25/08/2022)",
+      "strength": 1
+    }
+  ]
+}

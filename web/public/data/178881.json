@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "egoId": 178881,
+    "egoName": "Aluisio Mendes",
+    "generatedAt": "2026-06-05T14:55:25.001844Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 178881,
+      "name": "Aluisio Mendes",
+      "category": "politician",
+      "connectionCount": 3
+    },
+    {
+      "id": 1,
+      "name": "DIRETORIO NACIONAL DO PARTIDO SOCIAL CRISTAO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "LIANA SALDANHA NOLETO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "MARCELO DA SILVA LEAL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 178881,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.300.000,00 em 2022 registrada no TSE (17/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 178881,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$3.500,00 em 2022 registrada no TSE (2 receitas, 16/08/2022–16/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 178881,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.000,00 em 2022 registrada no TSE (16/08/2022)",
+      "strength": 1
+    }
+  ]
+}

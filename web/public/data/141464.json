@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "egoId": 141464,
+    "egoName": "José Airton Félix Cirilo",
+    "generatedAt": "2026-06-05T14:55:28.155220Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 141464,
+      "name": "José Airton Félix Cirilo",
+      "category": "politician",
+      "connectionCount": 5
+    },
+    {
+      "id": 4,
+      "name": "''CIRILO E LOPES - ADVOGADOS ASSOCIADOS''",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "ASSOCIACAO CULTURAL ICAPUIENSE",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "ELEICAO 2022 CAMILO SOBREIRA DE SANTANA SENADOR",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "ELEICAO 2022 ELMANO DE FREITAS DA COSTA GOVERNADOR",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO DOS TRABALHADORES - BRASIL - BR - NACIONAL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 141464,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.800.000,00 em 2022 registrada no TSE (3 receitas, 19/08/2022–16/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 141464,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$4.562,85 em 2022 registrada no TSE (21/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 141464,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$485,05 em 2022 registrada no TSE (30/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 141464,
+      "target": 4,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 49), entrada em 20030814",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 141464,
+      "target": 5,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 16), entrada em 20050912",
+      "strength": 1
+    }
+  ]
+}

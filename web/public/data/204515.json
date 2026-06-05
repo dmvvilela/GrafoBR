@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "egoId": 204515,
+    "egoName": "André Janones",
+    "generatedAt": "2026-06-05T14:55:25.177235Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 204515,
+      "name": "André Janones",
+      "category": "politician",
+      "connectionCount": 3
+    },
+    {
+      "id": 2,
+      "name": "ANDRE LUIS GASPAR JANONES",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "AVANTE DIRETORIO NACIONAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "FERNANDA CAROLINE SANTOS DE MELLO",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 204515,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.990.620,00 em 2022 registrada no TSE (9 receitas, 18/08/2022–28/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 204515,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$30.000,00 em 2022 registrada no TSE (15/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 204515,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.000,00 em 2022 registrada no TSE (30/09/2022)",
+      "strength": 1
+    }
+  ]
+}

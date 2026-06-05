@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "egoId": 141456,
+    "egoName": "Jilmar Tatto",
+    "generatedAt": "2026-06-05T14:55:28.018532Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 141456,
+      "name": "Jilmar Tatto",
+      "category": "politician",
+      "connectionCount": 6
+    },
+    {
+      "id": 5,
+      "name": "EDIMAR GOMES DA SILVA",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "ELEICAO 2022 ENIO FRANCISCO TATTO DEPUTADO ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "ELEICAO 2022 FERNANDO HADDAD GOVERNADOR",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "EXPRESSIVO SISTEMA INTEGRADO DE ENSINO S/C LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO DOS TRABALHADORES - BRASIL - BR - NACIONAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "PARTIDO DOS TRABALHADORES - SAO PAULO - SP - ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 141456,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.980.000,00 em 2022 registrada no TSE (4 receitas, 19/08/2022–23/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 141456,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$10.000,00 em 2022 registrada no TSE (28/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 141456,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$6.311,48 em 2022 registrada no TSE (21/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 141456,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$3.395,10 em 2022 registrada no TSE (19/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 5,
+      "target": 141456,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1,30 em 2022 registrada no TSE (28/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 141456,
+      "target": 6,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 22), entrada em 19930909",
+      "strength": 1
+    }
+  ]
+}

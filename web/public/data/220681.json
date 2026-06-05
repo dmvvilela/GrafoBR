@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "egoId": 220681,
+    "egoName": "Fábio Macedo",
+    "generatedAt": "2026-06-05T14:55:27.326484Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 220681,
+      "name": "Fábio Macedo",
+      "category": "politician",
+      "connectionCount": 6
+    },
+    {
+      "id": 5,
+      "name": "ELEICAO 2022 CARLOS ORLEANS BRANDAO JUNIOR GOVERNADOR",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "F. MACEDO P. LAVAGENS LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "FABIO HENRIQUE DIAS DE MACEDO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "JOSE WILSON DE MACEDO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "LORENA VERUSKA SOUSA MELO MACEDO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PODEMOS",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 220681,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$3.176.572,53 em 2022 registrada no TSE (26/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 220681,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$100.000,00 em 2022 registrada no TSE (19/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 220681,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$30.000,00 em 2022 registrada no TSE (30/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 220681,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$15.000,00 em 2022 registrada no TSE (20/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 5,
+      "target": 220681,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$526,32 em 2022 registrada no TSE (30/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 220681,
+      "target": 6,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 49), entrada em 20110419",
+      "strength": 1
+    }
+  ]
+}

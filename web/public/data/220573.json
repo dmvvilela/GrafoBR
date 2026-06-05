@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "egoId": 220573,
+    "egoName": "Dorinaldo Malafaia",
+    "generatedAt": "2026-06-05T14:55:26.564144Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 220573,
+      "name": "Dorinaldo Malafaia",
+      "category": "politician",
+      "connectionCount": 2
+    },
+    {
+      "id": 2,
+      "name": "MARIO WILLIS DA COSTA LEITE",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO DEMOCRATICO TRABALHISTA",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 220573,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$262.060,00 em 2022 registrada no TSE (10 receitas, 19/08/2022–11/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 220573,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.500,00 em 2022 registrada no TSE (05/09/2022)",
+      "strength": 1
+    }
+  ]
+}

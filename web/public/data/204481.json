@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "egoId": 204481,
+    "egoName": "Dr. Jaziel",
+    "generatedAt": "2026-06-05T14:55:26.699983Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 204481,
+      "name": "Dr. Jaziel",
+      "category": "politician",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO LIBERAL (PL)",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 204481,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.125.000,00 em 2022 registrada no TSE (4 receitas, 22/08/2022–20/09/2022)",
+      "strength": 1
+    }
+  ]
+}

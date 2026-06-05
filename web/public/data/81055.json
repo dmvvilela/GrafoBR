@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "egoId": 81055,
+    "egoName": "Márcio Jerry",
+    "generatedAt": "2026-06-05T14:55:29.584927Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 81055,
+      "name": "Márcio Jerry",
+      "category": "politician",
+      "connectionCount": 2
+    },
+    {
+      "id": 2,
+      "name": "MARCIO JERRY SARAIVA BARROSO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO COMUNISTA DO BRASIL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 81055,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.950.000,00 em 2022 registrada no TSE (2 receitas, 18/08/2022–13/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 81055,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.434,22 em 2022 registrada no TSE (20/10/2022)",
+      "strength": 1
+    }
+  ]
+}

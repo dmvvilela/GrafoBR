@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "egoId": 160598,
+    "egoName": "Flávia Morais",
+    "generatedAt": "2026-06-05T14:55:27.263798Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 160598,
+      "name": "Flávia Morais",
+      "category": "politician",
+      "connectionCount": 8
+    },
+    {
+      "id": 6,
+      "name": "ASSOCIACAO COMUNITARIA DOS MENSAGEIROS DA SAUDE DE SANTA BARBARA DE GOIAS",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "CAIXA ESCOLAR CORACAO DE MAE",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 8,
+      "name": "CLINICA MEDICA DR GEORGE MORAIS LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "DINEUVAN RAMOS DE OLIVEIRA",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "FERNANDO CARLOS PINTO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "JULIO CAPOBIANCO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO DEMOCRATICO TRABALHISTA",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "PARTIDO DEMOCRATICO TRABALHISTA",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 160598,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.500.000,00 em 2022 registrada no TSE (3 receitas, 24/08/2022–05/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 160598,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.146.500,00 em 2022 registrada no TSE (5 receitas, 03/10/2022–18/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 160598,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$200.000,00 em 2022 registrada no TSE (19/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 160598,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.000,00 em 2022 registrada no TSE (10/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 5,
+      "target": 160598,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$24,35 em 2022 registrada no TSE (27/11/2022)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 160598,
+      "target": 6,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 16), entrada em 20050912",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 160598,
+      "target": 7,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 16), entrada em 20050912",
+      "strength": 1
+    },
+    {
+      "id": 8,
+      "source": 160598,
+      "target": 8,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 49), entrada em 19980612",
+      "strength": 1
+    }
+  ]
+}

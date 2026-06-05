@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "egoId": 220668,
+    "egoName": "Maria Arraes",
+    "generatedAt": "2026-06-05T14:55:29.088170Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 220668,
+      "name": "Maria Arraes",
+      "category": "politician",
+      "connectionCount": 2
+    },
+    {
+      "id": 2,
+      "name": "CEU ABERTO DOCUMENTOS E SERVICOS LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "SOLIDARIEDADE - BRASIL - BR - NACIONAL",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 220668,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$3.170.000,00 em 2022 registrada no TSE (22/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 220668,
+      "target": 2,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 49), entrada em 20210407",
+      "strength": 1
+    }
+  ]
+}

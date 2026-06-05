@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "egoId": 178886,
+    "egoName": "Juscelino Filho",
+    "generatedAt": "2026-06-05T14:55:28.405014Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 178886,
+      "name": "Juscelino Filho",
+      "category": "politician",
+      "connectionCount": 6
+    },
+    {
+      "id": 4,
+      "name": "JLMMF PARTICIPACOES LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "JOSE JUSCELINO DOS SANTOS REZENDE FILHO",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "UNIAO BRASIL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "UNIAO BRASIL - MARANHAO - MA- ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "UNICLINICA BACABAL LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "UNICLINICA SANTA LUZIA LTDA",
+      "category": "company",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 178886,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.400.000,00 em 2022 registrada no TSE (3 receitas, 17/08/2022–15/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 178886,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$51.600,00 em 2022 registrada no TSE (2 receitas, 25/08/2022–04/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 178886,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$14.444,23 em 2022 registrada no TSE (3 receitas, 01/09/2022–30/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 178886,
+      "target": 4,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 22), entrada em 20200423",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 178886,
+      "target": 5,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 22), entrada em 20210908",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 178886,
+      "target": 6,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 22), entrada em 20111209",
+      "strength": 1
+    }
+  ]
+}

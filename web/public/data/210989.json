@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "egoId": 210989,
+    "egoName": "Bruno Farias",
+    "generatedAt": "2026-06-05T14:55:25.518472Z",
+    "sources": [
+      "camara",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 210989,
+      "name": "Bruno Farias",
+      "category": "politician",
+      "connectionCount": 3
+    },
+    {
+      "id": 2,
+      "name": "AVANTE - DIRETORIO ESTADUAL - MINAS GERAIS",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "AVANTE DIRETORIO NACIONAL",
+      "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "IGOR FRANCA GUEDES",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 210989,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.188.288,15 em 2022 registrada no TSE (137 receitas, 17/08/2022–26/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 210989,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$253.028,00 em 2022 registrada no TSE (149 receitas, 01/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 210989,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$50.000,00 em 2022 registrada no TSE (22/09/2022)",
+      "strength": 1
+    }
+  ]
+}

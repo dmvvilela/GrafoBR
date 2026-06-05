@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "egoId": 160976,
+    "egoName": "Tiririca",
+    "generatedAt": "2026-06-05T14:55:31.076201Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 160976,
+      "name": "Tiririca",
+      "category": "politician",
+      "connectionCount": 3
+    },
+    {
+      "id": 2,
+      "name": "EVELLYN EVENTOS LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "N.M. COMERCIO E PRODUCOES ARTISTICAS LTDA",
+      "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO LIBERAL (PL)",
+      "category": "donor",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 160976,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$600.000,00 em 2022 registrada no TSE (2 receitas, 19/08/2022–08/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 160976,
+      "target": 2,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 22), entrada em 19970722",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 160976,
+      "target": 3,
+      "connectionType": "socio",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (qualificação 49), entrada em 20110104",
+      "strength": 1
+    }
+  ]
+}
