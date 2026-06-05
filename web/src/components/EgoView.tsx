@@ -12,7 +12,21 @@ import {
   CONNECTION_LABELS,
   getCategoryColor,
 } from "@/lib/graph-colors";
-import { isPartyDonor, normalizeDonorName } from "@/lib/donors";
+import { isPartyDonor } from "@/lib/donors";
+
+function brl(value: number): string {
+  return value.toLocaleString("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+    maximumFractionDigits: 0,
+  });
+}
+
+const CROSS_VERB: Record<string, (n: number) => string> = {
+  donor: (n) => `Também doou para ${n} ${n === 1 ? "outro deputado" : "outros deputados"}`,
+  supplier: (n) => `Também pago por ${n} ${n === 1 ? "outro deputado" : "outros deputados"}`,
+  company: (n) => `${n} ${n === 1 ? "outro deputado ligado" : "outros deputados ligados"}`,
+};
 
 const SOURCE_LABELS: Record<string, string> = {
   camara: "Câmara dos Deputados",
@@ -27,9 +41,16 @@ function sourceLabel(source: string): string {
   return SOURCE_LABELS[source] ?? source;
 }
 
-type SharedMap = Record<
+type EntityDeputy = {
+  id: number;
+  name: string;
+  party?: string | null;
+  uf?: string | null;
+  amount: number;
+};
+type EntityMap = Record<
   string,
-  { name: string; deputies: { id: number; name: string }[] }
+  { name: string; category: string; count: number; deputies: EntityDeputy[] }
 >;
 
 export default function EgoView({
@@ -41,13 +62,13 @@ export default function EgoView({
 }) {
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState<GraphNode | null>(null);
-  const [shared, setShared] = useState<SharedMap>({});
+  const [entities, setEntities] = useState<EntityMap>({});
   const sourceLabels = (ego.meta?.sources ?? []).map(sourceLabel);
 
   useEffect(() => {
-    fetch("/data/_shared-donors.json")
+    fetch("/data/_entities.json")
       .then((r) => (r.ok ? r.json() : {}))
-      .then(setShared)
+      .then(setEntities)
       .catch(() => {});
   }, []);
 
@@ -75,12 +96,15 @@ export default function EgoView({
       });
   }, [selected, ego.links, nameById]);
 
-  const selectedAlsoFunded = useMemo(() => {
-    if (!selected || selected.category !== "donor") return [];
-    const e = shared[normalizeDonorName(selected.name)];
-    if (!e) return [];
-    return e.deputies.filter((d) => d.id !== ego.meta?.egoId);
-  }, [selected, shared, ego.meta?.egoId]);
+  const selectedEntity = useMemo(() => {
+    if (!selected) return null;
+    const e = entities[selected.name];
+    if (!e) return null;
+    const others = e.deputies.filter((d) => d.id !== ego.meta?.egoId);
+    if (others.length === 0) return null;
+    // e.count includes this deputy; the rest is the cross-link headline
+    return { category: e.category, total: e.count - 1, others };
+  }, [selected, entities, ego.meta?.egoId]);
 
   return (
     <div className="space-y-6">
@@ -191,27 +215,41 @@ export default function EgoView({
                   ))}
                 </ul>
 
-                {selectedAlsoFunded.length > 0 && (
+                {selectedEntity && (
                   <div className="mt-3 border-t border-white/5 pt-3">
-                    <p className="text-xs text-zinc-500">
-                      Também doou para {selectedAlsoFunded.length}{" "}
-                      {selectedAlsoFunded.length === 1
-                        ? "outro deputado"
-                        : "outros deputados"}
-                      :
+                    <p className="text-xs font-medium text-zinc-400">
+                      {(CROSS_VERB[selectedEntity.category] ?? CROSS_VERB.company)(
+                        selectedEntity.total,
+                      )}
                     </p>
-                    <ul className="mt-1.5 space-y-1">
-                      {selectedAlsoFunded.map((d) => (
-                        <li key={d.id}>
+                    <ul className="mt-2 max-h-60 space-y-1 overflow-y-auto pr-1">
+                      {selectedEntity.others.slice(0, 12).map((d) => (
+                        <li
+                          key={d.id}
+                          className="flex items-center justify-between gap-2"
+                        >
                           <Link
                             href={`/politico/${d.id}`}
-                            className="text-xs text-emerald-300 hover:underline"
+                            className="truncate text-xs text-emerald-300 hover:underline"
                           >
                             {d.name}
+                            {d.party ? (
+                              <span className="text-zinc-600"> · {d.party}</span>
+                            ) : null}
                           </Link>
+                          {d.amount > 0 && (
+                            <span className="shrink-0 text-xs text-zinc-500 tabular-nums">
+                              {brl(d.amount)}
+                            </span>
+                          )}
                         </li>
                       ))}
                     </ul>
+                    {selectedEntity.total > 12 && (
+                      <p className="mt-1.5 text-xs text-zinc-600">
+                        + {selectedEntity.total - 12} outros
+                      </p>
+                    )}
                   </div>
                 )}
               </>
