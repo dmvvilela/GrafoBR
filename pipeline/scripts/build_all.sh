@@ -41,6 +41,9 @@ run -m grafobr_pipeline.run --limit "$LIMIT" \
   --cnpj-socios-csv   .cache/cnpj/scoped/receita_socios_scoped.csv \
   --contratos-csv     .cache/cnpj/scoped/contratos.csv | tail -1
 
+echo "[meta] stamp data freshness (-> ../data/_meta.json)..."
+run scripts/write_meta.py
+
 echo "=== edge counts ==="
 grep -oh '"connectionType": "[a-z]*"' ../data/*.json | sort | uniq -c
 echo "done -> ../data/*.json. View it:  cd ../web && pnpm dev"

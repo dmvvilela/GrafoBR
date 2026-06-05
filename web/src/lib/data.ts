@@ -52,3 +52,18 @@ export async function getHighlights(): Promise<Highlight[]> {
     return [];
   }
 }
+
+export interface Meta {
+  /** ISO timestamp of when the pipeline last rebuilt the data snapshot. */
+  generatedAt: string;
+  deputies?: number;
+}
+
+export async function getMeta(): Promise<Meta | null> {
+  try {
+    const raw = await fs.readFile(path.join(DATA_DIR, "_meta.json"), "utf-8");
+    return JSON.parse(raw) as Meta;
+  } catch {
+    return null;
+  }
+}
