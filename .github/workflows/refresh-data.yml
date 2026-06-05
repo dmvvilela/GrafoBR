@@ -61,6 +61,7 @@ jobs:
           node scripts/sync-data.mjs
           node scripts/derive-shared.mjs
           node scripts/derive-highlights.mjs
+          node scripts/derive-ceap-trails.mjs
 
       - name: Commit refreshed snapshot
         run: |
