@@ -4,9 +4,9 @@
   "private": true,
   "description": "GrafoBR frontend — static per-politician pages + D3 connection graph. See ../docs/PLAN.md.",
   "scripts": {
-    "sync-data": "node scripts/sync-data.mjs && node scripts/derive-shared.mjs",
-    "predev": "node scripts/sync-data.mjs && node scripts/derive-shared.mjs",
-    "prebuild": "node scripts/sync-data.mjs && node scripts/derive-shared.mjs",
+    "sync-data": "node scripts/sync-data.mjs && node scripts/derive-shared.mjs && node scripts/derive-highlights.mjs",
+    "predev": "node scripts/sync-data.mjs && node scripts/derive-shared.mjs && node scripts/derive-highlights.mjs",
+    "prebuild": "node scripts/sync-data.mjs && node scripts/derive-shared.mjs && node scripts/derive-highlights.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

@@ -1,8 +1,9 @@
-import { getIndex } from "@/lib/data";
+import { getHighlights, getIndex } from "@/lib/data";
 import SearchDirectory from "@/components/SearchDirectory";
+import MoneyTrails from "@/components/MoneyTrails";
 
 export default async function Home() {
-  const index = await getIndex();
+  const [index, highlights] = await Promise.all([getIndex(), getHighlights()]);
 
   return (
     <div className="space-y-12">
@@ -23,6 +24,8 @@ export default async function Home() {
           partir de dados abertos e fontes oficiais.
         </p>
       </section>
+
+      <MoneyTrails highlights={highlights} />
 
       <SearchDirectory index={index} />
     </div>

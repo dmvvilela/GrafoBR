@@ -33,3 +33,22 @@ export async function getEgo(id: string): Promise<EgoNetwork | null> {
     return null;
   }
 }
+
+export interface Highlight {
+  id: number;
+  name: string;
+  party?: string | null;
+  uf?: string | null;
+  company: string;
+  value: number;
+  org: string;
+}
+
+export async function getHighlights(): Promise<Highlight[]> {
+  try {
+    const raw = await fs.readFile(path.join(DATA_DIR, "_highlights.json"), "utf-8");
+    return JSON.parse(raw) as Highlight[];
+  } catch {
+    return [];
+  }
+}
