@@ -19,6 +19,17 @@ function initials(name: string): string {
   return (first + last).toUpperCase();
 }
 
+const SOURCE_LABELS: Record<string, string> = {
+  camara: "Câmara dos Deputados",
+  tse: "TSE",
+  receita: "Receita Federal",
+  transparencia: "Portal da Transparência",
+};
+
+function sourceLabel(source: string): string {
+  return SOURCE_LABELS[source] ?? source;
+}
+
 export default function EgoView({
   ego,
   entry,
@@ -28,6 +39,7 @@ export default function EgoView({
 }) {
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState<GraphNode | null>(null);
+  const sourceLabels = (ego.meta?.sources ?? []).map(sourceLabel);
 
   const nameById = useMemo(
     () => new Map(ego.nodes.map((n) => [n.id, n.name])),
@@ -144,8 +156,9 @@ export default function EgoView({
           </div>
 
           <p className="px-1 text-xs leading-relaxed text-zinc-600">
-            Conexões a partir de dados públicos (Câmara, TSE). Não representam
-            acusação de irregularidade.
+            Conexões a partir de dados públicos
+            {sourceLabels.length ? ` (${sourceLabels.join(", ")})` : ""}. Não
+            representam acusação de irregularidade.
           </p>
         </aside>
       </div>

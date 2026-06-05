@@ -14,13 +14,13 @@ export default async function Home() {
         </div>
 
         <h1 className="mx-auto mt-5 max-w-3xl text-4xl font-semibold tracking-tight text-balance sm:text-5xl">
-          <span className="gradient-text">Siga as conexões</span> por trás de cada
-          deputado.
+          <span className="gradient-text">Explore conexões</span> registradas de
+          deputados federais.
         </h1>
 
         <p className="mx-auto mt-4 max-w-xl text-[15px] leading-relaxed text-pretty text-zinc-400">
           Doadores de campanha, empresas e contratos de parlamentares federais — a
-          partir de dados abertos. Você tira suas próprias conclusões.
+          partir de dados abertos e fontes oficiais.
         </p>
       </section>
 

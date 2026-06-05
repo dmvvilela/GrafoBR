@@ -52,15 +52,15 @@ export default function RootLayout({
           <footer className="border-t border-white/5 px-5 py-7 text-xs leading-relaxed text-zinc-500">
             <div className="mx-auto max-w-6xl space-y-1.5">
               <p>
-                Dados públicos por lei (Câmara dos Deputados, TSE). As conexões
-                refletem registros públicos e{" "}
+                Dados públicos por lei, vindos das fontes exibidas em cada grafo. As
+                conexões refletem registros públicos e{" "}
                 <strong className="font-medium text-zinc-300">
                   não constituem acusação de irregularidade
                 </strong>
                 . Encontrou um erro? Os dados vêm direto das fontes oficiais.
               </p>
               <p className="text-zinc-600">
-                Projeto aberto · v0 · doações de campanha 2022.
+                Projeto aberto · v0 · dados estáticos pré-computados.
               </p>
             </div>
           </footer>
