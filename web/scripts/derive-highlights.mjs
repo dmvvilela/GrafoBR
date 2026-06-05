@@ -24,6 +24,12 @@ try {
   meta = Object.fromEntries(idx.map((e) => [e.id, { party: e.party, uf: e.uf }]));
 } catch {}
 
+// Floor: keep the homepage credible. The socio->contrato chain is genuinely rare
+// (a handful of verified leads); trivial amounts (and the R$0 sample row) just make
+// the section look arbitrary next to the R$8M one. Full data still lives on each
+// deputy page — this only governs the homepage highlights.
+const MIN_CONTRACT_BRL = 25_000;
+
 const files = (await readdir(dir)).filter((f) => /^\d+\.json$/.test(f));
 const highlights = [];
 for (const f of files) {
@@ -35,13 +41,15 @@ for (const f of files) {
       (n) => n && n.category === "company",
     );
     if (!company) continue;
+    const value = parseBRL(l.description);
+    if (value < MIN_CONTRACT_BRL) continue;
     highlights.push({
       id: ego.meta.egoId,
       name: ego.meta.egoName,
       party: meta[ego.meta.egoId]?.party ?? null,
       uf: meta[ego.meta.egoId]?.uf ?? null,
       company: company.name,
-      value: parseBRL(l.description),
+      value,
       org: parseOrg(l.description),
     });
   }

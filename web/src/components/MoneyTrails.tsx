@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Avatar from "@/components/Avatar";
-import type { Highlight } from "@/lib/data";
+import type { CeapTrail, Highlight } from "@/lib/data";
 
 function brl(value: number): string {
   return value.toLocaleString("pt-BR", {
@@ -10,20 +10,13 @@ function brl(value: number): string {
   });
 }
 
-export default function MoneyTrails({ highlights }: { highlights: Highlight[] }) {
+function ContractTrails({ highlights }: { highlights: Highlight[] }) {
   if (highlights.length === 0) return null;
   return (
-    <section className="space-y-4">
-      <div className="text-center">
-        <h2 className="text-lg font-semibold tracking-tight text-zinc-100">
-          Rastros de dinheiro
-        </h2>
-        <p className="mx-auto mt-1 max-w-xl text-sm text-zinc-500">
-          Deputados que são sócios de empresas com contratos federais. Conexões de
-          registros públicos — investigue antes de concluir.
-        </p>
-      </div>
-
+    <div className="space-y-3">
+      <h3 className="text-center text-xs font-medium tracking-wide text-zinc-400 uppercase">
+        Empresas de deputados com contratos federais
+      </h3>
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {highlights.map((h) => (
           <Link
@@ -44,15 +37,69 @@ export default function MoneyTrails({ highlights }: { highlights: Highlight[] })
             <p className="mt-3 text-xs leading-relaxed text-zinc-400">
               sócio de <span className="text-zinc-200">{h.company}</span>
             </p>
-            <p className="mt-1.5 text-base font-semibold text-amber-300">
-              {brl(h.value)}
-            </p>
+            <p className="mt-1.5 text-base font-semibold text-amber-300">{brl(h.value)}</p>
             <p className="truncate text-xs text-zinc-500">
               em contratos federais{h.org ? ` · ${h.org}` : ""}
             </p>
           </Link>
         ))}
       </div>
+    </div>
+  );
+}
+
+function CeapTrails({ trails }: { trails: CeapTrail[] }) {
+  if (trails.length === 0) return null;
+  return (
+    <div className="space-y-3">
+      <h3 className="text-center text-xs font-medium tracking-wide text-zinc-400 uppercase">
+        Maiores destinos da cota parlamentar (CEAP)
+      </h3>
+      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {trails.map((t) => (
+          <div
+            key={t.supplier}
+            className="rounded-2xl border border-teal-400/15 bg-teal-400/[0.03] p-4"
+          >
+            <div className="flex items-center justify-between gap-2">
+              <span className="rounded bg-teal-400/10 px-1.5 py-0.5 text-[11px] font-medium text-teal-300 ring-1 ring-teal-400/20">
+                {t.category}
+              </span>
+              <span className="text-xs text-zinc-500">{t.deputies} deputados</span>
+            </div>
+            <p className="mt-3 truncate text-sm font-medium text-zinc-100" title={t.supplier}>
+              {t.supplier}
+            </p>
+            <p className="mt-1.5 text-base font-semibold text-teal-300">{brl(t.total)}</p>
+            <p className="text-xs text-zinc-500">em despesas de cota</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default function MoneyTrails({
+  highlights,
+  ceapTrails,
+}: {
+  highlights: Highlight[];
+  ceapTrails: CeapTrail[];
+}) {
+  if (highlights.length === 0 && ceapTrails.length === 0) return null;
+  return (
+    <section className="space-y-6">
+      <div className="text-center">
+        <h2 className="text-lg font-semibold tracking-tight text-zinc-100">
+          Rastros de dinheiro
+        </h2>
+        <p className="mx-auto mt-1 max-w-xl text-sm text-zinc-500">
+          Fluxos de dinheiro público em registros oficiais — investigue antes de concluir.
+        </p>
+      </div>
+
+      <ContractTrails highlights={highlights} />
+      <CeapTrails trails={ceapTrails} />
     </section>
   );
 }

@@ -53,6 +53,22 @@ export async function getHighlights(): Promise<Highlight[]> {
   }
 }
 
+export interface CeapTrail {
+  supplier: string;
+  total: number;
+  deputies: number;
+  category: string;
+}
+
+export async function getCeapTrails(): Promise<CeapTrail[]> {
+  try {
+    const raw = await fs.readFile(path.join(DATA_DIR, "_ceap-trails.json"), "utf-8");
+    return JSON.parse(raw) as CeapTrail[];
+  } catch {
+    return [];
+  }
+}
+
 export interface Meta {
   /** ISO timestamp of when the pipeline last rebuilt the data snapshot. */
   generatedAt: string;

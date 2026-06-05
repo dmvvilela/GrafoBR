@@ -1,4 +1,4 @@
-import { getHighlights, getIndex, getMeta } from "@/lib/data";
+import { getCeapTrails, getHighlights, getIndex, getMeta } from "@/lib/data";
 import SearchDirectory from "@/components/SearchDirectory";
 import MoneyTrails from "@/components/MoneyTrails";
 
@@ -14,9 +14,10 @@ function formatUpdated(iso?: string): string | null {
 }
 
 export default async function Home() {
-  const [index, highlights, meta] = await Promise.all([
+  const [index, highlights, ceapTrails, meta] = await Promise.all([
     getIndex(),
     getHighlights(),
+    getCeapTrails(),
     getMeta(),
   ]);
   const updated = formatUpdated(meta?.generatedAt);
@@ -46,7 +47,7 @@ export default async function Home() {
         </p>
       </section>
 
-      <MoneyTrails highlights={highlights} />
+      <MoneyTrails highlights={highlights} ceapTrails={ceapTrails} />
 
       <SearchDirectory index={index} />
     </div>
