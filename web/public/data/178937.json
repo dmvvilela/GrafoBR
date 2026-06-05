@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 178937,
     "egoName": "Altineu Côrtes",
-    "generatedAt": "2026-06-05T18:45:15.746812Z",
+    "generatedAt": "2026-06-05T20:37:25.255719Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,7 +17,7 @@
       "id": 178937,
       "name": "Altineu Côrtes",
       "category": "politician",
-      "connectionCount": 13
+      "connectionCount": 21
     },
     {
       "id": 12,
@@ -28,6 +29,12 @@
       "id": 5,
       "name": "ALTINEU CORTES FREITAS COUTINHO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 20,
+      "name": "AZUL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -43,9 +50,21 @@
       "connectionCount": 1
     },
     {
+      "id": 15,
+      "name": "CLIO CRIATIVA AGENCIA DE PUBLICIDADE E MARKETING LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "ELEICAO 2022 MARCOS TEIXEIRA BRAZ DEPUTADO FEDERAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 14,
+      "name": "GOL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -85,15 +104,45 @@
       "connectionCount": 1
     },
     {
+      "id": 18,
+      "name": "QUASAR LOCADORA DE VEICULOS EIRELI",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 17,
+      "name": "R A NASCIMENTO CONSULTORIA POLITICA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 21,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "SAVIO SUISSO TINOCO",
       "category": "donor",
       "connectionCount": 1
     },
     {
+      "id": 19,
+      "name": "TAM",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "VICTOR LEONARDO FERREIRA DE ARAUJO COUTINHO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 16,
+      "name": "oraculo comunicacao estrategica ltda",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -200,6 +249,70 @@
       "target": 13,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 23/02/1996",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 178937,
+      "target": 14,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$103.567,34 (66 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 15/01/2025–29/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 178937,
+      "target": 15,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$93.000,00 (6 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 03/02/2025–01/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 178937,
+      "target": 16,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$93.000,00 (6 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 04/08/2025–03/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 178937,
+      "target": 17,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$63.600,00 (12 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 04/02/2025–05/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 178937,
+      "target": 18,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$60.500,00 (11 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 22/01/2025–22/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 178937,
+      "target": 19,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$9.841,39 (6 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 12/02/2025–08/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 178937,
+      "target": 20,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.419,89 (2 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 31/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 178937,
+      "target": 21,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$14,26 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

@@ -6,6 +6,7 @@ const CATEGORY_COLORS: Record<NodeCategory, string> = {
   politician: "#818cf8", // indigo
   company: "#34d399", // emerald
   donor: "#fbbf24", // amber
+  supplier: "#2dd4bf", // teal
   relative: "#f472b6", // pink
   other: "#94a3b8", // slate
 };
@@ -13,6 +14,7 @@ const CATEGORY_COLORS: Record<NodeCategory, string> = {
 const EDGE_COLORS: Record<ConnectionType, string> = {
   socio: "#34d399",
   doacao: "#fbbf24",
+  despesa: "#2dd4bf",
   contrato: "#818cf8",
   parente: "#f472b6",
   other: "#64748b",
@@ -30,6 +32,7 @@ export const CATEGORY_LABELS: Record<NodeCategory, string> = {
   politician: "Político",
   company: "Empresa",
   donor: "Doador",
+  supplier: "Fornecedor",
   relative: "Parente",
   other: "Outro",
 };
@@ -37,6 +40,7 @@ export const CATEGORY_LABELS: Record<NodeCategory, string> = {
 export const CONNECTION_LABELS: Record<ConnectionType, string> = {
   socio: "Sócio",
   doacao: "Doação",
+  despesa: "Despesa",
   contrato: "Contrato",
   parente: "Parente",
   other: "Outro",

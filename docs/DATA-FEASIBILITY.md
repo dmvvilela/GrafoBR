@@ -28,7 +28,7 @@ and the DuckDB→JSON emit are **new code we write on top.**
 |---|---|---|---|---|---|---|
 | TSE donations | `tse.py` | ✅ real | ~280 | `candidatos.csv`, `doacoes.csv` (latin-1) | `DOOU` donor→candidate | **`doacao`** |
 | Receita CNPJ/QSA | `cnpj.py` | ✅ real | **~1100** | Receita bulk CSVs | `SOCIO_DE` person→company | **`socio`** |
-| Câmara (deputies) | `camara.py` | ✅ real | ~340 | CEAP CSVs | deputies + `GASTOU`/`FORNECEU` (deputy→supplier). **No amendments.** | seed + opt. `contrato` |
+| Câmara (deputies) | `camara.py` | ✅ real | ~340 | CEAP CSVs | deputies + `GASTOU`/`FORNECEU` (deputy→supplier). **No amendments.** | seed + **`despesa`** |
 | Senado (senators) | `senado.py` | ✅ loaded | — | CEAPS CSVs | senators | seed |
 | Transparência | `transparencia.py` | ✅ real | ~280 | `contratos.csv`, `servidores.csv`, `emendas.csv` | `VENCEU` company→contract; `AUTOR_EMENDA` person→amendment | **`contrato`** |
 | Tesouro emendas | `tesouro_emendas.py` | ✅ real | ~150 | `emendas_tesouro.csv` | `PAGO_PARA` payment→company. **No author link.** | (steering, defer) |

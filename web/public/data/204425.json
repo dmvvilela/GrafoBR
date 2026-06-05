@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 204425,
     "egoName": "Silvio Costa Filho",
-    "generatedAt": "2026-06-05T18:45:22.496856Z",
+    "generatedAt": "2026-06-05T20:37:33.286113Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,7 +17,7 @@
       "id": 204425,
       "name": "Silvio Costa Filho",
       "category": "politician",
-      "connectionCount": 18
+      "connectionCount": 19
     },
     {
       "id": 7,
@@ -88,6 +89,12 @@
       "id": 12,
       "name": "PEDRO EVERTON SCHWAMBACH",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 19,
+      "name": "RAMAL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -270,6 +277,14 @@
       "target": 18,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 05/04/2010",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 204425,
+      "target": 19,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$0,07 (1 lançamento; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

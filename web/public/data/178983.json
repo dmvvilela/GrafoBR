@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 178983,
     "egoName": "Marcio Alvino",
-    "generatedAt": "2026-06-05T18:45:20.414611Z",
+    "generatedAt": "2026-06-05T20:37:30.825454Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,7 +17,7 @@
       "id": 178983,
       "name": "Marcio Alvino",
       "category": "politician",
-      "connectionCount": 31
+      "connectionCount": 37
     },
     {
       "id": 5,
@@ -61,6 +62,12 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "CONDOMINIO EMPRESARIAL PREMIUM OFFICE TOWER",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 17,
       "name": "DENIS WATANABE",
       "category": "donor",
@@ -70,6 +77,12 @@
       "id": 27,
       "name": "DIRETOTIO MUNICIPAL DO PARTIDO LIBERAL",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "EDP São Paulo Distribuição de Energia S.A",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -181,6 +194,18 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Priscila Jesus de Oliveira",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 4,
       "name": "RENATO DA SILVA",
       "category": "donor",
@@ -202,6 +227,18 @@
       "id": 31,
       "name": "SEALSO PARTICIPACOES SIMPLES LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "TAM",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "TELEFONIA BRASIL S/A",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -452,6 +489,54 @@
       "target": 31,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 16/09/2013",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 178983,
+      "target": 32,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$30.155,85 (41 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 22/01/2025–30/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 178983,
+      "target": 33,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$12.017,50 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 01/01/2025–05/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 178983,
+      "target": 34,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8.043,20 (13 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 17/12/2024–18/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 178983,
+      "target": 35,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.791,10 (24 lançamentos; tipo: TELEFONIA; período: 23/01/2025–28/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 178983,
+      "target": 36,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$733,45 (10 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 28/01/2025–24/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 178983,
+      "target": 37,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$41,40 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

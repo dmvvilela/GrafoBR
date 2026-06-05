@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 74158,
     "egoName": "Mário Heringer",
-    "generatedAt": "2026-06-05T18:45:20.941599Z",
+    "generatedAt": "2026-06-05T20:37:31.561899Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,12 +17,18 @@
       "id": 74158,
       "name": "Mário Heringer",
       "category": "politician",
-      "connectionCount": 34
+      "connectionCount": 47
     },
     {
       "id": 3,
       "name": "ALBA REGINA RIBEIRO DE SOUZA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "ALYSSON PAIXAO DE OLIVEIRA ALVES",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -31,15 +38,51 @@
       "connectionCount": 1
     },
     {
+      "id": 40,
+      "name": "AZUL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "BERNARDO LUZ GOVERNO",
       "category": "donor",
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "BLOOR ESTRATEGIA DIGITAL LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "CRISTINA HELENA TOULIAS HERINGER",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Cia Aérea - AZUL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Cia Aérea - GOL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Cia Aérea - TAM",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "EMIDIO SOUTO PEREIRA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -58,6 +101,12 @@
       "id": 18,
       "name": "GERSON GATTO DE AZEREDO COUTINHO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "GOL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -157,6 +206,12 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "MB LOUBACK PUBLICAÇOES PRODUÇOES",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "NEEMIAS MACHADO DA COSTA",
       "category": "donor",
@@ -187,9 +242,21 @@
       "connectionCount": 1
     },
     {
+      "id": 39,
+      "name": "PEQUIM MIDIA LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 34,
       "name": "PRESERV- AIR FLORESTAMENTO E AGROPECUARIA LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "RAMAL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -211,6 +278,12 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "TAM",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 15,
       "name": "VITOR LUIZ FERREIRA GOMES",
       "category": "donor",
@@ -220,6 +293,12 @@
       "id": 23,
       "name": "WASHINGTON AUGUSTO ALEXANDRE PEREIRA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "plano ltda",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -494,6 +573,110 @@
       "target": 34,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 07/04/2008",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 74158,
+      "target": 35,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$154.655,00 (11 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 03/02/2025–01/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 74158,
+      "target": 36,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$72.000,00 (8 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/04/2025–01/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 74158,
+      "target": 37,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$59.443,44 (39 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 09/01/2025–16/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 74158,
+      "target": 38,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$45.000,00 (9 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 07/01/2025–07/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 74158,
+      "target": 39,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$45.000,00 (9 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/04/2025–01/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 74158,
+      "target": 40,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$34.629,20 (25 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 05/02/2025–02/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 74158,
+      "target": 41,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$31.500,00 (9 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 03/02/2025–01/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 74158,
+      "target": 42,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$18.315,37 (16 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 13/03/2025–06/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 74158,
+      "target": 43,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$12.759,25 (6 lançamentos; tipo: PASSAGEM AÉREA - RPA; período: 11/02/2025–01/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 74158,
+      "target": 44,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.109,85 (2 lançamentos; tipo: PASSAGEM AÉREA - RPA; período: 09/07/2025–14/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 74158,
+      "target": 45,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.868,71 (3 lançamentos; tipo: PASSAGEM AÉREA - RPA; período: 18/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 74158,
+      "target": 46,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$726,40 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 25/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 74158,
+      "target": 47,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$28,82 (7 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

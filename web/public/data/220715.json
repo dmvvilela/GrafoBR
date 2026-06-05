@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 220715,
     "egoName": "Amom Mandel",
-    "generatedAt": "2026-06-05T18:45:15.805967Z",
+    "generatedAt": "2026-06-05T20:37:25.305175Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,7 +17,7 @@
       "id": 220715,
       "name": "Amom Mandel",
       "category": "politician",
-      "connectionCount": 26
+      "connectionCount": 29
     },
     {
       "id": 26,
@@ -103,6 +104,12 @@
       "connectionCount": 1
     },
     {
+      "id": 28,
+      "name": "GOL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "JORGE CHALUB PEREIRA",
       "category": "donor",
@@ -133,6 +140,12 @@
       "connectionCount": 1
     },
     {
+      "id": 29,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 14,
       "name": "RAMON RODRIGO DA SILVA LACERDA",
       "category": "donor",
@@ -154,6 +167,12 @@
       "id": 2,
       "name": "SIDNEY RAIMUNDO SILVA CHALUB",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "TAM",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -382,6 +401,30 @@
       "target": 26,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 05/12/2019",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 220715,
+      "target": 27,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$59.123,24 (34 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 15/01/2025–30/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 220715,
+      "target": 28,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$17.619,45 (9 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 04/02/2025–14/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 220715,
+      "target": 29,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6,85 (8 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

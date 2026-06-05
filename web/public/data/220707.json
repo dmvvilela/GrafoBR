@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 220707,
     "egoName": "Amanda Gentil",
-    "generatedAt": "2026-06-05T18:45:15.771486Z",
+    "generatedAt": "2026-06-05T20:37:25.279428Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "tse"
     ],
     "summary": null,
@@ -15,12 +16,36 @@
       "id": 220707,
       "name": "Amanda Gentil",
       "category": "politician",
-      "connectionCount": 4
+      "connectionCount": 16
+    },
+    {
+      "id": 10,
+      "name": "ALIANÇA EDITORA GRÁFICA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 14,
+      "name": "CELULAR FUNCIONAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "DISCOVER SERVICOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
     },
     {
       "id": 4,
       "name": "ELEICAO 2022 CARLOS WELLINGTON DE CASTRO BEZERRA DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 11,
+      "name": "F.S. CORREA NETO",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -30,15 +55,63 @@
       "connectionCount": 1
     },
     {
+      "id": 6,
+      "name": "FERNANDO JOSÉ OLIVEIRA DUAILIBE MENDONÇA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "GIL RICARDO COSTA SILVA",
       "category": "donor",
       "connectionCount": 1
     },
     {
+      "id": 15,
+      "name": "GOL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "INDUSTRIA GRAFICA E EDITORA SAO PAULO LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 9,
+      "name": "Iza Carla Silva Santa Brigida - ME",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PROGRESSISTAS - BRASIL - BR - NACIONAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 16,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 12,
+      "name": "SAGA DE ITACOLOMI COM. E PECUARIA LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 13,
+      "name": "TAM",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 8,
+      "name": "VIA URBANO LTDA",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -73,6 +146,102 @@
       "target": 220707,
       "connectionType": "doacao",
       "description": "Doação de campanha de R$50,00 em 2022 registrada no TSE (30/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 220707,
+      "target": 5,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$150.000,00 (12 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 27/01/2025–17/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 220707,
+      "target": 6,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$84.000,00 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 15/02/2025–15/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 220707,
+      "target": 7,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$82.000,10 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 19/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 8,
+      "source": 220707,
+      "target": 8,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$52.500,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 31/10/2025–10/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 9,
+      "source": 220707,
+      "target": 9,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$39.200,00 (8 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 01/02/2025–01/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 10,
+      "source": 220707,
+      "target": 10,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$33.050,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 17/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 11,
+      "source": 220707,
+      "target": 11,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$17.400,00 (2 lançamentos; tipo: SERVIÇO DE SEGURANÇA PRESTADO POR EMPRESA ESPECIALIZADA.; período: 10/02/2025–12/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 12,
+      "source": 220707,
+      "target": 12,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$15.626,00 (2 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 31/01/2025–28/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 13,
+      "source": 220707,
+      "target": 13,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.585,88 (4 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 08/05/2025–02/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 220707,
+      "target": 14,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.799,74 (12 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 220707,
+      "target": 15,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.824,10 (1 lançamento; tipo: PASSAGEM AÉREA - SIGEPA; período: 09/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 220707,
+      "target": 16,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$12,73 (8 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

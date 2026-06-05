@@ -28,6 +28,12 @@ def main() -> int:
         help="number of Câmara deputy detail pages to fetch before matching",
     )
     parser.add_argument(
+        "--ceap-year",
+        type=int,
+        default=None,
+        help="optional Câmara CEAP expense year to include as despesa edges",
+    )
+    parser.add_argument(
         "--cnpj-empresas-csv",
         default=None,
         help="local/scoped Receita Empresas CSV for optional socio edges",
@@ -50,6 +56,7 @@ def main() -> int:
             cache_dir=str(Path(args.cache_dir)),
             limit=args.limit,
             camara_detail_pool=args.camara_detail_pool,
+            ceap_year=args.ceap_year,
             cnpj_empresas_csv=args.cnpj_empresas_csv,
             cnpj_socios_csv=args.cnpj_socios_csv,
             contratos_csv=args.contratos_csv,

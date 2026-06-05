@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 233592,
     "egoName": "Paulo Lemos",
-    "generatedAt": "2026-06-05T18:45:21.365905Z",
+    "generatedAt": "2026-06-05T20:37:32.078151Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "tse"
     ],
     "summary": null,
@@ -15,7 +16,13 @@
       "id": 233592,
       "name": "Paulo Lemos",
       "category": "politician",
-      "connectionCount": 25
+      "connectionCount": 34
+    },
+    {
+      "id": 32,
+      "name": "A. A. C. FARIAS COMERCIO LTDA - ME",
+      "category": "supplier",
+      "connectionCount": 1
     },
     {
       "id": 22,
@@ -60,6 +67,12 @@
       "connectionCount": 1
     },
     {
+      "id": 26,
+      "name": "ALTAIR PEREIRA IMÓVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 6,
       "name": "ANA CAROLINA CUNHA ARAUJO",
       "category": "donor",
@@ -69,6 +82,18 @@
       "id": 7,
       "name": "ANTONIO MARIA DOS SANTOS RODRIGUES",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "AUTO POSTO PLAYCENTER LTDA- ME",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "COMERCIAL GRAO DE OURO LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -120,6 +145,12 @@
       "connectionCount": 1
     },
     {
+      "id": 29,
+      "name": "LOCALIZA RENT A CAR S/A",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 17,
       "name": "MARIA EUNICE CARVALHO E SILVA",
       "category": "donor",
@@ -147,6 +178,30 @@
       "id": 2,
       "name": "PARTIDO SOCIALISMO E LIBERDADE (P-SOL)",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "POSTO MARABAIXO",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "RAMALHO PALACE HOTEL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "UBER DO BRASIL TECNOLOGIA LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -367,6 +422,78 @@
       "target": 233592,
       "connectionType": "doacao",
       "description": "Doação de campanha de R$1.200,00 em 2022 registrada no TSE (17/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 233592,
+      "target": 26,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$15.882,91 (3 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 19/08/2025–14/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 233592,
+      "target": 27,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.049,64 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/09/2025–07/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 233592,
+      "target": 28,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.438,68 (56 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 06/08/2025–03/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 233592,
+      "target": 29,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.210,06 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 15/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 233592,
+      "target": 30,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$960,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 06/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 233592,
+      "target": 31,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$600,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/10/2025–17/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 233592,
+      "target": 32,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$488,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 233592,
+      "target": 33,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$381,14 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 19/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 233592,
+      "target": 34,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$0,21 (1 lançamento; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

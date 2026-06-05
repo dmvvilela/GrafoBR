@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 224117,
     "egoName": "Gabriel Mota",
-    "generatedAt": "2026-06-05T18:45:18.650217Z",
+    "generatedAt": "2026-06-05T20:37:28.531282Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "tse"
     ],
     "summary": null,
@@ -15,7 +16,7 @@
       "id": 224117,
       "name": "Gabriel Mota",
       "category": "politician",
-      "connectionCount": 8
+      "connectionCount": 14
     },
     {
       "id": 6,
@@ -24,9 +25,33 @@
       "connectionCount": 1
     },
     {
+      "id": 9,
+      "name": "CK INFO DESIGN E MIDIA SOCIAIS",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 11,
+      "name": "EZEQUIEL BEZERRA DA SILVA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "GABRIELLY REIS PESSOA MOTA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 13,
+      "name": "GOL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 10,
+      "name": "JESSYANE MATOS DE FREITAS",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -48,6 +73,12 @@
       "connectionCount": 1
     },
     {
+      "id": 14,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "RAYSSA REIS PESSOA PICANCO",
       "category": "donor",
@@ -63,6 +94,12 @@
       "id": 2,
       "name": "SUZY MEIRE REIS PICANCO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 12,
+      "name": "TAM",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -129,6 +166,54 @@
       "target": 224117,
       "connectionType": "doacao",
       "description": "Doação de campanha de R$2.500,00 em 2022 registrada no TSE (18/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 9,
+      "source": 224117,
+      "target": 9,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$450.000,00 (24 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 23/01/2025–05/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 10,
+      "source": 224117,
+      "target": 10,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$112.000,00 (8 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 08/05/2025–22/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 11,
+      "source": 224117,
+      "target": 11,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$42.000,00 (3 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 27/01/2025–10/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 12,
+      "source": 224117,
+      "target": 12,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$25.803,10 (20 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 20/01/2025–14/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 13,
+      "source": 224117,
+      "target": 13,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.178,89 (1 lançamento; tipo: PASSAGEM AÉREA - SIGEPA; período: 27/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 224117,
+      "target": 14,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$16,55 (8 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 220698,
     "egoName": "Beto Preto",
-    "generatedAt": "2026-06-05T18:45:16.231581Z",
+    "generatedAt": "2026-06-05T20:37:25.837667Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,12 +17,18 @@
       "id": 220698,
       "name": "Beto Preto",
       "category": "politician",
-      "connectionCount": 26
+      "connectionCount": 34
     },
     {
       "id": 20,
       "name": "ADALBERTO ROCHA LOBO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "AN TAXII",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -43,9 +50,33 @@
       "connectionCount": 1
     },
     {
+      "id": 29,
+      "name": "AUTO POSTO RAVANELLO LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Auto Posto Muffato Ltda",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 4,
       "name": "CARLOS ALBERTO GEBRIM PRETO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "COOBRAS RADIO TAXI",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "COOPERTAXI - COOPERATIVA DOS TAXISTAS AUTONOMOS DO DISTRITO FEDERAL LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -58,6 +89,12 @@
       "id": 16,
       "name": "EDNEI ROBERTO ROSINA MANSANO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -163,6 +200,12 @@
       "connectionCount": 1
     },
     {
+      "id": 27,
+      "name": "REDE VPR DE COMBUSTIVEIS E SERVICOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "ROBERTA LUIZA POLYDORO DA ROCHA DENARDI",
       "category": "donor",
@@ -172,6 +215,12 @@
       "id": 3,
       "name": "SERGIO LUIZ BARROSO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "SINPETAXI",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -382,6 +431,70 @@
       "target": 26,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 07/10/1999",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 220698,
+      "target": 27,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$302,65 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 220698,
+      "target": 28,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$201,75 (3 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 13/11/2025–14/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 220698,
+      "target": 29,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$148,88 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 15/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220698,
+      "target": 30,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$146,62 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220698,
+      "target": 31,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$113,00 (1 lançamento; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 13/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220698,
+      "target": 32,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$49,00 (1 lançamento; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 13/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220698,
+      "target": 33,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$20,00 (1 lançamento; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 13/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220698,
+      "target": 34,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11,10 (1 lançamento; tipo: SERVIÇOS POSTAIS; período: 14/11/2025)",
       "strength": 1
     }
   ]

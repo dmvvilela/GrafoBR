@@ -16,6 +16,7 @@ import { isPartyDonor, normalizeDonorName } from "@/lib/donors";
 
 const SOURCE_LABELS: Record<string, string> = {
   camara: "Câmara dos Deputados",
+  camara_ceap: "Câmara dos Deputados — CEAP",
   tse: "TSE",
   receita: "Receita Federal",
   transparencia: "Portal da Transparência",

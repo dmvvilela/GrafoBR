@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 74270,
     "egoName": "Gilberto Nascimento",
-    "generatedAt": "2026-06-05T18:45:18.778441Z",
+    "generatedAt": "2026-06-05T20:37:28.695248Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "tse"
     ],
     "summary": null,
@@ -15,7 +16,13 @@
       "id": 74270,
       "name": "Gilberto Nascimento",
       "category": "politician",
-      "connectionCount": 22
+      "connectionCount": 38
+    },
+    {
+      "id": 25,
+      "name": "360 LOCAÇÕES EIRELI - ME",
+      "category": "supplier",
+      "connectionCount": 1
     },
     {
       "id": 7,
@@ -42,6 +49,12 @@
       "connectionCount": 1
     },
     {
+      "id": 31,
+      "name": "AZUL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "BRUNO BUENO DRAGO",
       "category": "donor",
@@ -51,6 +64,12 @@
       "id": 17,
       "name": "CARLOS DA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "CELULAR FUNCIONAL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -75,6 +94,12 @@
       "id": 3,
       "name": "HELENO MASPOLI VERUCCI",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "J.A. SERVICE E TRANSPORTE LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -114,6 +139,12 @@
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "MANOEL PORTUGUES DA CUNHA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "MARCIO LUIZ DA SILVA",
       "category": "donor",
@@ -132,9 +163,39 @@
       "connectionCount": 1
     },
     {
+      "id": 23,
+      "name": "MINUSSI FILMES PRESTACOES DE SERVICOS PRODUCOES CINEMATOGRAF",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "PAULO ROBERTO DA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "POSTO DE COMBUSTIVEIS SAO RAFAEL LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "POSTO DE SERVICOS CHICAJULIA LT",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "PREFEITURA DE SÃO PAULO",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "RAMAL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -147,6 +208,42 @@
       "id": 14,
       "name": "SILNEY FABIANO MENDES FIORI",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 24,
+      "name": "SUELY ELIAS",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "TAM",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "TIM S.A",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "TIM S.A",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "TIM S/A",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "VIA LOCADORA DE AUTOMOVEIS LTDA",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -325,6 +422,134 @@
       "target": 74270,
       "connectionType": "doacao",
       "description": "Doação de campanha de R$1.250,00 em 2022 registrada no TSE (14/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 74270,
+      "target": 23,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$163.100,00 (20 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 24/01/2025–02/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 24,
+      "source": 74270,
+      "target": 24,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$110.630,23 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 03/01/2025–01/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 74270,
+      "target": 25,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$58.500,00 (9 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 31/01/2025–30/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 74270,
+      "target": 26,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$47.459,13 (12 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/02/2025–02/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 74270,
+      "target": 27,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$39.000,00 (6 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 11/07/2025–10/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 74270,
+      "target": 28,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$34.230,00 (7 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 11/07/2025–19/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 74270,
+      "target": 29,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$33.467,59 (38 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 01/02/2025–21/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 74270,
+      "target": 30,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$16.800,00 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/01/2025–08/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 74270,
+      "target": 31,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.796,57 (2 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 06/03/2025–11/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 74270,
+      "target": 32,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.781,38 (6 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 12/03/2025–11/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 74270,
+      "target": 33,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.214,72 (9 lançamentos; tipo: TELEFONIA; período: 07/01/2025–07/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 74270,
+      "target": 34,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.399,92 (8 lançamentos; tipo: TELEFONIA; período: 02/01/2025–02/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 74270,
+      "target": 35,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.266,58 (12 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 74270,
+      "target": 36,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.050,00 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 07/08/2025–12/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 74270,
+      "target": 37,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$189,99 (1 lançamento; tipo: TELEFONIA; período: 11/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 74270,
+      "target": 38,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$15,32 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

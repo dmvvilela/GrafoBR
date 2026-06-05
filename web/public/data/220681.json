@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 220681,
     "egoName": "Fábio Macedo",
-    "generatedAt": "2026-06-05T18:45:18.605800Z",
+    "generatedAt": "2026-06-05T20:37:28.475604Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,7 +17,13 @@
       "id": 220681,
       "name": "Fábio Macedo",
       "category": "politician",
-      "connectionCount": 6
+      "connectionCount": 12
+    },
+    {
+      "id": 11,
+      "name": "AZUL",
+      "category": "supplier",
+      "connectionCount": 1
     },
     {
       "id": 5,
@@ -37,6 +44,24 @@
       "connectionCount": 1
     },
     {
+      "id": 8,
+      "name": "FN SERVICES LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 10,
+      "name": "GOL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "IMS SERVIÇOS EIRELI",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "JOSE WILSON DE MACEDO",
       "category": "donor",
@@ -52,6 +77,18 @@
       "id": 1,
       "name": "PODEMOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 12,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 9,
+      "name": "TAM",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -102,6 +139,54 @@
       "target": 6,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 19/04/2011",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 220681,
+      "target": 7,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$239.000,00 (7 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 11/03/2025–16/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 8,
+      "source": 220681,
+      "target": 8,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$196.000,00 (6 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 27/02/2025–15/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 9,
+      "source": 220681,
+      "target": 9,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$24.595,67 (16 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 13/01/2025–16/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 10,
+      "source": 220681,
+      "target": 10,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.260,28 (4 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 29/01/2025–01/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 11,
+      "source": 220681,
+      "target": 11,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.415,74 (1 lançamento; tipo: PASSAGEM AÉREA - SIGEPA; período: 19/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 12,
+      "source": 220681,
+      "target": 12,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3,19 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

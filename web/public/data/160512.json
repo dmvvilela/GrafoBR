@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 160512,
     "egoName": "Aureo Ribeiro",
-    "generatedAt": "2026-06-05T18:45:16.102371Z",
+    "generatedAt": "2026-06-05T20:37:25.675063Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,7 +17,7 @@
       "id": 160512,
       "name": "Aureo Ribeiro",
       "category": "politician",
-      "connectionCount": 33
+      "connectionCount": 50
     },
     {
       "id": 26,
@@ -61,15 +62,45 @@
       "connectionCount": 1
     },
     {
+      "id": 46,
+      "name": "AZUL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "BROAD BRASIL LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "CARLOS ALBERTO PASCOAL FIDALGO",
       "category": "donor",
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "CELULAR FUNCIONAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "CESAR MIRANDA RIBEIRO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Cia Aérea - GOL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Conde & Dell Aringa - Des de Softwares",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -91,6 +122,12 @@
       "connectionCount": 1
     },
     {
+      "id": 40,
+      "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "FREDERICO ANDRADE DOS SANTOS",
       "category": "donor",
@@ -103,9 +140,27 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "GOL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "GRUPODE GRAFICAS LKL LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "IRACEMA MEDEIROS DA COSTA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "J V L DA COSTA FOXER DIGITAL SOLUÇOES ONLINE",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -151,6 +206,18 @@
       "connectionCount": 1
     },
     {
+      "id": 42,
+      "name": "Latam Linhas Aéreas S.A",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "MAIRA MORAES LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "MARISE MOREIRA RIBEIRO",
       "category": "donor",
@@ -169,9 +236,21 @@
       "connectionCount": 1
     },
     {
+      "id": 47,
+      "name": "NELSON LOPES RIBEIRO",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 24,
       "name": "PEDRO TOSHIO CARNEIRO KIMURA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "RAMAL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -211,9 +290,33 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "TAM",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 33,
       "name": "TRIKILHA COMERCIO DE INFORMATICA LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "av comunicação Multimidia LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "contec imoveis LTD",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -480,6 +583,142 @@
       "target": 33,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 26/10/2000",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 160512,
+      "target": 34,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$105.874,34 (70 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 02/01/2025–25/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 160512,
+      "target": 35,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$75.674,05 (72 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 02/01/2025–11/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 160512,
+      "target": 36,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$59.150,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 30/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 160512,
+      "target": 37,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$45.000,00 (9 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 11/04/2025–19/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 160512,
+      "target": 38,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$23.701,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 05/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 160512,
+      "target": 39,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$21.026,80 (11 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 26/02/2025–20/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 160512,
+      "target": 40,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$12.514,92 (7 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/03/2025–02/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 160512,
+      "target": 41,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.200,00 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 18/01/2025–15/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 160512,
+      "target": 42,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.420,05 (2 lançamentos; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 04/05/2025–20/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 160512,
+      "target": 43,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 16/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 160512,
+      "target": 44,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.600,00 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 03/02/2025–05/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 160512,
+      "target": 45,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.542,40 (28 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 160512,
+      "target": 46,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.490,45 (3 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 26/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 160512,
+      "target": 47,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.000,00 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 13/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 160512,
+      "target": 48,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.853,50 (7 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 02/04/2025–01/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 160512,
+      "target": 49,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.108,82 (1 lançamento; tipo: PASSAGEM AÉREA - RPA; período: 16/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 160512,
+      "target": 50,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$56,56 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

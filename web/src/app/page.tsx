@@ -41,7 +41,7 @@ export default async function Home() {
         </h1>
 
         <p className="mx-auto mt-4 max-w-xl text-[15px] leading-relaxed text-pretty text-zinc-400">
-          Doadores de campanha, empresas e contratos de parlamentares federais — a
+          Doadores de campanha, despesas de cota, empresas e contratos de parlamentares federais — a
           partir de dados abertos e fontes oficiais.
         </p>
       </section>

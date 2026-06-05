@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 74467,
     "egoName": "Damião Feliciano",
-    "generatedAt": "2026-06-05T18:45:17.141509Z",
+    "generatedAt": "2026-06-05T20:37:26.729122Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,7 +17,19 @@
       "id": 74467,
       "name": "Damião Feliciano",
       "category": "politician",
-      "connectionCount": 8
+      "connectionCount": 17
+    },
+    {
+      "id": 15,
+      "name": "AZUL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 10,
+      "name": "BEZERRA BEZERRA LTDA",
+      "category": "supplier",
+      "connectionCount": 1
     },
     {
       "id": 3,
@@ -37,9 +50,21 @@
       "connectionCount": 1
     },
     {
+      "id": 13,
+      "name": "GOL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 6,
       "name": "LICI HOLDING LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 9,
+      "name": "MAIS PROPAGANDA LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -49,9 +74,21 @@
       "connectionCount": 1
     },
     {
+      "id": 17,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "RENATO COSTA FELICIANO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 11,
+      "name": "SHEKINAH LOCACAO DE VEICULOS EIRELI",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -61,9 +98,27 @@
       "connectionCount": 1
     },
     {
+      "id": 14,
+      "name": "TAM",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 12,
+      "name": "damata filmes ltda",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 16,
+      "name": "segpol serviços de segurança eletrônica ltda",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -130,6 +185,78 @@
       "target": 8,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (diretor), desde 08/11/2022",
+      "strength": 1
+    },
+    {
+      "id": 9,
+      "source": 74467,
+      "target": 9,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$222.622,50 (12 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 03/02/2025–06/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 10,
+      "source": 74467,
+      "target": 10,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$85.093,57 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/02/2025–01/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 11,
+      "source": 74467,
+      "target": 11,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$75.000,00 (12 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 06/01/2025–03/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 12,
+      "source": 74467,
+      "target": 12,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$38.000,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 20/08/2025–03/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 13,
+      "source": 74467,
+      "target": 13,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$33.848,41 (36 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 20/01/2025–28/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 74467,
+      "target": 14,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$33.304,86 (42 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 13/01/2025–28/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 74467,
+      "target": 15,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.615,05 (8 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 13/02/2025–28/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 74467,
+      "target": 16,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.103,00 (1 lançamento; tipo: SERVIÇO DE SEGURANÇA PRESTADO POR EMPRESA ESPECIALIZADA.; período: 01/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 74467,
+      "target": 17,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$19,06 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

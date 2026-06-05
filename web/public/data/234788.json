@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 234788,
     "egoName": "Heloísa Helena",
-    "generatedAt": "2026-06-05T18:45:19.046926Z",
+    "generatedAt": "2026-06-05T20:37:29.039228Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "tse"
     ],
     "summary": null,
@@ -15,6 +16,18 @@
       "id": 234788,
       "name": "Heloísa Helena",
       "category": "politician",
+      "connectionCount": 3
+    },
+    {
+      "id": 3,
+      "name": "EDVALDO FRANCISCO DE OLIVEIRA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "MIL E UMA IDEIAS CONSULTORIA EM MARKETING E COMUNICAÇÃO LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -31,6 +44,22 @@
       "target": 234788,
       "connectionType": "doacao",
       "description": "Doação de campanha de R$3.176.000,00 em 2022 registrada no TSE (2 receitas, 18/08/2022–12/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 234788,
+      "target": 2,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$15.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/02/2026)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 234788,
+      "target": 3,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$194,40 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 19/12/2025)",
       "strength": 1
     }
   ]

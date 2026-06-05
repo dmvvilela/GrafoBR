@@ -19,7 +19,7 @@ from typing import Any, Optional, Union
 
 import duckdb
 
-from .camara import Deputy, fetch_current_deputies
+from .camara import Deputy, fetch_current_deputies, iter_ceap_expenses, prepare_ceap_file
 from .emit import emit
 from .receita import iter_empresas_csv, iter_socios_csv
 from .transparencia import iter_contracts_csv
@@ -34,6 +34,7 @@ class BuildContext:
     max_fanout: int = 25
     limit: int = 5
     camara_detail_pool: Optional[int] = None
+    ceap_year: Optional[int] = None
     cnpj_empresas_csv: Optional[str] = None
     cnpj_socios_csv: Optional[str] = None
     contratos_csv: Optional[str] = None
@@ -421,6 +422,60 @@ def _load_transparencia_contracts(
     return len(contracts)
 
 
+def _load_camara_expenses(con: duckdb.DuckDBPyConnection, ceap_file: str | Path) -> int:
+    """Load Câmara CEAP expenses into DuckDB.
+
+    Supplier CPF/CNPJ is used only as a build-internal key. It is never emitted.
+    """
+
+    con.execute(
+        """
+        create or replace table camara_expenses (
+          deputy_id integer,
+          supplier_key varchar,
+          supplier_cnpj_root varchar,
+          supplier_name varchar,
+          expense_type varchar,
+          expense_date varchar,
+          amount double
+        )
+        """
+    )
+
+    rows: list[tuple[Any, ...]] = []
+    for row in iter_ceap_expenses(ceap_file):
+        supplier_doc = row.get("supplier_doc")
+        supplier_cnpj_root = (
+            supplier_doc[:8]
+            if isinstance(supplier_doc, str) and len(supplier_doc) == 14
+            else None
+        )
+        supplier_basis = supplier_doc or _normalize_name(row["supplier_name"])
+        rows.append(
+            (
+                row["deputy_id"],
+                _hash_key("supplier", supplier_basis),
+                supplier_cnpj_root,
+                row["supplier_name"],
+                row["description"],
+                row["issue_date"],
+                row["amount"],
+            )
+        )
+        if len(rows) >= 10_000:
+            con.executemany(
+                "insert into camara_expenses values (?, ?, ?, ?, ?, ?, ?)", rows
+            )
+            rows.clear()
+
+    if rows:
+        con.executemany(
+            "insert into camara_expenses values (?, ?, ?, ?, ?, ?, ?)", rows
+        )
+
+    return con.execute("select count(*) from camara_expenses").fetchone()[0]
+
+
 def expand_ego_network(
     con: duckdb.DuckDBPyConnection, seed: dict[str, Any], ctx: BuildContext
 ) -> dict[str, Any]:
@@ -585,6 +640,93 @@ def expand_ego_network(
                 }
             )
 
+    has_expenses = (
+        con.execute(
+            """
+            select count(*)
+            from information_schema.tables
+            where table_name = 'camara_expenses'
+            """
+        ).fetchone()[0]
+        > 0
+    )
+    if has_expenses:
+        expense_rows = con.execute(
+            """
+            select
+              supplier_key,
+              supplier_cnpj_root,
+              any_value(supplier_name) as supplier_name,
+              any_value(nullif(expense_type, '')) as sample_expense_type,
+              sum(amount) as total_amount,
+              count(*) as receipt_count,
+              min(expense_date) as first_expense_date,
+              max(expense_date) as last_expense_date
+            from camara_expenses
+            where deputy_id = ?
+            group by supplier_key, supplier_cnpj_root
+            order by total_amount desc nulls last, supplier_name
+            limit ?
+            """,
+            [seed["camara_id"], ctx.max_fanout],
+        ).fetchall()
+
+        for row in expense_rows:
+            (
+                supplier_hash,
+                supplier_cnpj_root,
+                supplier_name,
+                sample_type,
+                total_amount,
+                receipt_count,
+                first_date,
+                last_date,
+            ) = row
+            existing_company_key = (
+                f"company:{supplier_cnpj_root}" if supplier_cnpj_root else None
+            )
+            supplier_key = (
+                existing_company_key
+                if existing_company_key and existing_company_key in nodes
+                else supplier_hash
+            )
+            if supplier_key not in nodes:
+                nodes[supplier_key] = {
+                    "key": supplier_key,
+                    "name": supplier_name or "Fornecedor não identificado",
+                    "category": "supplier",
+                }
+            period = None
+            first_display = _format_receita_date(first_date)
+            last_display = _format_receita_date(last_date)
+            if first_display and last_display:
+                period = (
+                    first_display
+                    if first_display == last_display
+                    else f"{first_display}–{last_display}"
+                )
+            description = "Despesa de cota parlamentar registrada pela Câmara"
+            if total_amount is not None:
+                description += f", total de {_money(total_amount)}"
+            description += f" ({receipt_count} lançamento"
+            if receipt_count != 1:
+                description += "s"
+            if sample_type:
+                description += f"; tipo: {sample_type}"
+            if period:
+                description += f"; período: {period}"
+            description += ")"
+            links.append(
+                {
+                    "id": len(links) + 1,
+                    "source": politician_key,
+                    "target": supplier_key,
+                    "connectionType": "despesa",
+                    "description": description,
+                    "strength": 1,
+                }
+            )
+
     company_keys = {
         node["key"].removeprefix("company:"): node["key"]
         for node in nodes.values()
@@ -730,6 +872,14 @@ def to_contract(raw_graph: dict[str, Any], seed: dict[str, Any]) -> dict[str, An
                         else []
                     ),
                     *(
+                        ["camara_ceap"]
+                        if any(
+                            link["connectionType"] == "despesa"
+                            for link in raw_graph["links"]
+                        )
+                        else []
+                    ),
+                    *(
                         ["transparencia"]
                         if any(
                             link["connectionType"] == "contrato"
@@ -782,6 +932,10 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
     if ctx.contratos_csv:
         print("Loading scoped Portal da Transparência contracts CSV...", flush=True)
         _load_transparencia_contracts(con, ctx.contratos_csv)
+    if ctx.ceap_year:
+        print(f"Loading Câmara CEAP expenses ({ctx.ceap_year})...", flush=True)
+        ceap_file = prepare_ceap_file(ctx.cache_dir, year=ctx.ceap_year)
+        _load_camara_expenses(con, ceap_file)
 
     matches = _matched_candidates(con)
     if not matches:

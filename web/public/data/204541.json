@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 204541,
     "egoName": "Eduardo Bismarck",
-    "generatedAt": "2026-06-05T18:45:17.981562Z",
+    "generatedAt": "2026-06-05T20:37:27.696185Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,7 +17,7 @@
       "id": 204541,
       "name": "Eduardo Bismarck",
       "category": "politician",
-      "connectionCount": 10
+      "connectionCount": 19
     },
     {
       "id": 3,
@@ -55,15 +56,39 @@
       "connectionCount": 1
     },
     {
+      "id": 18,
+      "name": "ESTACAO COMERCIO DE PETROLEO E SERVICOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "GIOVANA DE PAULA CEDRAZ OLIVEIRA",
       "category": "donor",
       "connectionCount": 1
     },
     {
+      "id": 19,
+      "name": "GRUPO ORGANICO ALIMENTOS SAUDAVEIS",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "IMA CONSTRUCOES E TERRAPLANAGENS LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 17,
+      "name": "J.V. COMÉRCIO DE PETRÓLEO LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 12,
+      "name": "JANGADA COMERCIO DE COMBUSTIVEIS LTDA - AV DA ABOLIÇÃO",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -76,6 +101,36 @@
       "id": 1,
       "name": "PARTIDO DEMOCRATICO TRABALHISTA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 15,
+      "name": "PINDORETAMA COMERCIO DE COMBUSTIVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 16,
+      "name": "PRAIA COMERCIO DE PETROLEO",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 13,
+      "name": "SOBRAL & PALACIO PETROLEO LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 14,
+      "name": "SOBRAL & PALACIO PETROLEO LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 11,
+      "name": "sobral & Palacio petroleo LTDA",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -158,6 +213,78 @@
       "target": 10,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 28/04/2008",
+      "strength": 1
+    },
+    {
+      "id": 11,
+      "source": 204541,
+      "target": 11,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$520,11 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/11/2025–17/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 12,
+      "source": 204541,
+      "target": 12,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$380,10 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 13,
+      "source": 204541,
+      "target": 13,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$280,01 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 204541,
+      "target": 14,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$268,24 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 204541,
+      "target": 15,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$250,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 204541,
+      "target": 16,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$208,53 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 204541,
+      "target": 17,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$164,98 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 204541,
+      "target": 18,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$112,79 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 204541,
+      "target": 19,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$44,51 (1 lançamento; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 02/01/2025)",
       "strength": 1
     }
   ]

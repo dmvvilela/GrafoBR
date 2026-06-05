@@ -7,15 +7,19 @@ generated ego-network file; CPF is kept only inside the build for joins.
 
 from __future__ import annotations
 
+import csv
 import json
+import re
 import time
+import zipfile
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Optional
+from typing import Any, Iterable, Optional
 
 import httpx
 
 CAMARA_API = "https://dadosabertos.camara.leg.br/api/v2"
+CEAP_CSV_ZIP_URL = "https://www.camara.leg.br/cotas/Ano-{year}.csv.zip"
 
 
 @dataclass(frozen=True)
@@ -30,11 +34,13 @@ class Deputy:
     birth_date: Optional[str] = None
 
 
-def _digits(value: Optional[str]) -> Optional[str]:
+def _digits(value: Optional[str], width: Optional[int] = None) -> Optional[str]:
     if not value:
         return None
     digits = "".join(char for char in value if char.isdigit())
-    return digits.zfill(11) if digits else None
+    if not digits:
+        return None
+    return digits.zfill(width) if width else digits
 
 
 def _get_json(
@@ -71,6 +77,40 @@ def _write_json(path: Path, payload: Any) -> None:
         json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     temp_path.replace(path)
+
+
+def _download_file(
+    client: httpx.Client,
+    url: str,
+    output_path: Path,
+    *,
+    attempts: int = 4,
+) -> Path:
+    if output_path.exists() and output_path.stat().st_size > 0:
+        return output_path
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    temp_path = output_path.with_suffix(output_path.suffix + ".tmp")
+    last_error: Optional[Exception] = None
+    for attempt in range(1, attempts + 1):
+        try:
+            with client.stream("GET", url) as response:
+                response.raise_for_status()
+                with temp_path.open("wb") as handle:
+                    for chunk in response.iter_bytes():
+                        handle.write(chunk)
+            temp_path.replace(output_path)
+            return output_path
+        except (httpx.HTTPError, httpx.TimeoutException) as error:
+            last_error = error
+            temp_path.unlink(missing_ok=True)
+            if attempt == attempts:
+                break
+            time.sleep(0.5 * 2 ** (attempt - 1))
+
+    raise RuntimeError(
+        f"failed to download Câmara file after {attempts} attempts: {url}"
+    ) from last_error
 
 
 def _cached_json(
@@ -134,7 +174,7 @@ def fetch_current_deputies(
                     camara_id=int(row["id"]),
                     name=status.get("nome") or row.get("nome") or detail.get("nomeCivil"),
                     civil_name=detail.get("nomeCivil"),
-                    cpf=_digits(detail.get("cpf")),
+                    cpf=_digits(detail.get("cpf"), 11),
                     party=status.get("siglaPartido") or row.get("siglaPartido"),
                     uf=status.get("siglaUf") or row.get("siglaUf"),
                     email=status.get("email") or row.get("email"),
@@ -143,3 +183,82 @@ def fetch_current_deputies(
             )
 
     return deputies
+
+
+def prepare_ceap_file(cache_dir: str | Path = ".cache", *, year: int) -> Path:
+    """Download Câmara's yearly CEAP CSV zip into the local cache."""
+
+    cache = Path(cache_dir) / "camara" / "ceap"
+    output_path = cache / f"Ano-{year}.csv.zip"
+    with httpx.Client(timeout=60, follow_redirects=True) as client:
+        return _download_file(
+            client,
+            CEAP_CSV_ZIP_URL.format(year=year),
+            output_path,
+        )
+
+
+def _open_ceap_rows(path: str | Path) -> Iterable[dict[str, str]]:
+    source = Path(path)
+    if source.suffix.lower() == ".zip":
+        with zipfile.ZipFile(source) as archive:
+            members = [
+                name for name in archive.namelist() if name.lower().endswith(".csv")
+            ]
+            if not members:
+                return
+            with archive.open(members[0]) as handle:
+                text = (line.decode("utf-8-sig") for line in handle)
+                yield from csv.DictReader(text, delimiter=";")
+    else:
+        with source.open("r", encoding="utf-8-sig", newline="") as handle:
+            yield from csv.DictReader(handle, delimiter=";")
+
+
+def parse_ceap_amount(value: Optional[str]) -> float:
+    if not value:
+        return 0.0
+    cleaned = value.strip()
+    if "," in cleaned:
+        normalized = cleaned.replace(".", "").replace(",", ".")
+    else:
+        normalized = cleaned
+    try:
+        return float(normalized)
+    except ValueError:
+        return 0.0
+
+
+def _public_supplier_name(value: str) -> str:
+    cleaned = re.sub(r"\b\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2}\b", "", value)
+    cleaned = re.sub(r"\b\d{3}\.?\d{3}\.?\d{3}-?\d{2}\b", "", cleaned)
+    cleaned = re.sub(r"\d{11,14}", "", cleaned)
+    return re.sub(r"\s+", " ", cleaned).strip(" -/.,")
+
+
+def iter_ceap_expenses(path: str | Path) -> Iterable[dict[str, Any]]:
+    """Yield normalized CEAP expense rows from a yearly Câmara CSV/zip.
+
+    Source columns are public, but CPF/CNPJ values remain build-internal and are
+    used only to derive stable opaque supplier nodes.
+    """
+
+    for row in _open_ceap_rows(path):
+        deputy_id = _digits(row.get("ideCadastro"))
+        supplier_raw_name = (row.get("txtFornecedor") or "").strip()
+        supplier_name = _public_supplier_name(supplier_raw_name)
+        if not deputy_id or not supplier_raw_name:
+            continue
+        amount = parse_ceap_amount(row.get("vlrLiquido"))
+        if amount <= 0:
+            continue
+        yield {
+            "deputy_id": int(deputy_id),
+            "supplier_name": supplier_name or "Fornecedor não identificado",
+            "supplier_doc": _digits(row.get("txtCNPJCPF")),
+            "description": (row.get("txtDescricao") or "").strip(),
+            "issue_date": (row.get("datEmissao") or "").strip()[:10],
+            "year": int(row.get("numAno") or 0),
+            "month": int(row.get("numMes") or 0),
+            "amount": amount,
+        }

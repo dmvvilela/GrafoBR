@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 122158,
     "egoName": "Pedro Paulo",
-    "generatedAt": "2026-06-05T18:45:21.542141Z",
+    "generatedAt": "2026-06-05T20:37:32.256724Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,12 +17,42 @@
       "id": 122158,
       "name": "Pedro Paulo",
       "category": "politician",
-      "connectionCount": 4
+      "connectionCount": 13
+    },
+    {
+      "id": 9,
+      "name": "AN COM EVENTOS E SOLUCOES COMPLEMENTARES LTDA",
+      "category": "supplier",
+      "connectionCount": 1
     },
     {
       "id": 3,
       "name": "ANDERSON OLIVEIRA DE MACEDO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 11,
+      "name": "AZUL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 10,
+      "name": "ETICA TURISMO VIAGENS E RECEPTIVOS LTDA - ME",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 8,
+      "name": "GOL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "HADDAD RENT A CAR LOCADORA LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -40,6 +71,30 @@
       "id": 2,
       "name": "PARTIDO SOCIAL DEMOCRATICO - RIO DE JANEIRO - RJ - ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "PAX IMÓVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 12,
+      "name": "PLANALTO BITTAR HOTEL LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 13,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "TAM",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -74,6 +129,78 @@
       "target": 4,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 03/03/2023",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 122158,
+      "target": 5,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$201.798,19 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 29/01/2025–01/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 122158,
+      "target": 6,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$115.030,00 (10 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 04/02/2025–03/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 122158,
+      "target": 7,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$75.883,98 (45 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 15/01/2025–12/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 8,
+      "source": 122158,
+      "target": 8,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$25.332,11 (12 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 18/04/2025–13/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 9,
+      "source": 122158,
+      "target": 9,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$20.000,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 30/05/2025–12/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 10,
+      "source": 122158,
+      "target": 10,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.250,25 (1 lançamento; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 06/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 11,
+      "source": 122158,
+      "target": 11,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$969,67 (2 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 06/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 12,
+      "source": 122158,
+      "target": 12,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$722,38 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 02/04/2025–03/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 13,
+      "source": 122158,
+      "target": 13,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$18,39 (8 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

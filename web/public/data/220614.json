@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 220614,
     "egoName": "Dr. Daniel Soranz",
-    "generatedAt": "2026-06-05T18:45:17.727070Z",
+    "generatedAt": "2026-06-05T20:37:27.434132Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "tse"
     ],
     "summary": null,
@@ -15,7 +16,7 @@
       "id": 220614,
       "name": "Dr. Daniel Soranz",
       "category": "politician",
-      "connectionCount": 25
+      "connectionCount": 34
     },
     {
       "id": 20,
@@ -39,6 +40,12 @@
       "id": 17,
       "name": "ARNALDO FERREIRA LEAL FILHO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "ASSOCIAÇÃO DOS TAXISTAS DO DISTRITO FEDERAL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -81,6 +88,12 @@
       "id": 14,
       "name": "FABIANO DE CASTRO ROBALINHO CAVALCANTI",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "GOL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -138,6 +151,12 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "ROGERIO CHOR",
       "category": "donor",
@@ -150,9 +169,45 @@
       "connectionCount": 1
     },
     {
+      "id": 29,
+      "name": "SERVIA O NACIONAL DE APREND. COMERCIAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "SINPETAXI",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "TAIOBA SELF-SERVICE LTDA EPP",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "TAM",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "TOMAS DA VEIGA PEREIRA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "TÁXI LEGAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "UBER DO BRASIL TECNOLOGIA LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -367,6 +422,78 @@
       "target": 220614,
       "connectionType": "doacao",
       "description": "Doação de campanha de R$10.000,00 em 2022 registrada no TSE (20/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 220614,
+      "target": 26,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$14.057,68 (10 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 30/01/2025–19/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 220614,
+      "target": 27,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$12.596,67 (7 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 22/01/2025–27/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 220614,
+      "target": 28,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$270,92 (7 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 01/02/2025–20/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 220614,
+      "target": 29,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$88,22 (1 lançamento; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 11/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220614,
+      "target": 30,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$80,00 (1 lançamento; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 01/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220614,
+      "target": 31,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$80,00 (2 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 11/02/2025–19/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220614,
+      "target": 32,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$60,00 (1 lançamento; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 25/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220614,
+      "target": 33,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$47,38 (1 lançamento; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 19/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220614,
+      "target": 34,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$0,47 (2 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

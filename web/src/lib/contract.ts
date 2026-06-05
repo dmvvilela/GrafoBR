@@ -6,12 +6,14 @@ export type NodeCategory =
   | "politician"
   | "company"
   | "donor"
+  | "supplier"
   | "relative"
   | "other";
 
 export type ConnectionType =
   | "socio" // company ownership (quadro de sócios)
   | "doacao" // campaign donation
+  | "despesa" // parliamentary quota expense (CEAP)
   | "contrato" // public contract
   | "parente" // derived family tie — treat conservatively (see LEGAL.md)
   | "other";

@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 153423,
     "egoName": "Renilce Nicodemos",
-    "generatedAt": "2026-06-05T18:45:21.839181Z",
+    "generatedAt": "2026-06-05T20:37:32.594770Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,7 +17,7 @@
       "id": 153423,
       "name": "Renilce Nicodemos",
       "category": "politician",
-      "connectionCount": 29
+      "connectionCount": 36
     },
     {
       "id": 26,
@@ -40,6 +41,12 @@
       "id": 16,
       "name": "AUGUSTO PRAXEDES NETO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "AZUL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -88,6 +95,24 @@
       "id": 21,
       "name": "FRANCISCO TEIXEIRA DE ARAUJO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "GOL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "HEISS TAXI AEREO LTDA - EPP",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "HERINGER TAXI AEREO LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -157,6 +182,12 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "NEVES E FERREIRA TECNOLOGIA LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "OLENIO CAVALLI",
       "category": "donor",
@@ -169,6 +200,12 @@
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "RENILCE CONCEICAO NICODEMOS DE ALBUQUERQUE",
       "category": "donor",
@@ -178,6 +215,12 @@
       "id": 11,
       "name": "SILVAIR DIAS LADEIRA JUNIOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "TAM",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -424,6 +467,62 @@
       "target": 29,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (diretor), desde 10/06/2009",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 153423,
+      "target": 30,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$275.400,00 (14 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE AERONAVES; período: 03/02/2025–19/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 153423,
+      "target": 31,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$80.000,00 (3 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE AERONAVES; período: 02/06/2025–15/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 153423,
+      "target": 32,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$51.739,56 (58 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 14/01/2025–15/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 153423,
+      "target": 33,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$19.487,60 (14 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 11/02/2025–23/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 153423,
+      "target": 34,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$18.194,10 (16 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 14/01/2025–25/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 153423,
+      "target": 35,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11.586,17 (10 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 07/03/2025–05/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 153423,
+      "target": 36,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$32,93 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

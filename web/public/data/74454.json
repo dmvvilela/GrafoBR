@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 74454,
     "egoName": "Eunício Oliveira",
-    "generatedAt": "2026-06-05T18:45:18.197279Z",
+    "generatedAt": "2026-06-05T20:37:27.924921Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "transparencia",
       "tse"
@@ -17,7 +18,19 @@
       "id": 74454,
       "name": "Eunício Oliveira",
       "category": "politician",
-      "connectionCount": 12
+      "connectionCount": 25
+    },
+    {
+      "id": 18,
+      "name": "AUTO POSTO GOLDEN GAS LAGO LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 24,
+      "name": "AUTO SHOPPING QL 06 COMERCIO DE DERIV DE PETROLEO LTDA",
+      "category": "supplier",
+      "connectionCount": 1
     },
     {
       "id": 2,
@@ -27,6 +40,24 @@
     },
     {
       "id": 13,
+      "name": "CARNAUBA ASSESSORIA DE COM E PIBLICIDADE",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 19,
+      "name": "CELULAR FUNCIONAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 20,
+      "name": "Claro S/A",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
       "name": "Contratos públicos — MEO EMPREENDIMENTOS IMOBILIARIOS LTDA",
       "category": "other",
       "connectionCount": 1
@@ -68,6 +99,18 @@
       "connectionCount": 1
     },
     {
+      "id": 15,
+      "name": "LAVOR MOTORS COMÉRCIO DE VEICULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 14,
+      "name": "LAVOR NEGOCIOS E SERVIÇOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "MEO EMPREENDIMENTOS IMOBILIARIOS LTDA",
       "category": "company",
@@ -86,6 +129,30 @@
       "connectionCount": 1
     },
     {
+      "id": 21,
+      "name": "PECOBRAL COMERCIO DE DERIVADOS DE PETROLEO BRASILIA LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 23,
+      "name": "POSTO DE COMBUSTIVEL QI 09 LAGO SUL LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 22,
+      "name": "POSTO DE COMBUSTIVEL QL 09 LAGO SUL LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 25,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "REPRESENTACOES RIBEIRO S/C LTDA",
       "category": "company",
@@ -95,6 +162,18 @@
       "id": 12,
       "name": "SANTA MONICA AGROPECUARIA E SERVICOS LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 16,
+      "name": "TAM",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 17,
+      "name": "TELEFONIA BRASIL S/A",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -197,8 +276,112 @@
     },
     {
       "id": 13,
-      "source": 10,
+      "source": 74454,
       "target": 13,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$297.167,80 (8 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 23/01/2025–02/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 74454,
+      "target": 14,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$72.040,34 (12 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 01/04/2025–02/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 74454,
+      "target": 15,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.213,00 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 18/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 74454,
+      "target": 16,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.930,09 (3 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 23/01/2025–08/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 74454,
+      "target": 17,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.828,31 (7 lançamentos; tipo: TELEFONIA; período: 14/02/2025–15/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 74454,
+      "target": 18,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$917,01 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/03/2025–21/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 74454,
+      "target": 19,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$802,28 (7 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 74454,
+      "target": 20,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$261,37 (1 lançamento; tipo: TELEFONIA; período: 18/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 74454,
+      "target": 21,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$237,99 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 22,
+      "source": 74454,
+      "target": 22,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$209,41 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/10/2025–04/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 74454,
+      "target": 23,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$129,30 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 19/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 24,
+      "source": 74454,
+      "target": 24,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$74,28 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 23/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 74454,
+      "target": 25,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$19,07 (7 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 10,
+      "target": 26,
       "connectionType": "contrato",
       "description": "Contratos públicos registrados no Portal da Transparência, total de R$8.548.807,20 (1 contrato; exemplo de órgão: POLÍCIA RODOVIÁRIA FEDERAL; período: 2018-12-31)",
       "strength": 1

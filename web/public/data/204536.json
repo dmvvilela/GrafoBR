@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 204536,
     "egoName": "Kim Kataguiri",
-    "generatedAt": "2026-06-05T18:45:19.864139Z",
+    "generatedAt": "2026-06-05T20:37:30.127332Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,7 +17,13 @@
       "id": 204536,
       "name": "Kim Kataguiri",
       "category": "politician",
-      "connectionCount": 26
+      "connectionCount": 34
+    },
+    {
+      "id": 28,
+      "name": "ADMINISTRADORA DE BENS DI SARNO S/S LTDA",
+      "category": "supplier",
+      "connectionCount": 1
     },
     {
       "id": 22,
@@ -31,15 +38,33 @@
       "connectionCount": 1
     },
     {
+      "id": 30,
+      "name": "AZUL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 16,
       "name": "CLAITON VAZ BARBOSA",
       "category": "donor",
       "connectionCount": 1
     },
     {
+      "id": 31,
+      "name": "Claro S.A - Embratel",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "ELEICAO 2022 AUGUSTO ZACARIAS CORREA LEITE DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "ENEL - Eletropaulo Metropolitana Eletricidade de São Paulo S. A",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -76,6 +101,12 @@
       "id": 2,
       "name": "GENIAL IDEIAS E SOLUCOES LTDA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "GOL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -139,6 +170,12 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "RENAN ANTONIO FERREIRA DOS SANTOS",
       "category": "donor",
@@ -148,6 +185,12 @@
       "id": 19,
       "name": "SILVIO RICARDO FISCHLIM",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "TAM",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -172,6 +215,12 @@
       "id": 25,
       "name": "WAGNER KAZUYUKI SUZUKI",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -382,6 +431,70 @@
       "target": 26,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 02/07/2021",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 204536,
+      "target": 27,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$36.308,82 (35 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 09/01/2025–28/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 204536,
+      "target": 28,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$32.025,77 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 05/02/2025–23/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 204536,
+      "target": 29,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$15.000,29 (17 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 23/01/2025–28/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 204536,
+      "target": 30,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$9.398,14 (14 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 09/01/2025–27/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204536,
+      "target": 31,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.450,74 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 18/01/2025–19/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204536,
+      "target": 32,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$996,30 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 01/07/2025–01/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204536,
+      "target": 33,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$564,16 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 06/02/2025–08/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204536,
+      "target": 34,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6,16 (8 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

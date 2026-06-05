@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 220635,
     "egoName": "Bruno Ganem",
-    "generatedAt": "2026-06-05T18:45:16.518738Z",
+    "generatedAt": "2026-06-05T20:37:25.946205Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,7 +17,31 @@
       "id": 220635,
       "name": "Bruno Ganem",
       "category": "politician",
-      "connectionCount": 2
+      "connectionCount": 20
+    },
+    {
+      "id": 5,
+      "name": "AZUL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 12,
+      "name": "Adobe Systems Software",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 11,
+      "name": "CLARO NXT TELECOMUNICAÇÕES S.A",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "COMPANHIA PIRATININGA DE FORCA E LUZ",
+      "category": "supplier",
+      "connectionCount": 1
     },
     {
       "id": 2,
@@ -25,9 +50,93 @@
       "connectionCount": 1
     },
     {
+      "id": 3,
+      "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 18,
+      "name": "FERNANDES PRADO INFORMATICA LTDA ME",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "FINANZA CONSULTORIA IMOBILIARIA LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 16,
+      "name": "FREEPIK COMPANY, SL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 10,
+      "name": "GOL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 17,
+      "name": "INTERVEL TELECOMUNICAÇÕES LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 9,
+      "name": "JB2 COMÉRCIO E SERVIÇOS DE LIMPEZA LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 8,
+      "name": "KERAXWEB SERVIÇOS DE INTERLIGAÇÃO E INTERNET LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 19,
+      "name": "LIBERTY SEGUROS SA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 15,
+      "name": "NOVA PROVEDORA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PODEMOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 20,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 14,
+      "name": "SAAE",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 13,
+      "name": "TAM",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "TELEFONICA BRASIL S.A",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -46,6 +155,150 @@
       "target": 2,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (titular pessoa física), desde 22/02/2017",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 220635,
+      "target": 3,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$367.000,00 (12 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/02/2025–02/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 220635,
+      "target": 4,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$47.428,32 (11 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 05/01/2025–25/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 220635,
+      "target": 5,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$21.195,19 (12 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 03/02/2025–26/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 220635,
+      "target": 6,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8.145,29 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 27/01/2025–29/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 220635,
+      "target": 7,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.064,00 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 29/01/2025–25/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 8,
+      "source": 220635,
+      "target": 8,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.600,00 (7 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 01/07/2025–02/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 9,
+      "source": 220635,
+      "target": 9,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.706,16 (4 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 21/10/2025–17/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 10,
+      "source": 220635,
+      "target": 10,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.937,78 (2 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 08/02/2025–02/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 11,
+      "source": 220635,
+      "target": 11,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.370,11 (11 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 22/01/2025–23/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 12,
+      "source": 220635,
+      "target": 12,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.205,00 (11 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 30/01/2025–29/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 13,
+      "source": 220635,
+      "target": 13,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.977,11 (1 lançamento; tipo: PASSAGEM AÉREA - SIGEPA; período: 21/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 220635,
+      "target": 14,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.880,35 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 03/02/2025–12/02/2026)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 220635,
+      "target": 15,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.399,00 (10 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 05/02/2025–16/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 220635,
+      "target": 16,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.350,00 (1 lançamento; tipo: ASSINATURA DE PUBLICAÇÕES; período: 19/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 220635,
+      "target": 17,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$781,15 (8 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 30/06/2025–08/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 220635,
+      "target": 18,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$135,00 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 02/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 220635,
+      "target": 19,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$115,05 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 22/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 220635,
+      "target": 20,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8,77 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

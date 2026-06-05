@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 150418,
     "egoName": "Márcio Marinho",
-    "generatedAt": "2026-06-05T18:45:20.927327Z",
+    "generatedAt": "2026-06-05T20:37:31.542866Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,7 +17,13 @@
       "id": 150418,
       "name": "Márcio Marinho",
       "category": "politician",
-      "connectionCount": 8
+      "connectionCount": 33
+    },
+    {
+      "id": 21,
+      "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
     },
     {
       "id": 7,
@@ -31,9 +38,87 @@
       "connectionCount": 1
     },
     {
+      "id": 18,
+      "name": "ATA AEROTAXI ABAETE LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "ATMOSFERA HOTELARIA LTDA - ME",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 24,
+      "name": "AUTO POSTO 303 NORTE LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "AUTO POSTO CINCO ESTRELAS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 17,
+      "name": "AZUL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "BERNARDETE FALCAO SAMPAIO ME",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 19,
+      "name": "CELULAR FUNCIONAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 22,
+      "name": "COMPANHIA DE ELETRICIDADE DO ESTADO DA BAHIA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Claro NXT Telecomunicações S.A",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 15,
+      "name": "D R ALUGUEL DE MAQUINAS E EQUIPAMENTOS EIRELI - ME",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 4,
       "name": "EUNAPIO LADEIA DE QUEIROZ",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 16,
+      "name": "GOL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "HOTEL ACALANTO LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 11,
+      "name": "Iza Carla Silva Santa Brigida - ME",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -55,6 +140,54 @@
       "connectionCount": 1
     },
     {
+      "id": 14,
+      "name": "MEGA POSTO BERIMBAU LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 13,
+      "name": "MIDIA NORDESTE DE COMUNICAÇÃO DO BRASIL LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 10,
+      "name": "MVT PATRIMONIAL LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "NOVOLESTE HOTEL LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 23,
+      "name": "PANTANAL VEÍCULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "PENA BRANCA HOTEL E EVENTOS LTDA-ME",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 25,
+      "name": "PORTAL MIDIA GESTAO DE INFRAESTRUTURA DE PUBLICIDADE LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 9,
+      "name": "Progresso",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "REPUBLICANOS - BAHIA - ESTADUAL",
       "category": "donor",
@@ -64,6 +197,24 @@
       "id": 1,
       "name": "REPUBLICANOS - BRASIL - BR - NACIONAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 20,
+      "name": "SANDRO SANTOS OLIVEIRA JUNIOR",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 12,
+      "name": "TAM",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "TELEFONICA BRASIL S.A",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -130,6 +281,206 @@
       "target": 8,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 14/02/2017",
+      "strength": 1
+    },
+    {
+      "id": 9,
+      "source": 150418,
+      "target": 9,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$141.400,00 (3 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 13/05/2025–22/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 10,
+      "source": 150418,
+      "target": 10,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$86.755,02 (10 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 05/01/2025–30/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 11,
+      "source": 150418,
+      "target": 11,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$45.000,00 (10 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 01/03/2025–01/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 12,
+      "source": 150418,
+      "target": 12,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$36.809,10 (33 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 29/01/2025–24/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 13,
+      "source": 150418,
+      "target": 13,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$33.750,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 26/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 150418,
+      "target": 14,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$23.183,43 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/02/2025–01/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 150418,
+      "target": 15,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$21.600,00 (9 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 02/02/2025–07/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 150418,
+      "target": 16,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$20.737,72 (22 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 06/01/2025–09/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 150418,
+      "target": 17,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$13.245,72 (7 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 20/01/2025–19/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 150418,
+      "target": 18,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.975,00 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE AERONAVES; período: 23/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 150418,
+      "target": 19,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$9.265,00 (39 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 150418,
+      "target": 20,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8.000,00 (10 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 10/02/2025–03/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 150418,
+      "target": 21,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.023,16 (47 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/01/2025–17/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 22,
+      "source": 150418,
+      "target": 22,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.437,84 (9 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 11/01/2025–12/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 150418,
+      "target": 23,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.900,00 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 31/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 24,
+      "source": 150418,
+      "target": 24,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.122,00 (27 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/01/2025–11/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 150418,
+      "target": 25,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 26/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 150418,
+      "target": 26,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.471,71 (7 lançamentos; tipo: TELEFONIA; período: 19/01/2025–19/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 150418,
+      "target": 27,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.434,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 24/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 150418,
+      "target": 28,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.188,75 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/04/2025–10/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 150418,
+      "target": 29,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$911,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 25/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 150418,
+      "target": 30,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$720,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 09/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 150418,
+      "target": 31,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$640,00 (3 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 01/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 150418,
+      "target": 32,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$583,93 (4 lançamentos; tipo: TELEFONIA; período: 12/03/2025–09/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 150418,
+      "target": 33,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$557,50 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 28/03/2025)",
       "strength": 1
     }
   ]

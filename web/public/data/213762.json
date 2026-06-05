@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 213762,
     "egoName": "Carla Dickson",
-    "generatedAt": "2026-06-05T18:45:16.613388Z",
+    "generatedAt": "2026-06-05T20:37:26.057037Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,12 +17,42 @@
       "id": 213762,
       "name": "Carla Dickson",
       "category": "politician",
-      "connectionCount": 5
+      "connectionCount": 30
+    },
+    {
+      "id": 6,
+      "name": "40.043.212 GEORGE MATHEUS DA SILVA PERES",
+      "category": "supplier",
+      "connectionCount": 1
     },
     {
       "id": 2,
       "name": "AMILTON DE ALMEIDA SAMPAIO JUNIOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "AUTO POSTO FENIX ODJ LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 15,
+      "name": "AZUL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "BRASAL COMBUSTIVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 23,
+      "name": "CIDADE NOVA COMBUSTIVEIS LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -31,9 +62,87 @@
       "connectionCount": 1
     },
     {
+      "id": 24,
+      "name": "COSERN",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 14,
+      "name": "D.M.M.SILVA LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 9,
+      "name": "EMERSON OSÓRIO DOMINGOS XAVIER",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 10,
+      "name": "FACIL COMUNICACAO",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 12,
+      "name": "FUNDAÇÃO EURICO BERGSTEN",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 13,
+      "name": "GOL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "HOTEL VILLAOESTE LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "INSTITUTO DA VISAO DO RN LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 22,
+      "name": "ISMAEL SOUSA DA SILVA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "IT COMERCIAL DE COMBUSTIVEIS DOMINGOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 8,
+      "name": "Iza Carla Silva Santa Brigida - ME",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 11,
+      "name": "LOCAINFO",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 16,
+      "name": "LUCIANO ALEXANDRE DA SILVA - ME - LN RENT A CAR",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 20,
+      "name": "LUIZ FLOR & FILHOS LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -43,9 +152,51 @@
       "connectionCount": 1
     },
     {
+      "id": 21,
+      "name": "MOISES PEREIRA DE ARAUJO",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "MUNDIAL VEICULOS EIRELI",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 25,
+      "name": "POSTO DE COMBUSTIVEIS SAO RAFAEL LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 18,
+      "name": "ROBSON ARAUJO PIRES",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 17,
+      "name": "TAM",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "TG COMERCIAL DE COMBUSTIVEIS PLANALTO LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 19,
+      "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -88,6 +239,206 @@
       "target": 5,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 27/03/2013",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 213762,
+      "target": 6,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$166.437,70 (14 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 19/02/2025–19/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 213762,
+      "target": 7,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$85.800,00 (11 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 27/02/2025–26/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 8,
+      "source": 213762,
+      "target": 8,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$58.100,00 (13 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 02/01/2025–01/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 9,
+      "source": 213762,
+      "target": 9,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$49.000,00 (7 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 30/01/2025–30/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 10,
+      "source": 213762,
+      "target": 10,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$25.000,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 03/09/2025–07/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 11,
+      "source": 213762,
+      "target": 11,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$23.724,50 (14 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 27/01/2025–29/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 12,
+      "source": 213762,
+      "target": 12,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$18.000,00 (6 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 06/08/2025–18/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 13,
+      "source": 213762,
+      "target": 13,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$15.190,29 (10 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 31/01/2025–28/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 213762,
+      "target": 14,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$15.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 23/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 213762,
+      "target": 15,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$14.783,85 (9 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 03/02/2025–18/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 213762,
+      "target": 16,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$13.000,00 (2 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 29/01/2025–28/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 213762,
+      "target": 17,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$12.321,57 (14 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 20/01/2025–12/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 213762,
+      "target": 18,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$12.000,00 (6 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 01/08/2025–19/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 213762,
+      "target": 19,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.054,50 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 31/01/2025–28/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 213762,
+      "target": 20,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.344,94 (27 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/04/2025–29/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 213762,
+      "target": 21,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.300,00 (3 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 03/11/2025–14/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 22,
+      "source": 213762,
+      "target": 22,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.000,00 (3 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 28/10/2025–17/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 213762,
+      "target": 23,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.366,04 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 24/01/2025–30/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 24,
+      "source": 213762,
+      "target": 24,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.714,36 (6 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 17/01/2025–15/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 213762,
+      "target": 25,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.703,00 (15 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/02/2025–19/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 213762,
+      "target": 26,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.474,00 (3 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 10/05/2025–21/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 213762,
+      "target": 27,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.150,00 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/03/2025–26/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 213762,
+      "target": 28,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.125,27 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/05/2025–02/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 213762,
+      "target": 29,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.000,00 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/05/2025–22/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 213762,
+      "target": 30,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$990,71 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/04/2025–26/09/2025)",
       "strength": 1
     }
   ]

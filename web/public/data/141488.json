@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 141488,
     "egoName": "Paulo Teixeira",
-    "generatedAt": "2026-06-05T18:45:21.455989Z",
+    "generatedAt": "2026-06-05T20:37:32.162098Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "tse"
     ],
     "summary": null,
@@ -15,7 +16,7 @@
       "id": 141488,
       "name": "Paulo Teixeira",
       "category": "politician",
-      "connectionCount": 25
+      "connectionCount": 26
     },
     {
       "id": 15,
@@ -141,6 +142,12 @@
       "id": 9,
       "name": "PAULO SERGIO RIBEIRO DA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "RAMAL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -367,6 +374,14 @@
       "target": 141488,
       "connectionType": "doacao",
       "description": "Doação de campanha de R$16.000,00 em 2022 registrada no TSE (3 receitas, 29/08/2022–18/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 141488,
+      "target": 26,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$0,24 (1 lançamento; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

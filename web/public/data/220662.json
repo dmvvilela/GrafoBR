@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 220662,
     "egoName": "Lucas Ramos",
-    "generatedAt": "2026-06-05T18:45:19.997820Z",
+    "generatedAt": "2026-06-05T20:37:30.300904Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,7 +17,7 @@
       "id": 220662,
       "name": "Lucas Ramos",
       "category": "politician",
-      "connectionCount": 27
+      "connectionCount": 45
     },
     {
       "id": 7,
@@ -37,6 +38,12 @@
       "connectionCount": 1
     },
     {
+      "id": 32,
+      "name": "AZUL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 22,
       "name": "BRAZ JOSE MARQUES SEABRA",
       "category": "donor",
@@ -46,6 +53,24 @@
       "id": 4,
       "name": "CAIO CAVALCANTI RAMOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "CELULAR FUNCIONAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Cia Aérea - AZUL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Cia Aérea - TAM",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -91,9 +116,45 @@
       "connectionCount": 1
     },
     {
+      "id": 42,
+      "name": "GOL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 23,
       "name": "GUSTAVO HENRIQUE DE ANDRADE MELO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "HCC HOTELS GESTAO HOTELEIRA LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "HOTELARIA ACCOR BRASIL S/A",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "HPE AUTOMOTORES DO BRASIL LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "IBIS STYLES GARANHUNS",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "JC DE BRITO ASSESSORIA E COMINICA;'AO ME",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -139,15 +200,33 @@
       "connectionCount": 1
     },
     {
+      "id": 38,
+      "name": "MELIA BRASIL ADMINISTRACAO HOTELEIRA E COMERCIAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 27,
       "name": "MMC PRODUCOES ARTISTICAS E PARTICIPACOES LTDA",
       "category": "company",
       "connectionCount": 1
     },
     {
+      "id": 29,
+      "name": "MOVA FILMES LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 17,
       "name": "MURILO RODRIGUES CAVALCANTI",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "PANTANAL VEÍCULOS LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -163,6 +242,12 @@
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "RANILSON BRANDAO RAMOS",
       "category": "donor",
@@ -175,9 +260,33 @@
       "connectionCount": 1
     },
     {
+      "id": 41,
+      "name": "SOTEL HOTELARIA LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "TAM",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 25,
       "name": "TATIANA SEABRA BARCELOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "TELEFONICA BRASIL S/A",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "reaultur",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -396,6 +505,150 @@
       "target": 27,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 27/08/2010",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 220662,
+      "target": 28,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$135.048,40 (7 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 30/06/2025–05/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 220662,
+      "target": 29,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$110.000,00 (11 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 25/02/2025–04/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220662,
+      "target": 30,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$73.200,00 (6 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 30/06/2025–30/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220662,
+      "target": 31,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$69.982,40 (72 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 13/01/2025–30/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220662,
+      "target": 32,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$52.375,35 (41 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 13/01/2025–28/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220662,
+      "target": 33,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$37.700,00 (4 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 04/02/2025–13/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220662,
+      "target": 34,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.658,90 (3 lançamentos; tipo: PASSAGEM AÉREA - RPA; período: 06/05/2025–13/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220662,
+      "target": 35,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.215,15 (1 lançamento; tipo: PASSAGEM AÉREA - RPA; período: 14/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220662,
+      "target": 36,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.953,88 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 24/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220662,
+      "target": 37,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.288,00 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 28/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220662,
+      "target": 38,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.193,38 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 21/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220662,
+      "target": 39,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.306,72 (11 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 220662,
+      "target": 40,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.115,64 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 27/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 220662,
+      "target": 41,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$932,16 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 06/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 220662,
+      "target": 42,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$494,22 (1 lançamento; tipo: PASSAGEM AÉREA - SIGEPA; período: 15/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 220662,
+      "target": 43,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$480,06 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 28/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 220662,
+      "target": 44,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$229,98 (1 lançamento; tipo: TELEFONIA; período: 14/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 220662,
+      "target": 45,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10,54 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

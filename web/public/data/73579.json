@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 73579,
     "egoName": "Alberto Fraga",
-    "generatedAt": "2026-06-05T18:45:15.558331Z",
+    "generatedAt": "2026-06-05T20:37:25.066570Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,7 +17,7 @@
       "id": 73579,
       "name": "Alberto Fraga",
       "category": "politician",
-      "connectionCount": 27
+      "connectionCount": 39
     },
     {
       "id": 7,
@@ -49,6 +50,12 @@
       "connectionCount": 1
     },
     {
+      "id": 31,
+      "name": "ALVARO CARNEIRO LIMA JUNIOR",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "ANTONIO ACASSIO GONCALVES DOS SANTOS",
       "category": "donor",
@@ -58,6 +65,18 @@
       "id": 12,
       "name": "ANTONIO EDVAN ALVES",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "AZUL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "BROAD BRASIL LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -109,6 +128,12 @@
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "DUMONT DESIGN",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "ERICA ROCHELLE DOS SANTOS MACEDO",
       "category": "donor",
@@ -145,15 +170,33 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "GOL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 25,
       "name": "GUILHERME JUNIO DIAS DE SOUZA",
       "category": "donor",
       "connectionCount": 1
     },
     {
+      "id": 32,
+      "name": "I9 SOLUCOES EM MARKETING E MIDIAS DIGITAIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "JOAO ALBERTO FRAGA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "L & J SERVICOS GRAFICOS LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -169,6 +212,18 @@
       "connectionCount": 1
     },
     {
+      "id": 28,
+      "name": "QUALIGRAFF IMPRESSOS E SERVIÇOS GRÁFICOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 6,
       "name": "RODRIGO DE MEDEIROS ROSAS",
       "category": "donor",
@@ -178,6 +233,24 @@
       "id": 3,
       "name": "RUBENS OMETTO SILVEIRA MELLO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "SENNA LOCADORA DE AUTOMOVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "TAM",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -396,6 +469,102 @@
       "target": 27,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 31/10/2012",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 73579,
+      "target": 28,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$146.200,00 (5 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 18/02/2025–04/02/2026)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 73579,
+      "target": 29,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$84.500,00 (3 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 13/08/2025–26/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 73579,
+      "target": 30,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$67.042,19 (10 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 26/01/2025–26/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 73579,
+      "target": 31,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$60.000,00 (8 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 17/06/2025–02/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 73579,
+      "target": 32,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$24.000,00 (3 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/01/2025–12/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 73579,
+      "target": 33,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$13.496,99 (7 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 16/01/2025–09/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 73579,
+      "target": 34,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11.550,00 (11 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 18/01/2025–24/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 73579,
+      "target": 35,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.863,85 (8 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 10/03/2025–09/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 73579,
+      "target": 36,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.500,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 06/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 73579,
+      "target": 37,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.786,35 (2 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 10/03/2025–09/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 73579,
+      "target": 38,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$635,00 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 05/05/2025–14/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 73579,
+      "target": 39,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$18,42 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

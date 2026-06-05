@@ -19,7 +19,7 @@ export async function generateMetadata({
   return {
     title: name ? `${name} — GrafoBR` : "GrafoBR",
     description: name
-      ? `Conexões de dados públicos de ${name}: doadores, empresas e contratos.`
+      ? `Conexões de dados públicos de ${name}: doadores, despesas, empresas e contratos.`
       : undefined,
   };
 }

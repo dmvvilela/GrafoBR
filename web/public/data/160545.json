@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 160545,
     "egoName": "Alexandre Leite",
-    "generatedAt": "2026-06-05T18:45:15.643025Z",
+    "generatedAt": "2026-06-05T20:37:25.155452Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,12 +17,30 @@
       "id": 160545,
       "name": "Alexandre Leite",
       "category": "politician",
-      "connectionCount": 6
+      "connectionCount": 18
+    },
+    {
+      "id": 17,
+      "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
     },
     {
       "id": 4,
       "name": "ALEXANDRE LEITE DA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 15,
+      "name": "AUTO POSTO PORTAL DE INTERLAGOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 12,
+      "name": "CELULAR FUNCIONAL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -31,9 +50,63 @@
       "connectionCount": 1
     },
     {
+      "id": 11,
+      "name": "DRA4 DERIVADOS DE PETROLEO LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 10,
+      "name": "ENEL - Eletropaulo Metropolitana Eletricidade de São Paulo S. A",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 9,
+      "name": "GOL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "MILTON LEITE DA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 18,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "RAUL IMÓVEIS - HARALAMOS BASSOUKOU",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 14,
+      "name": "RP Comercio de Copiadoras - Ltda",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 16,
+      "name": "RPW Monitoramento e Serviços LTDA - EPP",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 8,
+      "name": "TAM",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 13,
+      "name": "TELEFONICA BRASIL S/A",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -102,6 +175,102 @@
       "target": 6,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 21/06/2010",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 160545,
+      "target": 7,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$28.800,00 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 15/01/2025–25/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 8,
+      "source": 160545,
+      "target": 8,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.086,50 (6 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 14/01/2025–25/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 9,
+      "source": 160545,
+      "target": 9,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.183,39 (2 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 14/01/2025–24/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 10,
+      "source": 160545,
+      "target": 10,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$900,94 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 09/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 11,
+      "source": 160545,
+      "target": 11,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$829,51 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/02/2025–24/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 12,
+      "source": 160545,
+      "target": 12,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$628,02 (2 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 13,
+      "source": 160545,
+      "target": 13,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$622,98 (2 lançamentos; tipo: TELEFONIA; período: 09/01/2025–29/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 160545,
+      "target": 14,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$491,74 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 31/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 160545,
+      "target": 15,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$380,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 160545,
+      "target": 16,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$259,92 (1 lançamento; tipo: SERVIÇO DE SEGURANÇA PRESTADO POR EMPRESA ESPECIALIZADA.; período: 06/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 160545,
+      "target": 17,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$200,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 160545,
+      "target": 18,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4,24 (3 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

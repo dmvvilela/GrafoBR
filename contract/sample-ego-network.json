@@ -3,21 +3,23 @@
     "egoId": 1,
     "egoName": "Dep. Joana Exemplo",
     "generatedAt": "2026-06-04T00:00:00Z",
-    "sources": ["camara", "tse", "receita"],
+    "sources": ["camara", "camara_ceap", "tse", "receita"],
     "summary": null,
     "disclaimer": "Dados sintéticos para teste. Conexões não são acusações de irregularidade."
   },
   "nodes": [
-    { "id": 1, "name": "Dep. Joana Exemplo", "category": "politician", "connectionCount": 3 },
+    { "id": 1, "name": "Dep. Joana Exemplo", "category": "politician", "connectionCount": 4 },
     { "id": 2, "name": "Construtora Modelo LTDA", "category": "company", "connectionCount": 2 },
     { "id": 3, "name": "Serviços Fictícios ME", "category": "company", "connectionCount": 1 },
     { "id": 4, "name": "Investidor Hipotético S.A.", "category": "donor", "connectionCount": 1 },
-    { "id": 5, "name": "Carlos Exemplo", "category": "relative", "connectionCount": 1 }
+    { "id": 5, "name": "Carlos Exemplo", "category": "relative", "connectionCount": 1 },
+    { "id": 6, "name": "Fornecedor Exemplo Ltda.", "category": "supplier", "connectionCount": 1 }
   ],
   "links": [
     { "id": 1, "source": 1, "target": 2, "connectionType": "socio", "description": "Sócia administradora desde 2019 (dado sintético)", "strength": 2 },
     { "id": 2, "source": 5, "target": 3, "connectionType": "socio", "description": "Sócio (dado sintético)", "strength": 1 },
     { "id": 3, "source": 4, "target": 1, "connectionType": "doacao", "description": "Doação de campanha de R$50.000 em 2022 (dado sintético)", "strength": 1 },
-    { "id": 4, "source": 2, "target": 1, "connectionType": "contrato", "description": "Contrato público de R$1.2M em 2023 (dado sintético)", "strength": 2 }
+    { "id": 4, "source": 2, "target": 1, "connectionType": "contrato", "description": "Contrato público de R$1.2M em 2023 (dado sintético)", "strength": 2 },
+    { "id": 5, "source": 1, "target": 6, "connectionType": "despesa", "description": "Despesa de cota parlamentar de R$3.000 em 2025 (dado sintético)", "strength": 1 }
   ]
 }

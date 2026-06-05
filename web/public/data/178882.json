@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 178882,
     "egoName": "André Fufuca",
-    "generatedAt": "2026-06-05T18:45:15.928173Z",
+    "generatedAt": "2026-06-05T20:37:25.452128Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "tse"
     ],
     "summary": null,
@@ -15,7 +16,7 @@
       "id": 178882,
       "name": "André Fufuca",
       "category": "politician",
-      "connectionCount": 25
+      "connectionCount": 27
     },
     {
       "id": 4,
@@ -114,6 +115,12 @@
       "connectionCount": 1
     },
     {
+      "id": 26,
+      "name": "Latam Linhas Aéreas S.A",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "MARCOS FERNANDO GARMS",
       "category": "donor",
@@ -147,6 +154,12 @@
       "id": 1,
       "name": "PROGRESSISTAS - BRASIL - BR - NACIONAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "RAMAL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -367,6 +380,22 @@
       "target": 178882,
       "connectionType": "doacao",
       "description": "Doação de campanha de R$9.250,00 em 2022 registrada no TSE (16/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 178882,
+      "target": 26,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.059,85 (1 lançamento; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 29/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 178882,
+      "target": 27,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$0,01 (1 lançamento; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

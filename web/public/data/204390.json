@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 204390,
     "egoName": "Professor Alcides",
-    "generatedAt": "2026-06-05T18:45:21.656729Z",
+    "generatedAt": "2026-06-05T20:37:32.378988Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,7 +17,7 @@
       "id": 204390,
       "name": "Professor Alcides",
       "category": "politician",
-      "connectionCount": 24
+      "connectionCount": 28
     },
     {
       "id": 3,
@@ -115,9 +116,27 @@
       "connectionCount": 1
     },
     {
+      "id": 26,
+      "name": "FENIX COMUNICACAO, PRODUCAO E EVENTOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "JUSTINIANO & JUSTINIANO LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 18,
       "name": "LIGA DOS AMIGOS DO JARDIM ESMERALDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 25,
+      "name": "MBI Baiocchi Imoveis Condominios",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -142,6 +161,12 @@
       "id": 21,
       "name": "PROFESSOR ALCIDES RIBEIRO CONSULTORIA EMPRESARIAL LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "RAMAL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -241,7 +266,7 @@
       "source": 204390,
       "target": 10,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 19/12/2002",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 10/08/2011",
       "strength": 1
     },
     {
@@ -249,7 +274,7 @@
       "source": 204390,
       "target": 11,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 10/08/2011",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 19/12/2002",
       "strength": 1
     },
     {
@@ -354,6 +379,38 @@
       "target": 24,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 07/12/2011",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 204390,
+      "target": 25,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$233.513,70 (11 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 12/02/2025–12/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 204390,
+      "target": 26,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$147.300,00 (12 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 18/02/2025–01/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 204390,
+      "target": 27,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$111.755,03 (38 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/01/2025–22/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 204390,
+      "target": 28,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$14,66 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

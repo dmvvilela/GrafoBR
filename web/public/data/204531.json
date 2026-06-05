@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 204531,
     "egoName": "Guilherme Derrite",
-    "generatedAt": "2026-06-05T18:45:18.919753Z",
+    "generatedAt": "2026-06-05T20:37:28.878039Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,12 +17,24 @@
       "id": 204531,
       "name": "Guilherme Derrite",
       "category": "politician",
-      "connectionCount": 17
+      "connectionCount": 20
     },
     {
       "id": 9,
       "name": "ALEXANDRE AKIRA SASSAKI",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 19,
+      "name": "AUTO POSTO CONCORDE LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 20,
+      "name": "AUTO POSTO GOLDEN GAS LAGO LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -118,6 +131,12 @@
       "id": 15,
       "name": "WALTER CARLOS SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 18,
+      "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -256,6 +275,30 @@
       "target": 17,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 16/12/2021",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 204531,
+      "target": 18,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.850,70 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 15/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 204531,
+      "target": 19,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$238,25 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 15/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 204531,
+      "target": 20,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$200,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/12/2025)",
       "strength": 1
     }
   ]

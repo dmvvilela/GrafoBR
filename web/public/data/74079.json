@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 74079,
     "egoName": "José Priante",
-    "generatedAt": "2026-06-05T18:45:19.533107Z",
+    "generatedAt": "2026-06-05T20:37:29.725956Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,7 +17,13 @@
       "id": 74079,
       "name": "José Priante",
       "category": "politician",
-      "connectionCount": 8
+      "connectionCount": 24
+    },
+    {
+      "id": 20,
+      "name": "071 - LAGO NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
     },
     {
       "id": 6,
@@ -28,6 +35,48 @@
       "id": 7,
       "name": "AGROPECUARIA RIO DA PRATA LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 18,
+      "name": "AUTO POSTO 303 NORTE LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 21,
+      "name": "AUTO POSTO CINCO ESTRELAS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 13,
+      "name": "AZUL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 14,
+      "name": "CONDOMINIO DO EDIFICIO EMPIRE CENTER",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 15,
+      "name": "Cia Aérea - GOL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 11,
+      "name": "Cia Aérea - TAM",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 19,
+      "name": "Claro NXT Telecomunicações S.A",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -61,9 +110,57 @@
       "connectionCount": 1
     },
     {
+      "id": 16,
+      "name": "EQUATORIAL PARÁ DISTRIBUIDORA DE ENERGIA S.A",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 12,
+      "name": "GOL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 22,
+      "name": "JT COMERCIO DE DERIVADOS DE PETROLEO LTDA (POSTO 210)",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "MOVIMENTO DEMOCRATICO BRASILEIRO - BRASIL - BR - NACIONAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 9,
+      "name": "Mundial Serviços de Locação de Automóveis EIRELI",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 23,
+      "name": "POSTO DE COMBUSTIVEIS SAO RAFAEL LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 24,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 10,
+      "name": "TAM",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 17,
+      "name": "Telefônica Brasil S.A. VIVO",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -130,6 +227,134 @@
       "target": 8,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 12/09/2005",
+      "strength": 1
+    },
+    {
+      "id": 9,
+      "source": 74079,
+      "target": 9,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$121.000,00 (22 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 27/01/2025–17/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 10,
+      "source": 74079,
+      "target": 10,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$89.630,93 (64 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 14/01/2025–30/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 11,
+      "source": 74079,
+      "target": 11,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$26.346,10 (9 lançamentos; tipo: PASSAGEM AÉREA - RPA; período: 11/03/2025–16/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 12,
+      "source": 74079,
+      "target": 12,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$25.884,18 (14 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 13/01/2025–10/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 13,
+      "source": 74079,
+      "target": 13,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$12.923,22 (8 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 25/03/2025–27/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 74079,
+      "target": 14,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11.391,38 (18 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 21/02/2025–19/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 74079,
+      "target": 15,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.459,85 (1 lançamento; tipo: PASSAGEM AÉREA - RPA; período: 09/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 74079,
+      "target": 16,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.141,53 (16 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 10/01/2025–11/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 74079,
+      "target": 17,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.625,27 (5 lançamentos; tipo: TELEFONIA; período: 14/02/2025–13/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 74079,
+      "target": 18,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.891,10 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/01/2025–23/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 74079,
+      "target": 19,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$476,20 (3 lançamentos; tipo: TELEFONIA; período: 11/02/2025–10/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 74079,
+      "target": 20,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$200,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 29/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 74079,
+      "target": 21,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$200,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 22,
+      "source": 74079,
+      "target": 22,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$200,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 74079,
+      "target": 23,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$200,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 24,
+      "source": 74079,
+      "target": 24,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$27,92 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

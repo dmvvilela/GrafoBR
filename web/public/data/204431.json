@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 204431,
     "egoName": "Marcos Aurélio Sampaio",
-    "generatedAt": "2026-06-05T18:45:20.444084Z",
+    "generatedAt": "2026-06-05T20:37:30.854993Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,12 +17,30 @@
       "id": 204431,
       "name": "Marcos Aurélio Sampaio",
       "category": "politician",
-      "connectionCount": 10
+      "connectionCount": 20
+    },
+    {
+      "id": 11,
+      "name": "ANDRE LUIZ SANTOS MAGALHAES",
+      "category": "supplier",
+      "connectionCount": 1
     },
     {
       "id": 6,
       "name": "ARENILDO LIMA DE OLIVEIRA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 12,
+      "name": "AUTO LESTE LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 17,
+      "name": "AUTO POSTO JK LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -40,6 +59,12 @@
       "id": 7,
       "name": "FMJR EMPREENDIMENTOS LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 16,
+      "name": "GOL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -73,9 +98,45 @@
       "connectionCount": 1
     },
     {
+      "id": 14,
+      "name": "PARENTE & ARAUJO COMBUSTIVEL LTDA EPP",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PARTIDO SOCIAL DEMOCRATICO - PSD DIRETORIO NACIONAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 18,
+      "name": "POSTO DE COMBUSTIVEIS 206 LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 19,
+      "name": "POSTO SANTO EXPEDITO LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 20,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 13,
+      "name": "SS COMUNICACAO LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 15,
+      "name": "TAM",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -158,6 +219,86 @@
       "target": 10,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 18/05/2021",
+      "strength": 1
+    },
+    {
+      "id": 11,
+      "source": 204431,
+      "target": 11,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$150.000,00 (11 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 11/02/2025–03/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 12,
+      "source": 204431,
+      "target": 12,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$132.000,00 (11 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 14/01/2025–17/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 13,
+      "source": 204431,
+      "target": 13,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$132.000,00 (12 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 03/02/2025–02/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 204431,
+      "target": 14,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$85.700,00 (12 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/01/2025–13/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 204431,
+      "target": 15,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$41.686,52 (31 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 21/01/2025–10/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 204431,
+      "target": 16,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.996,49 (1 lançamento; tipo: PASSAGEM AÉREA - SIGEPA; período: 23/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 204431,
+      "target": 17,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$150,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 204431,
+      "target": 18,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$100,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 18/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 204431,
+      "target": 19,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$100,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 204431,
+      "target": 20,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1,36 (7 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

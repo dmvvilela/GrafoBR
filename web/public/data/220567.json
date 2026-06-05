@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 220567,
     "egoName": "Jeferson Rodrigues",
-    "generatedAt": "2026-06-05T18:45:19.308033Z",
+    "generatedAt": "2026-06-05T20:37:29.415112Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "tse"
     ],
     "summary": null,
@@ -15,7 +16,7 @@
       "id": 220567,
       "name": "Jeferson Rodrigues",
       "category": "politician",
-      "connectionCount": 25
+      "connectionCount": 39
     },
     {
       "id": 9,
@@ -30,9 +31,39 @@
       "connectionCount": 1
     },
     {
+      "id": 30,
+      "name": "AURA GRÁFICA E IMPRESSOS ESPECIAIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 13,
       "name": "CAMILLA BORGES MARTINS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "CLARO",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "CLARO NXT TELECOMUNICAÇÕES S.A",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "CONDOMÍNIO DO EDIFÍCIO EXECUTIVE TOWER",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "Conex Midia Comunicação Eireli",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -45,6 +76,18 @@
       "id": 15,
       "name": "ELOAN KAON MARTINS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "ENEL - COMPANHIA DE ENERGIA ELÉTRICA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "FEDERAL IMÓVEIS",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -132,9 +175,21 @@
       "connectionCount": 1
     },
     {
+      "id": 31,
+      "name": "MATA COMERCIO DE COMBUSTIVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "MIGUEL PEDRO PUPIM",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "RAMAL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -150,9 +205,33 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "SECRETARIA MUNICIPAL DA FAZENDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "SECRETARIA MUNICIPAL DA FAZENDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "SECRETARIA MUNICIPAL DA FAZENDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "SERGINO RIBEIRO DE MENDONCA NETO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "SUPER POSTO BRASIL V LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -165,6 +244,12 @@
       "id": 4,
       "name": "WALDEMIR MALAQUIAS DA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -367,6 +452,118 @@
       "target": 220567,
       "connectionType": "doacao",
       "description": "Doação de campanha de R$2.500,00 em 2022 registrada no TSE (14/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 220567,
+      "target": 26,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$295.550,00 (12 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 21/01/2025–12/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 220567,
+      "target": 27,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$80.985,57 (11 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/01/2025–28/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 220567,
+      "target": 28,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$59.546,55 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 17/02/2025–01/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 220567,
+      "target": 29,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$21.259,74 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 17/02/2025–02/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220567,
+      "target": 30,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$16.300,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 07/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220567,
+      "target": 31,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11.319,56 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 30/06/2025–28/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220567,
+      "target": 32,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.134,82 (24 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 13/01/2025–12/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220567,
+      "target": 33,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.289,00 (3 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 01/04/2025–28/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220567,
+      "target": 34,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$780,53 (6 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 12/03/2025–09/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220567,
+      "target": 35,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$647,82 (6 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 06/10/2025–26/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220567,
+      "target": 36,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$321,86 (4 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 06/10/2025–04/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220567,
+      "target": 37,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$237,51 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 09/04/2025–08/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220567,
+      "target": 38,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$143,37 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 04/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220567,
+      "target": 39,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$40,93 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

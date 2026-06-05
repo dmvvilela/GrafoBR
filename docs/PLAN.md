@@ -88,8 +88,8 @@ mirrored in TS at `web/src/lib/contract.ts`. Shape:
 ```
 
 - `id` is an **integer**, never a CPF/CNPJ (privacy + legal — see LEGAL.md).
-- `category` ∈ {`politician`,`company`,`donor`,`relative`,`other`} → drives node color.
-- `connectionType` ∈ {`socio`,`doacao`,`contrato`,`parente`,`other`} → drives edge color.
+- `category` ∈ {`politician`,`company`,`donor`,`supplier`,`relative`,`other`} → drives node color.
+- `connectionType` ∈ {`socio`,`doacao`,`despesa`,`contrato`,`parente`,`other`} → drives edge color.
 - `connectionCount` = node degree → drives node size (scaled 5–24px).
 - `strength` exists but is currently unused in rendering — don't over-invest.
 

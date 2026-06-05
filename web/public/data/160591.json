@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 160591,
     "egoName": "Vinicius Gurgel",
-    "generatedAt": "2026-06-05T18:45:22.891319Z",
+    "generatedAt": "2026-06-05T20:37:33.738698Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,12 +17,42 @@
       "id": 160591,
       "name": "Vinicius Gurgel",
       "category": "politician",
-      "connectionCount": 4
+      "connectionCount": 15
     },
     {
       "id": 2,
       "name": "AMAZONIA SEGURANCA LTDA.",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 13,
+      "name": "AMORETTO CAFES EXPRESSO LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 14,
+      "name": "CELULAR FUNCIONAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "EDENILTON LIMA PEREIRA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "G DOS S PESSOA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 9,
+      "name": "GOL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -31,15 +62,51 @@
       "connectionCount": 1
     },
     {
+      "id": 6,
+      "name": "I DOS S RODRIGUES",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 4,
       "name": "ICARO COMERCIO E COSNTRUCOES LTDA",
       "category": "company",
       "connectionCount": 1
     },
     {
+      "id": 8,
+      "name": "J. BATISTA DOS SANTOS SB NOGUEIRA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 12,
+      "name": "PRIME RENT A CAR",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 15,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 10,
+      "name": "Show de Bola Services Ltda Sdb Show de Bola",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 11,
+      "name": "TAM",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -74,6 +141,94 @@
       "target": 4,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 21/05/2003",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 160591,
+      "target": 5,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$198.000,00 (12 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 28/01/2025–23/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 160591,
+      "target": 6,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$90.000,00 (5 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 08/03/2025–30/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 160591,
+      "target": 7,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$84.851,24 (23 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 27/01/2025–30/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 8,
+      "source": 160591,
+      "target": 8,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$41.500,00 (3 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 07/08/2025–03/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 9,
+      "source": 160591,
+      "target": 9,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$39.635,77 (21 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 15/01/2025–14/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 10,
+      "source": 160591,
+      "target": 10,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$38.000,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 09/07/2025–29/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 11,
+      "source": 160591,
+      "target": 11,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$37.194,27 (23 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 19/02/2025–03/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 12,
+      "source": 160591,
+      "target": 12,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$32.400,00 (3 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 30/04/2025–30/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 13,
+      "source": 160591,
+      "target": 13,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.680,00 (11 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 08/01/2025–02/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 160591,
+      "target": 14,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.266,58 (12 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 160591,
+      "target": 15,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8,08 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

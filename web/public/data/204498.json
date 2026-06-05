@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 204498,
     "egoName": "Olival Marques",
-    "generatedAt": "2026-06-05T18:45:21.083284Z",
+    "generatedAt": "2026-06-05T20:37:31.750050Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,7 +17,7 @@
       "id": 204498,
       "name": "Olival Marques",
       "category": "politician",
-      "connectionCount": 26
+      "connectionCount": 32
     },
     {
       "id": 16,
@@ -37,6 +38,12 @@
       "connectionCount": 1
     },
     {
+      "id": 30,
+      "name": "AZUL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 17,
       "name": "CARLOS ROBERTO GOMES FURTADO",
       "category": "donor",
@@ -52,6 +59,12 @@
       "id": 18,
       "name": "CIBELLY SEIXAS DA COSTA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "DIAMOND COMERCIO E SERVICOS LTDA - DIAMOND",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -106,6 +119,12 @@
       "id": 5,
       "name": "GILBERTO MARQUES DE SOUZA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "GOL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -172,6 +191,24 @@
       "id": 15,
       "name": "PAULA CRISTINA GOMES FREIRE",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "Realize Comercio E Serviços LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "TAM",
+      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -382,6 +419,54 @@
       "target": 26,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 18/07/2022",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 204498,
+      "target": 27,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$253.000,00 (8 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 10/06/2025–07/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 204498,
+      "target": 28,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$157.500,00 (6 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 04/02/2025–05/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 204498,
+      "target": 29,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$46.329,01 (79 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 21/01/2025–22/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 204498,
+      "target": 30,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$45.180,50 (37 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 22/01/2025–22/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204498,
+      "target": 31,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$23.002,37 (31 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 02/01/2025–07/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204498,
+      "target": 32,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$22,19 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]

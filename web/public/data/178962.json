@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 178962,
     "egoName": "Carlos Gomes",
-    "generatedAt": "2026-06-05T18:45:16.640783Z",
+    "generatedAt": "2026-06-05T20:37:26.096978Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "tse"
     ],
     "summary": null,
@@ -15,7 +16,13 @@
       "id": 178962,
       "name": "Carlos Gomes",
       "category": "politician",
-      "connectionCount": 13
+      "connectionCount": 17
+    },
+    {
+      "id": 16,
+      "name": "054 - PARANOA 1 - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1
     },
     {
       "id": 11,
@@ -39,6 +46,12 @@
       "id": 6,
       "name": "ANDRE SILVA DA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 15,
+      "name": "AUTO POSTO CINCO ESTRELAS LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -69,6 +82,18 @@
       "id": 13,
       "name": "OSVALDO LUCAS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 17,
+      "name": "POSTO DE COMBUSTIVEIS CONNECTA CEILANDIA SUL LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 14,
+      "name": "POSTO LINHA VERDE LTDA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -199,6 +224,38 @@
       "target": 178962,
       "connectionType": "doacao",
       "description": "Doação de campanha de R$848,30 em 2022 registrada no TSE (15/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 178962,
+      "target": 14,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$296,30 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 178962,
+      "target": 15,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$200,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 178962,
+      "target": 16,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$100,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 178962,
+      "target": 17,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$50,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/11/2025)",
       "strength": 1
     }
   ]

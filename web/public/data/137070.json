@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 137070,
     "egoName": "Vicentinho Júnior",
-    "generatedAt": "2026-06-05T18:45:22.865162Z",
+    "generatedAt": "2026-06-05T20:37:33.706380Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
@@ -16,7 +17,7 @@
       "id": 137070,
       "name": "Vicentinho Júnior",
       "category": "politician",
-      "connectionCount": 28
+      "connectionCount": 37
     },
     {
       "id": 8,
@@ -40,6 +41,18 @@
       "id": 6,
       "name": "AMANDA AIRES SOBRAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "AMORETTO CAFES EXPRESSO LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "AZUL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -85,9 +98,21 @@
       "connectionCount": 1
     },
     {
+      "id": 30,
+      "name": "GISELE APARECIDA DE ARAUJO METER LTDA",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 24,
       "name": "GLEIDSON GOMES DE ARAUJO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "GOL",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -109,9 +134,21 @@
       "connectionCount": 1
     },
     {
+      "id": 29,
+      "name": "LYANDRA RIBEIRO SOARES",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 25,
       "name": "MARCELO FERREIRA SENA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "MARCOANTONIODONASCIMENTOGAMA",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -145,6 +182,12 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
       "id": 27,
       "name": "REDE TAPAJOS DE COMUNICACAO LTDA",
       "category": "company",
@@ -154,6 +197,18 @@
       "id": 22,
       "name": "RUBENS BATISTA DE FREITAS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "RUILAN DA SILVA SANTOS",
+      "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "TAM",
+      "category": "supplier",
       "connectionCount": 1
     },
     {
@@ -410,6 +465,78 @@
       "target": 28,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 15/04/2013",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 137070,
+      "target": 29,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$57.000,00 (12 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 28/01/2025–29/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 137070,
+      "target": 30,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$39.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 13/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 137070,
+      "target": 31,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$37.657,27 (32 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 23/01/2025–30/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 137070,
+      "target": 32,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$21.000,00 (3 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 04/11/2025–29/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 137070,
+      "target": 33,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.689,34 (6 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 12/03/2025–26/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 137070,
+      "target": 34,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8.800,00 (10 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 07/01/2025–01/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 137070,
+      "target": 35,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 28/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 137070,
+      "target": 36,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.484,98 (1 lançamento; tipo: PASSAGEM AÉREA - SIGEPA; período: 05/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 137070,
+      "target": 37,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$15,48 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     }
   ]
