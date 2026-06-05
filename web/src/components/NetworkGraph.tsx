@@ -47,6 +47,7 @@ import {
 interface NetworkGraphProps {
   data: EgoNetwork;
   searchQuery?: string;
+  focusId?: number | null;
   onSelectNode?: (node: GraphNode) => void;
 }
 
@@ -74,6 +75,7 @@ function isNodeMatch(node: GraphNode, normalizedQuery: string): boolean {
 export default function NetworkGraph({
   data,
   searchQuery = "",
+  focusId = null,
   onSelectNode,
 }: NetworkGraphProps) {
   const svgRef = useRef<SVGSVGElement | null>(null);
@@ -89,6 +91,26 @@ export default function NetworkGraph({
   }, [data.nodes, normalizedQuery]);
 
   const hasSearch = normalizedQuery.length > 0;
+
+  const adjacency = useMemo(() => {
+    const map = new Map<number, Set<number>>();
+    const add = (a: number, b: number) => {
+      if (!map.has(a)) map.set(a, new Set());
+      map.get(a)!.add(b);
+    };
+    for (const link of data.links) {
+      add(link.source, link.target);
+      add(link.target, link.source);
+    }
+    return map;
+  }, [data.links]);
+
+  const focusSet = useMemo(() => {
+    if (focusId == null) return null;
+    const set = new Set<number>([focusId]);
+    for (const n of adjacency.get(focusId) ?? []) set.add(n);
+    return set;
+  }, [focusId, adjacency]);
 
   useEffect(() => {
     onSelectNodeRef.current = onSelectNode;
@@ -241,28 +263,26 @@ export default function NetworkGraph({
     if (!svgElement) return;
 
     const svg = d3.select(svgElement);
+    // focus (clicked node + neighbors) takes precedence over the search filter
+    const nodeOn = (id: number) =>
+      focusSet ? focusSet.has(id) : !hasSearch || matchIds.has(id);
+
     svg
       .selectAll<SVGCircleElement, SimulationNode>(".graph-nodes circle")
-      .attr("opacity", (graphNode) =>
-        !hasSearch || matchIds.has(graphNode.id) ? 1 : 0.18,
-      );
+      .attr("opacity", (graphNode) => (nodeOn(graphNode.id) ? 1 : 0.12));
 
     svg
       .selectAll<SVGTextElement, SimulationNode>(".graph-labels text")
-      .attr("opacity", (graphNode) =>
-        !hasSearch || matchIds.has(graphNode.id) ? 0.92 : 0.16,
-      );
+      .attr("opacity", (graphNode) => (nodeOn(graphNode.id) ? 0.92 : 0.08));
 
     svg
       .selectAll<SVGLineElement, SimulationLink>(".graph-links line")
       .attr("stroke-opacity", (edge) => {
         const sourceId = getLinkedNodeId(edge.source);
         const targetId = getLinkedNodeId(edge.target);
-        return !hasSearch || (matchIds.has(sourceId) && matchIds.has(targetId))
-          ? 0.72
-          : 0.1;
+        return nodeOn(sourceId) && nodeOn(targetId) ? 0.85 : 0.07;
       });
-  }, [hasSearch, matchIds]);
+  }, [hasSearch, matchIds, focusSet]);
 
   return (
     <div className="overflow-hidden rounded-2xl border border-white/5 bg-white/[0.03]">

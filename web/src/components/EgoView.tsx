@@ -123,7 +123,12 @@ export default function EgoView({
       </header>
 
       <div className="grid gap-5 lg:grid-cols-[1fr_330px]">
-        <NetworkGraph data={ego} searchQuery={query} onSelectNode={setSelected} />
+        <NetworkGraph
+          data={ego}
+          searchQuery={query}
+          focusId={selected?.id ?? null}
+          onSelectNode={setSelected}
+        />
 
         <aside className="space-y-4">
           <div className="relative">
