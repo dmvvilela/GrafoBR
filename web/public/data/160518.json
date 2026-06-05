@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160518,
     "egoName": "Weliton Prado",
-    "generatedAt": "2026-06-05T20:37:33.801823Z",
+    "generatedAt": "2026-06-05T21:12:33.505007Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160518,
       "name": "Weliton Prado",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 54
     },
     {
       "id": 16,
@@ -137,6 +138,18 @@
       "id": 13,
       "name": "EMILSONEI GOMES DA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -293,6 +306,12 @@
       "id": 32,
       "name": "REGIONALZÃO NOTICIAS, CONSULTORIAS E PESQUISA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +752,30 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$755,66 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/02/2025–23/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 160518,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$69.677.188,00 empenhado, R$37.573.786,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 160518,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$18.934.500,00 empenhado, R$17.943.900,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 160518,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$18.637.991,00 empenhado, R$18.451.612,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

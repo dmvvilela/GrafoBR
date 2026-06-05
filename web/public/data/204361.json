@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204361,
     "egoName": "Carlos Chiodini",
-    "generatedAt": "2026-06-05T20:37:26.077923Z",
+    "generatedAt": "2026-06-05T21:12:25.107436Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204361,
       "name": "Carlos Chiodini",
       "category": "politician",
-      "connectionCount": 42
+      "connectionCount": 47
     },
     {
       "id": 15,
@@ -53,6 +54,12 @@
       "id": 22,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -92,6 +99,12 @@
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "DANIEL GUSTAVO SCHMITZ DE ARRUDA",
       "category": "donor",
@@ -119,6 +132,18 @@
       "id": 11,
       "name": "EDUARDO BERTOLDI",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -263,6 +288,12 @@
       "id": 39,
       "name": "SIM REDE DE POSTOS LTDA - IMBITUBA FERJU",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -607,6 +638,46 @@
       "target": 42,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$266,85 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 204361,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.616.827,00 empenhado, R$45.087.957,00 pago (13 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 204361,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$50.125.482,00 empenhado, R$49.951.603,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 204361,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$1.850.000,00 empenhado, R$350.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 204361,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.499.982,00 empenhado, R$749.509,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 204361,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$150.000,00 empenhado, R$150.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

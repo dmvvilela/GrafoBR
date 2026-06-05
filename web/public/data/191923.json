@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 191923,
     "egoName": "Flávio Nogueira",
-    "generatedAt": "2026-06-05T20:37:28.403155Z",
+    "generatedAt": "2026-06-05T21:12:27.574606Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 191923,
       "name": "Flávio Nogueira",
       "category": "politician",
-      "connectionCount": 29
+      "connectionCount": 33
     },
     {
       "id": 5,
@@ -70,6 +71,18 @@
       "id": 10,
       "name": "DANISIO GUIMARAES E MARABUCO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -148,6 +161,18 @@
       "id": 7,
       "name": "ROSELYNE BARROS MORAIS DA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -424,6 +449,38 @@
       "target": 29,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$33,21 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 191923,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.525.539,00 empenhado, R$54.525.539,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 191923,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$51.525.426,00 empenhado, R$51.351.050,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 191923,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$849.998,00 empenhado (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 191923,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$349.434,00 empenhado, R$349.434,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

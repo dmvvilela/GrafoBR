@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220528,
     "egoName": "Dr. Victor Linhalis",
-    "generatedAt": "2026-06-05T20:37:27.562848Z",
+    "generatedAt": "2026-06-05T21:12:26.797694Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220528,
       "name": "Dr. Victor Linhalis",
       "category": "politician",
-      "connectionCount": 39
+      "connectionCount": 45
     },
     {
       "id": 33,
@@ -59,6 +60,18 @@
       "id": 27,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -104,6 +117,18 @@
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 26,
       "name": "EDP - ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A",
       "category": "supplier",
@@ -113,6 +138,12 @@
       "id": 5,
       "name": "ETTORE DA ROS RUY",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -215,6 +246,12 @@
       "id": 18,
       "name": "SUPREMA MOBILIDADE LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -565,6 +602,54 @@
       "target": 39,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$400,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 220528,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.572.851,00 empenhado, R$34.137.058,00 pago (9 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 220528,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$29.323.775,00 empenhado, R$29.177.396,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 220528,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$4.999.998,00 empenhado, R$239.998,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 220528,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 220528,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.000.000,00 empenhado, R$1.000.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 220528,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$749.946,00 empenhado, R$748.457,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

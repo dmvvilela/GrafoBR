@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178934,
     "egoName": "Toninho Wandscheer",
-    "generatedAt": "2026-06-05T20:37:33.603312Z",
+    "generatedAt": "2026-06-05T21:12:33.264538Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 178934,
       "name": "Toninho Wandscheer",
       "category": "politician",
-      "connectionCount": 42
+      "connectionCount": 53
     },
     {
       "id": 33,
@@ -110,6 +111,12 @@
       "connectionCount": 1
     },
     {
+      "id": 47,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 29,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
@@ -125,6 +132,12 @@
       "id": 42,
       "name": "CURY EMPREEND. HOTELEIROS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -146,15 +159,51 @@
       "connectionCount": 1
     },
     {
+      "id": 49,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 41,
       "name": "EMPRESA HOTELEIRA PORTO MADERO LTDA",
       "category": "supplier",
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 22,
       "name": "Enio Rudnei Pereira dos Anjos & CIA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Essencial à justiça",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -212,6 +261,12 @@
       "connectionCount": 1
     },
     {
+      "id": 52,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PARTIDO REPUBLICANO DA ORDEM SOCIAL - PROS",
       "category": "donor",
@@ -251,6 +306,18 @@
       "id": 16,
       "name": "SERRA DO CAULIM MINERACAO LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -607,6 +674,94 @@
       "target": 42,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.032,00 (5 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 21/02/2025–24/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 178934,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$55.526.178,00 empenhado, R$37.876.134,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 178934,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$27.160.335,00 empenhado, R$27.125.335,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 178934,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$6.713.536,00 empenhado (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 178934,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$5.500.000,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 178934,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$4.088.762,00 empenhado, R$2.738.762,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 178934,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.898.899,00 empenhado, R$348.600,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 178934,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.399.796,00 empenhado, R$780.782,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 178934,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.000.000,00 empenhado, R$980.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 178934,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$400.000,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 178934,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$399.822,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 178934,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Essencial à justiça: R$269.667,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220641,
     "egoName": "Rodrigo Gambale",
-    "generatedAt": "2026-06-05T20:37:32.861145Z",
+    "generatedAt": "2026-06-05T21:12:32.382584Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220641,
       "name": "Rodrigo Gambale",
       "category": "politician",
-      "connectionCount": 30
+      "connectionCount": 32
     },
     {
       "id": 27,
@@ -89,6 +90,12 @@
       "id": 15,
       "name": "EDP São Paulo Distribuição de Energia S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -167,6 +174,12 @@
       "id": 8,
       "name": "SILVANA VALIERIS BUENO DE ALMEIDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -439,6 +452,22 @@
       "target": 30,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$692,00 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/02/2025–01/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220641,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$40.517.173,00 empenhado, R$33.767.173,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220641,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$34.628.320,00 empenhado, R$34.463.820,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

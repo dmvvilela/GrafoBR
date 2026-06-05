@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220621,
     "egoName": "Sargento Gonçalves",
-    "generatedAt": "2026-06-05T20:37:33.155660Z",
+    "generatedAt": "2026-06-05T21:12:32.759336Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220621,
       "name": "Sargento Gonçalves",
       "category": "politician",
-      "connectionCount": 31
+      "connectionCount": 40
     },
     {
       "id": 18,
@@ -35,6 +36,18 @@
       "id": 9,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -62,9 +75,27 @@
       "connectionCount": 1
     },
     {
+      "id": 39,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "DEBORA NASCIMENTO DE OLIVEIRA DIAS SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Desporto e lazer",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -77,6 +108,18 @@
       "id": 2,
       "name": "EVANDRO GONCALVES DA SILVA JUNIOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -185,6 +228,18 @@
       "id": 16,
       "name": "STAR CITY MIDIA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -453,6 +508,78 @@
       "target": 31,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$488,60 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220621,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$39.151.027,00 empenhado, R$33.913.643,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220621,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$25.414.150,00 empenhado, R$25.283.376,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220621,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.629.190,00 empenhado, R$2.449.190,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220621,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$2.798.741,00 empenhado, R$723.000,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220621,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$2.771.565,00 empenhado, R$697.200,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220621,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$469.772,00 empenhado, R$334.161,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220621,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$200.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220621,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$200.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 220621,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$200.000,00 empenhado, R$102.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

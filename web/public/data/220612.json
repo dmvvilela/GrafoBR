@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220612,
     "egoName": "Bebeto",
-    "generatedAt": "2026-06-05T20:37:25.768693Z",
+    "generatedAt": "2026-06-05T21:12:24.759767Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220612,
       "name": "Bebeto",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 38
     },
     {
       "id": 6,
@@ -67,6 +68,12 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 21,
       "name": "BRASAL COMBUSTIVEIS LTDA",
       "category": "supplier",
@@ -103,9 +110,33 @@
       "connectionCount": 1
     },
     {
+      "id": 38,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "Direção Estadual/Distrital",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -196,6 +227,12 @@
       "id": 3,
       "name": "RODRIGO RODRIGUES DA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -466,6 +503,54 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$690,01 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/07/2025–14/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220612,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$39.440.985,00 empenhado, R$39.440.985,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220612,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$15.620.000,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220612,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$13.486.585,00 empenhado, R$13.437.585,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220612,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$6.000.000,00 empenhado (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220612,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$300.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220612,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$298.667,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

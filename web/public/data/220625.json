@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220625,
     "egoName": "Delegada Ione",
-    "generatedAt": "2026-06-05T20:37:27.017521Z",
+    "generatedAt": "2026-06-05T21:12:26.132650Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220625,
       "name": "Delegada Ione",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 57
     },
     {
       "id": 41,
@@ -43,6 +44,12 @@
       "connectionCount": 1
     },
     {
+      "id": 54,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 32,
       "name": "Alvorada Veiculos Ltda ME",
       "category": "supplier",
@@ -52,6 +59,12 @@
       "id": 28,
       "name": "Anga Exploração Rural LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -88,6 +101,12 @@
       "id": 13,
       "name": "DARCI FERREIRA DA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Desporto e lazer",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -130,6 +149,18 @@
       "id": 6,
       "name": "EUELI VIEIRA SOBRAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -307,9 +338,21 @@
       "connectionCount": 1
     },
     {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 33,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -718,6 +761,62 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.720,68 (1 lançamento; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 23/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220625,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$36.818.169,00 empenhado, R$35.344.051,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220625,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$27.513.836,00 empenhado, R$27.385.991,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220625,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$5.854.947,00 empenhado, R$5.254.947,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220625,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.697.000,00 empenhado, R$1.694.212,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220625,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.027.005,00 empenhado, R$7.200,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220625,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$860.000,00 empenhado, R$13.200,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220625,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$619.995,00 empenhado, R$6.544,00 pago (2 emendas; 2025)",
       "strength": 1
     }
   ]

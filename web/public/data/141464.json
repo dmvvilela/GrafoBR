@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 141464,
     "egoName": "José Airton Félix Cirilo",
-    "generatedAt": "2026-06-05T20:37:29.673887Z",
+    "generatedAt": "2026-06-05T21:12:28.834064Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 141464,
       "name": "José Airton Félix Cirilo",
       "category": "politician",
-      "connectionCount": 30
+      "connectionCount": 36
     },
     {
       "id": 4,
@@ -80,6 +81,12 @@
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 30,
       "name": "EDVALDO FRANCISCO DE OLIVEIRA",
       "category": "supplier",
@@ -101,6 +108,18 @@
       "id": 13,
       "name": "EVOLUCAO MARKETING E COMUNICACAO CORPORATIVA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -152,6 +171,12 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PARTIDO DOS TRABALHADORES - BRASIL - BR - NACIONAL",
       "category": "donor",
@@ -176,6 +201,12 @@
       "connectionCount": 1
     },
     {
+      "id": 31,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "TAM",
       "category": "supplier",
@@ -185,6 +216,12 @@
       "id": 29,
       "name": "TIM S/A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -439,6 +476,54 @@
       "target": 30,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$329,00 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 01/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 141464,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$58.195.087,00 empenhado, R$52.197.397,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 141464,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$45.922.925,00 empenhado, R$45.783.771,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 141464,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$2.000.000,00 empenhado, R$30.548,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 141464,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$677.650,00 empenhado, R$497.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 141464,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$234.287,00 empenhado, R$224.448,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 141464,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$98.134,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

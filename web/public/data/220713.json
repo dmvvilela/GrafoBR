@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 220713,
     "egoName": "Saullo Vianna",
-    "generatedAt": "2026-06-05T20:37:33.186271Z",
+    "generatedAt": "2026-06-05T21:12:32.796591Z",
     "sources": [
       "camara",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -16,7 +17,7 @@
       "id": 220713,
       "name": "Saullo Vianna",
       "category": "politician",
-      "connectionCount": 27
+      "connectionCount": 32
     },
     {
       "id": 9,
@@ -40,6 +41,18 @@
       "id": 8,
       "name": "AZIZILENE GEBER DOS SANTOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -73,6 +86,12 @@
       "connectionCount": 1
     },
     {
+      "id": 30,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "ELEICAO 2022 WILSON MIRANDA LIMA GOVERNADOR",
       "category": "donor",
@@ -82,6 +101,12 @@
       "id": 16,
       "name": "EVIE CHRISTIEN DE FIGUEIREDO RONDON",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -166,6 +191,12 @@
       "id": 27,
       "name": "SNJ SERVICOS AUXILIARES DO TRANSPORTE AEREO LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -396,6 +427,46 @@
       "target": 27,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 29/06/2018",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 220713,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.835.134,00 empenhado, R$52.835.134,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 220713,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$17.685.679,00 empenhado, R$17.685.679,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220713,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$2.664.027,00 empenhado, R$2.474.853,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220713,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$700.000,00 empenhado, R$700.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220713,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$260.000,00 empenhado, R$101.023,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

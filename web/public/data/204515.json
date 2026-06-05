@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204515,
     "egoName": "André Janones",
-    "generatedAt": "2026-06-05T20:37:25.465884Z",
+    "generatedAt": "2026-06-05T21:12:24.397791Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204515,
       "name": "André Janones",
       "category": "politician",
-      "connectionCount": 28
+      "connectionCount": 36
     },
     {
       "id": 11,
@@ -73,6 +74,12 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "BASE LAB CONSULTORIA POLÍTICA LTDA",
       "category": "supplier",
@@ -97,9 +104,39 @@
       "connectionCount": 1
     },
     {
+      "id": 32,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "EDITORA GRAFICA PAULA LTDA ME",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -139,6 +176,12 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "Múltiplo",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 23,
       "name": "ORION INN HOTEL",
       "category": "supplier",
@@ -166,6 +209,12 @@
       "id": 4,
       "name": "SEVEN COMUNICAÇÃO INTELIGENTE",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -410,6 +459,70 @@
       "target": 28,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$491,69 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/04/2025–19/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 204515,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$56.040.779,00 empenhado, R$50.967.783,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 204515,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$42.436.097,00 empenhado, R$42.323.961,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204515,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$2.919.107,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204515,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$2.424.280,00 empenhado (3 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204515,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.629.209,00 empenhado, R$1.629.209,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204515,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204515,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$300.000,00 empenhado, R$6.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 204515,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$49.795,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

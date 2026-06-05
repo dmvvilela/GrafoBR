@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204353,
     "egoName": "Aline Gurgel",
-    "generatedAt": "2026-06-05T20:37:25.243431Z",
+    "generatedAt": "2026-06-05T21:12:24.099903Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204353,
       "name": "Aline Gurgel",
       "category": "politician",
-      "connectionCount": 16
+      "connectionCount": 19
     },
     {
       "id": 2,
@@ -68,6 +69,18 @@
       "connectionCount": 1
     },
     {
+      "id": 19,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 18,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "JUMAR RIBEIRO PEREIRA",
       "category": "donor",
@@ -107,6 +120,12 @@
       "id": 1,
       "name": "REPUBLICANOS - BRASIL - BR - NACIONAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 17,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -243,6 +262,30 @@
       "target": 16,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1,14 (1 lançamento; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 204353,
+      "target": 17,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$15.835.919,00 empenhado, R$15.535.926,00 pago (3 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 204353,
+      "target": 18,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$15.161.772,00 empenhado, R$15.161.772,00 pago (3 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 204353,
+      "target": 19,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$814.603,00 empenhado, R$63.180,00 pago (2 emendas; 2023)",
       "strength": 1
     }
   ]

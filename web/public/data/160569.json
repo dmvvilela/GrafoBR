@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160569,
     "egoName": "Waldenor Pereira",
-    "generatedAt": "2026-06-05T20:37:33.785914Z",
+    "generatedAt": "2026-06-05T21:12:33.480470Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160569,
       "name": "Waldenor Pereira",
       "category": "politician",
-      "connectionCount": 38
+      "connectionCount": 45
     },
     {
       "id": 5,
@@ -59,6 +60,12 @@
       "id": 18,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Agricultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -104,6 +111,18 @@
       "connectionCount": 1
     },
     {
+      "id": 42,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 37,
       "name": "FABRICIO ARAUJO MEDEIROS SILVA",
       "category": "supplier",
@@ -131,6 +150,12 @@
       "id": 35,
       "name": "GREGORY VICTORELLI SOARES CONSULTORIA EM TECNOLOGIA DA INFORM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -224,6 +249,18 @@
       "connectionCount": 1
     },
     {
+      "id": 39,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 21,
       "name": "TAM",
       "category": "supplier",
@@ -239,6 +276,12 @@
       "id": 23,
       "name": "TELEVISAO CONQUISTA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -551,6 +594,62 @@
       "target": 38,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.000,00 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 14/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 160569,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.625.485,00 empenhado, R$53.325.485,00 pago (14 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 160569,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$44.089.687,00 empenhado, R$43.928.309,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 160569,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$4.935.746,00 empenhado, R$72.187,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 160569,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.599.317,00 empenhado, R$786.506,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 160569,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.500.000,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 160569,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 160569,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$449.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

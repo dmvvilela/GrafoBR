@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178972,
     "egoName": "Alex Manente",
-    "generatedAt": "2026-06-05T20:37:25.128575Z",
+    "generatedAt": "2026-06-05T21:12:23.934562Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 178972,
       "name": "Alex Manente",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 53
     },
     {
       "id": 41,
@@ -137,6 +138,12 @@
       "id": 17,
       "name": "ERICA DA SILVA ABREU",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -287,6 +294,12 @@
       "id": 36,
       "name": "SONDAINTEL INTELIGENCIA DE DADOS E TECNOLOGIA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +746,22 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$22,40 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 178972,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$55.730.221,00 empenhado, R$44.430.221,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 178972,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$51.258.877,00 empenhado, R$51.093.118,00 pago (4 emendas; 2023–2025)",
       "strength": 1
     }
   ]

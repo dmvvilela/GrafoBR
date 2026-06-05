@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74156,
     "egoName": "Leonardo Monteiro",
-    "generatedAt": "2026-06-05T20:37:30.228569Z",
+    "generatedAt": "2026-06-05T21:12:29.471308Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 74156,
       "name": "Leonardo Monteiro",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 64
     },
     {
       "id": 34,
@@ -86,6 +87,18 @@
       "connectionCount": 1
     },
     {
+      "id": 58,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 29,
       "name": "BETEL LOCADORA DE VEICULOS EIRELI",
       "category": "supplier",
@@ -146,9 +159,27 @@
       "connectionCount": 1
     },
     {
+      "id": 63,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 64,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 14,
       "name": "DARLAN CORREA DIAS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -185,6 +216,18 @@
       "id": 9,
       "name": "EUDES HELINO DA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -227,6 +270,18 @@
       "id": 39,
       "name": "MÁRCIO MALAFAIA AREDES JUNIOR",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 62,
+      "name": "Múltiplo",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Organização agrária",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -284,6 +339,12 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 50,
       "name": "TAM",
       "category": "supplier",
@@ -302,9 +363,21 @@
       "connectionCount": 1
     },
     {
+      "id": 61,
+      "name": "Trabalho",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 27,
       "name": "UNIAO DAS CAMARAS MUNCIPAIS DE MINAS GERAIS",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +820,102 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$620,50 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 27/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 74156,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$59.962.168,00 empenhado, R$55.681.881,00 pago (17 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 74156,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$29.636.596,00 empenhado, R$29.485.596,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 74156,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$6.000.000,00 empenhado, R$121.102,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 74156,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$3.261.632,00 empenhado, R$310.841,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 74156,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.525.841,00 empenhado, R$1.406.841,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 74156,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.601.104,00 empenhado, R$313.127,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 74156,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.599.035,00 empenhado, R$284.498,00 pago (5 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 74156,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$1.000.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 74156,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 62,
+      "source": 74156,
+      "target": 62,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$325.841,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 63,
+      "source": 74156,
+      "target": 63,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$200.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 64,
+      "source": 74156,
+      "target": 64,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$100.000,00 empenhado, R$100.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

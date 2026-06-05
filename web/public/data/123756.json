@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 123756,
     "egoName": "Antônia Lúcia",
-    "generatedAt": "2026-06-05T20:37:25.532297Z",
+    "generatedAt": "2026-06-05T21:12:24.482349Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 123756,
       "name": "Antônia Lúcia",
       "category": "politician",
-      "connectionCount": 49
+      "connectionCount": 57
     },
     {
       "id": 37,
@@ -104,6 +105,18 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 18,
       "name": "BEATRIZ GONCALVES DOS SANTOS NASCIMENTO",
       "category": "donor",
@@ -158,9 +171,33 @@
       "connectionCount": 1
     },
     {
+      "id": 52,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 39,
       "name": "E.O.PEREIRA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -290,6 +327,12 @@
       "connectionCount": 1
     },
     {
+      "id": 50,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 35,
       "name": "TAM",
       "category": "supplier",
@@ -299,6 +342,12 @@
       "id": 36,
       "name": "TELES BRAZIL LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -705,6 +754,70 @@
       "target": 49,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$13,01 (8 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 123756,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.319.630,00 empenhado, R$31.417.376,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 123756,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$18.717.984,00 empenhado, R$18.534.605,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 123756,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$11.007.084,00 empenhado, R$297.084,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 123756,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$2.530.000,00 empenhado, R$606.365,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 123756,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$2.500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 123756,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$2.047.077,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 123756,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$440.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 123756,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$325.000,00 empenhado, R$325.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

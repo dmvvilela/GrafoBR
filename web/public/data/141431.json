@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 141431,
     "egoName": "Fernando Coelho Filho",
-    "generatedAt": "2026-06-05T20:37:28.239915Z",
+    "generatedAt": "2026-06-05T21:12:27.401973Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 141431,
       "name": "Fernando Coelho Filho",
       "category": "politician",
-      "connectionCount": 41
+      "connectionCount": 47
     },
     {
       "id": 38,
@@ -68,6 +69,12 @@
       "connectionCount": 1
     },
     {
+      "id": 44,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 25,
       "name": "BANANA OUTDOORS LTDA",
       "category": "supplier",
@@ -110,9 +117,27 @@
       "connectionCount": 1
     },
     {
+      "id": 47,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 4,
       "name": "EMIVAL RAMOS CAIADO FILHO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -224,6 +249,12 @@
       "connectionCount": 1
     },
     {
+      "id": 42,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 17,
       "name": "Stellantis Locadora de Automóveis LTDA",
       "category": "supplier",
@@ -251,6 +282,12 @@
       "id": 2,
       "name": "UNIAO BRASIL - PERNAMBUCO - PE - ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -593,6 +630,54 @@
       "target": 41,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$380,00 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/02/2025–13/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 141431,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.487.015,00 empenhado, R$43.483.034,00 pago (10 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 141431,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$18.285.792,00 empenhado, R$18.285.792,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 141431,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$16.550.799,00 empenhado, R$3.176.457,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 141431,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$16.475.985,00 empenhado, R$1.458.162,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 141431,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$249.370,00 empenhado, R$158.713,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 141431,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

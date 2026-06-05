@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204512,
     "egoName": "Delegado Marcelo Freitas",
-    "generatedAt": "2026-06-05T20:37:27.100064Z",
+    "generatedAt": "2026-06-05T21:12:26.238880Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204512,
       "name": "Delegado Marcelo Freitas",
       "category": "politician",
-      "connectionCount": 31
+      "connectionCount": 37
     },
     {
       "id": 27,
@@ -49,6 +50,18 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 24,
       "name": "CEMIG DISTRIBUIÇÃO S.A",
       "category": "supplier",
@@ -58,6 +71,18 @@
       "id": 28,
       "name": "COPASA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -169,6 +194,12 @@
       "connectionCount": 1
     },
     {
+      "id": 32,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 17,
       "name": "TAM",
       "category": "supplier",
@@ -190,6 +221,12 @@
       "id": 3,
       "name": "UNIAO BRASIL - MINAS GERAIS - MG - ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -452,6 +489,54 @@
       "target": 31,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.665,53 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 24/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204512,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.123.586,00 empenhado, R$49.967.068,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204512,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$35.414.468,00 empenhado, R$35.314.468,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204512,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$10.637.992,00 empenhado, R$1.711.855,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204512,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$4.066.336,00 empenhado, R$650.370,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 204512,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.200.000,00 empenhado, R$900.000,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 204512,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$500.000,00 empenhado, R$10.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

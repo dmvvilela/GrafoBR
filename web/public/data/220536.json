@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220536,
     "egoName": "Zé Haroldo Cathedral",
-    "generatedAt": "2026-06-05T20:37:33.944962Z",
+    "generatedAt": "2026-06-05T21:12:33.692908Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220536,
       "name": "Zé Haroldo Cathedral",
       "category": "politician",
-      "connectionCount": 54
+      "connectionCount": 63
     },
     {
       "id": 35,
@@ -86,6 +87,18 @@
       "connectionCount": 1
     },
     {
+      "id": 58,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 62,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 31,
       "name": "BALTA E MORALES LTDA",
       "category": "supplier",
@@ -122,6 +135,12 @@
       "connectionCount": 1
     },
     {
+      "id": 61,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "DAGMAR VIEIRA RAMALHO FILHO",
       "category": "donor",
@@ -146,6 +165,18 @@
       "connectionCount": 1
     },
     {
+      "id": 57,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 43,
       "name": "EDITORA BOA VISTA LTDA",
       "category": "supplier",
@@ -161,6 +192,18 @@
       "id": 9,
       "name": "EZIO DE JESUS GOMES DE LUCAS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 63,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -305,6 +348,18 @@
       "id": 19,
       "name": "SILAS PAES PINTO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -775,6 +830,78 @@
       "target": 54,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$175,70 (3 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 08/05/2025–02/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220536,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.675.528,00 empenhado, R$31.188.528,00 pago (9 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220536,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$27.399.401,00 empenhado, R$27.295.042,00 pago (11 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220536,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$7.387.000,00 empenhado, R$100.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 220536,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$750.000,00 empenhado, R$350.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 220536,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$649.827,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 220536,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 220536,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$335.000,00 empenhado, R$135.000,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 62,
+      "source": 220536,
+      "target": 62,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$250.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 63,
+      "source": 220536,
+      "target": 63,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$199.999,00 empenhado, R$75.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

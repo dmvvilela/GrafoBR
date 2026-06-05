@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160601,
     "egoName": "Pr. Marco Feliciano",
-    "generatedAt": "2026-06-05T20:37:32.347997Z",
+    "generatedAt": "2026-06-05T21:12:31.766780Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160601,
       "name": "Pr. Marco Feliciano",
       "category": "politician",
-      "connectionCount": 29
+      "connectionCount": 31
     },
     {
       "id": 28,
@@ -71,6 +72,12 @@
       "id": 7,
       "name": "EL-SABAOTH EVENTOS LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -173,6 +180,12 @@
       "id": 5,
       "name": "SUZANA DE OLIVEIRA SILVA LIMA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -425,6 +438,22 @@
       "target": 29,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$28,85 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 160601,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$66.509.983,00 empenhado, R$62.747.063,00 pago (52 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 160601,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$40.740.974,00 empenhado, R$40.651.976,00 pago (7 emendas; 2023–2025)",
       "strength": 1
     }
   ]

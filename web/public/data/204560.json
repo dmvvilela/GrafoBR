@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204560,
     "egoName": "Adolfo Viana",
-    "generatedAt": "2026-06-05T20:37:24.936883Z",
+    "generatedAt": "2026-06-05T21:12:23.673874Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204560,
       "name": "Adolfo Viana",
       "category": "politician",
-      "connectionCount": 30
+      "connectionCount": 37
     },
     {
       "id": 5,
@@ -68,6 +69,18 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 14,
       "name": "BROAD BRASIL LTDA",
       "category": "supplier",
@@ -101,6 +114,18 @@
       "id": 3,
       "name": "ELEICAO 2022 JUSMARI TEREZINHA DE SOUZA OLIVEIRA DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -188,6 +213,18 @@
       "connectionCount": 1
     },
     {
+      "id": 31,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "TAM",
       "category": "supplier",
@@ -197,6 +234,12 @@
       "id": 16,
       "name": "TELEFONIA BRASIL S/A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -439,6 +482,62 @@
       "target": 30,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$353,27 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204560,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$55.200.756,00 empenhado, R$54.129.171,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204560,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$43.200.213,00 empenhado, R$43.084.454,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204560,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$7.044.649,00 empenhado, R$3.037.792,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204560,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.049.707,00 empenhado, R$348.600,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204560,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$300.000,00 empenhado, R$286.500,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 204560,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$300.000,00 empenhado, R$300.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 204560,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$100.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

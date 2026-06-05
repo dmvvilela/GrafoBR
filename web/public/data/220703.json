@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220703,
     "egoName": "Neto Carletto",
-    "generatedAt": "2026-06-05T20:37:31.654521Z",
+    "generatedAt": "2026-06-05T21:12:30.974015Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220703,
       "name": "Neto Carletto",
       "category": "politician",
-      "connectionCount": 34
+      "connectionCount": 40
     },
     {
       "id": 24,
@@ -92,6 +93,12 @@
       "connectionCount": 1
     },
     {
+      "id": 38,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 28,
       "name": "BARBOSA TORRES COMERCIO DE DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
@@ -125,6 +132,24 @@
       "id": 32,
       "name": "COMERCIAL DE COMBUSTIVEIS CIDADE JARDIM LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -209,6 +234,18 @@
       "id": 20,
       "name": "Posto de Combustiveis Garantia Ltda",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -495,6 +532,54 @@
       "target": 34,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$400,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/04/2025–30/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220703,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.574.585,00 empenhado, R$37.574.585,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220703,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$36.672.984,00 empenhado, R$36.492.605,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220703,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$500.000,00 empenhado, R$200.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220703,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$200.000,00 empenhado, R$200.000,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220703,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$100.000,00 empenhado, R$100.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 220703,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$99.582,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

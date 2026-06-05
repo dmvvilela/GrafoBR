@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160632,
     "egoName": "Zé Silva",
-    "generatedAt": "2026-06-05T20:37:33.978995Z",
+    "generatedAt": "2026-06-05T21:12:33.737716Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160632,
       "name": "Zé Silva",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 60
     },
     {
       "id": 51,
@@ -53,6 +54,18 @@
       "id": 34,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -104,6 +117,12 @@
       "connectionCount": 1
     },
     {
+      "id": 59,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 25,
       "name": "EDER PEREIRA DA MOTA",
       "category": "donor",
@@ -131,6 +150,18 @@
       "id": 14,
       "name": "EWERTON GIOVANNI DOS SANTOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -236,6 +267,12 @@
       "connectionCount": 1
     },
     {
+      "id": 60,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "PATRICIA BEATRIZ MODESTO FREITAS",
       "category": "donor",
@@ -272,6 +309,12 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 32,
       "name": "TAM",
       "category": "supplier",
@@ -281,6 +324,12 @@
       "id": 37,
       "name": "Telefônica Brasil S.A. VIVO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +796,70 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.300,00 (3 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 29/05/2025–24/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 160632,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$51.905.395,00 empenhado, R$47.157.568,00 pago (13 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 160632,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$40.538.002,00 empenhado, R$40.356.673,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 160632,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$8.288.746,00 empenhado, R$1.861.421,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 160632,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$2.303.367,00 empenhado, R$60.177,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 160632,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$999.906,00 empenhado, R$217.524,00 pago (5 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 160632,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$410.000,00 empenhado, R$410.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 160632,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$407.302,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 160632,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$286.500,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

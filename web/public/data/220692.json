@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220692,
     "egoName": "Dal Barreto",
-    "generatedAt": "2026-06-05T20:37:26.710893Z",
+    "generatedAt": "2026-06-05T21:12:25.787966Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220692,
       "name": "Dal Barreto",
       "category": "politician",
-      "connectionCount": 47
+      "connectionCount": 51
     },
     {
       "id": 5,
@@ -170,6 +171,12 @@
       "connectionCount": 1
     },
     {
+      "id": 50,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 26,
       "name": "BARREIRAS III POSTO DE COMBUSTIVEIS LTDA",
       "category": "company",
@@ -203,6 +210,12 @@
       "id": 41,
       "name": "EVERTON DA SILVA SANTOS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -263,6 +276,18 @@
       "id": 47,
       "name": "RAMAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -677,6 +702,38 @@
       "target": 47,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$16,06 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 220692,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$38.152.585,00 empenhado, R$36.873.000,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 220692,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$36.443.984,00 empenhado, R$36.257.605,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 220692,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$240.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220692,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$211.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

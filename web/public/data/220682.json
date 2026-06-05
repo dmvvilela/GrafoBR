@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220682,
     "egoName": "Tadeu Veneri",
-    "generatedAt": "2026-06-05T20:37:33.464475Z",
+    "generatedAt": "2026-06-05T21:12:33.124807Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220682,
       "name": "Tadeu Veneri",
       "category": "politician",
-      "connectionCount": 42
+      "connectionCount": 52
     },
     {
       "id": 23,
@@ -85,6 +86,18 @@
       "connectionCount": 1
     },
     {
+      "id": 50,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 17,
       "name": "CARLOS ALBERTO PIRES",
       "category": "donor",
@@ -106,6 +119,12 @@
       "id": 31,
       "name": "CULTURA HOTELARIA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Cultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -139,6 +158,18 @@
       "connectionCount": 1
     },
     {
+      "id": 49,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "ELEICAO 2022 ROBERTO REQUIAO DE MELLO E SILVA GOVERNADOR",
       "category": "donor",
@@ -154,6 +185,12 @@
       "id": 13,
       "name": "EZEQUIEL CARLOS PRIETO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Educação",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -217,6 +254,12 @@
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 18,
       "name": "PANTANAL VEÍCULOS LTDA",
       "category": "supplier",
@@ -235,6 +278,18 @@
       "connectionCount": 1
     },
     {
+      "id": 43,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 24,
       "name": "Sergio Guimarães Hardy",
       "category": "supplier",
@@ -250,6 +305,12 @@
       "id": 41,
       "name": "TINTELIG TELECOMUNICAÇÕES LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -606,6 +667,86 @@
       "target": 42,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.431,89 (9 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 24/01/2025–22/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 220682,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$36.329.472,00 empenhado, R$31.321.727,00 pago (9 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 220682,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$19.009.645,00 empenhado, R$1.701.003,00 pago (15 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 220682,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$6.428.250,00 empenhado, R$990.000,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 220682,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$4.050.000,00 empenhado, R$3.600.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 220682,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$1.700.000,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 220682,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$1.500.000,00 empenhado, R$500.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 220682,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$800.000,00 empenhado, R$8.000,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 220682,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$700.000,00 empenhado, R$457.056,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220682,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$350.000,00 empenhado, R$348.600,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220682,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

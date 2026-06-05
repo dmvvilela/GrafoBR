@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204549,
     "egoName": "AJ Albuquerque",
-    "generatedAt": "2026-06-05T20:37:24.838063Z",
+    "generatedAt": "2026-06-05T21:12:23.463708Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204549,
       "name": "AJ Albuquerque",
       "category": "politician",
-      "connectionCount": 31
+      "connectionCount": 33
     },
     {
       "id": 29,
@@ -95,6 +96,12 @@
       "id": 15,
       "name": "ER MELO PUBLICIDADE",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -197,6 +204,12 @@
       "id": 11,
       "name": "REDE CEARÁ DE COMUNICAÇÃO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -453,6 +466,22 @@
       "target": 31,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$428,10 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 09/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204549,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$53.625.481,00 empenhado, R$53.439.102,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204549,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.624.377,00 empenhado, R$52.424.377,00 pago (6 emendas; 2023–2025)",
       "strength": 1
     }
   ]

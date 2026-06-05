@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 141459,
     "egoName": "João Maia",
-    "generatedAt": "2026-06-05T20:37:29.820026Z",
+    "generatedAt": "2026-06-05T21:12:29.005642Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 141459,
       "name": "João Maia",
       "category": "politician",
-      "connectionCount": 56
+      "connectionCount": 63
     },
     {
       "id": 55,
@@ -86,6 +87,12 @@
       "connectionCount": 1
     },
     {
+      "id": 61,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 52,
       "name": "Assoc.Com.de Radiodifusão de Tenente",
       "category": "supplier",
@@ -140,6 +147,18 @@
       "connectionCount": 1
     },
     {
+      "id": 62,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 22,
       "name": "ESTACAO JARDIM FM LTDA",
       "category": "company",
@@ -155,6 +174,18 @@
       "id": 46,
       "name": "Edivaldo Barboza dos Santos",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -341,6 +372,18 @@
       "id": 32,
       "name": "SANTOS & FERNANDES LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 63,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -803,6 +846,62 @@
       "target": 56,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.000,00 (6 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 27/02/2025–03/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 141459,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$58.613.514,00 empenhado, R$56.713.514,00 pago (13 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 141459,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$43.359.025,00 empenhado, R$43.179.646,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 141459,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$2.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 141459,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.899.406,00 empenhado, R$499.656,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 141459,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$758.425,00 empenhado, R$558.425,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 62,
+      "source": 141459,
+      "target": 62,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$318.664,00 empenhado, R$284.906,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 63,
+      "source": 141459,
+      "target": 63,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$299.324,00 empenhado (2 emendas; 2024)",
       "strength": 1
     }
   ]

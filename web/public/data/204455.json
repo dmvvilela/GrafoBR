@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204455,
     "egoName": "Luiz Lima",
-    "generatedAt": "2026-06-05T20:37:30.541531Z",
+    "generatedAt": "2026-06-05T21:12:29.847096Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204455,
       "name": "Luiz Lima",
       "category": "politician",
-      "connectionCount": 30
+      "connectionCount": 35
     },
     {
       "id": 4,
@@ -80,6 +81,12 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 26,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
@@ -92,9 +99,27 @@
       "connectionCount": 1
     },
     {
+      "id": 32,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 28,
       "name": "EDITORA JORNAL DA REGIÃO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -167,6 +192,12 @@
       "id": 11,
       "name": "SCHEFFER INFORMÁTICA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -439,6 +470,46 @@
       "target": 30,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.943,62 (9 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/04/2025–11/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204455,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.992.091,00 empenhado, R$49.992.091,00 pago (17 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204455,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$38.125.097,00 empenhado, R$8.717.393,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204455,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$12.913.776,00 empenhado, R$12.889.417,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204455,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$720.000,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204455,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

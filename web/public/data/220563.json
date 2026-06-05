@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220563,
     "egoName": "Icaro de Valmir",
-    "generatedAt": "2026-06-05T20:37:29.150957Z",
+    "generatedAt": "2026-06-05T21:12:28.358499Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220563,
       "name": "Icaro de Valmir",
       "category": "politician",
-      "connectionCount": 29
+      "connectionCount": 35
     },
     {
       "id": 27,
@@ -68,6 +69,12 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "CENTRO DE FORMACAO DE CONDUTORES ITABAIANA LIMITADA",
       "category": "company",
@@ -80,9 +87,21 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 6,
       "name": "DMR LOCAÇÕES LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -170,6 +189,18 @@
       "connectionCount": 1
     },
     {
+      "id": 30,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "TALYSSON BARBOSA COSTA",
       "category": "donor",
@@ -191,6 +222,12 @@
       "id": 22,
       "name": "Telefonica Brasil S.A - Vivo",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -425,6 +462,54 @@
       "target": 29,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.072,60 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/01/2025–22/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220563,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.694.452,00 empenhado, R$32.743.972,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220563,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$33.900.000,00 empenhado, R$33.721.000,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220563,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.500.000,00 empenhado, R$40.274,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220563,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$885.792,00 empenhado, R$885.792,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220563,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$750.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220563,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$400.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

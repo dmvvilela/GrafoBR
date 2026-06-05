@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220617,
     "egoName": "Murillo Gouvea",
-    "generatedAt": "2026-06-05T20:37:31.466446Z",
+    "generatedAt": "2026-06-05T21:12:30.773734Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220617,
       "name": "Murillo Gouvea",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 58
     },
     {
       "id": 38,
@@ -110,6 +111,12 @@
       "connectionCount": 1
     },
     {
+      "id": 57,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "BRUNA ROSA MANGARAVITE FANI",
       "category": "donor",
@@ -140,6 +147,12 @@
       "connectionCount": 1
     },
     {
+      "id": 58,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "DANIELLE TEIXEIRA RODRIGUES VIEIRA",
       "category": "donor",
@@ -152,9 +165,27 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "ELIAS MEIBER MACHADO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -305,6 +336,12 @@
       "id": 36,
       "name": "SERV RIO TERCEIRIZAÇÃO E SERVIÇOS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +784,54 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$584,65 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220617,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$39.275.308,00 empenhado, R$38.975.634,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220617,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$20.670.000,00 empenhado (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220617,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$10.000.000,00 empenhado, R$987.159,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220617,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$2.800.000,00 empenhado, R$2.800.000,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220617,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.000.000,00 empenhado, R$2.000.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 220617,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$401.585,00 empenhado, R$678,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

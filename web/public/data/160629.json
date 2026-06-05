@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160629,
     "egoName": "Romero Rodrigues",
-    "generatedAt": "2026-06-05T20:37:32.969320Z",
+    "generatedAt": "2026-06-05T21:12:32.520169Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 160629,
       "name": "Romero Rodrigues",
       "category": "politician",
-      "connectionCount": 26
+      "connectionCount": 34
     },
     {
       "id": 15,
@@ -28,6 +29,12 @@
       "id": 18,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -49,9 +56,27 @@
       "connectionCount": 1
     },
     {
+      "id": 31,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "DIRETORIO NACIONAL DO PARTIDO SOCIAL CRISTAO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Defesa nacional",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -70,6 +95,12 @@
       "id": 5,
       "name": "ELEICAO 2022 JOAO PAULO BARBOSA LEAL SEGUNDO DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -133,6 +164,12 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 13,
       "name": "POSTO DE COMBUSTIVEIS 214 SUL LTDA",
       "category": "supplier",
@@ -160,6 +197,18 @@
       "id": 3,
       "name": "ROMERO RODRIGUES VEIGA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -382,6 +431,70 @@
       "target": 26,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$43,60 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 160629,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$40.002.407,00 empenhado, R$34.435.795,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 160629,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$30.900.000,00 empenhado, R$30.740.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 160629,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.575.985,00 empenhado, R$2.575.985,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 160629,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$499.820,00 empenhado, R$139.735,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 160629,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$435.790,00 empenhado, R$435.790,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 160629,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$300.000,00 empenhado, R$300.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 160629,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$250.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 160629,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$150.000,00 empenhado, R$150.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

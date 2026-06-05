@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220568,
     "egoName": "Gustavo Gayer",
-    "generatedAt": "2026-06-05T20:37:28.912793Z",
+    "generatedAt": "2026-06-05T21:12:28.106182Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220568,
       "name": "Gustavo Gayer",
       "category": "politician",
-      "connectionCount": 37
+      "connectionCount": 44
     },
     {
       "id": 15,
@@ -29,6 +30,12 @@
       "id": 25,
       "name": "ASPAR - ASSESSORIA E CONSULTORIA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -74,9 +81,27 @@
       "connectionCount": 1
     },
     {
+      "id": 42,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 23,
       "name": "ENEL - COMPANHIA DE ENERGIA ELÉTRICA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -230,9 +255,27 @@
       "connectionCount": 1
     },
     {
+      "id": 38,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 6,
       "name": "UEDER JOSE RAMOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -537,6 +580,62 @@
       "target": 37,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10,40 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220568,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$20.970.795,00 empenhado, R$15.339.688,00 pago (4 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220568,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$5.042.000,00 empenhado, R$2.300.000,00 pago (3 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 220568,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$3.390.000,00 empenhado, R$585.494,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 220568,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$2.750.000,00 empenhado, R$2.750.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 220568,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.555.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 220568,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.402.821,00 empenhado, R$33.134,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 220568,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$859.803,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

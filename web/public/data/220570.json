@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220570,
     "egoName": "Dr. Ismael Alexandrino",
-    "generatedAt": "2026-06-05T20:37:27.504288Z",
+    "generatedAt": "2026-06-05T21:12:26.742166Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220570,
       "name": "Dr. Ismael Alexandrino",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 57
     },
     {
       "id": 42,
@@ -91,6 +92,12 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 47,
       "name": "Auto Posto Global Arena Ltda",
       "category": "supplier",
@@ -133,6 +140,18 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "ELDECIRIO DA SILVA",
       "category": "donor",
@@ -142,6 +161,12 @@
       "id": 2,
       "name": "ELEICAO 2022 VILMAR DA SILVA ROCHA SENADOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -307,6 +332,18 @@
       "connectionCount": 1
     },
     {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 35,
       "name": "TAM",
       "category": "supplier",
@@ -316,6 +353,12 @@
       "id": 25,
       "name": "THAIS SAHIUM PALMEIRA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -718,6 +761,62 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$430,69 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220570,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$18.805.972,00 empenhado, R$17.952.572,00 pago (4 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220570,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$9.485.000,00 empenhado, R$9.405.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220570,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.700.000,00 empenhado, R$2.200.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220570,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$2.470.451,00 empenhado, R$2.450.453,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220570,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.249.409,00 empenhado, R$384.515,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220570,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.000.000,00 empenhado, R$30.500,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220570,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$500.000,00 empenhado, R$238.865,00 pago (2 emendas; 2025)",
       "strength": 1
     }
   ]

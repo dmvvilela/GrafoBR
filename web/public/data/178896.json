@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178896,
     "egoName": "Newton Cardoso Jr",
-    "generatedAt": "2026-06-05T20:37:31.673514Z",
+    "generatedAt": "2026-06-05T21:12:30.994529Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 178896,
       "name": "Newton Cardoso Jr",
       "category": "politician",
-      "connectionCount": 54
+      "connectionCount": 59
     },
     {
       "id": 15,
@@ -47,6 +48,18 @@
       "id": 34,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -89,6 +102,12 @@
       "id": 18,
       "name": "EDITORA STAR LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -314,6 +333,12 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 38,
       "name": "TAM",
       "category": "supplier",
@@ -323,6 +348,12 @@
       "id": 30,
       "name": "Triunfo Assessoria LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -775,6 +806,46 @@
       "target": 54,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$280,01 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 05/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 178896,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$56.111.277,00 empenhado, R$50.658.093,00 pago (11 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 178896,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$41.009.375,00 empenhado, R$40.867.996,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 178896,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$6.929.209,00 empenhado, R$6.929.209,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 178896,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$2.199.432,00 empenhado, R$47.274,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 178896,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.000.000,00 empenhado, R$29.250,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

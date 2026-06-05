@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160641,
     "egoName": "Professora Marcivania",
-    "generatedAt": "2026-06-05T20:37:32.405655Z",
+    "generatedAt": "2026-06-05T21:12:31.841731Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 160641,
       "name": "Professora Marcivania",
       "category": "politician",
-      "connectionCount": 27
+      "connectionCount": 29
     },
     {
       "id": 24,
@@ -82,6 +83,12 @@
       "id": 4,
       "name": "DAVI LOPES SANTIAGO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -172,6 +179,12 @@
       "id": 10,
       "name": "RENATA CRISTINA LOPES DE CARVALHO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -396,6 +409,22 @@
       "target": 27,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$0,42 (1 lançamento; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 160641,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$16.051.698,00 empenhado, R$16.051.698,00 pago (3 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 160641,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$15.522.044,00 empenhado, R$15.138.439,00 pago (3 emendas; 2023)",
       "strength": 1
     }
   ]

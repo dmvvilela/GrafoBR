@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204496,
     "egoName": "Celso Sabino",
-    "generatedAt": "2026-06-05T20:37:26.286852Z",
+    "generatedAt": "2026-06-05T21:12:25.341979Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204496,
       "name": "Celso Sabino",
       "category": "politician",
-      "connectionCount": 25
+      "connectionCount": 29
     },
     {
       "id": 20,
@@ -68,6 +69,12 @@
       "connectionCount": 1
     },
     {
+      "id": 29,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "ELEICAO 2022 CILENE LISBOA COUTO MARQUES DEPUTADO ESTADUAL",
       "category": "donor",
@@ -89,6 +96,12 @@
       "id": 12,
       "name": "ELEICAO 2022 WENDERSON AZEVEDO CHAMON DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -149,6 +162,18 @@
       "id": 25,
       "name": "RAMAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -369,6 +394,38 @@
       "target": 25,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$0,03 (1 lançamento; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 204496,
+      "target": 26,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$58.385.284,00 empenhado, R$56.985.284,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 204496,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$48.065.684,00 empenhado, R$47.926.806,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 204496,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$499.949,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 204496,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$299.958,00 empenhado, R$299.958,00 pago (1 emenda; 2023)",
       "strength": 1
     }
   ]

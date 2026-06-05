@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178947,
     "egoName": "Sóstenes Cavalcante",
-    "generatedAt": "2026-06-05T20:37:33.411027Z",
+    "generatedAt": "2026-06-05T21:12:33.070997Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 178947,
       "name": "Sóstenes Cavalcante",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 40
     },
     {
       "id": 13,
@@ -62,6 +63,12 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 15,
       "name": "BROAD BRASIL LTDA",
       "category": "supplier",
@@ -74,6 +81,12 @@
       "connectionCount": 1
     },
     {
+      "id": 40,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "D.M.M.SILVA LTDA",
       "category": "supplier",
@@ -83,6 +96,30 @@
       "id": 3,
       "name": "DAVID TEODORO CORREIA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Educação",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -113,6 +150,12 @@
       "id": 14,
       "name": "MAIOR MED SOLUÇÕES EM SAUDE LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Organização agrária",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -197,6 +240,12 @@
       "id": 11,
       "name": "SHEKINAH LOCACAO DE VEICULOS EIRELI",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -467,6 +516,70 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$580,69 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 05/04/2025–02/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 178947,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$55.385.385,00 empenhado, R$48.487.072,00 pago (34 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 178947,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$26.234.633,00 empenhado, R$7.053.549,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 178947,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$21.401.772,00 empenhado, R$5.702.232,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 178947,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.772.993,00 empenhado, R$309.759,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 178947,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$750.000,00 empenhado, R$500.000,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 178947,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$699.612,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 178947,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$535.792,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 178947,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$443.591,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

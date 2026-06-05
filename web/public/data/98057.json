@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 98057,
     "egoName": "Lafayette de Andrada",
-    "generatedAt": "2026-06-05T20:37:30.144471Z",
+    "generatedAt": "2026-06-05T21:12:29.392481Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 98057,
       "name": "Lafayette de Andrada",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 62
     },
     {
       "id": 43,
@@ -29,6 +30,24 @@
       "id": 32,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Administração",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -92,9 +111,21 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "DEBORA INEZ MARCIER SAMPAIO VALLE",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Defesa nacional",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -125,6 +156,24 @@
       "id": 21,
       "name": "ELEICAO 2022 MARCO ANTONIO REIS CARVALHO DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 61,
+      "name": "Essencial à justiça",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -284,9 +333,27 @@
       "connectionCount": 1
     },
     {
+      "id": 62,
+      "name": "Relações exteriores",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 49,
       "name": "SINPETAXI",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -299,6 +366,12 @@
       "id": 18,
       "name": "TIAGO SIQUEIRA MOTA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -719,6 +792,102 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.362,61 (9 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 09/01/2025–19/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 98057,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$56.012.233,00 empenhado, R$49.072.080,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 98057,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$35.908.476,00 empenhado, R$35.794.667,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 98057,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$5.817.000,00 empenhado, R$232.496,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 98057,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$2.739.800,00 empenhado, R$96.895,00 pago (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 98057,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.970.000,00 empenhado, R$1.870.000,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 98057,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$1.729.101,00 empenhado, R$455.033,00 pago (10 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 98057,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.271.809,00 empenhado, R$680.079,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 98057,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$248.365,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 98057,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Administração: R$195.341,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 98057,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$160.000,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 98057,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Essencial à justiça: R$100.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 62,
+      "source": 98057,
+      "target": 62,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Relações exteriores: R$99.580,00 empenhado (1 emenda; 2023)",
       "strength": 1
     }
   ]

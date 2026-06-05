@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 73701,
     "egoName": "Benedita da Silva",
-    "generatedAt": "2026-06-05T20:37:25.785518Z",
+    "generatedAt": "2026-06-05T21:12:24.778815Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 73701,
       "name": "Benedita da Silva",
       "category": "politician",
-      "connectionCount": 30
+      "connectionCount": 43
     },
     {
       "id": 6,
@@ -41,6 +42,18 @@
       "id": 28,
       "name": "AUTO POSTO LUAR DO SANTO CRISTO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Administração",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -80,15 +93,51 @@
       "connectionCount": 1
     },
     {
+      "id": 42,
+      "name": "Comunicações",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "DIRETORIO ESTADUAL DO PARTIDO DOS TRABALHADORES DO RIO DE JANEIRO",
       "category": "donor",
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "ELEICAO 2022 ELIKA TAKIMOTO DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -101,6 +150,12 @@
       "id": 9,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -125,6 +180,12 @@
       "id": 20,
       "name": "Kalunga SA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Múltiplo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -194,9 +255,27 @@
       "connectionCount": 1
     },
     {
+      "id": 31,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -439,6 +518,110 @@
       "target": 30,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$620,08 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/02/2025–10/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 73701,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.057.359,00 empenhado, R$42.268.845,00 pago (15 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 73701,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$19.486.325,00 empenhado, R$8.262.406,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 73701,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$8.623.239,00 empenhado, R$4.498.596,00 pago (15 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 73701,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$7.101.873,00 empenhado, R$700.000,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 73701,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$4.123.589,00 empenhado, R$3.597.748,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 73701,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$3.103.593,00 empenhado, R$30.759,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 73701,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$2.332.576,00 empenhado, R$2.332.576,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 73701,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.873.584,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 73701,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$1.651.683,00 empenhado, R$451.683,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 73701,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.600.000,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 73701,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$1.095.000,00 empenhado (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 73701,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comunicações: R$500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 73701,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Administração: R$200.000,00 empenhado, R$182.487,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

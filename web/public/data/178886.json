@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178886,
     "egoName": "Juscelino Filho",
-    "generatedAt": "2026-06-05T20:37:30.022845Z",
+    "generatedAt": "2026-06-05T21:12:29.217200Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 178886,
       "name": "Juscelino Filho",
       "category": "politician",
-      "connectionCount": 19
+      "connectionCount": 23
     },
     {
       "id": 14,
@@ -47,6 +48,24 @@
       "id": 15,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 23,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 22,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 21,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -89,6 +108,12 @@
       "id": 19,
       "name": "RAMAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 20,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -285,6 +310,38 @@
       "target": 19,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8,82 (6 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 178886,
+      "target": 20,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$15.692.463,00 empenhado, R$14.091.954,00 pago (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 178886,
+      "target": 21,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$12.051.697,00 empenhado, R$12.051.697,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 22,
+      "source": 178886,
+      "target": 22,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$3.000.000,00 empenhado, R$2.584.496,00 pago (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 178886,
+      "target": 23,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.000.000,00 empenhado, R$999.936,00 pago (1 emenda; 2023)",
       "strength": 1
     }
   ]

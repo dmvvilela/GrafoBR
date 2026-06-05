@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160575,
     "egoName": "Erika Kokay",
-    "generatedAt": "2026-06-05T20:37:27.887742Z",
+    "generatedAt": "2026-06-05T21:12:27.130767Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 160575,
       "name": "Erika Kokay",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 60
     },
     {
       "id": 34,
@@ -109,6 +110,12 @@
       "connectionCount": 1
     },
     {
+      "id": 59,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 43,
       "name": "BRASAL COMBUSTIVEIS LTDA",
       "category": "supplier",
@@ -127,6 +134,18 @@
       "connectionCount": 1
     },
     {
+      "id": 58,
+      "name": "Comunicações",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 25,
       "name": "DEMOCRATIZE TECNOLOGIA LTDA",
       "category": "donor",
@@ -136,6 +155,18 @@
       "id": 39,
       "name": "DRA4 DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -154,6 +185,12 @@
       "id": 5,
       "name": "ERIKA JUCA KOKAY",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Educação",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -229,6 +266,12 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PARTIDO DOS TRABALHADORES - BRASIL - BR - NACIONAL",
       "category": "donor",
@@ -283,6 +326,18 @@
       "connectionCount": 1
     },
     {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 22,
       "name": "TANIA CRISTINA BARROS DE AGUIAR",
       "category": "donor",
@@ -292,6 +347,12 @@
       "id": 40,
       "name": "TECAR SIA VEICULOS E SERVICOS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -718,6 +779,86 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$300,05 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 22/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 160575,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$50.657.594,00 empenhado, R$15.007.706,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 160575,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$32.415.301,00 empenhado, R$14.506.004,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 160575,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$12.333.429,00 empenhado, R$5.208.603,00 pago (18 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 160575,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$2.619.127,00 empenhado, R$479.000,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 160575,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$1.781.682,00 empenhado, R$1.077.423,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 160575,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$1.712.000,00 empenhado (3 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 160575,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.153.145,00 empenhado, R$1.153.145,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 160575,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comunicações: R$690.000,00 empenhado, R$690.000,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 160575,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$155.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 160575,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$80.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

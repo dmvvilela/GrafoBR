@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74079,
     "egoName": "José Priante",
-    "generatedAt": "2026-06-05T20:37:29.725956Z",
+    "generatedAt": "2026-06-05T21:12:28.896582Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 74079,
       "name": "José Priante",
       "category": "politician",
-      "connectionCount": 24
+      "connectionCount": 29
     },
     {
       "id": 20,
@@ -86,6 +87,18 @@
       "connectionCount": 1
     },
     {
+      "id": 27,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "ELEICAO 2022 CILENE LISBOA COUTO MARQUES DEPUTADO ESTADUAL",
       "category": "donor",
@@ -113,6 +126,18 @@
       "id": 16,
       "name": "EQUATORIAL PARÁ DISTRIBUIDORA DE ENERGIA S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -149,6 +174,12 @@
       "id": 24,
       "name": "RAMAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 25,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -355,6 +386,46 @@
       "target": 24,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$27,92 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 74079,
+      "target": 25,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.625.486,00 empenhado, R$53.625.486,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 74079,
+      "target": 26,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$51.925.481,00 empenhado, R$51.739.102,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 74079,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 74079,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 74079,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

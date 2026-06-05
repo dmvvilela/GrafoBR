@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220645,
     "egoName": "Erika Hilton",
-    "generatedAt": "2026-06-05T20:37:27.871130Z",
+    "generatedAt": "2026-06-05T21:12:27.108321Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220645,
       "name": "Erika Hilton",
       "category": "politician",
-      "connectionCount": 45
+      "connectionCount": 51
     },
     {
       "id": 37,
@@ -97,6 +98,12 @@
       "connectionCount": 1
     },
     {
+      "id": 49,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "DANIEL PEREIRA SOUZA",
       "category": "donor",
@@ -109,9 +116,27 @@
       "connectionCount": 1
     },
     {
+      "id": 51,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "ERIKA SANTOS SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Educação",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -142,6 +167,12 @@
       "id": 24,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -268,6 +299,12 @@
       "id": 13,
       "name": "ROBERTO FIGUEIREDO DO AMARAL FILHO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -648,6 +685,54 @@
       "target": 45,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$314,02 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 13/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 220645,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$36.526.007,00 empenhado, R$13.027.231,00 pago (10 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 220645,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$26.009.701,00 empenhado, R$11.735.368,00 pago (12 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 220645,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$3.986.000,00 empenhado, R$722.402,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 220645,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$2.826.793,00 empenhado, R$2.000.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 220645,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$2.000.977,00 empenhado, R$715.092,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220645,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$799.977,00 empenhado, R$4.984,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

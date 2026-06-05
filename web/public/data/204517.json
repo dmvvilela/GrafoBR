@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204517,
     "egoName": "Zé Vitor",
-    "generatedAt": "2026-06-05T20:37:34.012219Z",
+    "generatedAt": "2026-06-05T21:12:33.785328Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204517,
       "name": "Zé Vitor",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 60
     },
     {
       "id": 25,
@@ -53,6 +54,18 @@
       "id": 31,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -110,6 +123,18 @@
       "connectionCount": 1
     },
     {
+      "id": 58,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 24,
       "name": "DANIEL FAZANARO CUNHA",
       "category": "donor",
@@ -152,9 +177,21 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 29,
       "name": "EDITORA & ARTES GRÁFICAS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -185,6 +222,12 @@
       "id": 35,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -308,9 +351,21 @@
       "connectionCount": 1
     },
     {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 32,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +788,78 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.118,24 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 30/01/2025–28/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 204517,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$59.726.554,00 empenhado, R$53.650.189,00 pago (13 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 204517,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$30.504.398,00 empenhado, R$30.484.453,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 204517,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$5.133.658,00 empenhado, R$2.598.571,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 204517,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$5.000.000,00 empenhado, R$100.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 204517,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.629.208,00 empenhado, R$3.015.520,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 204517,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.099.350,00 empenhado, R$14.077,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 204517,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$1.000.000,00 empenhado (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 204517,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 204517,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$389.348,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

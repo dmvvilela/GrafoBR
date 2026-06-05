@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204360,
     "egoName": "Silvia Cristina",
-    "generatedAt": "2026-06-05T20:37:33.255169Z",
+    "generatedAt": "2026-06-05T21:12:32.872105Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204360,
       "name": "Silvia Cristina",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 53
     },
     {
       "id": 7,
@@ -121,6 +122,12 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 17,
       "name": "CARLOS ALVES CORREA",
       "category": "donor",
@@ -196,6 +203,12 @@
       "id": 39,
       "name": "EMPRESA JORNALÍSTICA EXTRA DE RONDÔNIA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -298,6 +311,12 @@
       "id": 37,
       "name": "STV MIDICA COMUNICACOES",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -718,6 +737,30 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.800,00 (8 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 27/02/2025–05/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 204360,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.367.985,00 empenhado, R$43.637.492,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 204360,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$36.211.799,00 empenhado, R$36.105.522,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 204360,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$16.670.677,00 empenhado, R$16.670.677,00 pago (3 emendas; 2023–2025)",
       "strength": 1
     }
   ]

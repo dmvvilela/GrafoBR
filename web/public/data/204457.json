@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204457,
     "egoName": "Juninho do Pneu",
-    "generatedAt": "2026-06-05T20:37:29.966487Z",
+    "generatedAt": "2026-06-05T21:12:29.147766Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204457,
       "name": "Juninho do Pneu",
       "category": "politician",
-      "connectionCount": 31
+      "connectionCount": 40
     },
     {
       "id": 30,
@@ -62,6 +63,12 @@
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 29,
       "name": "BR GONCALVES EPP",
       "category": "supplier",
@@ -86,15 +93,45 @@
       "connectionCount": 1
     },
     {
+      "id": 38,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 24,
       "name": "D.BUZZ COPORATE E SERVIÇOS LTDA",
       "category": "supplier",
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 23,
       "name": "EMPRESA JORNALISTICACAMINHO NOVO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -182,9 +219,27 @@
       "connectionCount": 1
     },
     {
+      "id": 32,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -453,6 +508,78 @@
       "target": 31,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.480,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 08/05/2025–04/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204457,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.625.487,00 empenhado, R$53.625.487,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204457,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$23.400.941,00 empenhado, R$4.896.439,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204457,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$14.257.992,00 empenhado, R$21.159,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204457,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$10.186.546,00 empenhado, R$10.186.546,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 204457,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.830.000,00 empenhado, R$3.200.000,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 204457,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$500.000,00 empenhado, R$495.000,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 204457,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$500.000,00 empenhado, R$200.000,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 204457,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$400.000,00 empenhado, R$200.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 204457,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$350.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

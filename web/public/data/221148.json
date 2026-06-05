@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 221148,
     "egoName": "Alfredinho",
-    "generatedAt": "2026-06-05T20:37:25.186210Z",
+    "generatedAt": "2026-06-05T21:12:24.018256Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 221148,
       "name": "Alfredinho",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 62
     },
     {
       "id": 42,
@@ -92,6 +93,24 @@
       "connectionCount": 1
     },
     {
+      "id": 58,
+      "name": "Administração",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 62,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "BRUNO DOS SANTOS BRITO",
       "category": "donor",
@@ -116,6 +135,18 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Comunicações",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "DIOGO GUIMARAES OLIVEIRA",
       "category": "donor",
@@ -125,6 +156,18 @@
       "id": 39,
       "name": "Daniel Bryan Castilho Gomes",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -155,6 +198,18 @@
       "id": 13,
       "name": "EYLER DINIZ GODOY FARIA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 61,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -302,6 +357,12 @@
       "connectionCount": 1
     },
     {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 33,
       "name": "TAM",
       "category": "supplier",
@@ -311,6 +372,12 @@
       "id": 36,
       "name": "TONINHO TRINTA AUTO POSTO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +800,94 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$605,27 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 06/05/2025–04/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 221148,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$44.001.804,00 empenhado, R$29.092.638,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 221148,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$11.121.000,00 empenhado, R$11.101.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 221148,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$7.650.000,00 empenhado, R$5.400.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 221148,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$2.800.000,00 empenhado, R$750.000,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 221148,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comunicações: R$2.500.000,00 empenhado, R$2.500.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 221148,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.100.000,00 empenhado, R$2.100.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 221148,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Administração: R$500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 221148,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$500.000,00 empenhado, R$490.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 221148,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$300.000,00 empenhado, R$200.000,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 221148,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$300.000,00 empenhado, R$111.256,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 62,
+      "source": 221148,
+      "target": 62,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$200.000,00 empenhado, R$191.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

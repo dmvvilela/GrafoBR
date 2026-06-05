@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220583,
     "egoName": "Delegado Fabio Costa",
-    "generatedAt": "2026-06-05T20:37:27.082876Z",
+    "generatedAt": "2026-06-05T21:12:26.218947Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,12 +17,18 @@
       "id": 220583,
       "name": "Delegado Fabio Costa",
       "category": "politician",
-      "connectionCount": 25
+      "connectionCount": 32
     },
     {
       "id": 18,
       "name": "AUTO POSTO GOLDEN GAS 202 LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Agricultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -49,6 +56,24 @@
       "connectionCount": 1
     },
     {
+      "id": 29,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 4,
       "name": "EDVILSON FERREIRA NERI",
       "category": "donor",
@@ -64,6 +89,12 @@
       "id": 21,
       "name": "EQUATORIAL ENERGIA ALAGOAS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -142,6 +173,18 @@
       "id": 10,
       "name": "RBF CONSULTORIA EM COMUNICACAO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -368,6 +411,62 @@
       "target": 25,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$28,68 (10 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 220583,
+      "target": 26,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$39.308.372,00 empenhado, R$37.525.760,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 220583,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$31.295.260,00 empenhado, R$31.132.308,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 220583,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$2.500.871,00 empenhado, R$477.797,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 220583,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.049.517,00 empenhado, R$639.579,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220583,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$477.930,00 empenhado, R$9.558,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220583,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$300.000,00 empenhado, R$293.250,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220583,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

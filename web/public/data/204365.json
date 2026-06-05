@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204365,
     "egoName": "Gilson Marques",
-    "generatedAt": "2026-06-05T20:37:28.733712Z",
+    "generatedAt": "2026-06-05T21:12:27.918218Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204365,
       "name": "Gilson Marques",
       "category": "politician",
-      "connectionCount": 54
+      "connectionCount": 60
     },
     {
       "id": 50,
@@ -47,6 +48,12 @@
       "id": 40,
       "name": "AUTO POSTO LIGIER LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -98,6 +105,18 @@
       "connectionCount": 1
     },
     {
+      "id": 60,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "FABIO PENTEADO DE ULHOA RODRIGUES",
       "category": "donor",
@@ -131,6 +150,12 @@
       "id": 42,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -311,6 +336,18 @@
       "id": 16,
       "name": "SERGIO FURTADO KOERICH",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -775,6 +812,54 @@
       "target": 54,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$525,64 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 29/04/2025–23/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 204365,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$77.793.212,00 empenhado, R$54.579.472,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 204365,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$12.636.456,00 empenhado, R$11.616.456,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 204365,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$9.294.000,00 empenhado, R$9.258.800,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 204365,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$4.173.716,00 empenhado, R$697.200,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 204365,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$1.289.465,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 204365,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.256.531,00 empenhado (2 emendas; 2023–2025)",
       "strength": 1
     }
   ]

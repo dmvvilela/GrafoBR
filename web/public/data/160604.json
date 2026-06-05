@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160604,
     "egoName": "Pedro Uczai",
-    "generatedAt": "2026-06-05T20:37:32.270421Z",
+    "generatedAt": "2026-06-05T21:12:31.661793Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160604,
       "name": "Pedro Uczai",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 64
     },
     {
       "id": 47,
@@ -62,6 +63,18 @@
       "connectionCount": 1
     },
     {
+      "id": 58,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 4,
       "name": "CATIANA MUNARINI DA SILVA",
       "category": "donor",
@@ -80,6 +93,24 @@
       "connectionCount": 1
     },
     {
+      "id": 59,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 63,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 27,
       "name": "DFMKT comunicacao e tecnologia LTDA",
       "category": "supplier",
@@ -92,9 +123,39 @@
       "connectionCount": 1
     },
     {
+      "id": 61,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 40,
       "name": "Elegis Gestão Estratégica, Consultoria e Tecn",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 64,
+      "name": "Essencial à justiça",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -224,6 +285,12 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PARTIDO DOS TRABALHADORES - BRASIL - BR - NACIONAL",
       "category": "donor",
@@ -278,6 +345,12 @@
       "connectionCount": 1
     },
     {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "TABATHA BRASIL DE OLIVEIRA",
       "category": "donor",
@@ -293,6 +366,12 @@
       "id": 41,
       "name": "TELEFONIA BRASIL S/A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 62,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +812,110 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.543,00 (8 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 15/03/2025–30/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 160604,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.870.969,00 empenhado, R$44.623.033,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 160604,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$18.051.082,00 empenhado, R$18.027.642,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 160604,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$11.564.433,00 empenhado, R$2.960.529,00 pago (20 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 160604,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$8.389.000,00 empenhado, R$4.549.500,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 160604,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$6.155.000,00 empenhado, R$650.000,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 160604,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$2.782.000,00 empenhado, R$1.959.000,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 160604,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$2.661.000,00 empenhado, R$2.661.000,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 160604,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$1.850.000,00 empenhado, R$1.250.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 160604,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$459.939,00 empenhado, R$359.963,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 160604,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$374.941,00 empenhado, R$3.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 62,
+      "source": 160604,
+      "target": 62,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$300.000,00 empenhado, R$300.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 63,
+      "source": 160604,
+      "target": 63,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 64,
+      "source": 160604,
+      "target": 64,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Essencial à justiça: R$100.000,00 empenhado, R$100.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

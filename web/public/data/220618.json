@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220618,
     "egoName": "Sargento Portugal",
-    "generatedAt": "2026-06-05T20:37:33.170550Z",
+    "generatedAt": "2026-06-05T21:12:32.776991Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220618,
       "name": "Sargento Portugal",
       "category": "politician",
-      "connectionCount": 27
+      "connectionCount": 34
     },
     {
       "id": 4,
@@ -55,6 +56,12 @@
       "connectionCount": 1
     },
     {
+      "id": 32,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 6,
       "name": "BNI - NEGÓCIOS IMOBILIÁRIOS LTDA",
       "category": "supplier",
@@ -85,9 +92,33 @@
       "connectionCount": 1
     },
     {
+      "id": 29,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "ELEICAO 2022 MARCELO FERREIRA RIBEIRO DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -157,6 +188,12 @@
       "connectionCount": 1
     },
     {
+      "id": 28,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "TALITA LORENA BORGES DE MENESES",
       "category": "supplier",
@@ -172,6 +209,12 @@
       "id": 21,
       "name": "THM MAQUINAS SEMIAUTOMATICAS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -396,6 +439,62 @@
       "target": 27,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.315,88 (10 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 07/01/2025–09/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 220618,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$38.675.985,00 empenhado, R$37.675.985,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 220618,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$12.600.000,00 empenhado, R$80.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220618,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$7.600.000,00 empenhado, R$7.574.000,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220618,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$7.271.585,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220618,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$4.000.000,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220618,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$3.000.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220618,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$2.000.000,00 empenhado, R$1.000.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

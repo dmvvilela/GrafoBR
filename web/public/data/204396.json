@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204396,
     "egoName": "Vermelho",
-    "generatedAt": "2026-06-05T20:37:33.690971Z",
+    "generatedAt": "2026-06-05T21:12:33.361934Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204396,
       "name": "Vermelho",
       "category": "politician",
-      "connectionCount": 28
+      "connectionCount": 33
     },
     {
       "id": 10,
@@ -53,6 +54,12 @@
       "id": 8,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -92,9 +99,27 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 22,
       "name": "EDITORA NOVAPRESS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -173,6 +198,12 @@
       "id": 19,
       "name": "SCHAEFER IDEIAS E COMUNICAÇÃO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -411,6 +442,46 @@
       "target": 28,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.626,90 (1 lançamento; tipo: PASSAGEM AÉREA - RPA; período: 19/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 204396,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$59.676.687,00 empenhado, R$55.276.687,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 204396,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$42.674.283,00 empenhado, R$42.580.913,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204396,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$3.091.965,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204396,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.400.000,00 empenhado, R$1.400.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204396,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$399.788,00 empenhado, R$40.715,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

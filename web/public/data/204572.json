@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204572,
     "egoName": "Capitão Alberto Neto",
-    "generatedAt": "2026-06-05T20:37:26.001696Z",
+    "generatedAt": "2026-06-05T21:12:25.031948Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204572,
       "name": "Capitão Alberto Neto",
       "category": "politician",
-      "connectionCount": 47
+      "connectionCount": 51
     },
     {
       "id": 30,
@@ -122,6 +123,12 @@
       "connectionCount": 1
     },
     {
+      "id": 50,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 31,
       "name": "ELDORADO COMUNICACAO E JORNALISMO LTDA",
       "category": "supplier",
@@ -131,6 +138,12 @@
       "id": 5,
       "name": "ELEICAO 2022 WILSON MIRANDA LIMA GOVERNADOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -260,6 +273,12 @@
       "connectionCount": 1
     },
     {
+      "id": 48,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 24,
       "name": "TAM",
       "category": "supplier",
@@ -269,6 +288,12 @@
       "id": 28,
       "name": "TELEFONIA BRASIL S/A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Transporte",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -677,6 +702,38 @@
       "target": 47,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$300,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 24/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 204572,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.487.779,00 empenhado, R$53.987.779,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 204572,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$52.063.186,00 empenhado, R$51.881.428,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 204572,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 204572,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Transporte: R$200.000,00 empenhado, R$200.000,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

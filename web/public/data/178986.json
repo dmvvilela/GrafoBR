@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178986,
     "egoName": "Nilto Tatto",
-    "generatedAt": "2026-06-05T20:37:31.729367Z",
+    "generatedAt": "2026-06-05T21:12:31.058774Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 178986,
       "name": "Nilto Tatto",
       "category": "politician",
-      "connectionCount": 35
+      "connectionCount": 47
     },
     {
       "id": 6,
@@ -50,6 +51,18 @@
       "connectionCount": 1
     },
     {
+      "id": 47,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 31,
       "name": "CENTRO AUTOMOTIVO JARDIM MARAJOARA LTDA",
       "category": "supplier",
@@ -62,9 +75,27 @@
       "connectionCount": 1
     },
     {
+      "id": 46,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "DEMOCRATIZE TECNOLOGIA LTDA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -86,6 +117,18 @@
       "connectionCount": 1
     },
     {
+      "id": 43,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "Facebook Serviços Online do Brasil Ltda",
       "category": "supplier",
@@ -95,6 +138,12 @@
       "id": 21,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -146,6 +195,12 @@
       "connectionCount": 1
     },
     {
+      "id": 39,
+      "name": "Múltiplo",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "N & M SERVICOS E ORGANIZACAO DE DOCUMENTOS LTDA",
       "category": "company",
@@ -161,6 +216,12 @@
       "id": 28,
       "name": "Oasis Tower Hotel",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Organização agrária",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -194,6 +255,12 @@
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 22,
       "name": "TAM",
       "category": "supplier",
@@ -203,6 +270,12 @@
       "id": 20,
       "name": "Telefonica Brasil S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -509,6 +582,102 @@
       "target": 35,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$728,71 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/07/2025–12/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 178986,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$62.460.160,00 empenhado, R$52.746.318,00 pago (21 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 178986,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$29.405.489,00 empenhado, R$29.348.430,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 178986,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$5.075.277,00 empenhado, R$5.075.277,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 178986,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$3.269.675,00 empenhado, R$700.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 178986,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$1.795.110,00 empenhado, R$371.078,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 178986,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$1.249.833,00 empenhado, R$920.000,00 pago (3 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 178986,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$1.050.000,00 empenhado, R$850.000,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 178986,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$950.000,00 empenhado (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 178986,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$500.000,00 empenhado (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 178986,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$450.000,00 empenhado (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 178986,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$200.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 178986,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$200.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

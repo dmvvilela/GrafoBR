@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220606,
     "egoName": "Reimont",
-    "generatedAt": "2026-06-05T20:37:32.557785Z",
+    "generatedAt": "2026-06-05T21:12:32.023934Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220606,
       "name": "Reimont",
       "category": "politician",
-      "connectionCount": 49
+      "connectionCount": 59
     },
     {
       "id": 46,
@@ -49,9 +50,33 @@
       "connectionCount": 1
     },
     {
+      "id": 52,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "CRISTIANE FONSECA DO AMARAL ASSUNCAO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Comunicações",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Cultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -82,6 +107,36 @@
       "id": 5,
       "name": "DURVAL ANGELO ANDRADE",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -268,6 +323,12 @@
       "id": 31,
       "name": "SINPETAXI",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -704,6 +765,86 @@
       "target": 49,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$36,57 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 220606,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.125.211,00 empenhado, R$18.731.210,00 pago (11 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220606,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$17.355.673,00 empenhado, R$1.836.505,00 pago (12 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220606,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$6.948.000,00 empenhado, R$4.860.200,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220606,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$6.897.000,00 empenhado, R$3.380.000,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220606,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$2.036.363,00 empenhado, R$100.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220606,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$1.500.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220606,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$549.110,00 empenhado, R$40.938,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220606,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comunicações: R$500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 220606,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$400.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 220606,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$214.000,00 empenhado, R$214.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

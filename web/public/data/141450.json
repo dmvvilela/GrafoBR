@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 141450,
     "egoName": "Hugo Leal",
-    "generatedAt": "2026-06-05T20:37:29.113752Z",
+    "generatedAt": "2026-06-05T21:12:28.321285Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 141450,
       "name": "Hugo Leal",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 61
     },
     {
       "id": 29,
@@ -68,6 +69,18 @@
       "connectionCount": 1
     },
     {
+      "id": 57,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 33,
       "name": "Atlântida Administradora de Imóveis",
       "category": "supplier",
@@ -110,6 +123,12 @@
       "connectionCount": 1
     },
     {
+      "id": 61,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 39,
       "name": "DASIP SOLUCOES IMOBILIARIAS E PATRIMONIAIS UNIPESSOAL LTDA",
       "category": "supplier",
@@ -122,6 +141,24 @@
       "connectionCount": 1
     },
     {
+      "id": 60,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 50,
       "name": "ECONOTEL HOTELARIA LTDA",
       "category": "supplier",
@@ -131,6 +168,12 @@
       "id": 16,
       "name": "EDGARD DO AMARAL SOUZA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Educação",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -299,6 +342,18 @@
       "id": 5,
       "name": "RUBENS OMETTO SILVEIRA MELLO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +802,78 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.400,00 (3 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 17/09/2025–09/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 141450,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.050.914,00 empenhado, R$51.051.675,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 141450,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$25.442.406,00 empenhado, R$9.732.018,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 141450,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$12.430.003,00 empenhado, R$12.230.003,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 141450,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$7.603.354,00 empenhado, R$1.303.367,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 141450,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$3.800.000,00 empenhado, R$1.258.857,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 141450,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$1.500.053,00 empenhado (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 141450,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.000.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 141450,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$814.406,00 empenhado, R$814.264,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 141450,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$500.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

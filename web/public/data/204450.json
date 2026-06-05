@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204450,
     "egoName": "Doutor Luizinho",
-    "generatedAt": "2026-06-05T20:37:27.402646Z",
+    "generatedAt": "2026-06-05T21:12:26.621619Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204450,
       "name": "Doutor Luizinho",
       "category": "politician",
-      "connectionCount": 31
+      "connectionCount": 40
     },
     {
       "id": 27,
@@ -50,6 +51,12 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 18,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
@@ -74,15 +81,51 @@
       "connectionCount": 1
     },
     {
+      "id": 39,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 24,
       "name": "DeF Tur - Viagens e Transportes",
       "category": "supplier",
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 22,
       "name": "Editora Globo S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -191,6 +234,18 @@
       "id": 11,
       "name": "SHEKINAH LOCACAO DE VEICULOS EIRELI",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -453,6 +508,78 @@
       "target": 31,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$300,71 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204450,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$65.911.479,00 empenhado, R$61.516.310,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204450,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$13.750.325,00 empenhado, R$13.690.325,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204450,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$8.754.025,00 empenhado, R$670.000,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204450,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$7.962.576,00 empenhado, R$3.972.130,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 204450,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$4.721.333,00 empenhado, R$3.847.035,00 pago (3 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 204450,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$814.604,00 empenhado, R$407.522,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 204450,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$800.000,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 204450,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 204450,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$350.000,00 empenhado, R$348.600,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

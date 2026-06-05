@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 133810,
     "egoName": "Marcelo Moraes",
-    "generatedAt": "2026-06-05T20:37:30.761808Z",
+    "generatedAt": "2026-06-05T21:12:30.083433Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 133810,
       "name": "Marcelo Moraes",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 56
     },
     {
       "id": 38,
@@ -74,6 +75,12 @@
       "connectionCount": 1
     },
     {
+      "id": 54,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "BRUNO AUGUSTO OLIVEIRA DE CARVALHO",
       "category": "donor",
@@ -98,6 +105,12 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 41,
       "name": "ECOPRINT",
       "category": "supplier",
@@ -119,6 +132,12 @@
       "id": 19,
       "name": "ELISA MARA ROCKE DE SOUZA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -311,6 +330,18 @@
       "id": 14,
       "name": "RUAN CAMARGO DA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +764,46 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$655,90 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/08/2025–28/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 133810,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.844.997,00 empenhado, R$53.346.460,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 133810,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$50.579.313,00 empenhado, R$50.396.973,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 133810,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$750.000,00 empenhado, R$750.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 133810,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$399.977,00 empenhado, R$4.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 133810,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$252.359,00 empenhado (1 emenda; 2023)",
       "strength": 1
     }
   ]

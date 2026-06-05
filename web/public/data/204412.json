@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204412,
     "egoName": "Dr. Zacharias Calil",
-    "generatedAt": "2026-06-05T20:37:27.585390Z",
+    "generatedAt": "2026-06-05T21:12:26.816169Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204412,
       "name": "Dr. Zacharias Calil",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 58
     },
     {
       "id": 50,
@@ -74,6 +75,12 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 32,
       "name": "Auto Posto Global Arena Ltda",
       "category": "supplier",
@@ -119,6 +126,18 @@
       "id": 38,
       "name": "ENEL - COMPANHIA DE ENERGIA ELÉTRICA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -278,6 +297,18 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 44,
       "name": "TAM",
       "category": "supplier",
@@ -305,6 +336,12 @@
       "id": 2,
       "name": "UNIAO BRASIL GOIAS GO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +784,54 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$836,51 (16 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 06/03/2025–20/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 204412,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$71.163.790,00 empenhado, R$67.668.534,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 204412,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$15.239.991,00 empenhado, R$15.085.612,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 204412,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$8.987.253,00 empenhado, R$75.217,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 204412,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$5.495.788,00 empenhado, R$5.495.788,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 204412,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$3.346.247,00 empenhado (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 204412,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$2.814.648,00 empenhado, R$97.452,00 pago (3 emendas; 2023–2025)",
       "strength": 1
     }
   ]

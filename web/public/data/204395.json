@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204395,
     "egoName": "Pedro Lupion",
-    "generatedAt": "2026-06-05T20:37:32.242165Z",
+    "generatedAt": "2026-06-05T21:12:31.622434Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204395,
       "name": "Pedro Lupion",
       "category": "politician",
-      "connectionCount": 34
+      "connectionCount": 36
     },
     {
       "id": 12,
@@ -88,6 +89,12 @@
       "id": 9,
       "name": "ERIKA BRANDAO LEMOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -196,6 +203,12 @@
       "id": 5,
       "name": "RUBENS OMETTO SILVEIRA MELLO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -494,6 +507,22 @@
       "target": 34,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$98,69 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204395,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$65.978.591,00 empenhado, R$48.803.180,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 204395,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$40.774.260,00 empenhado, R$40.621.002,00 pago (4 emendas; 2023–2025)",
       "strength": 1
     }
   ]

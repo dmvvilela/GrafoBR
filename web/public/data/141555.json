@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 141555,
     "egoName": "Vinicius Carvalho",
-    "generatedAt": "2026-06-05T20:37:33.723949Z",
+    "generatedAt": "2026-06-05T21:12:33.403956Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 141555,
       "name": "Vinicius Carvalho",
       "category": "politician",
-      "connectionCount": 34
+      "connectionCount": 43
     },
     {
       "id": 17,
@@ -44,6 +45,12 @@
       "connectionCount": 1
     },
     {
+      "id": 38,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "BROAD BRASIL LTDA",
       "category": "supplier",
@@ -59,6 +66,30 @@
       "id": 34,
       "name": "Claro S.A - Embratel",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -83,6 +114,12 @@
       "id": 3,
       "name": "EVERTON SCHMIDT",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -194,6 +231,12 @@
       "connectionCount": 1
     },
     {
+      "id": 43,
+      "name": "Relações exteriores",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "SCARPINI & CARVALHO LTDA",
       "category": "company",
@@ -203,6 +246,18 @@
       "id": 14,
       "name": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -495,6 +550,78 @@
       "target": 34,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.598,67 (13 lançamentos; tipo: TELEFONIA; período: 09/03/2025–13/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 141555,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$59.463.732,00 empenhado, R$47.528.688,00 pago (13 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 141555,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$32.904.464,00 empenhado, R$32.764.464,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 141555,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$8.086.189,00 empenhado (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 141555,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.088.195,00 empenhado, R$2.500.000,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 141555,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.031.660,00 empenhado, R$651.508,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 141555,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$1.000.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 141555,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$787.700,00 empenhado (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 141555,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$500.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 141555,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Relações exteriores: R$308.541,00 empenhado (1 emenda; 2023)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74043,
     "egoName": "Wellington Roberto",
-    "generatedAt": "2026-06-05T20:37:33.817197Z",
+    "generatedAt": "2026-06-05T21:12:33.524513Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 74043,
       "name": "Wellington Roberto",
       "category": "politician",
-      "connectionCount": 31
+      "connectionCount": 39
     },
     {
       "id": 19,
@@ -74,6 +75,18 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 25,
       "name": "BARROS COMERCIO DE COMBUSTIVEL E CONVENIENCIA LTDA",
       "category": "supplier",
@@ -89,6 +102,18 @@
       "id": 5,
       "name": "DIRETORIO REGIONAL DO PARTIDO LIBERAL - PARAIBA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Desporto e lazer",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -113,6 +138,12 @@
       "id": 8,
       "name": "EXIBA COMUNICAÇÃO E MARKETING LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -194,9 +225,27 @@
       "connectionCount": 1
     },
     {
+      "id": 32,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -453,6 +502,70 @@
       "target": 31,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$439,79 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 30/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 74043,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.491.247,00 empenhado, R$49.698.119,00 pago (18 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 74043,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$34.213.674,00 empenhado, R$34.123.674,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 74043,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$9.443.813,00 empenhado, R$7.093.126,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 74043,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$6.435.985,00 empenhado, R$5.935.985,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 74043,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$2.300.000,00 empenhado, R$2.300.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 74043,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$397.536,00 empenhado (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 74043,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$250.000,00 empenhado, R$3.020,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 74043,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$120.000,00 empenhado, R$120.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

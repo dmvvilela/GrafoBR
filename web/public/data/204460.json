@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204460,
     "egoName": "Carlos Jordy",
-    "generatedAt": "2026-06-05T20:37:26.131843Z",
+    "generatedAt": "2026-06-05T21:12:25.163024Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204460,
       "name": "Carlos Jordy",
       "category": "politician",
-      "connectionCount": 27
+      "connectionCount": 33
     },
     {
       "id": 3,
@@ -43,6 +44,12 @@
       "connectionCount": 1
     },
     {
+      "id": 32,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 24,
       "name": "BATALHA 1000 POSTO E SERVICOS LTDA",
       "category": "supplier",
@@ -64,6 +71,30 @@
       "id": 22,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -154,6 +185,12 @@
       "id": 5,
       "name": "SEGBRASIL COMERCIO E SERVIÇOS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -396,6 +433,54 @@
       "target": 27,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.418,27 (13 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/02/2025–12/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 204460,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.503.397,00 empenhado, R$48.503.397,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 204460,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$39.247.437,00 empenhado, R$5.147.519,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 204460,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$7.500.000,00 empenhado, R$7.500.000,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204460,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$2.950.000,00 empenhado, R$2.000.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204460,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.500.000,00 empenhado, R$2.500.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204460,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$527.962,00 empenhado, R$59.255,00 pago (2 emendas; 2023–2024)",
       "strength": 1
     }
   ]

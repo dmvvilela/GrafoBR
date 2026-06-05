@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74270,
     "egoName": "Gilberto Nascimento",
-    "generatedAt": "2026-06-05T20:37:28.695248Z",
+    "generatedAt": "2026-06-05T21:12:27.882128Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 74270,
       "name": "Gilberto Nascimento",
       "category": "politician",
-      "connectionCount": 38
+      "connectionCount": 45
     },
     {
       "id": 25,
@@ -55,6 +56,12 @@
       "connectionCount": 1
     },
     {
+      "id": 43,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "BRUNO BUENO DRAGO",
       "category": "donor",
@@ -79,6 +86,18 @@
       "connectionCount": 1
     },
     {
+      "id": 42,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 15,
       "name": "EDILZA TEREZINHA GARCIA AMOROSO",
       "category": "donor",
@@ -88,6 +107,12 @@
       "id": 13,
       "name": "ELIEL APARECIDO REZENDE",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -169,6 +194,12 @@
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "PAULO ROBERTO DA SILVA",
       "category": "donor",
@@ -214,6 +245,18 @@
       "id": 24,
       "name": "SUELY ELIAS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -550,6 +593,62 @@
       "target": 38,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$15,32 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 74270,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$58.444.552,00 empenhado, R$57.994.552,00 pago (19 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 74270,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$39.717.428,00 empenhado, R$39.633.969,00 pago (13 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 74270,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$3.200.000,00 empenhado, R$64.000,00 pago (4 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 74270,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$3.088.214,00 empenhado, R$1.586.038,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 74270,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.800.000,00 empenhado, R$1.600.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 74270,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$800.000,00 empenhado, R$348.600,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 74270,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

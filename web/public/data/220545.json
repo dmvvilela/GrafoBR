@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220545,
     "egoName": "Filipe Martins",
-    "generatedAt": "2026-06-05T20:37:28.348669Z",
+    "generatedAt": "2026-06-05T21:12:27.511395Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220545,
       "name": "Filipe Martins",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 56
     },
     {
       "id": 30,
@@ -67,6 +68,18 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 35,
       "name": "BARCO SERVICOS DIGITAIS LTDA",
       "category": "supplier",
@@ -94,6 +107,12 @@
       "id": 40,
       "name": "CRUZ E CRUZ COMERCIO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Desporto e lazer",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -130,6 +149,12 @@
       "id": 36,
       "name": "ENERGISA TOCANTINS DISTRIBUIDORA DE ENERGIA S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -292,6 +317,18 @@
       "id": 16,
       "name": "SARAH DE MELO PEREIRA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -718,6 +755,54 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.100,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 05/02/2025–21/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220545,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$38.915.507,00 empenhado, R$28.168.671,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220545,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$28.935.484,00 empenhado, R$28.796.725,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220545,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$4.000.000,00 empenhado, R$3.000.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220545,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.200.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220545,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$400.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220545,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$300.000,00 empenhado, R$180.777,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

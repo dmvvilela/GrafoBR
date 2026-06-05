@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204445,
     "egoName": "Fernando Mineiro",
-    "generatedAt": "2026-06-05T20:37:28.260973Z",
+    "generatedAt": "2026-06-05T21:12:27.423281Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204445,
       "name": "Fernando Mineiro",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 47
     },
     {
       "id": 29,
@@ -29,6 +30,18 @@
       "id": 19,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -44,6 +57,30 @@
       "connectionCount": 1
     },
     {
+      "id": 46,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 21,
       "name": "ELDORADO COMUNICACAO E JORNALISMO LTDA",
       "category": "supplier",
@@ -53,6 +90,24 @@
       "id": 7,
       "name": "EMPRESA GESTORA DE ATIVOS DO RIO GRANDE DO NORTE - EMGERN",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Essencial à justiça",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -83,6 +138,12 @@
       "id": 17,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -152,6 +213,18 @@
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "Múltiplo",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PARTIDO DOS TRABALHADORES - BRASIL - BR - NACIONAL",
       "category": "donor",
@@ -182,6 +255,12 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "TAM",
       "category": "supplier",
@@ -194,6 +273,12 @@
       "connectionCount": 1
     },
     {
+      "id": 42,
+      "name": "Trabalho",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 26,
       "name": "UMBIT CRIATIVO LTDA",
       "category": "supplier",
@@ -203,6 +288,12 @@
       "id": 31,
       "name": "UNIGRAFICA EDITORA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -467,6 +558,126 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.695,56 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 22/02/2025–21/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204445,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.077.025,00 empenhado, R$32.143.883,00 pago (9 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204445,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$11.018.781,00 empenhado, R$10.946.953,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204445,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$6.249.726,00 empenhado, R$1.577.220,00 pago (9 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 204445,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$4.776.500,00 empenhado (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 204445,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$3.500.000,00 empenhado, R$23.402,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 204445,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$2.400.000,00 empenhado (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 204445,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$1.750.000,00 empenhado (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 204445,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.651.970,00 empenhado (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 204445,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.299.966,00 empenhado, R$6.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 204445,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$1.200.000,00 empenhado, R$700.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 204445,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$900.000,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 204445,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$699.000,00 empenhado, R$67.650,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 204445,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 204445,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 204445,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Essencial à justiça: R$300.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

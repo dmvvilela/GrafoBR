@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160541,
     "egoName": "Arthur Lira",
-    "generatedAt": "2026-06-05T20:37:25.620914Z",
+    "generatedAt": "2026-06-05T21:12:24.587129Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160541,
       "name": "Arthur Lira",
       "category": "politician",
-      "connectionCount": 36
+      "connectionCount": 42
     },
     {
       "id": 33,
@@ -92,6 +93,12 @@
       "connectionCount": 1
     },
     {
+      "id": 40,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "D' LIRA - AGROPECUARIA E EVENTOS LTDA",
       "category": "company",
@@ -101,6 +108,18 @@
       "id": 34,
       "name": "DISTRIBUIDORA VEICULOS CONFIANCA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -206,6 +225,18 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 18,
       "name": "TAM",
       "category": "supplier",
@@ -227,6 +258,12 @@
       "id": 25,
       "name": "TULEMON COMERCIO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -523,6 +560,54 @@
       "target": 36,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$700,00 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 09/03/2025–06/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 160541,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$60.181.566,00 empenhado, R$40.100.950,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 160541,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$16.051.699,00 empenhado, R$16.051.699,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 160541,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$10.000.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 160541,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$10.000.000,00 empenhado, R$17.500,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 160541,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$8.273.690,00 empenhado, R$332.914,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 160541,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$348.600,00 empenhado, R$348.600,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

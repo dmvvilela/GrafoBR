@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220695,
     "egoName": "Rogéria Santos",
-    "generatedAt": "2026-06-05T20:37:32.942605Z",
+    "generatedAt": "2026-06-05T21:12:32.481342Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220695,
       "name": "Rogéria Santos",
       "category": "politician",
-      "connectionCount": 49
+      "connectionCount": 56
     },
     {
       "id": 44,
@@ -121,9 +122,33 @@
       "connectionCount": 1
     },
     {
+      "id": 54,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 40,
       "name": "EVANGELISTA E CERQUEIRA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -271,6 +296,12 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Relações exteriores",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 36,
       "name": "SABBA COMBUSTIVEIS LTDA",
       "category": "supplier",
@@ -280,6 +311,18 @@
       "id": 7,
       "name": "SERGIO SIMPLICIO DOS SANTOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -704,6 +747,62 @@
       "target": 49,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$250,95 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 30/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 220695,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$40.737.993,00 empenhado, R$35.840.323,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220695,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$17.744.990,00 empenhado, R$17.667.542,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220695,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$8.349.977,00 empenhado, R$20.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220695,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$3.563.000,00 empenhado (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220695,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.549.919,00 empenhado, R$418.352,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220695,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.379.789,00 empenhado, R$300.000,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220695,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Relações exteriores: R$630.917,00 empenhado, R$523.021,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

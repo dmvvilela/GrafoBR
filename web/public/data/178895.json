@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178895,
     "egoName": "Misael Varella",
-    "generatedAt": "2026-06-05T20:37:31.412278Z",
+    "generatedAt": "2026-06-05T21:12:30.722851Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 178895,
       "name": "Misael Varella",
       "category": "politician",
-      "connectionCount": 26
+      "connectionCount": 33
     },
     {
       "id": 15,
@@ -35,6 +36,12 @@
       "id": 20,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -56,6 +63,12 @@
       "connectionCount": 1
     },
     {
+      "id": 31,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 17,
       "name": "Delcópias",
       "category": "supplier",
@@ -65,6 +78,12 @@
       "id": 25,
       "name": "ENERGISA MINAS GERAIS - DISTRIBUIDORA DE ENERGIA S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -116,6 +135,18 @@
       "connectionCount": 1
     },
     {
+      "id": 29,
+      "name": "Múltiplo",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 4,
       "name": "PARTIDO SOCIAL DEMOCRATICO",
       "category": "donor",
@@ -149,6 +180,18 @@
       "id": 8,
       "name": "SERGIO DIAS HENRIQUES",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -383,6 +426,62 @@
       "target": 26,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$26,03 (8 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 178895,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$63.723.733,00 empenhado, R$61.043.768,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 178895,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$36.190.881,00 empenhado, R$36.028.122,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 178895,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$4.596.309,00 empenhado, R$1.096.309,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 178895,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.046.585,00 empenhado, R$1.046.585,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 178895,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$657.822,00 empenhado, R$421.064,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 178895,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$581.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 178895,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$257.850,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

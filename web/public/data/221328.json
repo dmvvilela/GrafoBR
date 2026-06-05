@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 221328,
     "egoName": "Adilson Barroso",
-    "generatedAt": "2026-06-05T20:37:24.920758Z",
+    "generatedAt": "2026-06-05T21:12:23.651027Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 221328,
       "name": "Adilson Barroso",
       "category": "politician",
-      "connectionCount": 31
+      "connectionCount": 36
     },
     {
       "id": 2,
@@ -47,6 +48,12 @@
       "id": 22,
       "name": "AZUL LINHAS AÉREAS BRASILEIRAS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -86,6 +93,18 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 18,
       "name": "EL FOGON",
       "category": "supplier",
@@ -101,6 +120,12 @@
       "id": 20,
       "name": "Emilio Kerber Consultoria e Servicos Ltda",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -185,6 +210,12 @@
       "id": 25,
       "name": "SERVIA O NACIONAL DE APREND. COMERCIAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -453,6 +484,46 @@
       "target": 31,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.023,33 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 19/02/2025–24/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 221328,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$41.136.597,00 empenhado, R$38.286.597,00 pago (9 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 221328,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$27.415.784,00 empenhado, R$27.296.785,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 221328,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$4.095.000,00 empenhado, R$4.095.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 221328,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.381.152,00 empenhado, R$708.755,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 221328,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.149.977,00 empenhado, R$9.500,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

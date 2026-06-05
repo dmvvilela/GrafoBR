@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204481,
     "egoName": "Dr. Jaziel",
-    "generatedAt": "2026-06-05T20:37:27.522304Z",
+    "generatedAt": "2026-06-05T21:12:26.761833Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,19 @@
       "id": 204481,
       "name": "Dr. Jaziel",
       "category": "politician",
-      "connectionCount": 25
+      "connectionCount": 30
+    },
+    {
+      "id": 28,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
     },
     {
       "id": 16,
@@ -28,6 +41,12 @@
       "id": 20,
       "name": "EVELLY NAIRA HENRIQUE MARQUES - RED PRODUTORA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -97,6 +116,12 @@
       "connectionCount": 1
     },
     {
+      "id": 29,
+      "name": "Múltiplo",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
@@ -130,6 +155,12 @@
       "id": 5,
       "name": "Radio FM veneza LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -368,6 +399,46 @@
       "target": 25,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10,69 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 204481,
+      "target": 26,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$57.630.313,00 empenhado, R$50.560.388,00 pago (15 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 204481,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$48.203.327,00 empenhado, R$48.023.327,00 pago (13 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 204481,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$972.985,00 empenhado, R$637.985,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 204481,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$243.774,00 empenhado, R$140.947,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 204481,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

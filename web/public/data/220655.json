@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220655,
     "egoName": "Mario Frias",
-    "generatedAt": "2026-06-05T20:37:31.021767Z",
+    "generatedAt": "2026-06-05T21:12:30.378190Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220655,
       "name": "Mario Frias",
       "category": "politician",
-      "connectionCount": 37
+      "connectionCount": 50
     },
     {
       "id": 22,
@@ -74,6 +75,18 @@
       "connectionCount": 1
     },
     {
+      "id": 49,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 37,
       "name": "CENTRO DE SERVS FRANGO ASSADO NORTE LT",
       "category": "supplier",
@@ -86,9 +99,45 @@
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "ELEICAO 2022 EDUARDO NANTES BOLSONARO DEPUTADO FEDERAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -107,6 +156,12 @@
       "id": 25,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -164,6 +219,12 @@
       "connectionCount": 1
     },
     {
+      "id": 47,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
@@ -218,6 +279,12 @@
       "connectionCount": 1
     },
     {
+      "id": 38,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 21,
       "name": "TAM",
       "category": "supplier",
@@ -227,6 +294,18 @@
       "id": 12,
       "name": "TICA PRODUCOES ARTISTICAS LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Trabalho",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -537,6 +616,110 @@
       "target": 37,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$506,72 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 30/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220655,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.196.522,00 empenhado, R$44.759.274,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220655,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$7.895.912,00 empenhado (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 220655,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$3.200.000,00 empenhado, R$3.196.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 220655,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$2.230.000,00 empenhado, R$1.300.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 220655,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.800.000,00 empenhado, R$1.650.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 220655,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$1.500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 220655,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 220655,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 220655,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$758.446,00 empenhado, R$43.425,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 220655,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$400.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 220655,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$300.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 220655,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$200.000,00 empenhado, R$3.199,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 220655,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$200.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

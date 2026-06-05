@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204535,
     "egoName": "Sâmia Bomfim",
-    "generatedAt": "2026-06-05T20:37:33.369836Z",
+    "generatedAt": "2026-06-05T21:12:33.009814Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204535,
       "name": "Sâmia Bomfim",
       "category": "politician",
-      "connectionCount": 22
+      "connectionCount": 31
     },
     {
       "id": 3,
@@ -43,6 +44,12 @@
       "connectionCount": 1
     },
     {
+      "id": 29,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 13,
       "name": "BROAD BRASIL LTDA",
       "category": "supplier",
@@ -55,9 +62,21 @@
       "connectionCount": 1
     },
     {
+      "id": 25,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 16,
       "name": "DRA4 DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -70,6 +89,12 @@
       "id": 6,
       "name": "EVAG COMUNICAÇÃO E TECNOLOGIA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 24,
+      "name": "Educação",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -91,6 +116,12 @@
       "connectionCount": 1
     },
     {
+      "id": 28,
+      "name": "Gestão ambiental",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "Guilherme Baptista Rodr ME",
       "category": "supplier",
@@ -100,6 +131,12 @@
       "id": 15,
       "name": "Latam Linhas Aéreas S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Organização agrária",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -133,6 +170,18 @@
       "connectionCount": 1
     },
     {
+      "id": 23,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "TALINE CHAVES SILVA",
       "category": "donor",
@@ -142,6 +191,12 @@
       "id": 8,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -326,6 +381,78 @@
       "target": 22,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6,47 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 204535,
+      "target": 23,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$52.729.891,00 empenhado, R$38.902.176,00 pago (22 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 24,
+      "source": 204535,
+      "target": 24,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$28.178.319,00 empenhado, R$6.562.107,00 pago (19 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 204535,
+      "target": 25,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$7.621.315,00 empenhado, R$4.381.092,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 204535,
+      "target": 26,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$4.349.724,00 empenhado, R$3.734.576,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 204535,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$4.305.841,00 empenhado, R$1.270.000,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 204535,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$1.208.426,00 empenhado, R$300.000,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 204535,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.162.920,00 empenhado, R$600.000,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 204535,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$455.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204535,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$244.381,00 empenhado (1 emenda; 2023)",
       "strength": 1
     }
   ]

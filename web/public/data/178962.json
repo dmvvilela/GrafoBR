@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178962,
     "egoName": "Carlos Gomes",
-    "generatedAt": "2026-06-05T20:37:26.096978Z",
+    "generatedAt": "2026-06-05T21:12:25.126436Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 178962,
       "name": "Carlos Gomes",
       "category": "politician",
-      "connectionCount": 17
+      "connectionCount": 26
     },
     {
       "id": 16,
@@ -55,9 +56,45 @@
       "connectionCount": 1
     },
     {
+      "id": 21,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 25,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "CLAUDIA ROSANGELA KACZAN VIEIRA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 22,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 23,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 24,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 19,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -112,6 +149,24 @@
       "id": 4,
       "name": "SIMONE ABEL SALA PAVAO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 18,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 20,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -256,6 +311,78 @@
       "target": 17,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$50,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 178962,
+      "target": 18,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.787.494,00 empenhado, R$54.487.494,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 178962,
+      "target": 19,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$37.428.197,00 empenhado, R$37.278.024,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 178962,
+      "target": 20,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$5.287.627,00 empenhado, R$3.500,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 178962,
+      "target": 21,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$2.629.209,00 empenhado, R$376.780,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 22,
+      "source": 178962,
+      "target": 22,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$2.443.813,00 empenhado, R$269.230,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 178962,
+      "target": 23,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.629.209,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 24,
+      "source": 178962,
+      "target": 24,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.382.214,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 178962,
+      "target": 25,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.100.000,00 empenhado, R$1.100.000,00 pago (3 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 178962,
+      "target": 26,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$358.600,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

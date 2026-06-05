@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204423,
     "egoName": "André Ferreira",
-    "generatedAt": "2026-06-05T20:37:25.415368Z",
+    "generatedAt": "2026-06-05T21:12:24.341467Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204423,
       "name": "André Ferreira",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 58
     },
     {
       "id": 43,
@@ -47,6 +48,12 @@
       "id": 37,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -80,15 +87,39 @@
       "connectionCount": 1
     },
     {
+      "id": 57,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "DANIEL NASCIMENTO PEREIRA JUNIOR",
       "category": "donor",
       "connectionCount": 1
     },
     {
+      "id": 58,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 14,
       "name": "EUGENIO DANIEL DE MELO PESSOA LEITE",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -293,6 +324,12 @@
       "id": 47,
       "name": "STARLINK BRAZIL SERVICOS DE INTERNET LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +784,54 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.475,80 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/07/2025–11/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 204423,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.975.364,00 empenhado, R$53.601.421,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 204423,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$50.431.099,00 empenhado, R$50.264.721,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 204423,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$600.000,00 empenhado, R$100.000,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 204423,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$350.000,00 empenhado, R$350.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 204423,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$300.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 204423,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$244.379,00 empenhado, R$46.604,00 pago (1 emenda; 2023)",
       "strength": 1
     }
   ]

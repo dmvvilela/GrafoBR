@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74273,
     "egoName": "Jefferson Campos",
-    "generatedAt": "2026-06-05T20:37:29.436062Z",
+    "generatedAt": "2026-06-05T21:12:28.620966Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 74273,
       "name": "Jefferson Campos",
       "category": "politician",
-      "connectionCount": 43
+      "connectionCount": 48
     },
     {
       "id": 37,
@@ -53,6 +54,12 @@
       "id": 23,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -110,6 +117,12 @@
       "connectionCount": 1
     },
     {
+      "id": 47,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 13,
       "name": "EDILAINE CRISTINA MAZUCHI",
       "category": "donor",
@@ -125,6 +138,12 @@
       "id": 40,
       "name": "EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -251,6 +270,18 @@
       "id": 17,
       "name": "SJM PARTICIPACOES E SERVICOS LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -621,6 +652,46 @@
       "target": 43,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$272,42 (3 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 26/03/2025–05/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 74273,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$55.721.086,00 empenhado, R$55.221.086,00 pago (36 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 74273,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$43.206.846,00 empenhado, R$43.066.467,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 74273,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$4.892.127,00 empenhado, R$4.166.286,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 74273,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$2.170.189,00 empenhado (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 74273,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.214.604,00 empenhado (2 emendas; 2023–2025)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204486,
     "egoName": "Mauro Benevides Filho",
-    "generatedAt": "2026-06-05T20:37:31.182923Z",
+    "generatedAt": "2026-06-05T21:12:30.501905Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,12 +17,18 @@
       "id": 204486,
       "name": "Mauro Benevides Filho",
       "category": "politician",
-      "connectionCount": 29
+      "connectionCount": 38
     },
     {
       "id": 22,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -37,9 +44,21 @@
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "DELPHOS SERVICOS DE MARKETING E COMUNICACAO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Desporto e lazer",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -64,6 +83,18 @@
       "id": 28,
       "name": "EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -103,9 +134,21 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "Múltiplo",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PARTIDO DEMOCRATICO TRABALHISTA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Previdência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -145,6 +188,12 @@
       "connectionCount": 1
     },
     {
+      "id": 30,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 14,
       "name": "TAM",
       "category": "supplier",
@@ -160,6 +209,12 @@
       "id": 27,
       "name": "TIM S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -424,6 +479,78 @@
       "target": 29,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$14,32 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 204486,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.337.661,00 empenhado, R$53.418.836,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204486,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$42.433.477,00 empenhado, R$42.309.718,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204486,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$3.981.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204486,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.500.048,00 empenhado, R$3.300.036,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204486,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$977.502,00 empenhado, R$395.973,00 pago (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204486,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$775.988,00 empenhado, R$301,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 204486,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$400.000,00 empenhado, R$200.000,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 204486,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Previdência social: R$400.000,00 empenhado, R$400.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 204486,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$300.000,00 empenhado, R$4.000,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

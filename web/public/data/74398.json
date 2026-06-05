@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74398,
     "egoName": "Maria do Rosário",
-    "generatedAt": "2026-06-05T20:37:30.992727Z",
+    "generatedAt": "2026-06-05T21:12:30.344388Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 74398,
       "name": "Maria do Rosário",
       "category": "politician",
-      "connectionCount": 36
+      "connectionCount": 49
     },
     {
       "id": 30,
@@ -34,6 +35,18 @@
       "id": 24,
       "name": "ALEXANDRE PATINES DE AZEVEDO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -67,6 +80,18 @@
       "connectionCount": 1
     },
     {
+      "id": 48,
+      "name": "Comunicações",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "DEMOCRATIZE TECNOLOGIA LTDA",
       "category": "donor",
@@ -79,6 +104,12 @@
       "connectionCount": 1
     },
     {
+      "id": 43,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "ELEICAO 2022 JOAO EDEGAR PRETTO GOVERNADOR",
       "category": "donor",
@@ -88,6 +119,18 @@
       "id": 6,
       "name": "ENEDIO GALVAO FONSECA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -133,6 +176,12 @@
       "connectionCount": 1
     },
     {
+      "id": 46,
+      "name": "Gestão ambiental",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 36,
       "name": "JOSE DO PATROCINIO COM DE COMB LTDA",
       "category": "supplier",
@@ -154,6 +203,18 @@
       "id": 16,
       "name": "MASTER INTERMEDIAÇÕES IMOBILIÁRIAS LTD2011",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Múltiplo",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Organização agrária",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -199,6 +260,18 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "Sergio Ricardo Monteiro de Souza",
       "category": "supplier",
@@ -220,6 +293,12 @@
       "id": 25,
       "name": "Telefônica Brasil S.A. VIVO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -522,6 +601,110 @@
       "target": 36,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.424,30 (13 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/06/2025–15/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 74398,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$51.905.984,00 empenhado, R$34.657.728,00 pago (16 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 74398,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$12.088.540,00 empenhado, R$6.407.130,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 74398,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$11.939.321,00 empenhado, R$11.910.321,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 74398,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$5.680.724,00 empenhado, R$539.176,00 pago (13 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 74398,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$4.805.793,00 empenhado, R$2.495.793,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 74398,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$3.791.850,00 empenhado, R$350.851,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 74398,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$3.175.000,00 empenhado, R$824.989,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 74398,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$3.001.683,00 empenhado (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 74398,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.500.000,00 empenhado, R$1.500.000,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 74398,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$1.383.143,00 empenhado, R$400.000,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 74398,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$975.836,00 empenhado, R$964.596,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 74398,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comunicações: R$852.806,00 empenhado, R$836.068,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 74398,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$750.000,00 empenhado, R$548.600,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     }
   ]

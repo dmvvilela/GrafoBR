@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178993,
     "egoName": "Carlos Henrique Gaguim",
-    "generatedAt": "2026-06-05T20:37:26.114500Z",
+    "generatedAt": "2026-06-05T21:12:25.145837Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 178993,
       "name": "Carlos Henrique Gaguim",
       "category": "politician",
-      "connectionCount": 36
+      "connectionCount": 43
     },
     {
       "id": 2,
@@ -62,6 +63,12 @@
       "connectionCount": 1
     },
     {
+      "id": 39,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 33,
       "name": "BR Soluções Técnicas e Administrativas Ltda",
       "category": "supplier",
@@ -86,15 +93,45 @@
       "connectionCount": 1
     },
     {
+      "id": 42,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 15,
       "name": "Condomínio do Edifício JK Business Center",
       "category": "supplier",
       "connectionCount": 1
     },
     {
+      "id": 41,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 28,
       "name": "DIARIO TOCANTINENSE",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -215,6 +252,12 @@
       "id": 12,
       "name": "RS PRODUTOS E SERVICOS EIRELI",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -523,6 +566,62 @@
       "target": 36,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.132,59 (2 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 10/04/2025–14/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 178993,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.254.424,00 empenhado, R$52.485.935,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 178993,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$50.197.057,00 empenhado, R$50.028.679,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 178993,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.288.761,00 empenhado (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 178993,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$675.841,00 empenhado, R$675.841,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 178993,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 178993,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 178993,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

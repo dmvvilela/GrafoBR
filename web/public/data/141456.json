@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 141456,
     "egoName": "Jilmar Tatto",
-    "generatedAt": "2026-06-05T20:37:29.456494Z",
+    "generatedAt": "2026-06-05T21:12:28.640676Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 141456,
       "name": "Jilmar Tatto",
       "category": "politician",
-      "connectionCount": 28
+      "connectionCount": 36
     },
     {
       "id": 23,
@@ -44,6 +45,18 @@
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 17,
       "name": "BRASAL COMBUSTIVEIS LTDA",
       "category": "supplier",
@@ -56,9 +69,27 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "DENISE EMY BRETAS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -83,6 +114,18 @@
       "id": 6,
       "name": "EXPRESSIVO SISTEMA INTEGRADO DE ENSINO S/C LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -161,6 +204,12 @@
       "id": 24,
       "name": "ROTA COMBUSTIVEIS LTDA (POSTO 113)",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -411,6 +460,70 @@
       "target": 28,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$31,50 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 141456,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$39.658.104,00 empenhado, R$35.997.790,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 141456,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$24.165.502,00 empenhado, R$24.060.202,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 141456,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$5.500.000,00 empenhado, R$5.000.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 141456,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$1.949.990,00 empenhado, R$1.199.990,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 141456,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.619.959,00 empenhado, R$483.404,00 pago (3 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 141456,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.050.000,00 empenhado, R$266.000,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 141456,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 141456,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$500.000,00 empenhado, R$222.895,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220715,
     "egoName": "Amom Mandel",
-    "generatedAt": "2026-06-05T20:37:25.305175Z",
+    "generatedAt": "2026-06-05T21:12:24.199136Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220715,
       "name": "Amom Mandel",
       "category": "politician",
-      "connectionCount": 29
+      "connectionCount": 38
     },
     {
       "id": 26,
@@ -38,6 +39,12 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "CIDADANIA - AMAZONAS - AM - ESTADUAL",
       "category": "donor",
@@ -50,9 +57,33 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "DELFIM DE ALBUQUERQUE CHALUB PEREIRA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -92,6 +123,12 @@
       "connectionCount": 1
     },
     {
+      "id": 31,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "FABIOLA PINHEIRO LANGBECK DE LIMA",
       "category": "donor",
@@ -107,6 +144,12 @@
       "id": 28,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -167,6 +210,18 @@
       "id": 2,
       "name": "SIDNEY RAIMUNDO SILVA CHALUB",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -425,6 +480,78 @@
       "target": 29,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6,85 (8 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220715,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$45.700.493,00 empenhado, R$40.913.663,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220715,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$15.016.125,00 empenhado, R$3.418.090,00 pago (13 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220715,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$8.073.874,00 empenhado (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220715,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$3.002.564,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220715,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220715,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$800.000,00 empenhado (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220715,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$581.041,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220715,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220715,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$127.400,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

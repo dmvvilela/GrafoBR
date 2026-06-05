@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Avatar from "@/components/Avatar";
-import type { CeapTrail, Highlight } from "@/lib/data";
+import type { CeapTrail, EmendaTrail, Highlight } from "@/lib/data";
 
 function brl(value: number): string {
   return value.toLocaleString("pt-BR", {
@@ -8,6 +8,41 @@ function brl(value: number): string {
     currency: "BRL",
     maximumFractionDigits: 0,
   });
+}
+
+function EmendaTrails({ trails }: { trails: EmendaTrail[] }) {
+  if (trails.length === 0) return null;
+  return (
+    <div className="space-y-3">
+      <h3 className="text-center text-xs font-medium tracking-wide text-zinc-400 uppercase">
+        Maiores autores de emendas individuais
+      </h3>
+      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {trails.map((t) => (
+          <Link
+            key={t.id}
+            href={`/politico/${t.id}`}
+            className="group rounded-2xl border border-purple-400/15 bg-purple-400/[0.03] p-4 transition hover:-translate-y-0.5 hover:border-purple-400/40 hover:bg-purple-400/[0.06]"
+          >
+            <div className="flex items-center gap-3">
+              <Avatar id={t.id} name={t.name} size={40} />
+              <div className="min-w-0 flex-1">
+                <p className="truncate text-sm font-medium text-zinc-100">{t.name}</p>
+                <p className="text-xs text-zinc-500">
+                  {t.party}
+                  {t.uf ? ` · ${t.uf}` : ""}
+                </p>
+              </div>
+            </div>
+            <p className="mt-3 text-base font-semibold text-purple-300">{brl(t.empenhado)}</p>
+            <p className="text-xs text-zinc-500">
+              empenhado em emendas individuais{t.topArea ? ` · maior área: ${t.topArea}` : ""}
+            </p>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
 }
 
 function ContractTrails({ highlights }: { highlights: Highlight[] }) {
@@ -82,11 +117,14 @@ function CeapTrails({ trails }: { trails: CeapTrail[] }) {
 export default function MoneyTrails({
   highlights,
   ceapTrails,
+  emendaTrails,
 }: {
   highlights: Highlight[];
   ceapTrails: CeapTrail[];
+  emendaTrails: EmendaTrail[];
 }) {
-  if (highlights.length === 0 && ceapTrails.length === 0) return null;
+  if (highlights.length === 0 && ceapTrails.length === 0 && emendaTrails.length === 0)
+    return null;
   return (
     <section className="space-y-6">
       <div className="text-center">
@@ -98,6 +136,7 @@ export default function MoneyTrails({
         </p>
       </div>
 
+      <EmendaTrails trails={emendaTrails} />
       <ContractTrails highlights={highlights} />
       <CeapTrails trails={ceapTrails} />
     </section>

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74454,
     "egoName": "Eunício Oliveira",
-    "generatedAt": "2026-06-05T20:37:27.924921Z",
+    "generatedAt": "2026-06-05T21:12:27.171785Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "transparencia",
       "tse"
@@ -18,7 +19,7 @@
       "id": 74454,
       "name": "Eunício Oliveira",
       "category": "politician",
-      "connectionCount": 25
+      "connectionCount": 28
     },
     {
       "id": 18,
@@ -57,7 +58,7 @@
       "connectionCount": 1
     },
     {
-      "id": 26,
+      "id": 29,
       "name": "Contratos públicos — MEO EMPREENDIMENTOS IMOBILIARIOS LTDA",
       "category": "other",
       "connectionCount": 1
@@ -90,6 +91,12 @@
       "id": 4,
       "name": "EUNICIO LOPES DE OLIVEIRA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -162,6 +169,18 @@
       "id": 12,
       "name": "SANTA MONICA AGROPECUARIA E SERVICOS LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -380,8 +399,32 @@
     },
     {
       "id": 26,
-      "source": 10,
+      "source": 74454,
       "target": 26,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$42.561.695,00 empenhado, R$38.561.695,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 74454,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$32.109.576,00 empenhado, R$31.937.197,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 74454,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$399.280,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 10,
+      "target": 29,
       "connectionType": "contrato",
       "description": "Contratos públicos registrados no Portal da Transparência, total de R$8.548.807,20 (1 contrato; exemplo de órgão: POLÍCIA RODOVIÁRIA FEDERAL; período: 2018-12-31)",
       "strength": 1

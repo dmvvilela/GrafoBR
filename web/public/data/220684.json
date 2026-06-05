@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220684,
     "egoName": "Tião Medeiros",
-    "generatedAt": "2026-06-05T20:37:33.584099Z",
+    "generatedAt": "2026-06-05T21:12:33.243900Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220684,
       "name": "Tião Medeiros",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 61
     },
     {
       "id": 28,
@@ -86,6 +87,18 @@
       "connectionCount": 1
     },
     {
+      "id": 60,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 40,
       "name": "B T Chella Comunicação",
       "category": "supplier",
@@ -101,6 +114,24 @@
       "id": 42,
       "name": "Copel Distribuição S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -125,6 +156,18 @@
       "id": 20,
       "name": "ELISA DE FATIMA DUDECKE AZEVEDO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -269,6 +312,18 @@
       "id": 34,
       "name": "SUPREMA MOBILIDADE LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 61,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +802,78 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.569,53 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/08/2025–18/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220684,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$38.877.999,00 empenhado, R$35.910.940,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220684,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$28.213.585,00 empenhado, R$28.077.585,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220684,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.470.000,00 empenhado, R$2.470.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220684,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.000.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220684,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 220684,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 220684,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$635.985,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 220684,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$600.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 220684,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$250.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

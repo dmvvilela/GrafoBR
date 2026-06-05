@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 179000,
     "egoName": "Marcelo Álvaro Antônio",
-    "generatedAt": "2026-06-05T20:37:30.809287Z",
+    "generatedAt": "2026-06-05T21:12:30.136025Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 179000,
       "name": "Marcelo Álvaro Antônio",
       "category": "politician",
-      "connectionCount": 39
+      "connectionCount": 47
     },
     {
       "id": 13,
@@ -62,6 +63,18 @@
       "connectionCount": 1
     },
     {
+      "id": 44,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 15,
       "name": "BRASIL INSPIRAR LTDA",
       "category": "supplier",
@@ -98,9 +111,27 @@
       "connectionCount": 1
     },
     {
+      "id": 47,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "ETIENE MAIRE COSTA ARTHUSO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -230,6 +261,18 @@
       "connectionCount": 1
     },
     {
+      "id": 40,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "TAM",
       "category": "supplier",
@@ -239,6 +282,12 @@
       "id": 9,
       "name": "TERCIO TULIO NUNES MARCATO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -565,6 +614,70 @@
       "target": 39,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.287,99 (9 lançamentos; tipo: TELEFONIA; período: 20/02/2025–20/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 179000,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.615.477,00 empenhado, R$53.615.477,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 179000,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$49.560.878,00 empenhado, R$49.386.999,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 179000,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 179000,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.000.000,00 empenhado, R$1.000.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 179000,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$814.174,00 empenhado, R$64.669,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 179000,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$700.000,00 empenhado, R$211.075,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 179000,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$350.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 179000,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$199.600,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

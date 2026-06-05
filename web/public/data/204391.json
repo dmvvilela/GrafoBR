@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204391,
     "egoName": "José Nelto",
-    "generatedAt": "2026-06-05T20:37:29.709191Z",
+    "generatedAt": "2026-06-05T21:12:28.878616Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204391,
       "name": "José Nelto",
       "category": "politician",
-      "connectionCount": 46
+      "connectionCount": 50
     },
     {
       "id": 12,
@@ -47,6 +48,12 @@
       "id": 45,
       "name": "AUTO POSTO CHAVES LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -101,6 +108,18 @@
       "id": 15,
       "name": "EMPREENDIMENTO PORTO SEGURO SPE LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -281,6 +300,12 @@
       "id": 20,
       "name": "SPE RESIDENCIAL ROCHA & MERCEZ LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -663,6 +688,38 @@
       "target": 46,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.789,83 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/01/2025–26/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 204391,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.125.176,00 empenhado, R$52.798.852,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 204391,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$52.325.483,00 empenhado, R$52.147.104,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 204391,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$400.000,00 empenhado, R$400.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 204391,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$399.979,00 empenhado, R$180.213,00 pago (2 emendas; 2025)",
       "strength": 1
     }
   ]

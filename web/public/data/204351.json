@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204351,
     "egoName": "Dr. Luiz Ovando",
-    "generatedAt": "2026-06-05T20:37:27.540969Z",
+    "generatedAt": "2026-06-05T21:12:26.779093Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204351,
       "name": "Dr. Luiz Ovando",
       "category": "politician",
-      "connectionCount": 30
+      "connectionCount": 35
     },
     {
       "id": 17,
@@ -44,6 +45,12 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
@@ -56,6 +63,12 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "EMPRESA JORNALISTICA GAZETA MORENA LTDA",
       "category": "supplier",
@@ -65,6 +78,12 @@
       "id": 20,
       "name": "ENERGISA DISTRIBUIDORA DE ENERGIA / MS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -161,6 +180,18 @@
       "id": 6,
       "name": "SUPREMA MOBILIDADE LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -439,6 +470,46 @@
       "target": 30,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.557,06 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/01/2025–09/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204351,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.826.283,00 empenhado, R$50.226.283,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204351,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$40.252.056,00 empenhado, R$40.106.828,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204351,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$7.050.274,00 empenhado, R$6.775.524,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204351,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$4.191.444,00 empenhado, R$2.715.937,00 pago (15 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204351,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.921.906,00 empenhado, R$348.600,00 pago (4 emendas; 2023–2025)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204574,
     "egoName": "Junior Lourenço",
-    "generatedAt": "2026-06-05T20:37:30.005953Z",
+    "generatedAt": "2026-06-05T21:12:29.193244Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204574,
       "name": "Junior Lourenço",
       "category": "politician",
-      "connectionCount": 26
+      "connectionCount": 31
     },
     {
       "id": 23,
@@ -44,6 +45,12 @@
       "connectionCount": 1
     },
     {
+      "id": 29,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "Cia Aérea - TAM",
       "category": "supplier",
@@ -59,6 +66,12 @@
       "id": 19,
       "name": "Claro S/A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Comunicações",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -95,6 +108,18 @@
       "id": 17,
       "name": "EZEQUIAS DA ROCHA MARTINS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -155,6 +180,12 @@
       "id": 15,
       "name": "STV COMUNICACAO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -383,6 +414,46 @@
       "target": 26,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$34,45 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 204574,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.629.475,00 empenhado, R$53.305.663,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 204574,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$51.143.867,00 empenhado, R$50.967.489,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 204574,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.000.000,00 empenhado, R$1.000.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 204574,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$977.525,00 empenhado, R$899.767,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204574,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comunicações: R$500.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

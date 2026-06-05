@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74057,
     "egoName": "Alice Portugal",
-    "generatedAt": "2026-06-05T20:37:25.212789Z",
+    "generatedAt": "2026-06-05T21:12:24.057765Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 74057,
       "name": "Alice Portugal",
       "category": "politician",
-      "connectionCount": 45
+      "connectionCount": 52
     },
     {
       "id": 11,
@@ -85,6 +86,18 @@
       "connectionCount": 1
     },
     {
+      "id": 48,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 29,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
@@ -94,6 +107,12 @@
       "id": 44,
       "name": "COMERCIO DE COMBUSTIVEIS UIRAPURU LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Cultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -118,6 +137,12 @@
       "id": 45,
       "name": "ESR COMERCIO DE COMBUSTIVEIS E SERVICOS EIRELI",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -259,6 +284,18 @@
       "connectionCount": 1
     },
     {
+      "id": 47,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 23,
       "name": "TAM",
       "category": "supplier",
@@ -268,6 +305,12 @@
       "id": 28,
       "name": "THRUST MARKETING LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -648,6 +691,62 @@
       "target": 45,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$453,24 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 74057,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$48.822.485,00 empenhado, R$48.654.485,00 pago (38 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 74057,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$46.730.771,00 empenhado, R$43.195.540,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 74057,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$2.089.082,00 empenhado, R$681.914,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 74057,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$997.991,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 74057,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$977.524,00 empenhado, R$3.500,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 74057,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$350.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 74057,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$340.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

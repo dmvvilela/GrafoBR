@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220604,
     "egoName": "Marcos Tavares",
-    "generatedAt": "2026-06-05T20:37:30.945818Z",
+    "generatedAt": "2026-06-05T21:12:30.284867Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220604,
       "name": "Marcos Tavares",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 55
     },
     {
       "id": 35,
@@ -116,6 +117,12 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 39,
       "name": "ECO POSTO CAXIAS COMBUSTIVEIS LTDA",
       "category": "supplier",
@@ -131,6 +138,12 @@
       "id": 50,
       "name": "ETHOS PAPELARIA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Educação",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -299,6 +312,18 @@
       "id": 29,
       "name": "SUPREMA MOBILIDADE LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +758,38 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5,62 (8 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220604,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.573.786,00 empenhado, R$37.573.786,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220604,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$24.350.000,00 empenhado, R$200.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220604,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$13.023.783,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220604,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

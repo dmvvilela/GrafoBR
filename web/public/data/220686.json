@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220686,
     "egoName": "Duarte Jr.",
-    "generatedAt": "2026-06-05T20:37:27.630472Z",
+    "generatedAt": "2026-06-05T21:12:26.854501Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220686,
       "name": "Duarte Jr.",
       "category": "politician",
-      "connectionCount": 36
+      "connectionCount": 39
     },
     {
       "id": 20,
@@ -83,6 +84,18 @@
       "id": 5,
       "name": "ERALDO COLINS CARDOZO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -191,6 +204,12 @@
       "id": 29,
       "name": "STARLINK BRAZIL SERVICOS DE INTERNET LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -523,6 +542,30 @@
       "target": 36,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11,23 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220686,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$36.873.782,00 empenhado, R$36.687.404,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220686,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$35.573.786,00 empenhado, R$35.573.786,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220686,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$700.000,00 empenhado, R$339.226,00 pago (2 emendas; 2024)",
       "strength": 1
     }
   ]

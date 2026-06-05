@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 205550,
     "egoName": "Jorge Braz",
-    "generatedAt": "2026-06-05T20:37:29.530153Z",
+    "generatedAt": "2026-06-05T21:12:28.721597Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 205550,
       "name": "Jorge Braz",
       "category": "politician",
-      "connectionCount": 28
+      "connectionCount": 36
     },
     {
       "id": 19,
@@ -46,6 +47,12 @@
       "id": 22,
       "name": "AUTO POSTO VALDEVEZ LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -79,9 +86,39 @@
       "connectionCount": 1
     },
     {
+      "id": 32,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "Direção Estadual/Distrital",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -157,9 +194,21 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "Relações exteriores",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 15,
       "name": "SERVIA O NACIONAL DE APREND. COMERCIAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -410,6 +459,70 @@
       "target": 28,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$234,03 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 205550,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$49.695.675,00 empenhado, R$38.513.005,00 pago (13 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 205550,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$26.000.000,00 empenhado, R$4.856.989,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 205550,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$14.603.477,00 empenhado, R$14.560.698,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 205550,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$7.004.477,00 empenhado, R$2.527.753,00 pago (14 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 205550,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$3.500.000,00 empenhado (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 205550,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Relações exteriores: R$1.516.683,00 empenhado, R$969.697,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 205550,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$699.505,00 empenhado (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 205550,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$300.000,00 empenhado, R$300.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204473,
     "egoName": "General Girão",
-    "generatedAt": "2026-06-05T20:37:28.569088Z",
+    "generatedAt": "2026-06-05T21:12:27.752669Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204473,
       "name": "General Girão",
       "category": "politician",
-      "connectionCount": 40
+      "connectionCount": 53
     },
     {
       "id": 34,
@@ -61,6 +62,18 @@
       "connectionCount": 1
     },
     {
+      "id": 49,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 30,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
@@ -76,6 +89,30 @@
       "id": 31,
       "name": "COSERN",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Comunicações",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Desporto e lazer",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -109,6 +146,18 @@
       "connectionCount": 1
     },
     {
+      "id": 44,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 26,
       "name": "FAS DESENVOLVIMENTO DE SOFTWARE E CNSULTORIA LTDA",
       "category": "supplier",
@@ -124,6 +173,12 @@
       "id": 35,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -193,6 +248,12 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 40,
       "name": "PARELHAS GAS LTDA",
       "category": "supplier",
@@ -247,9 +308,27 @@
       "connectionCount": 1
     },
     {
+      "id": 41,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -578,6 +657,110 @@
       "target": 40,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.878,39 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 09/05/2025–27/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 204473,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.619.749,00 empenhado, R$49.902.354,00 pago (11 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 204473,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$25.781.640,00 empenhado, R$25.692.310,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 204473,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$7.814.842,00 empenhado, R$2.784.321,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 204473,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$6.000.044,00 empenhado, R$5.181.227,00 pago (3 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 204473,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$5.622.744,00 empenhado, R$1.326.266,00 pago (15 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 204473,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$3.136.099,00 empenhado, R$1.255.331,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 204473,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.827.128,00 empenhado, R$348.600,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 204473,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$1.430.250,00 empenhado, R$280.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 204473,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$812.986,00 empenhado, R$462.942,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 204473,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comunicações: R$493.866,00 empenhado, R$28.912,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 204473,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$209.200,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 204473,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$200.316,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 204473,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$190.580,00 empenhado, R$150.580,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

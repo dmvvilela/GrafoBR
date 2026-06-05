@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204364,
     "egoName": "Eli Borges",
-    "generatedAt": "2026-06-05T20:37:27.768772Z",
+    "generatedAt": "2026-06-05T21:12:26.993406Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204364,
       "name": "Eli Borges",
       "category": "politician",
-      "connectionCount": 28
+      "connectionCount": 37
     },
     {
       "id": 3,
@@ -46,6 +47,12 @@
       "id": 28,
       "name": "AUTO POSTO PRATAO MIRANORTE LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -79,6 +86,18 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 15,
       "name": "E.A.R. PEREIRA COMBUSTIVEIS EIRELI",
       "category": "supplier",
@@ -97,9 +116,27 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 6,
       "name": "GIOVANNA PEREIRA DO AMARAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -163,9 +200,27 @@
       "connectionCount": 1
     },
     {
+      "id": 29,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "TECNEGOCIOS SOLUÇÕES EM INFORMÁTICA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -410,6 +465,78 @@
       "target": 28,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.206,98 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/02/2025–08/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 204364,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$57.043.689,00 empenhado, R$46.506.610,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 204364,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$34.793.072,00 empenhado, R$34.646.073,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204364,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$4.947.266,00 empenhado (3 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204364,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$3.300.000,00 empenhado (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204364,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.955.050,00 empenhado, R$3.500,00 pago (3 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204364,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.592.000,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204364,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.500.000,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 204364,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$300.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 204364,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$300.000,00 empenhado, R$300.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

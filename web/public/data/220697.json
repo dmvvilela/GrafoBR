@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220697,
     "egoName": "Jadyel Alencar",
-    "generatedAt": "2026-06-05T20:37:29.378266Z",
+    "generatedAt": "2026-06-05T21:12:28.560109Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "transparencia",
       "tse"
@@ -18,7 +19,7 @@
       "id": 220697,
       "name": "Jadyel Alencar",
       "category": "politician",
-      "connectionCount": 54
+      "connectionCount": 59
     },
     {
       "id": 54,
@@ -75,6 +76,18 @@
       "connectionCount": 1
     },
     {
+      "id": 58,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 51,
       "name": "BRASILIA EMPREENDIMENTOS SERVICOS E PARTICIPACOES LTDA B HOTEL",
       "category": "supplier",
@@ -99,7 +112,7 @@
       "connectionCount": 1
     },
     {
-      "id": 55,
+      "id": 60,
       "name": "Contratos públicos — DIMENSAO DISTRIBUIDORA DE MEDICAMENTOS LTDA",
       "category": "other",
       "connectionCount": 1
@@ -162,6 +175,12 @@
       "id": 35,
       "name": "ESTIMATIVA EDITORA E COMUNICACAO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -324,6 +343,18 @@
       "id": 8,
       "name": "PAULO AFONSO HOLANDA DA SILVA JUNIOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -786,8 +817,48 @@
     },
     {
       "id": 55,
-      "source": 26,
+      "source": 220697,
       "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$42.473.786,00 empenhado, R$37.573.786,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220697,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$22.323.783,00 empenhado, R$22.237.404,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220697,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$5.000.000,00 empenhado, R$5.000.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 220697,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$3.000.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 220697,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$2.349.832,00 empenhado, R$348.600,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 26,
+      "target": 60,
       "connectionType": "contrato",
       "description": "Contratos públicos registrados no Portal da Transparência, total de R$329,60 (1 contrato; exemplo de órgão: EMPRESA BRASILEIRA DE SERVIÇOS HOSPITALARES; período: 2020-05-28)",
       "strength": 1

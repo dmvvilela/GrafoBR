@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220576,
     "egoName": "Alfredo Gaspar",
-    "generatedAt": "2026-06-05T20:37:25.200413Z",
+    "generatedAt": "2026-06-05T21:12:24.038564Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220576,
       "name": "Alfredo Gaspar",
       "category": "politician",
-      "connectionCount": 29
+      "connectionCount": 38
     },
     {
       "id": 15,
@@ -61,9 +62,33 @@
       "connectionCount": 1
     },
     {
+      "id": 38,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "CARLOS ALBERTO PINHEIRO DE MENDONCA NETO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Cultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -73,9 +98,21 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 27,
       "name": "EQUATORIAL ENERGIA ALAGOAS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -157,6 +194,18 @@
       "connectionCount": 1
     },
     {
+      "id": 30,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "TAM",
       "category": "supplier",
@@ -184,6 +233,12 @@
       "id": 9,
       "name": "UNIVEST",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -424,6 +479,78 @@
       "target": 29,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$650,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 22/08/2025–10/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220576,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.873.792,00 empenhado, R$37.873.792,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220576,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$19.137.787,00 empenhado, R$17.227.702,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220576,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$11.288.592,00 empenhado, R$11.248.592,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220576,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.946.737,00 empenhado, R$697.200,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220576,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.600.000,00 empenhado, R$4.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220576,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.000.000,00 empenhado, R$4.847,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220576,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$600.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220576,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$600.000,00 empenhado, R$600.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220576,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$500.000,00 empenhado, R$191.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

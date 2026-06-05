@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74554,
     "egoName": "José Rocha",
-    "generatedAt": "2026-06-05T20:37:29.742992Z",
+    "generatedAt": "2026-06-05T21:12:28.914384Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 74554,
       "name": "José Rocha",
       "category": "politician",
-      "connectionCount": 30
+      "connectionCount": 35
     },
     {
       "id": 11,
@@ -56,6 +57,12 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "BAHIASOL COMERCIO DE VEICULOS LTDA.",
       "category": "company",
@@ -80,9 +87,21 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "ECO POSTO 3L LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -176,6 +195,12 @@
       "connectionCount": 1
     },
     {
+      "id": 31,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "TAM",
       "category": "supplier",
@@ -191,6 +216,12 @@
       "id": 2,
       "name": "UNIAO BRASIL - BAHIA - BA - ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -439,6 +470,46 @@
       "target": 30,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$835,59 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 24/03/2025–16/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 74554,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.320.483,00 empenhado, R$51.375.860,00 pago (19 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 74554,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$43.123.230,00 empenhado, R$42.988.230,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 74554,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$6.066.586,00 empenhado, R$904.716,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 74554,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$2.587.627,00 empenhado, R$70.498,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 74554,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.125.840,00 empenhado, R$942.310,00 pago (4 emendas; 2023–2025)",
       "strength": 1
     }
   ]

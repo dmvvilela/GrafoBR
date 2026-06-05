@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 141411,
     "egoName": "Dagoberto Nogueira",
-    "generatedAt": "2026-06-05T20:37:26.668229Z",
+    "generatedAt": "2026-06-05T21:12:25.747677Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 141411,
       "name": "Dagoberto Nogueira",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 55
     },
     {
       "id": 39,
@@ -122,6 +123,12 @@
       "connectionCount": 1
     },
     {
+      "id": 54,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 15,
       "name": "EDER ALCE",
       "category": "donor",
@@ -155,6 +162,12 @@
       "id": 37,
       "name": "ENERGISA DISTRIBUIDORA DE ENERGIA / MS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -299,6 +312,18 @@
       "id": 9,
       "name": "SONIA TEREZA DE VASCONCELOS PEREIRA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +758,38 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$500,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/02/2025–07/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 141411,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.862.628,00 empenhado, R$42.332.614,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 141411,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$49.078.854,00 empenhado, R$48.932.475,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 141411,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$545.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 141411,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$500.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

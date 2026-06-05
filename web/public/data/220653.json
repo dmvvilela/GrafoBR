@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220653,
     "egoName": "Fábio Teruel",
-    "generatedAt": "2026-06-05T20:37:28.492737Z",
+    "generatedAt": "2026-06-05T21:12:27.673290Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220653,
       "name": "Fábio Teruel",
       "category": "politician",
-      "connectionCount": 35
+      "connectionCount": 37
     },
     {
       "id": 31,
@@ -95,6 +96,12 @@
       "id": 35,
       "name": "DECIO COM. E SERV. ROD. LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -203,6 +210,12 @@
       "id": 19,
       "name": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -509,6 +522,22 @@
       "target": 35,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$373,80 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/11/2025–08/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220653,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$45.000.000,00 empenhado, R$45.000.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220653,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$30.047.490,00 empenhado, R$29.934.731,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

@@ -60,6 +60,26 @@ export interface CeapTrail {
   category: string;
 }
 
+export interface EmendaTrail {
+  id: number;
+  name: string;
+  party?: string | null;
+  uf?: string | null;
+  empenhado: number;
+  pago: number;
+  topArea?: string | null;
+  areas: number;
+}
+
+export async function getEmendaTrails(): Promise<EmendaTrail[]> {
+  try {
+    const raw = await fs.readFile(path.join(DATA_DIR, "_emenda-trails.json"), "utf-8");
+    return JSON.parse(raw) as EmendaTrail[];
+  } catch {
+    return [];
+  }
+}
+
 export async function getCeapTrails(): Promise<CeapTrail[]> {
   try {
     const raw = await fs.readFile(path.join(DATA_DIR, "_ceap-trails.json"), "utf-8");

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204494,
     "egoName": "Fred Costa",
-    "generatedAt": "2026-06-05T20:37:28.438577Z",
+    "generatedAt": "2026-06-05T21:12:27.613864Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204494,
       "name": "Fred Costa",
       "category": "politician",
-      "connectionCount": 44
+      "connectionCount": 50
     },
     {
       "id": 33,
@@ -53,6 +54,12 @@
       "id": 22,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Agricultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -110,6 +117,12 @@
       "connectionCount": 1
     },
     {
+      "id": 46,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "FABIANO RODRIGUES ABRAO",
       "category": "donor",
@@ -143,6 +156,12 @@
       "id": 27,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -242,6 +261,18 @@
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 26,
       "name": "TAM",
       "category": "supplier",
@@ -263,6 +294,12 @@
       "id": 8,
       "name": "THIAGO NOGUEIRA CAMARGO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -635,6 +672,54 @@
       "target": 44,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.563,75 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/04/2025–06/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 204494,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$52.577.450,00 empenhado, R$50.690.751,00 pago (10 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 204494,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$40.817.070,00 empenhado, R$40.693.004,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 204494,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$6.499.984,00 empenhado, R$5.731.400,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 204494,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.950.000,00 empenhado, R$37.073,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 204494,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 204494,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$499.967,00 empenhado, R$256.915,00 pago (1 emenda; 2023)",
       "strength": 1
     }
   ]

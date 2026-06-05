@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220669,
     "egoName": "Lula da Fonte",
-    "generatedAt": "2026-06-05T20:37:30.629336Z",
+    "generatedAt": "2026-06-05T21:12:29.937083Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220669,
       "name": "Lula da Fonte",
       "category": "politician",
-      "connectionCount": 29
+      "connectionCount": 35
     },
     {
       "id": 18,
@@ -86,6 +87,18 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 28,
       "name": "EDITORA E GRAFICA MESQUITA BRASIL LTDA",
       "category": "supplier",
@@ -101,6 +114,12 @@
       "id": 14,
       "name": "ESTACAO SERVICOS BOA VIAGEM LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Educação",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -137,6 +156,12 @@
       "id": 13,
       "name": "GRAO FOTOGRAFIA APROFISSIONAL - LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -188,9 +213,21 @@
       "connectionCount": 1
     },
     {
+      "id": 30,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 6,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -425,6 +462,54 @@
       "target": 29,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.600,00 (12 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 29/01/2025–29/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220669,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$71.936.336,00 empenhado, R$70.464.198,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220669,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$1.200.000,00 empenhado, R$382.000,00 pago (3 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220669,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220669,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$400.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220669,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$400.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220669,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$200.000,00 empenhado, R$188.300,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

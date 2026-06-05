@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160665,
     "egoName": "Augusto Coutinho",
-    "generatedAt": "2026-06-05T20:37:25.655703Z",
+    "generatedAt": "2026-06-05T21:12:24.632882Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160665,
       "name": "Augusto Coutinho",
       "category": "politician",
-      "connectionCount": 44
+      "connectionCount": 57
     },
     {
       "id": 32,
@@ -62,6 +63,18 @@
       "connectionCount": 1
     },
     {
+      "id": 50,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "BCC LOCAÇÕES DE VEÍCULOS LTDA",
       "category": "supplier",
@@ -92,6 +105,18 @@
       "connectionCount": 1
     },
     {
+      "id": 57,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 21,
       "name": "DEIVY JAROSLAVSKY RUSHANSKY",
       "category": "supplier",
@@ -104,9 +129,39 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 44,
       "name": "E. J. W. DOS PRAZERES",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -254,6 +309,24 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Saneamento",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 26,
       "name": "TAM",
       "category": "supplier",
@@ -263,6 +336,12 @@
       "id": 12,
       "name": "THIAGO POGGI DE ALMEIDA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -635,6 +714,110 @@
       "target": 44,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.434,65 (4 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 03/01/2025–26/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 160665,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.705.154,00 empenhado, R$52.322.499,00 pago (11 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 160665,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$30.064.458,00 empenhado, R$29.982.058,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 160665,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$11.467.575,00 empenhado, R$112.172,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 160665,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$2.498.307,00 empenhado, R$271.009,00 pago (10 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 160665,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.748.000,00 empenhado, R$1.448.398,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 160665,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.740.380,00 empenhado, R$293.592,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 160665,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.549.980,00 empenhado, R$1.506.754,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 160665,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$850.000,00 empenhado, R$200.000,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 160665,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$752.094,00 empenhado (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 160665,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$500.000,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 160665,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$479.973,00 empenhado (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 160665,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saneamento: R$400.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 160665,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$150.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

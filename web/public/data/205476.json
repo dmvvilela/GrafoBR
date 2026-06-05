@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 205476,
     "egoName": "Charles Fernandes",
-    "generatedAt": "2026-06-05T20:37:26.326683Z",
+    "generatedAt": "2026-06-05T21:12:25.389389Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 205476,
       "name": "Charles Fernandes",
       "category": "politician",
-      "connectionCount": 30
+      "connectionCount": 33
     },
     {
       "id": 24,
@@ -79,6 +80,12 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 4,
       "name": "BRAULIO SANTANA FILHO",
       "category": "donor",
@@ -100,6 +107,12 @@
       "id": 16,
       "name": "ESPLANADA EVENTOS RESTAURANTE E DELIVERY EIRELI",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -178,6 +191,12 @@
       "id": 26,
       "name": "RAVENA AUTO POSTO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -438,6 +457,30 @@
       "target": 30,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.000,59 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/02/2025–04/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 205476,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$15.884.786,00 empenhado, R$15.884.786,00 pago (7 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 205476,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$15.740.842,00 empenhado, R$11.195.238,00 pago (15 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 205476,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$162.920,00 empenhado, R$162.920,00 pago (1 emenda; 2023)",
       "strength": 1
     }
   ]

@@ -40,7 +40,7 @@ One file per politician (the "ego"):
 |---|---|---|---|
 | `id` | integer | opaque node id. **Never a CPF/CNPJ.** | edge endpoints |
 | `name` | string | display name | label |
-| `category` | enum | `politician` \| `company` \| `donor` \| `supplier` \| `relative` \| `other` | **node color** |
+| `category` | enum | `politician` \| `company` \| `donor` \| `supplier` \| `destino` \| `relative` \| `other` | **node color** |
 | `connectionCount` | integer ≥ 0 | node degree (number of edges) | **node size** (scaled 5–24px) |
 
 ### link
@@ -49,7 +49,7 @@ One file per politician (the "ego"):
 | `id` | integer | edge id | — |
 | `source` | integer | node id (D3 `SimulationLinkDatum`) | endpoint |
 | `target` | integer | node id | endpoint |
-| `connectionType` | enum | `socio` \| `doacao` \| `despesa` \| `contrato` \| `parente` \| `other` | **edge color** |
+| `connectionType` | enum | `socio` \| `doacao` \| `despesa` \| `contrato` \| `emenda` \| `parente` \| `other` | **edge color** |
 | `description` | string \| null | human-readable, source-attributed | hover/detail |
 | `strength` | number | edge weight | **unused in rendering today** — don't over-invest |
 
@@ -62,11 +62,12 @@ One file per politician (the "ego"):
 |---|---|---|
 | node `id` | assigned sequential int | keep CPF/CNPJ→id map **private to the build** |
 | node `name` | politician / company / person name | |
-| node `category` | which dataset the entity is | politician=Câmara/Senado, company=Receita, donor=TSE, supplier=Câmara CEAP, relative=derived |
+| node `category` | which dataset the entity is | politician=Câmara/Senado, company=Receita, donor=TSE, supplier=Câmara CEAP, destino=emenda function (CGU), relative=derived |
 | node `connectionCount` | `COUNT(edges)` per node | one DuckDB aggregation |
 | link `socio` | Receita **QSA** (quadro de sócios) | politician/relative ↔ company |
 | link `doacao` | **TSE** donation records | donor ↔ politician |
 | link `despesa` | Câmara **CEAP** quota expenses | politician ↔ supplier |
+| link `emenda` | **CGU** individual amendments (emendas individuais) | politician ↔ destino (spending function) |
 | link `contrato` | **Portal da Transparência** contracts | company ↔ gov (link to politician via amendments where derivable) |
 | link `parente` | **derived** | fuzziest + most legally sensitive — be conservative (LEGAL.md) |
 | link `description` | templated from the row | e.g. "Doação de R$50.000 em 2022" |

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220592,
     "egoName": "Zezinho Barbary",
-    "generatedAt": "2026-06-05T20:37:33.898093Z",
+    "generatedAt": "2026-06-05T21:12:33.630669Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220592,
       "name": "Zezinho Barbary",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 55
     },
     {
       "id": 41,
@@ -88,6 +89,12 @@
       "id": 39,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -169,6 +176,12 @@
       "connectionCount": 1
     },
     {
+      "id": 54,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "EDERSON ROSARIO FERREIRA",
       "category": "donor",
@@ -184,6 +197,12 @@
       "id": 8,
       "name": "ENDERSON BARROS DE FREITAS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -310,6 +329,18 @@
       "id": 31,
       "name": "REDE COMERCIO DE PETROLEO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -718,6 +749,46 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$600,00 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 05/09/2025–09/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220592,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.638.488,00 empenhado, R$34.639.630,00 pago (11 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220592,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$35.887.569,00 empenhado, R$35.718.010,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220592,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$600.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220592,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$494.377,00 empenhado, R$177.368,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220592,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$478.233,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

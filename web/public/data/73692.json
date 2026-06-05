@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 73692,
     "egoName": "Osmar Terra",
-    "generatedAt": "2026-06-05T20:37:31.786807Z",
+    "generatedAt": "2026-06-05T21:12:31.118642Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 73692,
       "name": "Osmar Terra",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 56
     },
     {
       "id": 39,
@@ -56,6 +57,12 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 44,
       "name": "Azul Linhas Aéreas Inteligentes S.A",
       "category": "supplier",
@@ -86,6 +93,12 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "EDUARDO SHEN PACHECO DA SILVA",
       "category": "donor",
@@ -113,6 +126,12 @@
       "id": 11,
       "name": "EMILIO FIGER",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -284,6 +303,12 @@
       "connectionCount": 1
     },
     {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 32,
       "name": "TAM",
       "category": "supplier",
@@ -299,6 +324,12 @@
       "id": 35,
       "name": "Telefonica Brasil S.A - Vivo",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Transporte",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +764,46 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.972,33 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/02/2025–11/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 73692,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$55.646.856,00 empenhado, R$53.615.877,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 73692,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$44.819.249,00 empenhado, R$44.696.490,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 73692,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Transporte: R$5.000.000,00 empenhado, R$2.822.686,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 73692,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$925.347,00 empenhado, R$536.789,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 73692,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$660.985,00 empenhado, R$612.126,00 pago (3 emendas; 2025)",
       "strength": 1
     }
   ]

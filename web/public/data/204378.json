@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204378,
     "egoName": "Coronel Chrisóstomo",
-    "generatedAt": "2026-06-05T20:37:26.485850Z",
+    "generatedAt": "2026-06-05T21:12:25.568641Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204378,
       "name": "Coronel Chrisóstomo",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 55
     },
     {
       "id": 48,
@@ -110,6 +111,18 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 42,
       "name": "E NASCIMENTO AGENCIA DE PUBLICIDADE E MARKETING",
       "category": "supplier",
@@ -131,6 +144,12 @@
       "id": 45,
       "name": "ERMI COMERCIO E SERVICOS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -299,6 +318,12 @@
       "id": 21,
       "name": "SOULENIR BOGADA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +758,38 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.251,05 (13 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/01/2025–02/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 204378,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$47.839.523,00 empenhado, R$36.687.408,00 pago (13 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 204378,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$31.695.482,00 empenhado, R$31.671.603,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 204378,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$18.500.000,00 empenhado, R$169.542,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 204378,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$3.129.316,00 empenhado, R$557.947,00 pago (7 emendas; 2024–2025)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178966,
     "egoName": "Geovania de Sá",
-    "generatedAt": "2026-06-05T20:37:28.608141Z",
+    "generatedAt": "2026-06-05T21:12:27.790215Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 178966,
       "name": "Geovania de Sá",
       "category": "politician",
-      "connectionCount": 34
+      "connectionCount": 36
     },
     {
       "id": 21,
@@ -70,6 +71,12 @@
       "id": 30,
       "name": "EMIDIO SOUTO PEREIRA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -196,6 +203,12 @@
       "id": 15,
       "name": "SOCIEDADE ABAST. SANTA BARBARA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -494,6 +507,22 @@
       "target": 34,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.740,65 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 25/01/2025–17/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 178966,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$16.051.701,00 empenhado, R$16.051.701,00 pago (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 178966,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$16.051.699,00 empenhado, R$16.051.699,00 pago (1 emenda; 2023)",
       "strength": 1
     }
   ]

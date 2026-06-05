@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220666,
     "egoName": "Coronel Meira",
-    "generatedAt": "2026-06-05T20:37:26.528897Z",
+    "generatedAt": "2026-06-05T21:12:25.611659Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220666,
       "name": "Coronel Meira",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 37
     },
     {
       "id": 3,
@@ -98,9 +99,27 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 21,
       "name": "DANIELA BITTAR HOMSI HOTELARIA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Educação",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -197,6 +216,18 @@
       "id": 2,
       "name": "STENIO SOBRAL DE FARIAS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -467,6 +498,46 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.215,76 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 26/05/2025–02/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220666,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$44.301.109,00 empenhado, R$28.637.985,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220666,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$4.587.906,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220666,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$1.990.999,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220666,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220666,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$199.464,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

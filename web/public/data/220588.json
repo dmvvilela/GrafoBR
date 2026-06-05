@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220588,
     "egoName": "Roberto Duarte",
-    "generatedAt": "2026-06-05T20:37:32.777182Z",
+    "generatedAt": "2026-06-05T21:12:32.286992Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220588,
       "name": "Roberto Duarte",
       "category": "politician",
-      "connectionCount": 34
+      "connectionCount": 36
     },
     {
       "id": 24,
@@ -101,6 +102,12 @@
       "id": 22,
       "name": "DOMINGUES & MOREIRA LTDA - DOMO PUBLICIDADE E INTERMEDIAÇOES",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -215,6 +222,12 @@
       "id": 32,
       "name": "SERVICO SOCIAL DO COMERCIO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -495,6 +508,22 @@
       "target": 34,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.896,60 (8 lançamentos; tipo: TELEFONIA; período: 22/01/2025–23/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220588,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.596.797,00 empenhado, R$22.686.707,00 pago (12 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220588,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$37.282.386,00 empenhado, R$37.098.921,00 pago (15 emendas; 2024–2025)",
       "strength": 1
     }
   ]

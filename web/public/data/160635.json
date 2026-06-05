@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160635,
     "egoName": "Ruy Carneiro",
-    "generatedAt": "2026-06-05T20:37:33.077957Z",
+    "generatedAt": "2026-06-05T21:12:32.661574Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 160635,
       "name": "Ruy Carneiro",
       "category": "politician",
-      "connectionCount": 38
+      "connectionCount": 49
     },
     {
       "id": 27,
@@ -28,6 +29,18 @@
       "id": 21,
       "name": "AY SERVIÇO DE AGENCIAMENTO E PORTAL DE NOTICIAS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -61,6 +74,18 @@
       "connectionCount": 1
     },
     {
+      "id": 47,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "DIGICULT CONSULTORIA E COMUNICAÇÃO EIRELI",
       "category": "supplier",
@@ -70,6 +95,18 @@
       "id": 1,
       "name": "DIRETORIO NACIONAL DO PARTIDO SOCIAL CRISTAO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Desporto e lazer",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -109,6 +146,18 @@
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "FITZGERALD RODRIGUES MEDEIROS",
       "category": "donor",
@@ -118,6 +167,12 @@
       "id": 24,
       "name": "FONTE CZ SERVIÇOS DE INTERNET E COMUNICACAO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -220,6 +275,18 @@
       "id": 31,
       "name": "STRATEGIA COMUNICACAO SERVICOS DE CONSULTORIA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -550,6 +617,94 @@
       "target": 38,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.000,00 (10 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 24/02/2025–19/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 160635,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$55.080.077,00 empenhado, R$43.062.222,00 pago (21 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 160635,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$27.351.694,00 empenhado, R$27.243.794,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 160635,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$13.409.996,00 empenhado, R$8.258.754,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 160635,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$3.700.000,00 empenhado, R$500.000,00 pago (3 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 160635,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$2.999.998,00 empenhado, R$2.598.000,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 160635,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.900.000,00 empenhado, R$890.725,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 160635,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$795.237,00 empenhado, R$72.095,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 160635,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$699.795,00 empenhado, R$586.191,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 160635,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$500.000,00 empenhado, R$3.500,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 160635,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$299.800,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 160635,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$297.437,00 empenhado, R$102.996,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74428,
     "egoName": "Mendonça Filho",
-    "generatedAt": "2026-06-05T20:37:31.269985Z",
+    "generatedAt": "2026-06-05T21:12:30.585027Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 74428,
       "name": "Mendonça Filho",
       "category": "politician",
-      "connectionCount": 56
+      "connectionCount": 65
     },
     {
       "id": 44,
@@ -71,6 +72,12 @@
       "id": 36,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 61,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -140,9 +147,39 @@
       "connectionCount": 1
     },
     {
+      "id": 63,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 62,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 64,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 52,
       "name": "EDITORA GLOBO S/A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -320,6 +357,18 @@
       "connectionCount": 1
     },
     {
+      "id": 57,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 65,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 37,
       "name": "TAM",
       "category": "supplier",
@@ -341,6 +390,12 @@
       "id": 18,
       "name": "UNIAO BRASIL - PERNAMBUCO - PE - ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -803,6 +858,78 @@
       "target": 56,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$520,37 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/07/2025–21/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 74428,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$39.131.653,00 empenhado, R$33.524.170,00 pago (9 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 74428,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$28.075.984,00 empenhado, R$27.941.725,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 74428,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$4.245.560,00 empenhado, R$448.343,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 74428,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.299.323,00 empenhado, R$55.214,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 74428,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.000.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 62,
+      "source": 74428,
+      "target": 62,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$399.864,00 empenhado, R$174.822,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 63,
+      "source": 74428,
+      "target": 63,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 64,
+      "source": 74428,
+      "target": 64,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$150.000,00 empenhado (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 65,
+      "source": 74428,
+      "target": 65,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$99.994,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

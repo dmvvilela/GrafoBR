@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 141421,
     "egoName": "Eduardo da Fonte",
-    "generatedAt": "2026-06-05T20:37:27.735401Z",
+    "generatedAt": "2026-06-05T21:12:26.950113Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "transparencia",
       "tse"
@@ -18,7 +19,7 @@
       "id": 141421,
       "name": "Eduardo da Fonte",
       "category": "politician",
-      "connectionCount": 33
+      "connectionCount": 38
     },
     {
       "id": 5,
@@ -51,6 +52,12 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 27,
       "name": "BRENO CORDEIRO HOLDER LINS",
       "category": "supplier",
@@ -75,7 +82,7 @@
       "connectionCount": 1
     },
     {
-      "id": 34,
+      "id": 39,
       "name": "Contratos públicos — ADPL MOTORS LTDA.",
       "category": "other",
       "connectionCount": 1
@@ -84,6 +91,12 @@
       "id": 3,
       "name": "DIRETORIO REGIONAL DO PARTIDO PROGRESSISTA NO ESTADO DE PERNAMBUCO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -96,6 +109,12 @@
       "id": 29,
       "name": "ESTELA MARES DA COSTA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Educação",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -204,6 +223,18 @@
       "id": 26,
       "name": "SX MARJETING DIGITAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -492,8 +523,48 @@
     },
     {
       "id": 34,
-      "source": 5,
+      "source": 141421,
       "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$101.396.359,00 empenhado, R$92.466.359,00 pago (15 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 141421,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.000.000,00 empenhado (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 141421,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.499.402,00 empenhado, R$50.000,00 pago (3 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 141421,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 141421,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$350.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 5,
+      "target": 39,
       "connectionType": "contrato",
       "description": "Contratos públicos registrados no Portal da Transparência, total de R$46.908,00 (1 contrato; exemplo de órgão: MINISTÉRIO DA SAÚDE - UNIDADES COM VÍNCULO; período: 2018-08-01)",
       "strength": 1

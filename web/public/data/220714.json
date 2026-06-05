@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220714,
     "egoName": "Adail Filho",
-    "generatedAt": "2026-06-05T20:37:24.904814Z",
+    "generatedAt": "2026-06-05T21:12:23.624161Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220714,
       "name": "Adail Filho",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 55
     },
     {
       "id": 39,
@@ -143,6 +144,18 @@
       "id": 29,
       "name": "ELZANIRA SOARES DA SILVA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -317,6 +330,12 @@
       "id": 50,
       "name": "SP POSTO - COMERCIO DE COMBUSTIVEIS PARA VEICULO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +766,30 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$600,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/06/2025–29/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220714,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$56.513.114,00 empenhado, R$56.513.114,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220714,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$18.434.456,00 empenhado, R$18.434.456,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220714,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

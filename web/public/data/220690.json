@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220690,
     "egoName": "Capitão Alden",
-    "generatedAt": "2026-06-05T20:37:26.018646Z",
+    "generatedAt": "2026-06-05T21:12:25.050079Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220690,
       "name": "Capitão Alden",
       "category": "politician",
-      "connectionCount": 27
+      "connectionCount": 34
     },
     {
       "id": 14,
@@ -79,9 +80,33 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 15,
       "name": "ESTACAO SUL AUTO POSTO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -175,9 +200,27 @@
       "connectionCount": 1
     },
     {
+      "id": 28,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 6,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -396,6 +439,62 @@
       "target": 27,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$391,55 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/03/2025–31/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 220690,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.251.997,00 empenhado, R$33.013.380,00 pago (14 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 220690,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$21.452.000,00 empenhado, R$21.352.000,00 pago (10 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220690,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$7.225.939,00 empenhado, R$59.001,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220690,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$4.544.462,00 empenhado, R$3.373.082,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220690,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$2.897.271,00 empenhado, R$250.000,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220690,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$500.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220690,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$359.439,00 empenhado, R$280.261,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

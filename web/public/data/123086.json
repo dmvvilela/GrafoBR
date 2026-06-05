@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 123086,
     "egoName": "Átila Lira",
-    "generatedAt": "2026-06-05T20:37:34.047110Z",
+    "generatedAt": "2026-06-05T21:12:33.833437Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 123086,
       "name": "Átila Lira",
       "category": "politician",
-      "connectionCount": 47
+      "connectionCount": 53
     },
     {
       "id": 34,
@@ -92,6 +93,18 @@
       "connectionCount": 1
     },
     {
+      "id": 51,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 30,
       "name": "CONDOMÍNIO ÁLVARO PIRES",
       "category": "supplier",
@@ -119,6 +132,18 @@
       "id": 5,
       "name": "ELEICAO 2022 SILVIO MENDES DE OLIVEIRA FILHO GOVERNADOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -269,6 +294,18 @@
       "id": 22,
       "name": "SESP - SOCIEDADE DE ENSINO SUPERIOR DE PARNAIBA LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -677,6 +714,54 @@
       "target": 47,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$319,42 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 123086,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.688.498,00 empenhado, R$49.611.498,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 123086,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$50.120.518,00 empenhado, R$49.950.759,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 123086,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.699.431,00 empenhado, R$23.709,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 123086,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$891.756,00 empenhado, R$58.757,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 123086,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$745.592,00 empenhado, R$592.155,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 123086,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$100.000,00 empenhado, R$100.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

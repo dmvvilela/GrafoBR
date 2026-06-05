@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178876,
     "egoName": "Célio Silveira",
-    "generatedAt": "2026-06-05T20:37:26.607797Z",
+    "generatedAt": "2026-06-05T21:12:25.687885Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 178876,
       "name": "Célio Silveira",
       "category": "politician",
-      "connectionCount": 40
+      "connectionCount": 45
     },
     {
       "id": 34,
@@ -98,15 +99,39 @@
       "connectionCount": 1
     },
     {
+      "id": 44,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "DONIZETE NUNES AMORIM",
       "category": "donor",
       "connectionCount": 1
     },
     {
+      "id": 43,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "ELEICAO 2022 ELIEL FLORES RORIZ JUNIOR DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -245,6 +270,12 @@
       "id": 24,
       "name": "SUELY DE SOUSA CHAVES CORREA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -579,6 +610,46 @@
       "target": 40,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$680,00 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 19/03/2025–04/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 178876,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$34.878.280,00 empenhado, R$33.305.255,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 178876,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$30.177.710,00 empenhado, R$30.074.410,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 178876,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$4.000.000,00 empenhado, R$3.992.942,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 178876,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 178876,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$100.000,00 empenhado (1 emenda; 2023)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220704,
     "egoName": "Carol Dartora",
-    "generatedAt": "2026-06-05T20:37:26.208608Z",
+    "generatedAt": "2026-06-05T21:12:25.259723Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220704,
       "name": "Carol Dartora",
       "category": "politician",
-      "connectionCount": 36
+      "connectionCount": 47
     },
     {
       "id": 16,
@@ -73,6 +74,12 @@
       "connectionCount": 1
     },
     {
+      "id": 41,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 21,
       "name": "BROAD BRASIL LTDA",
       "category": "supplier",
@@ -85,9 +92,39 @@
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "DEMOCRATIZE TECNOLOGIA LTDA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -100,6 +137,12 @@
       "id": 31,
       "name": "ESMERALDA HOTELARIA LTDA EPP",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Educação",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -163,6 +206,12 @@
       "connectionCount": 1
     },
     {
+      "id": 40,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PARTIDO DOS TRABALHADORES - BRASIL - BR - NACIONAL",
       "category": "donor",
@@ -193,6 +242,18 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "TAIS MARIA MENDES",
       "category": "donor",
@@ -214,6 +275,12 @@
       "id": 14,
       "name": "Toniolo Serviços Imobiliários e Condominiais Ltda",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -522,6 +589,94 @@
       "target": 36,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 25/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220704,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$38.155.434,00 empenhado, R$28.554.156,00 pago (10 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220704,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$11.956.920,00 empenhado, R$1.895.492,00 pago (10 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220704,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$8.379.988,00 empenhado, R$2.961.788,00 pago (12 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 220704,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$5.686.000,00 empenhado, R$5.286.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 220704,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.966.102,00 empenhado, R$1.143.328,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 220704,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$2.250.000,00 empenhado, R$200.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 220704,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$800.000,00 empenhado, R$600.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 220704,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$400.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 220704,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$400.000,00 empenhado, R$400.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 220704,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$300.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 220704,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$200.000,00 empenhado, R$159.950,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

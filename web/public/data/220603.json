@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220603,
     "egoName": "Dani Cunha",
-    "generatedAt": "2026-06-05T20:37:26.760877Z",
+    "generatedAt": "2026-06-05T21:12:25.854529Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220603,
       "name": "Dani Cunha",
       "category": "politician",
-      "connectionCount": 35
+      "connectionCount": 40
     },
     {
       "id": 21,
@@ -110,9 +111,33 @@
       "connectionCount": 1
     },
     {
+      "id": 39,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "DANIELLE DYTZ DA CUNHA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -203,6 +228,12 @@
       "id": 31,
       "name": "POSTO TURCAO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -509,6 +540,46 @@
       "target": 35,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.673,50 (3 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 21/01/2025–19/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220603,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$47.875.985,00 empenhado, R$47.875.985,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220603,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$14.970.503,00 empenhado (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220603,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$5.000.000,00 empenhado, R$5.000.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220603,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$4.300.000,00 empenhado, R$4.300.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 220603,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$3.000.000,00 empenhado, R$2.970.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

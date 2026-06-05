@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 62881,
     "egoName": "Danilo Forte",
-    "generatedAt": "2026-06-05T20:37:26.912868Z",
+    "generatedAt": "2026-06-05T21:12:26.012713Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 62881,
       "name": "Danilo Forte",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 44
     },
     {
       "id": 8,
@@ -35,6 +36,18 @@
       "id": 21,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -74,15 +87,39 @@
       "connectionCount": 1
     },
     {
+      "id": 39,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 25,
       "name": "Conde & Dell Aringa - Des de Softwares",
       "category": "supplier",
       "connectionCount": 1
     },
     {
+      "id": 40,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "DOMINGOS SÁVIO ARAÚJO CARVALHO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Desporto e lazer",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -95,6 +132,18 @@
       "id": 31,
       "name": "EVOLUCAO MARKETING E COMUNICACAO CORPORATIVA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -134,6 +183,12 @@
       "connectionCount": 1
     },
     {
+      "id": 41,
+      "name": "Gestão ambiental",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 22,
       "name": "J.V. SILVA MATOS",
       "category": "supplier",
@@ -170,6 +225,12 @@
       "connectionCount": 1
     },
     {
+      "id": 43,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "PAULO TARSO REGO DE LIMA",
       "category": "donor",
@@ -200,6 +261,12 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "TAM",
       "category": "supplier",
@@ -209,6 +276,12 @@
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -467,6 +540,102 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.000,00 (5 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 07/02/2025–09/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 62881,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.818.119,00 empenhado, R$43.381.898,00 pago (10 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 62881,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$23.685.792,00 empenhado, R$23.612.292,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 62881,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$15.734.031,00 empenhado, R$233.103,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 62881,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$4.208.339,00 empenhado (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 62881,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$2.806.734,00 empenhado, R$201.400,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 62881,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.351.683,00 empenhado, R$2.351.683,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 62881,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$1.000.000,00 empenhado, R$300.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 62881,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$600.000,00 empenhado, R$300.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 62881,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$500.000,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 62881,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$325.583,00 empenhado (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 62881,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$315.677,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 62881,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$299.791,00 empenhado, R$197.558,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

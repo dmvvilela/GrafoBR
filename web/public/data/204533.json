@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 204533,
     "egoName": "Idilvan Alencar",
-    "generatedAt": "2026-06-05T20:37:29.168178Z",
+    "generatedAt": "2026-06-05T21:12:28.375222Z",
     "sources": [
       "camara",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -15,7 +16,7 @@
       "id": 204533,
       "name": "Idilvan Alencar",
       "category": "politician",
-      "connectionCount": 7
+      "connectionCount": 9
     },
     {
       "id": 6,
@@ -33,6 +34,12 @@
       "id": 7,
       "name": "AUGUSTO CESAR DE ARAUJO SIQUEIRA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 9,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -57,6 +64,12 @@
       "id": 5,
       "name": "REMO CESAR DE OLIVEIRA MOURA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 8,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -115,6 +128,22 @@
       "target": 204533,
       "connectionType": "doacao",
       "description": "Doação de campanha de R$500,00 em 2022 registrada no TSE (17/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 8,
+      "source": 204533,
+      "target": 8,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$58.118.034,00 empenhado, R$52.638.216,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 9,
+      "source": 204533,
+      "target": 9,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$48.621.481,00 empenhado, R$48.485.142,00 pago (3 emendas; 2023–2025)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204406,
     "egoName": "Pedro Westphalen",
-    "generatedAt": "2026-06-05T20:37:32.286882Z",
+    "generatedAt": "2026-06-05T21:12:31.684587Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204406,
       "name": "Pedro Westphalen",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 58
     },
     {
       "id": 47,
@@ -41,6 +42,18 @@
       "id": 37,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -116,6 +129,18 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 6,
       "name": "ELEICAO 2022 LUIS CARLOS HEINZE GOVERNADOR",
       "category": "donor",
@@ -137,6 +162,18 @@
       "id": 24,
       "name": "ESPORTE CLUBE GUARANI",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -275,6 +312,12 @@
       "id": 50,
       "name": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +776,62 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.500,00 (6 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 04/02/2025–23/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 204406,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.614.814,00 empenhado, R$47.815.068,00 pago (11 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 204406,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$43.070.607,00 empenhado, R$42.920.607,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 204406,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$5.691.267,00 empenhado, R$5.691.267,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 204406,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$3.558.331,00 empenhado, R$2.800,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 204406,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$599.918,00 empenhado, R$599.918,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 204406,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$500.000,00 empenhado, R$282.450,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 204406,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$200.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

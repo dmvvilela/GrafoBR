@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220564,
     "egoName": "Yandra Moura",
-    "generatedAt": "2026-06-05T20:37:33.851202Z",
+    "generatedAt": "2026-06-05T21:12:33.562340Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220564,
       "name": "Yandra Moura",
       "category": "politician",
-      "connectionCount": 42
+      "connectionCount": 47
     },
     {
       "id": 38,
@@ -98,6 +99,12 @@
       "connectionCount": 1
     },
     {
+      "id": 46,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 31,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
@@ -110,6 +117,12 @@
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 14,
       "name": "ELIO JOSE LIMA MARTINS",
       "category": "donor",
@@ -119,6 +132,12 @@
       "id": 11,
       "name": "ENIO PASSOS SANTOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -209,6 +228,18 @@
       "id": 28,
       "name": "RPB AUTO POSTO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -607,6 +638,46 @@
       "target": 42,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10,87 (7 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 220564,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$35.995.207,00 empenhado, R$30.701.763,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 220564,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$34.837.991,00 empenhado, R$34.657.112,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 220564,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 220564,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 220564,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$300.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

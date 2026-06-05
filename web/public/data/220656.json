@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220656,
     "egoName": "Fernanda Pessoa",
-    "generatedAt": "2026-06-05T20:37:28.217025Z",
+    "generatedAt": "2026-06-05T21:12:27.381964Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220656,
       "name": "Fernanda Pessoa",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 40
     },
     {
       "id": 14,
@@ -56,6 +57,12 @@
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "CONSOBRA CONSTRUCOES E SERVICOS LTDA",
       "category": "company",
@@ -74,15 +81,33 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 24,
       "name": "Conde & Dell Aringa - Des de Softwares",
       "category": "supplier",
       "connectionCount": 1
     },
     {
+      "id": 40,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 23,
       "name": "DJ - HOTELARIA S/A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Desporto e lazer",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -107,6 +132,12 @@
       "id": 28,
       "name": "ESTACAO COMERCIO DE PETROLEO E SERVICOS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -188,6 +219,18 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "TAM",
       "category": "supplier",
@@ -209,6 +252,12 @@
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -467,6 +516,70 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.643,77 (12 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/03/2025–30/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220656,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$45.731.915,00 empenhado, R$45.731.915,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220656,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$17.500.000,00 empenhado, R$17.455.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220656,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$9.098.712,00 empenhado, R$155.506,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220656,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$899.546,00 empenhado, R$801.226,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220656,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$750.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220656,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$579.592,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220656,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$285.655,00 empenhado (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 220656,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

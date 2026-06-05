@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204388,
     "egoName": "Bibo Nunes",
-    "generatedAt": "2026-06-05T20:37:25.893271Z",
+    "generatedAt": "2026-06-05T21:12:24.905474Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "transparencia",
       "tse"
@@ -18,7 +19,7 @@
       "id": 204388,
       "name": "Bibo Nunes",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 55
     },
     {
       "id": 40,
@@ -111,7 +112,7 @@
       "connectionCount": 1
     },
     {
-      "id": 52,
+      "id": 56,
       "name": "Contratos públicos — CONTRATADO : ALCIBIO MESQUITA BIBO NUNES & CIA-LTDA - EPP",
       "category": "other",
       "connectionCount": 1
@@ -156,6 +157,18 @@
       "id": 16,
       "name": "EMIR OLIVEIRA DORNELES",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -282,6 +295,18 @@
       "id": 49,
       "name": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -744,8 +769,40 @@
     },
     {
       "id": 52,
-      "source": 26,
+      "source": 204388,
       "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$51.571.178,00 empenhado, R$33.359.477,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 204388,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$50.768.878,00 empenhado, R$50.586.499,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 204388,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.158.762,00 empenhado, R$270.000,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 204388,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$325.841,00 empenhado, R$180.476,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 26,
+      "target": 56,
       "connectionType": "contrato",
       "description": "Contratos públicos registrados no Portal da Transparência, total de R$15.000,00 (1 contrato; exemplo de órgão: EMPRESA DE TRENS URBANOS DE PORTO ALEGRE; período: 2014-07-15)",
       "strength": 1

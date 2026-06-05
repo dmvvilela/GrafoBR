@@ -7,6 +7,7 @@ export type NodeCategory =
   | "company"
   | "donor"
   | "supplier"
+  | "destino"
   | "relative"
   | "other";
 
@@ -15,6 +16,7 @@ export type ConnectionType =
   | "doacao" // campaign donation
   | "despesa" // parliamentary quota expense (CEAP)
   | "contrato" // public contract
+  | "emenda" // individual parliamentary amendment (emenda individual)
   | "parente" // derived family tie — treat conservatively (see LEGAL.md)
   | "other";
 

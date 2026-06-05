@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220683,
     "egoName": "Beto Richa",
-    "generatedAt": "2026-06-05T20:37:25.853903Z",
+    "generatedAt": "2026-06-05T21:12:24.861411Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220683,
       "name": "Beto Richa",
       "category": "politician",
-      "connectionCount": 48
+      "connectionCount": 52
     },
     {
       "id": 21,
@@ -74,6 +75,12 @@
       "connectionCount": 1
     },
     {
+      "id": 51,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 14,
       "name": "CARLA REGINA BARRETO CARNIERI",
       "category": "donor",
@@ -95,6 +102,12 @@
       "id": 41,
       "name": "Cia Aérea - AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Comércio e serviços",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -143,6 +156,12 @@
       "id": 38,
       "name": "EMPRESA HOTELEIRA CASTEL FRANCO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -269,6 +288,12 @@
       "id": 40,
       "name": "STARLINK BRAZIL SERVICOS DE INTERNET LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -691,6 +716,38 @@
       "target": 48,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.609,18 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/02/2025–09/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 220683,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$45.692.315,00 empenhado, R$26.291.754,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 220683,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$19.255.000,00 empenhado, R$19.184.500,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220683,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$7.672.792,00 empenhado, R$2.372.792,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220683,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

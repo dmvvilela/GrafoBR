@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74084,
     "egoName": "Raimundo Santos",
-    "generatedAt": "2026-06-05T20:37:32.513534Z",
+    "generatedAt": "2026-06-05T21:12:31.965022Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 74084,
       "name": "Raimundo Santos",
       "category": "politician",
-      "connectionCount": 44
+      "connectionCount": 46
     },
     {
       "id": 29,
@@ -137,6 +138,12 @@
       "id": 41,
       "name": "Elegis Gestão Estratégica, Consultoria e Tecn",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -269,6 +276,12 @@
       "id": 13,
       "name": "SERGIO ALVES DE AZEVEDO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -635,6 +648,22 @@
       "target": 44,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$485,90 (1 lançamento; tipo: SERVIÇOS POSTAIS; período: 11/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 74084,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$39.573.786,00 empenhado, R$39.573.786,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 74084,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$35.573.783,00 empenhado, R$35.387.404,00 pago (4 emendas; 2024–2025)",
       "strength": 1
     }
   ]

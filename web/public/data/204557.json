@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204557,
     "egoName": "Sidney Leite",
-    "generatedAt": "2026-06-05T20:37:33.241301Z",
+    "generatedAt": "2026-06-05T21:12:32.854399Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204557,
       "name": "Sidney Leite",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 37
     },
     {
       "id": 24,
@@ -62,6 +63,18 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 4,
       "name": "CARLOS FABIO DE SOUZA MARQUES",
       "category": "donor",
@@ -89,6 +102,18 @@
       "id": 17,
       "name": "E R P PASSOS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -179,6 +204,12 @@
       "id": 2,
       "name": "SIDNEY RICARDO DE OLIVEIRA LEITE",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -467,6 +498,46 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$230,81 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204557,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$61.676.385,00 empenhado, R$61.426.385,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204557,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$41.449.215,00 empenhado, R$41.268.336,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204557,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$2.525.226,00 empenhado, R$131.142,00 pago (3 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 204557,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$762.920,00 empenhado, R$562.920,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 204557,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$449.855,00 empenhado, R$279.546,00 pago (3 emendas; 2023)",
       "strength": 1
     }
   ]

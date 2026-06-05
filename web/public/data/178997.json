@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178997,
     "egoName": "Moses Rodrigues",
-    "generatedAt": "2026-06-05T20:37:31.448776Z",
+    "generatedAt": "2026-06-05T21:12:30.756192Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 178997,
       "name": "Moses Rodrigues",
       "category": "politician",
-      "connectionCount": 23
+      "connectionCount": 29
     },
     {
       "id": 15,
@@ -61,6 +62,18 @@
       "connectionCount": 1
     },
     {
+      "id": 26,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 13,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
@@ -70,6 +83,12 @@
       "id": 12,
       "name": "DIAMOND COMERCIO E SERVICOS LTDA - DIAMOND",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 25,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -121,6 +140,12 @@
       "connectionCount": 1
     },
     {
+      "id": 27,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 18,
       "name": "PETRONORTE COMBUSTIVEIS LTDA",
       "category": "supplier",
@@ -136,6 +161,18 @@
       "id": 23,
       "name": "RAMAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 24,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -340,6 +377,54 @@
       "target": 23,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$12,72 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 24,
+      "source": 178997,
+      "target": 24,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.586.585,00 empenhado, R$37.586.585,00 pago (11 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 178997,
+      "target": 25,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$31.935.000,00 empenhado, R$31.799.000,00 pago (9 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 178997,
+      "target": 26,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$3.000.000,00 empenhado, R$2.500.000,00 pago (3 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 178997,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$1.999.995,00 empenhado, R$1.999.995,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 178997,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$400.000,00 empenhado, R$400.000,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 178997,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$140.432,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204531,
     "egoName": "Guilherme Derrite",
-    "generatedAt": "2026-06-05T20:37:28.878039Z",
+    "generatedAt": "2026-06-05T21:12:28.068114Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204531,
       "name": "Guilherme Derrite",
       "category": "politician",
-      "connectionCount": 20
+      "connectionCount": 25
     },
     {
       "id": 9,
@@ -38,15 +39,39 @@
       "connectionCount": 1
     },
     {
+      "id": 23,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 4,
       "name": "DOMINGOS NELSON MARTINS",
       "category": "donor",
       "connectionCount": 1
     },
     {
+      "id": 24,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 25,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 16,
       "name": "EDUARDO PEREIRA DOS SANTOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 22,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -107,6 +132,12 @@
       "id": 6,
       "name": "SILVANA LEONARDO FESTA MARTINS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 21,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -299,6 +330,46 @@
       "target": 20,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$200,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 204531,
+      "target": 21,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$14.448.735,00 empenhado, R$14.028.735,00 pago (4 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 22,
+      "source": 204531,
+      "target": 22,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$11.178.387,00 empenhado, R$11.178.387,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 204531,
+      "target": 23,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.807.920,00 empenhado, R$3.807.920,00 pago (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 24,
+      "source": 204531,
+      "target": 24,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$662.920,00 empenhado, R$500.000,00 pago (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 204531,
+      "target": 25,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$400.000,00 empenhado, R$399.994,00 pago (1 emenda; 2023)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160640,
     "egoName": "Eros Biondini",
-    "generatedAt": "2026-06-05T20:37:27.906178Z",
+    "generatedAt": "2026-06-05T21:12:27.151392Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160640,
       "name": "Eros Biondini",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 60
     },
     {
       "id": 22,
@@ -35,6 +36,12 @@
       "id": 27,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -86,9 +93,21 @@
       "connectionCount": 1
     },
     {
+      "id": 59,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 37,
       "name": "DANIELA DE CARVALHO VAZ JACOB-ME HOTEL AGUA VIVA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Defesa nacional",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -101,6 +120,18 @@
       "id": 35,
       "name": "ESTRELA LOGISTICA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -230,6 +261,12 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 39,
       "name": "PARLANET WEB E TECNOLOGIA EIRELI",
       "category": "supplier",
@@ -302,9 +339,27 @@
       "connectionCount": 1
     },
     {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 29,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +788,78 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.300,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 13/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 160640,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.602.270,00 empenhado, R$48.206.086,00 pago (11 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 160640,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$36.223.194,00 empenhado, R$36.067.816,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 160640,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$6.635.943,00 empenhado, R$4.885.943,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 160640,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$5.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 160640,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$2.484.227,00 empenhado, R$403.637,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 160640,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.146.977,00 empenhado (3 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 160640,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.051.682,00 empenhado, R$988.543,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 160640,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$400.000,00 empenhado, R$100.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 160640,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$99.860,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

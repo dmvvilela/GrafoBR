@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 104552,
     "egoName": "Socorro Neri",
-    "generatedAt": "2026-06-05T20:37:33.328515Z",
+    "generatedAt": "2026-06-05T21:12:32.957751Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 104552,
       "name": "Socorro Neri",
       "category": "politician",
-      "connectionCount": 31
+      "connectionCount": 37
     },
     {
       "id": 27,
@@ -67,6 +68,18 @@
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 26,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
@@ -103,9 +116,21 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 18,
       "name": "ESFERA COMUNICAÇÃO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -190,6 +215,18 @@
       "id": 31,
       "name": "SAN REMO POSTO SERVICOS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -395,7 +432,7 @@
       "source": 104552,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 30/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 22/10/2025)",
       "strength": 1
     },
     {
@@ -403,7 +440,7 @@
       "source": 104552,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 22/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 30/12/2025)",
       "strength": 1
     },
     {
@@ -452,6 +489,54 @@
       "target": 31,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$424,88 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 29/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 104552,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.562.123,00 empenhado, R$37.562.123,00 pago (9 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 104552,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$32.135.792,00 empenhado, R$31.975.792,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 104552,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.037.991,00 empenhado, R$2.037.991,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 104552,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.600.000,00 empenhado (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 104552,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.299.745,00 empenhado, R$467.335,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 104552,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

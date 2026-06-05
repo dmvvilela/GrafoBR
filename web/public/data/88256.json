@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 88256,
     "egoName": "Clodoaldo Magalhães",
-    "generatedAt": "2026-06-05T20:37:26.430873Z",
+    "generatedAt": "2026-06-05T21:12:25.499522Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 88256,
       "name": "Clodoaldo Magalhães",
       "category": "politician",
-      "connectionCount": 36
+      "connectionCount": 38
     },
     {
       "id": 16,
@@ -140,6 +141,12 @@
       "connectionCount": 1
     },
     {
+      "id": 38,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "GOL",
       "category": "supplier",
@@ -215,6 +222,12 @@
       "id": 34,
       "name": "POSTO SUL LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -523,6 +536,22 @@
       "target": 36,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$591,17 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/01/2025–18/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 88256,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.528.310,00 empenhado, R$37.528.310,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 88256,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$37.227.275,00 empenhado, R$37.040.896,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     }
   ]

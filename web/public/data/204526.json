@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204526,
     "egoName": "Luiz Philippe de Orleans e Bragança",
-    "generatedAt": "2026-06-05T20:37:30.576118Z",
+    "generatedAt": "2026-06-05T21:12:29.885934Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204526,
       "name": "Luiz Philippe de Orleans e Bragança",
       "category": "politician",
-      "connectionCount": 40
+      "connectionCount": 51
     },
     {
       "id": 1,
@@ -41,6 +42,18 @@
       "id": 28,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -68,15 +81,45 @@
       "connectionCount": 1
     },
     {
+      "id": 51,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "DORA MORAES BARROS",
       "category": "donor",
       "connectionCount": 1
     },
     {
+      "id": 42,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 36,
       "name": "ECONOTEL HOTELARIA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Educação",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -176,6 +219,12 @@
       "connectionCount": 1
     },
     {
+      "id": 46,
+      "name": "Múltiplo",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "Navona Comunicação e Marketing LTDA",
       "category": "supplier",
@@ -224,9 +273,27 @@
       "connectionCount": 1
     },
     {
+      "id": 49,
+      "name": "Relações exteriores",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "SERGIO LUIZ DE MORAES BARROS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -579,6 +646,94 @@
       "target": 40,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$249,47 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 26/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 204526,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$47.459.091,00 empenhado, R$39.587.704,00 pago (18 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 204526,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$28.578.503,00 empenhado, R$7.292.281,00 pago (16 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 204526,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$4.799.943,00 empenhado, R$10.000,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 204526,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.460.000,00 empenhado, R$2.200.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 204526,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$2.450.000,00 empenhado, R$1.310.000,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 204526,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$2.443.813,00 empenhado, R$67.831,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 204526,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$2.431.494,00 empenhado, R$600.000,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 204526,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.800.000,00 empenhado (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 204526,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Relações exteriores: R$1.303.283,00 empenhado, R$217.146,00 pago (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 204526,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$672.000,00 empenhado, R$324.459,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 204526,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$272.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

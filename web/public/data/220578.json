@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220578,
     "egoName": "Josenildo",
-    "generatedAt": "2026-06-05T20:37:29.634060Z",
+    "generatedAt": "2026-06-05T21:12:28.798303Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220578,
       "name": "Josenildo",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 35
     },
     {
       "id": 18,
@@ -100,6 +101,12 @@
       "id": 2,
       "name": "EDUARDO CORREA TAVARES",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -193,6 +200,12 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Previdência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 28,
       "name": "R. M. R. DE ALMEIDA - ME",
       "category": "supplier",
@@ -202,6 +215,12 @@
       "id": 27,
       "name": "SERVIA O NACIONAL DE APREND. COMERCIAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -466,6 +485,30 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$344,17 (3 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 28/01/2025–17/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220578,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.573.685,00 empenhado, R$23.519.475,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220578,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$37.173.782,00 empenhado, R$36.987.404,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220578,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Previdência social: R$397.230,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160545,
     "egoName": "Alexandre Leite",
-    "generatedAt": "2026-06-05T20:37:25.155452Z",
+    "generatedAt": "2026-06-05T21:12:23.978360Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160545,
       "name": "Alexandre Leite",
       "category": "politician",
-      "connectionCount": 18
+      "connectionCount": 26
     },
     {
       "id": 17,
@@ -38,6 +39,18 @@
       "connectionCount": 1
     },
     {
+      "id": 23,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 22,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
@@ -50,15 +63,33 @@
       "connectionCount": 1
     },
     {
+      "id": 26,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "DRA4 DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
       "connectionCount": 1
     },
     {
+      "id": 21,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "ENEL - Eletropaulo Metropolitana Eletricidade de São Paulo S. A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 25,
+      "name": "Educação",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -98,6 +129,18 @@
       "connectionCount": 1
     },
     {
+      "id": 19,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 24,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "TAM",
       "category": "supplier",
@@ -125,6 +168,12 @@
       "id": 5,
       "name": "UNIAO BRASIL - SAO PAULO - SP - MUNICIPAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 20,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -271,6 +320,70 @@
       "target": 18,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4,24 (3 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 160545,
+      "target": 19,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$55.037.959,00 empenhado, R$47.556.409,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 160545,
+      "target": 20,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$27.515.627,00 empenhado, R$2.235.156,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 160545,
+      "target": 21,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$10.917.387,00 empenhado (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 22,
+      "source": 160545,
+      "target": 22,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.450.000,00 empenhado, R$3.200.000,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 160545,
+      "target": 23,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$3.017.454,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 24,
+      "source": 160545,
+      "target": 24,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$2.495.703,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 160545,
+      "target": 25,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$2.485.534,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 160545,
+      "target": 26,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$250.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

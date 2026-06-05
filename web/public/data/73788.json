@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 73788,
     "egoName": "Ricardo Barros",
-    "generatedAt": "2026-06-05T20:37:32.688179Z",
+    "generatedAt": "2026-06-05T21:12:32.175828Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 73788,
       "name": "Ricardo Barros",
       "category": "politician",
-      "connectionCount": 64
+      "connectionCount": 70
     },
     {
       "id": 53,
@@ -104,6 +105,12 @@
       "connectionCount": 1
     },
     {
+      "id": 67,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 26,
       "name": "BB CORRETORA LTDA",
       "category": "company",
@@ -140,15 +147,33 @@
       "connectionCount": 1
     },
     {
+      "id": 70,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 21,
       "name": "DANUSA MARIA DE CAMARGO DIAS ARAUJO",
       "category": "donor",
       "connectionCount": 1
     },
     {
+      "id": 68,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 24,
       "name": "ERIKA MEDEIROS KRUGEL STOCCO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 66,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -284,6 +309,12 @@
       "connectionCount": 1
     },
     {
+      "id": 69,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 60,
       "name": "POSTO MACEDO PIONEER",
       "category": "supplier",
@@ -371,6 +402,12 @@
       "id": 20,
       "name": "SYNESIO BATISTA DA COSTA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 65,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -915,6 +952,54 @@
       "target": 64,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$309,06 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 15/09/2025–15/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 65,
+      "source": 73788,
+      "target": 65,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$55.270.948,00 empenhado, R$38.876.980,00 pago (15 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 66,
+      "source": 73788,
+      "target": 66,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$50.317.276,00 empenhado, R$50.143.397,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 67,
+      "source": 73788,
+      "target": 67,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.000.000,00 empenhado, R$1.000.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 68,
+      "source": 73788,
+      "target": 68,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$299.991,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 69,
+      "source": 73788,
+      "target": 69,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$221.957,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 70,
+      "source": 73788,
+      "target": 70,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$23.200,00 empenhado, R$734,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

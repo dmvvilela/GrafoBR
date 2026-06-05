@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 66385,
     "egoName": "Julio Arcoverde",
-    "generatedAt": "2026-06-05T20:37:29.900404Z",
+    "generatedAt": "2026-06-05T21:12:29.084290Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 66385,
       "name": "Julio Arcoverde",
       "category": "politician",
-      "connectionCount": 45
+      "connectionCount": 49
     },
     {
       "id": 12,
@@ -35,6 +36,12 @@
       "id": 43,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -77,6 +84,12 @@
       "id": 23,
       "name": "ELEICAO 2022 SILVIO MENDES DE OLIVEIRA FILHO GOVERNADOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -257,6 +270,18 @@
       "id": 30,
       "name": "SEVEN - BAR & CHARUTARIA LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -649,6 +674,38 @@
       "target": 45,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$25,02 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 66385,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.573.786,00 empenhado, R$37.573.786,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 66385,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$36.623.783,00 empenhado, R$36.442.404,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 66385,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$750.000,00 empenhado, R$348.600,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 66385,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$200.000,00 empenhado, R$200.000,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

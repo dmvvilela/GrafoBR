@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 213762,
     "egoName": "Carla Dickson",
-    "generatedAt": "2026-06-05T20:37:26.057037Z",
+    "generatedAt": "2026-06-05T21:12:25.087209Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 213762,
       "name": "Carla Dickson",
       "category": "politician",
-      "connectionCount": 30
+      "connectionCount": 31
     },
     {
       "id": 6,
@@ -173,6 +174,12 @@
       "id": 18,
       "name": "ROBSON ARAUJO PIRES",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -439,6 +446,14 @@
       "target": 30,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$990,71 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/04/2025–26/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 213762,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$31.603.185,00 empenhado, R$30.537.351,00 pago (8 emendas; 2023)",
       "strength": 1
     }
   ]

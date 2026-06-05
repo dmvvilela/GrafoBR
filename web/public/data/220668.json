@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220668,
     "egoName": "Maria Arraes",
-    "generatedAt": "2026-06-05T20:37:30.963536Z",
+    "generatedAt": "2026-06-05T21:12:30.308814Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220668,
       "name": "Maria Arraes",
       "category": "politician",
-      "connectionCount": 27
+      "connectionCount": 37
     },
     {
       "id": 26,
@@ -35,6 +36,12 @@
       "id": 19,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -74,6 +81,42 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Comunicações",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 24,
       "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
       "category": "supplier",
@@ -89,6 +132,12 @@
       "id": 14,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -170,9 +219,21 @@
       "connectionCount": 1
     },
     {
+      "id": 28,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -397,6 +458,86 @@
       "target": 27,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.750,00 (7 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 23/01/2025–22/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 220668,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$40.223.793,00 empenhado, R$37.573.793,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 220668,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$28.573.776,00 empenhado, R$28.439.897,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220668,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$2.000.000,00 empenhado, R$1.000.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220668,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$1.900.000,00 empenhado, R$700.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220668,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$900.000,00 empenhado, R$400.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220668,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$500.000,00 empenhado, R$500.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220668,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$300.000,00 empenhado, R$7.814,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220668,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comunicações: R$300.000,00 empenhado, R$300.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220668,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$250.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220668,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

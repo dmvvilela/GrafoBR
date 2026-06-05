@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204491,
     "egoName": "Gilberto Abramo",
-    "generatedAt": "2026-06-05T20:37:28.676428Z",
+    "generatedAt": "2026-06-05T21:12:27.863950Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204491,
       "name": "Gilberto Abramo",
       "category": "politician",
-      "connectionCount": 48
+      "connectionCount": 58
     },
     {
       "id": 10,
@@ -40,6 +41,18 @@
       "id": 35,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -67,6 +80,12 @@
       "connectionCount": 1
     },
     {
+      "id": 57,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "DAISY DANIELA DE BARROS DA SILVA",
       "category": "donor",
@@ -91,9 +110,33 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 42,
       "name": "Eco Empreendimentos Comerciais LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -124,6 +167,12 @@
       "id": 15,
       "name": "GERALDO MAGELA CHAVES",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -241,6 +290,12 @@
       "connectionCount": 1
     },
     {
+      "id": 52,
+      "name": "Relações exteriores",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 32,
       "name": "SAMSOLVE COMUNICAÇÃO",
       "category": "supplier",
@@ -274,6 +329,12 @@
       "id": 31,
       "name": "SYSCOIN TECNOLOGIA E SERVICO LTDA - ME",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -690,6 +751,86 @@
       "target": 48,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$813,48 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 25/07/2025–31/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 204491,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$51.996.753,00 empenhado, R$49.627.778,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 204491,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$45.605.998,00 empenhado, R$45.449.819,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 204491,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.829.208,00 empenhado, R$1.432.560,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 204491,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Relações exteriores: R$1.583.755,00 empenhado, R$695.863,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 204491,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.248.664,00 empenhado, R$581.656,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 204491,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$1.000.000,00 empenhado, R$10.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 204491,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$849.269,00 empenhado, R$794.997,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 204491,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$599.571,00 empenhado, R$584.020,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 204491,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$500.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 204491,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$450.000,00 empenhado, R$9.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

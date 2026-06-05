@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 73604,
     "egoName": "Rui Falcão",
-    "generatedAt": "2026-06-05T20:37:33.064699Z",
+    "generatedAt": "2026-06-05T21:12:32.643163Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 73604,
       "name": "Rui Falcão",
       "category": "politician",
-      "connectionCount": 40
+      "connectionCount": 50
     },
     {
       "id": 26,
@@ -44,6 +45,18 @@
       "connectionCount": 1
     },
     {
+      "id": 48,
+      "name": "Administração",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 38,
       "name": "CAMPEAO 28 POSTO DE SERVICOS LTDA",
       "category": "supplier",
@@ -62,9 +75,33 @@
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "Comunicações",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "DENILVO MORAIS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -77,6 +114,24 @@
       "id": 30,
       "name": "ENEL - Eletropaulo Metropolitana Eletricidade de São Paulo S. A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Essencial à justiça",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -227,6 +282,12 @@
       "id": 10,
       "name": "SERGIO SISTER",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -579,6 +640,86 @@
       "target": 40,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$495,51 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/04/2025–02/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 73604,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$63.182.336,00 empenhado, R$55.882.537,00 pago (10 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 73604,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$25.126.866,00 empenhado, R$25.089.607,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 73604,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$4.436.511,00 empenhado, R$3.736.511,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 73604,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$4.300.000,00 empenhado, R$1.240.000,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 73604,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comunicações: R$3.814.604,00 empenhado, R$3.814.604,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 73604,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$1.544.178,00 empenhado, R$2.047,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 73604,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.099.990,00 empenhado (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 73604,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Administração: R$600.000,00 empenhado, R$400.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 73604,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Essencial à justiça: R$300.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 73604,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$244.381,00 empenhado (1 emenda; 2023)",
       "strength": 1
     }
   ]

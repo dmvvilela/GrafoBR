@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220712,
     "egoName": "Fausto Jr.",
-    "generatedAt": "2026-06-05T20:37:28.076028Z",
+    "generatedAt": "2026-06-05T21:12:27.262988Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220712,
       "name": "Fausto Jr.",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 54
     },
     {
       "id": 52,
@@ -230,6 +231,12 @@
       "connectionCount": 1
     },
     {
+      "id": 54,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 26,
       "name": "F V S CONSULTORIA LTDA",
       "category": "company",
@@ -281,6 +288,12 @@
       "id": 39,
       "name": "ROTA 411 COMBUSTIVEIS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +760,22 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$500,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/04/2025–18/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220712,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.637.992,00 empenhado, R$37.637.992,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220712,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$35.767.076,00 empenhado, R$35.590.697,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204534,
     "egoName": "Tabata Amaral",
-    "generatedAt": "2026-06-05T20:37:33.448639Z",
+    "generatedAt": "2026-06-05T21:12:33.104712Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204534,
       "name": "Tabata Amaral",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 64
     },
     {
       "id": 39,
@@ -92,6 +93,12 @@
       "connectionCount": 1
     },
     {
+      "id": 59,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "CANDIDO BOTELHO BRACHER",
       "category": "donor",
@@ -104,6 +111,24 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 63,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 61,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 13,
       "name": "DANIEL KREPEL GOLDBERG",
       "category": "donor",
@@ -113,6 +138,18 @@
       "id": 37,
       "name": "DWS Comunicação LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -131,6 +168,18 @@
       "id": 50,
       "name": "ESTACIONAMENTO E LAVA RAPIDO CONFIANCA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 62,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -170,6 +219,12 @@
       "connectionCount": 1
     },
     {
+      "id": 57,
+      "name": "Gestão ambiental",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 49,
       "name": "Google Cloud Brasil Computação e Serviços de Dados Ltda",
       "category": "supplier",
@@ -179,6 +234,12 @@
       "id": 28,
       "name": "HUEVOS PRODUCAO E ASSESSORIA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 64,
+      "name": "Indústria",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -233,6 +294,12 @@
       "id": 24,
       "name": "MAURICIO BITTENCOURT ALMEIDA MAGALHAES",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Múltiplo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -305,6 +372,18 @@
       "id": 27,
       "name": "SJR IMOVEIS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +812,110 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.682,93 (9 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 04/04/2025–04/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 204534,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.261.083,00 empenhado, R$27.274.411,00 pago (14 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 204534,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$15.877.244,00 empenhado, R$3.793.863,00 pago (16 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 204534,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$10.979.764,00 empenhado, R$1.876.752,00 pago (5 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 204534,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$5.317.976,00 empenhado, R$1.000.000,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 204534,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$3.195.444,00 empenhado, R$1.279.492,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 204534,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$2.720.794,00 empenhado, R$782.310,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 204534,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$2.572.987,00 empenhado, R$203.940,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 204534,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.316.098,00 empenhado, R$2.011.086,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 204534,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$2.005.005,00 empenhado (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 204534,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$1.613.890,00 empenhado, R$380.000,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 62,
+      "source": 204534,
+      "target": 62,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$1.066.362,00 empenhado, R$1.066.362,00 pago (3 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 63,
+      "source": 204534,
+      "target": 63,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$800.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 64,
+      "source": 204534,
+      "target": 64,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Indústria: R$800.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

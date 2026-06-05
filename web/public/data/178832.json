@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 178832,
     "egoName": "Leandre",
-    "generatedAt": "2026-06-05T20:37:30.181412Z",
+    "generatedAt": "2026-06-05T21:12:29.429643Z",
     "sources": [
       "camara",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -15,7 +16,7 @@
       "id": 178832,
       "name": "Leandre",
       "category": "politician",
-      "connectionCount": 25
+      "connectionCount": 33
     },
     {
       "id": 4,
@@ -48,6 +49,18 @@
       "connectionCount": 1
     },
     {
+      "id": 31,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 14,
       "name": "CLADIOVAN RUY DE OLIVEIRA",
       "category": "donor",
@@ -75,6 +88,36 @@
       "id": 22,
       "name": "DOUGLAS MATEUS ROSSA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -165,6 +208,12 @@
       "id": 12,
       "name": "PAULO VICTOR PACHECO DONNER",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -367,6 +416,70 @@
       "target": 178832,
       "connectionType": "doacao",
       "description": "Doação de campanha de R$4.574,74 em 2022 registrada no TSE (19/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 178832,
+      "target": 26,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$57.038.156,00 empenhado, R$45.220.007,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 178832,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$32.547.705,00 empenhado, R$32.469.105,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 178832,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$9.734.000,00 empenhado, R$8.106.391,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 178832,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$3.999.992,00 empenhado, R$1.649.000,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 178832,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.599.396,00 empenhado, R$540.955,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 178832,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$850.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 178832,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$800.000,00 empenhado, R$800.000,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 178832,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$193.290,00 empenhado, R$185.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

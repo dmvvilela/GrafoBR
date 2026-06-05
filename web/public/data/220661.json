@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220661,
     "egoName": "Matheus Noronha",
-    "generatedAt": "2026-06-05T20:37:31.082908Z",
+    "generatedAt": "2026-06-05T21:12:30.430797Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220661,
       "name": "Matheus Noronha",
       "category": "politician",
-      "connectionCount": 27
+      "connectionCount": 30
     },
     {
       "id": 19,
@@ -52,6 +53,18 @@
       "id": 18,
       "name": "DJ - HOTELARIA S/A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -154,6 +167,12 @@
       "id": 9,
       "name": "SERVI 100 COMERCIO DE COMBUSTVIES LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -396,6 +415,30 @@
       "target": 27,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6,59 (8 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 220661,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.573.786,00 empenhado, R$37.573.786,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 220661,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$37.423.783,00 empenhado, R$37.237.404,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220661,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$149.989,00 empenhado, R$124.699,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

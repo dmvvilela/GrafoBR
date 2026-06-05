@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220614,
     "egoName": "Dr. Daniel Soranz",
-    "generatedAt": "2026-06-05T20:37:27.434132Z",
+    "generatedAt": "2026-06-05T21:12:26.657697Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220614,
       "name": "Dr. Daniel Soranz",
       "category": "politician",
-      "connectionCount": 34
+      "connectionCount": 38
     },
     {
       "id": 20,
@@ -67,6 +68,12 @@
       "connectionCount": 1
     },
     {
+      "id": 38,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 22,
       "name": "DANIEL DAL ASTA COIMBRA",
       "category": "donor",
@@ -82,6 +89,18 @@
       "id": 13,
       "name": "DANIELLA FONSECA RAIMUNDO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -178,6 +197,12 @@
       "id": 32,
       "name": "SINPETAXI",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -494,6 +519,38 @@
       "target": 34,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$0,47 (2 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220614,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$57.584.134,00 empenhado, R$51.733.002,00 pago (13 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220614,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$16.673.398,00 empenhado, R$7.044.576,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220614,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220614,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$390.000,00 empenhado, R$390.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

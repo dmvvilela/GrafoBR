@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220638,
     "egoName": "Antonio Carlos Rodrigues",
-    "generatedAt": "2026-06-05T20:37:25.512498Z",
+    "generatedAt": "2026-06-05T21:12:24.461758Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220638,
       "name": "Antonio Carlos Rodrigues",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 54
     },
     {
       "id": 9,
@@ -164,6 +165,12 @@
       "connectionCount": 1
     },
     {
+      "id": 54,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 44,
       "name": "ECT - EMP. BRAS. DE CORREIOS E TELGRAFOS",
       "category": "supplier",
@@ -173,6 +180,12 @@
       "id": 37,
       "name": "EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -293,6 +306,12 @@
       "id": 50,
       "name": "SORAYA CHANIME - HOTEL - EPP",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +752,30 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$292,04 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220638,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$39.160.570,00 empenhado, R$32.239.320,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220638,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$35.787.000,00 empenhado, R$35.618.430,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220638,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

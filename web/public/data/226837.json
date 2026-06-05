@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 226837,
     "egoName": "Saulo Pedroso",
-    "generatedAt": "2026-06-05T20:37:33.205280Z",
+    "generatedAt": "2026-06-05T21:12:32.816523Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 226837,
       "name": "Saulo Pedroso",
       "category": "politician",
-      "connectionCount": 42
+      "connectionCount": 46
     },
     {
       "id": 34,
@@ -74,6 +75,12 @@
       "connectionCount": 1
     },
     {
+      "id": 46,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 32,
       "name": "Azul Linhas Aéreas Inteligentes S.A",
       "category": "supplier",
@@ -95,6 +102,12 @@
       "id": 23,
       "name": "COMUNICAÇÃO A DOIS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Cultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -131,6 +144,12 @@
       "id": 9,
       "name": "ELEONORA COBUCCIO CORSI",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -245,6 +264,12 @@
       "id": 29,
       "name": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -607,6 +632,38 @@
       "target": 42,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.243,50 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 14/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 226837,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.677.246,00 empenhado, R$36.027.287,00 pago (15 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 226837,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$34.220.274,00 empenhado, R$34.057.115,00 pago (10 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 226837,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$800.000,00 empenhado, R$480.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 226837,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$700.000,00 empenhado, R$700.000,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204453,
     "egoName": "Natália Bonavides",
-    "generatedAt": "2026-06-05T20:37:31.599101Z",
+    "generatedAt": "2026-06-05T21:12:30.906456Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204453,
       "name": "Natália Bonavides",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 62
     },
     {
       "id": 38,
@@ -55,6 +56,18 @@
       "connectionCount": 1
     },
     {
+      "id": 54,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 40,
       "name": "COSERN",
       "category": "supplier",
@@ -64,6 +77,18 @@
       "id": 48,
       "name": "Cia Aérea - AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 61,
+      "name": "Cultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -79,9 +104,27 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 37,
       "name": "ECOMP TECNOLOGIA SERVIÇOS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -253,6 +296,12 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Múltiplo",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 16,
       "name": "NATALIA DE SENA ALVES",
       "category": "donor",
@@ -262,6 +311,12 @@
       "id": 26,
       "name": "O2 SOLUÇÕES LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Organização agrária",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -301,6 +356,18 @@
       "connectionCount": 1
     },
     {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 62,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 27,
       "name": "TAM",
       "category": "supplier",
@@ -316,6 +383,12 @@
       "id": 23,
       "name": "THULHO CEZAR SANTOS DE SIQUEIRA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -718,6 +791,102 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.613,00 (3 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 03/04/2025–11/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 204453,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$51.540.726,00 empenhado, R$28.889.104,00 pago (18 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 204453,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$21.600.642,00 empenhado, R$21.529.142,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 204453,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$13.044.390,00 empenhado, R$3.053.325,00 pago (11 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 204453,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$6.266.000,00 empenhado (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 204453,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$3.900.000,00 empenhado, R$407.129,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 204453,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$2.399.988,00 empenhado, R$1.505.536,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 204453,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$1.800.000,00 empenhado, R$1.643.802,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 204453,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$1.500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 204453,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$737.992,00 empenhado (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 204453,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$572.034,00 empenhado, R$216.034,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 204453,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$400.000,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 62,
+      "source": 204453,
+      "target": 62,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$350.000,00 empenhado, R$348.600,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

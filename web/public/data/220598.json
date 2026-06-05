@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220598,
     "egoName": "Tarcísio Motta",
-    "generatedAt": "2026-06-05T20:37:33.495195Z",
+    "generatedAt": "2026-06-05T21:12:33.161253Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220598,
       "name": "Tarcísio Motta",
       "category": "politician",
-      "connectionCount": 30
+      "connectionCount": 36
     },
     {
       "id": 15,
@@ -67,9 +68,27 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 4,
       "name": "DEMOCRATIZE TECNOLOGIA LTDA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Educação",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -118,6 +137,12 @@
       "id": 22,
       "name": "MLS WIRELESS TELECOMUNICAÇÕES S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Organização agrária",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -193,9 +218,21 @@
       "connectionCount": 1
     },
     {
+      "id": 31,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 6,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -438,6 +475,54 @@
       "target": 30,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.008,27 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/03/2025–24/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220598,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.486.491,00 empenhado, R$9.488.698,00 pago (16 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220598,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$21.756.632,00 empenhado, R$6.072.770,00 pago (17 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220598,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$9.481.840,00 empenhado, R$2.638.207,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220598,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$3.400.755,00 empenhado, R$500.000,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220598,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.906.150,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220598,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$297.286,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

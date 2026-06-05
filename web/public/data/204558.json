@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 204558,
     "egoName": "Marcelo Nilo",
-    "generatedAt": "2026-06-05T20:37:30.778008Z",
+    "generatedAt": "2026-06-05T21:12:30.100728Z",
     "sources": [
       "camara",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -15,7 +16,7 @@
       "id": 204558,
       "name": "Marcelo Nilo",
       "category": "politician",
-      "connectionCount": 6
+      "connectionCount": 8
     },
     {
       "id": 2,
@@ -27,6 +28,12 @@
       "id": 4,
       "name": "EDVALDO NILO DE ALMEIDA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 8,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -51,6 +58,12 @@
       "id": 3,
       "name": "RITA DE CASSIA NILO DE ALMEIDA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -101,6 +114,22 @@
       "target": 204558,
       "connectionType": "doacao",
       "description": "Doação de campanha de R$270,00 em 2022 registrada no TSE (18/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 204558,
+      "target": 7,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$16.053.328,00 empenhado, R$16.053.328,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 8,
+      "source": 204558,
+      "target": 8,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$16.050.072,00 empenhado, R$16.050.072,00 pago (1 emenda; 2023)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 215043,
     "egoName": "Josivaldo JP",
-    "generatedAt": "2026-06-05T20:37:29.654592Z",
+    "generatedAt": "2026-06-05T21:12:28.815946Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 215043,
       "name": "Josivaldo JP",
       "category": "politician",
-      "connectionCount": 30
+      "connectionCount": 34
     },
     {
       "id": 21,
@@ -68,6 +69,18 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "CELI CASTRO DE SOUZA TIMOTEO",
       "category": "supplier",
@@ -95,6 +108,12 @@
       "id": 25,
       "name": "EQUATORIAL MARANHÃO DISTRIBUIDORA DE ENERGIA S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -185,6 +204,12 @@
       "id": 3,
       "name": "PRISCYLLA MARTINS ALENCAR MELO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -439,6 +464,38 @@
       "target": 30,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$300,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 215043,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$35.590.997,00 empenhado, R$34.950.795,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 215043,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$29.825.857,00 empenhado, R$29.684.857,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 215043,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$2.635.985,00 empenhado, R$8.600,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 215043,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.325.841,00 empenhado, R$1.225.841,00 pago (2 emendas; 2023–2025)",
       "strength": 1
     }
   ]

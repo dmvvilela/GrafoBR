@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160527,
     "egoName": "Aguinaldo Ribeiro",
-    "generatedAt": "2026-06-05T20:37:25.029247Z",
+    "generatedAt": "2026-06-05T21:12:23.804697Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160527,
       "name": "Aguinaldo Ribeiro",
       "category": "politician",
-      "connectionCount": 41
+      "connectionCount": 49
     },
     {
       "id": 13,
@@ -92,6 +93,18 @@
       "connectionCount": 1
     },
     {
+      "id": 44,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 22,
       "name": "BARÃO TURISMO EIRELI - ME",
       "category": "supplier",
@@ -122,6 +135,18 @@
       "connectionCount": 1
     },
     {
+      "id": 49,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "EDUARDO ROBSON RAINERI DE ALMEIDA",
       "category": "donor",
@@ -137,6 +162,12 @@
       "id": 12,
       "name": "ELEICAO 2022 TANILSON TARSO NOBREGA SOARES DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -254,9 +285,27 @@
       "connectionCount": 1
     },
     {
+      "id": 42,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -593,6 +642,70 @@
       "target": 41,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$300,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 160527,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.224.935,00 empenhado, R$52.424.950,00 pago (16 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 160527,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$39.556.837,00 empenhado, R$39.405.037,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 160527,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$5.198.864,00 empenhado, R$855.260,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 160527,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$4.887.627,00 empenhado, R$133.965,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 160527,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.000.000,00 empenhado, R$2.000.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 160527,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$631.202,00 empenhado, R$348.600,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 160527,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$464.380,00 empenhado, R$244.380,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 160527,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$400.000,00 empenhado, R$376.344,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

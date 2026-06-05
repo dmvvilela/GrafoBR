@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204431,
     "egoName": "Marcos Aurélio Sampaio",
-    "generatedAt": "2026-06-05T20:37:30.854993Z",
+    "generatedAt": "2026-06-05T21:12:30.193580Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204431,
       "name": "Marcos Aurélio Sampaio",
       "category": "politician",
-      "connectionCount": 20
+      "connectionCount": 23
     },
     {
       "id": 11,
@@ -53,6 +54,12 @@
       "id": 3,
       "name": "DAVID BORGES HAGEM MASUAD",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 22,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -131,6 +138,18 @@
       "id": 13,
       "name": "SS COMUNICACAO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 21,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 23,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -299,6 +318,30 @@
       "target": 20,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1,36 (7 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 204431,
+      "target": 21,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.625.150,00 empenhado, R$45.479.087,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 22,
+      "source": 204431,
+      "target": 22,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$53.425.481,00 empenhado, R$53.241.103,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 204431,
+      "target": 23,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$199.867,00 empenhado, R$199.867,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

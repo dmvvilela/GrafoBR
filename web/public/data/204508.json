@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204508,
     "egoName": "Igor Timo",
-    "generatedAt": "2026-06-05T20:37:29.186964Z",
+    "generatedAt": "2026-06-05T21:12:28.391408Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204508,
       "name": "Igor Timo",
       "category": "politician",
-      "connectionCount": 30
+      "connectionCount": 36
     },
     {
       "id": 16,
@@ -29,6 +30,12 @@
       "id": 8,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -56,6 +63,12 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "EDVALDO NILO DE ALMEIDA",
       "category": "donor",
@@ -65,6 +78,18 @@
       "id": 4,
       "name": "ELEICAO 2022 ALENCAR MAGALHAES DA SILVEIRA JUNIOR DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -152,6 +177,12 @@
       "connectionCount": 1
     },
     {
+      "id": 31,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "Selbetti Gestão de Documentos SA",
       "category": "supplier",
@@ -173,6 +204,12 @@
       "id": 22,
       "name": "TELEFONICA BRASIL S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -439,6 +476,54 @@
       "target": 30,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.544,00 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 31/01/2025–29/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204508,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$56.488.852,00 empenhado, R$50.487.441,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204508,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$44.817.868,00 empenhado, R$44.668.766,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204508,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$3.727.175,00 empenhado, R$220.203,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204508,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.500.000,00 empenhado, R$1.500.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204508,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$449.902,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 204508,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$200.001,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

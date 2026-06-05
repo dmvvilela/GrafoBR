@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220591,
     "egoName": "Meire Serafim",
-    "generatedAt": "2026-06-05T20:37:31.244905Z",
+    "generatedAt": "2026-06-05T21:12:30.563456Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220591,
       "name": "Meire Serafim",
       "category": "politician",
-      "connectionCount": 53
+      "connectionCount": 56
     },
     {
       "id": 38,
@@ -158,6 +159,12 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 25,
       "name": "ECINAIRO DA SILVA CARVALHO",
       "category": "donor",
@@ -167,6 +174,12 @@
       "id": 12,
       "name": "ELKE MARIA SILVA GONZAGA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -293,6 +306,12 @@
       "id": 21,
       "name": "SIMONE SILVA DE FREITAS FELIX",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -761,6 +780,30 @@
       "target": 53,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$764,25 (7 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 26/03/2025–13/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220591,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$40.110.684,00 empenhado, R$19.490.599,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220591,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$25.935.792,00 empenhado, R$25.865.792,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220591,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$9.100.000,00 empenhado, R$4.988.135,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

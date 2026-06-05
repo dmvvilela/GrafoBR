@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 160621,
     "egoName": "Sandro Alex",
-    "generatedAt": "2026-06-05T20:37:33.123802Z",
+    "generatedAt": "2026-06-05T21:12:32.719897Z",
     "sources": [
       "camara",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -16,7 +17,7 @@
       "id": 160621,
       "name": "Sandro Alex",
       "category": "politician",
-      "connectionCount": 27
+      "connectionCount": 32
     },
     {
       "id": 19,
@@ -28,6 +29,12 @@
       "id": 20,
       "name": "AUREA DOS SANTOS CAMARGO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -46,6 +53,18 @@
       "id": 13,
       "name": "ERICA PAOLA CARDOSO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -178,6 +197,18 @@
       "id": 2,
       "name": "SANDRO ALEX CRUZ DE OLIVEIRA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -396,6 +427,46 @@
       "target": 27,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 14/02/2003",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 160621,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.633.324,00 empenhado, R$51.141.489,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 160621,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$43.299.152,00 empenhado, R$43.138.152,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 160621,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$5.267.205,00 empenhado, R$1.403.563,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 160621,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.189.747,00 empenhado, R$356.873,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 160621,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.000.000,00 empenhado, R$900.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

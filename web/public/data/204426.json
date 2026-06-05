@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204426,
     "egoName": "Carlos Veras",
-    "generatedAt": "2026-06-05T20:37:26.171765Z",
+    "generatedAt": "2026-06-05T21:12:25.214158Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204426,
       "name": "Carlos Veras",
       "category": "politician",
-      "connectionCount": 30
+      "connectionCount": 42
     },
     {
       "id": 3,
@@ -50,6 +51,18 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 28,
       "name": "BRUNO DO NASCIMENTO LOMBARDI",
       "category": "supplier",
@@ -71,6 +84,18 @@
       "id": 23,
       "name": "Companhia Energética de Pernambuco",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -98,9 +123,33 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Essencial à justiça",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "FUNDACAO CULTURAL SENHOR BOM JESUS DOS REMEDIOS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -182,6 +231,18 @@
       "connectionCount": 1
     },
     {
+      "id": 31,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "TAM",
       "category": "supplier",
@@ -191,6 +252,18 @@
       "id": 22,
       "name": "TELEFONICA BRASIL S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Trabalho",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -439,6 +512,102 @@
       "target": 30,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.189,05 (8 lançamentos; tipo: TELEFONIA; período: 13/08/2025–09/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204426,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.825.487,00 empenhado, R$52.635.891,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204426,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$46.835.481,00 empenhado, R$46.684.003,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204426,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.000.000,00 empenhado, R$15.138,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204426,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$600.000,00 empenhado, R$200.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204426,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 204426,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$499.924,00 empenhado, R$499.924,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 204426,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$489.640,00 empenhado (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 204426,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$400.000,00 empenhado, R$100.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 204426,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$400.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 204426,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Essencial à justiça: R$270.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 204426,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$200.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 204426,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$100.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

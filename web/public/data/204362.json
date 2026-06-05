@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204362,
     "egoName": "Ricardo Guidi",
-    "generatedAt": "2026-06-05T20:37:32.704815Z",
+    "generatedAt": "2026-06-05T21:12:32.199793Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204362,
       "name": "Ricardo Guidi",
       "category": "politician",
-      "connectionCount": 54
+      "connectionCount": 58
     },
     {
       "id": 26,
@@ -62,6 +63,12 @@
       "connectionCount": 1
     },
     {
+      "id": 58,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 30,
       "name": "BERIMBAU PRODUÇÕES",
       "category": "supplier",
@@ -77,6 +84,12 @@
       "id": 39,
       "name": "COMPANHIA CATARINENSE DE AGUAS E SANEAMENTO CASAN",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -125,6 +138,12 @@
       "id": 17,
       "name": "ERICA ROLDAO MARIANO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -299,6 +318,12 @@
       "id": 29,
       "name": "SAO SIMAO ADMINISTRADORA DE BENS LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -775,6 +800,38 @@
       "target": 54,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.482,00 (7 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 09/05/2025–08/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 204362,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$53.131.099,00 empenhado, R$52.947.220,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 204362,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$51.769.519,00 empenhado, R$43.371.049,00 pago (10 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 204362,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$250.000,00 empenhado, R$250.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 204362,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$150.000,00 empenhado, R$150.000,00 pago (1 emenda; 2023)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160642,
     "egoName": "Pastor Eurico",
-    "generatedAt": "2026-06-05T20:37:31.879684Z",
+    "generatedAt": "2026-06-05T21:12:31.208347Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160642,
       "name": "Pastor Eurico",
       "category": "politician",
-      "connectionCount": 39
+      "connectionCount": 47
     },
     {
       "id": 36,
@@ -74,6 +75,12 @@
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 6,
       "name": "CRIZODIO AVELINO DE SANTANA",
       "category": "donor",
@@ -83,6 +90,24 @@
       "id": 24,
       "name": "Cia Aérea - GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -125,6 +150,12 @@
       "id": 5,
       "name": "EVERALDO DUARTE DOS SANTOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -236,6 +267,18 @@
       "connectionCount": 1
     },
     {
+      "id": 40,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 18,
       "name": "TAM",
       "category": "supplier",
@@ -245,6 +288,12 @@
       "id": 26,
       "name": "TELEFONICA BRASIL S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -565,6 +614,70 @@
       "target": 39,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$988,10 (20 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 08/01/2025–29/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 160642,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.811.472,00 empenhado, R$54.811.472,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 160642,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$39.333.674,00 empenhado, R$39.212.674,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 160642,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$4.522.984,00 empenhado, R$2.672.932,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 160642,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$1.500.000,00 empenhado (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 160642,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.496.420,00 empenhado (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 160642,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.300.000,00 empenhado, R$1.300.000,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 160642,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.235.792,00 empenhado, R$20.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 160642,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$1.000.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

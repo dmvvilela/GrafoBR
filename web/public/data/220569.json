@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220569,
     "egoName": "Silvye Alves",
-    "generatedAt": "2026-06-05T20:37:33.302184Z",
+    "generatedAt": "2026-06-05T21:12:32.922936Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220569,
       "name": "Silvye Alves",
       "category": "politician",
-      "connectionCount": 45
+      "connectionCount": 49
     },
     {
       "id": 45,
@@ -59,6 +60,12 @@
       "id": 44,
       "name": "AUTO POSTO WALTER SANTOS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -107,6 +114,18 @@
       "id": 42,
       "name": "D-PETRUS SERRA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -239,6 +258,12 @@
       "id": 20,
       "name": "SILVYE COMUNICACAO E PRODUCOES LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -649,6 +674,38 @@
       "target": 45,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$835,04 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 15/03/2025–02/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 220569,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.575.793,00 empenhado, R$37.575.793,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 220569,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$34.435.792,00 empenhado, R$34.275.792,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 220569,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.635.985,00 empenhado, R$2.635.985,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 220569,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$500.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

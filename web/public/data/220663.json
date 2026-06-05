@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220663,
     "egoName": "Eriberto Medeiros",
-    "generatedAt": "2026-06-05T20:37:27.853418Z",
+    "generatedAt": "2026-06-05T21:12:27.088733Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220663,
       "name": "Eriberto Medeiros",
       "category": "politician",
-      "connectionCount": 27
+      "connectionCount": 37
     },
     {
       "id": 24,
@@ -85,6 +86,12 @@
       "connectionCount": 1
     },
     {
+      "id": 30,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 25,
       "name": "BELIZE COMPANY AUTO POSTO LTDA",
       "category": "supplier",
@@ -109,9 +116,45 @@
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "DIRETORIO ESTADUAL DO PARTIDO SOCIALISTA BRASILEIRO - PSB",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -163,9 +206,27 @@
       "connectionCount": 1
     },
     {
+      "id": 28,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -396,6 +457,86 @@
       "target": 27,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$212,64 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 220663,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.579.527,00 empenhado, R$37.254.578,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 220663,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$17.041.991,00 empenhado, R$16.934.612,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220663,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$10.699.939,00 empenhado, R$4.642.306,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220663,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$3.800.000,00 empenhado (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220663,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$2.196.817,00 empenhado, R$399.794,00 pago (9 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220663,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.123.989,00 empenhado, R$929.032,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220663,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$998.781,00 empenhado, R$619.649,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220663,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$899.943,00 empenhado, R$399.999,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220663,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$200.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220663,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

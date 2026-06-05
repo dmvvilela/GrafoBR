@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204409,
     "egoName": "Daniel Trzeciak",
-    "generatedAt": "2026-06-05T20:37:26.857647Z",
+    "generatedAt": "2026-06-05T21:12:25.953168Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204409,
       "name": "Daniel Trzeciak",
       "category": "politician",
-      "connectionCount": 38
+      "connectionCount": 46
     },
     {
       "id": 13,
@@ -61,6 +62,18 @@
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 22,
       "name": "CEEE - Companhia Estadual de Distribuição de Energia Elétrica",
       "category": "supplier",
@@ -79,6 +92,12 @@
       "connectionCount": 1
     },
     {
+      "id": 44,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "DANIEL TRZECIAK DUARTE",
       "category": "donor",
@@ -88,6 +107,12 @@
       "id": 4,
       "name": "DILNEI SANDER PORTANTIOLO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Defesa nacional",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -106,6 +131,18 @@
       "id": 7,
       "name": "EDUARDO DEFINE",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -226,6 +263,18 @@
       "id": 14,
       "name": "SOM NA KAIXA COMÉRCIO DE ALARMES E SOM LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -550,6 +599,70 @@
       "target": 38,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.436,91 (11 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/01/2025–25/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 204409,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.753.599,00 empenhado, R$47.831.415,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 204409,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$47.336.956,00 empenhado, R$47.170.387,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 204409,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.277.524,00 empenhado (3 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 204409,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.040.532,00 empenhado, R$105.241,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 204409,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$326.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 204409,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$300.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 204409,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$150.000,00 empenhado, R$85.524,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 204409,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$100.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

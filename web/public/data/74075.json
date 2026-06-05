@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74075,
     "egoName": "Elcione Barbalho",
-    "generatedAt": "2026-06-05T20:37:27.752637Z",
+    "generatedAt": "2026-06-05T21:12:26.973684Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 74075,
       "name": "Elcione Barbalho",
       "category": "politician",
-      "connectionCount": 34
+      "connectionCount": 37
     },
     {
       "id": 17,
@@ -134,6 +135,18 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "GOL",
       "category": "supplier",
@@ -215,6 +228,12 @@
       "id": 27,
       "name": "SUPER CENTRO POSTOS DE SERVICOS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -495,6 +514,30 @@
       "target": 34,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$300,01 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 25/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 74075,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.568.263,00 empenhado, R$53.284.310,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 74075,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$53.525.482,00 empenhado, R$53.339.103,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 74075,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$100.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

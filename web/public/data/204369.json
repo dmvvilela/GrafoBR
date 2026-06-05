@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204369,
     "egoName": "Caroline de Toni",
-    "generatedAt": "2026-06-05T20:37:26.228406Z",
+    "generatedAt": "2026-06-05T21:12:25.281942Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204369,
       "name": "Caroline de Toni",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 55
     },
     {
       "id": 42,
@@ -80,6 +81,12 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "CARLOS ANTONIO POMAGERSKI JUNIOR",
       "category": "donor",
@@ -110,9 +117,21 @@
       "connectionCount": 1
     },
     {
+      "id": 54,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "ELEICAO 2022 JORGINHO DOS SANTOS MELLO GOVERNADOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -299,6 +318,12 @@
       "id": 11,
       "name": "SIRIVALDO JOSE BARBIERI",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +758,38 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.300,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 01/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 204369,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.917.098,00 empenhado, R$53.617.098,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 204369,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$52.325.481,00 empenhado, R$52.148.602,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 204369,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$649.998,00 empenhado, R$637.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 204369,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$350.000,00 empenhado, R$212.498,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

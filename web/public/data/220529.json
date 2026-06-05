@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220529,
     "egoName": "Gilson Daniel",
-    "generatedAt": "2026-06-05T20:37:28.713520Z",
+    "generatedAt": "2026-06-05T21:12:27.900188Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220529,
       "name": "Gilson Daniel",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 39
     },
     {
       "id": 27,
@@ -74,6 +75,18 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "CAPIXABA FUTEBOL CLUBE S/A",
       "category": "company",
@@ -95,6 +108,12 @@
       "id": 8,
       "name": "CT LOCACOES SOLUCOES E SERVICOS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Desporto e lazer",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -122,6 +141,12 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 21,
       "name": "GOL",
       "category": "supplier",
@@ -131,6 +156,12 @@
       "id": 13,
       "name": "GRACIANO ULISSES MERLO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -200,6 +231,12 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "TAM",
       "category": "supplier",
@@ -209,6 +246,12 @@
       "id": 26,
       "name": "TECNEGOCIOS SOLUÇÕES EM INFORMÁTICA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Transporte",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -467,6 +510,62 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.422,66 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 21/01/2025–29/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220529,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$39.509.240,00 empenhado, R$33.243.602,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220529,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$23.849.971,00 empenhado, R$23.706.500,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220529,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$6.350.000,00 empenhado, R$4.650.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220529,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$2.109.954,00 empenhado, R$4.200,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220529,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$955.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220529,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$899.884,00 empenhado, R$152.794,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220529,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Transporte: R$247.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

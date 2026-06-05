@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 72442,
     "egoName": "Felipe Carreras",
-    "generatedAt": "2026-06-05T20:37:28.150272Z",
+    "generatedAt": "2026-06-05T21:12:27.325872Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 72442,
       "name": "Felipe Carreras",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 57
     },
     {
       "id": 26,
@@ -104,6 +105,18 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 37,
       "name": "EDSON JOSE DA SILVA",
       "category": "supplier",
@@ -119,6 +132,12 @@
       "id": 32,
       "name": "EMISSORA DE RADIO POLO LTDA - ME",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -290,6 +309,18 @@
       "connectionCount": 1
     },
     {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 27,
       "name": "TAM",
       "category": "supplier",
@@ -305,6 +336,18 @@
       "id": 47,
       "name": "TOTALGRAF GRAFICA E EDITORA EIRELI - EPP",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Transporte",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -719,6 +762,62 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.949,90 (3 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 03/11/2025–22/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 72442,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.237.150,00 empenhado, R$53.991.280,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 72442,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$47.103.818,00 empenhado, R$46.930.659,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 72442,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$2.110.000,00 empenhado, R$943.816,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 72442,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.499.984,00 empenhado, R$199.984,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 72442,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 72442,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Transporte: R$1.000.000,00 empenhado, R$27.187,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 72442,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$299.664,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

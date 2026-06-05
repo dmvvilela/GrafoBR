@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204358,
     "egoName": "Beto Pereira",
-    "generatedAt": "2026-06-05T20:37:25.820199Z",
+    "generatedAt": "2026-06-05T21:12:24.820888Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204358,
       "name": "Beto Pereira",
       "category": "politician",
-      "connectionCount": 43
+      "connectionCount": 49
     },
     {
       "id": 16,
@@ -62,6 +63,12 @@
       "connectionCount": 1
     },
     {
+      "id": 46,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 31,
       "name": "CLARO S.A. / TELECOMUNICAÇÕES - S.A",
       "category": "supplier",
@@ -80,6 +87,12 @@
       "connectionCount": 1
     },
     {
+      "id": 49,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "DIRETORIO ESTADUAL DO PSDB",
       "category": "donor",
@@ -89,6 +102,18 @@
       "id": 4,
       "name": "DUCINEIDE DE SOUZA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -227,6 +252,18 @@
       "id": 30,
       "name": "SOS ALARMES",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -621,6 +658,54 @@
       "target": 43,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$820,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 15/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 204358,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$60.451.546,00 empenhado, R$47.061.147,00 pago (13 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 204358,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$39.439.688,00 empenhado, R$39.305.809,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 204358,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.650.000,00 empenhado, R$3.300.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 204358,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.744.971,00 empenhado (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 204358,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.200.000,00 empenhado, R$769.621,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 204358,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$750.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

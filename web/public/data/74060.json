@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74060,
     "egoName": "Daniel Almeida",
-    "generatedAt": "2026-06-05T20:37:26.795999Z",
+    "generatedAt": "2026-06-05T21:12:25.893667Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 74060,
       "name": "Daniel Almeida",
       "category": "politician",
-      "connectionCount": 40
+      "connectionCount": 48
     },
     {
       "id": 15,
@@ -49,6 +50,12 @@
       "connectionCount": 1
     },
     {
+      "id": 44,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 36,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
@@ -73,9 +80,21 @@
       "connectionCount": 1
     },
     {
+      "id": 47,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "Crusi Comunicação LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Cultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -100,6 +119,18 @@
       "id": 11,
       "name": "ELISA MARIA SILVA FORTES",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -241,6 +272,18 @@
       "connectionCount": 1
     },
     {
+      "id": 41,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 22,
       "name": "TAM",
       "category": "supplier",
@@ -250,6 +293,12 @@
       "id": 40,
       "name": "TIM S A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -578,6 +627,70 @@
       "target": 40,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$259,22 (3 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 19/08/2025–19/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 74060,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$52.371.949,00 empenhado, R$48.671.491,00 pago (20 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 74060,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$40.733.292,00 empenhado, R$40.589.413,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 74060,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$5.101.788,00 empenhado, R$1.047.987,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 74060,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$3.888.520,00 empenhado, R$67.500,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 74060,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$2.849.317,00 empenhado, R$274.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 74060,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$548.080,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 74060,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$400.000,00 empenhado, R$200.000,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 74060,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$100.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

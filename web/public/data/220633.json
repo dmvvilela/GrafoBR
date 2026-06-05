@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220633,
     "egoName": "Ricardo Salles",
-    "generatedAt": "2026-06-05T20:37:32.742568Z",
+    "generatedAt": "2026-06-05T21:12:32.245098Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220633,
       "name": "Ricardo Salles",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 56
     },
     {
       "id": 19,
@@ -65,6 +66,12 @@
       "id": 44,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -119,6 +126,12 @@
       "id": 42,
       "name": "ENEL - Eletropaulo Metropolitana Eletricidade de São Paulo S. A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Educação",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -299,6 +312,18 @@
       "id": 14,
       "name": "SERGIO APARECIDO GRACIANO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +772,38 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$436,03 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 26/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220633,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$51.182.199,00 empenhado, R$5.368.920,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220633,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$19.975.985,00 empenhado, R$19.225.985,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220633,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.800.000,00 empenhado, R$697.200,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220633,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$199.767,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 73808,
     "egoName": "Sérgio Brito",
-    "generatedAt": "2026-06-05T20:37:33.384186Z",
+    "generatedAt": "2026-06-05T21:12:33.027532Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 73808,
       "name": "Sérgio Brito",
       "category": "politician",
-      "connectionCount": 27
+      "connectionCount": 31
     },
     {
       "id": 3,
@@ -68,6 +69,12 @@
       "connectionCount": 1
     },
     {
+      "id": 30,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 4,
       "name": "ELEICAO 2002 - CF UNICO PSD",
       "category": "company",
@@ -77,6 +84,12 @@
       "id": 22,
       "name": "ESPLANADA EVENTOS RESTAURANTE E DELIVERY EIRELI",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -173,6 +186,18 @@
       "id": 27,
       "name": "SERVICO NACIONAL DE APREND. COMERCIAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -397,6 +422,38 @@
       "target": 27,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$97,20 (1 lançamento; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 09/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 73808,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$70.438.509,00 empenhado, R$70.060.994,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 73808,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$35.585.156,00 empenhado, R$35.523.156,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 73808,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.037.054,00 empenhado, R$847.382,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 73808,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$188.199,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

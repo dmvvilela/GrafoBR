@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204479,
     "egoName": "Nicoletti",
-    "generatedAt": "2026-06-05T20:37:31.693752Z",
+    "generatedAt": "2026-06-05T21:12:31.013676Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204479,
       "name": "Nicoletti",
       "category": "politician",
-      "connectionCount": 28
+      "connectionCount": 36
     },
     {
       "id": 23,
@@ -29,6 +30,18 @@
       "id": 28,
       "name": "A. P. FACCIO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -56,6 +69,12 @@
       "connectionCount": 1
     },
     {
+      "id": 32,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "EDITORA BOA VISTA LTDA",
       "category": "supplier",
@@ -65,6 +84,18 @@
       "id": 13,
       "name": "ELDORADO COMUNICACAO E JORNALISMO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -146,6 +177,18 @@
       "connectionCount": 1
     },
     {
+      "id": 29,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 24,
       "name": "Semalo Combustiveis Ltda",
       "category": "supplier",
@@ -167,6 +210,12 @@
       "id": 19,
       "name": "TELEFONIA BRASIL S/A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -411,6 +460,70 @@
       "target": 28,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.256,16 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/07/2025–06/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 204479,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.612.138,00 empenhado, R$39.343.954,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 204479,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$48.469.481,00 empenhado, R$48.309.603,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204479,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$2.205.826,00 empenhado (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204479,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.899.890,00 empenhado, R$940.695,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204479,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$350.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204479,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$300.000,00 empenhado, R$300.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204479,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$200.000,00 empenhado, R$54.964,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 204479,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$199.750,00 empenhado, R$199.750,00 pago (1 emenda; 2023)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220691,
     "egoName": "Diego Coronel",
-    "generatedAt": "2026-06-05T20:37:27.244392Z",
+    "generatedAt": "2026-06-05T21:12:26.422839Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220691,
       "name": "Diego Coronel",
       "category": "politician",
-      "connectionCount": 34
+      "connectionCount": 39
     },
     {
       "id": 18,
@@ -62,9 +63,27 @@
       "connectionCount": 1
     },
     {
+      "id": 39,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "ELEICAO 2022 NEUSA CADORE DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -194,6 +213,12 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "TAM",
       "category": "supplier",
@@ -209,6 +234,12 @@
       "id": 9,
       "name": "UNIVERSITARIO - COMERCIO, SERVICOS E COMBUSTIVEIS LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -495,6 +526,46 @@
       "target": 34,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.529,74 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/04/2025–12/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220691,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$39.247.570,00 empenhado, R$39.247.570,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220691,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$30.399.999,00 empenhado, R$30.260.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220691,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$5.000.000,00 empenhado, R$2.764.972,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220691,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$400.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220691,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$99.937,00 empenhado, R$99.773,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

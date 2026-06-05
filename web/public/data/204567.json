@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204567,
     "egoName": "Raimundo Costa",
-    "generatedAt": "2026-06-05T20:37:32.496323Z",
+    "generatedAt": "2026-06-05T21:12:31.944790Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204567,
       "name": "Raimundo Costa",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 61
     },
     {
       "id": 30,
@@ -68,6 +69,18 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "BRUNO BATISTA GOMES REIS",
       "category": "donor",
@@ -104,6 +117,24 @@
       "connectionCount": 1
     },
     {
+      "id": 61,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "EDIELI BARRETO DOS SANTOS",
       "category": "donor",
@@ -131,6 +162,18 @@
       "id": 44,
       "name": "ESPLANADA EVENTOS RESTAURANTE E DELIVERY EIRELI",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -314,6 +357,12 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 34,
       "name": "TAM",
       "category": "supplier",
@@ -323,6 +372,12 @@
       "id": 52,
       "name": "URBAN MATERIAIS PARA ESCRITORIO E UNIFORMES EM GERAL LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +802,78 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.424,20 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 08/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 204567,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.516.552,00 empenhado, R$49.391.492,00 pago (17 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 204567,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$24.572.249,00 empenhado, R$24.463.870,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 204567,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$20.690.373,00 empenhado, R$11.378.299,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 204567,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$2.170.000,00 empenhado, R$1.153.267,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 204567,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.399.954,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 204567,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.199.788,00 empenhado, R$656.728,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 204567,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.125.129,00 empenhado, R$630.198,00 pago (4 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 204567,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$967.920,00 empenhado, R$862.920,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 204567,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$105.000,00 empenhado, R$105.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

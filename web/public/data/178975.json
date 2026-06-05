@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178975,
     "egoName": "Baleia Rossi",
-    "generatedAt": "2026-06-05T20:37:25.732437Z",
+    "generatedAt": "2026-06-05T21:12:24.722656Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 178975,
       "name": "Baleia Rossi",
       "category": "politician",
-      "connectionCount": 34
+      "connectionCount": 40
     },
     {
       "id": 29,
@@ -29,6 +30,12 @@
       "id": 22,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -50,6 +57,12 @@
       "connectionCount": 1
     },
     {
+      "id": 40,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "DNS MONITORAMENTO LTDA",
       "category": "supplier",
@@ -59,6 +72,24 @@
       "id": 13,
       "name": "DOMINIUM INFORMÁTICA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -191,6 +222,12 @@
       "id": 19,
       "name": "SECURE ACTION SEGURANÇA DA INFORMAÇÃO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -495,6 +532,54 @@
       "target": 34,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$589,40 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 29/07/2025–25/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 178975,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.882.224,00 empenhado, R$41.356.321,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 178975,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$32.287.072,00 empenhado, R$32.176.572,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 178975,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$15.377.985,00 empenhado, R$15.102.985,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 178975,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$2.539.943,00 empenhado, R$599.969,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 178975,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.249.360,00 empenhado, R$445.910,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 178975,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$1.137.920,00 empenhado, R$62.920,00 pago (3 emendas; 2023–2025)",
       "strength": 1
     }
   ]

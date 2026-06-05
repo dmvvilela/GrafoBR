@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74537,
     "egoName": "Claudio Cajado",
-    "generatedAt": "2026-06-05T20:37:26.395980Z",
+    "generatedAt": "2026-06-05T21:12:25.460460Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 74537,
       "name": "Claudio Cajado",
       "category": "politician",
-      "connectionCount": 35
+      "connectionCount": 43
     },
     {
       "id": 5,
@@ -59,6 +60,18 @@
       "id": 24,
       "name": "AUTO POSTO VASCONCELOS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -110,6 +123,24 @@
       "connectionCount": 1
     },
     {
+      "id": 43,
+      "name": "Comunicações",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 23,
       "name": "ELDORADO COMUNICACAO E JORNALISMO LTDA",
       "category": "supplier",
@@ -119,6 +150,12 @@
       "id": 4,
       "name": "ELEONORA MARIA COSTA SANTOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -206,6 +243,12 @@
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "TAM",
       "category": "supplier",
@@ -221,6 +264,12 @@
       "id": 29,
       "name": "UNIAO EMPREENDIMENTOS TURISTICOS DA BAHIA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -509,6 +558,70 @@
       "target": 35,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.283,63 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 09/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 74537,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$60.462.374,00 empenhado, R$59.087.096,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 74537,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$19.579.421,00 empenhado, R$19.546.921,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 74537,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$17.804.824,00 empenhado, R$640.963,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 74537,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.633.925,00 empenhado, R$2.288.253,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 74537,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$2.029.208,00 empenhado, R$487.947,00 pago (3 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 74537,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$1.700.000,00 empenhado, R$309.647,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 74537,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.546.675,00 empenhado, R$430.978,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 74537,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comunicações: R$492.133,00 empenhado (2 emendas; 2023–2024)",
       "strength": 1
     }
   ]

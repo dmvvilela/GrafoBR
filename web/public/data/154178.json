@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 154178,
     "egoName": "Milton Vieira",
-    "generatedAt": "2026-06-05T20:37:31.393359Z",
+    "generatedAt": "2026-06-05T21:12:30.705156Z",
     "sources": [
       "camara",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -16,12 +17,30 @@
       "id": 154178,
       "name": "Milton Vieira",
       "category": "politician",
-      "connectionCount": 5
+      "connectionCount": 9
     },
     {
       "id": 5,
       "name": "ABC ASSOCIACAO BENEFICENTE CRISTA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 9,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 8,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -46,6 +65,12 @@
       "id": 2,
       "name": "REPUBLICANOS - SAO PAULO - SP - ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -88,6 +113,38 @@
       "target": 5,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 12/09/2005",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 154178,
+      "target": 6,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$17.562.872,00 empenhado, R$17.562.872,00 pago (8 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 154178,
+      "target": 7,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$8.968.629,00 empenhado, R$8.968.629,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 8,
+      "source": 154178,
+      "target": 8,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$5.013.468,00 empenhado, R$2.749.997,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 9,
+      "source": 154178,
+      "target": 9,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$358.426,00 empenhado, R$358.426,00 pago (1 emenda; 2023)",
       "strength": 1
     }
   ]

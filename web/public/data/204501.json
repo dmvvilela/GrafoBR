@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204501,
     "egoName": "Alencar Santana",
-    "generatedAt": "2026-06-05T20:37:25.113173Z",
+    "generatedAt": "2026-06-05T21:12:23.910654Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204501,
       "name": "Alencar Santana",
       "category": "politician",
-      "connectionCount": 43
+      "connectionCount": 56
     },
     {
       "id": 30,
@@ -67,6 +68,18 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Administração",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 25,
       "name": "CENTRO AUTOMOTIVO LUIZ XII LTDA",
       "category": "supplier",
@@ -76,6 +89,12 @@
       "id": 34,
       "name": "CLARO NXT TELECOMUNICAÇÕES S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Cultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -94,6 +113,18 @@
       "id": 27,
       "name": "DFMKT comunicacao e tecnologia LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -139,6 +170,18 @@
       "connectionCount": 1
     },
     {
+      "id": 46,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "FERNANDO RODRIGUES DA SILVA",
       "category": "donor",
@@ -154,6 +197,12 @@
       "id": 29,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -229,6 +278,12 @@
       "connectionCount": 1
     },
     {
+      "id": 51,
+      "name": "Previdência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 43,
       "name": "RAMAL",
       "category": "supplier",
@@ -259,6 +314,18 @@
       "connectionCount": 1
     },
     {
+      "id": 44,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 28,
       "name": "TAM",
       "category": "supplier",
@@ -268,6 +335,18 @@
       "id": 32,
       "name": "TELEFONICA BRASIL S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Trabalho",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Transporte",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -620,6 +699,110 @@
       "target": 43,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$22,32 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 204501,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.988.088,00 empenhado, R$44.572.817,00 pago (16 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 204501,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$27.066.754,00 empenhado, R$26.881.775,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 204501,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$8.320.953,00 empenhado, R$2.173.775,00 pago (13 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 204501,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$7.700.000,00 empenhado, R$2.450.000,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 204501,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$3.353.315,00 empenhado, R$676.916,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 204501,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.599.999,00 empenhado, R$1.899.999,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 204501,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$1.944.381,00 empenhado, R$944.381,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 204501,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Previdência social: R$400.000,00 empenhado, R$400.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 204501,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$400.000,00 empenhado, R$400.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 204501,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$400.000,00 empenhado, R$348.600,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 204501,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Transporte: R$247.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 204501,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$200.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 204501,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Administração: R$100.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

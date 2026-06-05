@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160591,
     "egoName": "Vinicius Gurgel",
-    "generatedAt": "2026-06-05T20:37:33.738698Z",
+    "generatedAt": "2026-06-05T21:12:33.423158Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160591,
       "name": "Vinicius Gurgel",
       "category": "politician",
-      "connectionCount": 15
+      "connectionCount": 22
     },
     {
       "id": 2,
@@ -32,15 +33,45 @@
       "connectionCount": 1
     },
     {
+      "id": 21,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 14,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
       "connectionCount": 1
     },
     {
+      "id": 22,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 19,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "EDENILTON LIMA PEREIRA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 18,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 17,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -98,6 +129,12 @@
       "connectionCount": 1
     },
     {
+      "id": 16,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "Show de Bola Services Ltda Sdb Show de Bola",
       "category": "supplier",
@@ -107,6 +144,12 @@
       "id": 11,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 20,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -229,6 +272,62 @@
       "target": 15,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8,08 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 160591,
+      "target": 16,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.787.244,00 empenhado, R$29.403.925,00 pago (11 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 160591,
+      "target": 17,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$31.200.000,00 empenhado, R$31.047.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 160591,
+      "target": 18,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$2.061.777,00 empenhado, R$148.800,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 160591,
+      "target": 19,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.350.000,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 160591,
+      "target": 20,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.200.000,00 empenhado, R$54.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 160591,
+      "target": 21,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.000.000,00 empenhado, R$1.000.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 22,
+      "source": 160591,
+      "target": 22,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$398.060,00 empenhado, R$172.732,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

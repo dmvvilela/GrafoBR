@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 171623,
     "egoName": "Fabio Reis",
-    "generatedAt": "2026-06-05T20:37:28.016499Z",
+    "generatedAt": "2026-06-05T21:12:27.226123Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 171623,
       "name": "Fabio Reis",
       "category": "politician",
-      "connectionCount": 26
+      "connectionCount": 34
     },
     {
       "id": 15,
@@ -61,6 +62,18 @@
       "connectionCount": 1
     },
     {
+      "id": 30,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "CAIOBA DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
@@ -70,6 +83,24 @@
       "id": 14,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Comunicações",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -151,6 +182,18 @@
       "connectionCount": 1
     },
     {
+      "id": 27,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "TAM",
       "category": "supplier",
@@ -160,6 +203,12 @@
       "id": 6,
       "name": "TELEFONICA BRASIL S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -382,6 +431,70 @@
       "target": 26,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$184,31 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/08/2025–15/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 171623,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.997.980,00 empenhado, R$42.860.070,00 pago (19 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 171623,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$37.968.845,00 empenhado, R$37.827.345,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 171623,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$7.073.784,00 empenhado, R$500.489,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 171623,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$3.878.862,00 empenhado, R$457.720,00 pago (4 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 171623,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.050.000,00 empenhado, R$1.600.000,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 171623,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.142.083,00 empenhado (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 171623,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$899.680,00 empenhado, R$55.708,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 171623,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comunicações: R$233.682,00 empenhado (1 emenda; 2023)",
       "strength": 1
     }
   ]

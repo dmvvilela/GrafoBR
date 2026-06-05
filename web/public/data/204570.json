@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204570,
     "egoName": "Pastor Gil",
-    "generatedAt": "2026-06-05T20:37:31.896919Z",
+    "generatedAt": "2026-06-05T21:12:31.225051Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204570,
       "name": "Pastor Gil",
       "category": "politician",
-      "connectionCount": 27
+      "connectionCount": 31
     },
     {
       "id": 6,
@@ -31,6 +32,12 @@
       "connectionCount": 1
     },
     {
+      "id": 30,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 26,
       "name": "C. C. SOARES CIA. LTDA",
       "category": "supplier",
@@ -40,6 +47,12 @@
       "id": 9,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -154,6 +167,18 @@
       "id": 8,
       "name": "ROMA TRUCK CENTER LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -396,6 +421,38 @@
       "target": 27,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$429,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 18/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 204570,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.609.601,00 empenhado, R$53.609.601,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 204570,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$52.148.561,00 empenhado, R$51.972.183,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 204570,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$238.095,00 empenhado, R$238.095,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204570,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$238.095,00 empenhado, R$238.095,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

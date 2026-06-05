@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 107283,
     "egoName": "Gleisi Hoffmann",
-    "generatedAt": "2026-06-05T20:37:28.834831Z",
+    "generatedAt": "2026-06-05T21:12:28.029295Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 107283,
       "name": "Gleisi Hoffmann",
       "category": "politician",
-      "connectionCount": 39
+      "connectionCount": 51
     },
     {
       "id": 25,
@@ -41,6 +42,18 @@
       "id": 38,
       "name": "AUTO POSTO TRES PINHEIROS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Administração",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -74,6 +87,12 @@
       "connectionCount": 1
     },
     {
+      "id": 51,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 28,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
@@ -92,9 +111,39 @@
       "connectionCount": 1
     },
     {
+      "id": 46,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "ELEICAO 2022 ROBERTO REQUIAO DE MELLO E SILVA GOVERNADOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -182,6 +231,12 @@
       "connectionCount": 1
     },
     {
+      "id": 43,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 36,
       "name": "PANDA AUTO POSTO LTDA",
       "category": "supplier",
@@ -242,9 +297,27 @@
       "connectionCount": 1
     },
     {
+      "id": 40,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 18,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -565,6 +638,102 @@
       "target": 39,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$493,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 08/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 107283,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$49.810.836,00 empenhado, R$43.430.908,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 107283,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$22.846.213,00 empenhado, R$22.487.834,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 107283,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$7.778.935,00 empenhado, R$1.228.886,00 pago (14 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 107283,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$7.472.713,00 empenhado (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 107283,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$3.715.524,00 empenhado, R$1.600.920,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 107283,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$1.900.000,00 empenhado, R$400.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 107283,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$1.676.000,00 empenhado, R$178.370,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 107283,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.600.000,00 empenhado, R$1.196.585,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 107283,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.049.973,00 empenhado, R$28.977,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 107283,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$250.000,00 empenhado, R$245.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 107283,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Administração: R$250.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 107283,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$199.967,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

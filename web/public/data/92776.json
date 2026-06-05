@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 92776,
     "egoName": "Stefano Aguiar",
-    "generatedAt": "2026-06-05T20:37:33.356137Z",
+    "generatedAt": "2026-06-05T21:12:32.993203Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 92776,
       "name": "Stefano Aguiar",
       "category": "politician",
-      "connectionCount": 29
+      "connectionCount": 33
     },
     {
       "id": 29,
@@ -44,6 +45,12 @@
       "connectionCount": 1
     },
     {
+      "id": 32,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 28,
       "name": "BEVILE HOTEL LTDA",
       "category": "supplier",
@@ -59,6 +66,18 @@
       "id": 23,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -155,6 +174,12 @@
       "id": 4,
       "name": "STAVO COMERCIO DE PRODUTOS MINERAIS S.A.",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -425,6 +450,38 @@
       "target": 29,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.095,00 (3 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 12/01/2025–12/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 92776,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$77.221.832,00 empenhado, R$75.300.870,00 pago (21 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 92776,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$27.343.026,00 empenhado, R$27.295.026,00 pago (18 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 92776,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.325.000,00 empenhado, R$625.000,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 92776,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$300.985,00 empenhado, R$6.019,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

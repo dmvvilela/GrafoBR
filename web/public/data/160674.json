@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160674,
     "egoName": "Hugo Motta",
-    "generatedAt": "2026-06-05T20:37:29.133677Z",
+    "generatedAt": "2026-06-05T21:12:28.341263Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160674,
       "name": "Hugo Motta",
       "category": "politician",
-      "connectionCount": 34
+      "connectionCount": 40
     },
     {
       "id": 34,
@@ -44,6 +45,12 @@
       "connectionCount": 1
     },
     {
+      "id": 40,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 23,
       "name": "BLOG EM CIMA DA NOTICIA",
       "category": "supplier",
@@ -62,9 +69,27 @@
       "connectionCount": 1
     },
     {
+      "id": 39,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 6,
       "name": "ELEICAO 2022 JOAO AZEVEDO LINS FILHO GOVERNADOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -191,6 +216,18 @@
       "id": 10,
       "name": "SHEKINAH LOCACAO DE VEICULOS EIRELI",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -495,6 +532,54 @@
       "target": 34,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.176,03 (13 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 13/01/2025–26/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 160674,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.619.820,00 empenhado, R$52.669.853,00 pago (18 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 160674,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$51.136.273,00 empenhado, R$50.953.395,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 160674,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$649.555,00 empenhado, R$396.730,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 160674,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$499.286,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 160674,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$150.000,00 empenhado, R$150.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 160674,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$100.000,00 empenhado, R$100.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

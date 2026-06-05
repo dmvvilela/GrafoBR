@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220696,
     "egoName": "Ivoneide Caetano",
-    "generatedAt": "2026-06-05T20:37:29.313808Z",
+    "generatedAt": "2026-06-05T21:12:28.497136Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220696,
       "name": "Ivoneide Caetano",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 58
     },
     {
       "id": 34,
@@ -62,6 +63,12 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "CARLOS JOSE DOS SANTOS",
       "category": "donor",
@@ -98,6 +105,12 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "EDES SANTOS DE OLIVEIRA",
       "category": "donor",
@@ -113,6 +126,12 @@
       "id": 46,
       "name": "EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -254,6 +273,12 @@
       "connectionCount": 1
     },
     {
+      "id": 57,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 42,
       "name": "PARLANET WEB E TECNOLOGIA EIRELI",
       "category": "supplier",
@@ -296,6 +321,12 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 31,
       "name": "TAM",
       "category": "supplier",
@@ -305,6 +336,12 @@
       "id": 7,
       "name": "TIAGO GARCIA SOUZA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +784,54 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$722,21 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/02/2025–05/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220696,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$38.272.645,00 empenhado, R$36.966.092,00 pago (11 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220696,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$30.273.782,00 empenhado, R$30.131.404,00 pago (12 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220696,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$1.500.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220696,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.000.000,00 empenhado, R$44.946,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220696,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$600.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 220696,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$300.000,00 empenhado, R$300.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 165470,
     "egoName": "Rodrigo Valadares",
-    "generatedAt": "2026-06-05T20:37:32.895110Z",
+    "generatedAt": "2026-06-05T21:12:32.421210Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 165470,
       "name": "Rodrigo Valadares",
       "category": "politician",
-      "connectionCount": 54
+      "connectionCount": 60
     },
     {
       "id": 31,
@@ -74,6 +75,12 @@
       "connectionCount": 1
     },
     {
+      "id": 57,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 18,
       "name": "CARLA NASCIMENTO SANTOS",
       "category": "donor",
@@ -110,6 +117,18 @@
       "connectionCount": 1
     },
     {
+      "id": 60,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 13,
       "name": "ELEICAO 2022 FABIO CRUZ MITIDIERI GOVERNADOR",
       "category": "donor",
@@ -119,6 +138,12 @@
       "id": 47,
       "name": "ENERGISA SERGIPE - DISTRIBUIDORA DE ENERGIA S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -320,9 +345,21 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 30,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -775,6 +812,54 @@
       "target": 54,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$16,55 (7 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 165470,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$38.897.407,00 empenhado, R$37.811.615,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 165470,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$26.350.000,00 empenhado, R$26.220.000,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 165470,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$6.000.000,00 empenhado, R$5.000.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 165470,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$2.500.000,00 empenhado, R$499.919,00 pago (4 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 165470,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 165470,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$399.687,00 empenhado, R$337.795,00 pago (2 emendas; 2025)",
       "strength": 1
     }
   ]

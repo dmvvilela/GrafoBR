@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204368,
     "egoName": "Fabio Schiochet",
-    "generatedAt": "2026-06-05T20:37:28.040158Z",
+    "generatedAt": "2026-06-05T21:12:27.244775Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204368,
       "name": "Fabio Schiochet",
       "category": "politician",
-      "connectionCount": 30
+      "connectionCount": 34
     },
     {
       "id": 15,
@@ -46,6 +47,24 @@
       "id": 24,
       "name": "COOPERATIVA REGIONAL ITAIPU",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -172,6 +191,12 @@
       "id": 19,
       "name": "SCHUH & FILHO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -438,6 +463,38 @@
       "target": 30,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.563,58 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/07/2025–16/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204368,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.559.601,00 empenhado, R$50.792.620,00 pago (10 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204368,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$52.725.474,00 empenhado, R$52.548.104,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204368,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$700.000,00 empenhado, R$686.000,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204368,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$200.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

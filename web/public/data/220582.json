@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220582,
     "egoName": "Daniel Barbosa",
-    "generatedAt": "2026-06-05T20:37:26.815181Z",
+    "generatedAt": "2026-06-05T21:12:25.913511Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220582,
       "name": "Daniel Barbosa",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 59
     },
     {
       "id": 48,
@@ -68,6 +69,12 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 4,
       "name": "BEATRIZ OLIVEIRA MAURICIO LIRA",
       "category": "donor",
@@ -92,6 +99,12 @@
       "connectionCount": 1
     },
     {
+      "id": 59,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "EDINALVA PINHEIRO DOS SANTOS OLIVEIRA",
       "category": "donor",
@@ -107,6 +120,18 @@
       "id": 6,
       "name": "EDUARDO TENORIO SANTOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -290,6 +315,18 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 31,
       "name": "TAM",
       "category": "supplier",
@@ -299,6 +336,12 @@
       "id": 11,
       "name": "THAYNA GARCIA SANTOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +790,62 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$200,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220582,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$38.573.786,00 empenhado, R$33.629.656,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220582,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$19.000.000,00 empenhado, R$18.950.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220582,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$9.789.392,00 empenhado, R$419.317,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220582,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$5.998.427,00 empenhado, R$1.627.690,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220582,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.235.792,00 empenhado, R$4.769,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 220582,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$348.600,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 220582,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

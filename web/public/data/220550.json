@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220550,
     "egoName": "Mauricio Marcon",
-    "generatedAt": "2026-06-05T20:37:31.106167Z",
+    "generatedAt": "2026-06-05T21:12:30.448272Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220550,
       "name": "Mauricio Marcon",
       "category": "politician",
-      "connectionCount": 56
+      "connectionCount": 60
     },
     {
       "id": 45,
@@ -89,6 +90,12 @@
       "id": 35,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -182,9 +189,21 @@
       "connectionCount": 1
     },
     {
+      "id": 58,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 36,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -323,6 +342,12 @@
       "id": 54,
       "name": "SMAFF COMBUSTIVEIS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -803,6 +828,38 @@
       "target": 56,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$541,01 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/03/2025–12/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220550,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$39.434.705,00 empenhado, R$37.770.972,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 220550,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$33.226.859,00 empenhado, R$33.054.236,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 220550,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.086.000,00 empenhado, R$1.786.000,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 220550,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$400.000,00 empenhado, R$3.500,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

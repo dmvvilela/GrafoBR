@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 128760,
     "egoName": "Paulo Marinho Jr",
-    "generatedAt": "2026-06-05T20:37:32.129484Z",
+    "generatedAt": "2026-06-05T21:12:31.487258Z",
     "sources": [
       "camara",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -16,7 +17,7 @@
       "id": 128760,
       "name": "Paulo Marinho Jr",
       "category": "politician",
-      "connectionCount": 24
+      "connectionCount": 28
     },
     {
       "id": 10,
@@ -28,6 +29,12 @@
       "id": 7,
       "name": "ANDRE LUIS GONCALVES DE AZEVEDO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Agricultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -58,6 +65,12 @@
       "id": 11,
       "name": "DOUGLLAS ALBUQUERQUE GONCALVES",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -142,6 +155,18 @@
       "id": 22,
       "name": "SOCIEDADE EDUCACIONAL CAXIENSE S/C LTDA.",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 25,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -354,6 +379,38 @@
       "target": 24,
       "connectionType": "socio",
       "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 04/06/2022",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 128760,
+      "target": 25,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$18.935.793,00 empenhado, R$18.935.793,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 128760,
+      "target": 26,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$18.459.602,00 empenhado, R$18.459.602,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 128760,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$238.095,00 empenhado, R$238.095,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 128760,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$237.425,00 empenhado, R$78.369,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

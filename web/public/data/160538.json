@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160538,
     "egoName": "Bohn Gass",
-    "generatedAt": "2026-06-05T20:37:25.911081Z",
+    "generatedAt": "2026-06-05T21:12:24.927336Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160538,
       "name": "Bohn Gass",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 59
     },
     {
       "id": 37,
@@ -47,6 +48,18 @@
       "id": 38,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -104,6 +117,12 @@
       "connectionCount": 1
     },
     {
+      "id": 59,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 47,
       "name": "DALLE HOTEL LTDA- EPP",
       "category": "supplier",
@@ -113,6 +132,12 @@
       "id": 21,
       "name": "DECIO RENI FALEIRO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -143,6 +168,18 @@
       "id": 24,
       "name": "ERNI JOSE RODRIGUES",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -296,6 +333,12 @@
       "connectionCount": 1
     },
     {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 32,
       "name": "TAM",
       "category": "supplier",
@@ -311,6 +354,12 @@
       "id": 51,
       "name": "TRI HOTEL CAXIAS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +782,70 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.631,00 (8 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 04/03/2025–09/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 160538,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.628.818,00 empenhado, R$34.352.933,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 160538,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$25.721.163,00 empenhado, R$25.641.163,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 160538,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$12.752.847,00 empenhado, R$7.907.675,00 pago (20 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 160538,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$10.699.490,00 empenhado, R$2.474.245,00 pago (21 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 160538,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$600.000,00 empenhado, R$400.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 160538,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$595.505,00 empenhado, R$500.000,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 160538,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$525.841,00 empenhado, R$200.000,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 160538,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$300.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

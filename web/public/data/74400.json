@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74400,
     "egoName": "Paulo Pimenta",
-    "generatedAt": "2026-06-05T20:37:32.145842Z",
+    "generatedAt": "2026-06-05T21:12:31.504767Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 74400,
       "name": "Paulo Pimenta",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 59
     },
     {
       "id": 17,
@@ -59,6 +60,12 @@
       "id": 44,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Agricultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -122,6 +129,12 @@
       "connectionCount": 1
     },
     {
+      "id": 59,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "ELEICAO 2022 ANTONIO VALDECI OLIVEIRA DE OLIVEIRA DEPUTADO ESTADUAL",
       "category": "donor",
@@ -131,6 +144,18 @@
       "id": 16,
       "name": "ELEICAO 2022 JOAO EDEGAR PRETTO GOVERNADOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -218,6 +243,12 @@
       "connectionCount": 1
     },
     {
+      "id": 57,
+      "name": "Múltiplo",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 14,
       "name": "NAEL JAMIL ABU HWAS",
       "category": "donor",
@@ -227,6 +258,12 @@
       "id": 27,
       "name": "OURO NEGRO COMERCIO E SERVICOS LTDA - MASSA FALIDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Organização agrária",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -281,6 +318,12 @@
       "id": 9,
       "name": "SIDINEI CARDOSO PEREIRA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +790,62 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$570,00 (3 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 15/05/2025–18/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 74400,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$16.445.698,00 empenhado, R$14.954.890,00 pago (5 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 74400,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$11.286.033,00 empenhado, R$11.286.033,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 74400,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.612.072,00 empenhado, R$1.458.762,00 pago (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 74400,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$913.807,00 empenhado, R$281.202,00 pago (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 74400,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$570.223,00 empenhado, R$100.000,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 74400,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$480.000,00 empenhado, R$250.000,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 74400,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$300.000,00 empenhado (1 emenda; 2023)",
       "strength": 1
     }
   ]

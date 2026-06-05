@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 137070,
     "egoName": "Vicentinho Júnior",
-    "generatedAt": "2026-06-05T20:37:33.706380Z",
+    "generatedAt": "2026-06-05T21:12:33.383687Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 137070,
       "name": "Vicentinho Júnior",
       "category": "politician",
-      "connectionCount": 37
+      "connectionCount": 46
     },
     {
       "id": 8,
@@ -56,6 +57,12 @@
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "DERCILEI GOMES QUEIROZ",
       "category": "donor",
@@ -71,6 +78,36 @@
       "id": 11,
       "name": "DORJAN RODRIGUES ARAUJO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -206,9 +243,27 @@
       "connectionCount": 1
     },
     {
+      "id": 38,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 31,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -537,6 +592,78 @@
       "target": 37,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$15,48 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 137070,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.625.358,00 empenhado, R$48.601.441,00 pago (14 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 137070,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$42.879.295,00 empenhado, R$42.734.020,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 137070,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$2.499.512,00 empenhado (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 137070,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$2.299.963,00 empenhado, R$897.063,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 137070,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.790.790,00 empenhado, R$28.911,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 137070,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.300.000,00 empenhado, R$199.640,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 137070,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.200.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 137070,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.000.000,00 empenhado, R$807.924,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 137070,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$610.393,00 empenhado, R$310.393,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

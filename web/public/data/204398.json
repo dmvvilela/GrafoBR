@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204398,
     "egoName": "Felipe Francischini",
-    "generatedAt": "2026-06-05T20:37:28.170755Z",
+    "generatedAt": "2026-06-05T21:12:27.345089Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204398,
       "name": "Felipe Francischini",
       "category": "politician",
-      "connectionCount": 28
+      "connectionCount": 32
     },
     {
       "id": 23,
@@ -67,6 +68,12 @@
       "connectionCount": 1
     },
     {
+      "id": 32,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "CLAUDIA NETTO SAFATLE",
       "category": "donor",
@@ -82,6 +89,18 @@
       "id": 22,
       "name": "Copel Distribuição S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -148,6 +167,12 @@
       "id": 28,
       "name": "MOVIDA LOCAÇÃO DE VEÍCULOS S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -410,6 +435,38 @@
       "target": 28,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.445,83 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 21/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 204398,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$71.541.000,00 empenhado, R$62.515.416,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 204398,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$29.838.488,00 empenhado, R$29.813.388,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204398,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$3.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204398,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$773.481,00 empenhado, R$573.481,00 pago (2 emendas; 2023–2024)",
       "strength": 1
     }
   ]

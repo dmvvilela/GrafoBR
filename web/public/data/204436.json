@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204436,
     "egoName": "Isnaldo Bulhões Jr.",
-    "generatedAt": "2026-06-05T20:37:29.271660Z",
+    "generatedAt": "2026-06-05T21:12:28.460788Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204436,
       "name": "Isnaldo Bulhões Jr.",
       "category": "politician",
-      "connectionCount": 42
+      "connectionCount": 44
     },
     {
       "id": 25,
@@ -146,6 +147,12 @@
       "connectionCount": 1
     },
     {
+      "id": 44,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "GOL",
       "category": "supplier",
@@ -239,6 +246,12 @@
       "id": 5,
       "name": "SYLVIO KLEIN TROMPOWSKY HECK",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -607,6 +620,22 @@
       "target": 42,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$546,56 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/03/2025–23/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 204436,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.497.919,00 empenhado, R$41.105.885,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 204436,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$52.991.146,00 empenhado, R$52.811.062,00 pago (3 emendas; 2023–2025)",
       "strength": 1
     }
   ]

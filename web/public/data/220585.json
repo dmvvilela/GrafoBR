@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220585,
     "egoName": "Mersinho Lucena",
-    "generatedAt": "2026-06-05T20:37:31.320914Z",
+    "generatedAt": "2026-06-05T21:12:30.624534Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220585,
       "name": "Mersinho Lucena",
       "category": "politician",
-      "connectionCount": 55
+      "connectionCount": 63
     },
     {
       "id": 26,
@@ -47,6 +48,12 @@
       "id": 38,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -98,6 +105,12 @@
       "connectionCount": 1
     },
     {
+      "id": 61,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 45,
       "name": "D P N-DISTRIBUIDORA DE PRODUTOS NORDESTINOS LTDA",
       "category": "supplier",
@@ -128,6 +141,12 @@
       "connectionCount": 1
     },
     {
+      "id": 62,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 28,
       "name": "E & E MAGAZINE COMERCIO, IMPORTACAO LTDA",
       "category": "company",
@@ -137,6 +156,18 @@
       "id": 17,
       "name": "ELEICAO 2022 JOAO AZEVEDO LINS FILHO GOVERNADOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -320,6 +351,18 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 63,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 33,
       "name": "TAM",
       "category": "supplier",
@@ -335,6 +378,12 @@
       "id": 32,
       "name": "Tamila Catarine Sousa Pignata",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -789,6 +838,70 @@
       "target": 55,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$565,88 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/09/2025–02/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220585,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$36.922.041,00 empenhado, R$35.028.618,00 pago (16 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220585,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$19.000.985,00 empenhado, R$15.500.985,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 220585,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$13.235.585,00 empenhado, R$13.180.585,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 220585,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$3.000.000,00 empenhado, R$960.019,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 220585,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$784.316,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 220585,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 62,
+      "source": 220585,
+      "target": 62,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$150.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 63,
+      "source": 220585,
+      "target": 63,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$150.000,00 empenhado, R$150.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

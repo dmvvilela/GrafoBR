@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204497,
     "egoName": "Júnior Ferrari",
-    "generatedAt": "2026-06-05T20:37:30.058206Z",
+    "generatedAt": "2026-06-05T21:12:29.265348Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204497,
       "name": "Júnior Ferrari",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 54
     },
     {
       "id": 47,
@@ -125,6 +126,12 @@
       "id": 46,
       "name": "EUROGAS POSTOS DE SERVICOS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -299,6 +306,12 @@
       "id": 6,
       "name": "ROSIBERGUE TORRES CAMPOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +760,22 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$326,07 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 204497,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.606.438,00 empenhado, R$52.226.593,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 204497,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$52.625.481,00 empenhado, R$52.449.103,00 pago (6 emendas; 2023–2025)",
       "strength": 1
     }
   ]

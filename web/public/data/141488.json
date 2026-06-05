@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 141488,
     "egoName": "Paulo Teixeira",
-    "generatedAt": "2026-06-05T20:37:32.162098Z",
+    "generatedAt": "2026-06-05T21:12:31.523467Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,31 @@
       "id": 141488,
       "name": "Paulo Teixeira",
       "category": "politician",
-      "connectionCount": 26
+      "connectionCount": 36
+    },
+    {
+      "id": 33,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
     },
     {
       "id": 15,
@@ -34,6 +59,18 @@
       "id": 2,
       "name": "ERNESTO TZIRULNIK",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -121,9 +158,21 @@
       "connectionCount": 1
     },
     {
+      "id": 30,
+      "name": "Múltiplo",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 24,
       "name": "OTAVIO UCHOA ZARVOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Organização agrária",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -166,6 +215,18 @@
       "id": 10,
       "name": "STEFANO GIOMMONI",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -382,6 +443,86 @@
       "target": 26,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$0,24 (1 lançamento; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 141488,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$14.441.721,00 empenhado, R$12.963.306,00 pago (6 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 141488,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$7.391.208,00 empenhado, R$7.391.208,00 pago (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 141488,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$4.194.392,00 empenhado, R$1.073.693,00 pago (7 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 141488,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$857.252,00 empenhado, R$100.000,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 141488,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$750.000,00 empenhado, R$550.000,00 pago (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 141488,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$500.000,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 141488,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$400.000,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 141488,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$309.427,00 empenhado, R$160.000,00 pago (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 141488,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$200.000,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 141488,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$199.999,00 empenhado, R$100.000,00 pago (1 emenda; 2023)",
       "strength": 1
     }
   ]

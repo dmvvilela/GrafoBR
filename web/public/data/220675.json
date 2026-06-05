@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220675,
     "egoName": "Antônio Doido",
-    "generatedAt": "2026-06-05T20:37:25.546983Z",
+    "generatedAt": "2026-06-05T21:12:24.504109Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220675,
       "name": "Antônio Doido",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 53
     },
     {
       "id": 42,
@@ -151,6 +152,12 @@
       "connectionCount": 1
     },
     {
+      "id": 52,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "FRANCISCO DE ASSIS GALHARDO DO VALE",
       "category": "donor",
@@ -280,6 +287,18 @@
       "id": 40,
       "name": "SUPER POSTO EXPRESS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -718,6 +737,30 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$332,83 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 22/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220675,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$64.760.335,00 empenhado, R$64.760.335,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220675,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$10.000.000,00 empenhado, R$9.900.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220675,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$365.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

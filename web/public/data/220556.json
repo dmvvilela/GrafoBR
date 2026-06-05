@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220556,
     "egoName": "Ana Paula Lima",
-    "generatedAt": "2026-06-05T20:37:25.338385Z",
+    "generatedAt": "2026-06-05T21:12:24.240401Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220556,
       "name": "Ana Paula Lima",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 64
     },
     {
       "id": 26,
@@ -56,6 +57,12 @@
       "connectionCount": 1
     },
     {
+      "id": 57,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 27,
       "name": "BELA ADMINISTRADORA DE BENS LTDA",
       "category": "company",
@@ -86,6 +93,12 @@
       "connectionCount": 1
     },
     {
+      "id": 64,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 52,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
@@ -95,6 +108,12 @@
       "id": 28,
       "name": "Criação Propaganda e Publicidade LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 63,
+      "name": "Cultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -113,6 +132,18 @@
       "id": 8,
       "name": "DIOMAR LOURENCO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -152,6 +183,12 @@
       "connectionCount": 1
     },
     {
+      "id": 54,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 31,
       "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
       "category": "supplier",
@@ -173,6 +210,12 @@
       "id": 34,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -242,6 +285,12 @@
       "connectionCount": 1
     },
     {
+      "id": 61,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 38,
       "name": "PARLANET WEB E TECNOLOGIA EIRELI",
       "category": "supplier",
@@ -302,6 +351,18 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 62,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 30,
       "name": "TAM",
       "category": "supplier",
@@ -317,6 +378,18 @@
       "id": 43,
       "name": "TIM S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Trabalho",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +820,102 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.605,24 (11 lançamentos; tipo: TELEFONIA; período: 11/02/2025–09/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220556,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.405.785,00 empenhado, R$15.623.111,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220556,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$9.567.994,00 empenhado, R$2.098.019,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220556,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$9.379.215,00 empenhado, R$2.105.491,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220556,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$4.500.000,00 empenhado, R$2.900.000,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220556,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.450.000,00 empenhado, R$3.050.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 220556,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$3.265.000,00 empenhado (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 220556,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$800.000,00 empenhado, R$800.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 220556,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$700.000,00 empenhado, R$300.000,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 220556,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$700.000,00 empenhado, R$500.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 62,
+      "source": 220556,
+      "target": 62,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$680.000,00 empenhado (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 63,
+      "source": 220556,
+      "target": 63,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$400.000,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 64,
+      "source": 220556,
+      "target": 64,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$200.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

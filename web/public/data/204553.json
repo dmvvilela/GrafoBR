@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204553,
     "egoName": "Pastor Sargento Isidório",
-    "generatedAt": "2026-06-05T20:37:31.928788Z",
+    "generatedAt": "2026-06-05T21:12:31.258948Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204553,
       "name": "Pastor Sargento Isidório",
       "category": "politician",
-      "connectionCount": 42
+      "connectionCount": 45
     },
     {
       "id": 39,
@@ -124,6 +125,12 @@
       "id": 10,
       "name": "EVONES LIMA SANTOS DE JESUS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -244,6 +251,18 @@
       "id": 12,
       "name": "SULIVAN TIAGO FONTES REIS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -606,6 +625,30 @@
       "target": 42,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$158,76 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 204553,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.625.487,00 empenhado, R$53.625.487,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 204553,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$53.275.481,00 empenhado, R$53.092.603,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 204553,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$350.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

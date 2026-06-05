@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160600,
     "egoName": "Arthur Oliveira Maia",
-    "generatedAt": "2026-06-05T20:37:25.638669Z",
+    "generatedAt": "2026-06-05T21:12:24.608649Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160600,
       "name": "Arthur Oliveira Maia",
       "category": "politician",
-      "connectionCount": 38
+      "connectionCount": 45
     },
     {
       "id": 34,
@@ -62,6 +63,18 @@
       "connectionCount": 1
     },
     {
+      "id": 42,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 21,
       "name": "Bahiana FM",
       "category": "supplier",
@@ -86,9 +99,27 @@
       "connectionCount": 1
     },
     {
+      "id": 43,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 14,
       "name": "Easy Way Tecnologia e Desenvolvimento de Software LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -218,6 +249,12 @@
       "connectionCount": 1
     },
     {
+      "id": 39,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 17,
       "name": "TAM",
       "category": "supplier",
@@ -245,6 +282,12 @@
       "id": 4,
       "name": "UNIAO BRASIL - BAHIA - BA - ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -551,6 +594,62 @@
       "target": 38,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.427,20 (6 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 21/08/2025–25/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 160600,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$63.380.146,00 empenhado, R$52.074.274,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 160600,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$16.520.951,00 empenhado, R$2.154.338,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 160600,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$16.321.836,00 empenhado, R$16.286.836,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 160600,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$8.749.471,00 empenhado, R$1.280.047,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 160600,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 160600,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$700.000,00 empenhado, R$500.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 160600,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$399.930,00 empenhado, R$190.984,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

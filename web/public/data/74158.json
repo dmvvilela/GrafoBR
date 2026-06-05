@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74158,
     "egoName": "Mário Heringer",
-    "generatedAt": "2026-06-05T20:37:31.561899Z",
+    "generatedAt": "2026-06-05T21:12:30.871314Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 74158,
       "name": "Mário Heringer",
       "category": "politician",
-      "connectionCount": 47
+      "connectionCount": 56
     },
     {
       "id": 3,
@@ -41,6 +42,18 @@
       "id": 40,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -80,9 +93,33 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 46,
       "name": "EMIDIO SOUTO PEREIRA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -218,6 +255,12 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PARTIDO DEMOCRATICO TRABALHISTA",
       "category": "donor",
@@ -278,9 +321,21 @@
       "connectionCount": 1
     },
     {
+      "id": 48,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 37,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -677,6 +732,78 @@
       "target": 47,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$28,82 (7 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 74158,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.474.210,00 empenhado, R$44.582.677,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 74158,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$42.173.438,00 empenhado, R$42.034.119,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 74158,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$6.078.162,00 empenhado, R$5.174.602,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 74158,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.349.448,00 empenhado, R$223.922,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 74158,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$699.215,00 empenhado, R$31.167,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 74158,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$499.984,00 empenhado, R$112.888,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 74158,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$499.952,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 74158,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 74158,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$100.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

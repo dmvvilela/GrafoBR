@@ -7,6 +7,7 @@ const CATEGORY_COLORS: Record<NodeCategory, string> = {
   company: "#34d399", // emerald
   donor: "#fbbf24", // amber
   supplier: "#2dd4bf", // teal
+  destino: "#c084fc", // purple
   relative: "#f472b6", // pink
   other: "#94a3b8", // slate
 };
@@ -16,6 +17,7 @@ const EDGE_COLORS: Record<ConnectionType, string> = {
   doacao: "#fbbf24",
   despesa: "#2dd4bf",
   contrato: "#818cf8",
+  emenda: "#c084fc",
   parente: "#f472b6",
   other: "#64748b",
 };
@@ -33,6 +35,7 @@ export const CATEGORY_LABELS: Record<NodeCategory, string> = {
   company: "Empresa",
   donor: "Doador",
   supplier: "Fornecedor",
+  destino: "Destino",
   relative: "Parente",
   other: "Outro",
 };
@@ -42,6 +45,7 @@ export const CONNECTION_LABELS: Record<ConnectionType, string> = {
   doacao: "Doação",
   despesa: "Despesa",
   contrato: "Contrato",
+  emenda: "Emenda",
   parente: "Parente",
   other: "Outro",
 };

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 179001,
     "egoName": "Márcio Biolchi",
-    "generatedAt": "2026-06-05T20:37:31.485753Z",
+    "generatedAt": "2026-06-05T21:12:30.792143Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 179001,
       "name": "Márcio Biolchi",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 41
     },
     {
       "id": 28,
@@ -41,6 +42,18 @@
       "id": 9,
       "name": "AUTOSUL LOCADORA DE VEÍCULOS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -80,9 +93,27 @@
       "connectionCount": 1
     },
     {
+      "id": 40,
+      "name": "Comunicações",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 16,
       "name": "Critério Comunicação LTDA_ME",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Desporto e lazer",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -104,6 +135,12 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 32,
       "name": "GETÚLIO VARGAS HOTÉIS LTDA",
       "category": "supplier",
@@ -113,6 +150,12 @@
       "id": 13,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Indústria",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -194,6 +237,12 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "TAM",
       "category": "supplier",
@@ -209,6 +258,12 @@
       "id": 27,
       "name": "UPSIDE AGENCIA DIGITAL LTDA-ME",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -467,6 +522,78 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.275,00 (3 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 01/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 179001,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$55.049.550,00 empenhado, R$51.170.550,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 179001,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$35.136.808,00 empenhado, R$35.003.809,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 179001,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$10.659.608,00 empenhado, R$679.346,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 179001,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$2.279.209,00 empenhado, R$98.694,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 179001,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.143.812,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 179001,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.000.000,00 empenhado, R$1.000.000,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 179001,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Indústria: R$500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 179001,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comunicações: R$488.762,00 empenhado, R$488.762,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 179001,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$407.302,00 empenhado (1 emenda; 2023)",
       "strength": 1
     }
   ]

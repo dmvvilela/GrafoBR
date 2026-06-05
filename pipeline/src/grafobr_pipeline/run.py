@@ -48,6 +48,11 @@ def main() -> int:
         default=None,
         help="local/scoped Portal da Transparência contracts CSV for optional contrato edges",
     )
+    parser.add_argument(
+        "--emendas-csv",
+        default=None,
+        help="BigQuery-derived individual amendments CSV for optional emenda edges",
+    )
     args = parser.parse_args()
 
     count = build_all(
@@ -60,6 +65,7 @@ def main() -> int:
             cnpj_empresas_csv=args.cnpj_empresas_csv,
             cnpj_socios_csv=args.cnpj_socios_csv,
             contratos_csv=args.contratos_csv,
+            emendas_csv=args.emendas_csv,
         )
     )
     print(f"OK — wrote {count} ego-network files")

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 143632,
     "egoName": "Domingos Neto",
-    "generatedAt": "2026-06-05T20:37:27.353136Z",
+    "generatedAt": "2026-06-05T21:12:26.561063Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 143632,
       "name": "Domingos Neto",
       "category": "politician",
-      "connectionCount": 25
+      "connectionCount": 28
     },
     {
       "id": 23,
@@ -62,9 +63,21 @@
       "connectionCount": 1
     },
     {
+      "id": 28,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "ELEICAO 2022 ROBERTO CLAUDIO RODRIGUES BEZERRA GOVERNADOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -137,6 +150,12 @@
       "id": 25,
       "name": "RAMAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -369,6 +388,30 @@
       "target": 25,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$21,32 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 143632,
+      "target": 26,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.625.485,00 empenhado, R$53.625.485,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 143632,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$52.275.258,00 empenhado, R$52.092.680,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 143632,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.348.484,00 empenhado, R$504.133,00 pago (3 emendas; 2023–2025)",
       "strength": 1
     }
   ]

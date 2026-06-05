@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220530,
     "egoName": "Messias Donato",
-    "generatedAt": "2026-06-05T20:37:31.339834Z",
+    "generatedAt": "2026-06-05T21:12:30.645325Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220530,
       "name": "Messias Donato",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 37
     },
     {
       "id": 31,
@@ -43,6 +44,12 @@
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 23,
       "name": "BDC COMUNICACOES EIRELI",
       "category": "supplier",
@@ -61,6 +68,12 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 25,
       "name": "D7 PRODUCOES LTDA",
       "category": "supplier",
@@ -70,6 +83,12 @@
       "id": 9,
       "name": "DALETH VEICULOS LTDA EPP",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Desporto e lazer",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -88,6 +107,12 @@
       "id": 4,
       "name": "EMERSON SILVA CORTELETTI",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -184,6 +209,12 @@
       "id": 32,
       "name": "SAN REMO POSTO SERVICOS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -466,6 +497,46 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$852,60 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 19/08/2025–01/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220530,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.892.856,00 empenhado, R$34.046.974,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220530,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$27.350.000,00 empenhado, R$27.264.500,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220530,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$5.500.000,00 empenhado, R$736.994,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220530,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.400.000,00 empenhado, R$2.900.000,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220530,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$1.000.000,00 empenhado, R$500.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

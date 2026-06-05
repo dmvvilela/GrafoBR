@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 214694,
     "egoName": "Jorge Goetten",
-    "generatedAt": "2026-06-05T20:37:29.554172Z",
+    "generatedAt": "2026-06-05T21:12:28.740674Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 214694,
       "name": "Jorge Goetten",
       "category": "politician",
-      "connectionCount": 46
+      "connectionCount": 52
     },
     {
       "id": 13,
@@ -62,6 +63,12 @@
       "connectionCount": 1
     },
     {
+      "id": 50,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 14,
       "name": "BAM GAMES EXPLORACAO DE ATIVIDADES LOTERICAS LTDA",
       "category": "company",
@@ -95,6 +102,12 @@
       "id": 16,
       "name": "CLIC SERVICOS DE REBOQUE LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -149,6 +162,12 @@
       "id": 38,
       "name": "Elegis Gestão Estratégica, Consultoria e Tecn",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -284,9 +303,27 @@
       "connectionCount": 1
     },
     {
+      "id": 47,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 26,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Transporte",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -663,6 +700,54 @@
       "target": 46,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$808,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 20/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 214694,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.571.052,00 empenhado, R$37.487.121,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 214694,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$36.423.569,00 empenhado, R$36.242.590,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 214694,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$360.000,00 empenhado, R$348.600,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 214694,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$250.000,00 empenhado, R$38.103,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 214694,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Transporte: R$247.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 214694,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

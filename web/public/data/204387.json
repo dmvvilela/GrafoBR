@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204387,
     "egoName": "Sargento Fahur",
-    "generatedAt": "2026-06-05T20:37:33.137063Z",
+    "generatedAt": "2026-06-05T21:12:32.738868Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204387,
       "name": "Sargento Fahur",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 59
     },
     {
       "id": 42,
@@ -73,6 +74,18 @@
       "connectionCount": 1
     },
     {
+      "id": 58,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 39,
       "name": "CLARO NEXTEL TELECOMUNICAÇÕES LTDA",
       "category": "supplier",
@@ -91,6 +104,18 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 13,
       "name": "EDNO FERNANDO ALBERTONI CORREA",
       "category": "donor",
@@ -106,6 +131,18 @@
       "id": 18,
       "name": "EVERTON KASMIERCZAK BARBOSA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -172,6 +209,12 @@
       "id": 3,
       "name": "MAYCON SAMPAIO ZANETTI",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Múltiplo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -268,6 +311,18 @@
       "id": 9,
       "name": "SONIA APARECIDA CAYRES TARINI",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -718,6 +773,78 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.030,00 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/06/2025–28/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 204387,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$56.602.680,00 empenhado, R$47.206.319,00 pago (21 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 204387,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$22.718.526,00 empenhado, R$22.621.796,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 204387,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$15.124.168,00 empenhado, R$11.375,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 204387,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$5.158.143,00 empenhado, R$4.208.143,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 204387,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.818.000,00 empenhado, R$1.091.762,00 pago (3 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 204387,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.358.438,00 empenhado (3 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 204387,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$1.056.737,00 empenhado, R$217.975,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 204387,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$976.901,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 204387,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$699.977,00 empenhado (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

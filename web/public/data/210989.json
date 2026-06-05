@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 210989,
     "egoName": "Bruno Farias",
-    "generatedAt": "2026-06-05T20:37:25.927494Z",
+    "generatedAt": "2026-06-05T21:12:24.947517Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 210989,
       "name": "Bruno Farias",
       "category": "politician",
-      "connectionCount": 28
+      "connectionCount": 31
     },
     {
       "id": 23,
@@ -46,6 +47,12 @@
       "id": 7,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -82,6 +89,12 @@
       "id": 4,
       "name": "ESTRELA LOGISTICA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -154,6 +167,12 @@
       "id": 12,
       "name": "SILVA E TEIXEIRA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -410,6 +429,30 @@
       "target": 28,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.458,40 (3 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 17/02/2025–11/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 210989,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$41.516.070,00 empenhado, R$37.605.785,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 210989,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$33.131.500,00 empenhado, R$32.973.680,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 210989,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

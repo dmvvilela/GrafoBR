@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220546,
     "egoName": "Rodolfo Nogueira",
-    "generatedAt": "2026-06-05T20:37:32.842304Z",
+    "generatedAt": "2026-06-05T21:12:32.363488Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220546,
       "name": "Rodolfo Nogueira",
       "category": "politician",
-      "connectionCount": 37
+      "connectionCount": 41
     },
     {
       "id": 28,
@@ -28,6 +29,12 @@
       "id": 37,
       "name": "AUTO POSTO PRUDENTAO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -82,6 +89,12 @@
       "id": 35,
       "name": "ESTUDIO CRIAR DESENVOLVIMENTO DE SISTEMAS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -214,6 +227,18 @@
       "id": 29,
       "name": "SERIDOOR PUBLICIDADE",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -536,6 +561,38 @@
       "target": 37,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.539,01 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 13/06/2025–28/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220546,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$39.073.298,00 empenhado, R$26.557.659,00 pago (13 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220546,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$34.223.776,00 empenhado, R$34.052.397,00 pago (12 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 220546,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.500.000,00 empenhado, R$1.500.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 220546,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$350.000,00 empenhado, R$348.600,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

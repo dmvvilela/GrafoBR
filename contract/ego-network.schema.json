@@ -30,7 +30,7 @@
           "name": { "type": "string" },
           "category": {
             "type": "string",
-            "enum": ["politician", "company", "donor", "supplier", "relative", "other"],
+            "enum": ["politician", "company", "donor", "supplier", "destino", "relative", "other"],
             "description": "drives node color"
           },
           "connectionCount": { "type": "integer", "minimum": 0, "description": "node degree; drives node size" }
@@ -49,7 +49,7 @@
           "target": { "type": "integer", "description": "node id" },
           "connectionType": {
             "type": "string",
-            "enum": ["socio", "doacao", "despesa", "contrato", "parente", "other"],
+            "enum": ["socio", "doacao", "despesa", "contrato", "emenda", "parente", "other"],
             "description": "drives edge color"
           },
           "description": { "type": ["string", "null"], "description": "human-readable, source-attributed" },

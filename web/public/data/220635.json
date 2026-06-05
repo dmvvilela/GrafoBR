@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220635,
     "egoName": "Bruno Ganem",
-    "generatedAt": "2026-06-05T20:37:25.946205Z",
+    "generatedAt": "2026-06-05T21:12:24.965425Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220635,
       "name": "Bruno Ganem",
       "category": "politician",
-      "connectionCount": 20
+      "connectionCount": 25
     },
     {
       "id": 5,
@@ -50,6 +51,12 @@
       "connectionCount": 1
     },
     {
+      "id": 23,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
       "category": "supplier",
@@ -77,6 +84,12 @@
       "id": 10,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 22,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -128,6 +141,18 @@
       "connectionCount": 1
     },
     {
+      "id": 21,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 24,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 13,
       "name": "TAM",
       "category": "supplier",
@@ -137,6 +162,12 @@
       "id": 7,
       "name": "TELEFONICA BRASIL S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 25,
+      "name": "Transporte",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -299,6 +330,46 @@
       "target": 20,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8,77 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 220635,
+      "target": 21,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.573.670,00 empenhado, R$37.373.551,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 22,
+      "source": 220635,
+      "target": 22,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$20.499.720,00 empenhado, R$7.082.172,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 220635,
+      "target": 23,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$16.360.790,00 empenhado, R$16.356.541,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 24,
+      "source": 220635,
+      "target": 24,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$400.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 220635,
+      "target": 25,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Transporte: R$312.992,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

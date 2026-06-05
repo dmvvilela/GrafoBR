@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220657,
     "egoName": "André Fernandes",
-    "generatedAt": "2026-06-05T20:37:25.399005Z",
+    "generatedAt": "2026-06-05T21:12:24.322446Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220657,
       "name": "André Fernandes",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 35
     },
     {
       "id": 24,
@@ -56,6 +57,12 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 21,
       "name": "BR Soluções Técnicas e Administrativas Ltda",
       "category": "supplier",
@@ -89,6 +96,12 @@
       "id": 9,
       "name": "EDUARDO PEIXOTO ROLA FERREIRA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -185,6 +198,12 @@
       "id": 14,
       "name": "RAMIRO FARIAS MARTINS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -467,6 +486,30 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8,58 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220657,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$21.021.585,00 empenhado, R$18.921.099,00 pago (7 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220657,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$12.000.000,00 empenhado, R$12.000.000,00 pago (8 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220657,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$4.850.000,00 empenhado, R$4.400.000,00 pago (2 emendas; 2024)",
       "strength": 1
     }
   ]

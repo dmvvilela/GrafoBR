@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220558,
     "egoName": "Zé Trovão",
-    "generatedAt": "2026-06-05T20:37:33.995238Z",
+    "generatedAt": "2026-06-05T21:12:33.760234Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220558,
       "name": "Zé Trovão",
       "category": "politician",
-      "connectionCount": 27
+      "connectionCount": 30
     },
     {
       "id": 27,
@@ -82,6 +83,12 @@
       "id": 2,
       "name": "ELEICAO 2022 JORGINHO DOS SANTOS MELLO GOVERNADOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -166,6 +173,18 @@
       "id": 22,
       "name": "SC AUTO POSTO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -396,6 +415,30 @@
       "target": 27,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.340,14 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 26/02/2025–06/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 220558,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$46.632.220,00 empenhado, R$39.735.667,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 220558,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$27.211.776,00 empenhado, R$27.089.017,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220558,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.299.370,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220557,
     "egoName": "Daniela Reinehr",
-    "generatedAt": "2026-06-05T20:37:26.877223Z",
+    "generatedAt": "2026-06-05T21:12:25.976435Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220557,
       "name": "Daniela Reinehr",
       "category": "politician",
-      "connectionCount": 30
+      "connectionCount": 37
     },
     {
       "id": 18,
@@ -44,6 +45,12 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 17,
       "name": "BRASIL LEASING LOCADORA DE VEICULOS LTDA",
       "category": "supplier",
@@ -56,15 +63,39 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 23,
       "name": "DATAMOBI",
       "category": "supplier",
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "ELEICAO 2022 JORGINHO DOS SANTOS MELLO GOVERNADOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -83,6 +114,12 @@
       "id": 7,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -185,6 +222,12 @@
       "id": 3,
       "name": "SAULO JOSE ELIAS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -439,6 +482,62 @@
       "target": 30,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.990,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 20/01/2025–15/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220557,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.541.680,00 empenhado, R$31.873.454,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220557,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$35.061.775,00 empenhado, R$34.896.016,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220557,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$750.000,00 empenhado, R$682.800,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220557,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$700.000,00 empenhado, R$200.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220557,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$500.000,00 empenhado, R$353.128,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220557,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$362.008,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220557,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$200.000,00 empenhado, R$186.893,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

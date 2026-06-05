@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220699,
     "egoName": "Castro Neto",
-    "generatedAt": "2026-06-05T20:37:26.248320Z",
+    "generatedAt": "2026-06-05T21:12:25.302883Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220699,
       "name": "Castro Neto",
       "category": "politician",
-      "connectionCount": 47
+      "connectionCount": 54
     },
     {
       "id": 33,
@@ -50,6 +51,12 @@
       "connectionCount": 1
     },
     {
+      "id": 50,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 39,
       "name": "CACIQUE PETROLEO LTDA",
       "category": "supplier",
@@ -71,6 +78,18 @@
       "id": 22,
       "name": "CONSTRUTORA HELENA LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -107,6 +126,12 @@
       "id": 41,
       "name": "GUSTAVO WILER QUINTAO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -212,6 +237,12 @@
       "connectionCount": 1
     },
     {
+      "id": 51,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PARTIDO SOCIAL DEMOCRATICO - PSD DIRETORIO NACIONAL",
       "category": "donor",
@@ -281,6 +312,18 @@
       "id": 36,
       "name": "SMARTPRINT LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -677,6 +720,62 @@
       "target": 47,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.062,06 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 13/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 220699,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$39.611.778,00 empenhado, R$39.611.778,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 220699,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$33.835.792,00 empenhado, R$33.685.792,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 220699,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220699,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$500.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220699,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$397.047,00 empenhado, R$197.052,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220699,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$196.571,00 empenhado, R$7.575,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220699,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$100.000,00 empenhado, R$100.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

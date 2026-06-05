@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204504,
     "egoName": "Cezinha de Madureira",
-    "generatedAt": "2026-06-05T20:37:26.306114Z",
+    "generatedAt": "2026-06-05T21:12:25.359449Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204504,
       "name": "Cezinha de Madureira",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 55
     },
     {
       "id": 23,
@@ -140,6 +141,12 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "ELEICAO 2022 TARCISIO GOMES DE FREITAS GOVERNADOR",
       "category": "donor",
@@ -161,6 +168,18 @@
       "id": 26,
       "name": "EXCLUSIVIDADE GOSPEL EDITORA & PRODUTORA LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Essencial à justiça",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -299,6 +318,12 @@
       "id": 45,
       "name": "SABESP - COMPANHIA DE SANEAMENTO BÁSICO DO ESTADO DE SÃO PAULO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +758,38 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$334,93 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 204504,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$66.825.112,00 empenhado, R$65.299.127,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 204504,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$39.725.858,00 empenhado, R$39.660.858,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 204504,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Essencial à justiça: R$500.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 204504,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2023)",
       "strength": 1
     }
   ]

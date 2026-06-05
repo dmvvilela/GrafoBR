@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204511,
     "egoName": "David Soares",
-    "generatedAt": "2026-06-05T20:37:26.951785Z",
+    "generatedAt": "2026-06-05T21:12:26.051829Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204511,
       "name": "David Soares",
       "category": "politician",
-      "connectionCount": 37
+      "connectionCount": 42
     },
     {
       "id": 23,
@@ -68,6 +69,18 @@
       "connectionCount": 1
     },
     {
+      "id": 42,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "CARLOS ALBERTO DE MOURA BRAZ",
       "category": "donor",
@@ -92,6 +105,12 @@
       "connectionCount": 1
     },
     {
+      "id": 40,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 14,
       "name": "ELYON SOLUCAOES GRAFICA LTDA",
       "category": "supplier",
@@ -101,6 +120,12 @@
       "id": 31,
       "name": "ENEL - Eletropaulo Metropolitana Eletricidade de São Paulo S. A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -203,6 +228,12 @@
       "id": 12,
       "name": "SHOPPING DO POVO EVANGELICO COMERCIO LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -537,6 +568,46 @@
       "target": 37,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$931,39 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 07/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 204511,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$55.195.040,00 empenhado, R$53.137.595,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 204511,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$47.871.700,00 empenhado, R$47.730.500,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 204511,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$2.099.949,00 empenhado, R$10.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 204511,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.931.585,00 empenhado, R$1.931.585,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 204511,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$150.000,00 empenhado, R$137.421,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

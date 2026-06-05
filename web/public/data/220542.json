@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220542,
     "egoName": "Alexandre Guimarães",
-    "generatedAt": "2026-06-05T20:37:25.142319Z",
+    "generatedAt": "2026-06-05T21:12:23.956924Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220542,
       "name": "Alexandre Guimarães",
       "category": "politician",
-      "connectionCount": 33
+      "connectionCount": 39
     },
     {
       "id": 14,
@@ -28,6 +29,18 @@
       "id": 19,
       "name": "AMORETTO CAFES EXPRESSO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -64,6 +77,18 @@
       "id": 32,
       "name": "ENERGISA TOCANTINS DISTRIBUIDORA DE ENERGIA S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -184,6 +209,18 @@
       "id": 5,
       "name": "SUZELLY SENA GUIMARAES",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -480,6 +517,54 @@
       "target": 33,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.325,89 (2 lançamentos; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 14/07/2025–29/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220542,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.894.435,00 empenhado, R$33.947.293,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220542,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$33.275.772,00 empenhado, R$33.100.897,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220542,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.250.000,00 empenhado, R$1.250.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220542,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.000.000,00 empenhado, R$899.982,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220542,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$998.214,00 empenhado (3 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220542,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$250.000,00 empenhado, R$90.790,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

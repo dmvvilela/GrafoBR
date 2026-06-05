@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204489,
     "egoName": "Robério Monteiro",
-    "generatedAt": "2026-06-05T20:37:32.825386Z",
+    "generatedAt": "2026-06-05T21:12:32.342598Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204489,
       "name": "Robério Monteiro",
       "category": "politician",
-      "connectionCount": 33
+      "connectionCount": 35
     },
     {
       "id": 29,
@@ -95,6 +96,12 @@
       "id": 31,
       "name": "COMERCIAL DE COMBUSTÍVEL MAM LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -203,6 +210,12 @@
       "id": 8,
       "name": "SISTEMA MONTEIRO DE COMUNICACAO LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -481,6 +494,22 @@
       "target": 33,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$200,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204489,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$53.625.482,00 empenhado, R$53.439.103,00 pago (26 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204489,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.624.707,00 empenhado, R$50.550.707,00 pago (28 emendas; 2023–2025)",
       "strength": 1
     }
   ]

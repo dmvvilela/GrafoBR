@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220533,
     "egoName": "Prof. Reginaldo Veras",
-    "generatedAt": "2026-06-05T20:37:32.362681Z",
+    "generatedAt": "2026-06-05T21:12:31.784918Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220533,
       "name": "Prof. Reginaldo Veras",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 61
     },
     {
       "id": 51,
@@ -68,6 +69,18 @@
       "connectionCount": 1
     },
     {
+      "id": 59,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 49,
       "name": "BRASAL COMBUSTIVEIS LTDA",
       "category": "supplier",
@@ -86,6 +99,12 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 4,
       "name": "DAMIAO RODRIGUES DA SILVA",
       "category": "donor",
@@ -95,6 +114,18 @@
       "id": 35,
       "name": "DM CONSULTORIA DIGITAL LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -152,6 +183,18 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "FERNANDO FREIRE DA SILVA",
       "category": "donor",
@@ -173,6 +216,12 @@
       "id": 39,
       "name": "GC FERNANDES GRÁFICA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -260,6 +309,12 @@
       "connectionCount": 1
     },
     {
+      "id": 61,
+      "name": "Previdência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 17,
       "name": "RAIMUNDA FERREIRA CHAGAS",
       "category": "donor",
@@ -293,6 +348,12 @@
       "id": 28,
       "name": "SUPREMA MOBILIDADE LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +794,86 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$542,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 23/08/2025–30/08/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220533,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.561.460,00 empenhado, R$10.525.792,00 pago (11 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220533,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$10.221.792,00 empenhado, R$5.601.792,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220533,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$9.267.984,00 empenhado, R$3.515.000,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220533,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$5.000.000,00 empenhado, R$5.000.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220533,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$3.569.950,00 empenhado, R$312.200,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220533,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$3.399.977,00 empenhado, R$1.000.000,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 220533,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.763.000,00 empenhado, R$645.449,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 220533,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$999.791,00 empenhado, R$88.942,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 220533,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$950.000,00 empenhado, R$500.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 220533,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Previdência social: R$400.000,00 empenhado, R$400.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

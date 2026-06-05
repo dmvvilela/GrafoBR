@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220677,
     "egoName": "Keniston Braga",
-    "generatedAt": "2026-06-05T20:37:30.089658Z",
+    "generatedAt": "2026-06-05T21:12:29.309619Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220677,
       "name": "Keniston Braga",
       "category": "politician",
-      "connectionCount": 49
+      "connectionCount": 57
     },
     {
       "id": 44,
@@ -61,6 +62,18 @@
       "connectionCount": 1
     },
     {
+      "id": 52,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 38,
       "name": "BRASILTON BELÉM HOTÉIS E TURISMO S/A",
       "category": "supplier",
@@ -79,9 +92,21 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 47,
       "name": "DRA4 DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Desporto e lazer",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -112,6 +137,12 @@
       "id": 1,
       "name": "EULER AIRES MARQUES",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -229,6 +260,12 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 32,
       "name": "PARLANET WEB E TECNOLOGIA EIRELI",
       "category": "supplier",
@@ -289,6 +326,12 @@
       "connectionCount": 1
     },
     {
+      "id": 50,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 37,
       "name": "TAM",
       "category": "supplier",
@@ -304,6 +347,12 @@
       "id": 19,
       "name": "THIAGO DE SOUZA MOTA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -704,6 +753,70 @@
       "target": 49,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$13,21 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 220677,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.573.786,00 empenhado, R$34.256.303,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220677,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$29.313.779,00 empenhado, R$29.191.504,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220677,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$3.910.000,00 empenhado, R$119.910,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220677,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.500.000,00 empenhado, R$117.375,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220677,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.000.000,00 empenhado, R$750.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220677,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$1.000.000,00 empenhado, R$750.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220677,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$495.114,00 empenhado, R$387.631,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220677,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$350.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

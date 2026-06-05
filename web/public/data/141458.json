@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 141458,
     "egoName": "João Carlos Bacelar",
-    "generatedAt": "2026-06-05T20:37:29.771772Z",
+    "generatedAt": "2026-06-05T21:12:28.947171Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 141458,
       "name": "João Carlos Bacelar",
       "category": "politician",
-      "connectionCount": 38
+      "connectionCount": 41
     },
     {
       "id": 32,
@@ -122,6 +123,12 @@
       "connectionCount": 1
     },
     {
+      "id": 41,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "ELEICAO 2022 KATIA HELENA BACELAR RIBEIRO DOS SANTOS DEPUTADO ESTADUAL",
       "category": "donor",
@@ -131,6 +138,12 @@
       "id": 12,
       "name": "EMPREENDIMENTOS TURISTICOS COSTA DOS COQUEIROS S/A",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -227,6 +240,12 @@
       "id": 30,
       "name": "SOHO RESTAURANTE LTDA:",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -551,6 +570,30 @@
       "target": 38,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$514,47 (2 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 21/02/2025–14/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 141458,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$51.629.475,00 empenhado, R$50.429.475,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 141458,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$51.621.493,00 empenhado, R$51.435.115,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 141458,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$2.000.000,00 empenhado, R$1.000.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

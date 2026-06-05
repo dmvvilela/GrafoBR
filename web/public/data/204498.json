@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204498,
     "egoName": "Olival Marques",
-    "generatedAt": "2026-06-05T20:37:31.750050Z",
+    "generatedAt": "2026-06-05T21:12:31.078988Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204498,
       "name": "Olival Marques",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 34
     },
     {
       "id": 16,
@@ -107,6 +108,12 @@
       "id": 12,
       "name": "EZEQUIAS SOUZA FREITAS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -203,6 +210,12 @@
       "id": 27,
       "name": "Realize Comercio E Serviços LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -467,6 +480,22 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$22,19 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204498,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$64.465.268,00 empenhado, R$64.465.268,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204498,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$42.785.702,00 empenhado, R$42.600.702,00 pago (3 emendas; 2023–2025)",
       "strength": 1
     }
   ]

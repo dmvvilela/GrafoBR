@@ -38,6 +38,7 @@ class BuildContext:
     cnpj_empresas_csv: Optional[str] = None
     cnpj_socios_csv: Optional[str] = None
     contratos_csv: Optional[str] = None
+    emendas_csv: Optional[str] = None
 
 
 def _digits(value: Optional[str], width: Optional[int] = None) -> Optional[str]:
@@ -386,6 +387,50 @@ def _load_receita_qsa(
     return len(socios)
 
 
+def _load_emendas(con: duckdb.DuckDBPyConnection, emendas_csv: str | Path) -> int:
+    """Load BigQuery-derived individual amendments (emendas individuais) into DuckDB.
+
+    Keyed by a normalized author name so they can be matched to a deputy per seed.
+    """
+
+    import csv as _csv
+
+    con.execute(
+        """
+        create or replace table emendas (
+          normalized_author varchar,
+          uf varchar,
+          funcao varchar,
+          empenhado double,
+          pago double,
+          n integer,
+          ano_min integer,
+          ano_max integer
+        )
+        """
+    )
+    rows: list[tuple[Any, ...]] = []
+    with Path(emendas_csv).open("r", encoding="utf-8", newline="") as handle:
+        for row in _csv.DictReader(handle):
+            rows.append(
+                (
+                    _normalize_name(row.get("autor")),
+                    (row.get("uf") or "").strip(),
+                    (row.get("funcao") or "").strip() or "Não informado",
+                    float(row.get("empenhado") or 0),
+                    float(row.get("pago") or 0),
+                    int(row.get("n") or 0),
+                    int(row.get("ano_min") or 0),
+                    int(row.get("ano_max") or 0),
+                )
+            )
+    if rows:
+        con.executemany(
+            "insert into emendas values (?, ?, ?, ?, ?, ?, ?, ?)", rows
+        )
+    return con.execute("select count(*) from emendas").fetchone()[0]
+
+
 def _load_transparencia_contracts(
     con: duckdb.DuckDBPyConnection, contratos_csv: str
 ) -> int:
@@ -727,6 +772,76 @@ def expand_ego_network(
                 }
             )
 
+    has_emendas = (
+        con.execute(
+            """
+            select count(*)
+            from information_schema.tables
+            where table_name = 'emendas'
+            """
+        ).fetchone()[0]
+        > 0
+    )
+    if has_emendas:
+        emenda_names = {
+            _normalize_name(seed.get("name")),
+            _normalize_name(seed.get("civil_name")),
+            _normalize_name(seed.get("ballot_name")),
+            _normalize_name(seed.get("full_name")),
+        }
+        emenda_names.discard("")
+        if emenda_names:
+            emenda_rows = con.execute(
+                """
+                select
+                  funcao,
+                  sum(empenhado) as empenhado,
+                  sum(pago) as pago,
+                  sum(n) as n,
+                  min(ano_min) as ano_min,
+                  max(ano_max) as ano_max
+                from emendas
+                where normalized_author in (select unnest(?::varchar[]))
+                group by funcao
+                order by empenhado desc nulls last
+                limit ?
+                """,
+                [list(emenda_names), ctx.max_fanout],
+            ).fetchall()
+            for funcao, empenhado, pago, n, ano_min, ano_max in emenda_rows:
+                destino_key = f"destino:{_normalize_name(funcao)}"
+                if destino_key not in nodes:
+                    nodes[destino_key] = {
+                        "key": destino_key,
+                        "name": funcao,
+                        "category": "destino",
+                    }
+                period = (
+                    (str(ano_min) if ano_min == ano_max else f"{ano_min}–{ano_max}")
+                    if ano_min and ano_max
+                    else None
+                )
+                description = f"Emendas individuais destinadas a {funcao}"
+                if empenhado:
+                    description += f": {_money(empenhado)} empenhado"
+                if pago:
+                    description += f"{',' if empenhado else ':'} {_money(pago)} pago"
+                n = int(n or 0)
+                description += f" ({n} emenda" + ("s" if n != 1 else "")
+                if period:
+                    description += f"; {period}"
+                description += ")"
+                links.append(
+                    {
+                        "id": len(links) + 1,
+                        "source": politician_key,
+                        "target": destino_key,
+                        "connectionType": "emenda",
+                        "description": description,
+                        "strength": 1,
+                    }
+                )
+
     company_keys = {
         node["key"].removeprefix("company:"): node["key"]
         for node in nodes.values()
@@ -887,6 +1002,14 @@ def to_contract(raw_graph: dict[str, Any], seed: dict[str, Any]) -> dict[str, An
                         )
                         else []
                     ),
+                    *(
+                        ["cgu_emendas"]
+                        if any(
+                            link["connectionType"] == "emenda"
+                            for link in raw_graph["links"]
+                        )
+                        else []
+                    ),
                 }
             ),
             "summary": None,
@@ -936,6 +1059,9 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
         print(f"Loading Câmara CEAP expenses ({ctx.ceap_year})...", flush=True)
         ceap_file = prepare_ceap_file(ctx.cache_dir, year=ctx.ceap_year)
         _load_camara_expenses(con, ceap_file)
+    if ctx.emendas_csv:
+        print("Loading individual amendments (emendas) CSV...", flush=True)
+        _load_emendas(con, ctx.emendas_csv)
 
     matches = _matched_candidates(con)
     if not matches:

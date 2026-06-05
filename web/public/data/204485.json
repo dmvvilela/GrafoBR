@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204485,
     "egoName": "Luiz Carlos Motta",
-    "generatedAt": "2026-06-05T20:37:30.463357Z",
+    "generatedAt": "2026-06-05T21:12:29.770067Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204485,
       "name": "Luiz Carlos Motta",
       "category": "politician",
-      "connectionCount": 38
+      "connectionCount": 41
     },
     {
       "id": 12,
@@ -104,9 +105,21 @@
       "connectionCount": 1
     },
     {
+      "id": 41,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 29,
       "name": "EMPRESA PUBLICIDADE RIO PRETO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -215,6 +228,12 @@
       "id": 34,
       "name": "SIQUELERO SERRAZUL AUTO POSTO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -551,6 +570,30 @@
       "target": 38,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$506,72 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/07/2025–02/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 204485,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.579.784,00 empenhado, R$51.639.992,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 204485,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$43.987.202,00 empenhado, R$43.873.202,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 204485,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$6.637.985,00 empenhado, R$8.759,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

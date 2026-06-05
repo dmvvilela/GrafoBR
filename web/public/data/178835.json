@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178835,
     "egoName": "Afonso Motta",
-    "generatedAt": "2026-06-05T20:37:25.013365Z",
+    "generatedAt": "2026-06-05T21:12:23.782952Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 178835,
       "name": "Afonso Motta",
       "category": "politician",
-      "connectionCount": 47
+      "connectionCount": 59
     },
     {
       "id": 15,
@@ -68,6 +69,18 @@
       "connectionCount": 1
     },
     {
+      "id": 51,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 16,
       "name": "CABOPARBS PARTICIPACOES S.A.",
       "category": "company",
@@ -98,6 +111,30 @@
       "connectionCount": 1
     },
     {
+      "id": 58,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 23,
       "name": "ELF Locadora de Veículos Ltda",
       "category": "supplier",
@@ -113,6 +150,18 @@
       "id": 17,
       "name": "EMPRESA JORNALISTICA PIONEIRO S A",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -230,6 +279,12 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Previdência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "RADIO E TELEVISAO SERRANA LTDA",
       "category": "company",
@@ -272,6 +327,18 @@
       "connectionCount": 1
     },
     {
+      "id": 48,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 26,
       "name": "TAM",
       "category": "supplier",
@@ -287,6 +354,12 @@
       "id": 22,
       "name": "TELEVISAO GAUCHA SA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -677,6 +750,102 @@
       "target": 47,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.510,74 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/01/2025–07/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 178835,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$52.865.431,00 empenhado, R$49.054.991,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 178835,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$32.126.615,00 empenhado, R$32.007.246,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 178835,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$6.158.418,00 empenhado, R$261.144,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 178835,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$5.599.432,00 empenhado, R$797.494,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 178835,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$3.133.029,00 empenhado, R$492.919,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 178835,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$2.629.209,00 empenhado, R$199.000,00 pago (3 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 178835,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.351.683,00 empenhado, R$1.251.683,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 178835,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$842.000,00 empenhado, R$342.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 178835,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Previdência social: R$400.000,00 empenhado, R$400.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 178835,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$308.800,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 178835,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$200.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 178835,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$150.190,00 empenhado, R$4.200,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

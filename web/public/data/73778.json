@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 73778,
     "egoName": "Luiz Carlos Hauly",
-    "generatedAt": "2026-06-05T20:37:30.445236Z",
+    "generatedAt": "2026-06-05T21:12:29.745682Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 73778,
       "name": "Luiz Carlos Hauly",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 59
     },
     {
       "id": 23,
@@ -74,6 +75,18 @@
       "connectionCount": 1
     },
     {
+      "id": 59,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 30,
       "name": "CASA ITALIA PRODUÇÕES LTDA ME",
       "category": "supplier",
@@ -110,6 +123,18 @@
       "connectionCount": 1
     },
     {
+      "id": 58,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 38,
       "name": "EDITORA NOVAPRESS LTDA",
       "category": "supplier",
@@ -119,6 +144,18 @@
       "id": 39,
       "name": "EMPRESA JORNALISTICA FATOS DO PARANÁ LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -305,6 +342,18 @@
       "id": 27,
       "name": "SVS COMUNICAÇÃO E MAARKETING DIGITAL LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +782,70 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 09/06/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 73778,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$49.553.093,00 empenhado, R$38.704.704,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 73778,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$7.580.000,00 empenhado, R$5.300.000,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 73778,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$5.699.966,00 empenhado, R$14.000,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 73778,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$5.026.760,00 empenhado (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 73778,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$2.550.000,00 empenhado, R$2.542.000,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 73778,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.648.600,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 73778,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.143.427,00 empenhado, R$291.042,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 73778,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$800.000,00 empenhado, R$398.155,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204492,
     "egoName": "Paulo Guedes",
-    "generatedAt": "2026-06-05T20:37:32.061277Z",
+    "generatedAt": "2026-06-05T21:12:31.406615Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204492,
       "name": "Paulo Guedes",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 60
     },
     {
       "id": 21,
@@ -98,6 +99,18 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 47,
       "name": "Auto Posto Amanda e Julia LTDA",
       "category": "supplier",
@@ -128,6 +141,12 @@
       "connectionCount": 1
     },
     {
+      "id": 60,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 17,
       "name": "EDSON PEREIRA DOS SANTOS",
       "category": "donor",
@@ -143,6 +162,18 @@
       "id": 12,
       "name": "ESIO VIEIRA DA CRUZ",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -242,6 +273,12 @@
       "connectionCount": 1
     },
     {
+      "id": 59,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PARTIDO DOS TRABALHADORES - BRASIL - BR - NACIONAL",
       "category": "donor",
@@ -308,9 +345,21 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 39,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +796,70 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$928,81 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/03/2025–28/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 204492,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$52.224.436,00 empenhado, R$48.193.428,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 204492,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$35.653.178,00 empenhado, R$35.538.178,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 204492,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$6.991.199,00 empenhado, R$667.261,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 204492,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$3.094.976,00 empenhado, R$571.305,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 204492,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$2.994.976,00 empenhado, R$141.099,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 204492,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.703.381,00 empenhado, R$2.703.381,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 204492,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$1.086.000,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 204492,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$338.460,00 empenhado, R$238.800,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

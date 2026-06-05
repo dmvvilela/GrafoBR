@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220543,
     "egoName": "Ricardo Ayres",
-    "generatedAt": "2026-06-05T20:37:32.671293Z",
+    "generatedAt": "2026-06-05T21:12:32.155905Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220543,
       "name": "Ricardo Ayres",
       "category": "politician",
-      "connectionCount": 54
+      "connectionCount": 58
     },
     {
       "id": 50,
@@ -104,6 +105,12 @@
       "connectionCount": 1
     },
     {
+      "id": 57,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "ELEICAO 2022 WANDERLEI BARBOSA CASTRO GOVERNADOR",
       "category": "donor",
@@ -113,6 +120,18 @@
       "id": 39,
       "name": "ENERGISA TOCANTINS DISTRIBUIDORA DE ENERGIA S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -299,6 +318,12 @@
       "id": 22,
       "name": "ROGERIO FARIA NUNES DE BRITO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -775,6 +800,38 @@
       "target": 54,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.429,83 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/04/2025–27/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220543,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.981.814,00 empenhado, R$32.979.944,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220543,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$34.306.774,00 empenhado, R$34.128.066,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220543,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.799.968,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 220543,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.050.000,00 empenhado, R$750.000,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     }
   ]

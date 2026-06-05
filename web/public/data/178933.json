@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178933,
     "egoName": "Sergio Souza",
-    "generatedAt": "2026-06-05T20:37:33.225603Z",
+    "generatedAt": "2026-06-05T21:12:32.835466Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 178933,
       "name": "Sergio Souza",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 60
     },
     {
       "id": 43,
@@ -68,6 +69,18 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 27,
       "name": "BARIGUI LOCADORA DE VEÍCULOS LTDA",
       "category": "supplier",
@@ -104,6 +117,12 @@
       "connectionCount": 1
     },
     {
+      "id": 60,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 42,
       "name": "Copel Distribuição S.A",
       "category": "supplier",
@@ -116,9 +135,33 @@
       "connectionCount": 1
     },
     {
+      "id": 58,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 44,
       "name": "EXPRESSO PRINCESA DOS CAMPOS SA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -281,6 +324,18 @@
       "id": 39,
       "name": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +788,78 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.014,22 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/01/2025–18/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 178933,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.395.463,00 empenhado, R$48.310.156,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 178933,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$45.873.799,00 empenhado, R$45.720.420,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 178933,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.000.000,00 empenhado, R$2.000.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 178933,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.799.976,00 empenhado, R$62.971,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 178933,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.451.638,00 empenhado, R$747.945,00 pago (3 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 178933,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.400.000,00 empenhado, R$348.600,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 178933,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$400.000,00 empenhado, R$321.279,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 178933,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$400.000,00 empenhado, R$392.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 178933,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$300.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

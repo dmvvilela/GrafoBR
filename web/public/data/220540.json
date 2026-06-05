@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220540,
     "egoName": "Duda Ramos",
-    "generatedAt": "2026-06-05T20:37:27.653126Z",
+    "generatedAt": "2026-06-05T21:12:26.873826Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220540,
       "name": "Duda Ramos",
       "category": "politician",
-      "connectionCount": 54
+      "connectionCount": 58
     },
     {
       "id": 53,
@@ -65,6 +66,12 @@
       "id": 42,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Agricultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -125,6 +132,12 @@
       "id": 16,
       "name": "ESTER MARIA SAUL MACHADO PINTO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -311,6 +324,18 @@
       "id": 50,
       "name": "SLAVIERO EMPREENDIMENTOS HOTELEIROS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -775,6 +800,38 @@
       "target": 54,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10,27 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220540,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.573.786,00 empenhado, R$20.536.293,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220540,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$18.845.251,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220540,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$18.037.988,00 empenhado, R$17.857.610,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 220540,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$599.968,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

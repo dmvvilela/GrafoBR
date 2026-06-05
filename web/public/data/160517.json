@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160517,
     "egoName": "Paulo Folletto",
-    "generatedAt": "2026-06-05T20:37:32.025716Z",
+    "generatedAt": "2026-06-05T21:12:31.368586Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160517,
       "name": "Paulo Folletto",
       "category": "politician",
-      "connectionCount": 31
+      "connectionCount": 39
     },
     {
       "id": 20,
@@ -56,6 +57,18 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 18,
       "name": "CONDOMINIO DO EDIFICIO PETRO TOWER",
       "category": "supplier",
@@ -65,6 +78,18 @@
       "id": 24,
       "name": "Comercial Veiga LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -86,9 +111,21 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 21,
       "name": "Empresa Luz e Força Santa Maria",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -131,6 +168,12 @@
       "id": 28,
       "name": "NORTE HOTEL LTDA - ME",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Organização agrária",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -179,6 +222,12 @@
       "id": 6,
       "name": "SERV-MED SERVICOS MEDICOS LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -453,6 +502,70 @@
       "target": 31,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$509,99 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/12/2025–29/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 160517,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$56.534.600,00 empenhado, R$54.256.641,00 pago (13 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 160517,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$40.998.536,00 empenhado, R$40.888.777,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 160517,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$4.252.971,00 empenhado, R$4.252.971,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 160517,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.000.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 160517,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$1.000.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 160517,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$813.893,00 empenhado, R$5.935,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 160517,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$595.179,00 empenhado, R$400.000,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 160517,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$300.000,00 empenhado, R$300.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

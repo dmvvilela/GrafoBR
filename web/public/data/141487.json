@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 141487,
     "egoName": "Luiz Fernando Faria",
-    "generatedAt": "2026-06-05T20:37:30.499733Z",
+    "generatedAt": "2026-06-05T21:12:29.808460Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 141487,
       "name": "Luiz Fernando Faria",
       "category": "politician",
-      "connectionCount": 43
+      "connectionCount": 49
     },
     {
       "id": 40,
@@ -98,6 +99,12 @@
       "connectionCount": 1
     },
     {
+      "id": 46,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 34,
       "name": "DO SUL RESTAURANTE LTDA",
       "category": "supplier",
@@ -107,6 +114,12 @@
       "id": 43,
       "name": "DRA4 DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Defesa nacional",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -137,6 +150,18 @@
       "id": 5,
       "name": "ELIE HORN",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -257,6 +282,18 @@
       "id": 18,
       "name": "SUPREMA TERRAPLENAGEM LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -621,6 +658,54 @@
       "target": 43,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$290,01 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 18/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 141487,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$34.816.075,00 empenhado, R$32.329.635,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 141487,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$33.773.783,00 empenhado, R$33.625.404,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 141487,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$1.992.932,00 empenhado, R$1.655.498,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 141487,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$999.691,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 141487,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$449.767,00 empenhado, R$449.767,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 141487,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$350.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

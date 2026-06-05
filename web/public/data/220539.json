@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220539,
     "egoName": "Defensor Stélio Dener",
-    "generatedAt": "2026-06-05T20:37:26.985799Z",
+    "generatedAt": "2026-06-05T21:12:26.091796Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220539,
       "name": "Defensor Stélio Dener",
       "category": "politician",
-      "connectionCount": 41
+      "connectionCount": 49
     },
     {
       "id": 29,
@@ -92,6 +93,30 @@
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 23,
       "name": "EDITORA BOA VISTA LTDA",
       "category": "supplier",
@@ -101,6 +126,12 @@
       "id": 30,
       "name": "ELETROBRAS DISTRIBUIÇÃO RORAIMA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -167,6 +198,12 @@
       "id": 4,
       "name": "OLENO INACIO DE MATOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Organização agrária",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -248,9 +285,21 @@
       "connectionCount": 1
     },
     {
+      "id": 42,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 21,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -593,6 +642,70 @@
       "target": 41,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$200,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 24/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 220539,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$35.408.692,00 empenhado, R$14.700.075,00 pago (12 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 220539,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$26.387.965,00 empenhado, R$26.231.087,00 pago (16 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 220539,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$4.404.833,00 empenhado, R$8.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 220539,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$3.550.041,00 empenhado, R$2.650.022,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 220539,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$2.000.004,00 empenhado, R$1.920.004,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 220539,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$449.778,00 empenhado, R$401.550,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 220539,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$280.007,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 220539,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$200.014,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

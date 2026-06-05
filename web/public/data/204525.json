@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204525,
     "egoName": "Rosana Valle",
-    "generatedAt": "2026-06-05T20:37:32.981847Z",
+    "generatedAt": "2026-06-05T21:12:32.536765Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204525,
       "name": "Rosana Valle",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 44
     },
     {
       "id": 24,
@@ -79,6 +80,18 @@
       "connectionCount": 1
     },
     {
+      "id": 44,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "CARLA ANDREA FIAMINI DE BARROS",
       "category": "supplier",
@@ -103,9 +116,51 @@
       "connectionCount": 1
     },
     {
+      "id": 43,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "ENGEPLUS CONSTRUTORA E INCORPORADORA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -124,6 +179,12 @@
       "id": 18,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -196,6 +257,18 @@
       "id": 10,
       "name": "SMART VEÍCULOS LTDA-ME",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -466,6 +539,102 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.484,98 (1 lançamento; tipo: PASSAGEM AÉREA - SIGEPA; período: 08/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204525,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$51.311.166,00 empenhado, R$42.103.528,00 pago (10 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204525,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$19.226.663,00 empenhado, R$19.143.663,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204525,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$8.185.791,00 empenhado, R$7.585.791,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 204525,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$5.297.448,00 empenhado, R$3.941.426,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 204525,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$4.737.992,00 empenhado, R$774.900,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 204525,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$4.719.943,00 empenhado, R$314.000,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 204525,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$4.604.734,00 empenhado, R$697.200,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 204525,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$1.750.000,00 empenhado, R$1.255.000,00 pago (4 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 204525,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$1.338.762,00 empenhado, R$788.762,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 204525,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$200.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 204525,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$200.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 204525,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$100.000,00 empenhado, R$78.989,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

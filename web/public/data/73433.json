@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 73433,
     "egoName": "Arlindo Chinaglia",
-    "generatedAt": "2026-06-05T20:37:25.582609Z",
+    "generatedAt": "2026-06-05T21:12:24.543935Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 73433,
       "name": "Arlindo Chinaglia",
       "category": "politician",
-      "connectionCount": 44
+      "connectionCount": 52
     },
     {
       "id": 31,
@@ -80,6 +81,18 @@
       "connectionCount": 1
     },
     {
+      "id": 51,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "BRASPOR GRAFICA E EDITORA LTDA",
       "category": "supplier",
@@ -110,9 +123,27 @@
       "connectionCount": 1
     },
     {
+      "id": 52,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "DCT ADMINISTRACAO DE IMOVEIS LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -125,6 +156,18 @@
       "id": 27,
       "name": "ESSÊNCIA ENGENHARIA E SERVIÇOS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -257,6 +300,12 @@
       "id": 32,
       "name": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -635,6 +684,70 @@
       "target": 44,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.490,67 (9 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 23/02/2025–10/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 73433,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$52.603.859,00 empenhado, R$45.361.976,00 pago (10 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 73433,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$35.220.000,00 empenhado, R$35.098.500,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 73433,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$7.034.604,00 empenhado, R$5.434.604,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 73433,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$5.051.818,00 empenhado, R$3.243.367,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 73433,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$3.903.364,00 empenhado, R$1.501.275,00 pago (20 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 73433,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$400.000,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 73433,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$200.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 73433,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$150.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

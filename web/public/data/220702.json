@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220702,
     "egoName": "Geraldo Mendes",
-    "generatedAt": "2026-06-05T20:37:28.625545Z",
+    "generatedAt": "2026-06-05T21:12:27.808822Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220702,
       "name": "Geraldo Mendes",
       "category": "politician",
-      "connectionCount": 55
+      "connectionCount": 58
     },
     {
       "id": 54,
@@ -65,6 +66,12 @@
       "id": 41,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -143,6 +150,12 @@
       "id": 14,
       "name": "EMANUELLE RODRIGUES JOHNSON",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -299,6 +312,12 @@
       "id": 30,
       "name": "SULIPEL COMERCIO DE PAPEL LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -789,6 +808,30 @@
       "target": 55,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.827,95 (1 lançamento; tipo: PASSAGEM AÉREA - RPA; período: 29/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220702,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$22.499.998,00 empenhado, R$18.999.998,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220702,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$13.500.000,00 empenhado, R$13.500.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 220702,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.371.585,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160588,
     "egoName": "Diego Andrade",
-    "generatedAt": "2026-06-05T20:37:27.227311Z",
+    "generatedAt": "2026-06-05T21:12:26.397455Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160588,
       "name": "Diego Andrade",
       "category": "politician",
-      "connectionCount": 45
+      "connectionCount": 52
     },
     {
       "id": 21,
@@ -53,6 +54,12 @@
       "id": 25,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Agricultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -98,6 +105,12 @@
       "connectionCount": 1
     },
     {
+      "id": 52,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 22,
       "name": "E B BATISTA",
       "category": "supplier",
@@ -119,6 +132,12 @@
       "id": 7,
       "name": "ELIAS DINIZ",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -248,6 +267,18 @@
       "connectionCount": 1
     },
     {
+      "id": 46,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 23,
       "name": "TAM",
       "category": "supplier",
@@ -263,6 +294,18 @@
       "id": 15,
       "name": "TIAGO FIGUEIREDO RABELLO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Transporte",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -649,6 +692,62 @@
       "target": 45,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$451,96 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 26/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 160588,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.158.229,00 empenhado, R$52.515.540,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 160588,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$47.127.740,00 empenhado, R$46.968.426,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 160588,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$3.000.000,00 empenhado, R$244.939,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 160588,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$977.524,00 empenhado, R$42.009,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 160588,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$700.000,00 empenhado, R$348.600,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 160588,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Transporte: R$247.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 160588,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$162.644,00 empenhado, R$142.969,00 pago (1 emenda; 2023)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178989,
     "egoName": "Renata Abreu",
-    "generatedAt": "2026-06-05T20:37:32.577920Z",
+    "generatedAt": "2026-06-05T21:12:32.043830Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 178989,
       "name": "Renata Abreu",
       "category": "politician",
-      "connectionCount": 33
+      "connectionCount": 39
     },
     {
       "id": 25,
@@ -62,6 +63,12 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 13,
       "name": "B2START MARKETING LTDA",
       "category": "supplier",
@@ -80,6 +87,12 @@
       "connectionCount": 1
     },
     {
+      "id": 38,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "ENGAGE CRM - CONSULTORIA E SISTEMAS DA INFORMACAO LTDA",
       "category": "supplier",
@@ -89,6 +102,12 @@
       "id": 32,
       "name": "EXCLUSIVA COMÉRCIO E SERVIÇOS, PAPELARIA E INFORMATICA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -107,6 +126,12 @@
       "id": 16,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -194,6 +219,12 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "TAM",
       "category": "supplier",
@@ -209,6 +240,12 @@
       "id": 23,
       "name": "Telefônica Brasil S.A. VIVO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -481,6 +518,54 @@
       "target": 33,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$945,47 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/02/2025–10/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 178989,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$65.500.740,00 empenhado, R$54.808.519,00 pago (10 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 178989,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$29.797.592,00 empenhado, R$29.740.592,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 178989,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$5.500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 178989,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$4.100.002,00 empenhado, R$3.750.002,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 178989,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.549.956,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 178989,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$499.999,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

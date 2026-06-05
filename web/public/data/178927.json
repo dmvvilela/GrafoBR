@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178927,
     "egoName": "Aliel Machado",
-    "generatedAt": "2026-06-05T20:37:25.227760Z",
+    "generatedAt": "2026-06-05T21:12:24.079281Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 178927,
       "name": "Aliel Machado",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 64
     },
     {
       "id": 42,
@@ -79,6 +80,12 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 33,
       "name": "BROAD BRASIL LTDA",
       "category": "supplier",
@@ -91,6 +98,24 @@
       "connectionCount": 1
     },
     {
+      "id": 59,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 47,
       "name": "D'PONTA MIDIAS E CONSULTORIA LTDA",
       "category": "supplier",
@@ -100,6 +125,24 @@
       "id": 38,
       "name": "DAL COL COMERCIO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 64,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 63,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -127,6 +170,18 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 25,
       "name": "GISELE CRISTINA KOGUT",
       "category": "donor",
@@ -142,6 +197,12 @@
       "id": 31,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 62,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -223,6 +284,18 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Múltiplo",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PARTIDO VERDE",
       "category": "donor",
@@ -268,6 +341,18 @@
       "id": 44,
       "name": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 61,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -718,6 +803,118 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.800,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 07/08/2025–18/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 178927,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$55.966.459,00 empenhado, R$48.756.535,00 pago (11 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 178927,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$29.185.750,00 empenhado, R$29.093.250,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 178927,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$6.692.748,00 empenhado, R$5.238.330,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 178927,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$4.762.330,00 empenhado, R$16.000,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 178927,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$2.685.731,00 empenhado, R$245.576,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 178927,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$2.017.000,00 empenhado, R$1.635.000,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 178927,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$2.000.000,00 empenhado, R$7.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 178927,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$879.830,00 empenhado, R$3.500,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 178927,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$800.000,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 178927,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$750.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 178927,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$650.000,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 62,
+      "source": 178927,
+      "target": 62,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$300.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 63,
+      "source": 178927,
+      "target": 63,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$279.754,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 64,
+      "source": 178927,
+      "target": 64,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$249.811,00 empenhado, R$117.363,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

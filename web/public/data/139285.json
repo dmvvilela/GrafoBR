@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 139285,
     "egoName": "Lídice da Mata",
-    "generatedAt": "2026-06-05T20:37:30.669329Z",
+    "generatedAt": "2026-06-05T21:12:29.977502Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 139285,
       "name": "Lídice da Mata",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 61
     },
     {
       "id": 3,
@@ -58,6 +59,18 @@
       "id": 36,
       "name": "APSA - ADMINISTRACAO PREDIAL E NEGOCIOS IMOBILIARIOS S/A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -103,9 +116,51 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 61,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "EDUARDO JOSE SANTIAGO DA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -262,6 +317,18 @@
       "id": 14,
       "name": "SYLVIO SIMOES DE MELLO LEITAO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -718,6 +785,94 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/02/2026)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 139285,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.407.323,00 empenhado, R$44.850.488,00 pago (15 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 139285,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$29.701.694,00 empenhado, R$29.641.694,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 139285,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$5.824.949,00 empenhado, R$424.256,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 139285,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$4.365.000,00 empenhado, R$1.764.662,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 139285,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$3.398.895,00 empenhado (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 139285,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$2.500.000,00 empenhado, R$200.000,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 139285,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.987.992,00 empenhado, R$1.524.794,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 139285,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.139.354,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 139285,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$699.713,00 empenhado, R$265.313,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 139285,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$500.000,00 empenhado, R$10.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 139285,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$259.825,00 empenhado, R$236.966,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

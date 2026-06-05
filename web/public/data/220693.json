@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220693,
     "egoName": "Roberta Roma",
-    "generatedAt": "2026-06-05T20:37:32.758242Z",
+    "generatedAt": "2026-06-05T21:12:32.265741Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220693,
       "name": "Roberta Roma",
       "category": "politician",
-      "connectionCount": 38
+      "connectionCount": 46
     },
     {
       "id": 14,
@@ -41,6 +42,18 @@
       "id": 8,
       "name": "ATILA BRANDAO DE OLIVEIRA JUNIOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -68,9 +81,33 @@
       "connectionCount": 1
     },
     {
+      "id": 46,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "ELEICAO 2022 JOAO INACIO RIBEIRO ROMA NETO GOVERNADOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -206,6 +243,12 @@
       "connectionCount": 1
     },
     {
+      "id": 39,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 21,
       "name": "TAM",
       "category": "supplier",
@@ -227,6 +270,12 @@
       "id": 24,
       "name": "TOURING ECOPOSTOS COMBUSTIVEIS E SERVICOS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -551,6 +600,70 @@
       "target": 38,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 20/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220693,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$38.189.942,00 empenhado, R$35.549.600,00 pago (9 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 220693,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$22.171.585,00 empenhado, R$22.073.085,00 pago (9 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 220693,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$5.800.000,00 empenhado (3 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 220693,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$5.315.985,00 empenhado, R$124.067,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 220693,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$2.370.000,00 empenhado, R$2.290.311,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 220693,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$500.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 220693,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$300.000,00 empenhado, R$300.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 220693,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$299.845,00 empenhado, R$299.845,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

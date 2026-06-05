@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220608,
     "egoName": "Cristiane Lopes",
-    "generatedAt": "2026-06-05T20:37:26.566841Z",
+    "generatedAt": "2026-06-05T21:12:25.650195Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220608,
       "name": "Cristiane Lopes",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 56
     },
     {
       "id": 7,
@@ -73,6 +74,18 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "BARBARA ALINE PINTO VIAMONTE",
       "category": "donor",
@@ -115,9 +128,21 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Comunicações",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 24,
       "name": "DANIEL BRASIL DA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Defesa nacional",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -148,6 +173,12 @@
       "id": 44,
       "name": "EMPRESA JORNALÍSTICA EXTRA DE RONDÔNIA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -292,6 +323,12 @@
       "id": 11,
       "name": "SILVANA FELIX DA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -718,6 +755,54 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.000,00 (10 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 27/03/2025–30/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220608,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$35.978.048,00 empenhado, R$30.530.594,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220608,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$31.104.783,00 empenhado, R$30.949.704,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220608,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comunicações: R$2.380.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220608,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$720.000,00 empenhado, R$720.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220608,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$497.700,00 empenhado, R$364.677,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220608,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$300.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

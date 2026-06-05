@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 161550,
     "egoName": "Emidinho Madeira",
-    "generatedAt": "2026-06-05T20:37:27.819679Z",
+    "generatedAt": "2026-06-05T21:12:27.052490Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 161550,
       "name": "Emidinho Madeira",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 56
     },
     {
       "id": 15,
@@ -47,6 +48,18 @@
       "id": 36,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -107,6 +120,18 @@
       "id": 2,
       "name": "EMIDIO ALVES MADEIRA JUNIOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -293,6 +318,12 @@
       "id": 51,
       "name": "SISTEMA LIDER COMUNICAÇAO E PRODUÇAO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +764,46 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.400,00 (3 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 06/10/2025–09/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 161550,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.005.958,00 empenhado, R$49.372.363,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 161550,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$31.252.444,00 empenhado, R$30.932.444,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 161550,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$17.922.647,00 empenhado, R$17.867.768,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 161550,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$2.149.981,00 empenhado, R$886.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 161550,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.688.040,00 empenhado, R$598.818,00 pago (3 emendas; 2023–2025)",
       "strength": 1
     }
   ]

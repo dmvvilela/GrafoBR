@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204394,
     "egoName": "Gervásio Maia",
-    "generatedAt": "2026-06-05T20:37:28.660473Z",
+    "generatedAt": "2026-06-05T21:12:27.845976Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204394,
       "name": "Gervásio Maia",
       "category": "politician",
-      "connectionCount": 30
+      "connectionCount": 35
     },
     {
       "id": 17,
@@ -29,6 +30,12 @@
       "id": 30,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -47,6 +54,12 @@
       "id": 16,
       "name": "Claudia Maria Carvalho",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Defesa nacional",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -77,6 +90,12 @@
       "id": 20,
       "name": "EWERTON DOUGLAS DOS SANTOS NOBREGA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -179,6 +198,18 @@
       "id": 21,
       "name": "STARLINK BRAZIL SERVIÇOS DE INTERNET LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -439,6 +470,46 @@
       "target": 30,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.477,71 (3 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 01/03/2025–10/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204394,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.611.811,00 empenhado, R$45.894.820,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204394,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$53.125.481,00 empenhado, R$52.939.103,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204394,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$150.000,00 empenhado, R$15.250,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204394,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$150.000,00 empenhado, R$150.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204394,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$100.000,00 empenhado, R$100.000,00 pago (1 emenda; 2023)",
       "strength": 1
     }
   ]

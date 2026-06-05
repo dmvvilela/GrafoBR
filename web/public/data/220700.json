@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220700,
     "egoName": "Florentino Neto",
-    "generatedAt": "2026-06-05T20:37:28.366801Z",
+    "generatedAt": "2026-06-05T21:12:27.531554Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220700,
       "name": "Florentino Neto",
       "category": "politician",
-      "connectionCount": 48
+      "connectionCount": 53
     },
     {
       "id": 34,
@@ -112,6 +113,12 @@
       "id": 6,
       "name": "ERNESTO MENDES DE SOUSA CALDAS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -217,6 +224,12 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 31,
       "name": "PANTANAL VEÍCULOS LTDA",
       "category": "supplier",
@@ -238,6 +251,12 @@
       "id": 40,
       "name": "POSTO PAPALEGUAS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Previdência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -280,6 +299,18 @@
       "id": 13,
       "name": "SANDINO JOSE BEZERRA DA ROCHA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -690,6 +721,46 @@
       "target": 48,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$12,85 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 220700,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.556.435,00 empenhado, R$37.288.077,00 pago (9 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 220700,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$35.522.792,00 empenhado, R$35.341.422,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220700,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.299.250,00 empenhado, R$493.556,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220700,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Previdência social: R$400.000,00 empenhado, R$400.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220700,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$350.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

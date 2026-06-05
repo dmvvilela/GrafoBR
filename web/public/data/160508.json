@@ -2,9 +2,10 @@
   "meta": {
     "egoId": 160508,
     "egoName": "Afonso Florence",
-    "generatedAt": "2026-06-05T20:37:24.981374Z",
+    "generatedAt": "2026-06-05T21:12:23.740006Z",
     "sources": [
       "camara",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -15,12 +16,18 @@
       "id": 160508,
       "name": "Afonso Florence",
       "category": "politician",
-      "connectionCount": 16
+      "connectionCount": 20
     },
     {
       "id": 4,
       "name": "AFONSO BANDEIRA FLORENCE",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 19,
+      "name": "Agricultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -51,6 +58,18 @@
       "id": 9,
       "name": "ELEICAO 2022 NEUSA CADORE DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 20,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 18,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -93,6 +112,12 @@
       "id": 3,
       "name": "RUYBERG VALENCA DA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 17,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -241,6 +266,38 @@
       "target": 160508,
       "connectionType": "doacao",
       "description": "Doação de campanha de R$400,00 em 2022 registrada no TSE (13/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 160508,
+      "target": 17,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$64.639.988,00 empenhado, R$63.139.988,00 pago (38 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 160508,
+      "target": 18,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$37.552.455,00 empenhado, R$37.475.455,00 pago (14 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 160508,
+      "target": 19,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$4.957.127,00 empenhado, R$1.023.375,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 160508,
+      "target": 20,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$100.000,00 empenhado, R$100.000,00 pago (1 emenda; 2023)",
       "strength": 1
     }
   ]

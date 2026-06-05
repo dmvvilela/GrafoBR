@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220673,
     "egoName": "Delegado Caveira",
-    "generatedAt": "2026-06-05T20:37:27.066185Z",
+    "generatedAt": "2026-06-05T21:12:26.195394Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220673,
       "name": "Delegado Caveira",
       "category": "politician",
-      "connectionCount": 38
+      "connectionCount": 44
     },
     {
       "id": 15,
@@ -97,9 +98,27 @@
       "connectionCount": 1
     },
     {
+      "id": 42,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "ELEICAO 2022 JOSE DA CRUZ MARINHO GOVERNADOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -241,9 +260,27 @@
       "connectionCount": 1
     },
     {
+      "id": 39,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -550,6 +587,54 @@
       "target": 38,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$636,45 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 30/04/2025–01/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220673,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$42.922.000,00 empenhado, R$36.573.793,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 220673,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$14.460.548,00 empenhado, R$14.373.301,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 220673,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$10.000.000,00 empenhado, R$424.273,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 220673,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$3.257.043,00 empenhado, R$1.180.968,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 220673,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$2.714.775,00 empenhado, R$361.388,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 220673,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.699.701,00 empenhado (3 emendas; 2024–2025)",
       "strength": 1
     }
   ]

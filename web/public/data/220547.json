@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220547,
     "egoName": "Marcos Pollon",
-    "generatedAt": "2026-06-05T20:37:30.906121Z",
+    "generatedAt": "2026-06-05T21:12:30.246685Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220547,
       "name": "Marcos Pollon",
       "category": "politician",
-      "connectionCount": 54
+      "connectionCount": 61
     },
     {
       "id": 26,
@@ -74,6 +75,18 @@
       "connectionCount": 1
     },
     {
+      "id": 60,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 41,
       "name": "BROAD BRASIL LTDA",
       "category": "supplier",
@@ -104,6 +117,12 @@
       "connectionCount": 1
     },
     {
+      "id": 61,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 23,
       "name": "DAIANA NICOLODI",
       "category": "donor",
@@ -113,6 +132,12 @@
       "id": 38,
       "name": "DANILO CAMPELLO CURADO GALVAO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Defesa nacional",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -137,6 +162,12 @@
       "id": 31,
       "name": "Emilio Kerber Consultoria e Servicos Ltda",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -335,6 +366,18 @@
       "id": 9,
       "name": "ROVILSON ALVES CORREA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -775,6 +818,62 @@
       "target": 54,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 19/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220547,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$40.123.356,00 empenhado, R$32.731.884,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220547,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$18.124.574,00 empenhado, R$17.998.197,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220547,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$7.350.000,00 empenhado, R$6.850.000,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 220547,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$5.993.764,00 empenhado, R$1.473,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 220547,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.950.000,00 empenhado, R$348.600,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 220547,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.250.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 220547,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$180.896,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

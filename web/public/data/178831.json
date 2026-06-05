@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178831,
     "egoName": "André Abdon",
-    "generatedAt": "2026-06-05T20:37:25.384061Z",
+    "generatedAt": "2026-06-05T21:12:24.301330Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 178831,
       "name": "André Abdon",
       "category": "politician",
-      "connectionCount": 26
+      "connectionCount": 28
     },
     {
       "id": 3,
@@ -91,6 +92,12 @@
       "connectionCount": 1
     },
     {
+      "id": 27,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 26,
       "name": "J C S FARIAS ME",
       "category": "supplier",
@@ -160,6 +167,12 @@
       "id": 21,
       "name": "SINPETAXI",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -382,6 +395,22 @@
       "target": 26,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$300,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 24/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 178831,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$16.051.697,00 empenhado, R$16.051.697,00 pago (5 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 178831,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$9.285.170,00 empenhado, R$6.034.598,00 pago (6 emendas; 2023)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220549,
     "egoName": "Any Ortiz",
-    "generatedAt": "2026-06-05T20:37:25.565077Z",
+    "generatedAt": "2026-06-05T21:12:24.522705Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220549,
       "name": "Any Ortiz",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 38
     },
     {
       "id": 32,
@@ -91,9 +92,33 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "ELEICAO 2022 JESSE SANGALLI DE MELLO DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -184,6 +209,18 @@
       "id": 25,
       "name": "ROTA POA COMERCIO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -466,6 +503,54 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$538,24 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/02/2025–01/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220549,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$40.297.557,00 empenhado, R$23.898.958,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220549,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$28.397.569,00 empenhado, R$28.255.810,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220549,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.482.429,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220549,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$599.977,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220549,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$249.994,00 empenhado, R$169.494,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220549,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$199.995,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

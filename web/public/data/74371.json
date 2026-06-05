@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74371,
     "egoName": "Rubens Otoni",
-    "generatedAt": "2026-06-05T20:37:33.036092Z",
+    "generatedAt": "2026-06-05T21:12:32.607663Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 74371,
       "name": "Rubens Otoni",
       "category": "politician",
-      "connectionCount": 46
+      "connectionCount": 60
     },
     {
       "id": 42,
@@ -50,6 +51,12 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 34,
       "name": "Alexsander Gomes de Mesquita Almeida",
       "category": "supplier",
@@ -59,6 +66,12 @@
       "id": 33,
       "name": "Ana Paula de Almeida",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -80,15 +93,51 @@
       "connectionCount": 1
     },
     {
+      "id": 58,
+      "name": "Comunicações",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "DIVINA MESQUITA LOPES",
       "category": "donor",
       "connectionCount": 1
     },
     {
+      "id": 50,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "ELZIRA RODRIGUES DE FREITAS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -125,6 +174,12 @@
       "id": 26,
       "name": "Gabriel Morais de Menezes",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -212,6 +267,12 @@
       "connectionCount": 1
     },
     {
+      "id": 57,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "PARTIDO DOS TRABALHADORES",
       "category": "donor",
@@ -278,6 +339,18 @@
       "connectionCount": 1
     },
     {
+      "id": 47,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 32,
       "name": "TELEFONIA BRASIL S/A",
       "category": "supplier",
@@ -287,6 +360,18 @@
       "id": 46,
       "name": "TELEFONICA BRASIL S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Trabalho",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Transporte",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -663,6 +748,118 @@
       "target": 46,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$866,91 (3 lançamentos; tipo: TELEFONIA; período: 11/07/2025–11/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 74371,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.057.213,00 empenhado, R$49.874.594,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 74371,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$26.286.616,00 empenhado, R$26.249.638,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 74371,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$6.817.865,00 empenhado, R$2.921.875,00 pago (11 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 74371,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$4.800.000,00 empenhado, R$3.519.577,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 74371,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$4.024.187,00 empenhado, R$2.400.000,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 74371,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$2.562.920,00 empenhado, R$912.920,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 74371,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$2.449.353,00 empenhado, R$21.955,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 74371,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$1.000.000,00 empenhado, R$1.000.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 74371,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.000.000,00 empenhado, R$300.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 74371,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$800.902,00 empenhado (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 74371,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$800.000,00 empenhado (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 74371,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comunicações: R$625.841,00 empenhado, R$625.841,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 74371,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$400.000,00 empenhado, R$100.000,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 74371,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Transporte: R$247.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 122158,
     "egoName": "Pedro Paulo",
-    "generatedAt": "2026-06-05T20:37:32.256724Z",
+    "generatedAt": "2026-06-05T21:12:31.642691Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 122158,
       "name": "Pedro Paulo",
       "category": "politician",
-      "connectionCount": 13
+      "connectionCount": 17
     },
     {
       "id": 9,
@@ -38,9 +39,27 @@
       "connectionCount": 1
     },
     {
+      "id": 17,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "ETICA TURISMO VIAGENS E RECEPTIVOS LTDA - ME",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 15,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 16,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -89,6 +108,12 @@
       "id": 13,
       "name": "RAMAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 14,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -201,6 +226,38 @@
       "target": 13,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$18,39 (8 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 122158,
+      "target": 14,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$56.805.315,00 empenhado, R$53.625.487,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 122158,
+      "target": 15,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$30.442.970,00 empenhado, R$10.053.629,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 122158,
+      "target": 16,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$9.739.038,00 empenhado, R$9.682.660,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 122158,
+      "target": 17,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$8.000.000,00 empenhado, R$8.000.000,00 pago (3 emendas; 2023–2025)",
       "strength": 1
     }
   ]

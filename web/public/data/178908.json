@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178908,
     "egoName": "Delegado Éder Mauro",
-    "generatedAt": "2026-06-05T20:37:27.193380Z",
+    "generatedAt": "2026-06-05T21:12:26.348291Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 178908,
       "name": "Delegado Éder Mauro",
       "category": "politician",
-      "connectionCount": 17
+      "connectionCount": 20
     },
     {
       "id": 9,
@@ -49,6 +50,12 @@
       "connectionCount": 1
     },
     {
+      "id": 20,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "EDER MAURO CARDOSO BARRA",
       "category": "donor",
@@ -58,6 +65,12 @@
       "id": 5,
       "name": "ELEICAO 2022 JOSE DA CRUZ MARINHO GOVERNADOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 19,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -100,6 +113,12 @@
       "id": 17,
       "name": "RAMAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 18,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -256,6 +275,30 @@
       "target": 17,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$9,95 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 178908,
+      "target": 18,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.591.587,00 empenhado, R$53.256.786,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 178908,
+      "target": 19,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$52.037.861,00 empenhado, R$51.862.672,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 178908,
+      "target": 20,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.459.752,00 empenhado, R$312.300,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

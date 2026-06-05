@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 224117,
     "egoName": "Gabriel Mota",
-    "generatedAt": "2026-06-05T20:37:28.531282Z",
+    "generatedAt": "2026-06-05T21:12:27.715938Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 224117,
       "name": "Gabriel Mota",
       "category": "politician",
-      "connectionCount": 14
+      "connectionCount": 18
     },
     {
       "id": 6,
@@ -31,9 +32,21 @@
       "connectionCount": 1
     },
     {
+      "id": 17,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "EZEQUIEL BEZERRA DA SILVA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 16,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -94,6 +107,18 @@
       "id": 2,
       "name": "SUZY MEIRE REIS PICANCO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 15,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 18,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -214,6 +239,38 @@
       "target": 14,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$16,55 (8 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 224117,
+      "target": 15,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.307.979,00 empenhado, R$26.411.278,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 224117,
+      "target": 16,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$35.773.783,00 empenhado, R$35.592.404,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 224117,
+      "target": 17,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 224117,
+      "target": 18,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$779.954,00 empenhado (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 221338,
     "egoName": "Professora Luciene Cavalcante",
-    "generatedAt": "2026-06-05T20:37:32.392586Z",
+    "generatedAt": "2026-06-05T21:12:31.824601Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 221338,
       "name": "Professora Luciene Cavalcante",
       "category": "politician",
-      "connectionCount": 29
+      "connectionCount": 39
     },
     {
       "id": 18,
@@ -67,9 +68,27 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "CELSO LUIS GIANNASI",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Cultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -79,9 +98,27 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "ELEICAO 2022 CARLOS ALBERTO GIANNAZI DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Educação",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -100,6 +137,12 @@
       "id": 9,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -151,6 +194,12 @@
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PARTIDO SOCIALISMO E LIBERDADE - SAO PAULO - SP - ESTADUAL",
       "category": "donor",
@@ -175,9 +224,21 @@
       "connectionCount": 1
     },
     {
+      "id": 30,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 6,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -424,6 +485,86 @@
       "target": 29,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$9,59 (8 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 221338,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$40.390.891,00 empenhado, R$25.868.359,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 221338,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$11.170.445,00 empenhado, R$1.120.385,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 221338,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$9.050.000,00 empenhado, R$1.357.000,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 221338,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$6.083.000,00 empenhado, R$633.000,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 221338,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.865.000,00 empenhado, R$1.865.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 221338,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.449.975,00 empenhado, R$147.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 221338,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$1.200.000,00 empenhado (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 221338,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$750.000,00 empenhado, R$750.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 221338,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$699.981,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 221338,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$400.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204539,
     "egoName": "Hercílio Coelho Diniz",
-    "generatedAt": "2026-06-05T20:37:29.079939Z",
+    "generatedAt": "2026-06-05T21:12:28.284149Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204539,
       "name": "Hercílio Coelho Diniz",
       "category": "politician",
-      "connectionCount": 37
+      "connectionCount": 40
     },
     {
       "id": 32,
@@ -68,6 +69,12 @@
       "connectionCount": 1
     },
     {
+      "id": 40,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 14,
       "name": "Bruno Argolo Rodrigues Silva",
       "category": "supplier",
@@ -89,6 +96,12 @@
       "id": 7,
       "name": "ELEICAO 2022 JOSE VESPASIANO CASSEMIRO DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -227,6 +240,12 @@
       "id": 37,
       "name": "Rony Sebastião Gonçalves",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -537,6 +556,30 @@
       "target": 37,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$930,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 13/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 204539,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$65.875.861,00 empenhado, R$37.761.674,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 204539,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$30.035.700,00 empenhado, R$29.878.321,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 204539,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$10.350.000,00 empenhado, R$3.100.000,00 pago (5 emendas; 2023–2025)",
       "strength": 1
     }
   ]

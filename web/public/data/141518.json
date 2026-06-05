@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 141518,
     "egoName": "Paulinho da Força",
-    "generatedAt": "2026-06-05T20:37:31.962591Z",
+    "generatedAt": "2026-06-05T21:12:31.295684Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 141518,
       "name": "Paulinho da Força",
       "category": "politician",
-      "connectionCount": 19
+      "connectionCount": 21
     },
     {
       "id": 16,
@@ -74,6 +75,12 @@
       "connectionCount": 1
     },
     {
+      "id": 21,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "FORCAPREV - PREVIDENCIA COMPLEMENTAR",
       "category": "company",
@@ -107,6 +114,12 @@
       "id": 1,
       "name": "SOLIDARIEDADE - SAO PAULO - SP - ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 20,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -285,6 +298,22 @@
       "target": 19,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5,87 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 141518,
+      "target": 20,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$59.239.812,00 empenhado, R$57.029.812,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 141518,
+      "target": 21,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$48.011.154,00 empenhado, R$47.836.154,00 pago (6 emendas; 2023–2025)",
       "strength": 1
     }
   ]

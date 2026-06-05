@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178992,
     "egoName": "Vitor Lippi",
-    "generatedAt": "2026-06-05T20:37:33.752271Z",
+    "generatedAt": "2026-06-05T21:12:33.440553Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 178992,
       "name": "Vitor Lippi",
       "category": "politician",
-      "connectionCount": 49
+      "connectionCount": 58
     },
     {
       "id": 4,
@@ -40,6 +41,18 @@
       "id": 31,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -85,9 +98,33 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 22,
       "name": "DIEGO FARAH FERRERO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -124,6 +161,12 @@
       "id": 27,
       "name": "GRP TECHLAN COMÉRCIO E SERVIÇO EM INSTALAÇÕES DE TECNOLOGIA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -289,6 +332,12 @@
       "connectionCount": 1
     },
     {
+      "id": 50,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 43,
       "name": "TELEFONIA BRASIL S/A",
       "category": "supplier",
@@ -298,6 +347,12 @@
       "id": 45,
       "name": "THAIS HELENA PENTEADO DE MOURA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -704,6 +759,78 @@
       "target": 49,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.740,00 (4 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/04/2025–19/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 178992,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$52.971.230,00 empenhado, R$34.396.437,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 178992,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$40.945.997,00 empenhado, R$40.805.119,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 178992,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.700.000,00 empenhado, R$1.280.638,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 178992,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$1.650.000,00 empenhado (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 178992,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.557.841,00 empenhado, R$818.910,00 pago (3 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 178992,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$999.996,00 empenhado, R$955.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 178992,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$700.000,00 empenhado, R$500.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 178992,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$500.000,00 empenhado, R$250.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 178992,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

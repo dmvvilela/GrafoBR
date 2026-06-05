@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204550,
     "egoName": "Júnior Mano",
-    "generatedAt": "2026-06-05T20:37:30.074858Z",
+    "generatedAt": "2026-06-05T21:12:29.290465Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,12 +18,18 @@
       "id": 204550,
       "name": "Júnior Mano",
       "category": "politician",
-      "connectionCount": 24
+      "connectionCount": 28
     },
     {
       "id": 2,
       "name": "ANTONIO LUIZ RODRIGUES MANO JUNIOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -50,6 +57,12 @@
       "connectionCount": 1
     },
     {
+      "id": 28,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "ELDORADO COMUNICACAO E JORNALISMO LTDA",
       "category": "supplier",
@@ -59,6 +72,12 @@
       "id": 18,
       "name": "EXIBA COMUNICAÇÃO E MARKETING LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -131,6 +150,12 @@
       "id": 13,
       "name": "RÁDIO VALE DO RIO POTY LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 25,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -355,6 +380,38 @@
       "target": 24,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$21,06 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 204550,
+      "target": 25,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$35.447.457,00 empenhado, R$34.061.826,00 pago (7 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 204550,
+      "target": 26,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$33.551.253,00 empenhado, R$33.551.253,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 204550,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$675.841,00 empenhado, R$550.000,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 204550,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$300.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

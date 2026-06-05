@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74574,
     "egoName": "Paulo Magalhães",
-    "generatedAt": "2026-06-05T20:37:32.113280Z",
+    "generatedAt": "2026-06-05T21:12:31.469849Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 74574,
       "name": "Paulo Magalhães",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 37
     },
     {
       "id": 6,
@@ -59,6 +60,18 @@
       "id": 5,
       "name": "DIVINO PASSOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -188,6 +201,18 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 13,
       "name": "TAM",
       "category": "supplier",
@@ -197,6 +222,12 @@
       "id": 25,
       "name": "Telefônica Brasil S.A. VIVO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -467,6 +498,46 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.375,00 (6 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 27/04/2025–26/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 74574,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.663.760,00 empenhado, R$36.673.789,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 74574,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$30.123.779,00 empenhado, R$29.945.900,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 74574,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$4.615.795,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 74574,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.200.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 74574,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$400.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

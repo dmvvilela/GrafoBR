@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 153423,
     "egoName": "Renilce Nicodemos",
-    "generatedAt": "2026-06-05T20:37:32.594770Z",
+    "generatedAt": "2026-06-05T21:12:32.062206Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 153423,
       "name": "Renilce Nicodemos",
       "category": "politician",
-      "connectionCount": 36
+      "connectionCount": 40
     },
     {
       "id": 26,
@@ -74,6 +75,12 @@
       "connectionCount": 1
     },
     {
+      "id": 39,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 24,
       "name": "EDUARDO ABRAHAO DA SILVA",
       "category": "donor",
@@ -89,6 +96,12 @@
       "id": 13,
       "name": "ELEICAO 2022 WENDERSON AZEVEDO CHAMON DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -215,6 +228,18 @@
       "id": 11,
       "name": "SILVAIR DIAS LADEIRA JUNIOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -523,6 +548,38 @@
       "target": 36,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$32,93 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 153423,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.115.376,00 empenhado, R$35.626.756,00 pago (12 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 153423,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$34.311.153,00 empenhado, R$34.147.498,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 153423,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.496.730,00 empenhado, R$937.500,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 153423,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$950.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

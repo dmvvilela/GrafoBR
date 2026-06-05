@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 180214,
     "egoName": "Pastor Diniz",
-    "generatedAt": "2026-06-05T20:37:31.864069Z",
+    "generatedAt": "2026-06-05T21:12:31.191321Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 180214,
       "name": "Pastor Diniz",
       "category": "politician",
-      "connectionCount": 18
+      "connectionCount": 26
     },
     {
       "id": 13,
@@ -34,6 +35,18 @@
       "id": 4,
       "name": "AUTO POSTO ABEL GALINHA LTDA 6",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 24,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -55,9 +68,27 @@
       "connectionCount": 1
     },
     {
+      "id": 22,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 14,
       "name": "ELETROBRAS DISTRIBUIÇÃO RORAIMA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 23,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 20,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -103,6 +134,18 @@
       "connectionCount": 1
     },
     {
+      "id": 19,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 25,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 6,
       "name": "TAM",
       "category": "supplier",
@@ -124,6 +167,12 @@
       "id": 1,
       "name": "UNIAO BRASIL - RORAIMA - RR - ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 21,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -270,6 +319,70 @@
       "target": 18,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$24,22 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 180214,
+      "target": 19,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.237.867,00 empenhado, R$31.475.546,00 pago (11 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 180214,
+      "target": 20,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$31.300.000,00 empenhado, R$31.162.000,00 pago (16 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 180214,
+      "target": 21,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$2.422.450,00 empenhado, R$34.950,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 22,
+      "source": 180214,
+      "target": 22,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.199.892,00 empenhado, R$986.118,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 180214,
+      "target": 23,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$990.346,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 24,
+      "source": 180214,
+      "target": 24,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$545.792,00 empenhado, R$545.792,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 180214,
+      "target": 25,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$299.882,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 180214,
+      "target": 26,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

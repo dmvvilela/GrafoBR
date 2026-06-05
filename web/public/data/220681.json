@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220681,
     "egoName": "Fábio Macedo",
-    "generatedAt": "2026-06-05T20:37:28.475604Z",
+    "generatedAt": "2026-06-05T21:12:27.655913Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220681,
       "name": "Fábio Macedo",
       "category": "politician",
-      "connectionCount": 12
+      "connectionCount": 14
     },
     {
       "id": 11,
@@ -29,6 +30,12 @@
       "id": 5,
       "name": "ELEICAO 2022 CARLOS ORLEANS BRANDAO JUNIOR GOVERNADOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 14,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -83,6 +90,12 @@
       "id": 12,
       "name": "RAMAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 13,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -187,6 +200,22 @@
       "target": 12,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3,19 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 13,
+      "source": 220681,
+      "target": 13,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$38.044.037,00 empenhado, R$38.044.037,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 220681,
+      "target": 14,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$37.050.873,00 empenhado, R$36.869.723,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     }
   ]

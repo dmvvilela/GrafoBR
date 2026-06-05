@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220665,
     "egoName": "Clarissa Tércio",
-    "generatedAt": "2026-06-05T20:37:26.379007Z",
+    "generatedAt": "2026-06-05T21:12:25.441822Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220665,
       "name": "Clarissa Tércio",
       "category": "politician",
-      "connectionCount": 26
+      "connectionCount": 34
     },
     {
       "id": 17,
@@ -46,6 +47,12 @@
       "id": 20,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -79,9 +86,33 @@
       "connectionCount": 1
     },
     {
+      "id": 32,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 13,
       "name": "EDMAR LYRA CAVALCANTI JUNIOR ME",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -157,6 +188,18 @@
       "connectionCount": 1
     },
     {
+      "id": 27,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 5,
       "name": "TALENTOS LOCADORA DE VEICULOS LTDA",
       "category": "supplier",
@@ -172,6 +215,12 @@
       "id": 15,
       "name": "TIAGO FERREIRA DE BRITO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -382,6 +431,70 @@
       "target": 26,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.792,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 30/05/2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 220665,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$41.698.586,00 empenhado, R$33.961.452,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 220665,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$19.000.000,00 empenhado, R$18.860.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 220665,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$4.496.992,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220665,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$3.699.952,00 empenhado (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220665,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.200.000,00 empenhado, R$2.000.000,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220665,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.598.633,00 empenhado, R$638.889,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220665,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220665,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$150.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

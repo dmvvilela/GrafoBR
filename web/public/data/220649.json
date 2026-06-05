@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220649,
     "egoName": "Delegado da Cunha",
-    "generatedAt": "2026-06-05T20:37:27.177406Z",
+    "generatedAt": "2026-06-05T21:12:26.324769Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220649,
       "name": "Delegado da Cunha",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 39
     },
     {
       "id": 11,
@@ -56,6 +57,12 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "BR Soluções Técnicas e Administrativas Ltda",
       "category": "supplier",
@@ -86,6 +93,12 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "DC CONSULTORIA DE MIDIAS SOCIAIS E COMERCIALIZACAO DE ARTIGOS DO VESTUARIO LTDA",
       "category": "company",
@@ -95,6 +108,24 @@
       "id": 2,
       "name": "DOUGLAS MAGDESIAN",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -185,6 +216,18 @@
       "id": 3,
       "name": "RONALD DO COUTO SANTOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -467,6 +510,62 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$330,24 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 30/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220649,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.573.793,00 empenhado, R$34.369.239,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220649,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$21.573.571,00 empenhado, R$1.517.733,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220649,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$7.400.000,00 empenhado, R$2.700.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220649,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$6.493.263,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220649,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.700.000,00 empenhado, R$1.400.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220649,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220649,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$200.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

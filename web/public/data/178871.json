@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178871,
     "egoName": "Evair Vieira de Melo",
-    "generatedAt": "2026-06-05T20:37:27.943296Z",
+    "generatedAt": "2026-06-05T21:12:27.189741Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 178871,
       "name": "Evair Vieira de Melo",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 57
     },
     {
       "id": 39,
@@ -85,6 +86,18 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 48,
       "name": "BELIZE COMPANY AUTO POSTO LTDA",
       "category": "supplier",
@@ -109,6 +122,18 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 43,
       "name": "ENOQUE LOUREIRO NASCIMENTO",
       "category": "supplier",
@@ -124,6 +149,18 @@
       "id": 44,
       "name": "EVAIR VIEIRA DE MELO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -274,6 +311,12 @@
       "id": 32,
       "name": "STAR CITY MIDIA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -718,6 +761,62 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.450,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 178871,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$57.225.486,00 empenhado, R$53.225.386,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 178871,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$40.781.666,00 empenhado, R$40.640.288,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 178871,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$6.943.813,00 empenhado, R$6.943.813,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 178871,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.000.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 178871,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$800.000,00 empenhado (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 178871,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$300.000,00 empenhado, R$300.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 178871,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$54.922,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

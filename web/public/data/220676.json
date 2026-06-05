@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220676,
     "egoName": "Andreia Siqueira",
-    "generatedAt": "2026-06-05T20:37:25.368096Z",
+    "generatedAt": "2026-06-05T21:12:24.282449Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220676,
       "name": "Andreia Siqueira",
       "category": "politician",
-      "connectionCount": 38
+      "connectionCount": 40
     },
     {
       "id": 34,
@@ -122,6 +123,12 @@
       "connectionCount": 1
     },
     {
+      "id": 40,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 14,
       "name": "FERNANDO ALBUQUERQUE DE SOUSA MORAES",
       "category": "donor",
@@ -215,6 +222,12 @@
       "id": 38,
       "name": "RAMAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -551,6 +564,22 @@
       "target": 38,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8,10 (8 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220676,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$51.400.000,00 empenhado, R$46.717.205,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 220676,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$23.747.569,00 empenhado, R$23.677.810,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

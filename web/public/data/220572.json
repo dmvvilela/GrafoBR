@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220572,
     "egoName": "Marussa Boldrin",
-    "generatedAt": "2026-06-05T20:37:31.041392Z",
+    "generatedAt": "2026-06-05T21:12:30.396448Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220572,
       "name": "Marussa Boldrin",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 57
     },
     {
       "id": 38,
@@ -65,6 +66,12 @@
       "id": 34,
       "name": "AUTORIO LOCADORA DE VEICULOS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -128,6 +135,12 @@
       "connectionCount": 1
     },
     {
+      "id": 54,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 27,
       "name": "FAVARO E BOLDRIN ANALISES AGRICOLAS LTDA",
       "category": "company",
@@ -161,6 +174,12 @@
       "id": 28,
       "name": "GRAFICA FRANCO MARTINS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -317,6 +336,18 @@
       "id": 25,
       "name": "SINOMAR VAZ DE OLIVEIRA JUNIOR",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +778,46 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$854,85 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/04/2025–04/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220572,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.420.905,00 empenhado, R$33.001.246,00 pago (11 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220572,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$32.553.576,00 empenhado, R$32.380.397,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220572,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.620.000,00 empenhado, R$920.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220572,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$500.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220572,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$400.000,00 empenhado, R$400.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204390,
     "egoName": "Professor Alcides",
-    "generatedAt": "2026-06-05T20:37:32.378988Z",
+    "generatedAt": "2026-06-05T21:12:31.806345Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204390,
       "name": "Professor Alcides",
       "category": "politician",
-      "connectionCount": 28
+      "connectionCount": 32
     },
     {
       "id": 3,
@@ -59,6 +60,12 @@
       "id": 8,
       "name": "AVICOLA RIBEIRO E ALVES LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -107,6 +114,18 @@
       "id": 16,
       "name": "COLEGIO DE APLICACAO DA UNIFAN REMANSO LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -185,6 +204,12 @@
       "id": 24,
       "name": "RIBEIRO PRODUTOS ALIMENTICIOS DE REMANSO LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -411,6 +436,38 @@
       "target": 28,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$14,66 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 204390,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$62.272.336,00 empenhado, R$45.028.535,00 pago (14 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 204390,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$42.837.093,00 empenhado, R$42.657.093,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204390,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.086.186,00 empenhado (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204390,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$325.776,00 empenhado, R$266.586,00 pago (1 emenda; 2023)",
       "strength": 1
     }
   ]

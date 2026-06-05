@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74467,
     "egoName": "Damião Feliciano",
-    "generatedAt": "2026-06-05T20:37:26.729122Z",
+    "generatedAt": "2026-06-05T21:12:25.812579Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 74467,
       "name": "Damião Feliciano",
       "category": "politician",
-      "connectionCount": 17
+      "connectionCount": 25
     },
     {
       "id": 15,
@@ -26,9 +27,21 @@
       "connectionCount": 1
     },
     {
+      "id": 20,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "BEZERRA BEZERRA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 23,
+      "name": "Cultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -44,15 +57,39 @@
       "connectionCount": 1
     },
     {
+      "id": 22,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 4,
       "name": "ELEICAO 2022 JOAO PAULO BARBOSA LEAL SEGUNDO DEPUTADO ESTADUAL",
       "category": "donor",
       "connectionCount": 1
     },
     {
+      "id": 25,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 19,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 13,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 24,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -95,6 +132,18 @@
       "id": 8,
       "name": "SOCIEDADE DE CREDITO DIRETO CREDFELIZ S/A",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 18,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 21,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -257,6 +306,70 @@
       "target": 17,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$19,06 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 74467,
+      "target": 18,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$52.573.916,00 empenhado, R$47.949.596,00 pago (24 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 74467,
+      "target": 19,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$49.610.069,00 empenhado, R$49.439.456,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 74467,
+      "target": 20,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.014.604,00 empenhado, R$814.604,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 74467,
+      "target": 21,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$840.880,00 empenhado, R$292.690,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 22,
+      "source": 74467,
+      "target": 22,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$500.000,00 empenhado, R$440.862,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 74467,
+      "target": 23,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 24,
+      "source": 74467,
+      "target": 24,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$300.000,00 empenhado, R$1.400,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 74467,
+      "target": 25,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$199.715,00 empenhado (2 emendas; 2023)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220685,
     "egoName": "Paulo Litro",
-    "generatedAt": "2026-06-05T20:37:32.096174Z",
+    "generatedAt": "2026-06-05T21:12:31.450753Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220685,
       "name": "Paulo Litro",
       "category": "politician",
-      "connectionCount": 49
+      "connectionCount": 53
     },
     {
       "id": 27,
@@ -86,6 +87,12 @@
       "connectionCount": 1
     },
     {
+      "id": 52,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 26,
       "name": "C2 LOCADORA DE VEÍCULOS LTDA",
       "category": "supplier",
@@ -110,6 +117,12 @@
       "connectionCount": 1
     },
     {
+      "id": 53,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 36,
       "name": "EDITORA JORNAL DE BELTRAO S A",
       "category": "supplier",
@@ -125,6 +138,12 @@
       "id": 2,
       "name": "ELEICAO 2022 LUIZ FERNANDES DA SILVA DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -305,6 +324,12 @@
       "id": 30,
       "name": "SIGMAS DESIGN LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -705,6 +730,38 @@
       "target": 49,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.362,00 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 01/03/2025–01/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 220685,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.573.786,00 empenhado, R$36.573.786,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220685,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$33.323.783,00 empenhado, R$33.153.904,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220685,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.250.000,00 empenhado, R$1.750.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220685,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$2.000.000,00 empenhado, R$1.092.000,00 pago (4 emendas; 2024–2025)",
       "strength": 1
     }
   ]

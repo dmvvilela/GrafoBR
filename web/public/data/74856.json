@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74856,
     "egoName": "Laura Carneiro",
-    "generatedAt": "2026-06-05T20:37:30.163962Z",
+    "generatedAt": "2026-06-05T21:12:29.412223Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 74856,
       "name": "Laura Carneiro",
       "category": "politician",
-      "connectionCount": 36
+      "connectionCount": 48
     },
     {
       "id": 19,
@@ -50,15 +51,69 @@
       "connectionCount": 1
     },
     {
+      "id": 44,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 20,
       "name": "CENTRO AUTOMOTIVO CRUZADA DA BARRA LTDA",
       "category": "supplier",
       "connectionCount": 1
     },
     {
+      "id": 48,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "DEMOCRATIZE TECNOLOGIA LTDA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -125,6 +180,12 @@
       "id": 10,
       "name": "MINA MARAVILHA MINERACAO LTDA.",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Múltiplo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -212,6 +273,12 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 14,
       "name": "TAM",
       "category": "supplier",
@@ -221,6 +288,12 @@
       "id": 25,
       "name": "TELEFONIA BRASIL S/A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -523,6 +596,102 @@
       "target": 36,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.718,96 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/06/2025–16/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 74856,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.565.048,00 empenhado, R$32.373.664,00 pago (12 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 74856,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$13.000.000,00 empenhado, R$3.060.000,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 74856,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$8.599.533,00 empenhado, R$2.000.000,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 74856,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.737.992,00 empenhado, R$3.737.992,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 74856,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$3.500.000,00 empenhado, R$1.920.000,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 74856,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$2.500.000,00 empenhado, R$1.000.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 74856,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$2.035.792,00 empenhado, R$2.035.792,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 74856,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.600.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 74856,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$999.996,00 empenhado, R$368.502,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 74856,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$700.000,00 empenhado, R$700.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 74856,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 74856,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$400.000,00 empenhado, R$3.500,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

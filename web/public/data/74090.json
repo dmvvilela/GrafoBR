@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74090,
     "egoName": "Átila Lins",
-    "generatedAt": "2026-06-05T20:37:34.029593Z",
+    "generatedAt": "2026-06-05T21:12:33.811326Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 74090,
       "name": "Átila Lins",
       "category": "politician",
-      "connectionCount": 22
+      "connectionCount": 30
     },
     {
       "id": 14,
@@ -50,6 +51,12 @@
       "connectionCount": 1
     },
     {
+      "id": 29,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "Azul Linhas Aéreas Inteligentes S.A",
       "category": "supplier",
@@ -62,9 +69,27 @@
       "connectionCount": 1
     },
     {
+      "id": 26,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "EDVALDO BEZERRA DE OLIVEIRA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 24,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -77,6 +102,12 @@
       "id": 8,
       "name": "GRUPO BRASILEIRO DA ASSOC INTERPARLAMENTAR DE TURISMO",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 27,
+      "name": "Indústria",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -122,6 +153,18 @@
       "connectionCount": 1
     },
     {
+      "id": 23,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 15,
       "name": "TAM",
       "category": "supplier",
@@ -143,6 +186,12 @@
       "id": 5,
       "name": "TEREZA CRISTINA AUZIER LIMA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 25,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -327,6 +376,70 @@
       "target": 22,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$58,62 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 74090,
+      "target": 23,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$52.459.489,00 empenhado, R$36.808.348,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 24,
+      "source": 74090,
+      "target": 24,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$18.380.003,00 empenhado, R$18.380.003,00 pago (3 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 74090,
+      "target": 25,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$16.454.999,00 empenhado, R$697.499,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 74090,
+      "target": 26,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$12.961.955,00 empenhado, R$3.047.219,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 74090,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Indústria: R$2.500.000,00 empenhado, R$2.500.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 74090,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.250.000,00 empenhado (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 74090,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.238.762,00 empenhado, R$750.000,00 pago (3 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 74090,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$500.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

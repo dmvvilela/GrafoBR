@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 98615,
     "egoName": "Ismael",
-    "generatedAt": "2026-06-05T20:37:29.247489Z",
+    "generatedAt": "2026-06-05T21:12:28.441769Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 98615,
       "name": "Ismael",
       "category": "politician",
-      "connectionCount": 40
+      "connectionCount": 47
     },
     {
       "id": 35,
@@ -73,6 +74,12 @@
       "connectionCount": 1
     },
     {
+      "id": 43,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 30,
       "name": "CAMILA FRAGA DA ROSA",
       "category": "supplier",
@@ -91,6 +98,18 @@
       "connectionCount": 1
     },
     {
+      "id": 45,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 46,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "EMERSON ANTUNES",
       "category": "donor",
@@ -100,6 +119,18 @@
       "id": 8,
       "name": "EVERSON CECHELLA MENDES",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -244,6 +275,18 @@
       "id": 18,
       "name": "R A NASCIMENTO CONSULTORIA POLITICA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -578,6 +621,62 @@
       "target": 40,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.488,60 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/05/2025–08/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 98615,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$40.541.154,00 empenhado, R$36.722.679,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 98615,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$28.733.985,00 empenhado, R$28.599.861,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 98615,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.050.000,00 empenhado, R$2.051.948,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 98615,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$200.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 98615,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 98615,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$200.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 98615,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$199.655,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

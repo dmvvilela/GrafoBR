@@ -32,17 +32,21 @@ echo "[4/6] company roots..."
 cut -d',' -f1 .cache/cnpj/scoped/receita_socios_scoped.csv | tail -n +2 | sort -u \
   > .cache/cnpj/our_roots.txt
 
-echo "[5/6] federal contracts via BigQuery (no WAF)..."
+echo "[5/7] federal contracts via BigQuery (no WAF)..."
 # no `|| true`: a BigQuery auth/network failure must abort the build (set -e), not
 # silently leave a stale/empty contratos.csv.
 PYTHONWARNINGS=ignore .venv/bin/python scripts/bq_contracts.py
 
-echo "[6/6] full rebuild with socio + contrato..."
+echo "[6/7] individual amendments (emendas) via BigQuery..."
+PYTHONWARNINGS=ignore .venv/bin/python scripts/bq_emendas.py
+
+echo "[7/7] full rebuild with socio + contrato + emendas..."
 run -m grafobr_pipeline.run --limit "$LIMIT" \
   --ceap-year "$CEAP_YEAR" \
   --cnpj-empresas-csv .cache/cnpj/scoped/receita_empresas_scoped.csv \
   --cnpj-socios-csv   .cache/cnpj/scoped/receita_socios_scoped.csv \
-  --contratos-csv     .cache/cnpj/scoped/contratos.csv | tail -1
+  --contratos-csv     .cache/cnpj/scoped/contratos.csv \
+  --emendas-csv       .cache/emendas/emendas.csv | tail -1
 
 echo "[meta] stamp data freshness (-> ../data/_meta.json)..."
 run scripts/write_meta.py

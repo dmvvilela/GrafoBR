@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220609,
     "egoName": "Maurício Carvalho",
-    "generatedAt": "2026-06-05T20:37:31.207269Z",
+    "generatedAt": "2026-06-05T21:12:30.524988Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220609,
       "name": "Maurício Carvalho",
       "category": "politician",
-      "connectionCount": 33
+      "connectionCount": 39
     },
     {
       "id": 31,
@@ -74,6 +75,12 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "BAR E RESTAURANTE ANTIQUARIUS LTDA.",
       "category": "company",
@@ -101,6 +108,30 @@
       "id": 28,
       "name": "COMERCIO DE DERIVADOS DE PETROLEO ESTRELA LTDA ME",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -173,6 +204,12 @@
       "id": 7,
       "name": "SERGIO LUIZ PACIFICO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -481,6 +518,54 @@
       "target": 33,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.014,34 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 24/09/2025–16/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220609,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.518.388,00 empenhado, R$30.682.770,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220609,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$33.973.783,00 empenhado, R$33.814.404,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220609,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.599.950,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220609,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220609,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$484.954,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220609,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$400.000,00 empenhado, R$388.295,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

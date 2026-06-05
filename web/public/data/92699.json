@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 92699,
     "egoName": "Fernando Monteiro",
-    "generatedAt": "2026-06-05T20:37:28.281714Z",
+    "generatedAt": "2026-06-05T21:12:27.444740Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 92699,
       "name": "Fernando Monteiro",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 66
     },
     {
       "id": 10,
@@ -47,6 +48,24 @@
       "id": 31,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 66,
+      "name": "Administração",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -80,6 +99,24 @@
       "connectionCount": 1
     },
     {
+      "id": 65,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 62,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 59,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 4,
       "name": "DIOGO VALLE BUENO",
       "category": "donor",
@@ -92,9 +129,39 @@
       "connectionCount": 1
     },
     {
+      "id": 61,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 19,
       "name": "EDUARDO FERREIRA DE VASCONCELOS SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 64,
+      "name": "Essencial à justiça",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -167,6 +234,12 @@
       "id": 8,
       "name": "GUILHERME JOSE SOBRAL PONZI",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -293,6 +366,18 @@
       "id": 3,
       "name": "SYLVIO KLEIN TROMPOWSKY HECK",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 63,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +832,118 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$870,54 (1 lançamento; tipo: PASSAGEM AÉREA - RPA; período: 10/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 92699,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$55.404.142,00 empenhado, R$49.579.145,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 92699,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$37.274.241,00 empenhado, R$37.178.138,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 92699,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$4.030.497,00 empenhado, R$348.647,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 92699,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$2.500.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 92699,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.050.000,00 empenhado, R$1.550.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 92699,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$2.038.089,00 empenhado, R$1.238.089,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 92699,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$900.000,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 92699,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$850.000,00 empenhado, R$60.966,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 92699,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$800.000,00 empenhado, R$203.999,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 62,
+      "source": 92699,
+      "target": 62,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$450.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 63,
+      "source": 92699,
+      "target": 63,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$249.978,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 64,
+      "source": 92699,
+      "target": 64,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Essencial à justiça: R$229.663,00 empenhado, R$62.336,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 65,
+      "source": 92699,
+      "target": 65,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$200.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 66,
+      "source": 92699,
+      "target": 66,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Administração: R$200.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

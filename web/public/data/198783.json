@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 198783,
     "egoName": "Emanuel Pinheiro Neto",
-    "generatedAt": "2026-06-05T20:37:27.801174Z",
+    "generatedAt": "2026-06-05T21:12:27.029193Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 198783,
       "name": "Emanuel Pinheiro Neto",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 58
     },
     {
       "id": 34,
@@ -67,9 +68,27 @@
       "connectionCount": 1
     },
     {
+      "id": 54,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 37,
       "name": "COMERCIAL AMAZONIA DE PETROLEO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Cultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -82,6 +101,18 @@
       "id": 23,
       "name": "DEMOCRATIZE TECNOLOGIA LTDA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -118,6 +149,18 @@
       "id": 35,
       "name": "ENERGISA MATO GROSSO - DISTRIBUIDORA DE ENERGIA S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -274,6 +317,12 @@
       "id": 6,
       "name": "RENIVALDO ALVES DO NASCIMENTO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -718,6 +767,70 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.836,69 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 08/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 198783,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.348.161,00 empenhado, R$52.737.161,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 198783,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$39.755.329,00 empenhado, R$39.653.950,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 198783,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$7.072.951,00 empenhado, R$3.076.880,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 198783,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$2.177.525,00 empenhado, R$12.748,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 198783,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.114.604,00 empenhado, R$1.716.004,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 198783,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.499.943,00 empenhado, R$788.000,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 198783,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$500.000,00 empenhado, R$4.900,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 198783,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$500.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204459,
     "egoName": "Daniela do Waguinho",
-    "generatedAt": "2026-06-05T20:37:26.894186Z",
+    "generatedAt": "2026-06-05T21:12:25.993864Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 204459,
       "name": "Daniela do Waguinho",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 44
     },
     {
       "id": 22,
@@ -85,6 +86,18 @@
       "connectionCount": 1
     },
     {
+      "id": 39,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 30,
       "name": "BELIZE COMPANY AUTO POSTO LTDA",
       "category": "supplier",
@@ -109,6 +122,12 @@
       "connectionCount": 1
     },
     {
+      "id": 43,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 8,
       "name": "DALETH VEICULOS LTDA EPP",
       "category": "supplier",
@@ -118,6 +137,18 @@
       "id": 4,
       "name": "DANIELA MOTE DE SOUZA CARNEIRO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -133,9 +164,27 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 10,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -181,9 +230,27 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -196,6 +263,12 @@
       "id": 2,
       "name": "UNIAO BRASIL - RIO DE JANEIRO - RJ - ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -466,6 +539,102 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$250,32 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204459,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$73.149.478,00 empenhado, R$71.969.677,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204459,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$10.612.513,00 empenhado, R$9.762.513,00 pago (10 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204459,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$10.000.000,00 empenhado, R$10.000.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 204459,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$5.014.219,00 empenhado, R$648.600,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 204459,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$2.400.000,00 empenhado, R$2.400.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 204459,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.496.954,00 empenhado, R$510.000,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 204459,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.048.965,00 empenhado (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 204459,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.000.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 204459,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$1.000.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 204459,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$900.000,00 empenhado, R$700,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 204459,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$415.662,00 empenhado, R$169.162,00 pago (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 204459,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$150.000,00 empenhado (1 emenda; 2023)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220694,
     "egoName": "Ricardo Maia",
-    "generatedAt": "2026-06-05T20:37:32.722483Z",
+    "generatedAt": "2026-06-05T21:12:32.219170Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220694,
       "name": "Ricardo Maia",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 53
     },
     {
       "id": 40,
@@ -142,6 +143,12 @@
       "id": 34,
       "name": "Elegis Gestão Estratégica, Consultoria e Tecn",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -310,6 +317,18 @@
       "id": 50,
       "name": "SERVIA O NACIONAL DE APREND. COMERCIAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -718,6 +737,30 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.070,88 (12 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 26/03/2025–26/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220694,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$38.004.749,00 empenhado, R$37.323.787,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220694,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$35.966.301,00 empenhado, R$35.787.423,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220694,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$750.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

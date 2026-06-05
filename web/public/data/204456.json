@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204456,
     "egoName": "Gutemberg Reis",
-    "generatedAt": "2026-06-05T20:37:28.947743Z",
+    "generatedAt": "2026-06-05T21:12:28.146167Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204456,
       "name": "Gutemberg Reis",
       "category": "politician",
-      "connectionCount": 46
+      "connectionCount": 52
     },
     {
       "id": 45,
@@ -80,6 +81,12 @@
       "connectionCount": 1
     },
     {
+      "id": 52,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 38,
       "name": "BRASAL COMBUSTIVEIS LTDA",
       "category": "supplier",
@@ -122,15 +129,39 @@
       "connectionCount": 1
     },
     {
+      "id": 51,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 49,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "ERNESTO LUIZ OTERO NETO",
       "category": "donor",
       "connectionCount": 1
     },
     {
+      "id": 50,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 36,
       "name": "Elegis Gestão Estratégica, Consultoria e Tecn",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 48,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -263,6 +294,12 @@
       "id": 6,
       "name": "SERGIO LUIS DE OLIVEIRA GUEDES",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -663,6 +700,54 @@
       "target": 46,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$972,81 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 16/01/2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 204456,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$58.892.092,00 empenhado, R$57.992.092,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 204456,
+      "target": 48,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$37.478.874,00 empenhado, R$37.380.115,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 204456,
+      "target": 49,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$4.249.981,00 empenhado, R$774.998,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 204456,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$3.800.000,00 empenhado, R$1.776.400,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 204456,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$400.000,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 204456,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

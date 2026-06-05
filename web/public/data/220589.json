@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220589,
     "egoName": "Eduardo Velloso",
-    "generatedAt": "2026-06-05T20:37:27.716101Z",
+    "generatedAt": "2026-06-05T21:12:26.930237Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220589,
       "name": "Eduardo Velloso",
       "category": "politician",
-      "connectionCount": 35
+      "connectionCount": 39
     },
     {
       "id": 21,
@@ -56,6 +57,12 @@
       "connectionCount": 1
     },
     {
+      "id": 38,
+      "name": "Administração",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 32,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
@@ -71,6 +78,12 @@
       "id": 2,
       "name": "EDUARDO OVIDIO BORGES DE VELLOSO VIANNA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -188,6 +201,12 @@
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 17,
       "name": "TAM",
       "category": "supplier",
@@ -203,6 +222,12 @@
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -276,7 +301,7 @@
       "source": 220589,
       "target": 6,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 17/06/2014",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 26/01/2015",
       "strength": 1
     },
     {
@@ -284,7 +309,7 @@
       "source": 220589,
       "target": 7,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 26/01/2015",
+      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 17/06/2014",
       "strength": 1
     },
     {
@@ -509,6 +534,38 @@
       "target": 35,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.963,84 (1 lançamento; tipo: PASSAGEM AÉREA - SIGEPA; período: 23/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220589,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$36.836.341,00 empenhado, R$33.336.349,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 220589,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$31.872.792,00 empenhado, R$31.728.422,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 220589,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Administração: R$1.500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220589,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.200.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

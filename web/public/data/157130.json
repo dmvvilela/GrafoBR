@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 157130,
     "egoName": "Túlio Gadêlha",
-    "generatedAt": "2026-06-05T20:37:33.619637Z",
+    "generatedAt": "2026-06-05T21:12:33.282411Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 157130,
       "name": "Túlio Gadêlha",
       "category": "politician",
-      "connectionCount": 36
+      "connectionCount": 47
     },
     {
       "id": 14,
@@ -40,6 +41,18 @@
       "id": 16,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -79,9 +92,39 @@
       "connectionCount": 1
     },
     {
+      "id": 44,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 13,
       "name": "Ed. Torque Empresarial",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -100,6 +143,12 @@
       "id": 25,
       "name": "GRAND MERCURE BRASILIA EIXO MONUMENTAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -205,6 +254,12 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 15,
       "name": "TAM",
       "category": "supplier",
@@ -223,9 +278,21 @@
       "connectionCount": 1
     },
     {
+      "id": 46,
+      "name": "Trabalho",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 32,
       "name": "UBER DO BRASIL TECNOLOGIA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 47,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -522,6 +589,94 @@
       "target": 36,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.044,84 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 10/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 157130,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.444.422,00 empenhado, R$39.165.138,00 pago (14 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 157130,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$20.671.513,00 empenhado, R$20.565.724,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 157130,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$9.446.611,00 empenhado, R$3.810.536,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 157130,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$9.191.595,00 empenhado, R$67.620,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 157130,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$5.770.222,00 empenhado, R$200.000,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 157130,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.643.270,00 empenhado, R$300.000,00 pago (3 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 157130,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$1.467.669,00 empenhado (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 157130,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$1.099.513,00 empenhado (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 157130,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.058.976,00 empenhado, R$105.000,00 pago (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 157130,
+      "target": 46,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$1.000.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 157130,
+      "target": 47,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$500.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

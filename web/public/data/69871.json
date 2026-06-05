@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 69871,
     "egoName": "Bacelar",
-    "generatedAt": "2026-06-05T20:37:25.712384Z",
+    "generatedAt": "2026-06-05T21:12:24.701078Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 69871,
       "name": "Bacelar",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 54
     },
     {
       "id": 41,
@@ -98,6 +99,12 @@
       "connectionCount": 1
     },
     {
+      "id": 54,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "EDDIE PARISH SILVA",
       "category": "donor",
@@ -113,6 +120,12 @@
       "id": 51,
       "name": "EN COMBUSTIVEL LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -299,6 +312,12 @@
       "id": 21,
       "name": "SANDRA FABIOLA SANTOS DE ALMEIDA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -733,6 +752,30 @@
       "target": 51,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$422,66 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 69871,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$55.591.064,00 empenhado, R$52.772.967,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 69871,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$43.736.494,00 empenhado, R$43.616.115,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 69871,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$2.799.987,00 empenhado, R$6.000,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

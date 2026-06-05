@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220706,
     "egoName": "Padovani",
-    "generatedAt": "2026-06-05T20:37:31.829861Z",
+    "generatedAt": "2026-06-05T21:12:31.156493Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220706,
       "name": "Padovani",
       "category": "politician",
-      "connectionCount": 56
+      "connectionCount": 61
     },
     {
       "id": 51,
@@ -92,6 +93,12 @@
       "connectionCount": 1
     },
     {
+      "id": 59,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 52,
       "name": "D. a. Camargo Lima - Me",
       "category": "supplier",
@@ -110,6 +117,12 @@
       "connectionCount": 1
     },
     {
+      "id": 61,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 42,
       "name": "EDITORA E GRAFICA PARANA PRESS S A",
       "category": "supplier",
@@ -119,6 +132,18 @@
       "id": 9,
       "name": "EDUARDO SLAVIERO CAMPOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -281,6 +306,12 @@
       "id": 48,
       "name": "SERVIA O NACIONAL DE APREND. COMERCIAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -803,6 +834,46 @@
       "target": 56,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$530,00 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/02/2025–07/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220706,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$42.828.776,00 empenhado, R$38.426.703,00 pago (9 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 220706,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$18.900.000,00 empenhado, R$18.896.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 220706,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$8.440.775,00 empenhado, R$5.600,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 220706,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$2.999.782,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 220706,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$149.988,00 empenhado, R$21.500,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

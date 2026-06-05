@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160976,
     "egoName": "Tiririca",
-    "generatedAt": "2026-06-05T20:37:33.563452Z",
+    "generatedAt": "2026-06-05T21:12:33.225899Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160976,
       "name": "Tiririca",
       "category": "politician",
-      "connectionCount": 28
+      "connectionCount": 40
     },
     {
       "id": 15,
@@ -62,6 +63,18 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "BELIZE COMPANY AUTO POSTO LTDA",
       "category": "supplier",
@@ -86,9 +99,51 @@
       "connectionCount": 1
     },
     {
+      "id": 32,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "EVELLYN EVENTOS LTDA",
       "category": "company",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -113,6 +168,12 @@
       "id": 9,
       "name": "MELIA BRASIL ADMINISTRACAO HOTELEIRA E COMERCIAL LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Múltiplo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -161,6 +222,18 @@
       "id": 6,
       "name": "SUPREMA MOBILIDADE LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -411,6 +484,102 @@
       "target": 28,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$78,00 (1 lançamento; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 28/04/2025)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 160976,
+      "target": 29,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$81.478.986,00 empenhado, R$74.749.727,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 160976,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$9.579.715,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 160976,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$5.702.231,00 empenhado, R$5.702.231,00 pago (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 160976,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$3.000.985,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 160976,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$2.443.813,00 empenhado, R$1.936.975,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 160976,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.435.217,00 empenhado, R$293.213,00 pago (5 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 160976,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$651.683,00 empenhado, R$247.416,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 160976,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$600.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 160976,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$600.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 160976,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$600.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 160976,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 160976,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

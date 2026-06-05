@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220640,
     "egoName": "Juliana Cardoso",
-    "generatedAt": "2026-06-05T20:37:29.878455Z",
+    "generatedAt": "2026-06-05T21:12:29.064967Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220640,
       "name": "Juliana Cardoso",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 62
     },
     {
       "id": 32,
@@ -49,6 +50,12 @@
       "connectionCount": 1
     },
     {
+      "id": 57,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 37,
       "name": "BER DO BRASIL TECNOLOGIA LTDA",
       "category": "supplier",
@@ -67,9 +74,33 @@
       "connectionCount": 1
     },
     {
+      "id": 59,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 58,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "DEMOCRATIZE TECNOLOGIA LTDA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Direitos da cidadania",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -106,6 +137,18 @@
       "id": 42,
       "name": "ENEL - Eletropaulo Metropolitana Eletricidade de São Paulo S. A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 61,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -148,6 +191,12 @@
       "id": 31,
       "name": "GRAFTEC GRÁFICA E EDITORA LTDA EPP",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 62,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -217,9 +266,21 @@
       "connectionCount": 1
     },
     {
+      "id": 54,
+      "name": "Múltiplo",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 48,
       "name": "OSVALDO CIRILO ME",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 60,
+      "name": "Organização agrária",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -289,6 +350,12 @@
       "connectionCount": 1
     },
     {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 30,
       "name": "TAM",
       "category": "supplier",
@@ -298,6 +365,12 @@
       "id": 50,
       "name": "TELEFONIA BRASIL S/A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -718,6 +791,102 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.789,78 (10 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 17/01/2025–21/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220640,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$38.383.969,00 empenhado, R$19.539.576,00 pago (11 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220640,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$8.431.530,00 empenhado, R$2.093.923,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220640,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$6.837.992,00 empenhado, R$4.197.233,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220640,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$5.448.979,00 empenhado, R$1.588.979,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220640,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$4.110.000,00 empenhado, R$400.000,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220640,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$3.267.820,00 empenhado, R$610.255,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220640,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.250.000,00 empenhado, R$3.100.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 220640,
+      "target": 58,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$2.150.000,00 empenhado, R$1.050.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 59,
+      "source": 220640,
+      "target": 59,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$1.000.000,00 empenhado, R$1.000.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 60,
+      "source": 220640,
+      "target": 60,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$200.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 61,
+      "source": 220640,
+      "target": 61,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 62,
+      "source": 220640,
+      "target": 62,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$200.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

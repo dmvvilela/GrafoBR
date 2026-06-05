@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 166402,
     "egoName": "Magda Mofatto",
-    "generatedAt": "2026-06-05T20:37:30.688098Z",
+    "generatedAt": "2026-06-05T21:12:29.998660Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 166402,
       "name": "Magda Mofatto",
       "category": "politician",
-      "connectionCount": 64
+      "connectionCount": 66
     },
     {
       "id": 64,
@@ -95,6 +96,12 @@
       "id": 41,
       "name": "ENTORNO DIGITAL LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 66,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -353,6 +360,12 @@
       "id": 52,
       "name": "SRS SERVIÇOS LTDA EPP",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 65,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -915,6 +928,22 @@
       "target": 64,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$732,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 23/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 65,
+      "source": 166402,
+      "target": 65,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.542.349,00 empenhado, R$51.135.895,00 pago (14 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 66,
+      "source": 166402,
+      "target": 66,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$53.356.171,00 empenhado, R$53.171.587,00 pago (5 emendas; 2023–2025)",
       "strength": 1
     }
   ]

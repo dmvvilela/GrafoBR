@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 160599,
     "egoName": "Dimas Fabiano",
-    "generatedAt": "2026-06-05T20:37:27.316812Z",
+    "generatedAt": "2026-06-05T21:12:26.514619Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 160599,
       "name": "Dimas Fabiano",
       "category": "politician",
-      "connectionCount": 38
+      "connectionCount": 42
     },
     {
       "id": 21,
@@ -56,6 +57,12 @@
       "connectionCount": 1
     },
     {
+      "id": 41,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 36,
       "name": "Auto Posto Split LTDA",
       "category": "supplier",
@@ -71,6 +78,12 @@
       "id": 27,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Comunicações",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -113,6 +126,12 @@
       "id": 37,
       "name": "EPR VIAS DO CAFE VARGINHA - MG",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -215,6 +234,12 @@
       "id": 16,
       "name": "SUPREMA MOBILIDADE LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -551,6 +576,38 @@
       "target": 38,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.901,09 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/03/2025–17/11/2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 160599,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$52.128.445,00 empenhado, R$44.235.409,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 160599,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$45.289.100,00 empenhado, R$45.122.725,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 160599,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$6.479.541,00 empenhado, R$5.450.332,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 160599,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comunicações: R$612.729,00 empenhado (1 emenda; 2023)",
       "strength": 1
     }
   ]

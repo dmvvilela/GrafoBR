@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220567,
     "egoName": "Jeferson Rodrigues",
-    "generatedAt": "2026-06-05T20:37:29.415112Z",
+    "generatedAt": "2026-06-05T21:12:28.600604Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 220567,
       "name": "Jeferson Rodrigues",
       "category": "politician",
-      "connectionCount": 39
+      "connectionCount": 45
     },
     {
       "id": 9,
@@ -34,6 +35,12 @@
       "id": 30,
       "name": "AURA GRÁFICA E IMPRESSOS ESPECIAIS LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -73,6 +80,18 @@
       "connectionCount": 1
     },
     {
+      "id": 44,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 15,
       "name": "ELOAN KAON MARTINS",
       "category": "donor",
@@ -82,6 +101,12 @@
       "id": 32,
       "name": "ENEL - COMPANHIA DE ENERGIA ELÉTRICA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -100,6 +125,12 @@
       "id": 17,
       "name": "GENILSON JOSE DOURADO",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -238,6 +269,12 @@
       "id": 5,
       "name": "SUSANA RIBEIRO DE MENDONCA PIRES DE CAMPOS",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -564,6 +601,54 @@
       "target": 39,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$40,93 (9 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 220567,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$39.544.058,00 empenhado, R$38.193.724,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 220567,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$29.813.364,00 empenhado, R$29.690.985,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 220567,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$2.999.346,00 empenhado, R$996.899,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 220567,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.000.000,00 empenhado, R$2.000.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 220567,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$399.945,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 220567,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$360.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

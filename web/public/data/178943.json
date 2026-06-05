@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 178943,
     "egoName": "Marcos Soares",
-    "generatedAt": "2026-06-05T20:37:30.926775Z",
+    "generatedAt": "2026-06-05T21:12:30.265914Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 178943,
       "name": "Marcos Soares",
       "category": "politician",
-      "connectionCount": 37
+      "connectionCount": 43
     },
     {
       "id": 15,
@@ -68,9 +69,33 @@
       "connectionCount": 1
     },
     {
+      "id": 42,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 3,
       "name": "ELEICAO 2022 FILIPE BEZERRA RIBEIRO SOARES DEPUTADO ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 43,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -176,6 +201,12 @@
       "connectionCount": 1
     },
     {
+      "id": 38,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 14,
       "name": "Supraset Grafica e Editora Ltda",
       "category": "supplier",
@@ -209,6 +240,12 @@
       "id": 2,
       "name": "UNIAO BRASIL - RIO DE JANEIRO - RJ - ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -537,6 +574,54 @@
       "target": 37,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$815,36 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 18/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 178943,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$63.997.570,00 empenhado, R$63.415.793,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 178943,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$3.500.000,00 empenhado, R$937.846,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 178943,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$3.500.000,00 empenhado, R$1.400,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 178943,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$3.199.943,00 empenhado, R$20.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 178943,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$650.000,00 empenhado, R$6.685,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 178943,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$300.000,00 empenhado, R$300.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

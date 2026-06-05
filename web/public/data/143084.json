@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 143084,
     "egoName": "Tiago Dimas",
-    "generatedAt": "2026-06-05T20:37:33.543365Z",
+    "generatedAt": "2026-06-05T21:12:33.209671Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 143084,
       "name": "Tiago Dimas",
       "category": "politician",
-      "connectionCount": 31
+      "connectionCount": 33
     },
     {
       "id": 20,
@@ -65,6 +66,12 @@
       "id": 13,
       "name": "COPIA & COPIADORA EIRELI",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 32,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -179,6 +186,12 @@
       "id": 24,
       "name": "STARLINK BRAZIL SERVICOS DE INTERNET LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -453,6 +466,22 @@
       "target": 31,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.000,00 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 03/10/2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 143084,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$16.051.692,00 empenhado, R$16.051.692,00 pago (12 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 143084,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$16.051.648,00 empenhado, R$9.716.464,00 pago (12 emendas; 2023)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 92102,
     "egoName": "Leur Lomanto Júnior",
-    "generatedAt": "2026-06-05T20:37:30.247913Z",
+    "generatedAt": "2026-06-05T21:12:29.492626Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 92102,
       "name": "Leur Lomanto Júnior",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 39
     },
     {
       "id": 26,
@@ -98,6 +99,12 @@
       "connectionCount": 1
     },
     {
+      "id": 35,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 13,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
@@ -122,6 +129,18 @@
       "connectionCount": 1
     },
     {
+      "id": 38,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 6,
       "name": "ECO POSTO 3L LTDA",
       "category": "company",
@@ -131,6 +150,12 @@
       "id": 20,
       "name": "EIXINHO L 212 NORTE COM DE COM E DERIV LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -194,6 +219,18 @@
       "connectionCount": 1
     },
     {
+      "id": 33,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "TAM",
       "category": "supplier",
@@ -209,6 +246,12 @@
       "id": 2,
       "name": "UNIAO BRASIL - BAHIA - BA - ESTADUAL",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -467,6 +510,62 @@
       "target": 32,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$453,52 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 92102,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.623.987,00 empenhado, R$53.623.987,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 92102,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$50.320.614,00 empenhado, R$50.148.250,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 92102,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.188.762,00 empenhado, R$1.188.762,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 92102,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.000.000,00 empenhado, R$37.240,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 92102,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$814.604,00 empenhado, R$814.604,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 92102,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$200.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 92102,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$100.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

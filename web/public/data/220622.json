@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220622,
     "egoName": "Nely Aquino",
-    "generatedAt": "2026-06-05T20:37:31.636258Z",
+    "generatedAt": "2026-06-05T21:12:30.949419Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220622,
       "name": "Nely Aquino",
       "category": "politician",
-      "connectionCount": 29
+      "connectionCount": 34
     },
     {
       "id": 3,
@@ -68,6 +69,12 @@
       "connectionCount": 1
     },
     {
+      "id": 32,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 18,
       "name": "CEMIG DISTRIBUIÇÃO S.A",
       "category": "supplier",
@@ -77,6 +84,12 @@
       "id": 28,
       "name": "CLARO NEXTEL TELECOMUNICAÇÕES S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Desporto e lazer",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -95,6 +108,12 @@
       "id": 8,
       "name": "ESTRELA LOGISTICA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -164,6 +183,12 @@
       "connectionCount": 1
     },
     {
+      "id": 30,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 9,
       "name": "TAM",
       "category": "supplier",
@@ -179,6 +204,12 @@
       "id": 20,
       "name": "UP PRINT COMERCIO DE LOCAÇÃO DE EQUIPAMENTOS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -425,6 +456,46 @@
       "target": 29,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.319,97 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/01/2025–24/09/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220622,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$40.832.490,00 empenhado, R$39.643.117,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220622,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$25.514.998,00 empenhado, R$25.396.850,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 220622,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$6.700.000,00 empenhado, R$6.100.000,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 220622,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.500.000,00 empenhado, R$60.045,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220622,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$600.000,00 empenhado, R$591.998,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

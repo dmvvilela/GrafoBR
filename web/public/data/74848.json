@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 74848,
     "egoName": "Jandira Feghali",
-    "generatedAt": "2026-06-05T20:37:29.396189Z",
+    "generatedAt": "2026-06-05T21:12:28.581663Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 74848,
       "name": "Jandira Feghali",
       "category": "politician",
-      "connectionCount": 36
+      "connectionCount": 45
     },
     {
       "id": 6,
@@ -68,6 +69,12 @@
       "connectionCount": 1
     },
     {
+      "id": 43,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 30,
       "name": "BRASAL COMBUSTIVEIS LTDA",
       "category": "supplier",
@@ -83,6 +90,18 @@
       "id": 28,
       "name": "CLARO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Cultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -104,6 +123,24 @@
       "connectionCount": 1
     },
     {
+      "id": 42,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "FORUM NACIONAL DOS SECRETARIOS E DIRIGENTES MUNICIPAIS DE ORGAOS DE CULTURA DAS CAPITAIS DOS ESTADOS DO BRASIL",
       "category": "company",
@@ -119,6 +156,12 @@
       "id": 16,
       "name": "GOL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Gestão ambiental",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -212,6 +255,12 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 13,
       "name": "TAM",
       "category": "supplier",
@@ -221,6 +270,12 @@
       "id": 22,
       "name": "Telefônica Brasil S/A - VIVO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 44,
+      "name": "Trabalho",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -523,6 +578,78 @@
       "target": 36,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$500,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/11/2025–17/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 74848,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.820.382,00 empenhado, R$21.183.449,00 pago (23 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 74848,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$19.849.785,00 empenhado, R$6.947.892,00 pago (21 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 74848,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$18.800.745,00 empenhado, R$4.540.079,00 pago (13 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 74848,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$6.920.940,00 empenhado, R$6.906.940,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 74848,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$2.949.907,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 74848,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$1.694.532,00 empenhado, R$975.285,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 74848,
+      "target": 43,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$400.000,00 empenhado, R$400.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 74848,
+      "target": 44,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$350.000,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 74848,
+      "target": 45,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$100.000,00 empenhado, R$100.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

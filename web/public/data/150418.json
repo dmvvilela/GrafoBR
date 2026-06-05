@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 150418,
     "egoName": "Márcio Marinho",
-    "generatedAt": "2026-06-05T20:37:31.542866Z",
+    "generatedAt": "2026-06-05T21:12:30.852698Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 150418,
       "name": "Márcio Marinho",
       "category": "politician",
-      "connectionCount": 33
+      "connectionCount": 42
     },
     {
       "id": 21,
@@ -68,6 +69,18 @@
       "connectionCount": 1
     },
     {
+      "id": 40,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 31,
       "name": "BERNARDETE FALCAO SAMPAIO ME",
       "category": "supplier",
@@ -92,15 +105,45 @@
       "connectionCount": 1
     },
     {
+      "id": 41,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 42,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 15,
       "name": "D R ALUGUEL DE MAQUINAS E EQUIPAMENTOS EIRELI - ME",
       "category": "supplier",
       "connectionCount": 1
     },
     {
+      "id": 38,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 4,
       "name": "EUNAPIO LADEIA DE QUEIROZ",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -206,6 +249,12 @@
       "connectionCount": 1
     },
     {
+      "id": 34,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "TAM",
       "category": "supplier",
@@ -215,6 +264,12 @@
       "id": 26,
       "name": "TELEFONICA BRASIL S.A",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     }
   ],
@@ -481,6 +536,78 @@
       "target": 33,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$557,50 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 28/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 150418,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$55.914.900,00 empenhado, R$48.517.683,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 150418,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$28.944.718,00 empenhado, R$28.863.339,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 150418,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$9.905.610,00 empenhado, R$8.310.510,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 150418,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$8.129.208,00 empenhado, R$1.629.209,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 150418,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.000.000,00 empenhado, R$53.233,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 150418,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$999.227,00 empenhado, R$63.590,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 150418,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$926.286,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 150418,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$814.604,00 empenhado, R$3.500,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 150418,
+      "target": 42,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$614.604,00 empenhado (1 emenda; 2023)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220642,
     "egoName": "Delegado Bruno Lima",
-    "generatedAt": "2026-06-05T20:37:27.051336Z",
+    "generatedAt": "2026-06-05T21:12:26.172998Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220642,
       "name": "Delegado Bruno Lima",
       "category": "politician",
-      "connectionCount": 29
+      "connectionCount": 31
     },
     {
       "id": 15,
@@ -110,6 +111,12 @@
       "connectionCount": 1
     },
     {
+      "id": 31,
+      "name": "Gestão ambiental",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 17,
       "name": "HOTELARIA ACCOR BRASIL S.A",
       "category": "supplier",
@@ -173,6 +180,12 @@
       "id": 13,
       "name": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -425,6 +438,22 @@
       "target": 29,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.346,94 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/01/2025–17/03/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 220642,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$22.650.000,00 empenhado, R$18.900.000,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 220642,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$14.275.957,00 empenhado, R$4.851.715,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

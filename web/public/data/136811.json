@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 136811,
     "egoName": "Afonso Hamm",
-    "generatedAt": "2026-06-05T20:37:24.996822Z",
+    "generatedAt": "2026-06-05T21:12:23.760041Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "tse"
     ],
     "summary": null,
@@ -16,7 +17,7 @@
       "id": 136811,
       "name": "Afonso Hamm",
       "category": "politician",
-      "connectionCount": 50
+      "connectionCount": 57
     },
     {
       "id": 50,
@@ -58,6 +59,18 @@
       "id": 39,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -103,6 +116,12 @@
       "connectionCount": 1
     },
     {
+      "id": 55,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 7,
       "name": "ELEICAO 2022 LUIS CARLOS HEINZE GOVERNADOR",
       "category": "donor",
@@ -118,6 +137,18 @@
       "id": 48,
       "name": "EXCELSIOR SA HOTEIS E TURISMO",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 56,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -292,6 +323,18 @@
       "id": 35,
       "name": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 57,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -718,6 +761,62 @@
       "target": 50,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.904,40 (18 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/02/2025–28/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 136811,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$55.594.208,00 empenhado, R$50.620.279,00 pago (13 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 136811,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$45.037.452,00 empenhado, R$44.884.452,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 136811,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$4.310.000,00 empenhado, R$4.310.000,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 136811,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.173.875,00 empenhado, R$883.763,00 pago (10 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 136811,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$429.121,00 empenhado, R$406.121,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 136811,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$399.794,00 empenhado, R$139.029,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 136811,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$300.000,00 empenhado, R$300.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

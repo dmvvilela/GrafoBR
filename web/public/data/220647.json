@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220647,
     "egoName": "Mauricio Neves",
-    "generatedAt": "2026-06-05T20:37:31.133290Z",
+    "generatedAt": "2026-06-05T21:12:30.467189Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220647,
       "name": "Mauricio Neves",
       "category": "politician",
-      "connectionCount": 33
+      "connectionCount": 36
     },
     {
       "id": 8,
@@ -35,6 +36,12 @@
       "id": 26,
       "name": "AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 36,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -95,6 +102,12 @@
       "id": 20,
       "name": "EPOLITICS S/S LTDA - ME",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -185,6 +198,12 @@
       "id": 33,
       "name": "RAMAL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -481,6 +500,30 @@
       "target": 33,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$14,89 (8 lançamentos; tipo: TELEFONIA)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 220647,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$38.404.524,00 empenhado, R$38.404.524,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 220647,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$30.743.045,00 empenhado, R$30.588.166,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 220647,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$6.000.000,00 empenhado, R$6.000.000,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     }
   ]

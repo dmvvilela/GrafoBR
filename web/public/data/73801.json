@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 73801,
     "egoName": "Renildo Calheiros",
-    "generatedAt": "2026-06-05T20:37:32.610221Z",
+    "generatedAt": "2026-06-05T21:12:32.080191Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 73801,
       "name": "Renildo Calheiros",
       "category": "politician",
-      "connectionCount": 49
+      "connectionCount": 55
     },
     {
       "id": 43,
@@ -80,9 +81,27 @@
       "connectionCount": 1
     },
     {
+      "id": 54,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 35,
       "name": "Companhia Energética de Pernambuco",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Cultura",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -95,6 +114,18 @@
       "id": 48,
       "name": "ENDUTEX HOTEIS BRASIL LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 52,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 51,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -293,6 +324,12 @@
       "id": 13,
       "name": "SEVERINO RAMOS DA SILVA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 50,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -705,6 +742,54 @@
       "target": 49,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$692,33 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 16/12/2025)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 73801,
+      "target": 50,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$51.618.516,00 empenhado, R$49.503.033,00 pago (10 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 73801,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$48.860.428,00 empenhado, R$48.689.049,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 73801,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.324.352,00 empenhado, R$426.896,00 pago (5 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 73801,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$1.196.065,00 empenhado, R$146.065,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 73801,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$900.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 73801,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$400.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 204444,
     "egoName": "Helio Lopes",
-    "generatedAt": "2026-06-05T20:37:29.021844Z",
+    "generatedAt": "2026-06-05T21:12:28.232132Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 204444,
       "name": "Helio Lopes",
       "category": "politician",
-      "connectionCount": 29
+      "connectionCount": 41
     },
     {
       "id": 3,
@@ -50,9 +51,39 @@
       "connectionCount": 1
     },
     {
+      "id": 41,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 29,
       "name": "C A HOTELARIA LTDA",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 31,
+      "name": "Comunicações",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Comércio e serviços",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -62,9 +93,33 @@
       "connectionCount": 1
     },
     {
+      "id": 32,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 33,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 35,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 2,
       "name": "EDVALDO NILO DE ALMEIDA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 34,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -122,6 +177,12 @@
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "Múltiplo",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
@@ -155,6 +216,18 @@
       "id": 6,
       "name": "SERV RIO TERCEIRIZAÇÃO E SERVIÇOS",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 30,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 39,
+      "name": "Segurança pública",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -425,6 +498,102 @@
       "target": 29,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$595,37 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 30/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 204444,
+      "target": 30,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.953.445,00 empenhado, R$42.239.283,00 pago (17 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204444,
+      "target": 31,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comunicações: R$14.885.792,00 empenhado, R$5.000.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204444,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$10.135.209,00 empenhado, R$5.793.387,00 pago (16 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204444,
+      "target": 33,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$4.719.996,00 empenhado, R$16.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 204444,
+      "target": 34,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$3.657.302,00 empenhado, R$3.657.302,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 204444,
+      "target": 35,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$3.500.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 204444,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$3.086.713,00 empenhado, R$2.829.919,00 pago (3 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 204444,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$2.437.991,00 empenhado, R$800.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 204444,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$1.500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 204444,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.304.610,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 204444,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.200.000,00 empenhado, R$500.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 204444,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$488.718,00 empenhado, R$285.144,00 pago (1 emenda; 2023)",
       "strength": 1
     }
   ]

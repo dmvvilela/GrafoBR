@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 220620,
     "egoName": "Rosângela Reis",
-    "generatedAt": "2026-06-05T20:37:33.021428Z",
+    "generatedAt": "2026-06-05T21:12:32.589168Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 220620,
       "name": "Rosângela Reis",
       "category": "politician",
-      "connectionCount": 52
+      "connectionCount": 57
     },
     {
       "id": 47,
@@ -62,9 +63,21 @@
       "connectionCount": 1
     },
     {
+      "id": 57,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 52,
       "name": "Alfa FM Rádio do Povo",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 55,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -116,6 +129,12 @@
       "connectionCount": 1
     },
     {
+      "id": 56,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 24,
       "name": "EDUARDO LEANDRO NASCIMENTO ISAIAS VIEIRA",
       "category": "donor",
@@ -143,6 +162,12 @@
       "id": 25,
       "name": "ELOISIO DA COSTA BATISTA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 54,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -287,6 +312,12 @@
       "id": 15,
       "name": "SIRLEI GONCALVES LANA",
       "category": "donor",
+      "connectionCount": 1
+    },
+    {
+      "id": 53,
+      "name": "Saúde",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -747,6 +778,46 @@
       "target": 52,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.500,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 18/02/2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220620,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$39.076.778,00 empenhado, R$37.324.778,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220620,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$31.260.792,00 empenhado, R$31.110.022,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 220620,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.055.316,00 empenhado, R$1.560.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 220620,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.750.000,00 empenhado, R$35.000,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 220620,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.000.000,00 empenhado, R$44.946,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

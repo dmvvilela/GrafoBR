@@ -2,10 +2,11 @@
   "meta": {
     "egoId": 141516,
     "egoName": "Paulo Abi-Ackel",
-    "generatedAt": "2026-06-05T20:37:31.977036Z",
+    "generatedAt": "2026-06-05T21:12:31.313373Z",
     "sources": [
       "camara",
       "camara_ceap",
+      "cgu_emendas",
       "receita",
       "tse"
     ],
@@ -17,7 +18,7 @@
       "id": 141516,
       "name": "Paulo Abi-Ackel",
       "category": "politician",
-      "connectionCount": 35
+      "connectionCount": 41
     },
     {
       "id": 21,
@@ -44,9 +45,21 @@
       "connectionCount": 1
     },
     {
+      "id": 39,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 11,
       "name": "Alexandre de Freitas Vilaca Decaris",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 41,
+      "name": "Assistência social",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -89,6 +102,18 @@
       "id": 29,
       "name": "Cia Aérea - AZUL",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 40,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 37,
+      "name": "Encargos especiais",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -218,9 +243,21 @@
       "connectionCount": 1
     },
     {
+      "id": 36,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
       "id": 12,
       "name": "TAM",
       "category": "supplier",
+      "connectionCount": 1
+    },
+    {
+      "id": 38,
+      "name": "Urbanismo",
+      "category": "destino",
       "connectionCount": 1
     },
     {
@@ -509,6 +546,54 @@
       "target": 35,
       "connectionType": "despesa",
       "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.530,00 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 21/07/2025)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 141516,
+      "target": 36,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.625.486,00 empenhado, R$51.793.844,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 141516,
+      "target": 37,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$46.481.669,00 empenhado, R$46.320.290,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 141516,
+      "target": 38,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$2.500.000,00 empenhado, R$297.481,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 141516,
+      "target": 39,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.955.051,00 empenhado, R$154.040,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 141516,
+      "target": 40,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$1.788.762,00 empenhado, R$300.000,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 141516,
+      "target": 41,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$900.000,00 empenhado, R$608.259,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     }
   ]
