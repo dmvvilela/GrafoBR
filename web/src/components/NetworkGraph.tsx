@@ -1,38 +1,13 @@
 "use client";
 
-// =============================================================================
-// NetworkGraph — STUB (Phase 1). Right now it just proves the data loads and
-// renders a placeholder. Your job: turn this into a real D3 force-directed graph.
-//
-// This is the looks-half of the project. It consumes the data contract
-// (EgoNetwork = { nodes, links }) and nothing else. See:
-//   - ../../../docs/PLAN.md          (Phase 1 = make this real)
-//   - ../../../docs/DATA-CONTRACT.md (the shape)
-//   - ../lib/contract.ts             (the types)
-//   - ../lib/graph-colors.ts         (category/edge colors, ready to use)
-//
-// IMPLEMENTATION NOTES (d3-force, SVG):
-//   1. Build a d3.forceSimulation(nodes) with:
-//        .force("charge", d3.forceManyBody().strength(-300))
-//        .force("link",   d3.forceLink(links).id(d => d.id).distance(60))
-//        .force("center", d3.forceCenter(width/2, height/2))
-//        .force("collide",d3.forceCollide().radius(d => radius(d) + 2))
-//      NOTE: d3.forceLink mutates link.source/target from number -> node object.
-//      Our contract ships them as numbers (node ids); that's exactly what
-//      .id(d => d.id) expects. Don't pre-resolve them.
-//   2. Node radius: const radius = d3.scaleLinear()
-//        .domain([0, d3.max(nodes, n => n.connectionCount) ?? 1]).range([5, 24]).
-//   3. Node fill: getCategoryColor(node.category). Edge stroke: getEdgeColor(link.connectionType).
-//   4. Render <circle> per node + <line> per link into an <svg>; update positions
-//      on simulation "tick". Add d3.drag for nodes and d3.zoom for pan/zoom on a <g>.
-//   5. Labels: <text> next to each node (node.name). Keep readable; hide on small zoom.
-//   6. Honor the `searchQuery` prop: dim/hide nodes whose name doesn't match (and their
-//      edges). Keep it client-side and cheap.
-//   7. On node click, call onSelectNode(node) so the page can show a profile panel.
-//
-// Reference (MIT, study don't copy): Donnadieu/Epstein-File-Explorer
-//   client/src/components/network-graph.tsx — same node/link contract.
-// =============================================================================
+// NetworkGraph — D3 force-directed ego graph over the data contract
+// (EgoNetwork = { nodes, links }). Readability rules:
+//   - labels are OFF by default except the ego; hovering a node reveals its name
+//     + its neighbors and dims the rest (hovering the hub just shows the hub, to
+//     avoid printing all 60+ leaf names at once). Zooming in past a threshold
+//     reveals every label.
+//   - the graph auto zoom-to-fits the viewport once the simulation settles.
+//   - search (dim non-matches) and focus (clicked node + neighbors) still apply.
 
 import { useEffect, useMemo, useRef } from "react";
 import * as d3 from "d3";
@@ -60,6 +35,8 @@ type SimulationLink = Omit<GraphLink, "source" | "target"> &
 
 const WIDTH = 960;
 const HEIGHT = 560;
+const LABELS_ALL_ZOOM = 1.6; // zoom past this -> show every label
+const NEIGHBOR_LABEL_CAP = 18; // hovering a node with more neighbors labels only it
 
 function getLinkedNodeId(node: number | string | SimulationNode): number {
   return typeof node === "object" ? node.id : Number(node);
@@ -112,6 +89,15 @@ export default function NetworkGraph({
     return set;
   }, [focusId, adjacency]);
 
+  // Mutable state shared between the (heavy) build effect and the (light)
+  // search/focus effect, so hover/search/focus never rebuild the simulation.
+  const stateRef = useRef({
+    focusSet: null as Set<number> | null,
+    hasSearch: false,
+    matchIds: new Set<number>(),
+  });
+  const applyVisibilityRef = useRef<(() => void) | null>(null);
+
   useEffect(() => {
     onSelectNodeRef.current = onSelectNode;
   }, [onSelectNode]);
@@ -120,6 +106,7 @@ export default function NetworkGraph({
     const svgElement = svgRef.current;
     if (!svgElement) return;
 
+    const egoId = data.meta?.egoId;
     const nodes: SimulationNode[] = data.nodes.map((node) => ({ ...node }));
     const links: SimulationLink[] = data.links.map((link) => ({ ...link }));
     const radius = d3
@@ -140,8 +127,8 @@ export default function NetworkGraph({
       .data(links)
       .join("line")
       .attr("stroke", (edge) => getEdgeColor(edge.connectionType))
-      .attr("stroke-opacity", 0.72)
-      .attr("stroke-width", (edge) => Math.max(1.5, (edge.strength ?? 1) * 1.4))
+      .attr("stroke-opacity", 0.5)
+      .attr("stroke-width", (edge) => Math.max(1.2, (edge.strength ?? 1) * 1.3))
       .attr("stroke-linecap", "round");
 
     link.append("title").text((edge) => {
@@ -156,9 +143,8 @@ export default function NetworkGraph({
       .attr("r", (graphNode) => radius(graphNode.connectionCount))
       .attr("fill", (graphNode) => getCategoryColor(graphNode.category))
       .attr("stroke", "#ffffff")
-      .attr("stroke-width", 1.8)
-      .attr("opacity", 1)
-      .attr("cursor", "grab")
+      .attr("stroke-width", 1.6)
+      .attr("cursor", "pointer")
       .on("click", (_event, graphNode) =>
         onSelectNodeRef.current?.(graphNode),
       );
@@ -173,34 +159,89 @@ export default function NetworkGraph({
       .data(nodes)
       .join("text")
       .text((graphNode) => graphNode.name)
-      .attr("font-size", 12)
-      .attr("font-weight", (graphNode) =>
-        graphNode.id === data.meta?.egoId ? 700 : 500,
-      )
+      .attr("font-size", (graphNode) => (graphNode.id === egoId ? 13 : 12))
+      .attr("font-weight", (graphNode) => (graphNode.id === egoId ? 700 : 500))
       .attr("fill", "#e4e4e7")
       .attr("paint-order", "stroke")
       .attr("stroke", "#09090b")
-      .attr("stroke-width", 3)
+      .attr("stroke-width", 3.5)
       .attr("stroke-linejoin", "round")
-      .attr("opacity", 0.92)
       .attr("pointer-events", "none");
+
+    let hoveredId: number | null = null;
+    let zoomK = 1;
+
+    function applyVisibility() {
+      const { focusSet: fSet, hasSearch: search, matchIds: matches } =
+        stateRef.current;
+      const hoverNeighbors =
+        hoveredId != null ? adjacency.get(hoveredId) ?? new Set<number>() : null;
+      const hoverLabels =
+        hoverNeighbors && hoverNeighbors.size <= NEIGHBOR_LABEL_CAP;
+
+      const isActive = (id: number): boolean => {
+        if (hoveredId != null)
+          return id === hoveredId || hoverNeighbors!.has(id);
+        if (fSet) return fSet.has(id);
+        if (search) return matches.has(id);
+        return true;
+      };
+      const showLabel = (id: number): boolean => {
+        if (id === egoId) return true;
+        if (hoveredId != null)
+          return id === hoveredId || (hoverLabels! && hoverNeighbors!.has(id));
+        if (fSet) return fSet.has(id);
+        if (search) return matches.has(id);
+        return zoomK >= LABELS_ALL_ZOOM;
+      };
+
+      node.attr("opacity", (n) => (isActive(n.id) ? 1 : 0.1));
+      label
+        .attr("display", (n) => (showLabel(n.id) ? null : "none"))
+        .attr("opacity", (n) => (isActive(n.id) ? 0.95 : 0.12));
+      link.attr("stroke-opacity", (edge) => {
+        const a = getLinkedNodeId(edge.source);
+        const b = getLinkedNodeId(edge.target);
+        if (hoveredId != null)
+          return a === hoveredId || b === hoveredId ? 0.9 : 0.05;
+        return isActive(a) && isActive(b) ? 0.5 : 0.05;
+      });
+    }
+    applyVisibilityRef.current = applyVisibility;
+
+    node
+      .on("mouseenter", (_event, graphNode) => {
+        hoveredId = graphNode.id;
+        applyVisibility();
+      })
+      .on("mouseleave", () => {
+        hoveredId = null;
+        applyVisibility();
+      });
 
     const simulation = d3
       .forceSimulation(nodes)
-      .force("charge", d3.forceManyBody<SimulationNode>().strength(-300))
+      .force(
+        "charge",
+        d3.forceManyBody<SimulationNode>().strength(-460).distanceMax(640),
+      )
       .force(
         "link",
         d3
           .forceLink<SimulationNode, SimulationLink>(links)
           .id((graphNode) => graphNode.id)
-          .distance(90),
+          .distance(115)
+          .strength(0.6),
       )
       .force("center", d3.forceCenter(WIDTH / 2, HEIGHT / 2))
+      .force("x", d3.forceX(WIDTH / 2).strength(0.03))
+      .force("y", d3.forceY(HEIGHT / 2).strength(0.03))
       .force(
         "collide",
         d3
           .forceCollide<SimulationNode>()
-          .radius((graphNode) => radius(graphNode.connectionCount) + 4),
+          .radius((graphNode) => radius(graphNode.connectionCount) + 7)
+          .strength(0.9),
       );
 
     const drag = d3
@@ -224,13 +265,41 @@ export default function NetworkGraph({
 
     const zoom = d3
       .zoom<SVGSVGElement, unknown>()
-      .scaleExtent([0.35, 4])
+      .scaleExtent([0.2, 4])
       .on("zoom", (event) => {
         root.attr("transform", event.transform.toString());
-        label.attr("display", event.transform.k < 0.55 ? "none" : null);
+        const prev = zoomK;
+        zoomK = event.transform.k;
+        // only relabel when crossing the "show all" threshold (cheap)
+        if (prev >= LABELS_ALL_ZOOM !== (zoomK >= LABELS_ALL_ZOOM))
+          applyVisibility();
       });
 
     svg.call(zoom);
+
+    // Frame the whole graph in the viewport once it settles.
+    let fitted = false;
+    function fitToView() {
+      if (fitted) return;
+      fitted = true;
+      const pad = 48;
+      const xs = nodes.map((n) => n.x ?? WIDTH / 2);
+      const ys = nodes.map((n) => n.y ?? HEIGHT / 2);
+      const minX = Math.min(...xs) - pad;
+      const maxX = Math.max(...xs) + pad;
+      const minY = Math.min(...ys) - pad;
+      const maxY = Math.max(...ys) + pad;
+      const w = Math.max(maxX - minX, 1);
+      const h = Math.max(maxY - minY, 1);
+      const scale = Math.min(WIDTH / w, HEIGHT / h, 1.4);
+      const tx = WIDTH / 2 - (scale * (minX + maxX)) / 2;
+      const ty = HEIGHT / 2 - (scale * (minY + maxY)) / 2;
+      svg
+        .transition()
+        .duration(500)
+        .call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
+    }
+    simulation.on("end", fitToView);
 
     simulation.on("tick", () => {
       link
@@ -247,41 +316,24 @@ export default function NetworkGraph({
         .attr(
           "x",
           (graphNode) =>
-            (graphNode.x ?? 0) + radius(graphNode.connectionCount) + 8,
+            (graphNode.x ?? 0) + radius(graphNode.connectionCount) + 7,
         )
         .attr("y", (graphNode) => (graphNode.y ?? 0) + 4);
     });
 
+    applyVisibility();
+
     return () => {
       simulation.stop();
       svg.on(".zoom", null);
+      applyVisibilityRef.current = null;
     };
-  }, [data]);
+  }, [data, adjacency]);
 
+  // Light effect: push search/focus state in and re-apply visibility (no rebuild).
   useEffect(() => {
-    const svgElement = svgRef.current;
-    if (!svgElement) return;
-
-    const svg = d3.select(svgElement);
-    // focus (clicked node + neighbors) takes precedence over the search filter
-    const nodeOn = (id: number) =>
-      focusSet ? focusSet.has(id) : !hasSearch || matchIds.has(id);
-
-    svg
-      .selectAll<SVGCircleElement, SimulationNode>(".graph-nodes circle")
-      .attr("opacity", (graphNode) => (nodeOn(graphNode.id) ? 1 : 0.12));
-
-    svg
-      .selectAll<SVGTextElement, SimulationNode>(".graph-labels text")
-      .attr("opacity", (graphNode) => (nodeOn(graphNode.id) ? 0.92 : 0.08));
-
-    svg
-      .selectAll<SVGLineElement, SimulationLink>(".graph-links line")
-      .attr("stroke-opacity", (edge) => {
-        const sourceId = getLinkedNodeId(edge.source);
-        const targetId = getLinkedNodeId(edge.target);
-        return nodeOn(sourceId) && nodeOn(targetId) ? 0.85 : 0.07;
-      });
+    stateRef.current = { focusSet, hasSearch, matchIds };
+    applyVisibilityRef.current?.();
   }, [hasSearch, matchIds, focusSet]);
 
   return (
@@ -324,7 +376,7 @@ export default function NetworkGraph({
           {data.nodes.length} nós · {data.links.length} conexões
         </div>
         <div>
-          Arraste os nós; use scroll ou pinch para aproximar e navegar.
+          Passe o mouse para ver nomes · arraste · scroll/pinch para aproximar
         </div>
       </div>
     </div>
