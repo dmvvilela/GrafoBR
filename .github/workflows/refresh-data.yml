@@ -1,22 +1,26 @@
 name: refresh-data
 
-# Weekly rebuild of the ego-network JSON from public sources.
+# Regenerate the committed data snapshot (donations + sócio + federal contracts) and
+# commit it back. This mirrors `pipeline/scripts/build_all.sh` exactly — it does NOT do a
+# small donation-only build.
 #
-# Phase 2 runs a small Câmara+TSE slice. Phase 3 expands this toward the full
-# ~594-politician build and adds the heavier Receita/Transparência sources.
+# Refreshing is normally done LOCALLY (`bash pipeline/scripts/build_all.sh 512` -> commit),
+# because it needs the ~1.6GB Receita CNPJ download and BigQuery auth. This workflow is the
+# CI equivalent and is **manual-trigger only** (no weekly cron that could fail or drift).
+#
+# Prerequisite: repo secret GCP_SA_KEY = a Google Cloud service-account JSON key with
+# BigQuery access (for the contracts step). Without it the run fails loudly — never silent.
 
 on:
-  schedule:
-    - cron: "17 6 * * 1" # Mondays 06:17 UTC
-  workflow_dispatch: {} # allow manual runs from the Actions tab
+  workflow_dispatch: {}
+  # schedule:                       # opt-in: enable only after GCP_SA_KEY is configured
+  #   - cron: "17 6 1 * *"          # monthly
 
-# Least privilege. Bump to `contents: write` ONLY if you choose to commit output
-# back into the repo (publish option B below).
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  build:
+  refresh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,43 +28,44 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
-          cache-dependency-path: pipeline/requirements.txt
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
       - name: Install pipeline deps
         working-directory: pipeline
-        run: pip install -r requirements.txt
+        run: |
+          python -m venv .venv
+          .venv/bin/pip install -r requirements.txt
 
-      # ⚠️ DISK: GitHub runners have only ~14 GB free. DO NOT download the full Receita
-      # dump here. Use the stream/filter approach, or the Base dos Dados BigQuery path
-      # (see docs/DATA-FEASIBILITY.md → "Storage & volume strategy").
-      # If using BigQuery, authenticate first, e.g.:
-      #   - uses: google-github-actions/auth@v2
-      #     with: { credentials_json: '${{ secrets.GCP_SA_KEY }}' }
-
-      - name: Build ego-networks
-        working-directory: pipeline
-        run: PYTHONPATH=src python -m grafobr_pipeline.run --limit 5 --output-dir ../data --cache-dir .cache
-
-      # ---- Publish (pick ONE; A is the simplest while iterating) ----
-
-      # A) Upload as a build artifact. Works even though data/*.json is gitignored.
-      - name: Upload data artifact
-        uses: actions/upload-artifact@v4
+      - name: Authenticate to BigQuery (contracts)
+        uses: google-github-actions/auth@v2
         with:
-          name: ego-networks
-          path: data/*.json
-          if-no-files-found: ignore
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
 
-      # B) Commit regenerated JSON back to the repo (needs `permissions: contents: write`
-      #    above, and `git add -f` because data/*.json is gitignored):
-      #   - name: Commit data
-      #     run: |
-      #       git config user.name "github-actions[bot]"
-      #       git config user.email "github-actions[bot]@users.noreply.github.com"
-      #       git add -f data/*.json
-      #       git diff --cached --quiet || git commit -m "chore: refresh ego-network data"
-      #       git push
+      - name: Download Receita CNPJ shards (~1.6GB, one-time per run)
+        working-directory: pipeline
+        run: PYTHONPATH=src .venv/bin/python scripts/download_cnpj_files.py
 
-      # C) Push to Cloudflare R2 / your CDN, or trigger the web deploy. Wire when the
-      #    serve target is finalized (see docs/PLAN.md §8 Deployment).
+      - name: Build full dataset (donations + sócio + contracts)
+        working-directory: pipeline
+        run: bash scripts/build_all.sh 512
+
+      - name: Sync + derive into the committed snapshot
+        working-directory: web
+        run: |
+          pnpm install --frozen-lockfile
+          node scripts/sync-data.mjs
+          node scripts/derive-shared.mjs
+          node scripts/derive-highlights.mjs
+
+      - name: Commit refreshed snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/public/data
+          git diff --cached --quiet || git commit -m "chore: refresh data snapshot [skip ci]"
+          git push

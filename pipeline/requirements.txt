@@ -5,6 +5,8 @@ pandas>=2.2           # tabular glue where DuckDB isn't ergonomic
 pyarrow>=17           # parquet I/O for cached datasets
 jsonschema>=4.23      # validate emitted files against ../contract/ego-network.schema.json
 python-dotenv>=1.0    # load .env (API keys)
+google-cloud-bigquery>=3.40   # federal contracts via Base dos Dados (bypasses the WAF)
+db-dtypes>=1.2        # BigQuery result -> pandas dtype support
 
 # Optional, for the messy fuzzy-matching cases (CPF masking / name-only edges):
 # splink>=4.0         # probabilistic entity resolution (Fellegi-Sunter)

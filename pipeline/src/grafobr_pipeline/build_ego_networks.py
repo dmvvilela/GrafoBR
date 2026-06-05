@@ -95,6 +95,23 @@ def _money(value: float) -> str:
     return f"R${formatted}"
 
 
+_QUALIFICACAO_SOCIO = {
+    "05": "administrador", "08": "conselheiro de administração", "10": "diretor",
+    "16": "presidente", "17": "procurador", "21": "sócio-gerente", "22": "sócio",
+    "23": "sócio cotista", "24": "sócio menor", "30": "administrador judicial",
+    "49": "sócio-administrador", "54": "fundador", "65": "titular pessoa física",
+    "78": "titular pessoa física", "70": "administrador (titular)",
+}
+
+
+def _format_receita_date(value: object) -> Optional[str]:
+    """Receita YYYYMMDD -> DD/MM/YYYY (None if not a valid 8-digit date)."""
+    digits = "".join(c for c in str(value or "") if c.isdigit())
+    if len(digits) != 8 or digits == "00000000":
+        return None
+    return f"{digits[6:8]}/{digits[4:6]}/{digits[0:4]}"
+
+
 _FAIXA_BOUNDS = [
     (0, 12, 1), (13, 20, 2), (21, 30, 3), (31, 40, 4),
     (41, 50, 5), (51, 60, 6), (61, 70, 7), (71, 80, 8),
@@ -551,10 +568,12 @@ def expand_ego_network(
                 "category": "company",
             }
             description = "Participação societária registrada na base CNPJ/Receita Federal"
-            if qualification:
-                description += f" (qualificação {qualification})"
-            if entry_date:
-                description += f", entrada em {entry_date}"
+            qual_label = _QUALIFICACAO_SOCIO.get(str(qualification or "").strip())
+            if qual_label:
+                description += f" ({qual_label})"
+            date_label = _format_receita_date(entry_date)
+            if date_label:
+                description += f", desde {date_label}"
             links.append(
                 {
                     "id": len(links) + 1,

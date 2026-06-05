@@ -31,7 +31,9 @@ cut -d',' -f1 .cache/cnpj/scoped/receita_socios_scoped.csv | tail -n +2 | sort -
   > .cache/cnpj/our_roots.txt
 
 echo "[5/6] federal contracts via BigQuery (no WAF)..."
-.venv/bin/python scripts/bq_contracts.py 2>&1 | grep -vE "Warning|warn|FutureWarning" || true
+# no `|| true`: a BigQuery auth/network failure must abort the build (set -e), not
+# silently leave a stale/empty contratos.csv.
+PYTHONWARNINGS=ignore .venv/bin/python scripts/bq_contracts.py
 
 echo "[6/6] full rebuild with socio + contrato..."
 run -m grafobr_pipeline.run --limit "$LIMIT" \
