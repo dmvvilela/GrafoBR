@@ -33,10 +33,21 @@ Optional Receita/QSA `socio` edges require explicit local/scoped CSV inputs. The
 pipeline does not download or ingest the full CNPJ base by default:
 
 ```bash
+python scripts/extract_target_cpfs.py \
+  --index ../data/index.json \
+  --output .cache/cnpj/target_cpfs.txt
+
+# If you have the broad Nextcloud share zip, extract only the inner CNPJ zips.
+# This is safe to rerun while the large file is still downloading; pending files
+# are skipped until their bytes arrive.
+python scripts/extract_cnpj_members.py \
+  --share-zip .cache/cnpj/_full_release.zip \
+  --output-dir .cache/cnpj/members
+
 PYTHONPATH=src python -m grafobr_pipeline.receita slice-qsa \
-  --empresas-input /path/to/Empresas0.zip \
-  --socios-input /path/to/Socios0.zip \
-  --target-cpf-file /path/to/seed-cpfs.txt \
+  --empresas-input .cache/cnpj/members/2023-05 \
+  --socios-input .cache/cnpj/members/2023-05 \
+  --target-cpf-file .cache/cnpj/target_cpfs.txt \
   --output-dir .cache/receita-scoped
 
 PYTHONPATH=src python -m grafobr_pipeline.run \
