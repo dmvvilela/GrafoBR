@@ -1,9 +1,10 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, Search } from "lucide-react";
 import NetworkGraph from "@/components/NetworkGraph";
+import Avatar from "@/components/Avatar";
 import type { EgoNetwork, GraphNode } from "@/lib/contract";
 import type { IndexEntry } from "@/lib/data";
 import {
@@ -11,13 +12,7 @@ import {
   CONNECTION_LABELS,
   getCategoryColor,
 } from "@/lib/graph-colors";
-
-function initials(name: string): string {
-  const parts = name.trim().split(/\s+/);
-  const first = parts[0]?.[0] ?? "";
-  const last = parts.length > 1 ? parts[parts.length - 1][0] : "";
-  return (first + last).toUpperCase();
-}
+import { isPartyDonor, normalizeDonorName } from "@/lib/donors";
 
 const SOURCE_LABELS: Record<string, string> = {
   camara: "Câmara dos Deputados",
@@ -30,6 +25,11 @@ function sourceLabel(source: string): string {
   return SOURCE_LABELS[source] ?? source;
 }
 
+type SharedMap = Record<
+  string,
+  { name: string; deputies: { id: number; name: string }[] }
+>;
+
 export default function EgoView({
   ego,
   entry,
@@ -39,13 +39,24 @@ export default function EgoView({
 }) {
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState<GraphNode | null>(null);
+  const [shared, setShared] = useState<SharedMap>({});
   const sourceLabels = (ego.meta?.sources ?? []).map(sourceLabel);
+
+  useEffect(() => {
+    fetch("/data/_shared-donors.json")
+      .then((r) => (r.ok ? r.json() : {}))
+      .then(setShared)
+      .catch(() => {});
+  }, []);
 
   const nameById = useMemo(
     () => new Map(ego.nodes.map((n) => [n.id, n.name])),
     [ego.nodes],
   );
-  const donorCount = ego.links.filter((l) => l.connectionType === "doacao").length;
+
+  const donors = ego.nodes.filter((n) => n.category === "donor");
+  const partyDonors = donors.filter((n) => isPartyDonor(n.name)).length;
+  const privateDonors = donors.length - partyDonors;
 
   const selectedLinks = useMemo(() => {
     if (!selected) return [];
@@ -62,6 +73,13 @@ export default function EgoView({
       });
   }, [selected, ego.links, nameById]);
 
+  const selectedAlsoFunded = useMemo(() => {
+    if (!selected || selected.category !== "donor") return [];
+    const e = shared[normalizeDonorName(selected.name)];
+    if (!e) return [];
+    return e.deputies.filter((d) => d.id !== ego.meta?.egoId);
+  }, [selected, shared, ego.meta?.egoId]);
+
   return (
     <div className="space-y-6">
       <Link
@@ -72,9 +90,7 @@ export default function EgoView({
       </Link>
 
       <header className="flex flex-wrap items-center gap-4 rounded-2xl border border-white/5 bg-white/[0.03] p-5">
-        <span className="grid h-14 w-14 shrink-0 place-items-center rounded-xl bg-gradient-to-br from-indigo-400/20 to-emerald-400/20 text-lg font-semibold text-indigo-200 ring-1 ring-white/10">
-          {initials(ego.meta?.egoName ?? "?")}
-        </span>
+        <Avatar id={ego.meta?.egoId ?? entry?.id ?? 0} name={ego.meta?.egoName ?? "?"} size={64} />
         <div className="min-w-0 flex-1">
           <h1 className="text-2xl font-semibold tracking-tight">
             {ego.meta?.egoName}
@@ -88,7 +104,9 @@ export default function EgoView({
             {entry?.uf && <span className="text-zinc-400">{entry.uf}</span>}
             <span className="text-zinc-600">·</span>
             <span className="text-zinc-400">
-              {Math.max(0, ego.nodes.length - 1)} conexões · {donorCount} doadores
+              <span className="text-amber-300">{privateDonors}</span>{" "}
+              {privateDonors === 1 ? "doador privado" : "doadores privados"} ·{" "}
+              {partyDonors} de partidos
             </span>
           </div>
         </div>
@@ -137,9 +155,27 @@ export default function EgoView({
                   {CATEGORY_LABELS[selected.category]} · {selected.connectionCount}{" "}
                   conexões
                 </p>
+
+                {selected.category === "donor" && (
+                  <span
+                    className={`mt-2 inline-block rounded px-1.5 py-0.5 text-[11px] ring-1 ${
+                      isPartyDonor(selected.name)
+                        ? "bg-white/5 text-zinc-400 ring-white/10"
+                        : "bg-amber-400/10 text-amber-300 ring-amber-400/20"
+                    }`}
+                  >
+                    {isPartyDonor(selected.name)
+                      ? "Comitê de partido"
+                      : "Doador privado"}
+                  </span>
+                )}
+
                 <ul className="mt-3 space-y-2 border-t border-white/5 pt-3">
                   {selectedLinks.map((l) => (
-                    <li key={l.id} className="text-xs leading-relaxed text-zinc-400">
+                    <li
+                      key={l.id}
+                      className="text-xs leading-relaxed text-zinc-400"
+                    >
                       <span className="font-medium text-zinc-300">
                         {CONNECTION_LABELS[l.type]}
                       </span>
@@ -147,6 +183,30 @@ export default function EgoView({
                     </li>
                   ))}
                 </ul>
+
+                {selectedAlsoFunded.length > 0 && (
+                  <div className="mt-3 border-t border-white/5 pt-3">
+                    <p className="text-xs text-zinc-500">
+                      Também doou para {selectedAlsoFunded.length}{" "}
+                      {selectedAlsoFunded.length === 1
+                        ? "outro deputado"
+                        : "outros deputados"}
+                      :
+                    </p>
+                    <ul className="mt-1.5 space-y-1">
+                      {selectedAlsoFunded.map((d) => (
+                        <li key={d.id}>
+                          <Link
+                            href={`/politico/${d.id}`}
+                            className="text-xs text-emerald-300 hover:underline"
+                          >
+                            {d.name}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </>
             ) : (
               <p className="text-sm text-zinc-500">
