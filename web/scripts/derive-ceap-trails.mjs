@@ -67,15 +67,26 @@ for (const f of files) {
   }
 }
 
-const trails = [...bySupplier.values()]
+// Cap to 3 per vector so the strip isn't a wall of car-rental firms — let
+// publicity / consultancy / aircraft surface too.
+const PER_CATEGORY = 3;
+const ranked = [...bySupplier.values()]
   .map((r) => ({
     supplier: r.name,
     total: Math.round(r.total),
     deputies: r.deputies.size,
     category: [...r.types.entries()].sort((a, b) => b[1] - a[1])[0][0],
   }))
-  .sort((a, b) => b.total - a.total)
-  .slice(0, 9);
+  .sort((a, b) => b.total - a.total);
+const seen = {};
+const trails = [];
+for (const t of ranked) {
+  seen[t.category] = seen[t.category] ?? 0;
+  if (seen[t.category] >= PER_CATEGORY) continue;
+  seen[t.category]++;
+  trails.push(t);
+  if (trails.length >= 9) break;
+}
 
 await writeFile(path.join(dir, "_ceap-trails.json"), JSON.stringify(trails), "utf8");
 console.log(`[derive-ceap-trails] top ${trails.length} CEAP vectors`);
