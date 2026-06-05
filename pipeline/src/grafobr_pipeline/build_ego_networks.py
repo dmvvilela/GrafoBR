@@ -95,6 +95,30 @@ def _money(value: float) -> str:
     return f"R${formatted}"
 
 
+_FAIXA_BOUNDS = [
+    (0, 12, 1), (13, 20, 2), (21, 30, 3), (31, 40, 4),
+    (41, 50, 5), (51, 60, 6), (61, 70, 7), (71, 80, 8),
+]
+
+
+def _faixa_codes(birth_date: Optional[str], ref_year: int = 2023) -> list[str]:
+    """Receita faixa_etaria codes consistent with a deputy's age (±1 bracket, as of the
+    2023-05 release). Returns [] when the birth date is unknown -> no faixa filtering."""
+    if not birth_date:
+        return []
+    try:
+        year = int(str(birth_date)[:4])
+    except (ValueError, TypeError):
+        return []
+    age = ref_year - year
+    code = next((c for lo, hi, c in _FAIXA_BOUNDS if lo <= age <= hi), None)
+    if code is None:
+        code = 9 if age > 80 else None
+    if code is None:
+        return []
+    return [str(c) for c in (code - 1, code, code + 1) if 1 <= c <= 9]
+
+
 def load_seed_politicians(
     con: duckdb.DuckDBPyConnection,
     *,
@@ -114,14 +138,15 @@ def load_seed_politicians(
           normalized_name varchar,
           party varchar,
           uf varchar,
-          email varchar
+          email varchar,
+          birth_date varchar
         )
         """
     )
     con.executemany(
         """
         insert into camara_deputies
-        values (?, ?, ?, ?, ?, ?, ?, ?)
+        values (?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
         [
             (
@@ -133,6 +158,7 @@ def load_seed_politicians(
                 deputy.party,
                 deputy.uf,
                 deputy.email,
+                deputy.birth_date,
             )
             for deputy in deputies
         ],
@@ -311,7 +337,8 @@ def _load_receita_qsa(
           normalized_socio_name varchar,
           tipo_socio varchar,
           qualificacao varchar,
-          data_entrada varchar
+          data_entrada varchar,
+          faixa_etaria varchar
         )
         """
     )
@@ -323,7 +350,7 @@ def _load_receita_qsa(
         )
     if socios:
         con.executemany(
-            "insert into receita_socios values (?, ?, ?, ?, ?, ?, ?)",
+            "insert into receita_socios values (?, ?, ?, ?, ?, ?, ?, ?)",
             [
                 (
                     row["cnpj_root"],
@@ -333,6 +360,7 @@ def _load_receita_qsa(
                     row["tipo_socio"],
                     row["qualificacao"],
                     row["data_entrada"],
+                    row.get("faixa_etaria"),
                 )
                 for row in socios
             ],
@@ -468,8 +496,19 @@ def expand_ego_network(
             _normalize_name(seed.get("full_name")),
         }
         normalized_names.discard("")
+        faixa_codes = _faixa_codes(seed.get("birth_date"))
+        faixa_filter = ""
+        faixa_params: list[Any] = []
+        if faixa_codes:
+            # namesakes of a clearly different age are filtered out (the partner CPF is
+            # masked, so middle-6 + name alone can collide). Keep rows with no faixa.
+            faixa_filter = (
+                "and (s.faixa_etaria is null or s.faixa_etaria in ('', '0') "
+                "or s.faixa_etaria in (select unnest(?::varchar[]))) "
+            )
+            faixa_params = [faixa_codes]
         socio_rows = con.execute(
-            """
+            f"""
             select
               s.cnpj_root,
               coalesce(e.razao_social, concat('CNPJ raiz ', s.cnpj_root)) as company_name,
@@ -488,12 +527,19 @@ def expand_ego_network(
                 and s.normalized_socio_name in (
                   select unnest(?::varchar[])
                 )
+                {faixa_filter}
               )
             group by s.cnpj_root, company_name
             order by company_name
             limit ?
             """,
-            [seed["cpf"], cpf_middle_six, list(normalized_names), ctx.max_fanout],
+            [
+                seed["cpf"],
+                cpf_middle_six,
+                list(normalized_names),
+                *faixa_params,
+                ctx.max_fanout,
+            ],
         ).fetchall()
 
         for row in socio_rows:
@@ -740,6 +786,7 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
             d.cpf,
             d.party,
             d.uf,
+            d.birth_date,
             c.sq_candidate,
             c.ballot_name,
             c.full_name,

@@ -27,6 +27,7 @@ class Deputy:
     party: Optional[str]
     uf: Optional[str]
     email: Optional[str]
+    birth_date: Optional[str] = None
 
 
 def _digits(value: Optional[str]) -> Optional[str]:
@@ -137,6 +138,7 @@ def fetch_current_deputies(
                     party=status.get("siglaPartido") or row.get("siglaPartido"),
                     uf=status.get("siglaUf") or row.get("siglaUf"),
                     email=status.get("email") or row.get("email"),
+                    birth_date=detail.get("dataNascimento"),
                 )
             )
 

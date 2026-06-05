@@ -201,6 +201,7 @@ def iter_socios_csv(path: str | Path) -> list[dict[str, Optional[str]]]:
                 partner_type = row.get("tipo_socio") or row.get("identificador_socio")
                 qualification = row.get("qualificacao_socio") or row.get("qualificacao")
                 entry_date = row.get("data_entrada") or row.get("data_entrada_sociedade")
+                faixa = row.get("faixa_etaria")
                 if root and doc and name:
                     rows.append(
                         {
@@ -210,6 +211,7 @@ def iter_socios_csv(path: str | Path) -> list[dict[str, Optional[str]]]:
                             "tipo_socio": partner_type,
                             "qualificacao": qualification,
                             "data_entrada": entry_date,
+                            "faixa_etaria": faixa,
                         }
                     )
         else:
@@ -228,6 +230,7 @@ def iter_socios_csv(path: str | Path) -> list[dict[str, Optional[str]]]:
                             "tipo_socio": row[1],
                             "qualificacao": row[4],
                             "data_entrada": row[5] if len(row) > 5 else None,
+                            "faixa_etaria": row[10] if len(row) > 10 else None,
                         }
                     )
     return rows
@@ -255,6 +258,7 @@ def _socio_from_record(record: list[str] | dict[str, str]) -> Optional[dict[str,
         partner_type = record.get("tipo_socio") or record.get("identificador_socio")
         qualification = record.get("qualificacao_socio") or record.get("qualificacao")
         entry_date = record.get("data_entrada") or record.get("data_entrada_sociedade")
+        faixa = record.get("faixa_etaria")
     else:
         if len(record) < 5:
             return None
@@ -264,6 +268,7 @@ def _socio_from_record(record: list[str] | dict[str, str]) -> Optional[dict[str,
         doc = digits(record[3])
         qualification = record[4]
         entry_date = record[5] if len(record) > 5 else None
+        faixa = record[10] if len(record) > 10 else None
     if not root or not doc or not name:
         return None
     return {
@@ -273,6 +278,7 @@ def _socio_from_record(record: list[str] | dict[str, str]) -> Optional[dict[str,
         "tipo_socio": partner_type or "",
         "qualificacao": qualification or "",
         "data_entrada": entry_date or "",
+        "faixa_etaria": faixa or "",
     }
 
 
@@ -310,6 +316,7 @@ def slice_qsa_sources(
                 "tipo_socio",
                 "qualificacao",
                 "data_entrada",
+                "faixa_etaria",
             ],
         )
         writer.writeheader()
@@ -330,6 +337,7 @@ def slice_qsa_sources(
                     "tipo_socio": socio["tipo_socio"],
                     "qualificacao": socio["qualificacao"],
                     "data_entrada": socio["data_entrada"],
+                    "faixa_etaria": socio.get("faixa_etaria", ""),
                 }
             )
 
