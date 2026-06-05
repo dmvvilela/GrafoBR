@@ -83,6 +83,11 @@ Everything else (sanctions, holdings, courts, RAIS, etc.) is **enrichment — sk
 
 ## Storage & volume strategy (you do NOT need the full datasets)
 
+> **Updated 2026-06 — as-built.** The whole-folder Receita download is a 44 GB+ truncated dead
+> end; use the **per-file WebDAV path** for sócios, and pull **contracts via BigQuery / Base dos
+> Dados** (the Transparência portal is AWS-WAF-blocked). The actual working flow + setup is in
+> **`pipeline/README.md`**.
+
 The "~1 TB" associated with br-acc is its **RAM** for the whole-nation Neo4j graph — which
 we don't build. Our footprint is small by design:
 
