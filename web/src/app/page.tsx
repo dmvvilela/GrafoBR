@@ -44,7 +44,7 @@ export default async function Home() {
         </div>
 
         <h1 className="mx-auto mt-5 max-w-3xl text-4xl font-semibold tracking-tight text-balance sm:text-5xl">
-          <span className="gradient-text">Explore conexões</span> registradas de
+          Explore <span className="gradient-text">conexões</span> registradas de
           parlamentares federais.
         </h1>
 
