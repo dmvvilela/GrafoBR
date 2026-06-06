@@ -30,7 +30,7 @@ export default async function Image() {
         </div>
 
         <div style={{ display: "flex", fontSize: 78, fontWeight: 700, lineHeight: 1.05, maxWidth: 980 }}>
-          Siga o dinheiro público dos deputados federais
+          Conexões de dados públicos dos parlamentares federais
         </div>
 
         <div style={{ display: "flex", fontSize: 34, color: "#a1a1aa", marginTop: 28, maxWidth: 900 }}>

@@ -401,6 +401,7 @@ def _load_emendas(con: duckdb.DuckDBPyConnection, emendas_csv: str | Path) -> in
         """
         create or replace table emendas (
           normalized_author varchar,
+          author_id varchar,
           uf varchar,
           funcao varchar,
           empenhado double,
@@ -417,6 +418,7 @@ def _load_emendas(con: duckdb.DuckDBPyConnection, emendas_csv: str | Path) -> in
             rows.append(
                 (
                     _normalize_name(row.get("autor")),
+                    (row.get("autor_id") or "").strip(),
                     (row.get("uf") or "").strip(),
                     (row.get("funcao") or "").strip() or "Não informado",
                     float(row.get("empenhado") or 0),
@@ -428,7 +430,7 @@ def _load_emendas(con: duckdb.DuckDBPyConnection, emendas_csv: str | Path) -> in
             )
     if rows:
         con.executemany(
-            "insert into emendas values (?, ?, ?, ?, ?, ?, ?, ?)", rows
+            "insert into emendas values (?, ?, ?, ?, ?, ?, ?, ?, ?)", rows
         )
     return con.execute("select count(*) from emendas").fetchone()[0]
 
@@ -793,6 +795,10 @@ def expand_ego_network(
         }
         emenda_names.discard("")
         if emenda_names:
+            # Disambiguate by destination state: a same-named author from another
+            # UF won't match. Individual amendments overwhelmingly fund the author's
+            # own state, so this keeps ~99.5% of the money while killing homonyms.
+            # Non-state destinations (national / region / blank) are always kept.
             emenda_rows = con.execute(
                 """
                 select
@@ -804,11 +810,12 @@ def expand_ego_network(
                   max(ano_max) as ano_max
                 from emendas
                 where normalized_author in (select unnest(?::varchar[]))
+                  and (uf = ? or uf is null or uf = '' or length(uf) <> 2)
                 group by funcao
                 order by empenhado desc nulls last
                 limit ?
                 """,
-                [list(emenda_names), ctx.max_fanout],
+                [list(emenda_names), seed.get("uf"), ctx.max_fanout],
             ).fetchall()
             for funcao, empenhado, pago, n, ano_min, ano_max in emenda_rows:
                 destino_key = f"destino:{_normalize_name(funcao)}"

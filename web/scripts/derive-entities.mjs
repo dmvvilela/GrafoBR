@@ -59,8 +59,13 @@ for (const f of files) {
   for (const n of ego.nodes) {
     if (!CATEGORIES.has(n.category)) continue;
     if (n.category === "donor" && isParty(n.name)) continue;
-    const link = ego.links.find((l) => l.source === n.id || l.target === n.id);
-    const amount = link ? brl(link.description) : 0;
+    // a node can have several incident edges (e.g. socio with no value + despesa/
+    // contrato with one); take the largest parsed amount, not just the first edge
+    let amount = 0;
+    for (const l of ego.links) {
+      if (l.source === n.id || l.target === n.id)
+        amount = Math.max(amount, brl(l.description));
+    }
     if (!byName.has(n.name))
       byName.set(n.name, { name: n.name, category: n.category, deputies: new Map() });
     const rec = byName.get(n.name);

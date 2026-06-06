@@ -24,6 +24,7 @@ FROM_YEAR = 2023
 SQL = """
 SELECT
   nome_autor_emenda                      AS autor,
+  id_autor_emenda                        AS autor_id,
   sigla_uf_gasto                         AS uf,
   COALESCE(NULLIF(nome_funcao, ''), 'Não informado') AS funcao,
   ROUND(SUM(valor_empenhado))            AS empenhado,
@@ -35,7 +36,7 @@ FROM `basedosdados.br_cgu_emendas_parlamentares.microdados`
 WHERE LOWER(tipo_emenda) LIKE '%individual%'
   AND ano_emenda >= @from_year
   AND nome_autor_emenda IS NOT NULL
-GROUP BY autor, uf, funcao
+GROUP BY autor, autor_id, uf, funcao
 HAVING empenhado > 0 OR pago > 0
 """
 
@@ -56,9 +57,9 @@ def main() -> int:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     with OUT.open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["autor", "uf", "funcao", "empenhado", "pago", "n", "ano_min", "ano_max"])
+        w.writerow(["autor", "autor_id", "uf", "funcao", "empenhado", "pago", "n", "ano_min", "ano_max"])
         for r in rows:
-            w.writerow([r.autor, r.uf or "", r.funcao, int(r.empenhado or 0),
+            w.writerow([r.autor, r.autor_id or "", r.uf or "", r.funcao, int(r.empenhado or 0),
                         int(r.pago or 0), r.n, r.ano_min, r.ano_max])
     print(f"wrote {OUT} ({len(rows)} rows)", flush=True)
     return 0
