@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "egoId": 905985,
+    "egoName": "Nelsinho Trad",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5985.jpg",
+    "generatedAt": "2026-06-06T00:39:37.083492Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 905985,
+      "name": "Nelsinho Trad",
+      "category": "politician",
+      "connectionCount": 6
+    },
+    {
+      "id": 6,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "Múltiplo",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 905985,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$97.599.939,00 empenhado, R$86.940.492,00 pago (11 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 905985,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$89.816.846,00 empenhado, R$89.496.850,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 905985,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$3.648.720,00 empenhado, R$564.228,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 905985,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$2.100.000,00 empenhado, R$433.630,00 pago (2 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 905985,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.000.000,00 empenhado, R$2.000.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 905985,
+      "target": 6,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$299.400,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    }
+  ]
+}

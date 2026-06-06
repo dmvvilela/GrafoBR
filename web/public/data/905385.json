@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "egoId": 905385,
+    "egoName": "Irajá",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5385.jpg",
+    "generatedAt": "2026-06-06T00:39:36.829093Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 905385,
+      "name": "Irajá",
+      "category": "politician",
+      "connectionCount": 5
+    },
+    {
+      "id": 3,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "Essencial à justiça",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 905385,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$157.827.991,00 empenhado, R$24.401.669,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 905385,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$35.957.301,00 empenhado, R$35.891.301,00 pago (2 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 905385,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$2.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 905385,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Essencial à justiça: R$500.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 905385,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$499.723,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    }
+  ]
+}

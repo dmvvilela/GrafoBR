@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "egoId": 900070,
+    "egoName": "Renan Calheiros",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador70.jpg",
+    "generatedAt": "2026-06-06T00:39:37.191725Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 900070,
+      "name": "Renan Calheiros",
+      "category": "politician",
+      "connectionCount": 6
+    },
+    {
+      "id": 3,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 900070,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$99.741.222,00 empenhado, R$95.736.332,00 pago (7 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 900070,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$86.375.678,00 empenhado, R$86.045.278,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 900070,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$760.000,00 empenhado, R$737.500,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 900070,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$300.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 900070,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$300.000,00 empenhado, R$300.000,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 900070,
+      "target": 6,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$269.857,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    }
+  ]
+}

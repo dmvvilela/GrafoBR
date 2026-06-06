@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "egoId": 905352,
+    "egoName": "Rogério Carvalho",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5352.jpg",
+    "generatedAt": "2026-06-06T00:39:37.251776Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 905352,
+      "name": "Rogério Carvalho",
+      "category": "politician",
+      "connectionCount": 7
+    },
+    {
+      "id": 4,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 905352,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$105.509.909,00 empenhado, R$97.438.192,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 905352,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$84.143.476,00 empenhado, R$83.856.088,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 905352,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.800.000,00 empenhado, R$1.800.000,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 905352,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.199.657,00 empenhado, R$412.334,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 905352,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$1.100.000,00 empenhado, R$300.000,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 905352,
+      "target": 6,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$250.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 905352,
+      "target": 7,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$200.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    }
+  ]
+}

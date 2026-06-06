@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "egoId": 906358,
+    "egoName": "Ana Paula Lobato",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador6358.jpg",
+    "generatedAt": "2026-06-06T00:39:36.421618Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 906358,
+      "name": "Ana Paula Lobato",
+      "category": "politician",
+      "connectionCount": 7
+    },
+    {
+      "id": 4,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "Urbanismo",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 906358,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$70.361.447,00 empenhado, R$69.847.822,00 pago (5 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 906358,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$47.223.280,00 empenhado, R$46.949.222,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 906358,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$9.751.557,00 empenhado, R$2.639.092,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 906358,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$5.000.000,00 empenhado, R$412.492,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 906358,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$4.689.000,00 empenhado (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 906358,
+      "target": 6,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$499.571,00 empenhado, R$499.571,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 906358,
+      "target": 7,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$398.377,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    }
+  ]
+}

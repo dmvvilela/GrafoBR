@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "egoId": 900470,
+    "egoName": "Chico Rodrigues",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador470.jpg",
+    "generatedAt": "2026-06-06T00:39:36.514045Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 900470,
+      "name": "Chico Rodrigues",
+      "category": "politician",
+      "connectionCount": 6
+    },
+    {
+      "id": 3,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 900470,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$98.719.447,00 empenhado, R$88.333.821,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 900470,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$82.243.536,00 empenhado, R$81.932.838,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 900470,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$10.068.538,00 empenhado, R$3.517.299,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 900470,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$3.847.132,00 empenhado, R$896.764,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 900470,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.199.800,00 empenhado, R$34.990,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 900470,
+      "target": 6,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$909.454,00 empenhado, R$897.927,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    }
+  ]
+}

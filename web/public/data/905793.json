@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "egoId": 905793,
+    "egoName": "Dr. Hiran",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5793.jpg",
+    "generatedAt": "2026-06-06T00:39:36.619306Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 905793,
+      "name": "Dr. Hiran",
+      "category": "politician",
+      "connectionCount": 6
+    },
+    {
+      "id": 6,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 905793,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$69.078.815,00 empenhado, R$23.987.473,00 pago (12 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 905793,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$65.169.846,00 empenhado, R$64.851.158,00 pago (15 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 905793,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$2.349.983,00 empenhado (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 905793,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$600.000,00 empenhado, R$558.496,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 905793,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$417.425,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 905793,
+      "target": 6,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$250.000,00 empenhado, R$250.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    }
+  ]
+}

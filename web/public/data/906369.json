@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "egoId": 906369,
+    "egoName": "Jussara Lima",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador6369.jpg",
+    "generatedAt": "2026-06-06T00:39:36.944028Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 906369,
+      "name": "Jussara Lima",
+      "category": "politician",
+      "connectionCount": 3
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "Transporte",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 906369,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$69.086.950,00 empenhado, R$68.687.048,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 906369,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$67.087.278,00 empenhado, R$66.764.583,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 906369,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Transporte: R$2.000.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    }
+  ]
+}

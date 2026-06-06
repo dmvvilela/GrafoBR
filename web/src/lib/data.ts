@@ -11,6 +11,8 @@ export interface IndexEntry {
   name: string;
   party?: string | null;
   uf?: string | null;
+  chamber?: "camara" | "senado";
+  photo?: string | null;
   sources: string[];
   path: string;
 }

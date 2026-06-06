@@ -39,6 +39,8 @@ export interface GraphLink {
 export interface EgoNetworkMeta {
   egoId?: number;
   egoName?: string;
+  chamber?: "camara" | "senado";
+  photo?: string | null;
   generatedAt?: string;
   sources?: string[];
   summary?: string | null; // filled by build-time AI (Phase 5)

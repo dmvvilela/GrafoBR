@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "egoId": 905422,
+    "egoName": "Marcos Rogério",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5422.jpg",
+    "generatedAt": "2026-06-06T00:39:37.055328Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 905422,
+      "name": "Marcos Rogério",
+      "category": "politician",
+      "connectionCount": 2
+    },
+    {
+      "id": 1,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 905422,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$98.601.690,00 empenhado, R$98.258.993,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 905422,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$96.070.331,00 empenhado, R$76.970.629,00 pago (14 emendas; 2023–2025)",
+      "strength": 1
+    }
+  ]
+}

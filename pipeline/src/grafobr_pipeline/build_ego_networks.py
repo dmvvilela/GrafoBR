@@ -20,6 +20,7 @@ from typing import Any, Optional, Union
 import duckdb
 
 from .camara import Deputy, fetch_current_deputies, iter_ceap_expenses, prepare_ceap_file
+from .senado import fetch_current_senators
 from .emit import emit
 from .receita import iter_empresas_csv, iter_socios_csv
 from .transparencia import iter_contracts_csv
@@ -39,6 +40,7 @@ class BuildContext:
     cnpj_socios_csv: Optional[str] = None
     contratos_csv: Optional[str] = None
     emendas_csv: Optional[str] = None
+    include_senators: bool = False
 
 
 def _digits(value: Optional[str], width: Optional[int] = None) -> Optional[str]:
@@ -971,13 +973,23 @@ def to_contract(raw_graph: dict[str, Any], seed: dict[str, Any]) -> dict[str, An
         "meta": {
             "egoId": int(seed["camara_id"]),
             "egoName": seed["name"],
+            "chamber": seed.get("chamber", "camara"),
+            "photo": seed.get("photo"),
             "generatedAt": datetime.now(timezone.utc)
             .isoformat()
             .replace("+00:00", "Z"),
             "sources": sorted(
                 {
-                    "camara",
-                    "tse",
+                    # base source = which house; TSE only when donations exist
+                    seed.get("chamber", "camara"),
+                    *(
+                        ["tse"]
+                        if any(
+                            link["connectionType"] == "doacao"
+                            for link in raw_graph["links"]
+                        )
+                        else []
+                    ),
                     *(
                         ["receita"]
                         if any(
@@ -1125,21 +1137,55 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
             f"{detail_pool} Câmara rows; increase --camara-detail-pool."
         )
 
-    index_rows: list[dict[str, Any]] = []
-    for seed in seeds:
-        print(f"Emitting {seed['name']}...", flush=True)
-        ego_network = to_contract(expand_ego_network(con, seed, ctx), seed)
-        path = emit(ego_network, output_dir)
+    def append_index(ego_network: dict[str, Any], seed: dict[str, Any], path: Path) -> None:
         index_rows.append(
             {
                 "id": ego_network["meta"]["egoId"],
                 "name": ego_network["meta"]["egoName"],
                 "party": seed.get("party"),
                 "uf": seed.get("uf"),
+                "chamber": ego_network["meta"].get("chamber", "camara"),
+                "photo": ego_network["meta"].get("photo"),
                 "sources": ego_network["meta"]["sources"],
                 "path": path.name,
             }
         )
+
+    index_rows: list[dict[str, Any]] = []
+    for seed in seeds:
+        print(f"Emitting {seed['name']}...", flush=True)
+        ego_network = to_contract(expand_ego_network(con, seed, ctx), seed)
+        path = emit(ego_network, output_dir)
+        append_index(ego_network, seed, path)
+
+    if ctx.include_senators:
+        print("Fetching current senators (Senado)...", flush=True)
+        senators = fetch_current_senators(ctx.cache_dir)
+        emitted = 0
+        for sen in senators:
+            seed = {
+                "camara_id": sen.ego_id,
+                "name": sen.name,
+                "civil_name": sen.full_name,
+                "cpf": None,
+                "party": sen.party,
+                "uf": sen.uf,
+                "birth_date": None,
+                "sq_candidate": None,
+                "ballot_name": None,
+                "full_name": sen.full_name,
+                "chamber": "senado",
+                "photo": sen.photo_url,
+            }
+            ego_network = to_contract(expand_ego_network(con, seed, ctx), seed)
+            # skip senators with no attributable data (just the lone politician node)
+            if len(ego_network["nodes"]) <= 1:
+                continue
+            print(f"Emitting {sen.name} (Senado)...", flush=True)
+            path = emit(ego_network, output_dir)
+            append_index(ego_network, seed, path)
+            emitted += 1
+        print(f"Emitted {emitted}/{len(senators)} senators (emendas).", flush=True)
 
     _write_index(output_dir, index_rows)
     con.close()

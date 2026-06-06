@@ -9,7 +9,17 @@ function initials(name: string): string {
   return (first + last).toUpperCase();
 }
 
-// Official Câmara deputy portrait, resolved from the numeric id. Falls back to a
+// Senator ids are offset by this (see pipeline/senado.py) so we can resolve the
+// right official portrait from the id alone.
+const SENATOR_ID_OFFSET = 900_000;
+
+function photoUrl(id: number): string {
+  return id >= SENATOR_ID_OFFSET
+    ? `https://www.senado.leg.br/senadores/img/fotos-oficiais/senador${id - SENATOR_ID_OFFSET}.jpg`
+    : `https://www.camara.leg.br/internet/deputado/bandep/${id}.jpg`;
+}
+
+// Official Câmara/Senado portrait, resolved from the numeric id. Falls back to a
 // gradient monogram if the photo 404s.
 export default function Avatar({
   id,
@@ -37,7 +47,7 @@ export default function Avatar({
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={`https://www.camara.leg.br/internet/deputado/bandep/${id}.jpg`}
+      src={photoUrl(id)}
       alt={name}
       style={dim}
       onError={() => setFailed(true)}

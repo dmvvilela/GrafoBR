@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "egoId": 905525,
+    "egoName": "Omar Aziz",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5525.jpg",
+    "generatedAt": "2026-06-06T00:39:37.096652Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 905525,
+      "name": "Omar Aziz",
+      "category": "politician",
+      "connectionCount": 6
+    },
+    {
+      "id": 4,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 905525,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$119.163.326,00 empenhado, R$112.049.098,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 905525,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$70.863.425,00 empenhado, R$70.723.425,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 905525,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$3.246.239,00 empenhado, R$200.550,00 pago (3 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 905525,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.346.397,00 empenhado, R$452.007,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 905525,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$584.850,00 empenhado, R$584.850,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 905525,
+      "target": 6,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    }
+  ]
+}

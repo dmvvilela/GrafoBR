@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "egoId": 903830,
+    "egoName": "Davi Alcolumbre",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador3830.jpg",
+    "generatedAt": "2026-06-06T00:39:36.601805Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 903830,
+      "name": "Davi Alcolumbre",
+      "category": "politician",
+      "connectionCount": 3
+    },
+    {
+      "id": 3,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 903830,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$98.604.128,00 empenhado, R$98.521.923,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 903830,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$96.099.270,00 empenhado, R$95.781.572,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 903830,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$2.500.000,00 empenhado, R$393.156,00 pago (1 emenda; 2025)",
+      "strength": 1
+    }
+  ]
+}

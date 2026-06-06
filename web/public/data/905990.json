@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "egoId": 905990,
+    "egoName": "Carlos Viana",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5990.jpg",
+    "generatedAt": "2026-06-06T00:39:36.501633Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 905990,
+      "name": "Carlos Viana",
+      "category": "politician",
+      "connectionCount": 5
+    },
+    {
+      "id": 3,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "Trabalho",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "Urbanismo",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 905990,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$110.173.913,00 empenhado, R$98.406.488,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 905990,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$74.521.422,00 empenhado, R$74.255.922,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 905990,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$7.107.765,00 empenhado, R$6.157.765,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 905990,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$3.691.000,00 empenhado, R$1.686.939,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 905990,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    }
+  ]
+}

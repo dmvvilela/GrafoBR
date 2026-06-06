@@ -130,10 +130,18 @@ export default function EgoView({
             {entry?.uf && <span className="text-zinc-400">{entry.uf}</span>}
             <span className="text-zinc-600">·</span>
             <span className="text-zinc-400">
-              <span className="text-amber-300">{privateDonors}</span>{" "}
-              {privateDonors === 1 ? "doador privado" : "doadores privados"} ·{" "}
-              {partyDonors} de partidos
+              {ego.meta?.chamber === "senado" ? "Senador(a)" : "Deputado(a) federal"}
             </span>
+            {donors.length > 0 && (
+              <>
+                <span className="text-zinc-600">·</span>
+                <span className="text-zinc-400">
+                  <span className="text-amber-300">{privateDonors}</span>{" "}
+                  {privateDonors === 1 ? "doador privado" : "doadores privados"} ·{" "}
+                  {partyDonors} de partidos
+                </span>
+              </>
+            )}
           </div>
         </div>
         <div className="flex flex-wrap gap-1.5">

@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "egoId": 905973,
+    "egoName": "Cid Gomes",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5973.jpg",
+    "generatedAt": "2026-06-06T00:39:36.525811Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 905973,
+      "name": "Cid Gomes",
+      "category": "politician",
+      "connectionCount": 3
+    },
+    {
+      "id": 3,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 905973,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$96.519.715,00 empenhado, R$95.519.715,00 pago (15 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 905973,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$40.954.850,00 empenhado, R$40.801.950,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 905973,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$700.000,00 empenhado, R$700.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    }
+  ]
+}

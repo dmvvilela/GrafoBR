@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "egoId": 900285,
+    "egoName": "Marcio Bittar",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador285.jpg",
+    "generatedAt": "2026-06-06T00:39:37.044163Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 900285,
+      "name": "Marcio Bittar",
+      "category": "politician",
+      "connectionCount": 4
+    },
+    {
+      "id": 3,
+      "name": "Administração",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "Múltiplo",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 900285,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$99.601.584,00 empenhado, R$81.870.282,00 pago (30 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 900285,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$77.395.728,00 empenhado, R$77.103.031,00 pago (14 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 900285,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Administração: R$14.774.942,00 empenhado, R$8.715,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 900285,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$205.967,00 empenhado, R$205.967,00 pago (1 emenda; 2023)",
+      "strength": 1
+    }
+  ]
+}

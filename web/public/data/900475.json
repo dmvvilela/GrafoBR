@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "egoId": 900475,
+    "egoName": "Confúcio Moura",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador475.jpg",
+    "generatedAt": "2026-06-06T00:39:36.563360Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 900475,
+      "name": "Confúcio Moura",
+      "category": "politician",
+      "connectionCount": 5
+    },
+    {
+      "id": 3,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "Comunicações",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 900475,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$95.990.074,00 empenhado, R$67.112.226,00 pago (15 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 900475,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$83.940.871,00 empenhado, R$83.658.173,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 900475,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$10.288.995,00 empenhado, R$3.894.360,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 900475,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comunicações: R$2.463.000,00 empenhado (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 900475,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$700.000,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    }
+  ]
+}

@@ -46,7 +46,8 @@ run -m grafobr_pipeline.run --limit "$LIMIT" \
   --cnpj-empresas-csv .cache/cnpj/scoped/receita_empresas_scoped.csv \
   --cnpj-socios-csv   .cache/cnpj/scoped/receita_socios_scoped.csv \
   --contratos-csv     .cache/cnpj/scoped/contratos.csv \
-  --emendas-csv       .cache/emendas/emendas.csv | tail -1
+  --emendas-csv       .cache/emendas/emendas.csv \
+  --senators | tail -1
 
 echo "[meta] stamp data freshness (-> ../data/_meta.json)..."
 run scripts/write_meta.py

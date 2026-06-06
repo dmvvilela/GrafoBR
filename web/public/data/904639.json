@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "egoId": 904639,
+    "egoName": "Beto Faro",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador4639.jpg",
+    "generatedAt": "2026-06-06T00:39:36.457721Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 904639,
+      "name": "Beto Faro",
+      "category": "politician",
+      "connectionCount": 5
+    },
+    {
+      "id": 4,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 904639,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$87.560.763,00 empenhado, R$87.520.653,00 pago (11 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 904639,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$70.117.203,00 empenhado, R$69.835.806,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 904639,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$8.500.000,00 empenhado, R$5.000.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 904639,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.600.000,00 empenhado, R$2.600.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 904639,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.499.202,00 empenhado, R$448.773,00 pago (2 emendas; 2024)",
+      "strength": 1
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "egoId": 905783,
+    "egoName": "Zenaide Maia",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5783.jpg",
+    "generatedAt": "2026-06-06T00:39:37.465690Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 905783,
+      "name": "Zenaide Maia",
+      "category": "politician",
+      "connectionCount": 6
+    },
+    {
+      "id": 3,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 905783,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$95.721.773,00 empenhado, R$79.575.831,00 pago (15 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 905783,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$85.693.342,00 empenhado, R$85.427.344,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 905783,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$5.455.990,00 empenhado, R$4.955.990,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 905783,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$3.146.335,00 empenhado, R$2.428.946,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 905783,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$2.369.473,00 empenhado (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 905783,
+      "target": 6,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$299.564,00 empenhado (1 emenda; 2023)",
+      "strength": 1
+    }
+  ]
+}

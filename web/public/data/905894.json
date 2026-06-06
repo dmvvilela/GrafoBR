@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "egoId": 905894,
+    "egoName": "Flávio Bolsonaro",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5894.jpg",
+    "generatedAt": "2026-06-06T00:39:36.774436Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 905894,
+      "name": "Flávio Bolsonaro",
+      "category": "politician",
+      "connectionCount": 8
+    },
+    {
+      "id": 8,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "Múltiplo",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 905894,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$92.984.567,00 empenhado, R$58.331.663,00 pago (32 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 905894,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$35.690.850,00 empenhado, R$3.805.144,00 pago (9 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 905894,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$32.964.819,00 empenhado, R$8.531.921,00 pago (21 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 905894,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$19.501.874,00 empenhado, R$19.451.874,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 905894,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$6.200.000,00 empenhado, R$210.000,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 905894,
+      "target": 6,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Múltiplo: R$1.355.000,00 empenhado, R$190.066,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 905894,
+      "target": 7,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.324.278,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 8,
+      "source": 905894,
+      "target": 8,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.020.000,00 empenhado, R$1.020.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    }
+  ]
+}

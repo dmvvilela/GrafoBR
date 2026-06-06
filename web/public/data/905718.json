@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "egoId": 905718,
+    "egoName": "Eliziane Gama",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5718.jpg",
+    "generatedAt": "2026-06-06T00:39:36.704113Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 905718,
+      "name": "Eliziane Gama",
+      "category": "politician",
+      "connectionCount": 5
+    },
+    {
+      "id": 5,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "Trabalho",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 905718,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$98.586.717,00 empenhado, R$98.586.717,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 905718,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$95.901.693,00 empenhado, R$95.580.996,00 pago (13 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 905718,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.999.961,00 empenhado, R$1.999.961,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 905718,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Trabalho: R$500.000,00 empenhado, R$289.929,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 905718,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$119.861,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "egoId": 905926,
+    "egoName": "Lucas Barreto",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5926.jpg",
+    "generatedAt": "2026-06-06T00:39:36.980364Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 905926,
+      "name": "Lucas Barreto",
+      "category": "politician",
+      "connectionCount": 6
+    },
+    {
+      "id": 4,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "Essencial à justiça",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 905926,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$100.850.508,00 empenhado, R$64.410.277,00 pago (16 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 905926,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$82.951.693,00 empenhado, R$82.686.495,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 905926,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$6.399.607,00 empenhado, R$2.138.887,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 905926,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$2.900.000,00 empenhado, R$95.829,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 905926,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$747.355,00 empenhado (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 905926,
+      "target": 6,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Essencial à justiça: R$499.356,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    }
+  ]
+}

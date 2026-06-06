@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "egoId": 906008,
+    "egoName": "Giordano",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador6008.jpg",
+    "generatedAt": "2026-06-06T00:39:36.786503Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 906008,
+      "name": "Giordano",
+      "category": "politician",
+      "connectionCount": 4
+    },
+    {
+      "id": 3,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 906008,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$98.601.700,00 empenhado, R$98.599.567,00 pago (6 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 906008,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$94.687.758,00 empenhado, R$94.357.060,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 906008,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.913.938,00 empenhado, R$2.913.938,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 906008,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$986.903,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    }
+  ]
+}

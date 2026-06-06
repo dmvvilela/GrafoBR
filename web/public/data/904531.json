@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "egoId": 904531,
+    "egoName": "Jayme Campos",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador4531.jpg",
+    "generatedAt": "2026-06-06T00:39:36.919573Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 904531,
+      "name": "Jayme Campos",
+      "category": "politician",
+      "connectionCount": 2
+    },
+    {
+      "id": 1,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 904531,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$98.601.674,00 empenhado, R$98.258.998,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 904531,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$98.585.844,00 empenhado, R$96.335.872,00 pago (11 emendas; 2023–2025)",
+      "strength": 1
+    }
+  ]
+}

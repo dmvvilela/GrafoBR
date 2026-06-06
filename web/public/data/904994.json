@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "egoId": 904994,
+    "egoName": "Eduardo Braga",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador4994.jpg",
+    "generatedAt": "2026-06-06T00:39:36.647457Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 904994,
+      "name": "Eduardo Braga",
+      "category": "politician",
+      "connectionCount": 3
+    },
+    {
+      "id": 3,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Transporte",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 904994,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$165.188.987,00 empenhado, R$165.188.987,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 904994,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Transporte: R$29.514.413,00 empenhado, R$26.994.957,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 904994,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$2.499.688,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    }
+  ]
+}

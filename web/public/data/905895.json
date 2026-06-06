@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "egoId": 905895,
+    "egoName": "Jorge Kajuru",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5895.jpg",
+    "generatedAt": "2026-06-06T00:39:36.931558Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 905895,
+      "name": "Jorge Kajuru",
+      "category": "politician",
+      "connectionCount": 6
+    },
+    {
+      "id": 6,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "Indústria",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 905895,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$157.829.113,00 empenhado, R$145.149.771,00 pago (11 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 905895,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$28.110.000,00 empenhado, R$28.110.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 905895,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Indústria: R$3.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 905895,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.851.906,00 empenhado, R$451.906,00 pago (4 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 905895,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$898.692,00 empenhado, R$292.561,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 905895,
+      "target": 6,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$500.002,00 empenhado, R$500.002,00 pago (1 emenda; 2023)",
+      "strength": 1
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "egoId": 905012,
+    "egoName": "Randolfe Rodrigues",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5012.jpg",
+    "generatedAt": "2026-06-06T00:39:37.177824Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 905012,
+      "name": "Randolfe Rodrigues",
+      "category": "politician",
+      "connectionCount": 5
+    },
+    {
+      "id": 5,
+      "name": "Cultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 905012,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$95.848.439,00 empenhado, R$51.637.190,00 pago (14 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 905012,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$94.914.436,00 empenhado, R$94.573.039,00 pago (8 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 905012,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$2.882.253,00 empenhado (4 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 905012,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$299.650,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 905012,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2023)",
+      "strength": 1
+    }
+  ]
+}

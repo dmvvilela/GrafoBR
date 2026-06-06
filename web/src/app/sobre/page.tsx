@@ -94,6 +94,18 @@ export default function SobrePage() {
         </p>
       </Section>
 
+      <Section title="Senadores">
+        <p>
+          Incluímos os senadores em exercício, mas com menos dados: a base aberta
+          do Senado <strong className="text-zinc-300">não publica o CPF</strong>, o
+          que inviabiliza o cruzamento de sócios e contratos (que dependem do CPF
+          mascarado da Receita). Por isso, para senadores mostramos por enquanto
+          apenas <strong className="text-zinc-300">emendas individuais</strong> — a
+          principal forma de direcionar dinheiro, onde eles movimentam valores
+          comparáveis aos deputados.
+        </p>
+      </Section>
+
       <Section title="Limitações">
         <ul className="list-disc space-y-1.5 pl-5 marker:text-zinc-600">
           <li>O cruzamento por nome/CPF mascarado pode conter homônimos.</li>

@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "egoId": 906337,
+    "egoName": "Cleitinho",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador6337.jpg",
+    "generatedAt": "2026-06-06T00:39:36.551545Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 906337,
+      "name": "Cleitinho",
+      "category": "politician",
+      "connectionCount": 6
+    },
+    {
+      "id": 4,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "Educação",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "Gestão ambiental",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 906337,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$72.498.249,00 empenhado, R$66.312.963,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 906337,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$57.758.715,00 empenhado, R$57.442.068,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 906337,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$3.050.000,00 empenhado, R$2.912.750,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 906337,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.900.000,00 empenhado, R$1.700.000,00 pago (3 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 906337,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$350.000,00 empenhado, R$348.600,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 906337,
+      "target": 6,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$95.534,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    }
+  ]
+}
