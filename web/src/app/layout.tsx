@@ -40,6 +40,9 @@ export default function RootLayout({
                 </span>
               </Link>
               <nav className="flex items-center gap-4 text-sm text-zinc-400">
+                <Link href="/buscar" className="transition hover:text-zinc-100">
+                  Buscar
+                </Link>
                 <Link href="/rankings" className="transition hover:text-zinc-100">
                   Rankings
                 </Link>
