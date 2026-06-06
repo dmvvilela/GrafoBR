@@ -53,6 +53,17 @@ export async function getHighlights(): Promise<Highlight[]> {
   }
 }
 
+async function readJson<T>(file: string, fallback: T): Promise<T> {
+  try {
+    return JSON.parse(await fs.readFile(path.join(DATA_DIR, file), "utf-8")) as T;
+  } catch {
+    return fallback;
+  }
+}
+
+export const getContractRanking = () =>
+  readJson<Highlight[]>("_contract-ranking.json", []);
+
 export interface CeapTrail {
   supplier: string;
   total: number;
@@ -79,6 +90,11 @@ export async function getEmendaTrails(): Promise<EmendaTrail[]> {
     return [];
   }
 }
+
+export const getEmendaRanking = () =>
+  readJson<EmendaTrail[]>("_emenda-ranking.json", []);
+export const getCeapRanking = () =>
+  readJson<CeapTrail[]>("_ceap-ranking.json", []);
 
 export async function getCeapTrails(): Promise<CeapTrail[]> {
   try {

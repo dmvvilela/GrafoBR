@@ -89,6 +89,12 @@ for (const t of ranked) {
 }
 
 await writeFile(path.join(dir, "_ceap-trails.json"), JSON.stringify(trails), "utf8");
-console.log(`[derive-ceap-trails] top ${trails.length} CEAP vectors`);
+// full ranking (uncapped, top 60 by total) for the /rankings page
+await writeFile(
+  path.join(dir, "_ceap-ranking.json"),
+  JSON.stringify(ranked.slice(0, 60)),
+  "utf8",
+);
+console.log(`[derive-ceap-trails] top ${trails.length} CEAP vectors (+ full ranking)`);
 for (const t of trails)
   console.log(`  R$ ${t.total.toLocaleString("pt-BR")}  ${t.deputies} dep  ${t.supplier} [${t.category}]`);

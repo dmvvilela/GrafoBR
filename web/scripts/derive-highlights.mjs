@@ -42,7 +42,7 @@ for (const f of files) {
     );
     if (!company) continue;
     const value = parseBRL(l.description);
-    if (value < MIN_CONTRACT_BRL) continue;
+    if (value <= 0) continue;
     highlights.push({
       id: ego.meta.egoId,
       name: ego.meta.egoName,
@@ -55,9 +55,12 @@ for (const f of files) {
   }
 }
 highlights.sort((a, b) => b.value - a.value);
-await writeFile(path.join(dir, "_highlights.json"), JSON.stringify(highlights), "utf8");
+// full ranking (all value>0 leads) for /rankings; floored subset for the homepage
+await writeFile(path.join(dir, "_contract-ranking.json"), JSON.stringify(highlights), "utf8");
+const homepage = highlights.filter((h) => h.value >= MIN_CONTRACT_BRL);
+await writeFile(path.join(dir, "_highlights.json"), JSON.stringify(homepage), "utf8");
 
-console.log(`[derive-highlights] ${highlights.length} money-trail chains`);
+console.log(`[derive-highlights] ${highlights.length} contract leads (${homepage.length} on homepage)`);
 for (const h of highlights.slice(0, 8)) {
   console.log(`  R$ ${h.value.toLocaleString("pt-BR")}  ${h.name} -> ${h.company}`);
 }

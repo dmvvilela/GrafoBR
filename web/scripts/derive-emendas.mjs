@@ -53,9 +53,10 @@ for (const f of files) {
   });
 }
 trails.sort((a, b) => b.empenhado - a.empenhado);
-const out = trails.slice(0, 9);
-await writeFile(path.join(dir, "_emenda-trails.json"), JSON.stringify(out), "utf8");
+await writeFile(path.join(dir, "_emenda-trails.json"), JSON.stringify(trails.slice(0, 9)), "utf8");
+// full ranking (all deputies) for the /rankings page + OG card lookup
+await writeFile(path.join(dir, "_emenda-ranking.json"), JSON.stringify(trails), "utf8");
 
-console.log(`[derive-emendas] ${trails.length} deputies with emendas; top ${out.length}:`);
-for (const t of out)
+console.log(`[derive-emendas] ${trails.length} deputies with emendas; top:`);
+for (const t of trails.slice(0, 9))
   console.log(`  R$ ${t.empenhado.toLocaleString("pt-BR")}  ${t.name} [${t.topArea}]`);

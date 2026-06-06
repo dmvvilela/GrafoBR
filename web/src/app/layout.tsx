@@ -3,6 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://grafo-br.vercel.app"),
   title: "GrafoBR — conexões de dados públicos",
   description:
     "Grafo aberto das conexões de parlamentares federais a partir de dados públicos. Conexões não são acusações.",
@@ -38,10 +39,14 @@ export default function RootLayout({
                   Grafo<span className="text-emerald-400">BR</span>
                 </span>
               </Link>
-              <span className="hidden text-xs text-zinc-400 sm:block">
-                conexões de dados públicos ·{" "}
-                <span className="text-zinc-600">não são acusações</span>
-              </span>
+              <nav className="flex items-center gap-4 text-sm text-zinc-400">
+                <Link href="/rankings" className="transition hover:text-zinc-100">
+                  Rankings
+                </Link>
+                <Link href="/sobre" className="transition hover:text-zinc-100">
+                  Sobre
+                </Link>
+              </nav>
             </div>
           </header>
 
