@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, Search } from "lucide-react";
 import NetworkGraph from "@/components/NetworkGraph";
+import DeputyHighlights from "@/components/DeputyHighlights";
 import Avatar from "@/components/Avatar";
 import type { EgoNetwork, GraphNode } from "@/lib/contract";
 import type { IndexEntry } from "@/lib/data";
@@ -156,6 +157,8 @@ export default function EgoView({
           ))}
         </div>
       </header>
+
+      <DeputyHighlights ego={ego} />
 
       <div className="grid gap-5 lg:grid-cols-[1fr_330px]">
         {ego.links.length === 0 ? (
