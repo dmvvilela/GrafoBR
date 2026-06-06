@@ -158,6 +158,16 @@ export default function EgoView({
         </div>
       </header>
 
+      {ego.meta?.summary ? (
+        <div className="rounded-2xl border border-white/5 bg-white/[0.02] p-4">
+          <p className="text-sm leading-relaxed text-zinc-300">{ego.meta.summary}</p>
+          <p className="mt-2 text-[11px] text-zinc-600">
+            Resumo gerado por IA local a partir dos registros públicos abaixo —
+            conexões, não acusações.
+          </p>
+        </div>
+      ) : null}
+
       <DeputyHighlights ego={ego} />
 
       <div className="grid gap-5 lg:grid-cols-[1fr_330px]">
