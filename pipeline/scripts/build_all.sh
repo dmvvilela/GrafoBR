@@ -55,3 +55,7 @@ run scripts/write_meta.py
 echo "=== edge counts ==="
 grep -oh '"connectionType": "[a-z]*"' ../data/*.json | sort | uniq -c
 echo "done -> ../data/*.json. View it:  cd ../web && pnpm dev"
+echo
+echo "NOTE: this rebuild dropped any AI summaries (meta.summary). To regenerate them"
+echo "      (optional, local Ollama): python ../ai/summarize.py --all && --apply"
+echo "      then re-sync. See ai/README.md."
