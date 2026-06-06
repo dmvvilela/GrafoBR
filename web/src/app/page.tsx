@@ -45,7 +45,7 @@ export default async function Home() {
 
         <h1 className="mx-auto mt-5 max-w-3xl text-4xl font-semibold tracking-tight text-balance sm:text-5xl">
           <span className="gradient-text">Explore conexões</span> registradas de
-          deputados federais.
+          parlamentares federais.
         </h1>
 
         <p className="mx-auto mt-4 max-w-xl text-[15px] leading-relaxed text-pretty text-zinc-400">

@@ -30,6 +30,7 @@ const CROSS_VERB: Record<string, (n: number) => string> = {
 
 const SOURCE_LABELS: Record<string, string> = {
   camara: "Câmara dos Deputados",
+  senado: "Senado Federal",
   camara_ceap: "Câmara dos Deputados — CEAP",
   cgu_emendas: "CGU — Emendas Parlamentares",
   tse: "TSE",
@@ -112,7 +113,7 @@ export default function EgoView({
         href="/"
         className="inline-flex items-center gap-1.5 text-sm text-zinc-400 transition hover:text-zinc-200"
       >
-        <ArrowLeft size={15} /> todos os deputados
+        <ArrowLeft size={15} /> todos os parlamentares
       </Link>
 
       <header className="flex flex-wrap items-center gap-4 rounded-2xl border border-white/5 bg-white/[0.03] p-5">
@@ -157,12 +158,27 @@ export default function EgoView({
       </header>
 
       <div className="grid gap-5 lg:grid-cols-[1fr_330px]">
-        <NetworkGraph
-          data={ego}
-          searchQuery={query}
-          focusId={selected?.id ?? null}
-          onSelectNode={setSelected}
-        />
+        {ego.links.length === 0 ? (
+          <div className="grid h-[560px] place-items-center rounded-2xl border border-white/5 bg-white/[0.03] p-8 text-center">
+            <div className="max-w-sm space-y-2">
+              <p className="text-sm font-medium text-zinc-300">
+                Sem conexões atribuídas nesta base.
+              </p>
+              <p className="text-xs leading-relaxed text-zinc-500">
+                Não identificamos emendas individuais (2023+) para este parlamentar
+                nos dados da CGU. A base aberta do Senado não publica CPF, então não
+                cruzamos sócios e contratos para senadores.
+              </p>
+            </div>
+          </div>
+        ) : (
+          <NetworkGraph
+            data={ego}
+            searchQuery={query}
+            focusId={selected?.id ?? null}
+            onSelectNode={setSelected}
+          />
+        )}
 
         <aside className="space-y-4">
           <div className="relative">

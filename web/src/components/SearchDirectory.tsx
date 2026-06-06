@@ -126,7 +126,7 @@ export default function SearchDirectory({ index }: { index: IndexEntry[] }) {
         <input
           value={query}
           onChange={(e) => onSearch(e.target.value)}
-          placeholder="Buscar deputado por nome, partido ou estado"
+          placeholder="Buscar parlamentar por nome, partido ou estado"
           className="w-full rounded-xl border border-white/10 bg-white/[0.03] py-3 pr-4 pl-11 text-sm text-zinc-100 shadow-sm transition outline-none placeholder:text-zinc-500 focus:border-emerald-400/40 focus:ring-2 focus:ring-emerald-400/10"
         />
       </div>
@@ -235,7 +235,7 @@ export default function SearchDirectory({ index }: { index: IndexEntry[] }) {
         </>
       ) : (
         <p className="py-10 text-center text-sm text-zinc-500">
-          Nenhum deputado encontrado para “{query}”.
+          Nenhum parlamentar encontrado para “{query}”.
         </p>
       )}
     </section>

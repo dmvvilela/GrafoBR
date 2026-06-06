@@ -22,9 +22,10 @@ export default function SobrePage() {
         <h1 className="text-3xl font-semibold tracking-tight">Sobre &amp; metodologia</h1>
         <p className="text-[15px] leading-relaxed text-zinc-400">
           O GrafoBR cruza <strong className="font-medium text-zinc-200">dados
-          públicos por lei</strong> para mostrar conexões registradas de deputados
-          federais — doadores de campanha, empresas, contratos, despesas de cota e
-          emendas. São <strong className="font-medium text-zinc-200">conexões, não
+          públicos por lei</strong> para mostrar conexões registradas de
+          parlamentares federais — doadores de campanha, empresas, contratos,
+          despesas de cota e emendas. São{" "}
+          <strong className="font-medium text-zinc-200">conexões, não
           acusações</strong>: indicam o que está em registros oficiais, não
           irregularidade.
         </p>
@@ -75,7 +76,7 @@ export default function SobrePage() {
 
       <Section title="Emendas individuais">
         <p>
-          Emendas individuais são a principal forma de um deputado{" "}
+          Emendas individuais são a principal forma de um parlamentar{" "}
           <strong className="text-zinc-300">direcionar dinheiro federal</strong>.
           Usamos as emendas do tipo individual a partir de 2023 (mandato atual),
           atribuídas pelo nome do autor. Mostramos dois valores:{" "}

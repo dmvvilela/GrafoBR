@@ -525,6 +525,11 @@ def _load_camara_expenses(con: duckdb.DuckDBPyConnection, ceap_file: str | Path)
     return con.execute("select count(*) from camara_expenses").fetchone()[0]
 
 
+# Names that map to >1 CGU author id even after UF disambiguation (P1 tripwire);
+# build_all clears this and prints a summary so misattribution can't pass silently.
+_EMENDA_AUDIT: list[tuple[Any, Any, int]] = []
+
+
 def expand_ego_network(
     con: duckdb.DuckDBPyConnection, seed: dict[str, Any], ctx: BuildContext
 ) -> dict[str, Any]:
@@ -817,6 +822,25 @@ def expand_ego_network(
                 """,
                 [list(emenda_names), seed.get("uf"), ctx.max_fanout],
             ).fetchall()
+            # Tripwire: even after the UF filter, does this name still map to >1 CGU
+            # author id? (homonym in the same state, or one person across roles.)
+            distinct_ids = con.execute(
+                """
+                select count(distinct author_id)
+                from emendas
+                where normalized_author in (select unnest(?::varchar[]))
+                  and (uf = ? or uf is null or uf = '' or length(uf) <> 2)
+                  and author_id is not null and author_id <> ''
+                """,
+                [list(emenda_names), seed.get("uf")],
+            ).fetchone()[0]
+            if distinct_ids and distinct_ids > 1:
+                _EMENDA_AUDIT.append((seed.get("name"), seed.get("uf"), distinct_ids))
+                print(
+                    f"  [emenda-audit] ambiguous author: {seed.get('name')} "
+                    f"({seed.get('uf')}) -> {distinct_ids} CGU author ids",
+                    flush=True,
+                )
             for funcao, empenhado, pago, n, ano_min, ano_max in emenda_rows:
                 destino_key = f"destino:{_normalize_name(funcao)}"
                 if destino_key not in nodes:
@@ -1051,6 +1075,7 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
     """Orchestrate the Phase 2 build and return count of ego-network files."""
 
     ctx = ctx or BuildContext()
+    _EMENDA_AUDIT.clear()
     con = duckdb.connect(database=":memory:")
     output_dir = Path(ctx.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -1185,14 +1210,26 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
                 "photo": sen.photo_url,
             }
             ego_network = to_contract(expand_ego_network(con, seed, ctx), seed)
-            # skip senators with no attributable data (just the lone politician node)
-            if len(ego_network["nodes"]) <= 1:
-                continue
+            # emit all senators (including the few with no matched emendas — the page
+            # shows an explicit empty state) so the directory matches "todos os senadores"
             print(f"Emitting {sen.name} (Senado)...", flush=True)
             path = emit(ego_network, output_dir)
             append_index(ego_network, seed, path)
-            emitted += 1
-        print(f"Emitted {emitted}/{len(senators)} senators (emendas).", flush=True)
+            if len(ego_network["links"]) > 0:
+                emitted += 1
+        print(
+            f"Emitted {len(senators)} senators ({emitted} with emendas).", flush=True
+        )
+
+    if _EMENDA_AUDIT:
+        print(
+            f"[emenda-audit] {len(_EMENDA_AUDIT)} parlamentar(es) with ambiguous "
+            f"author names (review): "
+            + ", ".join(f"{n} ({uf})" for n, uf, _ in _EMENDA_AUDIT),
+            flush=True,
+        )
+    else:
+        print("[emenda-audit] no ambiguous emenda authors after UF filter.", flush=True)
 
     _write_index(output_dir, index_rows)
     con.close()
