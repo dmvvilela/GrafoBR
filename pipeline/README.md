@@ -13,20 +13,27 @@ It's not a server — it runs, writes files, and exits. The frontend reads the f
 
 ---
 
-## TL;DR — build everything
+## TL;DR — build everything (local)
+
+Data refresh runs **on your machine**, not in CI. The Receita CNPJ download (~2.5 GB)
+is cached in `pipeline/.cache/` after the first run; GitHub Actions would re-fetch it
+every time (see **GitHub Actions** below).
 
 ```bash
 # one-time setup (see sections below)
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt google-cloud-bigquery db-dtypes
-python scripts/download_cnpj_files.py     # ~1.6GB CNPJ shards (Empresas+Sócios)
-gcloud auth application-default login     # for contracts via BigQuery
+python scripts/download_cnpj_files.py     # ~2.5GB CNPJ shards (Empresas+Sócios); skipped if cached
+gcloud auth application-default login     # for contracts + emendas via BigQuery
 
-# build (donations + socio + contracts) -> ../data/*.json
+# build (donations + socio + contracts + emendas) -> ../data/*.json
 bash scripts/build_all.sh 512             # 512 = current TSE-matched ceiling
 
-# view
-cd ../web && pnpm dev
+# sync derived indexes into the site + deploy
+cd ../web && pnpm sync-data && pnpm dev    # predev runs sync-data automatically
+
+# when ready to ship:
+git add web/public/data && git commit -m "chore: refresh data snapshot" && git push
 ```
 
 ---
@@ -78,6 +85,28 @@ gcloud auth application-default set-quota-project grafobr-data
 Then `scripts/bq_contracts.py` works. Useful tables on `basedosdados`:
 `br_cgu_licitacao_contrato.contrato_compra` (contracts), `br_me_cnpj.socios` (sócios — could
 replace the local download), `br_cgu_emendas_parlamentares` (amendments — future).
+
+### GitHub Actions (optional — off by default)
+
+The `refresh-data` workflow (`.github/workflows/refresh-data.yml`) mirrors `build_all.sh`
+and can commit the snapshot back to the repo. **We don't use it day-to-day** — refresh
+locally (above) and push `web/public/data/` yourself.
+
+Why local-first: each CI run starts with an empty disk, so it re-downloads ~2.5 GB of
+Receita CNPJ shards and burns 30–60+ Action minutes. BigQuery is cheap (~MB/run); the
+Receita re-download is the cost.
+
+The monthly **cron is commented out** on purpose. To enable later (e.g. once caching or
+budget makes sense): uncomment the `schedule` block, set repo secret **`GCP_SA_KEY`**
+(service-account JSON with `roles/bigquery.user` on `grafobr-data`), then
+**Actions → refresh-data → Run workflow** to test.
+
+Local BigQuery auth (what you use now):
+
+```bash
+gcloud auth application-default login
+gcloud auth application-default set-quota-project grafobr-data
+```
 
 ---
 
