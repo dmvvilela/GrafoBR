@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
+import Providers from "@/components/Providers";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -13,7 +14,12 @@ export const metadata: Metadata = {
 function Logo() {
   return (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
-      <path d="M6 7L17 5M6 7L11 18M17 5L11 18" stroke="currentColor" strokeWidth="1.4" strokeOpacity="0.55" />
+      <path
+        d="M6 7L17 5M6 7L11 18M17 5L11 18"
+        stroke="currentColor"
+        strokeWidth="1.4"
+        strokeOpacity="0.55"
+      />
       <circle cx="6" cy="7" r="2.6" fill="#34d399" />
       <circle cx="17" cy="5" r="2.2" fill="#818cf8" />
       <circle cx="11" cy="18" r="2.2" fill="#fbbf24" />
@@ -51,7 +57,10 @@ export default function RootLayout({
                 <Link href="/buscar" className="transition hover:text-zinc-100">
                   Buscar
                 </Link>
-                <Link href="/rankings" className="transition hover:text-zinc-100">
+                <Link
+                  href="/rankings"
+                  className="transition hover:text-zinc-100"
+                >
                   Rankings
                 </Link>
                 <Link href="/sobre" className="transition hover:text-zinc-100">
@@ -62,14 +71,14 @@ export default function RootLayout({
           </header>
 
           <main className="mx-auto w-full max-w-6xl flex-1 px-5 py-8">
-            {children}
+            <Providers>{children}</Providers>
           </main>
 
           <footer className="border-t border-white/5 px-5 py-7 text-xs leading-relaxed text-zinc-500">
             <div className="mx-auto max-w-6xl space-y-1.5">
               <p>
-                Dados públicos por lei, vindos das fontes exibidas em cada grafo. As
-                conexões refletem registros públicos e{" "}
+                Dados públicos por lei, vindos das fontes exibidas em cada
+                grafo. As conexões refletem registros públicos e{" "}
                 <strong className="font-medium text-zinc-300">
                   não constituem acusação de irregularidade
                 </strong>

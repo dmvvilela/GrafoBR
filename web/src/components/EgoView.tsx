@@ -2,7 +2,7 @@
 
 import { Suspense, useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { usePathname, useSearchParams } from "next/navigation";
+import { parseAsInteger, parseAsString, useQueryState } from "nuqs";
 import { ArrowLeft, Link2, Search } from "lucide-react";
 import NetworkGraph from "@/components/NetworkGraph";
 import DeputyHighlights from "@/components/DeputyHighlights";
@@ -25,9 +25,12 @@ function brl(value: number): string {
 }
 
 const CROSS_VERB: Record<string, (n: number) => string> = {
-  donor: (n) => `Também doou para ${n} ${n === 1 ? "outro deputado" : "outros deputados"}`,
-  supplier: (n) => `Também pago por ${n} ${n === 1 ? "outro deputado" : "outros deputados"}`,
-  company: (n) => `${n} ${n === 1 ? "outro deputado ligado" : "outros deputados ligados"}`,
+  donor: (n) =>
+    `Também doou para ${n} ${n === 1 ? "outro deputado" : "outros deputados"}`,
+  supplier: (n) =>
+    `Também pago por ${n} ${n === 1 ? "outro deputado" : "outros deputados"}`,
+  company: (n) =>
+    `${n} ${n === 1 ? "outro deputado ligado" : "outros deputados ligados"}`,
 };
 
 const SOURCE_LABELS: Record<string, string> = {
@@ -65,10 +68,7 @@ type RelatedEntry = {
   entities: string[];
 };
 
-function nodeFromFocus(ego: EgoNetwork, focus: string | null): GraphNode | null {
-  if (!focus) return null;
-  return ego.nodes.find((n) => String(n.id) === focus) ?? null;
-}
+const urlOpts = { history: "replace" as const, shallow: true };
 
 function EgoViewInner({
   ego,
@@ -77,13 +77,27 @@ function EgoViewInner({
   ego: EgoNetwork;
   entry: IndexEntry | null;
 }) {
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
-
-  const [query, setQuery] = useState(() => searchParams.get("q") ?? "");
-  const [selected, setSelected] = useState<GraphNode | null>(() =>
-    nodeFromFocus(ego, searchParams.get("focus")),
+  const [query, setQuery] = useQueryState(
+    "q",
+    parseAsString.withDefault("").withOptions(urlOpts),
   );
+  const [focusId, setFocusId] = useQueryState(
+    "focus",
+    parseAsInteger.withOptions(urlOpts),
+  );
+
+  const selected = useMemo(() => {
+    if (focusId == null) return null;
+    return ego.nodes.find((n) => n.id === focusId) ?? null;
+  }, [focusId, ego.nodes]);
+
+  const setSelected = useCallback(
+    (node: GraphNode | null) => {
+      void setFocusId(node?.id ?? null);
+    },
+    [setFocusId],
+  );
+
   const [entities, setEntities] = useState<EntityMap>({});
   const [related, setRelated] = useState<RelatedEntry[]>([]);
   const [copied, setCopied] = useState(false);
@@ -100,33 +114,11 @@ function EgoViewInner({
   useEffect(() => {
     fetch("/data/_related.json")
       .then((r) => (r.ok ? r.json() : {}))
-      .then((all: Record<string, RelatedEntry[]>) => setRelated(all[depId] ?? []))
+      .then((all: Record<string, RelatedEntry[]>) =>
+        setRelated(all[depId] ?? []),
+      )
       .catch(() => {});
   }, [depId]);
-
-  // Sync graph state -> URL (shareable links; replaceState avoids history spam).
-  useEffect(() => {
-    const params = new URLSearchParams();
-    const q = query.trim();
-    if (q) params.set("q", q);
-    if (selected) params.set("focus", String(selected.id));
-    const next = params.toString();
-    const url = next ? `${pathname}?${next}` : pathname;
-    if (`${pathname}${window.location.search}` !== url) {
-      window.history.replaceState(null, "", url);
-    }
-  }, [query, selected, pathname]);
-
-  // Back/forward: restore graph state from URL.
-  useEffect(() => {
-    const onPop = () => {
-      const p = new URLSearchParams(window.location.search);
-      setQuery(p.get("q") ?? "");
-      setSelected(nodeFromFocus(ego, p.get("focus")));
-    };
-    window.addEventListener("popstate", onPop);
-    return () => window.removeEventListener("popstate", onPop);
-  }, [ego]);
 
   const copyShareLink = useCallback(async () => {
     try {
@@ -171,7 +163,7 @@ function EgoViewInner({
     return { category: e.category, total: e.count - 1, others };
   }, [selected, entities, ego.meta?.egoId]);
 
-  const hasUrlState = query.trim().length > 0 || selected !== null;
+  const hasUrlState = query.trim().length > 0 || focusId != null;
 
   return (
     <div className="space-y-6">
@@ -183,7 +175,11 @@ function EgoViewInner({
       </Link>
 
       <header className="flex flex-wrap items-center gap-4 rounded-2xl border border-white/5 bg-white/[0.03] p-5">
-        <Avatar id={ego.meta?.egoId ?? entry?.id ?? 0} name={ego.meta?.egoName ?? "?"} size={64} />
+        <Avatar
+          id={ego.meta?.egoId ?? entry?.id ?? 0}
+          name={ego.meta?.egoName ?? "?"}
+          size={64}
+        />
         <div className="min-w-0 flex-1">
           <h1 className="text-2xl font-semibold tracking-tight">
             {ego.meta?.egoName}
@@ -197,15 +193,17 @@ function EgoViewInner({
             {entry?.uf && <span className="text-zinc-400">{entry.uf}</span>}
             <span className="text-zinc-600">·</span>
             <span className="text-zinc-400">
-              {ego.meta?.chamber === "senado" ? "Senador(a)" : "Deputado(a) federal"}
+              {ego.meta?.chamber === "senado"
+                ? "Senador(a)"
+                : "Deputado(a) federal"}
             </span>
             {donors.length > 0 && (
               <>
                 <span className="text-zinc-600">·</span>
                 <span className="text-zinc-400">
                   <span className="text-amber-300">{privateDonors}</span>{" "}
-                  {privateDonors === 1 ? "doador privado" : "doadores privados"} ·{" "}
-                  {partyDonors} de partidos
+                  {privateDonors === 1 ? "doador privado" : "doadores privados"}{" "}
+                  · {partyDonors} de partidos
                 </span>
               </>
             )}
@@ -236,7 +234,9 @@ function EgoViewInner({
 
       {ego.meta?.summary ? (
         <div className="rounded-2xl border border-white/5 bg-white/[0.02] p-4">
-          <p className="text-sm leading-relaxed text-zinc-300">{ego.meta.summary}</p>
+          <p className="text-sm leading-relaxed text-zinc-300">
+            {ego.meta.summary}
+          </p>
           <p className="mt-2 text-[11px] text-zinc-600">
             Resumo gerado por IA local a partir dos registros públicos abaixo —
             conexões, não acusações.
@@ -252,12 +252,15 @@ function EgoViewInner({
             Parlamentares com conexões em comum
           </h2>
           <p className="mt-1 text-xs text-zinc-500">
-            Compartilham doadores, empresas ou fornecedores nos registros públicos —
-            conexões, não acusações.
+            Compartilham doadores, empresas ou fornecedores nos registros
+            públicos — conexões, não acusações.
           </p>
           <ul className="mt-3 divide-y divide-white/5">
             {related.map((r) => (
-              <li key={r.id} className="flex flex-wrap items-baseline justify-between gap-2 py-2.5 first:pt-0 last:pb-0">
+              <li
+                key={r.id}
+                className="flex flex-wrap items-baseline justify-between gap-2 py-2.5 first:pt-0 last:pb-0"
+              >
                 <div className="min-w-0">
                   <Link
                     href={`/politico/${r.id}`}
@@ -294,9 +297,10 @@ function EgoViewInner({
                 Sem conexões atribuídas nesta base.
               </p>
               <p className="text-xs leading-relaxed text-zinc-500">
-                Não identificamos emendas individuais (2023+) para este parlamentar
-                nos dados da CGU. A base aberta do Senado não publica CPF, então não
-                cruzamos sócios e contratos para senadores.
+                Não identificamos emendas individuais (2023+) para este
+                parlamentar nos dados da CGU. A base aberta do Senado não
+                publica CPF, então não cruzamos sócios e contratos para
+                senadores.
               </p>
             </div>
           </div>
@@ -317,7 +321,7 @@ function EgoViewInner({
             />
             <input
               value={query}
-              onChange={(e) => setQuery(e.target.value)}
+              onChange={(e) => void setQuery(e.target.value || null)}
               placeholder="Filtrar no grafo"
               className="w-full rounded-xl border border-white/10 bg-white/[0.03] py-2.5 pr-3 pl-9 text-sm text-zinc-100 transition outline-none placeholder:text-zinc-500 focus:border-emerald-400/40 focus:ring-2 focus:ring-emerald-400/10"
             />
@@ -329,15 +333,17 @@ function EgoViewInner({
                 <div className="flex items-center gap-2">
                   <span
                     className="h-2.5 w-2.5 rounded-full"
-                    style={{ backgroundColor: getCategoryColor(selected.category) }}
+                    style={{
+                      backgroundColor: getCategoryColor(selected.category),
+                    }}
                   />
                   <span className="text-sm font-medium text-zinc-100">
                     {selected.name}
                   </span>
                 </div>
                 <p className="mt-1 text-xs text-zinc-500">
-                  {CATEGORY_LABELS[selected.category]} · {selected.connectionCount}{" "}
-                  conexões
+                  {CATEGORY_LABELS[selected.category]} ·{" "}
+                  {selected.connectionCount} conexões
                 </p>
 
                 {selected.category === "donor" && (
@@ -371,9 +377,10 @@ function EgoViewInner({
                 {selectedEntity && (
                   <div className="mt-3 border-t border-white/5 pt-3">
                     <p className="text-xs font-medium text-zinc-400">
-                      {(CROSS_VERB[selectedEntity.category] ?? CROSS_VERB.company)(
-                        selectedEntity.total,
-                      )}
+                      {(
+                        CROSS_VERB[selectedEntity.category] ??
+                        CROSS_VERB.company
+                      )(selectedEntity.total)}
                     </p>
                     <ul className="mt-2 max-h-60 space-y-1 overflow-y-auto pr-1">
                       {selectedEntity.others.slice(0, 12).map((d) => (
@@ -387,7 +394,10 @@ function EgoViewInner({
                           >
                             {d.name}
                             {d.party ? (
-                              <span className="text-zinc-600"> · {d.party}</span>
+                              <span className="text-zinc-600">
+                                {" "}
+                                · {d.party}
+                              </span>
                             ) : null}
                           </Link>
                           {d.amount > 0 && (
