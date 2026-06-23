@@ -53,8 +53,7 @@ One file per politician (the "ego"):
 | `description` | string \| null | human-readable, source-attributed | hover/detail |
 | `strength` | number | edge weight | **unused in rendering today** — don't over-invest |
 
-> Note: the Epstein DB stored endpoints as `personId1/personId2`; D3 wants `source/target`.
-> We emit `source/target` directly and skip that rename.
+Links use integer `source` / `target` node ids (D3 `SimulationLinkDatum`).
 
 ## Mapping br-acc / public data → this contract
 
@@ -74,8 +73,7 @@ One file per politician (the "ego"):
 
 ## The messiness you'll actually hit
 
-The CPF/CNPJ keys make this *far* easier than the Epstein pipeline (which had no IDs and
-needed heavy probabilistic dedup). But it's not free:
+Stable CPF/CNPJ keys (kept private in the build) anchor most joins. Still expect mess:
 
 1. **CPF masking (LGPD).** Portal da Transparência publishes CPFs redacted (`***.XXX.XXX-**`).
    Deterministic joins break; fall back to fuzzy match (partial CPF + name + DOB). This is the

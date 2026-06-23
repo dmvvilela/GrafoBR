@@ -11,13 +11,13 @@ campaign donations, company ownership (sócios), public contracts, and declared 
 
 The motivating context: a viral Brazilian project (`br-acc` / "Cérebro Digital") proved
 the *idea* but shipped as heavy infra (Neo4j, terabyte in-memory, gated person data) with
-a demo-seeded public repo. Separately, the Epstein-files projects proved the *UX* for
-dense relational data (D3 connection graphs, "make it feel like software people know").
-GrafoBR = **br-acc's data approach + the Epstein graph UX + a leaner, free, static architecture.**
+a demo-seeded public repo. GrafoBR keeps br-acc's *data-source knowledge* but pairs it with
+a lean static stack and a familiar force-directed graph UX (search → politician → interactive
+D3 graph).
 
-We are **not** rebuilding br-acc and **not** fusing the two projects' backends. We take
-br-acc's *data-source knowledge* (which portals, which base URLs, how to normalize) and an
-*independent* graph frontend, joined by a JSON contract.
+We are **not** rebuilding br-acc. We take br-acc's *data-source knowledge* (which portals,
+which base URLs, how to normalize) and build an independent graph frontend, joined by a JSON
+contract.
 
 ## 2. Scope (v1)
 
@@ -62,11 +62,11 @@ output is just files; the frontend just reads them.
 
 | Layer | Choice | Notes |
 |---|---|---|
-| Build/ETL | **Python + DuckDB** | DuckDB does the heavy joins for free, in-process. No Neo4j. |
+| Build/ETL | **Python + DuckDB** | DuckDB does the heavy joins in-process at build time. |
 | Orchestration | **GitHub Actions** cron | Weekly refresh; free CI. |
 | Serve | **Static JSON** on CDN | Cloudflare R2 / Pages or committed to repo. No DB. |
 | Frontend | **Next.js (App Router)** | SSG pages for SEO; API routes available later if needed. |
-| Graph | **D3 / d3-force** | Reuse the (MIT) Epstein File Explorer component's approach. |
+| Graph | **D3 / d3-force** | Client-side force simulation; `{source,target}` links. |
 | Styling | **Tailwind** | v4 (CSS-first config). |
 | Search | **Fuse.js** | Client-side over ~600 entries. |
 | Pkg mgr | **pnpm** | Single JS app; **no workspace/monorepo** in v1 (see DECISIONS). |

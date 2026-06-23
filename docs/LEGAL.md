@@ -12,11 +12,10 @@ GrafoBR is about **living, powerful, litigious public figures.** Brazil has:
 - **LGPD** (Lei Geral de Proteção de Dados). Even *public* personal data, when aggregated
   and used to profile individuals, carries obligations and risk.
 
-This is a different risk profile from the Epstein-files projects (mostly one dead criminal +
-associates already named in court). We are closer to "build a profile of every sitting
-congressman," which is exactly why br-acc gated person data (`PUBLIC_ALLOW_PERSON=false`),
-disabled its pattern engine (`PATTERNS_ENABLED=false`), and shipped ETHICS/DISCLAIMER docs.
-We mirror that caution by design.
+We are building a navigable view of every sitting federal congressman from public records —
+which is exactly why br-acc gated person data (`PUBLIC_ALLOW_PERSON=false`), disabled its
+pattern engine (`PATTERNS_ENABLED=false`), and shipped ETHICS/DISCLAIMER docs. We mirror
+that caution by design.
 
 ## Constraints baked into the architecture
 

@@ -16,15 +16,12 @@ in-memory + personal hardware).
 **Revisit if:** you add a feature that genuinely needs per-request computation (e.g. live
 "type any CPF" — which is also out of scope for legal reasons).
 
-### D2 — DuckDB for the build; NOT Neo4j; NOT Neon/Turso as the engine
+### D2 — DuckDB for the build
 **Decision:** Use DuckDB (embedded, in-process) for the joins/normalization in the pipeline.
-**Why:** People conflate these. DuckDB is a *processing engine* (no server, $0, runs in CI),
-not a *serving DB*. At our scale (~594 small ego-networks) we don't need Neo4j's graph engine
-— bounded traversal is a handful of joins. Neon (Postgres) and Turso (SQLite) are *serving*
-DBs for a *different job*; v1 has no serving DB at all. (Also: Turso meters row-reads, and
-graph traversal is the chattiest possible read pattern — another reason to precompute.)
-**Revisit if:** you add the live AI layer → then **Neon + pgvector** becomes the RAG store
-(see D6/Phase 6).
+**Why:** No server to run or pay for — it executes in CI or locally and writes static JSON.
+At our scale (~594 small ego-networks), bounded expansion is a handful of SQL joins. v1 has
+no runtime database; the site reads precomputed files. (If/when a live AI layer ships,
+**Neon + pgvector** becomes the RAG store — see D6/Phase 6.)
 
 ### D3 — Scope to ~594 federal politicians as bounded ego-networks
 **Decision:** Don't build the full 83M-node national graph. Seed on sitting federal deputies
@@ -36,17 +33,11 @@ The full "explore anyone" graph is the heavy, risky version; the scoped version 
 people who actually matter for v1.
 **Revisit if:** v1 works and there's appetite (+ legal comfort) to expand to state/municipal.
 
-### D4 — D3 / d3-force for the graph (reuse the Epstein File Explorer approach)
-**Decision:** Render with D3's force simulation, adapting the (MIT-licensed) Epstein File
-Explorer's `network-graph` component.
-**Why:** We already reverse-engineered its data contract — `{id,name,category,connectionCount}`
-nodes and `{source,target,connectionType,description,strength}` links — so it maps 1:1 to our
-data. MIT = free to reuse. SVG = crisp labels + easy CSS. At our per-ego scale, SVG perf is
-fine. Alternatives considered: `react-force-graph` (less code, canvas/WebGL, scales bigger,
-but fiddlier labels) and Cytoscape.js (ergonomic, different data shape). D3 chosen for the 1:1
-contract fit and full control.
-**Revisit if:** you ever render a combined graph of thousands+ nodes → switch to
-react-force-graph/Sigma (canvas/WebGL).
+### D4 — D3 / d3-force for the graph
+**Decision:** Render with D3's force simulation in `web/src/components/NetworkGraph.tsx`.
+**Why:** The data contract was shaped for D3 from the start — `{id,name,category,connectionCount}`
+nodes and `{source,target,connectionType,description,strength}` links. SVG gives crisp labels
+and easy CSS; at per-ego scale (~ tens of nodes) performance is fine.
 
 ### D5 — Next.js (App Router), not Astro or a plain Vite SPA
 **Decision:** Next.js with SSG.

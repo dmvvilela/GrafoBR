@@ -23,7 +23,7 @@ contract, and a detailed plan are in place. Your job is to implement it phase by
 
 ## Locked constraints (from DECISIONS.md — honor these)
 - Frontend: **Next.js** (App Router) + **D3/d3-force** + **Tailwind**, package manager **pnpm**.
-- Build: **DuckDB** in Python. Output: static JSON. No Neo4j, no live DB in v1.
+- Build: **DuckDB** in Python. Output: static JSON. No live DB in v1.
 - AI (later phase): **build-time only**, local **Gemma 4 12B** via Ollama, results baked
   into the JSON. No live AI endpoint in v1 (also a legal safeguard).
 - **Never import `br-acc` code into our codebase** (AGPL). Study it in `reference/`,
