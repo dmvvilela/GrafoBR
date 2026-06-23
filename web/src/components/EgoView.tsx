@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { Suspense, useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, Search } from "lucide-react";
+import { usePathname, useSearchParams } from "next/navigation";
+import { ArrowLeft, Link2, Search } from "lucide-react";
 import NetworkGraph from "@/components/NetworkGraph";
 import DeputyHighlights from "@/components/DeputyHighlights";
 import Avatar from "@/components/Avatar";
@@ -55,23 +56,86 @@ type EntityMap = Record<
   { name: string; category: string; count: number; deputies: EntityDeputy[] }
 >;
 
-export default function EgoView({
+type RelatedEntry = {
+  id: number;
+  name: string;
+  party?: string | null;
+  uf?: string | null;
+  shared: number;
+  entities: string[];
+};
+
+function nodeFromFocus(ego: EgoNetwork, focus: string | null): GraphNode | null {
+  if (!focus) return null;
+  return ego.nodes.find((n) => String(n.id) === focus) ?? null;
+}
+
+function EgoViewInner({
   ego,
   entry,
 }: {
   ego: EgoNetwork;
   entry: IndexEntry | null;
 }) {
-  const [query, setQuery] = useState("");
-  const [selected, setSelected] = useState<GraphNode | null>(null);
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  const [query, setQuery] = useState(() => searchParams.get("q") ?? "");
+  const [selected, setSelected] = useState<GraphNode | null>(() =>
+    nodeFromFocus(ego, searchParams.get("focus")),
+  );
   const [entities, setEntities] = useState<EntityMap>({});
+  const [related, setRelated] = useState<RelatedEntry[]>([]);
+  const [copied, setCopied] = useState(false);
   const sourceLabels = (ego.meta?.sources ?? []).map(sourceLabel);
+  const depId = String(ego.meta?.egoId ?? entry?.id ?? "");
 
   useEffect(() => {
     fetch("/data/_entities.json")
       .then((r) => (r.ok ? r.json() : {}))
       .then(setEntities)
       .catch(() => {});
+  }, []);
+
+  useEffect(() => {
+    fetch("/data/_related.json")
+      .then((r) => (r.ok ? r.json() : {}))
+      .then((all: Record<string, RelatedEntry[]>) => setRelated(all[depId] ?? []))
+      .catch(() => {});
+  }, [depId]);
+
+  // Sync graph state -> URL (shareable links; replaceState avoids history spam).
+  useEffect(() => {
+    const params = new URLSearchParams();
+    const q = query.trim();
+    if (q) params.set("q", q);
+    if (selected) params.set("focus", String(selected.id));
+    const next = params.toString();
+    const url = next ? `${pathname}?${next}` : pathname;
+    if (`${pathname}${window.location.search}` !== url) {
+      window.history.replaceState(null, "", url);
+    }
+  }, [query, selected, pathname]);
+
+  // Back/forward: restore graph state from URL.
+  useEffect(() => {
+    const onPop = () => {
+      const p = new URLSearchParams(window.location.search);
+      setQuery(p.get("q") ?? "");
+      setSelected(nodeFromFocus(ego, p.get("focus")));
+    };
+    window.addEventListener("popstate", onPop);
+    return () => window.removeEventListener("popstate", onPop);
+  }, [ego]);
+
+  const copyShareLink = useCallback(async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      setCopied(true);
+      window.setTimeout(() => setCopied(false), 2000);
+    } catch {
+      /* clipboard blocked */
+    }
   }, []);
 
   const nameById = useMemo(
@@ -104,9 +168,10 @@ export default function EgoView({
     if (!e) return null;
     const others = e.deputies.filter((d) => d.id !== ego.meta?.egoId);
     if (others.length === 0) return null;
-    // e.count includes this deputy; the rest is the cross-link headline
     return { category: e.category, total: e.count - 1, others };
   }, [selected, entities, ego.meta?.egoId]);
+
+  const hasUrlState = query.trim().length > 0 || selected !== null;
 
   return (
     <div className="space-y-6">
@@ -146,7 +211,7 @@ export default function EgoView({
             )}
           </div>
         </div>
-        <div className="flex flex-wrap gap-1.5">
+        <div className="flex flex-wrap items-center gap-2">
           {(ego.meta?.sources ?? []).map((s) => (
             <span
               key={s}
@@ -155,6 +220,17 @@ export default function EgoView({
               {s}
             </span>
           ))}
+          {hasUrlState && (
+            <button
+              type="button"
+              onClick={copyShareLink}
+              className="inline-flex items-center gap-1 rounded-md bg-white/5 px-2 py-1 text-[11px] text-zinc-400 ring-1 ring-white/10 transition hover:bg-white/10 hover:text-zinc-200"
+              title="Copiar link desta visualização"
+            >
+              <Link2 size={12} />
+              {copied ? "Copiado!" : "Compartilhar"}
+            </button>
+          )}
         </div>
       </header>
 
@@ -169,6 +245,46 @@ export default function EgoView({
       ) : null}
 
       <DeputyHighlights ego={ego} />
+
+      {related.length > 0 && (
+        <section className="rounded-2xl border border-white/5 bg-white/[0.02] p-4">
+          <h2 className="text-sm font-medium text-zinc-200">
+            Parlamentares com conexões em comum
+          </h2>
+          <p className="mt-1 text-xs text-zinc-500">
+            Compartilham doadores, empresas ou fornecedores nos registros públicos —
+            conexões, não acusações.
+          </p>
+          <ul className="mt-3 divide-y divide-white/5">
+            {related.map((r) => (
+              <li key={r.id} className="flex flex-wrap items-baseline justify-between gap-2 py-2.5 first:pt-0 last:pb-0">
+                <div className="min-w-0">
+                  <Link
+                    href={`/politico/${r.id}`}
+                    className="text-sm text-emerald-300 hover:underline"
+                  >
+                    {r.name}
+                    {r.party ? (
+                      <span className="text-zinc-500"> · {r.party}</span>
+                    ) : null}
+                    {r.uf ? (
+                      <span className="text-zinc-600"> · {r.uf}</span>
+                    ) : null}
+                  </Link>
+                  {r.entities.length > 0 && (
+                    <p className="mt-0.5 truncate text-xs text-zinc-600">
+                      ex.: {r.entities.join(", ")}
+                    </p>
+                  )}
+                </div>
+                <span className="shrink-0 text-xs tabular-nums text-zinc-500">
+                  {r.shared} {r.shared === 1 ? "conexão" : "conexões"}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <div className="grid gap-5 lg:grid-cols-[1fr_330px]">
         {ego.links.length === 0 ? (
@@ -305,5 +421,27 @@ export default function EgoView({
         </aside>
       </div>
     </div>
+  );
+}
+
+export default function EgoView({
+  ego,
+  entry,
+}: {
+  ego: EgoNetwork;
+  entry: IndexEntry | null;
+}) {
+  return (
+    <Suspense
+      fallback={
+        <div className="animate-pulse space-y-6">
+          <div className="h-4 w-40 rounded bg-white/5" />
+          <div className="h-24 rounded-2xl bg-white/5" />
+          <div className="h-[560px] rounded-2xl bg-white/5" />
+        </div>
+      }
+    >
+      <EgoViewInner ego={ego} entry={entry} />
+    </Suspense>
   );
 }
