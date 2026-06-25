@@ -1,12 +1,13 @@
 // Per-politician Obrasgov context. This does not assert that a deputy caused or
 // funded an obra; it surfaces state-level public works signals and weak thematic
 // leads from the deputy's emenda areas for further investigation.
-import { readFile, readdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const dir = path.resolve(here, "../public/data");
+const rootDataDir = path.resolve(here, "../../data");
 
 const MAX_STATE_PROJECTS = 5;
 const MAX_THEME_MATCHES = 5;
@@ -62,6 +63,19 @@ function projectText(project) {
       project.natureza,
     ].join(" "),
   );
+}
+
+function sameMunicipality(project, destination) {
+  const projectCode = String(project.codigoMunicipio ?? "").trim();
+  const destCode = String(destination.codigoMunicipio ?? "").trim();
+  if (projectCode && destCode && projectCode === destCode) return true;
+
+  const municipality = norm(destination.municipio ?? destination.localidade);
+  if (!municipality || municipality === "sem informacao" || municipality === "nacional") {
+    return false;
+  }
+  if (norm(project.municipio) === municipality) return true;
+  return projectText(project).includes(municipality);
 }
 
 function compactProject(project) {
@@ -133,12 +147,60 @@ function emendaAreas(ego) {
     .sort((a, b) => b.empenhado - a.empenhado);
 }
 
-function themeMatches(areas, stateProjects) {
+function keywordsForArea(area) {
+  return THEME_KEYWORDS[area] ?? [];
+}
+
+function projectMatchesArea(project, area) {
+  const keywords = keywordsForArea(area);
+  if (!keywords.length) return false;
+  const text = projectText(project);
+  return keywords.some((keyword) => text.includes(norm(keyword)));
+}
+
+function themeMatches(areas, stateProjects, destinationRows) {
   const matches = [];
   const usedProjects = new Set();
+
+  for (const destination of destinationRows) {
+    if (!destination.municipio && !destination.localidade) continue;
+    const candidates = stateProjects
+      .filter((project) => {
+        if (usedProjects.has(project.id)) return false;
+        if (!sameMunicipality(project, destination)) return false;
+        return projectMatchesArea(project, destination.funcao);
+      })
+      .sort((a, b) => scoreProject(b) - scoreProject(a));
+
+    for (const project of candidates.slice(0, 1)) {
+      usedProjects.add(project.id);
+      matches.push({
+        kind: "same_uf_municipio_theme",
+        confidence: "media",
+        area: destination.funcao,
+        subfuncao: destination.subfuncao ?? null,
+        acao: destination.acao ?? null,
+        municipio: destination.municipio ?? destination.localidade ?? null,
+        codigoMunicipio: destination.codigoMunicipio ?? null,
+        emendaEmpenhada: destination.empenhado ?? 0,
+        emendaPaga: destination.pago ?? 0,
+        emendas: destination.emendas ?? 0,
+        sampleIds: destination.sampleIds ?? [],
+        evidence: [
+          "mesma UF do parlamentar",
+          `municipio da emenda: ${destination.municipio ?? destination.localidade}`,
+          `tema de emenda: ${destination.funcao}`,
+          "texto/cadastro da obra sugere o mesmo municipio e tema",
+        ],
+        project: compactProject(project),
+      });
+      if (matches.length >= MAX_THEME_MATCHES) return matches;
+    }
+  }
+
   for (const area of areas) {
-    const keywords = THEME_KEYWORDS[area.area];
-    if (!keywords) continue;
+    const keywords = keywordsForArea(area.area);
+    if (!keywords.length) continue;
     const candidates = stateProjects
       .map((project) => ({
         project,
@@ -170,6 +232,20 @@ function themeMatches(areas, stateProjects) {
   return matches;
 }
 
+function authorKeys(entry, ego) {
+  return new Set(
+    [
+      entry.name,
+      ego.meta?.egoName,
+      ego.meta?.civilName,
+      ego.meta?.ballotName,
+      ego.meta?.fullName,
+    ]
+      .map(norm)
+      .filter(Boolean),
+  );
+}
+
 const index = JSON.parse(await readFile(path.join(dir, "index.json"), "utf8"));
 const obras = JSON.parse(await readFile(path.join(dir, "_obras.json"), "utf8"));
 const projects = obras.all ?? [];
@@ -177,10 +253,27 @@ const projectsByUf = Map.groupBy(
   projects.filter((p) => p.uf),
   (p) => p.uf,
 );
+let emendaDestinationRows = [];
+for (const candidate of [
+  path.join(rootDataDir, "_emenda-destinations.json"),
+  path.join(dir, "_emenda-destinations.json"),
+]) {
+  try {
+    const payload = JSON.parse(await readFile(candidate, "utf8"));
+    emendaDestinationRows = payload.rows ?? [];
+    break;
+  } catch {}
+}
+const destinationsByAuthor = Map.groupBy(emendaDestinationRows, (row) =>
+  norm(row.autor),
+);
+const outDir = path.join(dir, "obras-insights");
+await rm(outDir, { recursive: true, force: true });
+await mkdir(outDir, { recursive: true });
 
-const out = {};
 let withStateSignals = 0;
 let withThemeMatches = 0;
+let mediumMatches = 0;
 
 for (const entry of index) {
   if (!entry.uf) continue;
@@ -196,22 +289,38 @@ for (const entry of index) {
   if (stateProjects.length === 0) continue;
 
   const areas = emendaAreas(ego);
+  const names = authorKeys(entry, ego);
+  const destinationRows = [...names]
+    .flatMap((name) => destinationsByAuthor.get(name) ?? [])
+    .filter(
+      (row) =>
+        row.uf === entry.uf ||
+        row.uf == null ||
+        row.uf === "" ||
+        String(row.uf).length !== 2,
+    )
+    .sort((a, b) => (b.empenhado ?? 0) - (a.empenhado ?? 0));
   const insight = {
     uf: entry.uf,
     state: stateSummary(stateProjects),
     emendaAreas: areas.slice(0, 6),
-    possibleMatches: themeMatches(areas, stateProjects),
+    possibleMatches: themeMatches(areas, stateProjects, destinationRows),
     note:
       "Contexto por UF e correspondencias tematicas fracas; nao atribui autoria, responsabilidade ou financiamento a parlamentar.",
   };
 
   if (insight.state.total > 0) withStateSignals += 1;
   if (insight.possibleMatches.length > 0) withThemeMatches += 1;
-  out[String(entry.id)] = insight;
+  mediumMatches += insight.possibleMatches.filter(
+    (match) => match.confidence === "media",
+  ).length;
+  await writeFile(
+    path.join(outDir, `${entry.id}.json`),
+    JSON.stringify(insight),
+    "utf8",
+  );
 }
 
-await writeFile(path.join(dir, "_obras-insights.json"), JSON.stringify(out), "utf8");
-
 console.log(
-  `[derive-obras-insights] ${withStateSignals} politicians with UF obras context; ${withThemeMatches} with thematic leads`,
+  `[derive-obras-insights] ${withStateSignals} politicians with UF obras context; ${withThemeMatches} with thematic leads (${mediumMatches} municipality+theme)`,
 );

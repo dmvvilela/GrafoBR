@@ -15,7 +15,10 @@ if (!existsSync(srcDir)) {
 }
 
 await mkdir(outDir, { recursive: true });
-const files = (await readdir(srcDir)).filter((f) => f.endsWith(".json"));
+const buildOnly = new Set(["_emenda-destinations.json"]);
+const files = (await readdir(srcDir)).filter(
+  (f) => f.endsWith(".json") && !buildOnly.has(f),
+);
 await Promise.all(
   files.map((f) => copyFile(path.join(srcDir, f), path.join(outDir, f))),
 );

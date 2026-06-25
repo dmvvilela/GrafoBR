@@ -21,6 +21,7 @@ venv/
 data/*
 !data/.gitkeep
 !data/README.md
+!data/_emenda-destinations.json
 
 # web/public/data is COMMITTED as the deploy data snapshot (Vercel serves it directly).
 # Refresh it by re-running the pipeline (../data) then web/scripts/sync-data.mjs.

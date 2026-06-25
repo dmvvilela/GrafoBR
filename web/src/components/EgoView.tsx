@@ -101,10 +101,17 @@ type ObrasInsight = {
   };
   emendaAreas: { area: string; empenhado: number; pago: number }[];
   possibleMatches: {
-    kind: "same_uf_theme";
-    confidence: "baixa";
+    kind: "same_uf_theme" | "same_uf_municipio_theme";
+    confidence: "baixa" | "media";
     area: string;
+    subfuncao?: string | null;
+    acao?: string | null;
+    municipio?: string | null;
+    codigoMunicipio?: string | null;
     emendaEmpenhada: number;
+    emendaPaga?: number;
+    emendas?: number;
+    sampleIds?: string[];
     evidence: string[];
     project: ObrasProjectBrief;
   }[];
@@ -179,11 +186,10 @@ function EgoViewInner({
   }, [depId]);
 
   useEffect(() => {
-    fetch("/data/_obras-insights.json")
-      .then((r) => (r.ok ? r.json() : {}))
-      .then((all: Record<string, ObrasInsight>) =>
-        setObrasInsight(all[depId] ?? null),
-      )
+    if (!depId) return;
+    fetch(`/data/obras-insights/${depId}.json`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((insight: ObrasInsight | null) => setObrasInsight(insight))
       .catch(() => {});
   }, [depId]);
 
@@ -372,20 +378,50 @@ function EgoViewInner({
                       <p className="min-w-0 flex-1 text-sm leading-snug text-zinc-300">
                         {match.project.nome || `CIPI ${match.project.id}`}
                       </p>
-                      <span className="rounded bg-amber-400/10 px-1.5 py-0.5 text-[10px] text-amber-300 ring-1 ring-amber-400/20">
-                        confiança baixa
+                      <span
+                        className={`rounded px-1.5 py-0.5 text-[10px] ring-1 ${
+                          match.confidence === "media"
+                            ? "bg-emerald-400/10 text-emerald-300 ring-emerald-400/20"
+                            : "bg-amber-400/10 text-amber-300 ring-amber-400/20"
+                        }`}
+                      >
+                        confiança {match.confidence}
                       </span>
                     </div>
                     <p className="mt-1 text-xs text-zinc-600">
                       Tema: <span className="text-zinc-500">{match.area}</span>
+                      {match.municipio ? (
+                        <>
+                          {" "}
+                          · Município:{" "}
+                          <span className="text-zinc-500">{match.municipio}</span>
+                        </>
+                      ) : null}
                       {match.project.executor
                         ? ` · Executor: ${match.project.executor}`
                         : ""}
                     </p>
+                    {match.acao ? (
+                      <p className="mt-1 text-xs text-zinc-600">
+                        Ação da emenda:{" "}
+                        <span className="text-zinc-500">{match.acao}</span>
+                      </p>
+                    ) : null}
                     <div className="mt-1.5 flex flex-wrap gap-1.5">
                       {match.project.signals.map((signal) => (
                         <SignalPill key={signal} signal={signal} />
                       ))}
+                      <span
+                        className={`rounded px-1.5 py-0.5 text-[10px] ring-1 ${
+                          match.confidence === "media"
+                            ? "bg-emerald-400/10 text-emerald-300 ring-emerald-400/20"
+                            : "bg-white/5 text-zinc-500 ring-white/10"
+                        }`}
+                      >
+                        {match.confidence === "media"
+                          ? "mesmo município + tema"
+                          : "mesma UF + tema"}
+                      </span>
                     </div>
                   </li>
                 ))}
