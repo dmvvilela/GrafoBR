@@ -36,6 +36,18 @@ cd ../web && pnpm sync-data && pnpm dev    # predev runs sync-data automatically
 git add web/public/data && git commit -m "chore: refresh data snapshot" && git push
 ```
 
+### Obras públicas (`/obras` page)
+
+Separate from deputy ego-networks — federal infra projects from **Obrasgov.br**:
+
+```bash
+PYTHONPATH=src .venv/bin/python scripts/fetch_obras.py --pages-per-query 2 --skip-financial
+# ~12 min; discovers ~500 projects via UF×situação matrix (API pagination is broken)
+cd ../web && pnpm sync-data
+```
+
+Full run with empenhos: drop `--skip-financial` (much slower).
+
 ---
 
 ## How we get each source (and the gotchas)
@@ -124,6 +136,7 @@ scripts/
   extract_target_cpfs.py # deputies' CPFs from the Câmara cache (stay local)
   bq_contracts.py        # federal contracts via BigQuery
   build_all.sh           # the whole flow, one command
+  fetch_obras.py         # Obrasgov.br → ../data/_obras.json (standalone /obras page)
   salvage_cnpj.py        # diagnose/carve a truncated whole-folder zip (legacy/forensic)
 ```
 

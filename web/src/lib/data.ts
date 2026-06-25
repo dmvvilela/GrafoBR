@@ -121,3 +121,53 @@ export async function getMeta(): Promise<Meta | null> {
     return null;
   }
 }
+
+export interface ObraProject {
+  id: string;
+  nome: string;
+  uf?: string | null;
+  municipio?: string | null;
+  codigoMunicipio?: string | number | null;
+  situacao?: string | null;
+  especie?: string | null;
+  natureza?: string | null;
+  percentualFisico?: number | null;
+  valorPrevisto?: number | null;
+  valorEmpenhado?: number | null;
+  ratioEmpenhado?: number | null;
+  dataFinalPrevista?: string | null;
+  diasAtraso?: number;
+  paralisacoes?: number;
+  motivosParalisacao?: string[] | null;
+  signals: string[];
+  executor?: string | null;
+  repassador?: string | null;
+  orgao?: string | null;
+  sourceIds?: {
+    idUnico?: string | null;
+    idProjetoInvestimento?: string | number | null;
+  };
+}
+
+export interface ObrasIndex {
+  meta: {
+    generatedAt: string;
+    source: string;
+    sourceUrl: string;
+    disclaimer: string;
+    counts: { discovered: number; flagged: number; paralisada: number; atrasada: number };
+    discoveryNote?: string;
+  };
+  paralisadas: ObraProject[];
+  atrasadas: ObraProject[];
+  all: ObraProject[];
+}
+
+export async function getObras(): Promise<ObrasIndex | null> {
+  try {
+    const raw = await fs.readFile(path.join(DATA_DIR, "_obras.json"), "utf-8");
+    return JSON.parse(raw) as ObrasIndex;
+  } catch {
+    return null;
+  }
+}

@@ -63,6 +63,9 @@ export default function RootLayout({
                 >
                   Rankings
                 </Link>
+                <Link href="/obras" className="transition hover:text-zinc-100">
+                  Obras
+                </Link>
                 <Link href="/sobre" className="transition hover:text-zinc-100">
                   Sobre
                 </Link>

@@ -4,9 +4,9 @@
   "private": true,
   "description": "GrafoBR frontend — static per-politician pages + D3 connection graph. See ../docs/PLAN.md.",
   "scripts": {
-    "sync-data": "node scripts/sync-data.mjs && node scripts/derive-entities.mjs && node scripts/derive-related.mjs && node scripts/derive-highlights.mjs && node scripts/derive-ceap-trails.mjs && node scripts/derive-emendas.mjs",
-    "predev": "node scripts/sync-data.mjs && node scripts/derive-entities.mjs && node scripts/derive-related.mjs && node scripts/derive-highlights.mjs && node scripts/derive-ceap-trails.mjs && node scripts/derive-emendas.mjs",
-    "prebuild": "node scripts/sync-data.mjs && node scripts/derive-entities.mjs && node scripts/derive-related.mjs && node scripts/derive-highlights.mjs && node scripts/derive-ceap-trails.mjs && node scripts/derive-emendas.mjs",
+    "sync-data": "node scripts/sync-data.mjs && node scripts/derive-entities.mjs && node scripts/derive-related.mjs && node scripts/derive-highlights.mjs && node scripts/derive-ceap-trails.mjs && node scripts/derive-emendas.mjs && node scripts/derive-obras-insights.mjs",
+    "predev": "node scripts/sync-data.mjs && node scripts/derive-entities.mjs && node scripts/derive-related.mjs && node scripts/derive-highlights.mjs && node scripts/derive-ceap-trails.mjs && node scripts/derive-emendas.mjs && node scripts/derive-obras-insights.mjs",
+    "prebuild": "node scripts/sync-data.mjs && node scripts/derive-entities.mjs && node scripts/derive-related.mjs && node scripts/derive-highlights.mjs && node scripts/derive-ceap-trails.mjs && node scripts/derive-emendas.mjs && node scripts/derive-obras-insights.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

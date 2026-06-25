@@ -68,7 +68,64 @@ type RelatedEntry = {
   entities: string[];
 };
 
+type ObrasProjectBrief = {
+  id: string;
+  nome: string;
+  uf?: string | null;
+  municipio?: string | null;
+  codigoMunicipio?: string | number | null;
+  situacao?: string | null;
+  signals: string[];
+  valorPrevisto?: number | null;
+  dataFinalPrevista?: string | null;
+  diasAtraso?: number;
+  percentualFisico?: number | null;
+  executor?: string | null;
+  repassador?: string | null;
+  orgao?: string | null;
+  sourceIds?: {
+    idUnico?: string | null;
+    idProjetoInvestimento?: string | number | null;
+  } | null;
+};
+
+type ObrasInsight = {
+  uf: string;
+  state: {
+    total: number;
+    paralisadas: number;
+    atrasadas: number;
+    baixoAvanco: number;
+    valorPrevisto: number;
+    top: ObrasProjectBrief[];
+  };
+  emendaAreas: { area: string; empenhado: number; pago: number }[];
+  possibleMatches: {
+    kind: "same_uf_theme";
+    confidence: "baixa";
+    area: string;
+    emendaEmpenhada: number;
+    evidence: string[];
+    project: ObrasProjectBrief;
+  }[];
+  note: string;
+};
+
 const urlOpts = { history: "replace" as const, shallow: true };
+
+function SignalPill({ signal }: { signal: string }) {
+  const label: Record<string, string> = {
+    paralisada: "paralisada",
+    atrasada: "prazo vencido",
+    baixo_avanco: "baixo avanço",
+    empenho_acima_previsto: "empenho alto",
+  };
+  return (
+    <span className="rounded bg-white/5 px-1.5 py-0.5 text-[10px] text-zinc-500 ring-1 ring-white/10">
+      {label[signal] ?? signal}
+    </span>
+  );
+}
 
 function EgoViewInner({
   ego,
@@ -100,6 +157,7 @@ function EgoViewInner({
 
   const [entities, setEntities] = useState<EntityMap>({});
   const [related, setRelated] = useState<RelatedEntry[]>([]);
+  const [obrasInsight, setObrasInsight] = useState<ObrasInsight | null>(null);
   const [copied, setCopied] = useState(false);
   const sourceLabels = (ego.meta?.sources ?? []).map(sourceLabel);
   const depId = String(ego.meta?.egoId ?? entry?.id ?? "");
@@ -116,6 +174,15 @@ function EgoViewInner({
       .then((r) => (r.ok ? r.json() : {}))
       .then((all: Record<string, RelatedEntry[]>) =>
         setRelated(all[depId] ?? []),
+      )
+      .catch(() => {});
+  }, [depId]);
+
+  useEffect(() => {
+    fetch("/data/_obras-insights.json")
+      .then((r) => (r.ok ? r.json() : {}))
+      .then((all: Record<string, ObrasInsight>) =>
+        setObrasInsight(all[depId] ?? null),
       )
       .catch(() => {});
   }, [depId]);
@@ -245,6 +312,93 @@ function EgoViewInner({
       ) : null}
 
       <DeputyHighlights ego={ego} />
+
+      {obrasInsight && (
+        <section className="rounded-2xl border border-white/5 bg-white/[0.02] p-4">
+          <div className="flex flex-wrap items-start justify-between gap-3">
+            <div>
+              <h2 className="text-sm font-medium text-zinc-200">
+                Obras públicas em {obrasInsight.uf}
+              </h2>
+              <p className="mt-1 text-xs text-zinc-500">
+                Contexto estadual do Obrasgov.br cruzado com temas de emendas —
+                pistas documentais, não atribuição de responsabilidade.
+              </p>
+            </div>
+            <Link
+              href="/obras"
+              className="text-xs text-emerald-300 hover:underline"
+            >
+              ver ranking
+            </Link>
+          </div>
+
+          <div className="mt-3 grid gap-2 text-xs sm:grid-cols-4">
+            <div className="rounded-xl bg-white/[0.03] p-3">
+              <span className="block text-zinc-600">Sinais no estado</span>
+              <span className="mt-1 block text-lg font-semibold text-zinc-200 tabular-nums">
+                {obrasInsight.state.total.toLocaleString("pt-BR")}
+              </span>
+            </div>
+            <div className="rounded-xl bg-rose-500/10 p-3">
+              <span className="block text-rose-300/70">Paralisadas</span>
+              <span className="mt-1 block text-lg font-semibold text-rose-200 tabular-nums">
+                {obrasInsight.state.paralisadas.toLocaleString("pt-BR")}
+              </span>
+            </div>
+            <div className="rounded-xl bg-orange-500/10 p-3">
+              <span className="block text-orange-300/70">Prazo vencido</span>
+              <span className="mt-1 block text-lg font-semibold text-orange-200 tabular-nums">
+                {obrasInsight.state.atrasadas.toLocaleString("pt-BR")}
+              </span>
+            </div>
+            <div className="rounded-xl bg-white/[0.03] p-3">
+              <span className="block text-zinc-600">Valor previsto</span>
+              <span className="mt-1 block text-sm font-semibold text-zinc-200 tabular-nums">
+                {brl(obrasInsight.state.valorPrevisto)}
+              </span>
+            </div>
+          </div>
+
+          {obrasInsight.possibleMatches.length > 0 ? (
+            <div className="mt-4 border-t border-white/5 pt-3">
+              <h3 className="text-xs font-medium text-zinc-300">
+                Leads temáticos para checar
+              </h3>
+              <ul className="mt-2 divide-y divide-white/5">
+                {obrasInsight.possibleMatches.slice(0, 3).map((match) => (
+                  <li key={match.project.id} className="py-2.5 first:pt-0">
+                    <div className="flex flex-wrap items-start justify-between gap-2">
+                      <p className="min-w-0 flex-1 text-sm leading-snug text-zinc-300">
+                        {match.project.nome || `CIPI ${match.project.id}`}
+                      </p>
+                      <span className="rounded bg-amber-400/10 px-1.5 py-0.5 text-[10px] text-amber-300 ring-1 ring-amber-400/20">
+                        confiança baixa
+                      </span>
+                    </div>
+                    <p className="mt-1 text-xs text-zinc-600">
+                      Tema: <span className="text-zinc-500">{match.area}</span>
+                      {match.project.executor
+                        ? ` · Executor: ${match.project.executor}`
+                        : ""}
+                    </p>
+                    <div className="mt-1.5 flex flex-wrap gap-1.5">
+                      {match.project.signals.map((signal) => (
+                        <SignalPill key={signal} signal={signal} />
+                      ))}
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : (
+            <p className="mt-3 border-t border-white/5 pt-3 text-xs text-zinc-600">
+              Sem correspondência temática automática com as áreas de emendas
+              deste parlamentar.
+            </p>
+          )}
+        </section>
+      )}
 
       {related.length > 0 && (
         <section className="rounded-2xl border border-white/5 bg-white/[0.02] p-4">
