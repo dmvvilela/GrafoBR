@@ -6,6 +6,7 @@ import Fuse from "fuse.js";
 import { ArrowUpRight, ChevronLeft, ChevronRight, Search } from "lucide-react";
 import type { IndexEntry } from "@/lib/data";
 import Avatar from "@/components/Avatar";
+import { sourceBadges } from "@/lib/evidence";
 
 const PAGE_SIZE = 24;
 const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
@@ -33,6 +34,7 @@ function pageWindow(current: number, total: number): (number | "…")[] {
 }
 
 function DeputyCard({ entry }: { entry: IndexEntry }) {
+  const badges = sourceBadges(entry.sources).slice(0, 4);
   return (
     <Link
       href={`/politico/${entry.id}`}
@@ -51,6 +53,18 @@ function DeputyCard({ entry }: { entry: IndexEntry }) {
           )}
           {entry.uf && <span>{entry.uf}</span>}
         </span>
+        {badges.length > 0 && (
+          <span className="mt-2 flex flex-wrap gap-1">
+            {badges.map((badge) => (
+              <span
+                key={badge}
+                className="rounded bg-white/5 px-1.5 py-0.5 text-[10px] text-zinc-500 ring-1 ring-white/10"
+              >
+                {badge}
+              </span>
+            ))}
+          </span>
+        )}
       </span>
       <ArrowUpRight
         size={16}

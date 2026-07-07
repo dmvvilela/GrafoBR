@@ -87,9 +87,13 @@ function compactProject(project) {
     codigoMunicipio: project.codigoMunicipio ?? null,
     situacao: project.situacao ?? null,
     signals: project.signals ?? [],
-    valorPrevisto: project.valorPrevisto ?? null,
-    dataFinalPrevista: project.dataFinalPrevista ?? null,
-    diasAtraso: project.diasAtraso ?? 0,
+    valorPrevisto: reliableValue(project.valorPrevisto),
+    dataFinalPrevista: validDate(project.dataFinalPrevista)
+      ? project.dataFinalPrevista
+      : null,
+    diasAtraso: validDate(project.dataFinalPrevista)
+      ? (project.diasAtraso ?? 0)
+      : 0,
     percentualFisico: project.percentualFisico ?? null,
     executor: project.executor ?? null,
     repassador: project.repassador ?? null,
@@ -98,14 +102,27 @@ function compactProject(project) {
   };
 }
 
+function reliableValue(value) {
+  return typeof value === "number" && value > 1 ? value : null;
+}
+
+function validDate(value) {
+  if (!value) return false;
+  const year = Number(String(value).slice(0, 4));
+  return Number.isFinite(year) && year >= 1990;
+}
+
 function scoreProject(project) {
   const signals = new Set(project.signals ?? []);
+  const delayScore = validDate(project.dataFinalPrevista)
+    ? (project.diasAtraso ?? 0) * 1000
+    : 0;
   return (
     (signals.has("paralisada") ? 3_000_000_000 : 0) +
     (signals.has("atrasada") ? 2_000_000_000 : 0) +
     (signals.has("baixo_avanco") ? 1_000_000_000 : 0) +
-    (project.valorPrevisto ?? 0) +
-    (project.diasAtraso ?? 0) * 1000
+    (reliableValue(project.valorPrevisto) ?? 0) +
+    delayScore
   );
 }
 
@@ -116,7 +133,7 @@ function stateSummary(projects) {
     atrasadas: projects.filter((p) => p.signals?.includes("atrasada")).length,
     baixoAvanco: projects.filter((p) => p.signals?.includes("baixo_avanco")).length,
     valorPrevisto: Math.round(
-      projects.reduce((sum, p) => sum + (p.valorPrevisto ?? 0), 0),
+      projects.reduce((sum, p) => sum + (reliableValue(p.valorPrevisto) ?? 0), 0),
     ),
     top: projects
       .toSorted((a, b) => scoreProject(b) - scoreProject(a))
@@ -158,6 +175,37 @@ function projectMatchesArea(project, area) {
   return keywords.some((keyword) => text.includes(norm(keyword)));
 }
 
+function matchStrength(project, area, baseReasons) {
+  const signals = new Set(project.signals ?? []);
+  const scoreReasons = [...baseReasons];
+  let score = 0;
+  if (signals.has("paralisada")) {
+    score += 35;
+    scoreReasons.push("obra paralisada");
+  }
+  if (signals.has("atrasada") && validDate(project.dataFinalPrevista)) {
+    score += 25;
+    scoreReasons.push("prazo vencido com data confiavel");
+  }
+  if (signals.has("baixo_avanco")) {
+    score += 15;
+    scoreReasons.push("baixo avanco fisico");
+  }
+  const keywords = keywordsForArea(area);
+  const text = projectText(project);
+  const matchedKeywords = keywords.filter((keyword) => text.includes(norm(keyword)));
+  if (matchedKeywords.length > 0) {
+    score += Math.min(20, matchedKeywords.length * 8);
+    scoreReasons.push(`palavras-chave: ${matchedKeywords.slice(0, 3).join(", ")}`);
+  }
+  const value = reliableValue(project.valorPrevisto);
+  if (value && value >= 1_000_000) {
+    score += 5;
+    scoreReasons.push("valor previsto relevante");
+  }
+  return { score, scoreReasons };
+}
+
 function themeMatches(areas, stateProjects, destinationRows) {
   const matches = [];
   const usedProjects = new Set();
@@ -173,10 +221,16 @@ function themeMatches(areas, stateProjects, destinationRows) {
       .sort((a, b) => scoreProject(b) - scoreProject(a));
 
     for (const project of candidates.slice(0, 1)) {
+      const strength = matchStrength(project, destination.funcao, [
+        "mesma UF do parlamentar",
+        `municipio da emenda: ${destination.municipio ?? destination.localidade}`,
+        `tema de emenda: ${destination.funcao}`,
+      ]);
       usedProjects.add(project.id);
       matches.push({
         kind: "same_uf_municipio_theme",
         confidence: "media",
+        score: 60 + strength.score,
         area: destination.funcao,
         subfuncao: destination.subfuncao ?? null,
         acao: destination.acao ?? null,
@@ -192,6 +246,7 @@ function themeMatches(areas, stateProjects, destinationRows) {
           `tema de emenda: ${destination.funcao}`,
           "texto/cadastro da obra sugere o mesmo municipio e tema",
         ],
+        scoreReasons: strength.scoreReasons,
         project: compactProject(project),
       });
       if (matches.length >= MAX_THEME_MATCHES) return matches;
@@ -213,10 +268,15 @@ function themeMatches(areas, stateProjects, destinationRows) {
       .sort((a, b) => scoreProject(b.project) - scoreProject(a.project));
 
     for (const { project } of candidates.slice(0, 2)) {
+      const strength = matchStrength(project, area.area, [
+        "mesma UF do parlamentar",
+        `tema de emenda: ${area.area}`,
+      ]);
       usedProjects.add(project.id);
       matches.push({
         kind: "same_uf_theme",
         confidence: "baixa",
+        score: 30 + strength.score,
         area: area.area,
         emendaEmpenhada: area.empenhado,
         evidence: [
@@ -224,6 +284,7 @@ function themeMatches(areas, stateProjects, destinationRows) {
           `tema de emenda: ${area.area}`,
           "texto do projeto/orgao sugere tema parecido",
         ],
+        scoreReasons: strength.scoreReasons,
         project: compactProject(project),
       });
       if (matches.length >= MAX_THEME_MATCHES) return matches;

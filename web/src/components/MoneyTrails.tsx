@@ -22,7 +22,7 @@ function EmendaTrails({ trails }: { trails: EmendaTrail[] }) {
           <Link
             key={t.id}
             href={`/politico/${t.id}`}
-            className="group rounded-2xl border border-purple-400/15 bg-purple-400/[0.03] p-4 transition hover:-translate-y-0.5 hover:border-purple-400/40 hover:bg-purple-400/[0.06]"
+            className="group min-w-0 rounded-2xl border border-purple-400/15 bg-purple-400/[0.03] p-4 transition hover:-translate-y-0.5 hover:border-purple-400/40 hover:bg-purple-400/[0.06]"
           >
             <div className="flex items-center gap-3">
               <Avatar id={t.id} name={t.name} size={40} />
@@ -34,7 +34,9 @@ function EmendaTrails({ trails }: { trails: EmendaTrail[] }) {
                 </p>
               </div>
             </div>
-            <p className="mt-3 text-base font-semibold text-purple-300">{brl(t.empenhado)}</p>
+            <p className="mt-3 truncate text-base font-semibold text-purple-300">
+              {brl(t.empenhado)}
+            </p>
             <p className="text-xs text-zinc-500">
               empenhado em emendas individuais{t.topArea ? ` · maior área: ${t.topArea}` : ""}
             </p>
@@ -57,7 +59,7 @@ function ContractTrails({ highlights }: { highlights: Highlight[] }) {
           <Link
             key={`${h.id}-${h.company}`}
             href={`/politico/${h.id}`}
-            className="group rounded-2xl border border-amber-400/15 bg-amber-400/[0.03] p-4 transition hover:-translate-y-0.5 hover:border-amber-400/40 hover:bg-amber-400/[0.06]"
+            className="group min-w-0 rounded-2xl border border-amber-400/15 bg-amber-400/[0.03] p-4 transition hover:-translate-y-0.5 hover:border-amber-400/40 hover:bg-amber-400/[0.06]"
           >
             <div className="flex items-center gap-3">
               <Avatar id={h.id} name={h.name} size={40} />
@@ -72,7 +74,9 @@ function ContractTrails({ highlights }: { highlights: Highlight[] }) {
             <p className="mt-3 text-xs leading-relaxed text-zinc-400">
               sócio de <span className="text-zinc-200">{h.company}</span>
             </p>
-            <p className="mt-1.5 text-base font-semibold text-amber-300">{brl(h.value)}</p>
+            <p className="mt-1.5 truncate text-base font-semibold text-amber-300">
+              {brl(h.value)}
+            </p>
             <p className="truncate text-xs text-zinc-500">
               em contratos federais{h.org ? ` · ${h.org}` : ""}
             </p>
@@ -94,7 +98,7 @@ function CeapTrails({ trails }: { trails: CeapTrail[] }) {
         {trails.map((t) => (
           <div
             key={t.supplier}
-            className="rounded-2xl border border-teal-400/15 bg-teal-400/[0.03] p-4"
+            className="min-w-0 rounded-2xl border border-teal-400/15 bg-teal-400/[0.03] p-4"
           >
             <div className="flex items-center justify-between gap-2">
               <span className="rounded bg-teal-400/10 px-1.5 py-0.5 text-[11px] font-medium text-teal-300 ring-1 ring-teal-400/20">
@@ -105,7 +109,9 @@ function CeapTrails({ trails }: { trails: CeapTrail[] }) {
             <p className="mt-3 truncate text-sm font-medium text-zinc-100" title={t.supplier}>
               {t.supplier}
             </p>
-            <p className="mt-1.5 text-base font-semibold text-teal-300">{brl(t.total)}</p>
+            <p className="mt-1.5 truncate text-base font-semibold text-teal-300">
+              {brl(t.total)}
+            </p>
             <p className="text-xs text-zinc-500">em despesas de cota</p>
           </div>
         ))}

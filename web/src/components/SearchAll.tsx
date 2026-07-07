@@ -8,6 +8,8 @@ import type { IndexEntry } from "@/lib/data";
 import Avatar from "@/components/Avatar";
 import { CATEGORY_LABELS, getCategoryColor } from "@/lib/graph-colors";
 import type { NodeCategory } from "@/lib/contract";
+import { sourceBadges } from "@/lib/evidence";
+import ExportButton from "@/components/ExportButton";
 
 type EntityDeputy = {
   id: number;
@@ -25,7 +27,14 @@ type Entity = {
 type EntityMap = Record<string, Entity>;
 
 type Row =
-  | { kind: "deputy"; id: number; name: string; party?: string | null; uf?: string | null }
+  | {
+      kind: "deputy";
+      id: number;
+      name: string;
+      party?: string | null;
+      uf?: string | null;
+      sources: string[];
+    }
   | ({ kind: "entity" } & Entity);
 
 function brl(value: number): string {
@@ -120,6 +129,7 @@ export default function SearchAll({ index }: { index: IndexEntry[] }) {
       name: e.name,
       party: e.party,
       uf: e.uf,
+      sources: e.sources,
     }));
     const ents: Row[] = Object.values(entities).map((e) => ({ kind: "entity", ...e }));
     return [...deputies, ...ents];
@@ -167,6 +177,31 @@ export default function SearchAll({ index }: { index: IndexEntry[] }) {
         </div>
       ) : (
         <div className="space-y-6">
+          <div className="flex items-center justify-between gap-3">
+            <p className="text-xs text-zinc-500">
+              {results.length} resultados para “{query}”
+            </p>
+            <ExportButton
+              filename="busca-grafobr.csv"
+              rows={results.map((result) =>
+                result.kind === "deputy"
+                  ? {
+                      tipo: "parlamentar",
+                      id: result.id,
+                      nome: result.name,
+                      partido: result.party,
+                      uf: result.uf,
+                      fontes: result.sources.join("|"),
+                    }
+                  : {
+                      tipo: result.category,
+                      nome: result.name,
+                      deputados: result.count,
+                    },
+              )}
+              label="CSV"
+            />
+          </div>
           {entityResults.length > 0 && (
             <section className="space-y-2">
               <h2 className="text-xs font-medium tracking-wide text-zinc-400 uppercase">
@@ -198,6 +233,18 @@ export default function SearchAll({ index }: { index: IndexEntry[] }) {
                       <span className="text-xs text-zinc-500">
                         {d.party}
                         {d.uf ? ` · ${d.uf}` : ""}
+                      </span>
+                      <span className="mt-1.5 flex flex-wrap gap-1">
+                        {sourceBadges(d.sources)
+                          .slice(0, 4)
+                          .map((badge) => (
+                            <span
+                              key={badge}
+                              className="rounded bg-white/5 px-1.5 py-0.5 text-[10px] text-zinc-500 ring-1 ring-white/10"
+                            >
+                              {badge}
+                            </span>
+                          ))}
                       </span>
                     </span>
                     <ArrowUpRight size={15} className="shrink-0 text-zinc-600 transition group-hover:text-emerald-400" />

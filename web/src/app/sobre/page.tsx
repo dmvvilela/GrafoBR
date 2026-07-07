@@ -95,6 +95,18 @@ export default function SobrePage() {
         </p>
       </Section>
 
+      <Section title="Rótulos de confiança">
+        <p>
+          Nem toda pista tem o mesmo peso. No grafo,{" "}
+          <strong className="text-zinc-300">registro direto</strong> indica dado
+          publicado diretamente por fonte oficial;{" "}
+          <strong className="text-zinc-300">match forte</strong> indica pareamento
+          conservador, como CPF mascarado + nome; e{" "}
+          <strong className="text-zinc-300">pista fraca/média</strong> é contexto
+          temático para checagem, nunca atribuição de autoria ou responsabilidade.
+        </p>
+      </Section>
+
       <Section title="Senadores">
         <p>
           Incluímos os senadores em exercício, mas com menos dados: a base aberta

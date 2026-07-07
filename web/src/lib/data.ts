@@ -98,6 +98,91 @@ export const getEmendaRanking = () =>
 export const getCeapRanking = () =>
   readJson<CeapTrail[]>("_ceap-ranking.json", []);
 
+export interface SignalItem {
+  kind: "contract" | "emenda" | "obra" | "ceap";
+  title: string;
+  href: string;
+  value?: number | null;
+  context?: string | null;
+}
+
+export interface SignalsIndex {
+  generatedAt: string;
+  snapshotGeneratedAt?: string | null;
+  note: string;
+  topContracts: SignalItem[];
+  topEmendas: SignalItem[];
+  topObras: SignalItem[];
+  topCeap: SignalItem[];
+}
+
+export const getSignals = () => readJson<SignalsIndex | null>("_signals.json", null);
+
+export interface ChangeItem extends SignalItem {
+  previousValue?: number | null;
+  delta?: number | null;
+}
+
+export interface ChangesIndex {
+  generatedAt: string;
+  previousGeneratedAt?: string | null;
+  snapshotGeneratedAt?: string | null;
+  hasPrevious: boolean;
+  note: string;
+  added: ChangeItem[];
+  removed: ChangeItem[];
+  changed: ChangeItem[];
+}
+
+export const getChanges = () => readJson<ChangesIndex | null>("_changes.json", null);
+
+export interface QaEntry {
+  key: string;
+  count: number;
+}
+
+export interface QaWarning {
+  id: string;
+  severity: "ok" | "info" | "warn" | "error";
+  label: string;
+  count: number;
+  detail: string;
+}
+
+export interface QaReport {
+  generatedAt: string;
+  snapshotGeneratedAt?: string | null;
+  totals: {
+    profiles: number;
+    emptyGraphs: number;
+    nodes: number;
+    links: number;
+  };
+  coverage: {
+    bySource: QaEntry[];
+    byChamber: QaEntry[];
+    byNodeCategory: QaEntry[];
+    byConnectionType: QaEntry[];
+  };
+  missing: Record<string, number>;
+  broken: Record<string, number>;
+  obras: null | {
+    total: number;
+    flagged: number;
+    paralisada: number;
+    atrasada: number;
+    missingReliableValue: number;
+    invalidDates: number;
+    missingUf: number;
+    missingSignals: number;
+  };
+  warnings: QaWarning[];
+  samples: Record<string, unknown[]>;
+  note: string;
+}
+
+export const getQaReport = () => readJson<QaReport | null>("_qa.json", null);
+
 export async function getCeapTrails(): Promise<CeapTrail[]> {
   try {
     const raw = await fs.readFile(path.join(DATA_DIR, "_ceap-trails.json"), "utf-8");
@@ -133,9 +218,13 @@ export interface ObraProject {
   natureza?: string | null;
   percentualFisico?: number | null;
   valorPrevisto?: number | null;
+  valorPrevistoOriginal?: number | null;
+  valorPrevistoConfiavel?: boolean;
   valorEmpenhado?: number | null;
   ratioEmpenhado?: number | null;
   dataFinalPrevista?: string | null;
+  dataFinalPrevistaOriginal?: string | null;
+  dataFinalPrevistaConfiavel?: boolean;
   diasAtraso?: number;
   paralisacoes?: number;
   motivosParalisacao?: string[] | null;
@@ -167,6 +256,18 @@ export async function getObras(): Promise<ObrasIndex | null> {
   try {
     const raw = await fs.readFile(path.join(DATA_DIR, "_obras.json"), "utf-8");
     return JSON.parse(raw) as ObrasIndex;
+  } catch {
+    return null;
+  }
+}
+
+export async function getObrasInsight(id: string): Promise<unknown | null> {
+  try {
+    const raw = await fs.readFile(
+      path.join(DATA_DIR, "obras-insights", `${id}.json`),
+      "utf-8",
+    );
+    return JSON.parse(raw) as unknown;
   } catch {
     return null;
   }

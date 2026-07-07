@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
 import Providers from "@/components/Providers";
+import { getMeta, getObras } from "@/lib/data";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -10,6 +11,17 @@ export const metadata: Metadata = {
   description:
     "Grafo aberto das conexões de parlamentares federais a partir de dados públicos. Conexões não são acusações.",
 };
+
+function formatDate(iso?: string | null): string | null {
+  if (!iso) return null;
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return null;
+  return new Intl.DateTimeFormat("pt-BR", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+  }).format(date);
+}
 
 function Logo() {
   return (
@@ -27,24 +39,30 @@ function Logo() {
   );
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const enableAnalytics = process.env.NODE_ENV === "production";
+  const [meta, obras] = await Promise.all([getMeta(), getObras()]);
+  const snapshot = formatDate(meta?.generatedAt);
+  const obrasSnapshot = formatDate(obras?.meta.generatedAt);
   return (
     <html lang="pt-BR">
       <body>
-        <Script
-          id="clarity"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script","x7grwabn4k");`,
-          }}
-        />
+        {enableAnalytics && (
+          <Script
+            id="clarity"
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script","x7grwabn4k");`,
+            }}
+          />
+        )}
         <div className="flex min-h-screen flex-col">
           <header className="sticky top-0 z-20 border-b border-white/5 bg-[#07070b]/80 backdrop-blur">
-            <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3.5">
+            <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-5 py-3.5">
               <Link href="/" className="flex items-center gap-2.5">
                 <span className="grid h-8 w-8 place-items-center rounded-lg bg-white/[0.04] text-emerald-400 ring-1 ring-white/10">
                   <Logo />
@@ -53,7 +71,7 @@ export default function RootLayout({
                   Grafo<span className="text-emerald-400">BR</span>
                 </span>
               </Link>
-              <nav className="flex items-center gap-4 text-sm text-zinc-400">
+              <nav className="flex min-w-0 flex-wrap items-center gap-x-3 gap-y-1 text-xs text-zinc-400 sm:text-sm">
                 <Link href="/buscar" className="transition hover:text-zinc-100">
                   Buscar
                 </Link>
@@ -65,6 +83,15 @@ export default function RootLayout({
                 </Link>
                 <Link href="/obras" className="transition hover:text-zinc-100">
                   Obras
+                </Link>
+                <Link
+                  href="/comparar"
+                  className="transition hover:text-zinc-100"
+                >
+                  Comparar
+                </Link>
+                <Link href="/dados" className="transition hover:text-zinc-100">
+                  Dados
                 </Link>
                 <Link href="/sobre" className="transition hover:text-zinc-100">
                   Sobre
@@ -89,6 +116,8 @@ export default function RootLayout({
               </p>
               <p className="text-zinc-600">
                 Projeto aberto · v0 · dados estáticos pré-computados.
+                {snapshot ? ` Snapshot principal: ${snapshot}.` : ""}
+                {obrasSnapshot ? ` Obras: ${obrasSnapshot}.` : ""}
               </p>
             </div>
           </footer>

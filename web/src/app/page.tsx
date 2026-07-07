@@ -1,12 +1,16 @@
 import {
   getCeapTrails,
+  getChanges,
   getEmendaTrails,
   getHighlights,
   getIndex,
   getMeta,
+  getSignals,
 } from "@/lib/data";
 import SearchDirectory from "@/components/SearchDirectory";
 import MoneyTrails from "@/components/MoneyTrails";
+import SnapshotChanges from "@/components/SnapshotChanges";
+import SnapshotSignals from "@/components/SnapshotSignals";
 
 function formatUpdated(iso?: string): string | null {
   if (!iso) return null;
@@ -20,12 +24,14 @@ function formatUpdated(iso?: string): string | null {
 }
 
 export default async function Home() {
-  const [index, highlights, ceapTrails, emendaTrails, meta] = await Promise.all([
+  const [index, highlights, ceapTrails, emendaTrails, meta, signals, changes] = await Promise.all([
     getIndex(),
     getHighlights(),
     getCeapTrails(),
     getEmendaTrails(),
     getMeta(),
+    getSignals(),
+    getChanges(),
   ]);
   const updated = formatUpdated(meta?.generatedAt);
 
@@ -59,6 +65,10 @@ export default async function Home() {
         ceapTrails={ceapTrails}
         emendaTrails={emendaTrails}
       />
+
+      <SnapshotSignals signals={signals} />
+
+      <SnapshotChanges changes={changes} />
 
       <SearchDirectory index={index} />
     </div>

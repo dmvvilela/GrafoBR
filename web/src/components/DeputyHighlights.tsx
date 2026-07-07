@@ -108,8 +108,8 @@ export default function DeputyHighlights({ ego }: { ego: EgoNetwork }) {
   return (
     <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
       {stats.map((s) => (
-        <div key={s.label} className={`rounded-2xl border p-4 ${s.ring}`}>
-          <p className={`text-xl font-semibold tabular-nums ${s.color}`}>
+        <div key={s.label} className={`min-w-0 rounded-2xl border p-4 ${s.ring}`}>
+          <p className={`truncate text-xl font-semibold tabular-nums ${s.color}`}>
             {brl(s.value)}
           </p>
           <p className="mt-0.5 text-xs text-zinc-400">{s.label}</p>

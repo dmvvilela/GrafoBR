@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import ObrasExplorer from "@/components/ObrasExplorer";
 import { getObras } from "@/lib/data";
 import type { ObraProject } from "@/lib/data";
 
@@ -9,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 function brl(value: number | null | undefined): string {
-  if (value == null) return "—";
+  if (!isReliableMoney(value)) return "—";
   return value.toLocaleString("pt-BR", {
     style: "currency",
     currency: "BRL",
@@ -17,13 +19,23 @@ function brl(value: number | null | undefined): string {
   });
 }
 
+function isReliableMoney(value: number | null | undefined): value is number {
+  return typeof value === "number" && value > 1;
+}
+
 function pct(value: number | null | undefined): string {
   if (value == null) return "—";
   return `${value.toLocaleString("pt-BR")}%`;
 }
 
+function isReliableDate(iso: string | null | undefined): boolean {
+  if (!iso) return false;
+  const year = Number(iso.slice(0, 4));
+  return Number.isFinite(year) && year >= 1990;
+}
+
 function formatDate(iso: string | null | undefined): string {
-  if (!iso) return "—";
+  if (!iso || !isReliableDate(iso)) return "—";
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return iso;
   return new Intl.DateTimeFormat("pt-BR").format(d);
@@ -71,7 +83,26 @@ function SignalBadge({ signal }: { signal: string }) {
   );
 }
 
+function projectValue(project: ObraProject): number {
+  return isReliableMoney(project.valorPrevisto) ? project.valorPrevisto : 0;
+}
+
+function projectDelay(project: ObraProject): number {
+  return isReliableDate(project.dataFinalPrevista)
+    ? (project.diasAtraso ?? 0)
+    : 0;
+}
+
 function ObraRow({ project, rank }: { project: ObraProject; rank: number }) {
+  const sourceId = project.sourceIds?.idUnico ?? project.id;
+  const href = `/obras/${encodeURIComponent(project.id)}`;
+  const unreliableValue =
+    !isReliableMoney(project.valorPrevisto) &&
+    isReliableMoney(project.valorPrevistoOriginal);
+  const unreliableDate =
+    !isReliableDate(project.dataFinalPrevista) &&
+    Boolean(project.dataFinalPrevistaOriginal ?? project.dataFinalPrevista);
+
   return (
     <li className="px-3 py-3">
       <div className="flex gap-3">
@@ -81,7 +112,9 @@ function ObraRow({ project, rank }: { project: ObraProject; rank: number }) {
         <div className="min-w-0 flex-1 space-y-1.5">
           <div className="flex flex-wrap items-start justify-between gap-2">
             <h3 className="text-sm font-medium leading-snug text-zinc-100">
-              {project.nome || project.id}
+              <Link href={href} className="transition hover:text-emerald-300">
+                {project.nome || project.id}
+              </Link>
             </h3>
             <span className="shrink-0 text-xs text-zinc-500 tabular-nums">
               {project.uf ?? "—"}
@@ -97,6 +130,11 @@ function ObraRow({ project, rank }: { project: ObraProject; rank: number }) {
               <dt className="text-zinc-600">Previsto</dt>
               <dd className="font-medium text-zinc-300 tabular-nums">
                 {brl(project.valorPrevisto)}
+                {unreliableValue && (
+                  <span className="ml-1 text-[10px] text-zinc-600">
+                    valor bruto ignorado
+                  </span>
+                )}
               </dd>
             </div>
             <div>
@@ -115,9 +153,14 @@ function ObraRow({ project, rank }: { project: ObraProject; rank: number }) {
               <dt className="text-zinc-600">Prazo previsto</dt>
               <dd className="font-medium text-zinc-300">
                 {formatDate(project.dataFinalPrevista)}
-                {project.diasAtraso != null && project.diasAtraso > 0 && (
+                {unreliableDate && (
+                  <span className="ml-1 text-[10px] text-zinc-600">
+                    data inválida ignorada
+                  </span>
+                )}
+                {projectDelay(project) > 0 && (
                   <span className="ml-1 block text-orange-400 sm:inline">
-                    {formatAtraso(project.diasAtraso)}
+                    {formatAtraso(projectDelay(project))}
                   </span>
                 )}
               </dd>
@@ -148,7 +191,9 @@ function ObraRow({ project, rank }: { project: ObraProject; rank: number }) {
               )}
             </p>
           )}
-          <p className="font-mono text-[10px] text-zinc-700">CIPI {project.id}</p>
+          <p className="font-mono text-[10px] text-zinc-700">
+            CIPI {sourceId}
+          </p>
         </div>
       </div>
     </li>
@@ -200,10 +245,24 @@ export default async function ObrasPage() {
     );
   }
 
+  const allProjects = data.all ?? [...data.paralisadas, ...data.atrasadas];
   const topParalisadas = [...data.paralisadas]
-    .sort((a, b) => (b.valorPrevisto ?? 0) - (a.valorPrevisto ?? 0))
+    .sort((a, b) => projectValue(b) - projectValue(a))
     .slice(0, 50);
-  const topAtrasadas = data.atrasadas.slice(0, 50);
+  const topAtrasadas = [...data.atrasadas]
+    .sort((a, b) => projectDelay(b) - projectDelay(a))
+    .slice(0, 50);
+  const unreliableValues = allProjects.filter(
+    (p) => !isReliableMoney(p.valorPrevisto),
+  ).length;
+  const unreliableDates = allProjects.filter(
+    (p) =>
+      p.signals.includes("atrasada") && !isReliableDate(p.dataFinalPrevista),
+  ).length;
+  const generated = new Intl.DateTimeFormat("pt-BR", {
+    dateStyle: "medium",
+    timeStyle: "short",
+  }).format(new Date(data.meta.generatedAt));
 
   return (
     <div className="space-y-10">
@@ -233,12 +292,39 @@ export default async function ObrasPage() {
             ? ` (${data.meta.counts.discovered.toLocaleString("pt-BR")} projetos amostrados)`
             : ""}
         </p>
+        <p className="mt-1 text-xs text-zinc-700">
+          Snapshot gerado em {generated}. Valores de R$0/R$0,01 e datas sentinela
+          antigas são tratados como sem dado confiável.
+        </p>
         {data.meta.discoveryNote && (
           <p className="mx-auto mt-3 max-w-2xl text-[11px] leading-relaxed text-zinc-600">
             {data.meta.discoveryNote}
           </p>
         )}
       </header>
+
+      <section className="grid gap-3 sm:grid-cols-3">
+        <div className="rounded-xl border border-white/5 bg-white/[0.02] p-3">
+          <span className="text-xs text-zinc-600">Projetos com sinal</span>
+          <strong className="mt-1 block text-xl font-semibold tabular-nums text-zinc-100">
+            {allProjects.length.toLocaleString("pt-BR")}
+          </strong>
+        </div>
+        <div className="rounded-xl border border-white/5 bg-white/[0.02] p-3">
+          <span className="text-xs text-zinc-600">Sem valor confiável</span>
+          <strong className="mt-1 block text-xl font-semibold tabular-nums text-zinc-100">
+            {unreliableValues.toLocaleString("pt-BR")}
+          </strong>
+        </div>
+        <div className="rounded-xl border border-white/5 bg-white/[0.02] p-3">
+          <span className="text-xs text-zinc-600">Atraso com data inválida</span>
+          <strong className="mt-1 block text-xl font-semibold tabular-nums text-zinc-100">
+            {unreliableDates.toLocaleString("pt-BR")}
+          </strong>
+        </div>
+      </section>
+
+      <ObrasExplorer projects={allProjects} />
 
       <ObraList
         title="Paralisadas"

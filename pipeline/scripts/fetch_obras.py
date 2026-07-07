@@ -138,6 +138,8 @@ def parse_date(value: str | None) -> date | None:
         return None
     try:
         y, m, d = map(int, value.split("T")[0].split("-"))
+        if y < 1990:
+            return None
         return date(y, m, d)
     except (TypeError, ValueError):
         return None
@@ -148,6 +150,12 @@ def previsto(project: dict) -> float:
         float(fr.get("valorInvestimentoPrevisto") or 0)
         for fr in (project.get("fontesDeRecurso") or [])
     )
+
+
+def reliable_money(value: float | None) -> float | None:
+    if value is None or value <= 1:
+        return None
+    return value
 
 
 def first_value(record: dict, *keys: str) -> object | None:
@@ -172,6 +180,7 @@ def build_record(
     pct = None if physical is None else physical.get("percentual")
     end = parse_date(project.get("dataFinalPrevista"))
     valor_previsto = previsto(project)
+    valor_previsto_confiavel = reliable_money(valor_previsto)
     dias_atraso = 0
     if end and sit not in ("Concluída", "Cancelada") and end < today:
         dias_atraso = (today - end).days
@@ -186,16 +195,20 @@ def build_record(
     if pct is not None and pct < 30 and sit not in ("Concluída", "Cancelada"):
         signals.append("baixo_avanco")
     if (
-        valor_previsto > 0
+        valor_previsto_confiavel is not None
         and empenhado is not None
-        and empenhado > valor_previsto * 1.1
+        and empenhado > valor_previsto_confiavel * 1.1
     ):
         signals.append("empenho_acima_previsto")
 
     if not signals:
         return None
 
-    ratio = (empenhado / valor_previsto) if valor_previsto and empenhado else None
+    ratio = (
+        (empenhado / valor_previsto_confiavel)
+        if valor_previsto_confiavel and empenhado
+        else None
+    )
     executores = [
         ex.get("nome") for ex in (project.get("executores") or []) if ex.get("nome")
     ]
@@ -239,10 +252,18 @@ def build_record(
         "especie": project.get("especie"),
         "natureza": project.get("natureza"),
         "percentualFisico": pct,
-        "valorPrevisto": round(valor_previsto, 2) if valor_previsto else None,
+        "valorPrevisto": (
+            round(valor_previsto_confiavel, 2)
+            if valor_previsto_confiavel is not None
+            else None
+        ),
+        "valorPrevistoOriginal": round(valor_previsto, 2) if valor_previsto else None,
+        "valorPrevistoConfiavel": valor_previsto_confiavel is not None,
         "valorEmpenhado": round(empenhado, 2) if empenhado is not None else None,
         "ratioEmpenhado": round(ratio, 3) if ratio is not None else None,
-        "dataFinalPrevista": project.get("dataFinalPrevista"),
+        "dataFinalPrevista": end.isoformat() if end else None,
+        "dataFinalPrevistaOriginal": project.get("dataFinalPrevista"),
+        "dataFinalPrevistaConfiavel": end is not None,
         "diasAtraso": dias_atraso,
         "paralisacoes": paralisacoes,
         "motivosParalisacao": motivos[:3] or None,

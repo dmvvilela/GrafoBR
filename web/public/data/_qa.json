@@ -1,0 +1,168 @@
+{
+  "generatedAt": "2026-07-07T16:08:04.687Z",
+  "snapshotGeneratedAt": "2026-06-23T11:22:40-03:00",
+  "totals": {
+    "profiles": 593,
+    "emptyGraphs": 5,
+    "nodes": 24181,
+    "links": 23588
+  },
+  "coverage": {
+    "bySource": [
+      {
+        "key": "cgu_emendas",
+        "count": 563
+      },
+      {
+        "key": "camara",
+        "count": 512
+      },
+      {
+        "key": "tse",
+        "count": 512
+      },
+      {
+        "key": "camara_ceap",
+        "count": 489
+      },
+      {
+        "key": "receita",
+        "count": 339
+      },
+      {
+        "key": "senado",
+        "count": 81
+      },
+      {
+        "key": "transparencia",
+        "count": 7
+      }
+    ],
+    "byChamber": [
+      {
+        "key": "camara",
+        "count": 512
+      },
+      {
+        "key": "senado",
+        "count": 81
+      }
+    ],
+    "byNodeCategory": [
+      {
+        "key": "supplier",
+        "count": 11158
+      },
+      {
+        "key": "donor",
+        "count": 7383
+      },
+      {
+        "key": "destino",
+        "count": 3963
+      },
+      {
+        "key": "company",
+        "count": 1077
+      },
+      {
+        "key": "politician",
+        "count": 593
+      },
+      {
+        "key": "other",
+        "count": 7
+      }
+    ],
+    "byConnectionType": [
+      {
+        "key": "despesa",
+        "count": 11158
+      },
+      {
+        "key": "doacao",
+        "count": 7383
+      },
+      {
+        "key": "emenda",
+        "count": 3963
+      },
+      {
+        "key": "socio",
+        "count": 1077
+      },
+      {
+        "key": "contrato",
+        "count": 7
+      }
+    ]
+  },
+  "missing": {
+    "profileName": 0,
+    "party": 0,
+    "uf": 0,
+    "sources": 0,
+    "metaEgoId": 0,
+    "linkDescription": 0
+  },
+  "broken": {
+    "unreadableProfileFiles": 0,
+    "duplicateNodeIds": 0,
+    "duplicateLinkIds": 0,
+    "linksWithMissingEndpoint": 0,
+    "linksWithSelfLoop": 0
+  },
+  "obras": {
+    "total": 369,
+    "flagged": 369,
+    "paralisada": 255,
+    "atrasada": 284,
+    "missingReliableValue": 146,
+    "invalidDates": 1,
+    "missingUf": 0,
+    "missingSignals": 0
+  },
+  "warnings": [
+    {
+      "id": "empty_graphs",
+      "severity": "info",
+      "label": "Perfis sem vínculos",
+      "count": 5,
+      "detail": "Ausência no recorte usado; não significa ausência de relações fora das fontes."
+    },
+    {
+      "id": "missing_endpoint",
+      "severity": "ok",
+      "label": "Links com ponta ausente",
+      "count": 0,
+      "detail": "Cada link precisa apontar para dois nós existentes no mesmo ego-grafo."
+    },
+    {
+      "id": "duplicate_ids",
+      "severity": "ok",
+      "label": "IDs duplicados",
+      "count": 0,
+      "detail": "IDs duplicados podem quebrar seleção, exportação e layout do grafo."
+    },
+    {
+      "id": "obras_value",
+      "severity": "warn",
+      "label": "Obras sem valor confiável",
+      "count": 146,
+      "detail": "Valores R$0/R$0,01 são tratados como sentinela ou ausentes."
+    }
+  ],
+  "samples": {
+    "emptyGraphs": [
+      906336,
+      905906,
+      906381,
+      905207,
+      906025
+    ],
+    "missingUf": [],
+    "missingParty": [],
+    "brokenLinks": []
+  },
+  "note": "QA build-time: aponta anomalias estruturais e lacunas de cobertura; não acusa irregularidade."
+}

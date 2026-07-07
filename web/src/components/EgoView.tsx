@@ -3,11 +3,14 @@
 import { Suspense, useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { parseAsInteger, parseAsString, useQueryState } from "nuqs";
-import { ArrowLeft, Link2, Search } from "lucide-react";
+import { AlertTriangle, ArrowLeft, ExternalLink, FileText, Link2, Search, SlidersHorizontal } from "lucide-react";
 import NetworkGraph from "@/components/NetworkGraph";
 import DeputyHighlights from "@/components/DeputyHighlights";
+import ProfileFacts from "@/components/ProfileFacts";
 import Avatar from "@/components/Avatar";
-import type { EgoNetwork, GraphNode } from "@/lib/contract";
+import ConnectionExplanation from "@/components/ConnectionExplanation";
+import ExportButton from "@/components/ExportButton";
+import type { ConnectionType, EgoNetwork, GraphLink, GraphNode } from "@/lib/contract";
 import type { IndexEntry } from "@/lib/data";
 import {
   CATEGORY_LABELS,
@@ -15,6 +18,18 @@ import {
   getCategoryColor,
 } from "@/lib/graph-colors";
 import { isPartyDonor } from "@/lib/donors";
+import {
+  evidenceForConnection,
+  evidenceForObraLead,
+  politicianOfficialUrl,
+  sourceForConnection,
+  sourceUrlForConnection,
+} from "@/lib/evidence";
+import {
+  anomalySignals,
+  profileCoverageWarnings,
+  profileExportPayload,
+} from "@/lib/profile-analysis";
 
 function brl(value: number): string {
   return value.toLocaleString("pt-BR", {
@@ -89,6 +104,51 @@ type ObrasProjectBrief = {
   } | null;
 };
 
+function RawEvidence({
+  link,
+  other,
+}: {
+  link: GraphLink;
+  other: string;
+}) {
+  const url = sourceUrlForConnection(link.connectionType);
+  return (
+    <details className="mt-2 rounded-lg bg-black/10 px-2 py-1.5">
+      <summary className="cursor-pointer list-none text-[11px] text-zinc-500 transition hover:text-zinc-300">
+        Ver registro usado
+      </summary>
+      <dl className="mt-1.5 grid gap-1 text-[11px] text-zinc-600">
+        <div>
+          <dt className="inline text-zinc-500">Tipo: </dt>
+          <dd className="inline">{CONNECTION_LABELS[link.connectionType]}</dd>
+        </div>
+        <div>
+          <dt className="inline text-zinc-500">Outro nó: </dt>
+          <dd className="inline">{other}</dd>
+        </div>
+        <div>
+          <dt className="inline text-zinc-500">Descrição: </dt>
+          <dd className="inline">{link.description ?? "sem descrição no arquivo"}</dd>
+        </div>
+        <div>
+          <dt className="inline text-zinc-500">ID interno: </dt>
+          <dd className="inline font-mono">{link.id}</dd>
+        </div>
+        {url ? (
+          <a
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-1 inline-flex w-fit text-emerald-300 hover:underline"
+          >
+            Abrir fonte pública
+          </a>
+        ) : null}
+      </dl>
+    </details>
+  );
+}
+
 type ObrasInsight = {
   uf: string;
   state: {
@@ -103,6 +163,7 @@ type ObrasInsight = {
   possibleMatches: {
     kind: "same_uf_theme" | "same_uf_municipio_theme";
     confidence: "baixa" | "media";
+    score?: number;
     area: string;
     subfuncao?: string | null;
     acao?: string | null;
@@ -113,12 +174,110 @@ type ObrasInsight = {
     emendas?: number;
     sampleIds?: string[];
     evidence: string[];
+    scoreReasons?: string[];
     project: ObrasProjectBrief;
   }[];
   note: string;
 };
 
 const urlOpts = { history: "replace" as const, shallow: true };
+
+const FILTERS: {
+  key: ConnectionType;
+  label: string;
+  tone: string;
+}[] = [
+  { key: "doacao", label: "Doações", tone: "bg-amber-400/10 text-amber-300 ring-amber-400/20" },
+  { key: "despesa", label: "CEAP", tone: "bg-sky-400/10 text-sky-300 ring-sky-400/20" },
+  { key: "socio", label: "Empresas", tone: "bg-violet-400/10 text-violet-300 ring-violet-400/20" },
+  { key: "contrato", label: "Contratos", tone: "bg-rose-400/10 text-rose-300 ring-rose-400/20" },
+  { key: "emenda", label: "Emendas", tone: "bg-emerald-400/10 text-emerald-300 ring-emerald-400/20" },
+];
+
+function filteredNetwork(ego: EgoNetwork, activeTypes: Set<ConnectionType>, strongOnly: boolean): EgoNetwork {
+  const egoId = ego.meta?.egoId;
+  const links = ego.links.filter((link) => {
+    if (activeTypes.size > 0 && !activeTypes.has(link.connectionType)) return false;
+    if (strongOnly) {
+      const evidence = evidenceForConnection(link.connectionType).confidence;
+      if (evidence !== "direta" && evidence !== "forte") return false;
+    }
+    return true;
+  });
+  const nodeIds = new Set<number>();
+  if (egoId != null) nodeIds.add(egoId);
+  for (const link of links) {
+    nodeIds.add(link.source);
+    nodeIds.add(link.target);
+  }
+  const degree = new Map<number, number>();
+  for (const link of links) {
+    degree.set(link.source, (degree.get(link.source) ?? 0) + 1);
+    degree.set(link.target, (degree.get(link.target) ?? 0) + 1);
+  }
+  return {
+    meta: ego.meta,
+    links,
+    nodes: ego.nodes
+      .filter((node) => nodeIds.has(node.id))
+      .map((node) => ({
+        ...node,
+        connectionCount: node.id === egoId ? links.length : (degree.get(node.id) ?? 0),
+      })),
+  };
+}
+
+function linkTotals(links: GraphLink[]): Map<ConnectionType, number> {
+  const totals = new Map<ConnectionType, number>();
+  for (const link of links) totals.set(link.connectionType, (totals.get(link.connectionType) ?? 0) + 1);
+  return totals;
+}
+
+function standoutSummary({
+  ego,
+  partyDonors,
+  privateDonors,
+  related,
+  obrasInsight,
+}: {
+  ego: EgoNetwork;
+  partyDonors: number;
+  privateDonors: number;
+  related: RelatedEntry[];
+  obrasInsight: ObrasInsight | null;
+}) {
+  const totals = linkTotals(ego.links);
+  const pieces: string[] = [];
+  const contracts = totals.get("contrato") ?? 0;
+  const companies = totals.get("socio") ?? 0;
+  const ceap = totals.get("despesa") ?? 0;
+  const emendas = totals.get("emenda") ?? 0;
+  if (contracts > 0 || companies > 0) {
+    pieces.push(`${companies} ${companies === 1 ? "empresa ligada" : "empresas ligadas"} e ${contracts} ${contracts === 1 ? "contrato federal associado" : "contratos federais associados"}`);
+  }
+  if (privateDonors > 0) {
+    pieces.push(`${privateDonors} ${privateDonors === 1 ? "doador privado" : "doadores privados"} registrados`);
+  }
+  if (ceap > 0) {
+    pieces.push(`${ceap} ${ceap === 1 ? "fornecedor CEAP" : "fornecedores CEAP"} no grafo`);
+  }
+  if (emendas > 0) {
+    pieces.push(`${emendas} ${emendas === 1 ? "destino de emenda" : "destinos de emenda"}`);
+  }
+  const mediumObras = obrasInsight?.possibleMatches.filter((match) => match.confidence === "media").length ?? 0;
+  if (mediumObras > 0) {
+    pieces.push(`${mediumObras} ${mediumObras === 1 ? "lead de obra com município+tema" : "leads de obras com município+tema"}`);
+  } else if ((obrasInsight?.state.total ?? 0) > 0) {
+    pieces.push(`${obrasInsight!.state.total} sinais de obras públicas na UF`);
+  }
+  if (related.length > 0) {
+    pieces.push(`${related.length} ${related.length === 1 ? "parlamentar com conexão em comum" : "parlamentares com conexões em comum"}`);
+  }
+  if (pieces.length === 0 && partyDonors > 0) {
+    pieces.push(`${partyDonors} ${partyDonors === 1 ? "doador partidário" : "doadores partidários"}`);
+  }
+  return pieces.slice(0, 3);
+}
 
 function SignalPill({ signal }: { signal: string }) {
   const label: Record<string, string> = {
@@ -166,8 +325,16 @@ function EgoViewInner({
   const [related, setRelated] = useState<RelatedEntry[]>([]);
   const [obrasInsight, setObrasInsight] = useState<ObrasInsight | null>(null);
   const [copied, setCopied] = useState(false);
+  const [activeTypes, setActiveTypes] = useState<Set<ConnectionType>>(
+    () => new Set(),
+  );
+  const [strongOnly, setStrongOnly] = useState(false);
   const sourceLabels = (ego.meta?.sources ?? []).map(sourceLabel);
   const depId = String(ego.meta?.egoId ?? entry?.id ?? "");
+  const officialUrl = politicianOfficialUrl(
+    ego.meta?.egoId ?? entry?.id,
+    ego.meta?.chamber ?? entry?.chamber,
+  );
 
   useEffect(() => {
     fetch("/data/_entities.json")
@@ -211,6 +378,34 @@ function EgoViewInner({
   const donors = ego.nodes.filter((n) => n.category === "donor");
   const partyDonors = donors.filter((n) => isPartyDonor(n.name)).length;
   const privateDonors = donors.length - partyDonors;
+  const totals = useMemo(() => linkTotals(ego.links), [ego.links]);
+  const graphData = useMemo(
+    () => filteredNetwork(ego, activeTypes, strongOnly),
+    [ego, activeTypes, strongOnly],
+  );
+  const standouts = useMemo(
+    () =>
+      standoutSummary({
+        ego,
+        partyDonors,
+        privateDonors,
+        related,
+        obrasInsight,
+      }),
+    [ego, partyDonors, privateDonors, related, obrasInsight],
+  );
+  const warnings = useMemo(
+    () => profileCoverageWarnings(entry, ego),
+    [entry, ego],
+  );
+  const anomalies = useMemo(
+    () => anomalySignals(ego, obrasInsight),
+    [ego, obrasInsight],
+  );
+  const exportPayload = useMemo(
+    () => profileExportPayload(ego, entry, obrasInsight),
+    [ego, entry, obrasInsight],
+  );
 
   const selectedLinks = useMemo(() => {
     if (!selected) return [];
@@ -220,6 +415,7 @@ function EgoViewInner({
         const otherId = l.source === selected.id ? l.target : l.source;
         return {
           id: l.id,
+          link: l,
           other: nameById.get(otherId) ?? "?",
           type: l.connectionType,
           description: l.description,
@@ -283,6 +479,24 @@ function EgoViewInner({
           </div>
         </div>
         <div className="flex flex-wrap items-center gap-2">
+          <Link
+            href={`/dossie/${depId}`}
+            className="inline-flex items-center gap-1 rounded-md bg-white/5 px-2 py-1 text-[11px] text-zinc-400 ring-1 ring-white/10 transition hover:bg-white/10 hover:text-zinc-200"
+          >
+            <FileText size={12} />
+            Dossiê
+          </Link>
+          <Link
+            href={`/investigar/${depId}`}
+            className="inline-flex items-center gap-1 rounded-md bg-white/5 px-2 py-1 text-[11px] text-zinc-400 ring-1 ring-white/10 transition hover:bg-white/10 hover:text-zinc-200"
+          >
+            Board
+          </Link>
+          <ExportButton
+            filename={`${depId || "perfil"}-grafobr.json`}
+            payload={exportPayload}
+            label="JSON"
+          />
           {(ego.meta?.sources ?? []).map((s) => (
             <span
               key={s}
@@ -291,6 +505,16 @@ function EgoViewInner({
               {s}
             </span>
           ))}
+          {officialUrl && (
+            <a
+              href={officialUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 rounded-md bg-white/5 px-2 py-1 text-[11px] text-zinc-400 ring-1 ring-white/10 transition hover:bg-white/10 hover:text-zinc-200"
+            >
+              Câmara <ExternalLink size={11} />
+            </a>
+          )}
           {hasUrlState && (
             <button
               type="button"
@@ -316,6 +540,64 @@ function EgoViewInner({
           </p>
         </div>
       ) : null}
+
+      {(warnings.length > 0 || anomalies.length > 0) && (
+        <section className="grid gap-3 lg:grid-cols-2">
+          {warnings.length > 0 ? (
+            <div className="rounded-2xl border border-amber-400/10 bg-amber-400/[0.03] p-4">
+              <h2 className="flex items-center gap-2 text-sm font-medium text-amber-200">
+                <AlertTriangle size={15} />
+                Cobertura e cautelas
+              </h2>
+              <ul className="mt-2 space-y-1.5 text-xs leading-relaxed text-zinc-500">
+                {warnings.slice(0, 4).map((warning) => (
+                  <li key={warning}>{warning}</li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
+          {anomalies.length > 0 ? (
+            <div className="rounded-2xl border border-rose-400/10 bg-rose-400/[0.025] p-4">
+              <h2 className="text-sm font-medium text-rose-200">
+                Sinais para priorizar checagem
+              </h2>
+              <ul className="mt-2 space-y-1.5 text-xs leading-relaxed text-zinc-500">
+                {anomalies.map((signal) => (
+                  <li key={signal}>{signal}</li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
+        </section>
+      )}
+
+      {standouts.length > 0 ? (
+        <section className="rounded-2xl border border-emerald-400/10 bg-emerald-400/[0.03] p-4">
+          <h2 className="text-sm font-medium text-emerald-200">
+            Por que este perfil se destaca
+          </h2>
+          <p className="mt-1 text-xs leading-relaxed text-zinc-500">
+            Resumo mecânico dos registros carregados nesta página. Serve para
+            priorizar checagem, não para concluir irregularidade.
+          </p>
+          <ul className="mt-3 grid gap-2 sm:grid-cols-3">
+            {standouts.map((item) => (
+              <li
+                key={item}
+                className="rounded-xl bg-white/[0.03] px-3 py-2 text-xs leading-relaxed text-zinc-300 ring-1 ring-white/5"
+              >
+                {item}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
+
+      <ProfileFacts
+        ego={ego}
+        relatedCount={related.length}
+        obrasSignals={obrasInsight?.state.total}
+      />
 
       <DeputyHighlights ego={ego} />
 
@@ -378,15 +660,14 @@ function EgoViewInner({
                       <p className="min-w-0 flex-1 text-sm leading-snug text-zinc-300">
                         {match.project.nome || `CIPI ${match.project.id}`}
                       </p>
-                      <span
-                        className={`rounded px-1.5 py-0.5 text-[10px] ring-1 ${
-                          match.confidence === "media"
-                            ? "bg-emerald-400/10 text-emerald-300 ring-emerald-400/20"
-                            : "bg-amber-400/10 text-amber-300 ring-amber-400/20"
-                        }`}
-                      >
-                        confiança {match.confidence}
+                      <span className={`rounded px-1.5 py-0.5 text-[10px] ring-1 ${evidenceForObraLead(match.confidence).className}`}>
+                        {evidenceForObraLead(match.confidence).label}
                       </span>
+                      {typeof match.score === "number" ? (
+                        <span className="rounded bg-white/5 px-1.5 py-0.5 text-[10px] text-zinc-500 ring-1 ring-white/10">
+                          score {Math.round(match.score)}
+                        </span>
+                      ) : null}
                     </div>
                     <p className="mt-1 text-xs text-zinc-600">
                       Tema: <span className="text-zinc-500">{match.area}</span>
@@ -423,6 +704,21 @@ function EgoViewInner({
                           : "mesma UF + tema"}
                       </span>
                     </div>
+                    <p className="mt-1.5 text-[11px] leading-relaxed text-zinc-600">
+                      {evidenceForObraLead(match.confidence).detail}
+                    </p>
+                    {(match.scoreReasons?.length ?? 0) > 0 ? (
+                      <details className="mt-1.5">
+                        <summary className="cursor-pointer list-none text-[11px] text-zinc-500 transition hover:text-zinc-300">
+                          Ver critérios do lead
+                        </summary>
+                        <ul className="mt-1 list-disc space-y-0.5 pl-4 text-[11px] text-zinc-600 marker:text-zinc-700">
+                          {match.scoreReasons!.map((reason) => (
+                            <li key={reason}>{reason}</li>
+                          ))}
+                        </ul>
+                      </details>
+                    ) : null}
                   </li>
                 ))}
               </ul>
@@ -494,9 +790,21 @@ function EgoViewInner({
               </p>
             </div>
           </div>
+        ) : graphData.links.length === 0 ? (
+          <div className="grid h-[560px] place-items-center rounded-2xl border border-white/5 bg-white/[0.03] p-8 text-center">
+            <div className="max-w-sm space-y-2">
+              <p className="text-sm font-medium text-zinc-300">
+                Nenhuma conexão passa pelos filtros atuais.
+              </p>
+              <p className="text-xs leading-relaxed text-zinc-500">
+                Remova um tipo de vínculo ou desligue “só fortes” para voltar a
+                ver o grafo completo.
+              </p>
+            </div>
+          </div>
         ) : (
           <NetworkGraph
-            data={ego}
+            data={graphData}
             searchQuery={query}
             focusId={selected?.id ?? null}
             onSelectNode={setSelected}
@@ -518,6 +826,65 @@ function EgoViewInner({
           </div>
 
           <div className="rounded-2xl border border-white/5 bg-white/[0.03] p-4">
+            <div className="mb-3 flex items-center gap-2 border-b border-white/5 pb-3">
+              <SlidersHorizontal size={14} className="text-zinc-500" />
+              <h2 className="text-xs font-medium tracking-wide text-zinc-400 uppercase">
+                Filtros do grafo
+              </h2>
+            </div>
+            <div className="flex flex-wrap gap-1.5">
+              {FILTERS.map((filter) => {
+                const total = totals.get(filter.key) ?? 0;
+                const active = activeTypes.has(filter.key);
+                return (
+                  <button
+                    key={filter.key}
+                    type="button"
+                    disabled={total === 0}
+                    onClick={() =>
+                      setActiveTypes((current) => {
+                        const next = new Set(current);
+                        if (next.has(filter.key)) next.delete(filter.key);
+                        else next.add(filter.key);
+                        return next;
+                      })
+                    }
+                    className={`rounded-lg px-2 py-1 text-[11px] ring-1 transition ${
+                      active
+                        ? filter.tone
+                        : "bg-white/[0.03] text-zinc-500 ring-white/10 hover:bg-white/[0.06] hover:text-zinc-300 disabled:cursor-not-allowed disabled:opacity-35"
+                    }`}
+                  >
+                    {filter.label} · {total}
+                  </button>
+                );
+              })}
+            </div>
+            <label className="mt-3 flex cursor-pointer items-center justify-between gap-3 rounded-xl bg-white/[0.02] px-3 py-2 text-xs text-zinc-400 ring-1 ring-white/5">
+              <span>Só registros diretos/fortes</span>
+              <input
+                type="checkbox"
+                checked={strongOnly}
+                onChange={(event) => setStrongOnly(event.target.checked)}
+                className="h-4 w-4 accent-emerald-400"
+              />
+            </label>
+            <p className="mt-2 text-[11px] text-zinc-600">
+              Mostrando {graphData.links.length} de {ego.links.length} vínculos.
+            </p>
+          </div>
+
+          <div className="rounded-2xl border border-white/5 bg-white/[0.03] p-4">
+            <div className="mb-3 flex items-center justify-between gap-3 border-b border-white/5 pb-3">
+              <h2 className="text-xs font-medium tracking-wide text-zinc-400 uppercase">
+                Inspeção
+              </h2>
+              <span className="text-[11px] text-zinc-600">
+                {selectedLinks.length
+                  ? `${selectedLinks.length} vínculo${selectedLinks.length === 1 ? "" : "s"}`
+                  : "sem seleção"}
+              </span>
+            </div>
             {selected ? (
               <>
                 <div className="flex items-center gap-2">
@@ -550,16 +917,63 @@ function EgoViewInner({
                   </span>
                 )}
 
-                <ul className="mt-3 space-y-2 border-t border-white/5 pt-3">
+                <ul className="mt-3 space-y-2">
                   {selectedLinks.map((l) => (
                     <li
                       key={l.id}
-                      className="text-xs leading-relaxed text-zinc-400"
+                      className="rounded-xl border border-white/5 bg-white/[0.02] p-2.5 text-xs leading-relaxed text-zinc-400"
                     >
-                      <span className="font-medium text-zinc-300">
-                        {CONNECTION_LABELS[l.type]}
-                      </span>
+                      <div className="flex flex-wrap items-center gap-1.5">
+                        <span className="font-medium text-zinc-300">
+                          {CONNECTION_LABELS[l.type]}
+                        </span>
+                        <span className={`rounded px-1.5 py-0.5 text-[10px] ring-1 ${evidenceForConnection(l.type).className}`}>
+                          {evidenceForConnection(l.type).label}
+                        </span>
+                      </div>
                       {l.description ? <> · {l.description}</> : null}
+                      <details className="mt-1.5 group">
+                        <summary className="cursor-pointer list-none text-[11px] text-zinc-500 transition hover:text-zinc-300">
+                          Ver evidência
+                        </summary>
+                        <dl className="mt-1.5 space-y-1 border-t border-white/5 pt-1.5 text-[11px] text-zinc-600">
+                          <div>
+                            <dt className="inline text-zinc-500">Fonte: </dt>
+                            <dd className="inline">
+                              {sourceUrlForConnection(l.type) ? (
+                                <a
+                                  href={sourceUrlForConnection(l.type) ?? undefined}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-emerald-300 hover:underline"
+                                >
+                                  {sourceForConnection(l.type)}
+                                </a>
+                              ) : (
+                                sourceForConnection(l.type)
+                              )}
+                            </dd>
+                          </div>
+                          <div>
+                            <dt className="inline text-zinc-500">Leitura: </dt>
+                            <dd className="inline">
+                              {evidenceForConnection(l.type).detail}
+                            </dd>
+                          </div>
+                          <div>
+                            <dt className="inline text-zinc-500">Outro nó: </dt>
+                            <dd className="inline">{l.other}</dd>
+                          </div>
+                        </dl>
+                        <div className="mt-2 border-t border-white/5 pt-2">
+                          <ConnectionExplanation
+                            ego={ego}
+                            link={l.link}
+                            compact
+                          />
+                        </div>
+                        <RawEvidence link={l.link} other={l.other} />
+                      </details>
                     </li>
                   ))}
                 </ul>
@@ -607,9 +1021,15 @@ function EgoViewInner({
                 )}
               </>
             ) : (
-              <p className="text-sm text-zinc-500">
-                Clique em um nó do grafo para ver os detalhes da conexão.
-              </p>
+              <div className="space-y-2">
+                <p className="text-sm font-medium text-zinc-300">
+                  Nenhum nó selecionado
+                </p>
+                <p className="text-xs leading-relaxed text-zinc-500">
+                  Clique em um nó para ver vínculos, fonte, leitura recomendada e
+                  evidência disponível.
+                </p>
+              </div>
             )}
           </div>
 
