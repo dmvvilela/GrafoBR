@@ -4,7 +4,7 @@
     "egoName": "Damião Feliciano",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:35.162194Z",
+    "generatedAt": "2026-07-17T04:22:50.130373Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,6 +12,13 @@
       "receita",
       "tse"
     ],
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
     "summary": "Nos dados de emendas individuais, aparecem R$ 105,5 milhões empenhados e R$ 98,9 milhões pagos em oito áreas, com foco em Saúde. A cota parlamentar soma R$ 500 mil e a campanha de 2022 arrecadou R$ 2,8 milhões.",
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
@@ -26,7 +33,8 @@
       "id": 15,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3544"
     },
     {
       "id": 20,
@@ -38,10 +46,11 @@
       "id": 10,
       "name": "BEZERRA BEZERRA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3539"
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "Cultura",
       "category": "destino",
       "connectionCount": 1
@@ -50,16 +59,18 @@
       "id": 3,
       "name": "DAMIAO FELICIANO DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3533"
     },
     {
       "id": 5,
       "name": "DLF CONSTRUCAO E EMPREENDIMENTOS IMOBILIARIOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3534"
     },
     {
-      "id": 22,
+      "id": 23,
       "name": "Defesa nacional",
       "category": "destino",
       "connectionCount": 1
@@ -68,7 +79,8 @@
       "id": 4,
       "name": "ELEICAO 2022 JOAO PAULO BARBOSA LEAL SEGUNDO DEPUTADO ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e392"
     },
     {
       "id": 25,
@@ -86,7 +98,8 @@
       "id": 13,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3542"
     },
     {
       "id": 24,
@@ -98,43 +111,50 @@
       "id": 6,
       "name": "LICI HOLDING LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3535"
     },
     {
       "id": 9,
       "name": "MAIS PROPAGANDA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3538"
     },
     {
       "id": 7,
       "name": "RADIO SANTA RITA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3536"
     },
     {
       "id": 17,
       "name": "RAMAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 2,
       "name": "RENATO COSTA FELICIANO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3532"
     },
     {
       "id": 11,
       "name": "SHEKINAH LOCACAO DE VEICULOS EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3540"
     },
     {
       "id": 8,
       "name": "SOCIEDADE DE CREDITO DIRETO CREDFELIZ S/A",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3537"
     },
     {
       "id": 18,
@@ -152,25 +172,29 @@
       "id": 14,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3543"
     },
     {
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e687"
     },
     {
       "id": 12,
       "name": "damata filmes ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3541"
     },
     {
       "id": 16,
       "name": "segpol serviços de segurança eletrônica ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3545"
     }
   ],
   "links": [
@@ -211,7 +235,7 @@
       "source": 74467,
       "target": 5,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 07/02/2019",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 07/02/2019",
       "strength": 1
     },
     {
@@ -219,7 +243,7 @@
       "source": 74467,
       "target": 6,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 15/01/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 15/01/2021",
       "strength": 1
     },
     {
@@ -227,7 +251,7 @@
       "source": 74467,
       "target": 7,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 23/02/1996",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 23/02/1996",
       "strength": 1
     },
     {
@@ -235,7 +259,7 @@
       "source": 74467,
       "target": 8,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (diretor), desde 08/11/2022",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (diretor), desde 08/11/2022",
       "strength": 1
     },
     {
@@ -347,7 +371,7 @@
       "source": 74467,
       "target": 22,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Defesa nacional: R$500.000,00 empenhado, R$440.862,00 pago (3 emendas; 2023–2025)",
+      "description": "Emendas individuais destinadas a Cultura: R$500.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -355,7 +379,7 @@
       "source": 74467,
       "target": 23,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Cultura: R$500.000,00 empenhado (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$500.000,00 empenhado, R$440.862,00 pago (3 emendas; 2023–2025)",
       "strength": 1
     },
     {

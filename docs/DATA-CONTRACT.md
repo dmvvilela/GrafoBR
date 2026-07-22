@@ -19,6 +19,10 @@ One file per politician (the "ego"):
     "egoName": "Dep. Joana Exemplo",
     "generatedAt": "2026-06-04T00:00:00Z",
     "sources": ["camara", "tse"],     // which portals contributed
+    "sourceCoverage": {                 // release/window for each source
+      "camara": "consulta atual na data da geração",
+      "tse": "eleições 2022"
+    },
     "summary": null,                  // optional, filled by build-time AI (Phase 5)
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
@@ -39,6 +43,7 @@ One file per politician (the "ego"):
 | field | type | meaning | drives |
 |---|---|---|---|
 | `id` | integer | opaque node id. **Never a CPF/CNPJ.** | edge endpoints |
+| `entityId` | string, optional | snapshot-local opaque identity for safe cross-profile joins; never a document hash | shared-entity index |
 | `name` | string | display name | label |
 | `category` | enum | `politician` \| `company` \| `donor` \| `supplier` \| `destino` \| `relative` \| `other` | **node color** |
 | `connectionCount` | integer ≥ 0 | node degree (number of edges) | **node size** (scaled 5–24px) |

@@ -4,11 +4,15 @@
     "egoName": "Zequinha Marinho",
     "chamber": "senado",
     "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador3806.jpg",
-    "generatedAt": "2026-06-23T14:22:40.813449Z",
+    "generatedAt": "2026-07-17T04:22:58.360670Z",
     "sources": [
       "cgu_emendas",
       "senado"
     ],
+    "sourceCoverage": {
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "senado": "parlamentares em exercício na consulta; coleta local em 06/06/2026"
+    },
     "summary": "Desde 2023, constam R$ 194,4 milhões em emendas empenhadas e R$ 138,5 milhões pagos em catorze áreas. Saúde aparece como a principal destinação nos registros públicos.",
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
@@ -38,13 +42,13 @@
       "connectionCount": 1
     },
     {
-      "id": 12,
+      "id": 11,
       "name": "Comércio e serviços",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 11,
+      "id": 12,
       "name": "Cultura",
       "category": "destino",
       "connectionCount": 1
@@ -190,7 +194,7 @@
       "source": 903806,
       "target": 11,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Cultura: R$2.000.000,00 empenhado, R$2.000.000,00 pago (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$2.000.000,00 empenhado, R$500.000,00 pago (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -198,7 +202,7 @@
       "source": 903806,
       "target": 12,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Comércio e serviços: R$2.000.000,00 empenhado, R$500.000,00 pago (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Cultura: R$2.000.000,00 empenhado, R$2.000.000,00 pago (1 emenda; 2025)",
       "strength": 1
     },
     {

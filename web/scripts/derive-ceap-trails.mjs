@@ -4,7 +4,7 @@
 // agencies, vehicle/aircraft rental, consultancies. We whitelist those, aggregate
 // each supplier across deputies (total received + how many deputies fund it), and
 // write public/data/_ceap-trails.json. Runs after sync-data.
-import { readdir, readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -37,7 +37,8 @@ function vector(type) {
 const reTotal = /total de R\$\s*([\d.]+,\d{2})/;
 const reType = /tipo:\s*([^;)]+)/;
 
-const files = (await readdir(dir)).filter((f) => /^\d+\.json$/.test(f));
+const index = JSON.parse(await readFile(path.join(dir, "index.json"), "utf8"));
+const files = index.map((entry) => `${entry.id}.json`);
 // normalized supplier name -> { name, total, deputies:Set, types:Map(label->amount) }
 const bySupplier = new Map();
 

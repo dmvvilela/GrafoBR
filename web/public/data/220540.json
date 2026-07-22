@@ -4,7 +4,7 @@
     "egoName": "Duda Ramos",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:35.795425Z",
+    "generatedAt": "2026-07-17T04:22:51.344886Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Os dados públicos registram R$ 74,2 milhões em emendas empenhadas e R$ 37,5 milhões pagos em quatro áreas. Registram-se também R$ 530 mil em despesas de cota com 24 fornecedores e R$ 1,1 milhões arrecadados na campanha de 2022, de 25 doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,58 +27,66 @@
       "id": 220540,
       "name": "Duda Ramos",
       "category": "politician",
-      "connectionCount": 58
+      "connectionCount": 57
     },
     {
       "id": 53,
       "name": "99 POP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2867"
     },
     {
       "id": 8,
       "name": "ALYSON DE LIMA RODRIGUES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4939"
     },
     {
       "id": 26,
       "name": "AMAZONIA LEGAL REPRESENTACOES E COMERCIO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4957"
     },
     {
       "id": 19,
       "name": "ANA FLAVIA MACIEL DA COSTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4950"
     },
     {
       "id": 12,
       "name": "ANDERSON WESLEY FREIRE CHAVES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4943"
     },
     {
       "id": 7,
       "name": "ARTHUR DA COSTA PONTE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4938"
     },
     {
       "id": 33,
       "name": "AUTO POSTO ABEL GALINHA LTDA MATRIZ",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4963"
     },
     {
       "id": 42,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4970"
     },
     {
-      "id": 56,
+      "id": 55,
       "name": "Agricultura",
       "category": "destino",
       "connectionCount": 1
@@ -80,64 +95,74 @@
       "id": 20,
       "name": "CELIS REGINA MONTELES DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4951"
     },
     {
       "id": 44,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 9,
       "name": "CLEBER DA COSTA GONCALVES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4940"
     },
     {
       "id": 21,
       "name": "DIEGO DE OLIVEIRA TAJUJA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4952"
     },
     {
       "id": 11,
       "name": "DIONATA SOUZA LEAO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4942"
     },
     {
       "id": 4,
       "name": "DUDA BRITO RAMOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4935"
     },
     {
       "id": 38,
       "name": "E R P PASSOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4966"
     },
     {
       "id": 13,
       "name": "ELZA VIANA DA COSTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4944"
     },
     {
       "id": 22,
       "name": "EMELYLAINE LEIDE SARA DE SOUZA RODRIGUES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4953"
     },
     {
       "id": 16,
       "name": "ESTER MARIA SAUL MACHADO PINTO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4947"
     },
     {
-      "id": 57,
+      "id": 56,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -146,196 +171,220 @@
       "id": 35,
       "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 18,
       "name": "FRANCISCO LUCIO DE LIRA MENDONCA JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4949"
     },
     {
       "id": 45,
       "name": "GOES COMBUSTIVEIS, LUBRIFICANTES E GLP LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1251"
     },
     {
       "id": 40,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4968"
     },
     {
       "id": 39,
       "name": "GRAFICA G3 LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4967"
     },
     {
       "id": 48,
       "name": "Gol Linhas Aereas Inteligentes",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4973"
     },
     {
       "id": 49,
       "name": "Gol Linhas Aereas S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e147"
     },
     {
       "id": 41,
       "name": "Instituto Brasileiro de Assessoria Institucional - IBRASSI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4969"
     },
     {
       "id": 17,
       "name": "JOAO GREGORIO LOPES FERREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4948"
     },
     {
       "id": 23,
       "name": "JOCIELMA DE SOUZA BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4954"
     },
     {
       "id": 3,
       "name": "JORGE VIANA DE CASTRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4934"
     },
     {
       "id": 24,
       "name": "KLLECIO CALDAS DOS SANTOS LIMA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4955"
     },
     {
       "id": 25,
       "name": "LENILTO CASSIO DE SOUZA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4956"
     },
     {
       "id": 34,
       "name": "LP MARKETING POLTICIO E MARKETING ELEITORAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4964"
     },
     {
       "id": 43,
       "name": "Latam Linhas Aéreas S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 2,
       "name": "MARCIO NOGUEIRA VIGNOLI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4933"
     },
     {
       "id": 5,
       "name": "MARIA DE FATIMA CARVALHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4936"
     },
     {
       "id": 27,
       "name": "MERITOS COMERCIO IMPORTACAO E EXPORTACAO DE PRODUTOS ELETRONICOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4958"
     },
     {
       "id": 1,
       "name": "MOVIMENTO DEMOCRATICO BRASILEIRO - RORAIMA-RR-ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4932"
     },
     {
       "id": 31,
       "name": "NOVITTA RENT A CAR TRANSPORTE LTDA ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e396"
     },
     {
       "id": 28,
       "name": "PARAISO DO SERPA EMPREENDIMENTOS IMOBILIARIOS-SPE LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4959"
     },
     {
       "id": 36,
       "name": "POSTO DE COMBUSTIVEIS 206 LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1214"
     },
     {
       "id": 47,
       "name": "PRIME MIDEA E MARKETING",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 54,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4972"
     },
     {
       "id": 29,
       "name": "RAMOS SETE ADMINISTRADORA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4960"
     },
     {
       "id": 14,
       "name": "RICARDO LIMA DE ARAUJO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4945"
     },
     {
       "id": 6,
       "name": "SHERIDAN ESTERFANY OLIVEIRA RAMOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4937"
     },
     {
       "id": 10,
       "name": "SHERISSON BRUNO OLIVEIRA PINHEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4941"
     },
     {
       "id": 15,
       "name": "SIMONE KEILA SILVA DOS SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4946"
     },
     {
       "id": 30,
       "name": "SKY BLUE LOCACAO DE VEICULOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4961"
     },
     {
       "id": 50,
       "name": "SLAVIERO EMPREENDIMENTOS HOTELEIROS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4974"
     },
     {
-      "id": 55,
+      "id": 54,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 58,
+      "id": 57,
       "name": "Segurança pública",
       "category": "destino",
       "connectionCount": 1
@@ -344,31 +393,36 @@
       "id": 32,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4962"
     },
     {
       "id": 52,
       "name": "UBER DO BRASIL TECNOLOGIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e213"
     },
     {
       "id": 51,
       "name": "Viapara Hoteis e Turismo Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4975"
     },
     {
       "id": 46,
       "name": "W S M DA SILVA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4971"
     },
     {
       "id": 37,
       "name": "tropical locaçao de imoveis ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4965"
     }
   ],
   "links": [
@@ -577,7 +631,7 @@
       "source": 220540,
       "target": 26,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 20/10/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 20/10/2021",
       "strength": 1
     },
     {
@@ -585,7 +639,7 @@
       "source": 220540,
       "target": 27,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 13/01/2000",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 13/01/2000",
       "strength": 1
     },
     {
@@ -593,7 +647,7 @@
       "source": 220540,
       "target": 28,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 04/10/2016",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 04/10/2016",
       "strength": 1
     },
     {
@@ -601,7 +655,7 @@
       "source": 220540,
       "target": 29,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 17/09/2019",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 17/09/2019",
       "strength": 1
     },
     {
@@ -609,7 +663,7 @@
       "source": 220540,
       "target": 30,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 21/06/2018",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 21/06/2018",
       "strength": 1
     },
     {
@@ -721,7 +775,7 @@
       "source": 220540,
       "target": 44,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.053,93 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.064,20 (21 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -800,8 +854,8 @@
       "id": 54,
       "source": 220540,
       "target": 54,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10,27 (9 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$36.723.786,00 empenhado, R$19.686.293,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -809,7 +863,7 @@
       "source": 220540,
       "target": 55,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$36.723.786,00 empenhado, R$19.686.293,00 pago (3 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Agricultura: R$18.845.251,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -817,21 +871,13 @@
       "source": 220540,
       "target": 56,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Agricultura: R$18.845.251,00 empenhado (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$18.037.988,00 empenhado, R$17.857.610,00 pago (1 emenda; 2025)",
       "strength": 1
     },
     {
       "id": 57,
       "source": 220540,
       "target": 57,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$18.037.988,00 empenhado, R$17.857.610,00 pago (1 emenda; 2025)",
-      "strength": 1
-    },
-    {
-      "id": 58,
-      "source": 220540,
-      "target": 58,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Segurança pública: R$599.968,00 empenhado (1 emenda; 2025)",
       "strength": 1

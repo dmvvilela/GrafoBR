@@ -4,7 +4,7 @@
     "egoName": "Dr. Luiz Ovando",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:35.729115Z",
+    "generatedAt": "2026-07-17T04:22:51.258874Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "As emendas a partir de 2023 somam R$ 107,2 milhões empenhados e R$ 100,2 milhões pagos em cinco áreas, com destaque para Saúde. Há R$ 485 mil em despesas de cota e R$ 2,2 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,25 +33,29 @@
       "id": 17,
       "name": "27537957 Andre Galvão de Souza",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4806"
     },
     {
       "id": 4,
       "name": "ACADEMIA COR ATIVO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4795"
     },
     {
-      "id": 22,
+      "id": 23,
       "name": "AGUAS GUARIROBA / MS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1979"
     },
     {
       "id": 21,
       "name": "AUTO POSTO CABREUVA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4808"
     },
     {
       "id": 33,
@@ -56,13 +67,15 @@
       "id": 19,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 2,
       "name": "COMISSAO PROVISORIA ESTADUAL-PARTIDO PROGRESSISTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4793"
     },
     {
       "id": 34,
@@ -74,13 +87,15 @@
       "id": 12,
       "name": "EMPRESA JORNALISTICA GAZETA MORENA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4801"
     },
     {
       "id": 20,
       "name": "ENERGISA DISTRIBUIDORA DE ENERGIA / MS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2283"
     },
     {
       "id": 32,
@@ -92,97 +107,113 @@
       "id": 8,
       "name": "FREDSON NEVES AGUIAR",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4798"
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "GEOVANIA DE SÁ",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 24,
       "name": "GOMO COMUNICAÇÂO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e20"
     },
     {
       "id": 10,
       "name": "GRAFICA GLOBO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4800"
     },
     {
       "id": 25,
       "name": "HOTEL OT LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3444"
     },
     {
       "id": 3,
       "name": "NAURA JAFAR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4794"
     },
     {
       "id": 27,
       "name": "POSTO DE COMBUSTIVEL CAMPEAO 070 LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4809"
     },
     {
       "id": 14,
       "name": "POSTO GUENO PROSA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4803"
     },
     {
       "id": 11,
       "name": "POSTO LIBERDADE LOCATELLI LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3438"
     },
     {
       "id": 28,
       "name": "POSTO NELCI MARIA LOCATELLI E CIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4810"
     },
     {
       "id": 30,
       "name": "POSTO SAO FRANCISCO LOCATELLI LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4812"
     },
     {
       "id": 18,
       "name": "PROATIVA INFORMATICA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4807"
     },
     {
       "id": 1,
       "name": "PROGRESSISTAS - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1"
     },
     {
       "id": 16,
       "name": "R.C.U. CONSULTORIA EM PUBLICIDADE LIMITADA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4805"
     },
     {
       "id": 5,
       "name": "SOCIEDADE BRASILEIRA DE CLINICA MEDICA REGIONAL MS",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4796"
     },
     {
       "id": 6,
       "name": "SUPREMA MOBILIDADE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3395"
     },
     {
       "id": 31,
@@ -200,37 +231,43 @@
       "id": 9,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4799"
     },
     {
       "id": 13,
       "name": "V4.7 MARKETING DIGITAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4802"
     },
     {
       "id": 26,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     },
     {
       "id": 15,
       "name": "associação de comunicação social cristã",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4804"
     },
     {
       "id": 7,
       "name": "nelson benedito consultoria imobiliaria ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4797"
     },
     {
       "id": 29,
       "name": "print & copy comercio eireli me",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4811"
     }
   ],
   "links": [
@@ -263,7 +300,7 @@
       "source": 204351,
       "target": 4,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 02/01/2006",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 02/01/2006",
       "strength": 1
     },
     {
@@ -271,7 +308,7 @@
       "source": 204351,
       "target": 5,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 12/09/2005",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 12/09/2005",
       "strength": 1
     },
     {
@@ -383,7 +420,7 @@
       "source": 204351,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.146,60 (23 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.190,81 (32 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -407,7 +444,7 @@
       "source": 204351,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.843,60 (11 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 06/01/2025–06/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.961,04 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 01/01/2025–01/12/2025)",
       "strength": 1
     },
     {
@@ -415,7 +452,7 @@
       "source": 204351,
       "target": 23,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.055,34 (9 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 01/01/2025–01/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.843,60 (11 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 06/01/2025–06/11/2025)",
       "strength": 1
     },
     {

@@ -4,7 +4,7 @@
     "egoName": "Beto Pereira",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:34.557894Z",
+    "generatedAt": "2026-07-17T04:22:49.182562Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Nos registros de emendas individuais, aparecem R$ 107,2 milhões empenhados e R$ 90,4 milhões pagos em seis áreas, principalmente Saúde. Constam R$ 551 mil em despesas de cota e R$ 1,6 milhão em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,43 +33,50 @@
       "id": 16,
       "name": "AGROPECUARIA CACHOEIRAO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1966"
     },
     {
       "id": 32,
       "name": "AGUAS GUARIROBA / MS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1979"
     },
     {
       "id": 25,
       "name": "ANA KAROLINE RODRIGUES MAIA KAROL REPRESENTACOES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1975"
     },
     {
       "id": 21,
       "name": "ANCELMO E PAULINO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1971"
     },
     {
-      "id": 29,
+      "id": 30,
       "name": "ARF & MOREIRA LTDA ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1977"
     },
     {
       "id": 17,
       "name": "ATHOS COMERCIO E PRESTACAO DE SERVICOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1967"
     },
     {
       "id": 33,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1980"
     },
     {
       "id": 46,
@@ -71,22 +85,25 @@
       "connectionCount": 1
     },
     {
-      "id": 31,
+      "id": 39,
+      "name": "CLARO S.A. / NET",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e23"
+    },
+    {
+      "id": 29,
       "name": "CLARO S.A. / TELECOMUNICAÇÕES - S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 11,
       "name": "CLEONICE DA COSTA SILVA KAWASSAKI",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 38,
-      "name": "Claro NXT Telecomunicações S.A",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1961"
     },
     {
       "id": 49,
@@ -98,13 +115,15 @@
       "id": 3,
       "name": "DIRETORIO ESTADUAL DO PSDB",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1953"
     },
     {
       "id": 4,
       "name": "DUCINEIDE DE SOUZA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1954"
     },
     {
       "id": 47,
@@ -122,139 +141,162 @@
       "id": 12,
       "name": "FERNANDO ANTUNES DE ARRUDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1962"
     },
     {
       "id": 42,
       "name": "GOMO COMUNICAÇÂO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e20"
     },
     {
       "id": 5,
       "name": "GUSTAVO REZENDE PEREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1955"
     },
     {
       "id": 13,
       "name": "HUMBERTO JORGE BRAUD MARTINS JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1963"
     },
     {
       "id": 24,
       "name": "IMAGETECH TECNOLOGIA EM INFORMATICA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1974"
     },
     {
       "id": 40,
       "name": "J.H.H. HOTEIS LTDA FILIAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1986"
     },
     {
       "id": 6,
       "name": "JENNIFER DOS SANTOS GARCIA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1956"
     },
     {
       "id": 7,
       "name": "JERUZA REZENDE RAMOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1957"
     },
     {
       "id": 43,
       "name": "LIMA & SIQUEIRA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1988"
     },
     {
-      "id": 39,
+      "id": 38,
       "name": "MACCARI & MACCARI LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1985"
     },
     {
       "id": 8,
       "name": "MARCIO HENRIQUE PEREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1958"
     },
     {
       "id": 41,
       "name": "MILLENIUM INFORMATICA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1987"
     },
     {
       "id": 23,
       "name": "NEWPC TECNOLOGIA EIRELLI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1973"
     },
     {
       "id": 26,
       "name": "NUCLEO PRODUCOES E EVENTOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1976"
     },
     {
       "id": 1,
       "name": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e157"
     },
     {
       "id": 14,
       "name": "PAULO DINIZ DOS SANTOS LEITE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1964"
     },
     {
       "id": 35,
       "name": "PREFEITURA MUNICIPAL DE CAMPO GRANDE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1982"
     },
     {
       "id": 18,
       "name": "PROMOV EVENTOS E COMERCIO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1968"
     },
     {
       "id": 9,
       "name": "REGINA APARECIDA NERI ORTIZ",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1959"
     },
     {
       "id": 20,
       "name": "RENTAL LOCADORA DE BENS E VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1970"
     },
     {
       "id": 15,
       "name": "ROGILSON DUIM",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1965"
     },
     {
       "id": 37,
       "name": "SANTA MARIA HOTEL POUSADA LTDA-ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1984"
     },
     {
-      "id": 30,
+      "id": 31,
       "name": "SOS ALARMES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1978"
     },
     {
       "id": 44,
@@ -272,49 +314,57 @@
       "id": 22,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1972"
     },
     {
       "id": 27,
       "name": "TAM LINHAS AEREAS SA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 28,
       "name": "TELEFONICA BRASIL S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 10,
       "name": "THIAGO GONCALVES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1960"
     },
     {
       "id": 19,
       "name": "TRIART COMUNICAÇÃO E MARKETING LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1969"
     },
     {
       "id": 2,
       "name": "VITOR MONTENEGRO WANDERLEY JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1952"
     },
     {
       "id": 34,
       "name": "VITORIA HOTEL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1981"
     },
     {
       "id": 36,
       "name": "faedo hotel ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1983"
     }
   ],
   "links": [
@@ -443,7 +493,7 @@
       "source": 204358,
       "target": 16,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 17/03/2015",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 17/03/2015",
       "strength": 1
     },
     {
@@ -451,7 +501,7 @@
       "source": 204358,
       "target": 17,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 25/03/2014",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 25/03/2014",
       "strength": 1
     },
     {
@@ -459,7 +509,7 @@
       "source": 204358,
       "target": 18,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 05/03/1997",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 05/03/1997",
       "strength": 1
     },
     {
@@ -547,7 +597,7 @@
       "source": 204358,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.420,00 (9 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 03/01/2025–01/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.841,29 (13 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 11/02/2025–10/10/2025)",
       "strength": 1
     },
     {
@@ -555,7 +605,7 @@
       "source": 204358,
       "target": 30,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.944,89 (9 lançamentos; tipo: SERVIÇO DE SEGURANÇA PRESTADO POR EMPRESA ESPECIALIZADA.; período: 02/01/2025–01/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.420,00 (9 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 03/01/2025–01/10/2025)",
       "strength": 1
     },
     {
@@ -563,7 +613,7 @@
       "source": 204358,
       "target": 31,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.390,69 (6 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 11/02/2025–10/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.944,89 (9 lançamentos; tipo: SERVIÇO DE SEGURANÇA PRESTADO POR EMPRESA ESPECIALIZADA.; período: 02/01/2025–01/10/2025)",
       "strength": 1
     },
     {
@@ -619,7 +669,7 @@
       "source": 204358,
       "target": 38,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.450,60 (7 lançamentos; tipo: TELEFONIA; período: 11/02/2025–10/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.215,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 12/03/2025)",
       "strength": 1
     },
     {
@@ -627,7 +677,7 @@
       "source": 204358,
       "target": 39,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.215,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 12/03/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.127,29 (3 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 21/02/2025–02/04/2025)",
       "strength": 1
     },
     {

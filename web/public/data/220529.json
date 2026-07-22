@@ -4,7 +4,7 @@
     "egoName": "Gilson Daniel",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:36.445368Z",
+    "generatedAt": "2026-07-17T04:22:52.303169Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Nos registros de emendas individuais a partir de 2023, constam R$ 73,9 milhões empenhados e R$ 61,8 milhões pagos em sete áreas, com Saúde como principal. Registram-se também R$ 481 mil em despesas de cota com 25 fornecedores e R$ 1,5 milhões arrecadados na campanha de 2022, de 4 doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -23,58 +30,67 @@
       "connectionCount": 39
     },
     {
-      "id": 27,
-      "name": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "id": 26,
+      "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 11,
       "name": "11.650.083 EVANDRO DOMINGOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6373"
     },
     {
       "id": 19,
       "name": "42.149.199 LORENZO FRANCEZ NASCIMENTO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6381"
     },
     {
       "id": 20,
       "name": "4NEXUS SOLUÇÕES EM PRODUTOS DIGITAIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6382"
     },
     {
       "id": 18,
       "name": "56.125.403 GUILHERME RIBEIRO ANDRADE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6380"
     },
     {
       "id": 15,
       "name": "60.249.066 CLAUDIA VALESKA PEREIRA DOS SANTOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6377"
     },
     {
       "id": 25,
       "name": "AGESP - APOIO EM GESTAO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6387"
     },
     {
       "id": 16,
       "name": "AGORA ES COMUNICAÇÃO E PESQUISA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6378"
     },
     {
       "id": 22,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6384"
     },
     {
       "id": 37,
@@ -92,25 +108,29 @@
       "id": 5,
       "name": "CAPIXABA FUTEBOL CLUBE S/A",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6367"
     },
     {
       "id": 23,
       "name": "CONDOMÍNIO DO EDIFÍCIO PALÁCIO DA PRAIA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6385"
     },
     {
       "id": 6,
       "name": "CONSULFORT SERVICOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6368"
     },
     {
       "id": 8,
       "name": "CT LOCACOES SOLUCOES E SERVICOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6370"
     },
     {
       "id": 36,
@@ -122,25 +142,29 @@
       "id": 4,
       "name": "ELEICAO 2022 JOSE RENATO CASAGRANDE GOVERNADOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6366"
     },
     {
       "id": 12,
       "name": "ELIAS SOARES DA SILVA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6374"
     },
     {
       "id": 24,
       "name": "EM DIA REDE DE COMUNICACAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6386"
     },
     {
       "id": 14,
       "name": "Emmanuel Roberto Vieira de Moraes",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6376"
     },
     {
       "id": 34,
@@ -152,13 +176,15 @@
       "id": 21,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6383"
     },
     {
       "id": 13,
       "name": "GRACIANO ULISSES MERLO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6375"
     },
     {
       "id": 38,
@@ -170,67 +196,78 @@
       "id": 10,
       "name": "Grafica e Editora Jep Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6372"
     },
     {
       "id": 31,
       "name": "ILHA VITORIA ADMINISTRACAO HOTELARIA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6390"
     },
     {
       "id": 2,
       "name": "MARCO ANTONIO DE BULHOES MARCIAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6364"
     },
     {
       "id": 32,
       "name": "MC administração Hoteleira LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6391"
     },
     {
       "id": 7,
       "name": "MEG'S & BEEF INDUSTRIA E COMERCIO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6369"
     },
     {
       "id": 17,
       "name": "NOTICIA DO CAPARAO COMUNICACOES LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6379"
     },
     {
       "id": 29,
       "name": "ORGBRISTOL - ORGANIZAÇÕES BRISTOL LTDA -SCP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6388"
     },
     {
       "id": 1,
       "name": "PODEMOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2203"
     },
     {
       "id": 30,
       "name": "POSTO NOSSA SENHORA RAINHA DOS ANJOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6389"
     },
     {
       "id": 28,
       "name": "Prefeitura Municipal de Vitória",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3406"
     },
     {
       "id": 3,
       "name": "SIDINA DELPUPO DA CUNHA DANIEL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6365"
     },
     {
       "id": 33,
@@ -242,13 +279,15 @@
       "id": 9,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6371"
     },
     {
-      "id": 26,
+      "id": 27,
       "name": "TECNEGOCIOS SOLUÇÕES EM INFORMÁTICA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1168"
     },
     {
       "id": 39,
@@ -295,7 +334,7 @@
       "source": 220529,
       "target": 5,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (diretor), desde 09/06/2006",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (diretor), desde 09/06/2006",
       "strength": 1
     },
     {
@@ -303,7 +342,7 @@
       "source": 220529,
       "target": 6,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 23/08/2011",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 23/08/2011",
       "strength": 1
     },
     {
@@ -311,7 +350,7 @@
       "source": 220529,
       "target": 7,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 19/08/2019",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 19/08/2019",
       "strength": 1
     },
     {
@@ -463,7 +502,7 @@
       "source": 220529,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.847,00 (3 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 18/01/2025–14/03/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.138,10 (18 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/01/2025–22/12/2025)",
       "strength": 1
     },
     {
@@ -471,7 +510,7 @@
       "source": 220529,
       "target": 27,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.813,97 (13 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/01/2025–22/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.847,00 (3 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 18/01/2025–14/03/2025)",
       "strength": 1
     },
     {

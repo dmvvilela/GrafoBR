@@ -4,7 +4,7 @@
     "egoName": "Waldenor Pereira",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:39.966091Z",
+    "generatedAt": "2026-07-17T04:22:57.155817Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Os dados de emendas individuais registram R$ 107,2 milhões empenhados e R$ 98,1 milhões pagos em sete áreas, principalmente Saúde. Há R$ 468 mil em despesas de cota e R$ 2,0 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,43 +33,50 @@
       "id": 5,
       "name": "#NULO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13843"
     },
     {
       "id": 9,
       "name": "ADILSON AMORIM DE SOUSA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13847"
     },
     {
       "id": 27,
       "name": "AGENCIA SUDOESTE - JORNALISMO, ASSESSORIA E PESQUISAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13862"
     },
     {
       "id": 24,
       "name": "ANDERSON OLIVEIRA SANTOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11211"
     },
     {
       "id": 10,
       "name": "ARIANA SANTOS GUIMARAES ANDRADE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13848"
     },
     {
       "id": 15,
       "name": "AUTO POSTO PANTANAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13852"
     },
     {
       "id": 18,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13854"
     },
     {
       "id": 43,
@@ -74,43 +88,57 @@
       "id": 19,
       "name": "Blog do REDAÇÂO.com.br",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13855"
+    },
+    {
+      "id": 37,
+      "name": "Claro S/A",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e23"
     },
     {
       "id": 16,
       "name": "DALETH VEICULOS LTDA EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e598"
     },
     {
       "id": 17,
       "name": "DIEGO SILVA LOPES EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13853"
     },
     {
       "id": 3,
       "name": "ELEICAO 2022 JOSE RAIMUNDO FONTES DEPUTADO ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13841"
     },
     {
       "id": 12,
       "name": "ELMO JOAO GONCALVES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13850"
     },
     {
       "id": 6,
       "name": "ERBENE CAFE TEIXEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13844"
     },
     {
-      "id": 29,
+      "id": 30,
       "name": "ESCALE MONT LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13864"
     },
     {
       "id": 42,
@@ -125,34 +153,39 @@
       "connectionCount": 1
     },
     {
-      "id": 37,
+      "id": 38,
       "name": "FABRICIO ARAUJO MEDEIROS SILVA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13870"
     },
     {
       "id": 32,
       "name": "Fundação Educar Brasil de Radiodifusão",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11842"
     },
     {
       "id": 33,
       "name": "GENESYS SERVICE EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13866"
     },
     {
       "id": 20,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13856"
     },
     {
       "id": 35,
       "name": "GREGORY VICTORELLI SOARES CONSULTORIA EM TECNOLOGIA DA INFORM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13868"
     },
     {
       "id": 44,
@@ -164,91 +197,99 @@
       "id": 22,
       "name": "HOJE COMUNICACOES PESQUISA E JORNALISMO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13858"
     },
     {
-      "id": 30,
+      "id": 31,
       "name": "JOSIVAN VIEIRA RAMOS",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 38,
-      "name": "JRM LOCADORA DE VEICULOS LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13865"
     },
     {
       "id": 28,
       "name": "JUSCELINO NOVAIS SOUZA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13863"
     },
     {
       "id": 14,
       "name": "LOCA ALUGUEL DE VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7472"
     },
     {
       "id": 8,
       "name": "LUIZ OTAVIO DE MAGALHAES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13846"
     },
     {
       "id": 25,
       "name": "MARICELI RAMOS GONCALVES ANDRADE SENA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13860"
     },
     {
       "id": 36,
       "name": "MIRIAM RODRIGUES SANTANA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13869"
     },
     {
       "id": 2,
       "name": "PARTIDO DOS TRABALHADORES - BAHIA - BA - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e278"
     },
     {
       "id": 1,
       "name": "PARTIDO DOS TRABALHADORES - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e277"
     },
     {
       "id": 13,
       "name": "PROJETAR - PROJETOS, PESQUISAS E CONSULTORIA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13851"
     },
     {
       "id": 7,
       "name": "RICARDO COSTA DE MORAES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13845"
     },
     {
       "id": 26,
       "name": "RODRIGO FERRAZ CUNHA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13861"
     },
     {
       "id": 11,
       "name": "SIMONI MOREIRA REIS BOMFIM",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13849"
     },
     {
       "id": 34,
       "name": "SIN- SISTEMAS INTELIGENTES LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13867"
     },
     {
       "id": 39,
@@ -266,19 +307,22 @@
       "id": 21,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13857"
     },
     {
-      "id": 31,
+      "id": 29,
       "name": "TELEFÔNICA BRASIL S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 23,
       "name": "TELEVISAO CONQUISTA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13859"
     },
     {
       "id": 41,
@@ -290,7 +334,8 @@
       "id": 4,
       "name": "WALDENOR ALVES PEREIRA FILHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13842"
     }
   ],
   "links": [
@@ -395,7 +440,7 @@
       "source": 160569,
       "target": 13,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 10/01/1997",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 10/01/1997",
       "strength": 1
     },
     {
@@ -523,7 +568,7 @@
       "source": 160569,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.200,00 (7 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 15/05/2025–24/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.883,54 (7 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 17/01/2025–17/10/2025)",
       "strength": 1
     },
     {
@@ -531,7 +576,7 @@
       "source": 160569,
       "target": 30,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$9.600,00 (12 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 27/01/2025–09/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.200,00 (7 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 15/05/2025–24/11/2025)",
       "strength": 1
     },
     {
@@ -539,7 +584,7 @@
       "source": 160569,
       "target": 31,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$9.337,17 (6 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 17/01/2025–21/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$9.600,00 (12 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 27/01/2025–09/12/2025)",
       "strength": 1
     },
     {
@@ -587,7 +632,7 @@
       "source": 160569,
       "target": 37,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.000,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 24/07/2025–18/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.269,13 (19 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 03/01/2025–14/11/2025)",
       "strength": 1
     },
     {
@@ -595,7 +640,7 @@
       "source": 160569,
       "target": 38,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.000,00 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 14/01/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.000,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 24/07/2025–18/11/2025)",
       "strength": 1
     },
     {

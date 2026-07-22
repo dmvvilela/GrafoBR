@@ -4,14 +4,20 @@
     "egoName": "Jack Rocha",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:36.840204Z",
+    "generatedAt": "2026-07-17T04:22:52.891678Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Nos dados de emendas individuais, constam R$ 67,5 milhões empenhados e R$ 30,2 milhões pagos em onze áreas. Constam ainda R$ 430 mil em despesas de cota com 25 fornecedores; a campanha de 2022 recebeu R$ 943 mil de 5 doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -25,19 +31,29 @@
       "id": 27,
       "name": "55.422.567 KAYO DALVI COSTA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7175"
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "AUTO POSTO CINCO ESTRELAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e405"
+    },
+    {
+      "id": 30,
+      "name": "AUTO POSTO SCHUENG LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7177"
     },
     {
       "id": 21,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7172"
     },
     {
       "id": 38,
@@ -55,13 +71,15 @@
       "id": 10,
       "name": "CASA DE COMUNICACAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7166"
     },
     {
-      "id": 22,
+      "id": 23,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 37,
@@ -82,28 +100,32 @@
       "connectionCount": 1
     },
     {
-      "id": 19,
+      "id": 20,
       "name": "EDP ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e987"
     },
     {
       "id": 4,
       "name": "ELEICAO 2022 JOAO CARLOS COSER DEPUTADO ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6760"
     },
     {
       "id": 2,
       "name": "ELEICAO 2022 JOSE RENATO CASAGRANDE GOVERNADOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6366"
     },
     {
       "id": 6,
       "name": "EVO COMERCIO DE VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7163"
     },
     {
       "id": 39,
@@ -118,16 +140,18 @@
       "connectionCount": 1
     },
     {
-      "id": 23,
+      "id": 24,
       "name": "Facebook Serviços Online do Brasil Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 16,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7169"
     },
     {
       "id": 41,
@@ -139,49 +163,57 @@
       "id": 8,
       "name": "Grafica e Editora Jep Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6372"
     },
     {
       "id": 14,
       "name": "HEBERTE BARROS DE OLIVEIRA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6000"
     },
     {
       "id": 28,
       "name": "Hotel Sol da Praia LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7176"
     },
     {
       "id": 17,
       "name": "INTELIDADOS - APLICATIVOS DE INTERNET LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7170"
     },
     {
       "id": 3,
       "name": "JACKELINE OLIVEIRA ROCHA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7162"
     },
     {
       "id": 9,
       "name": "LUCIA DORNELLAS - LD CONSULTORIA EM GESTÃO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7165"
     },
     {
       "id": 12,
       "name": "Liberty Cartuchos LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7168"
     },
     {
       "id": 15,
       "name": "NEVES E FERREIRA TECNOLOGIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2692"
     },
     {
       "id": 36,
@@ -193,43 +225,43 @@
       "id": 5,
       "name": "PARTIDO DOS TRABALHADORES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6753"
     },
     {
       "id": 1,
       "name": "PARTIDO DOS TRABALHADORES - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e277"
     },
     {
       "id": 25,
       "name": "PEDRO HENRIQUE DA SILVA COSTA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1417"
     },
     {
-      "id": 24,
+      "id": 22,
       "name": "POSTO ARVOREDO LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 30,
-      "name": "POSTO ARVOREDO LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7173"
     },
     {
       "id": 18,
       "name": "POSTO PIO XII - COMERCIO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7171"
     },
     {
       "id": 11,
       "name": "PRIVILEGE ADMINISTRAÇÃO E NEGÓCIOS IMOBILIÁRIOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7167"
     },
     {
       "id": 31,
@@ -241,7 +273,8 @@
       "id": 7,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7164"
     },
     {
       "id": 33,
@@ -253,19 +286,22 @@
       "id": 29,
       "name": "UBER DO BRASIL TECNOLOGIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e213"
     },
     {
       "id": 26,
       "name": "VICTOR HUGO DE MENEZES - MP SOLUÇOES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7174"
     },
     {
       "id": 13,
       "name": "VILA GALE BRASIL - ATIVIDADES HOTELEIRAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4544"
     }
   ],
   "links": [
@@ -418,7 +454,7 @@
       "source": 220527,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.215,14 (15 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 13/01/2025–13/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.244,76 (17 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/01/2025–18/08/2025)",
       "strength": 1
     },
     {
@@ -426,7 +462,7 @@
       "source": 220527,
       "target": 20,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.094,76 (16 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 29/01/2025–18/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.215,14 (15 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 13/01/2025–13/10/2025)",
       "strength": 1
     },
     {
@@ -442,7 +478,7 @@
       "source": 220527,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.533,16 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.064,47 (16 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/02/2025–03/12/2025)",
       "strength": 1
     },
     {
@@ -450,7 +486,7 @@
       "source": 220527,
       "target": 23,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.000,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/07/2025–02/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.547,86 (21 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -458,7 +494,7 @@
       "source": 220527,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.852,29 (9 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/02/2025–03/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.000,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/07/2025–02/08/2025)",
       "strength": 1
     },
     {
@@ -506,7 +542,7 @@
       "source": 220527,
       "target": 30,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.212,18 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/02/2025–16/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.200,81 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/01/2025–11/09/2025)",
       "strength": 1
     },
     {

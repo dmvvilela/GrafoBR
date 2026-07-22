@@ -4,12 +4,14 @@
     "egoName": "Efraim Filho",
     "chamber": "senado",
     "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador4642.jpg",
-    "generatedAt": "2026-06-23T14:22:40.366230Z",
+    "generatedAt": "2026-07-17T04:22:57.741905Z",
     "sources": [
-      "cgu_emendas",
       "senado"
     ],
-    "summary": "Os registros públicos indicam R$ 169,6 milhões empenhados e R$ 130,7 milhões pagos em dez áreas de emendas individuais. A principal destinação listada é Saúde.",
+    "sourceCoverage": {
+      "senado": "parlamentares em exercício na consulta; coleta local em 06/06/2026"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -17,149 +19,8 @@
       "id": 904642,
       "name": "Efraim Filho",
       "category": "politician",
-      "connectionCount": 10
-    },
-    {
-      "id": 9,
-      "name": "Agricultura",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 4,
-      "name": "Assistência social",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 10,
-      "name": "Comunicações",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 7,
-      "name": "Defesa nacional",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 8,
-      "name": "Desporto e lazer",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 5,
-      "name": "Educação",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 2,
-      "name": "Encargos especiais",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 1,
-      "name": "Saúde",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 6,
-      "name": "Segurança pública",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 3,
-      "name": "Urbanismo",
-      "category": "destino",
-      "connectionCount": 1
+      "connectionCount": 0
     }
   ],
-  "links": [
-    {
-      "id": 1,
-      "source": 904642,
-      "target": 1,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$87.960.612,00 empenhado, R$63.216.961,00 pago (25 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 2,
-      "source": 904642,
-      "target": 2,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$60.395.746,00 empenhado, R$60.169.118,00 pago (3 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 3,
-      "source": 904642,
-      "target": 3,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Urbanismo: R$9.148.430,00 empenhado, R$1.356.750,00 pago (2 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 4,
-      "source": 904642,
-      "target": 4,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$6.783.867,00 empenhado, R$5.179.867,00 pago (3 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 5,
-      "source": 904642,
-      "target": 5,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Educação: R$2.524.264,00 empenhado, R$406.868,00 pago (5 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 6,
-      "source": 904642,
-      "target": 6,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Segurança pública: R$1.645.113,00 empenhado, R$200.000,00 pago (5 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 7,
-      "source": 904642,
-      "target": 7,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Defesa nacional: R$500.000,00 empenhado (2 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 8,
-      "source": 904642,
-      "target": 8,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$200.000,00 empenhado (1 emenda; 2024)",
-      "strength": 1
-    },
-    {
-      "id": 9,
-      "source": 904642,
-      "target": 9,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Agricultura: R$200.000,00 empenhado, R$11.985,00 pago (1 emenda; 2024)",
-      "strength": 1
-    },
-    {
-      "id": 10,
-      "source": 904642,
-      "target": 10,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Comunicações: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2024)",
-      "strength": 1
-    }
-  ]
+  "links": []
 }

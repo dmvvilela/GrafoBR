@@ -4,14 +4,20 @@
     "egoName": "Lídice da Mata",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.701650Z",
+    "generatedAt": "2026-07-17T04:22:54.088229Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "As emendas desde 2023 somam R$ 104,8 milhões empenhados e R$ 78,9 milhões pagos em onze áreas, com Saúde como principal. Registram-se R$ 498 mil em despesas de cota e R$ 3,0 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -25,43 +31,57 @@
       "id": 3,
       "name": "#NULO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9138"
     },
     {
       "id": 46,
       "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 16,
       "name": "ADALBERTO DE FIGUEIREDO RIBEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9151"
     },
     {
       "id": 24,
       "name": "ADRIANO DE SA BOUZAS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9159"
     },
     {
       "id": 25,
       "name": "ALISSON SANTOS GONCALVES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9160"
     },
     {
       "id": 6,
       "name": "ANTONIO SERGIO FARIAS DE SOUZA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9141"
     },
     {
       "id": 36,
       "name": "APSA - ADMINISTRACAO PREDIAL E NEGOCIOS IMOBILIARIOS S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9169"
+    },
+    {
+      "id": 47,
+      "name": "AUTO SHOPPING DERIVADOS DE PETROLEO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e608"
     },
     {
       "id": 59,
@@ -76,46 +96,53 @@
       "connectionCount": 1
     },
     {
-      "id": 43,
+      "id": 44,
       "name": "BAKONE COMÉRCIO E SERVIÇOS DE TELECOMUNICAÇÕES EIR",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9173"
     },
     {
       "id": 21,
       "name": "BRUNA LESSA SOUSA BARONE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9156"
     },
     {
       "id": 7,
       "name": "CARLOS ALBERTO MATOS VIEIRA LIMA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9142"
     },
     {
-      "id": 48,
+      "id": 49,
       "name": "COMERCIAL DERIVADOS DE PETROLEO SANTOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9174"
     },
     {
-      "id": 39,
+      "id": 40,
       "name": "COMPANHIA DE ELETRICIDADE DO ESTADO DA BAHIA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e175"
     },
     {
       "id": 8,
       "name": "CRISTIANA MENEZES SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9143"
     },
     {
       "id": 22,
       "name": "CRISTIANA RIBEIRO BRITTO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9157"
     },
     {
       "id": 55,
@@ -151,7 +178,8 @@
       "id": 9,
       "name": "EDUARDO JOSE SANTIAGO DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9144"
     },
     {
       "id": 53,
@@ -169,157 +197,176 @@
       "id": 34,
       "name": "FMG EMPREENDIMENTOS E PARTICIPAÇÕES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9167"
     },
     {
       "id": 30,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9164"
     },
     {
       "id": 31,
       "name": "IGOR TEIXEIRA PASSOS FALCÃO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9165"
     },
     {
       "id": 10,
       "name": "JAQUELINE MATOS DE AZEVEDO",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 50,
-      "name": "JG dos Santos Neto Comunicação Ltda",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9145"
     },
     {
       "id": 11,
       "name": "JOAO CARLOS PORTELA FERNANDES DE SOUZA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9146"
     },
     {
       "id": 37,
       "name": "LUIS FERNANDO BARONE LEITE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9170"
     },
     {
       "id": 17,
       "name": "MANOEL BARRETTO DA ROCHA NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9152"
     },
     {
       "id": 18,
       "name": "MARIA OLIVIA SOARES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9153"
     },
     {
       "id": 23,
       "name": "MIRTANIA ANTUNES LEAO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9158"
     },
     {
       "id": 15,
       "name": "NANCI DA MATA E SOUZA SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9150"
     },
     {
-      "id": 38,
+      "id": 39,
       "name": "OURO PRETOTRANSPORTE E LOCAÇÕES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9171"
     },
     {
       "id": 1,
       "name": "PARTIDO SOCIALISTA BRASILEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1841"
     },
     {
       "id": 2,
       "name": "PARTIDO SOCIALISTA BRASILEIRO - BAHIA - BA - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9137"
     },
     {
       "id": 12,
       "name": "PASCOAL CHAVES GOMES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9147"
     },
     {
-      "id": 40,
-      "name": "POSTO KALILANDIA LTDA",
+      "id": 38,
+      "name": "POSTO CARLOS GOMES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e833"
     },
     {
       "id": 26,
       "name": "RADIOLA COMUNICAÇÃO E ASSESSORIA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9161"
     },
     {
       "id": 13,
       "name": "RAQUEL DE SOUSA RIBEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9148"
     },
     {
       "id": 5,
       "name": "RENATO FARIAS SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9140"
     },
     {
       "id": 4,
       "name": "RODRIGO MOUSINHO HITA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9139"
     },
     {
-      "id": 47,
+      "id": 48,
       "name": "SECRETARIA MUNICIPAL DA FAZENDA SALVADOR",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1370"
     },
     {
       "id": 32,
       "name": "SECT TRANSPORTES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9166"
     },
     {
-      "id": 49,
+      "id": 50,
       "name": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e142"
     },
     {
       "id": 19,
       "name": "SOANE MARIA NINCK DE MATOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9154"
     },
     {
       "id": 29,
       "name": "SUPREMA MOBILIDADE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3395"
     },
     {
       "id": 14,
       "name": "SYLVIO SIMOES DE MELLO LEITAO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9149"
     },
     {
       "id": 51,
@@ -337,55 +384,64 @@
       "id": 27,
       "name": "T SANTANA SILVA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9162"
     },
     {
       "id": 28,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9163"
     },
     {
       "id": 33,
       "name": "TELEFONIA BRASIL S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 35,
       "name": "TORRES COMERCIO E DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9168"
     },
     {
-      "id": 44,
+      "id": 43,
       "name": "UBER DO BRASIL TECNOLOGIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e213"
     },
     {
       "id": 41,
       "name": "W.L. POSTO CENTENARIO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1810"
     },
     {
       "id": 42,
       "name": "W.MENDES ASSIST.TÉC E LOCAÇÃO DE ELETRODOMÉSTICOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9172"
     },
     {
       "id": 20,
       "name": "WILLGENS JEFFERSON COELHO E SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9155"
     },
     {
       "id": 45,
       "name": "WL COMERCIO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e843"
     }
   ],
   "links": [
@@ -690,7 +746,7 @@
       "source": 139285,
       "target": 38,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8.885,00 (2 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 31/08/2025–30/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.279,14 (42 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/01/2025–18/12/2025)",
       "strength": 1
     },
     {
@@ -698,7 +754,7 @@
       "source": 139285,
       "target": 39,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8.053,29 (23 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 24/01/2025–29/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8.885,00 (2 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 31/08/2025–30/09/2025)",
       "strength": 1
     },
     {
@@ -706,7 +762,7 @@
       "source": 139285,
       "target": 40,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.167,80 (29 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/01/2025–18/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8.053,29 (23 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 24/01/2025–29/12/2025)",
       "strength": 1
     },
     {
@@ -730,7 +786,7 @@
       "source": 139285,
       "target": 43,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.491,24 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 15/01/2025–01/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.424,51 (200 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 07/01/2025–30/12/2025)",
       "strength": 1
     },
     {
@@ -738,7 +794,7 @@
       "source": 139285,
       "target": 44,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.447,14 (158 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 07/01/2025–23/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.491,24 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 15/01/2025–01/12/2025)",
       "strength": 1
     },
     {
@@ -754,7 +810,7 @@
       "source": 139285,
       "target": 46,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.898,75 (21 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/01/2025–16/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.396,08 (24 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/01/2025–16/12/2025)",
       "strength": 1
     },
     {
@@ -762,7 +818,7 @@
       "source": 139285,
       "target": 47,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.582,07 (22 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 03/02/2025–05/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.740,74 (18 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/01/2025–04/12/2025)",
       "strength": 1
     },
     {
@@ -770,7 +826,7 @@
       "source": 139285,
       "target": 48,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.383,85 (13 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/01/2025–06/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.582,07 (22 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 03/02/2025–05/12/2025)",
       "strength": 1
     },
     {
@@ -778,7 +834,7 @@
       "source": 139285,
       "target": 49,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.271,48 (11 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 21/02/2025–23/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.383,85 (13 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/01/2025–06/12/2025)",
       "strength": 1
     },
     {
@@ -786,7 +842,7 @@
       "source": 139285,
       "target": 50,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/02/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.271,48 (11 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 21/02/2025–23/12/2025)",
       "strength": 1
     },
     {

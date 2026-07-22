@@ -4,7 +4,7 @@
     "egoName": "Júlio Cesar",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.273020Z",
+    "generatedAt": "2026-07-17T04:22:53.500686Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Entre 2023 e os registros mais recentes, constam R$ 106,2 milhões em emendas empenhadas e R$ 97,1 milhões pagos em sete áreas, com foco em Saúde. Registram-se R$ 493 mil em despesas de cota e R$ 2,0 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,52 +27,58 @@
       "id": 74317,
       "name": "Júlio Cesar",
       "category": "politician",
-      "connectionCount": 51
+      "connectionCount": 50
     },
     {
       "id": 24,
       "name": "AGROLUPE-AGROPECUARIA GUADALUPE S/A",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8144"
     },
     {
       "id": 40,
       "name": "ALFA COMUNICAÇÃO E MARKETING DIGITAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4695"
     },
     {
       "id": 18,
       "name": "ALYSSON ANDRE LIMA SOUSA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8138"
     },
     {
       "id": 12,
       "name": "ANA BEATRIZ LOGEMANN DE ALMEIDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8133"
     },
     {
       "id": 26,
       "name": "AUTO LESTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8146"
     },
     {
       "id": 39,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8154"
     },
     {
-      "id": 47,
+      "id": 46,
       "name": "Agricultura",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 49,
+      "id": 48,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -74,40 +87,46 @@
       "id": 2,
       "name": "CARLOS PRADO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8125"
     },
     {
       "id": 29,
       "name": "CARVALHO & CARVALHO POSTO DE GASOLINA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8149"
     },
     {
       "id": 32,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 42,
       "name": "CLIENT CO SERVICOS DE REDE NORDESTE S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1911"
     },
     {
       "id": 7,
       "name": "CORNELIO ADRIANO SANDERS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8128"
     },
     {
       "id": 11,
       "name": "DANILO DA PAZ CARVALHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8132"
     },
     {
-      "id": 51,
+      "id": 50,
       "name": "Defesa nacional",
       "category": "destino",
       "connectionCount": 1
@@ -116,22 +135,25 @@
       "id": 13,
       "name": "EDUARDO SILVA LOGEMANN",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8134"
     },
     {
       "id": 33,
       "name": "ELDORADO COMUNICACAO E JORNALISMO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1939"
     },
     {
       "id": 14,
       "name": "ELISABETH SILVA LOGEMANN",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8135"
     },
     {
-      "id": 46,
+      "id": 45,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -140,154 +162,171 @@
       "id": 28,
       "name": "FF propaganda e marketting eireli",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8148"
     },
     {
       "id": 38,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8153"
     },
     {
       "id": 8,
       "name": "GREGORY SANDERS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8129"
     },
     {
       "id": 9,
       "name": "GREICY HEINRICH SANDERS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8130"
     },
     {
       "id": 10,
       "name": "GUEBERSON SANDERS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8131"
     },
     {
       "id": 37,
       "name": "J C S HOLANDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8152"
     },
     {
       "id": 19,
       "name": "JEFFERSON BATISTA CARDOSO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8139"
     },
     {
       "id": 31,
       "name": "JM INDUSTRIA DE EMBALAGENS E ROTULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7209"
     },
     {
       "id": 17,
       "name": "JOAO ERNESTO SEGABINAZZI TROJAN",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6461"
     },
     {
       "id": 3,
       "name": "JORGE ALBERTO VIEIRA STUDART GOMES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1194"
     },
     {
       "id": 15,
       "name": "JORGE LUIZ SILVA LOGEMANN",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8136"
     },
     {
       "id": 20,
       "name": "JULIANNA SANTOS E FREITAS DE CARVALHO LIMA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8140"
     },
     {
       "id": 6,
       "name": "JULIO CESAR DE CARVALHO LIMA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8127"
     },
     {
       "id": 21,
       "name": "JUSSARA SOARES FERREIRA ARAUJO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8141"
     },
     {
       "id": 41,
       "name": "Kalunga SA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e221"
     },
     {
       "id": 22,
       "name": "LUCIANA COSTA DE CARVALHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8142"
     },
     {
       "id": 36,
       "name": "Latam Linhas Aéreas S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 16,
       "name": "MARCELO SILVA LOGEMANN",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8137"
     },
     {
       "id": 23,
       "name": "MARTINHO LOPES DE ARAUJO JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8143"
     },
     {
       "id": 43,
       "name": "OI SA - EM RECUPERAÇÃO JUDICIAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3658"
     },
     {
       "id": 1,
       "name": "PARTIDO SOCIAL DEMOCRATICO - PSD DIRETORIO NACIONAL",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 44,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1361"
     },
     {
       "id": 4,
       "name": "RICARDO CASTELLAR DE FARIA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3705"
     },
     {
       "id": 5,
       "name": "SERGIO LUIS BORTOLOZZO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8126"
     },
     {
-      "id": 45,
+      "id": 44,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 50,
+      "id": 49,
       "name": "Segurança pública",
       "category": "destino",
       "connectionCount": 1
@@ -296,28 +335,32 @@
       "id": 30,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8150"
     },
     {
       "id": 25,
       "name": "TROPICAL FRUTOS CANAA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8145"
     },
     {
       "id": 35,
       "name": "Telefônica Brasil S.A. VIVO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 27,
       "name": "URBANISMO SERVIÇOS E EVENTOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8147"
     },
     {
-      "id": 48,
+      "id": 47,
       "name": "Urbanismo",
       "category": "destino",
       "connectionCount": 1
@@ -326,7 +369,8 @@
       "id": 34,
       "name": "VIANA COMUNICAÇÃO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8151"
     }
   ],
   "links": [
@@ -519,7 +563,7 @@
       "source": 74317,
       "target": 24,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (conselheiro de administração), desde 05/09/2022",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (conselheiro de administração), desde 05/09/2022",
       "strength": 1
     },
     {
@@ -527,7 +571,7 @@
       "source": 74317,
       "target": 25,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 24/04/1984",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 24/04/1984",
       "strength": 1
     },
     {
@@ -583,7 +627,7 @@
       "source": 74317,
       "target": 32,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.663,84 (23 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.681,64 (31 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -678,8 +722,8 @@
       "id": 44,
       "source": 74317,
       "target": 44,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$17,80 (8 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$53.570.277,00 empenhado, R$51.415.994,00 pago (9 emendas; 2023–2025)",
       "strength": 1
     },
     {
@@ -687,7 +731,7 @@
       "source": 74317,
       "target": 45,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$53.570.277,00 empenhado, R$51.415.994,00 pago (9 emendas; 2023–2025)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$43.838.205,00 empenhado, R$43.658.827,00 pago (3 emendas; 2023–2025)",
       "strength": 1
     },
     {
@@ -695,7 +739,7 @@
       "source": 74317,
       "target": 46,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$43.838.205,00 empenhado, R$43.658.827,00 pago (3 emendas; 2023–2025)",
+      "description": "Emendas individuais destinadas a Agricultura: R$3.584.258,00 empenhado, R$392.280,00 pago (2 emendas; 2023)",
       "strength": 1
     },
     {
@@ -703,7 +747,7 @@
       "source": 74317,
       "target": 47,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Agricultura: R$3.584.258,00 empenhado, R$392.280,00 pago (2 emendas; 2023)",
+      "description": "Emendas individuais destinadas a Urbanismo: R$2.535.792,00 empenhado, R$82.967,00 pago (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -711,7 +755,7 @@
       "source": 74317,
       "target": 48,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Urbanismo: R$2.535.792,00 empenhado, R$82.967,00 pago (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.199.706,00 empenhado, R$1.167.818,00 pago (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -719,21 +763,13 @@
       "source": 74317,
       "target": 49,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$1.199.706,00 empenhado, R$1.167.818,00 pago (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.085.740,00 empenhado, R$300.000,00 pago (7 emendas; 2023–2024)",
       "strength": 1
     },
     {
       "id": 50,
       "source": 74317,
       "target": 50,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Segurança pública: R$1.085.740,00 empenhado, R$300.000,00 pago (7 emendas; 2023–2024)",
-      "strength": 1
-    },
-    {
-      "id": 51,
-      "source": 74317,
-      "target": 51,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Defesa nacional: R$380.732,00 empenhado, R$71.958,00 pago (2 emendas; 2023–2024)",
       "strength": 1

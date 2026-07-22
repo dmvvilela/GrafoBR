@@ -4,7 +4,7 @@
     "egoName": "André Figueiredo",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:34.268194Z",
+    "generatedAt": "2026-07-17T04:22:48.808233Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "As emendas individuais desde 2023 totalizam R$ 106,2 milhões empenhados e R$ 81,4 milhões pagos em catorze áreas, principalmente Saúde. Há R$ 518 mil em despesas de cota e R$ 1,4 milhão em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -23,34 +30,46 @@
       "connectionCount": 52
     },
     {
-      "id": 29,
-      "name": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "id": 28,
+      "name": "021 - 204 SUL CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 33,
       "name": "4COMPUTER TI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1287"
     },
     {
       "id": 4,
       "name": "AMANDA DE SOUZA OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1264"
     },
     {
       "id": 3,
       "name": "ANDRE PEIXOTO FIGUEIREDO LIMA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1263"
+    },
+    {
+      "id": 38,
+      "name": "AUTO POSTO CINCO ESTRELAS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e405"
     },
     {
       "id": 35,
       "name": "AUTO POSTO GOLDEN GAS 202 LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1289"
     },
     {
       "id": 42,
@@ -62,31 +81,29 @@
       "id": 14,
       "name": "CASABLANCA RENT A CAR LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1274"
     },
     {
       "id": 32,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 31,
       "name": "CENTRO DIOCESANO DE PASTORAL - DIOCESANO HOTEL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1286"
     },
     {
       "id": 23,
       "name": "COMPANHIA ENERGÉTICA DO CEARÁ",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 22,
-      "name": "Claro NXT Telecomunicações S.A",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1280"
     },
     {
       "id": 44,
@@ -128,13 +145,15 @@
       "id": 8,
       "name": "ELEICAO 2022 ROBERTO CLAUDIO RODRIGUES BEZERRA GOVERNADOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1268"
     },
     {
       "id": 5,
       "name": "ERNANI BRIGIDO SILVA NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1265"
     },
     {
       "id": 52,
@@ -152,19 +171,22 @@
       "id": 6,
       "name": "FRANCISCO JOSE PONTES IBIAPINA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1266"
     },
     {
-      "id": 28,
+      "id": 29,
       "name": "FRANCISCO NELSON DE MENESES - ME - VARANDA HOTEL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1284"
     },
     {
       "id": 18,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1278"
     },
     {
       "id": 50,
@@ -176,79 +198,92 @@
       "id": 34,
       "name": "HOREB EMPREENDIMENTOS IMOBILIÁRIOS E PARTICIPAÇÕES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1288"
     },
     {
       "id": 9,
       "name": "IRACEMA LOGISTICA E PARTICIPACOES LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1269"
     },
     {
       "id": 36,
       "name": "JLN COMBUSTIVEIS E LUBRIFICANTES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1290"
     },
     {
       "id": 7,
       "name": "JOSE IRAGUASSU TEIXEIRA FILHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1267"
     },
     {
       "id": 27,
       "name": "MAREDOMUS TURISMO EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1283"
     },
     {
       "id": 15,
       "name": "MEIOS E CONTEUDOS ESTRATEGIAS EM COMUNICACAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1275"
     },
     {
-      "id": 38,
+      "id": 21,
       "name": "NEXTEL TELECOMUNICAÇÕES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 19,
       "name": "ORGANIZACAO HELIO MEIRELES PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e29"
     },
     {
-      "id": 21,
+      "id": 22,
       "name": "PANTANAL VEÍCULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e70"
     },
     {
       "id": 1,
       "name": "PARTIDO DEMOCRATICO TRABALHISTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e339"
     },
     {
       "id": 2,
       "name": "PARTIDO DEMOCRATICO TRABALHISTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1262"
     },
     {
       "id": 24,
       "name": "POSTO NOSSA SENHORA DE FÁTIMA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1281"
     },
     {
       "id": 10,
       "name": "PROXIMA DISTRIBUIDORA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1270"
     },
     {
       "id": 47,
@@ -260,49 +295,57 @@
       "id": 26,
       "name": "SAMIA MARIA PINHEIRO BEZERRA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1282"
     },
     {
       "id": 11,
       "name": "SCIENTIFIC COMERCIAL DE PRODUTOS RADIOLOGICOS LTDA.",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1271"
     },
     {
       "id": 12,
       "name": "SCIENTIFIC COMERCIO HOSPITALAR LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1272"
     },
     {
       "id": 13,
       "name": "SCIENTIFIC SERVICOS TECNICOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1273"
     },
     {
       "id": 37,
       "name": "SEVERINO ALMEIDA CHAVES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1291"
     },
     {
       "id": 20,
       "name": "SHAYANE FRUTUOSO LOPES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1279"
     },
     {
       "id": 17,
       "name": "SJ ADMIMINSTRAÇÃO DE IMOVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1277"
     },
     {
       "id": 25,
       "name": "STARLINK BRAZIL SERVIÇOS DE INTERNET LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1256"
     },
     {
       "id": 39,
@@ -320,7 +363,8 @@
       "id": 16,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1276"
     },
     {
       "id": 41,
@@ -332,7 +376,8 @@
       "id": 30,
       "name": "wilson azevedo jorge me",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1285"
     }
   ],
   "links": [
@@ -405,7 +450,7 @@
       "source": 133439,
       "target": 9,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 10/04/2012",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 10/04/2012",
       "strength": 1
     },
     {
@@ -413,7 +458,7 @@
       "source": 133439,
       "target": 10,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 02/10/1997",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 02/10/1997",
       "strength": 1
     },
     {
@@ -421,7 +466,7 @@
       "source": 133439,
       "target": 11,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 05/03/2004",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 05/03/2004",
       "strength": 1
     },
     {
@@ -429,7 +474,7 @@
       "source": 133439,
       "target": 12,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 29/08/2003",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 29/08/2003",
       "strength": 1
     },
     {
@@ -437,7 +482,7 @@
       "source": 133439,
       "target": 13,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 19/07/2002",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 19/07/2002",
       "strength": 1
     },
     {
@@ -501,7 +546,7 @@
       "source": 133439,
       "target": 21,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.942,00 (2 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 14/02/2025–30/04/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.295,36 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 22/02/2025–27/12/2025)",
       "strength": 1
     },
     {
@@ -509,7 +554,7 @@
       "source": 133439,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.483,62 (7 lançamentos; tipo: TELEFONIA; período: 22/02/2025–22/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.942,00 (2 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 14/02/2025–30/04/2025)",
       "strength": 1
     },
     {
@@ -557,7 +602,7 @@
       "source": 133439,
       "target": 28,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.834,99 (8 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 24/02/2025–28/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.578,56 (13 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/02/2025–15/12/2025)",
       "strength": 1
     },
     {
@@ -565,7 +610,7 @@
       "source": 133439,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.828,56 (9 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/02/2025–03/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.834,99 (8 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 24/02/2025–28/11/2025)",
       "strength": 1
     },
     {
@@ -589,7 +634,7 @@
       "source": 133439,
       "target": 32,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.266,58 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.291,34 (21 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -637,7 +682,7 @@
       "source": 133439,
       "target": 38,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$811,74 (5 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 26/03/2025–27/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$725,56 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/04/2025–08/10/2025)",
       "strength": 1
     },
     {

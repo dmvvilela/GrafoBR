@@ -4,7 +4,7 @@
     "egoName": "Pedro Westphalen",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:38.799523Z",
+    "generatedAt": "2026-07-17T04:22:55.619299Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "As emendas a partir de 2023 totalizam R$ 107,2 milhões empenhados e R$ 97,3 milhões pagos em sete áreas, principalmente Saúde. Constam R$ 485 mil em despesas de cota e R$ 3,2 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,25 +33,29 @@
       "id": 47,
       "name": "ABASTECEDORA DE COMBUSTIVEIS DJ LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11465"
     },
     {
       "id": 43,
       "name": "AUTO POSTO 303 NORTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e27"
     },
     {
       "id": 46,
       "name": "AUTO POSTO AVENIDA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11464"
     },
     {
       "id": 37,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11459"
     },
     {
       "id": 55,
@@ -62,73 +73,85 @@
       "id": 12,
       "name": "CAROLEN ISADORA CRUZ LOMBARDO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11439"
     },
     {
       "id": 23,
       "name": "CEDECA - CENTRO DE DESENVOLVIMENTO DE CRUZ ALTA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11450"
     },
     {
       "id": 44,
       "name": "CEEE - Companhia Estadual de Distribuição de Energia Elétrica",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e565"
     },
     {
       "id": 33,
       "name": "CHERVO MANUTENÇÃO E VENDAS DE PRODUTOS DE INFORMATICA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11457"
     },
     {
       "id": 34,
       "name": "CITYCAR ALUGUEL DE VEÍCULOS S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9452"
     },
     {
       "id": 22,
       "name": "CLAUDIO MELO DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11449"
     },
     {
       "id": 48,
       "name": "COMBUSTIVEIS PEGASUS IPIRANGA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11466"
     },
     {
       "id": 28,
       "name": "CREDITO REAL, IMO. E CONDOMÍNIOS SA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2169"
     },
     {
       "id": 45,
       "name": "Casa da Impressora LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11463"
     },
     {
       "id": 32,
       "name": "Critério Comunicação LTDA_ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5946"
     },
     {
       "id": 14,
       "name": "DIEGO SANTOS DO NASCIMENTO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11441"
     },
     {
       "id": 20,
       "name": "DIMON ROSALINO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11447"
     },
     {
       "id": 56,
@@ -146,25 +169,29 @@
       "id": 6,
       "name": "ELEICAO 2022 LUIS CARLOS HEINZE GOVERNADOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e298"
     },
     {
       "id": 49,
       "name": "EMISSORAS CENTRO-OESTE LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11467"
     },
     {
       "id": 3,
       "name": "ERASMO CARLOS BATTISTELLA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e529"
     },
     {
       "id": 24,
       "name": "ESPORTE CLUBE GUARANI",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11451"
     },
     {
       "id": 57,
@@ -182,139 +209,162 @@
       "id": 42,
       "name": "Facebook Serviços Online do Brasil Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 40,
       "name": "Fernando Rosemberg Jung",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11461"
     },
     {
       "id": 51,
       "name": "GAZETA DO JACUÍ",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11468"
     },
     {
       "id": 16,
       "name": "GILBERTO BATISTA LOPES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11443"
     },
     {
       "id": 2,
       "name": "GILSON LARI TRENNEPOHL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6459"
     },
     {
       "id": 17,
       "name": "GISLAINE ZIQUINATTI DELPINO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11444"
     },
     {
       "id": 11,
       "name": "GLADEMIR AROLDI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11438"
     },
     {
       "id": 38,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11460"
     },
     {
       "id": 18,
       "name": "HELIO LUCIO VIELMO RODRIGUES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11445"
     },
     {
       "id": 8,
       "name": "ISABELLA DE QUEIROZ SEQUEIROS TANURE CORREA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4595"
     },
     {
       "id": 15,
       "name": "JOSE LUIZ RODRIGUES MACHADO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11442"
     },
     {
       "id": 31,
       "name": "LUIS AUGUSTO DE SA BRITTO SOARES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11456"
     },
     {
       "id": 13,
       "name": "MOACIR MARCHESAN JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11440"
     },
     {
       "id": 29,
       "name": "PEDRINHO LOCADORA DE VEÍCULOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11455"
     },
     {
       "id": 5,
       "name": "PEDRO BANDARRA WESTPHALEN",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11434"
     },
     {
       "id": 25,
       "name": "POLICLINICA SANTA LUCIA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11452"
     },
     {
       "id": 1,
       "name": "PROGRESSISTAS - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1"
     },
     {
       "id": 7,
       "name": "PROGRESSISTAS PANAMBI - RS - MUNICIPAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11435"
     },
     {
       "id": 30,
       "name": "QUASAR LOCADORA DE VEICULOS EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e923"
     },
     {
       "id": 19,
       "name": "ROBERTA PEREZ CARVALHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11446"
     },
     {
       "id": 9,
       "name": "ROMEU CORTES DOMINGUES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11436"
     },
     {
       "id": 39,
       "name": "ROTA POA COMERCIO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1522"
     },
     {
       "id": 50,
       "name": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e142"
     },
     {
       "id": 52,
@@ -326,49 +376,57 @@
       "id": 27,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11454"
     },
     {
       "id": 35,
       "name": "TELEFONIA BRASIL S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 41,
       "name": "TIAGO SOARES DOS SANTOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11462"
     },
     {
       "id": 10,
       "name": "TOMAZ AUGUSTO SCHUCH",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11437"
     },
     {
       "id": 4,
       "name": "VANDERLAN FRANK CARVALHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11433"
     },
     {
       "id": 21,
       "name": "VANDERLEI SOUZA DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11448"
     },
     {
       "id": 36,
       "name": "Vinicius Zanus",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11458"
     },
     {
       "id": 26,
       "name": "WESTPHALEN PARTICIPACOES SOCIETARIAS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11453"
     }
   ],
   "links": [
@@ -553,7 +611,7 @@
       "source": 204406,
       "target": 23,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 12/09/2005",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 12/09/2005",
       "strength": 1
     },
     {
@@ -561,7 +619,7 @@
       "source": 204406,
       "target": 24,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 12/09/2005",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 12/09/2005",
       "strength": 1
     },
     {
@@ -569,7 +627,7 @@
       "source": 204406,
       "target": 25,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 08/05/1995",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 08/05/1995",
       "strength": 1
     },
     {
@@ -577,7 +635,7 @@
       "source": 204406,
       "target": 26,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 10/08/2007",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 10/08/2007",
       "strength": 1
     },
     {
@@ -649,7 +707,7 @@
       "source": 204406,
       "target": 35,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$9.065,87 (34 lançamentos; tipo: TELEFONIA; período: 01/01/2025–28/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.004,07 (37 lançamentos; tipo: TELEFONIA; período: 01/01/2025–28/12/2025)",
       "strength": 1
     },
     {

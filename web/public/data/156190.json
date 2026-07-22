@@ -4,7 +4,7 @@
     "egoName": "Marcel van Hattem",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.742205Z",
+    "generatedAt": "2026-07-17T04:22:54.141784Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Nos registros de emendas individuais desde 2023, constam R$ 105,9 milhões empenhados e R$ 31,4 milhões pagos em oito áreas, com destaque para Saúde. A cota parlamentar registra R$ 331 mil em despesas com 25 fornecedores, e a campanha de 2022 arrecadou R$ 1,4 milhão de 25 doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,67 +33,85 @@
       "id": 33,
       "name": "360Messenger",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 19,
       "name": "ALEXANDRE RANDON",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9267"
     },
     {
       "id": 26,
       "name": "ARGUMENTO CONSULTORIA POLITICA E COMUNICACAO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9272"
     },
     {
       "id": 9,
       "name": "ARTHUR CHAGAS GERDAU JOHANNPETER",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9264"
     },
     {
-      "id": 45,
+      "id": 44,
       "name": "AUTO POSTO AEROPORTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e75"
     },
     {
-      "id": 46,
+      "id": 42,
       "name": "AUTO POSTO CINCO ESTRELAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e405"
     },
     {
       "id": 34,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9277"
     },
     {
       "id": 51,
       "name": "BRASAL COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e408"
     },
     {
       "id": 36,
       "name": "BRASIL CLOUD SERVIÇOS DE COMPUTAÇAO EM NUVEM LTDA ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e218"
     },
     {
       "id": 38,
       "name": "CEEE - Companhia Estadual de Distribuição de Energia Elétrica",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e565"
+    },
+    {
+      "id": 48,
+      "name": "COML BUFFON COMB E TRANSP LTDA - POSTO 08",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e326"
     },
     {
       "id": 43,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 54,
@@ -98,13 +123,15 @@
       "id": 13,
       "name": "DAGOBERTO ARTEMIO ZANON",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9265"
     },
     {
-      "id": 47,
+      "id": 45,
       "name": "DRA4 DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e76"
     },
     {
       "id": 58,
@@ -116,13 +143,22 @@
       "id": 20,
       "name": "ELEICAO 2022 ALEXIS JOSEPH STEVERLYNCK FONTEYNE DEPUTADO FEDERAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9268"
     },
     {
-      "id": 28,
+      "id": 29,
       "name": "EMPOL COMERCIO E REPRESENTAÇÕES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9274"
+    },
+    {
+      "id": 47,
+      "name": "ESTEIO EXPOINTER",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e324"
     },
     {
       "id": 59,
@@ -140,103 +176,106 @@
       "id": 12,
       "name": "FABIO PENTEADO DE ULHOA RODRIGUES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e184"
     },
     {
       "id": 50,
       "name": "FIGUEIRA GRAVATAI COMERCIO E DERIVADOS DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9280"
     },
     {
       "id": 3,
       "name": "FREDERICO CARLOS GERDAU JOHANNPETER",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4315"
     },
     {
       "id": 35,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9278"
     },
     {
       "id": 21,
       "name": "HELIO SEIBEL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6394"
     },
     {
-      "id": 48,
+      "id": 46,
       "name": "HOTEL IJUI LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9279"
     },
     {
       "id": 14,
       "name": "INGRID SAUR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e534"
     },
     {
       "id": 4,
       "name": "JEAN MARC ROBERT NOGUEIRA BAPTISTA ETLIN",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4597"
     },
     {
       "id": 1,
       "name": "JOSE SALIM MATTAR JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e182"
     },
     {
-      "id": 39,
+      "id": 28,
       "name": "LOCALIZA RENT A CAR S.A",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 40,
-      "name": "LOCALIZA RENT A CAR S/A",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 29,
-      "name": "LOCALIZA RENT A CAR SA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e943"
     },
     {
       "id": 5,
       "name": "LUIS STUHLBERGER",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e189"
     },
     {
       "id": 18,
       "name": "LUIS TEREPINS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3745"
     },
     {
       "id": 49,
       "name": "Latam Linhas Aéreas S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 22,
       "name": "MARCOS RIBEIRO SIMON",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6399"
     },
     {
       "id": 8,
       "name": "MATHIAS ELTER",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e528"
     },
     {
       "id": 55,
@@ -248,73 +287,85 @@
       "id": 30,
       "name": "N P IMOVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1514"
     },
     {
       "id": 6,
       "name": "NEWTON PATRICIO CRESPI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6393"
     },
     {
       "id": 31,
       "name": "Nullius In Verba - LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9275"
     },
     {
-      "id": 42,
+      "id": 41,
       "name": "OFFICE SOLUÇÕES EM EQUIPAMENTOS E MOBILIÁRIOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5938"
     },
     {
       "id": 2,
       "name": "PARTIDO NOVO RIO GRANDE DO SUL - RS - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9263"
     },
     {
       "id": 11,
       "name": "PATRICE PHILIPPE NOGUEIRA BAPTISTA ETLIN",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e185"
     },
     {
       "id": 15,
       "name": "PEDRO LUIS UTZIG",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9266"
     },
     {
       "id": 23,
       "name": "RENATO MALCON",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9269"
     },
     {
       "id": 10,
       "name": "RICARDO CASTELLAR DE FARIA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3705"
     },
     {
       "id": 24,
       "name": "RICARDO VONTOBEL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9270"
     },
     {
       "id": 7,
       "name": "RINOBOX SOLUCOES FINANCEIRAS LTDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1068"
     },
     {
       "id": 25,
       "name": "RODRIGO VONTOBEL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9271"
     },
     {
       "id": 52,
@@ -332,19 +383,22 @@
       "id": 27,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9273"
     },
     {
-      "id": 44,
+      "id": 39,
       "name": "Telefonica Brasil S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
-      "id": 41,
+      "id": 40,
       "name": "UBER DO BRASIL TECNOLOGIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e213"
     },
     {
       "id": 56,
@@ -356,25 +410,29 @@
       "id": 37,
       "name": "VIACAO OURO E PRATA S A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2172"
     },
     {
       "id": 16,
       "name": "WILLIAM LING",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6401"
     },
     {
       "id": 17,
       "name": "WILSON LING",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6402"
     },
     {
       "id": 32,
       "name": "Wescc Tech Tecnologia da Informação LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9276"
     }
   ],
   "links": [
@@ -583,7 +641,7 @@
       "source": 156190,
       "target": 26,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 25/07/2018",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 25/07/2018",
       "strength": 1
     },
     {
@@ -599,7 +657,7 @@
       "source": 156190,
       "target": 28,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$36.093,66 (7 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 07/01/2025–10/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$37.103,92 (17 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 11/03/2025–19/12/2025)",
       "strength": 1
     },
     {
@@ -607,7 +665,7 @@
       "source": 156190,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$30.877,04 (8 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 23/05/2025–19/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$36.093,66 (7 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 07/01/2025–10/07/2025)",
       "strength": 1
     },
     {
@@ -639,7 +697,7 @@
       "source": 156190,
       "target": 33,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$9.013,02 (32 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 01/01/2025–11/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$9.030,33 (42 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR)",
       "strength": 1
     },
     {
@@ -687,7 +745,7 @@
       "source": 156190,
       "target": 39,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.191,39 (4 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 22/03/2025–18/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.882,52 (12 lançamentos; tipo: TELEFONIA; período: 14/01/2025–12/12/2025)",
       "strength": 1
     },
     {
@@ -695,7 +753,7 @@
       "source": 156190,
       "target": 40,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.457,91 (4 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 11/03/2025–31/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.246,19 (80 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 30/01/2025–04/08/2025)",
       "strength": 1
     },
     {
@@ -703,7 +761,7 @@
       "source": 156190,
       "target": 41,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.246,19 (80 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 30/01/2025–04/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.200,00 (10 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 16/02/2025–08/12/2025)",
       "strength": 1
     },
     {
@@ -711,7 +769,7 @@
       "source": 156190,
       "target": 42,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.200,00 (10 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 16/02/2025–08/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.964,32 (12 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 13/02/2025–02/12/2025)",
       "strength": 1
     },
     {
@@ -727,7 +785,7 @@
       "source": 156190,
       "target": 44,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.855,30 (8 lançamentos; tipo: TELEFONIA; período: 16/04/2025–12/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.585,09 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/02/2025–09/11/2025)",
       "strength": 1
     },
     {
@@ -735,7 +793,7 @@
       "source": 156190,
       "target": 45,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.585,09 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/02/2025–09/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.515,20 (9 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/06/2025–17/12/2025)",
       "strength": 1
     },
     {
@@ -743,7 +801,7 @@
       "source": 156190,
       "target": 46,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.533,34 (9 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 13/02/2025–02/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.456,00 (3 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 08/05/2025)",
       "strength": 1
     },
     {
@@ -751,7 +809,7 @@
       "source": 156190,
       "target": 47,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.515,20 (9 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/06/2025–17/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.385,16 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/03/2025–05/12/2025)",
       "strength": 1
     },
     {
@@ -759,7 +817,7 @@
       "source": 156190,
       "target": 48,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.456,00 (3 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 08/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.325,98 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/03/2025–28/11/2025)",
       "strength": 1
     },
     {

@@ -4,14 +4,20 @@
     "egoName": "Pastor Diniz",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:38.473529Z",
+    "generatedAt": "2026-07-17T04:22:55.168667Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Nos dados disponíveis, constam R$ 73,0 milhões em emendas empenhadas e R$ 63,3 milhões pagos em sete áreas, principalmente Saúde. Há R$ 542 mil em despesas de cota e R$ 1,0 milhão em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -19,28 +25,31 @@
       "id": 180214,
       "name": "Pastor Diniz",
       "category": "politician",
-      "connectionCount": 25
+      "connectionCount": 24
     },
     {
       "id": 13,
       "name": "AIPANA PLAZA HOTEL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6797"
     },
     {
       "id": 7,
       "name": "ANTÔNIO MAIA BRAGA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10865"
     },
     {
       "id": 4,
       "name": "AUTO POSTO ABEL GALINHA LTDA 6",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4963"
     },
     {
-      "id": 24,
+      "id": 23,
       "name": "Agricultura",
       "category": "destino",
       "connectionCount": 1
@@ -49,22 +58,25 @@
       "id": 12,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 17,
       "name": "COMPANHIA DE AGUAS E ESGOTOS DE RORAIMA CAER",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10872"
     },
     {
       "id": 10,
       "name": "D. B. L. LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10868"
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "Defesa nacional",
       "category": "destino",
       "connectionCount": 1
@@ -73,16 +85,17 @@
       "id": 14,
       "name": "ELETROBRAS DISTRIBUIÇÃO RORAIMA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3914"
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "Educação",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -91,52 +104,52 @@
       "id": 11,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10869"
     },
     {
       "id": 5,
       "name": "HONEY FILMES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10863"
     },
     {
       "id": 8,
       "name": "Liandro Rodrigues Pereira Filho",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10866"
     },
     {
       "id": 3,
       "name": "M A S SILVA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10862"
     },
     {
       "id": 16,
       "name": "PREFEITURA MUNICIPAL DE BOA VISTA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 18,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10871"
     },
     {
       "id": 9,
       "name": "RAMOS PRODUCOES AUDIOVISUAIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10867"
     },
     {
-      "id": 19,
+      "id": 18,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 25,
+      "id": 24,
       "name": "Segurança pública",
       "category": "destino",
       "connectionCount": 1
@@ -145,28 +158,32 @@
       "id": 6,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10864"
     },
     {
       "id": 15,
       "name": "UIRAMUTAM PALACE HOTEL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10870"
     },
     {
       "id": 2,
       "name": "UNIAO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e687"
     },
     {
       "id": 1,
       "name": "UNIAO BRASIL - RORAIMA - RR - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10633"
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "Urbanismo",
       "category": "destino",
       "connectionCount": 1
@@ -266,7 +283,7 @@
       "source": 180214,
       "target": 12,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.599,48 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.623,70 (21 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -313,8 +330,8 @@
       "id": 18,
       "source": 180214,
       "target": 18,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$24,22 (9 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$36.287.867,00 empenhado, R$30.525.546,00 pago (9 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -322,7 +339,7 @@
       "source": 180214,
       "target": 19,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$36.287.867,00 empenhado, R$30.525.546,00 pago (9 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$31.300.000,00 empenhado, R$31.162.000,00 pago (16 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -330,7 +347,7 @@
       "source": 180214,
       "target": 20,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$31.300.000,00 empenhado, R$31.162.000,00 pago (16 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Urbanismo: R$2.422.450,00 empenhado, R$34.950,00 pago (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -338,7 +355,7 @@
       "source": 180214,
       "target": 21,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Urbanismo: R$2.422.450,00 empenhado, R$34.950,00 pago (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.199.892,00 empenhado, R$986.118,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -346,7 +363,7 @@
       "source": 180214,
       "target": 22,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Defesa nacional: R$1.199.892,00 empenhado, R$986.118,00 pago (2 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Educação: R$990.346,00 empenhado (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -354,21 +371,13 @@
       "source": 180214,
       "target": 23,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Educação: R$990.346,00 empenhado (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Agricultura: R$545.792,00 empenhado, R$545.792,00 pago (1 emenda; 2024)",
       "strength": 1
     },
     {
       "id": 24,
       "source": 180214,
       "target": 24,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Agricultura: R$545.792,00 empenhado, R$545.792,00 pago (1 emenda; 2024)",
-      "strength": 1
-    },
-    {
-      "id": 25,
-      "source": 180214,
-      "target": 25,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Segurança pública: R$299.882,00 empenhado (1 emenda; 2025)",
       "strength": 1

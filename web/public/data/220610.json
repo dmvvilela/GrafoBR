@@ -4,7 +4,7 @@
     "egoName": "Dr. Fernando Máximo",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:35.661984Z",
+    "generatedAt": "2026-07-17T04:22:51.175504Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Entre 2023 e os registros mais recentes, aparecem R$ 74,7 milhões empenhados e R$ 61,7 milhões pagos em seis áreas, principalmente Saúde. Constam R$ 556 mil em despesas da cota parlamentar com 25 fornecedores e R$ 2,5 milhões em doações de campanha em 2022, de vinte e cinco doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -23,94 +30,102 @@
       "connectionCount": 58
     },
     {
-      "id": 51,
-      "name": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "id": 50,
+      "name": "028 - AUTO CEI - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 30,
       "name": "49.618.612 HERBERT PAOLO PEIXOTO RAMOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4645"
     },
     {
-      "id": 49,
+      "id": 51,
       "name": "A H HOTEL COMERCIO E SERVIÇOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4660"
     },
     {
       "id": 10,
       "name": "AGLAENE ANDRADE TORRES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4626"
     },
     {
       "id": 11,
       "name": "ALDEMIR COSTA MACEDO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4627"
     },
     {
       "id": 12,
       "name": "ALESSANDRA CASTRO DE CARVALHO HERON",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4628"
     },
     {
       "id": 13,
       "name": "ALINE CUNHA DOS SANTOS OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4629"
     },
     {
       "id": 44,
       "name": "AMAZON COMBUSTIVEIS PARA VEICULOS E CONSTRUCOES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e117"
     },
     {
       "id": 39,
       "name": "AMERICA SERVIÇOS DE HOTELARIA EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4651"
     },
     {
       "id": 14,
       "name": "ANTONIA MARIA SANTOS DA COSTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4630"
     },
     {
       "id": 15,
       "name": "ANTONIO SALES BARBOSA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4631"
     },
     {
       "id": 28,
       "name": "AQUI AGENCIA DE PUBLICIDADE LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 52,
-      "name": "AUTO POSTO ELDORADO",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4644"
     },
     {
       "id": 41,
       "name": "AUTO POSTO FAZENDINHA LTDA - EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4653"
     },
     {
       "id": 36,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4648"
     },
     {
       "id": 56,
@@ -122,79 +137,92 @@
       "id": 16,
       "name": "BENILTON MARQUES DOS SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4632"
     },
     {
       "id": 46,
       "name": "BR SOLUCOES TECNICAS E ADMINISTRATIVAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1211"
     },
     {
       "id": 17,
       "name": "BRUNO HENRIQUE WELMER DOS SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4633"
     },
     {
       "id": 18,
       "name": "CARLOS ROBERTO OLIVEIRA AMORIM",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4634"
     },
     {
       "id": 19,
       "name": "CELIA MONTEIRO DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4635"
     },
     {
       "id": 20,
       "name": "CELIA REGINA ALVES DOS REIS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4636"
     },
     {
       "id": 21,
       "name": "CLAUDIA CARVALHO DA SILVA VARELA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4637"
     },
     {
       "id": 22,
       "name": "CLEISON CHUINCA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4638"
     },
     {
       "id": 23,
       "name": "COSMO FREITAS DO NASCIMENTO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4639"
     },
     {
       "id": 47,
       "name": "CRISTIANE MATOS COMERCIO DE COMBUSTIVEIS E DERIVADOS DE PETR",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4657"
     },
     {
       "id": 24,
       "name": "DARCI PEREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4640"
     },
     {
       "id": 25,
       "name": "DELMAR JOSE DE PAULA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4641"
     },
     {
       "id": 6,
       "name": "DJAIR DA SILVA JAKSON",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4622"
     },
     {
       "id": 58,
@@ -206,7 +234,8 @@
       "id": 7,
       "name": "EDIMAR FILHO FILMATO DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4623"
     },
     {
       "id": 54,
@@ -218,19 +247,22 @@
       "id": 31,
       "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 43,
       "name": "FRANCA & PAIVA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4655"
     },
     {
       "id": 40,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4652"
     },
     {
       "id": 55,
@@ -242,67 +274,85 @@
       "id": 42,
       "name": "HOTEL BR 364 EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4654"
     },
     {
       "id": 29,
       "name": "HPE AUTOMOTORES DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e783"
     },
     {
       "id": 34,
       "name": "IM SOLUCOES DIGITAIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4647"
+    },
+    {
+      "id": 48,
+      "name": "IRMAOS RUSSI LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4658"
     },
     {
       "id": 5,
       "name": "JOAO LUIZ MAXIMO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4621"
     },
     {
       "id": 8,
       "name": "JOSE CAUBY DE QUEIROZ NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4624"
     },
     {
-      "id": 48,
+      "id": 49,
       "name": "L.P.L LIMA HOTEL EIRELI - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4659"
     },
     {
       "id": 45,
       "name": "LISANGELA M. S. ROVER EIRELI - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4656"
     },
     {
       "id": 26,
       "name": "MAXIMO & MASSUQUETO SERVICOS MEDICOS",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4642"
     },
     {
-      "id": 50,
+      "id": 52,
       "name": "MENDONCA & TESTONI COMBUSTIVEIS LTDA - EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4661"
     },
     {
       "id": 3,
       "name": "MERYCLES GUEDES NUNES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4619"
     },
     {
       "id": 38,
       "name": "MSB COMERCIO E SERVIÇOS EIRELI ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4650"
     },
     {
       "id": 57,
@@ -314,19 +364,22 @@
       "id": 37,
       "name": "ROVEMA LOCADORA DE VEÍCULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4649"
     },
     {
       "id": 4,
       "name": "RUBENS STELZENBERGER",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4620"
     },
     {
       "id": 33,
       "name": "SUPREMA MOBILIDADE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3395"
     },
     {
       "id": 53,
@@ -338,37 +391,43 @@
       "id": 32,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4646"
     },
     {
       "id": 35,
       "name": "TAM LINHAS AEREAS SA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e687"
     },
     {
       "id": 2,
       "name": "UNIAO BRASIL - RONDONIA - RO - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4618"
     },
     {
       "id": 9,
       "name": "VICTORIA GABRIELLY RODRIGUES DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4625"
     },
     {
       "id": 27,
       "name": "VIDEO - LAPAROSCOPIA CIRURGICA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4643"
     }
   ],
   "links": [
@@ -577,7 +636,7 @@
       "source": 220610,
       "target": 26,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 24/10/2017",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 24/10/2017",
       "strength": 1
     },
     {
@@ -585,7 +644,7 @@
       "source": 220610,
       "target": 27,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 06/10/2008",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 06/10/2008",
       "strength": 1
     },
     {
@@ -753,7 +812,7 @@
       "source": 220610,
       "target": 48,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.520,00 (3 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 17/02/2025–17/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.644,96 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 18/02/2025–30/10/2025)",
       "strength": 1
     },
     {
@@ -761,7 +820,7 @@
       "source": 220610,
       "target": 49,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.352,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 16/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.520,00 (3 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 17/02/2025–17/08/2025)",
       "strength": 1
     },
     {
@@ -769,7 +828,7 @@
       "source": 220610,
       "target": 50,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.250,22 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 13/05/2025–05/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.505,33 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/02/2025–17/07/2025)",
       "strength": 1
     },
     {
@@ -777,7 +836,7 @@
       "source": 220610,
       "target": 51,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.210,30 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/02/2025–18/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.352,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 16/02/2025)",
       "strength": 1
     },
     {
@@ -785,7 +844,7 @@
       "source": 220610,
       "target": 52,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.081,22 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/05/2025–16/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.250,22 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 13/05/2025–05/10/2025)",
       "strength": 1
     },
     {

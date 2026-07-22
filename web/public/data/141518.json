@@ -4,7 +4,7 @@
     "egoName": "Paulinho da Força",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:38.548561Z",
+    "generatedAt": "2026-07-17T04:22:55.272954Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,6 +12,13 @@
       "receita",
       "tse"
     ],
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
     "summary": "Desde 2023, constam R$ 107,3 milhões em emendas empenhadas e R$ 104,9 milhões pagos em duas áreas, principalmente Saúde. Registram-se R$ 451 mil em despesas de cota e R$ 1,9 milhão em doações de campanha em 2022.",
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
@@ -26,55 +33,64 @@
       "id": 16,
       "name": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 4,
       "name": "2HC CRIATIVIDADE E PRODUÇÕES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1933"
     },
     {
       "id": 8,
       "name": "AUTO POSTO LAVAPES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11002"
     },
     {
       "id": 10,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11004"
     },
     {
       "id": 6,
       "name": "BOSS LOCADORA DE VEICULOS LTDA - EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11000"
     },
     {
       "id": 15,
       "name": "BRASAL COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e408"
     },
     {
       "id": 17,
       "name": "CRUZEIRO COMBUSTIVEIS E SERVICOS S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11005"
     },
     {
       "id": 12,
       "name": "Cia Aérea - AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e145"
     },
     {
       "id": 13,
       "name": "Cia Aérea - GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e147"
     },
     {
       "id": 21,
@@ -86,37 +102,43 @@
       "id": 3,
       "name": "FORCAPREV - PREVIDENCIA COMPLEMENTAR",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10998"
     },
     {
       "id": 9,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11003"
     },
     {
       "id": 2,
       "name": "MARCELO PELLACANI GAMBINI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10997"
     },
     {
       "id": 18,
       "name": "POSTO Z + Z 314 SUL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1893"
     },
     {
       "id": 19,
       "name": "RAMAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 1,
       "name": "SOLIDARIEDADE - SAO PAULO - SP - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10996"
     },
     {
       "id": 20,
@@ -128,25 +150,29 @@
       "id": 5,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10999"
     },
     {
       "id": 11,
       "name": "TELEFONICA BRASIL S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 7,
       "name": "Vinicius Gabriel Dutra LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11001"
     },
     {
       "id": 14,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     }
   ],
   "links": [
@@ -171,7 +197,7 @@
       "source": 141518,
       "target": 3,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (fundador), desde 25/03/2004",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (fundador), desde 25/03/2004",
       "strength": 1
     },
     {

@@ -4,14 +4,20 @@
     "egoName": "Delegado Marcelo Freitas",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:35.418631Z",
+    "generatedAt": "2026-07-17T04:22:50.826011Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Nos registros de emendas individuais a partir de 2023, constam R$ 106,9 milhões empenhados e R$ 88,6 milhões pagos em seis áreas, com Saúde como principal. Há R$ 469 mil em despesas da cota parlamentar com 25 fornecedores e R$ 3,0 milhões em doações de campanha em 2022, de 6 doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -22,34 +28,46 @@
       "connectionCount": 37
     },
     {
-      "id": 27,
+      "id": 25,
+      "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e28"
+    },
+    {
+      "id": 28,
       "name": "ADX COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4115"
     },
     {
       "id": 14,
       "name": "ALTERNATIVA PUBLICIDADE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4104"
     },
     {
       "id": 20,
       "name": "ANTARES COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4109"
     },
     {
       "id": 4,
       "name": "ANTONIO EUSTAQUIO GOMES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4096"
     },
     {
       "id": 13,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4103"
     },
     {
       "id": 35,
@@ -67,13 +85,15 @@
       "id": 24,
       "name": "CEMIG DISTRIBUIÇÃO S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1055"
     },
     {
-      "id": 28,
+      "id": 29,
       "name": "COPASA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4116"
     },
     {
       "id": 37,
@@ -88,112 +108,123 @@
       "connectionCount": 1
     },
     {
-      "id": 30,
+      "id": 31,
       "name": "Facebook Serviços Online do Brasil Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 2,
       "name": "GABRIEL MASSULA DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4094"
     },
     {
       "id": 22,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4111"
     },
     {
       "id": 8,
       "name": "Gabriel Filipe Martins Araujo",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4099"
     },
     {
       "id": 18,
       "name": "HPE LOCADORA DE VEÍCULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e783"
     },
     {
       "id": 5,
       "name": "JOSE LUIZ DOS SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4097"
     },
     {
       "id": 23,
       "name": "KMprint Locação e Serviços",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4112"
     },
     {
-      "id": 29,
+      "id": 30,
       "name": "Luisa Mendes de Assis Moreira",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4117"
     },
     {
       "id": 9,
       "name": "MASTER IMOBILIARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4100"
     },
     {
       "id": 21,
       "name": "MCF OUTSOURCING LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4110"
     },
     {
       "id": 11,
       "name": "MD Comunicação Visual LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4102"
     },
     {
       "id": 7,
       "name": "Novacar Locadora de Veículos Ltda",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 31,
-      "name": "PAPELMAX PAPELARIA INFORMATICA E PRESENTES LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e137"
     },
     {
       "id": 15,
       "name": "SANDREY MIRANDA NOBRE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4105"
     },
     {
-      "id": 25,
+      "id": 26,
       "name": "SARAIVA COMÉRCIO DE COMBUSTÍVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4113"
     },
     {
       "id": 6,
       "name": "SHIRLEY TEIXEIRA MARQUES DINIZ",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4098"
     },
     {
       "id": 12,
       "name": "SMART VEÍCULOS LTDA-ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2278"
     },
     {
       "id": 10,
       "name": "Santos E Marcal LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4101"
     },
     {
       "id": 32,
@@ -205,25 +236,29 @@
       "id": 17,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4107"
     },
     {
       "id": 19,
       "name": "Tudo Vip Comunicação e Eventos LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4108"
     },
     {
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e687"
     },
     {
       "id": 3,
       "name": "UNIAO BRASIL - MINAS GERAIS - MG - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4095"
     },
     {
       "id": 34,
@@ -235,13 +270,15 @@
       "id": 16,
       "name": "WMC Midia LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4106"
     },
     {
-      "id": 26,
+      "id": 27,
       "name": "Willian Correa de Oliveira Silva",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4114"
     }
   ],
   "links": [
@@ -442,7 +479,7 @@
       "source": 204512,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.548,70 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/04/2025–05/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.588,98 (17 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/02/2025–04/11/2025)",
       "strength": 1
     },
     {
@@ -450,7 +487,7 @@
       "source": 204512,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.500,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 28/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.548,70 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/04/2025–05/05/2025)",
       "strength": 1
     },
     {
@@ -458,7 +495,7 @@
       "source": 204512,
       "target": 27,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.378,05 (11 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/03/2025–28/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.500,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 28/05/2025)",
       "strength": 1
     },
     {
@@ -466,7 +503,7 @@
       "source": 204512,
       "target": 28,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.178,91 (13 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 27/01/2025–13/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.378,05 (11 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/03/2025–28/10/2025)",
       "strength": 1
     },
     {
@@ -474,7 +511,7 @@
       "source": 204512,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 27/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.178,91 (13 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 27/01/2025–13/11/2025)",
       "strength": 1
     },
     {
@@ -482,7 +519,7 @@
       "source": 204512,
       "target": 30,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.832,09 (5 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/06/2025–02/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 27/05/2025)",
       "strength": 1
     },
     {
@@ -490,7 +527,7 @@
       "source": 204512,
       "target": 31,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.665,53 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 24/01/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.832,09 (5 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/06/2025–02/11/2025)",
       "strength": 1
     },
     {

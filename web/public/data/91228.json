@@ -4,7 +4,7 @@
     "egoName": "Waldemar Oliveira",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:39.953952Z",
+    "generatedAt": "2026-07-17T04:22:57.139980Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Nos registros de emendas individuais a partir de 2023, constam R$ 75,1 milhões empenhados e R$ 73,3 milhões pagos em quatro áreas, com Saúde como principal. Há também R$ 571 mil em despesas da cota parlamentar com 25 fornecedores e R$ 2,3 milhões em doações de campanha em 2022, de 2 doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -23,76 +30,88 @@
       "connectionCount": 36
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 26,
       "name": "ALBERES XAVIER DE ASSUNÇÃO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2881"
     },
     {
       "id": 19,
       "name": "ALESSANDRA FERREIRA SALVINO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2882"
     },
     {
       "id": 11,
       "name": "ANTONIO VITOR ALVES BENVINDO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13828"
     },
     {
       "id": 1,
       "name": "AVANTE DIRETORIO NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1316"
     },
     {
       "id": 14,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13830"
     },
     {
       "id": 24,
       "name": "B1 PRODUCOES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2195"
     },
     {
       "id": 3,
       "name": "BRASIL CONSCIENTE PARTICIPACOES SOCIETARIAS E EMPREENDIMENTOS IMOBILIARIOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13822"
     },
     {
       "id": 29,
       "name": "CLEIDE DA SILVA FRANCA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13838"
     },
     {
       "id": 4,
       "name": "CLINICA MEDICAL SPORTS AVALIACAO E PERFORMANCE LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13823"
     },
     {
       "id": 15,
       "name": "EDMAR LYRA CAVALCANTI JUNIOR ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2884"
     },
     {
       "id": 27,
       "name": "EDVALDO GALVÃO DOS SANTOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13836"
     },
     {
       "id": 34,
@@ -104,43 +123,50 @@
       "id": 12,
       "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 5,
       "name": "FERRAZ & OLIVEIRA ADVOGADOS ASSOCIADOS",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13824"
     },
     {
       "id": 8,
       "name": "FOGO COMUNICACAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3169"
     },
     {
       "id": 32,
       "name": "FRANCISCO PAIVA DE LIMA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13840"
     },
     {
       "id": 16,
       "name": "FUNDAÇÃO FENIX DE EDUCAÇÃO E CULTURA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5568"
     },
     {
       "id": 17,
       "name": "Fernanda Kelly Pereira Maia Barros",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13831"
     },
     {
       "id": 18,
       "name": "GIOVANNI SAVIO DUARTE DE SÁ - MEI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13832"
     },
     {
       "id": 35,
@@ -152,55 +178,64 @@
       "id": 25,
       "name": "Giovanni Alves Duarte de Sá",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13835"
     },
     {
-      "id": 22,
+      "id": 23,
       "name": "HELIDA MARIA ENES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13834"
     },
     {
       "id": 9,
       "name": "HPE AUTOMOTORES DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e783"
     },
     {
       "id": 30,
       "name": "J DE SA MARANHAO JUNIOR - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5575"
     },
     {
       "id": 28,
       "name": "JULIANA MARIA DE LIMA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13837"
     },
     {
       "id": 6,
       "name": "LEALJET- TRANSPORTES E LOCACOES LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13825"
     },
     {
       "id": 31,
       "name": "MARINA LUISA CAMPOS MARTINS FERRAZ",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13839"
     },
     {
       "id": 20,
       "name": "SOCIEDADE RADIO CULTURA FM SERRA TALHADA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13833"
     },
     {
       "id": 7,
       "name": "STARTUP SOLUCOES LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13826"
     },
     {
       "id": 33,
@@ -218,25 +253,29 @@
       "id": 10,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13827"
     },
     {
       "id": 2,
       "name": "WALDEMAR DE ANDRADA IGNACIO DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13821"
     },
     {
       "id": 13,
       "name": "WELLINGTON ANTONIO DA SILVA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13829"
     },
     {
       "id": 21,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     }
   ],
   "links": [
@@ -261,7 +300,7 @@
       "source": 91228,
       "target": 3,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (administrador), desde 17/05/2018",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (administrador), desde 17/05/2018",
       "strength": 1
     },
     {
@@ -269,7 +308,7 @@
       "source": 91228,
       "target": 4,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (administrador), desde 20/01/2022",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (administrador), desde 20/01/2022",
       "strength": 1
     },
     {
@@ -277,7 +316,7 @@
       "source": 91228,
       "target": 5,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 19/03/2001",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 19/03/2001",
       "strength": 1
     },
     {
@@ -285,7 +324,7 @@
       "source": 91228,
       "target": 6,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (administrador), desde 26/02/2014",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (administrador), desde 26/02/2014",
       "strength": 1
     },
     {
@@ -293,7 +332,7 @@
       "source": 91228,
       "target": 7,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 07/03/2008",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 07/03/2008",
       "strength": 1
     },
     {
@@ -413,7 +452,7 @@
       "source": 91228,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.000,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 20/02/2025–24/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.941,61 (26 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/02/2025–16/12/2025)",
       "strength": 1
     },
     {
@@ -421,7 +460,7 @@
       "source": 91228,
       "target": 23,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.301,32 (21 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/02/2025–16/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.000,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 20/02/2025–24/11/2025)",
       "strength": 1
     },
     {

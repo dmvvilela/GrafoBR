@@ -4,7 +4,7 @@
     "egoName": "Marcos Tavares",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.900625Z",
+    "generatedAt": "2026-07-17T04:22:54.352836Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Os registros de emendas individuais mostram R$ 75,1 milhões empenhados e R$ 37,8 milhões pagos em quatro áreas, principalmente Saúde. Há R$ 421 mil em despesas da cota parlamentar com 25 fornecedores e R$ 1,1 milhões em doações de campanha em 2022, de vinte e cinco doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,106 +27,122 @@
       "id": 220604,
       "name": "Marcos Tavares",
       "category": "politician",
-      "connectionCount": 55
+      "connectionCount": 54
     },
     {
       "id": 35,
       "name": "072 - 403 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 9,
       "name": "ANA CAROLINA REIS LATTANZI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9604"
     },
     {
       "id": 4,
       "name": "ANA CRISTINA MORAES DA ROCHA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9599"
     },
     {
       "id": 49,
       "name": "ANDERSON COMERCIO DE REFEICOES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9633"
     },
     {
       "id": 18,
       "name": "ANDRE CARLOS QUINTANILHA AZEREDO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9613"
     },
     {
       "id": 10,
       "name": "ANTONIO MARCIO GONCALVES DE CARVALHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9605"
     },
     {
       "id": 48,
       "name": "AUTO POSTO 303 NORTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e27"
     },
     {
       "id": 42,
       "name": "AUTO POSTO COIMBRA DA VILA SAO LUIZ LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9629"
     },
     {
       "id": 40,
       "name": "AUTO POSTO DE ABASTECIMENTO ESTRELA DO OCEANO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4559"
     },
     {
       "id": 38,
       "name": "AUTO POSTO SENNA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9627"
     },
     {
       "id": 37,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 44,
       "name": "CHURRASCARIA FOGO DE CHAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9631"
     },
     {
       "id": 2,
       "name": "CLAUDIO DE OLIVEIRA THOMAZ",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9597"
     },
     {
       "id": 19,
       "name": "CLOVIS MORORO MAGALHAES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9614"
     },
     {
       "id": 45,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 23,
       "name": "DANIEL LIMA GUEDES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9618"
     },
     {
-      "id": 53,
+      "id": 52,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
@@ -128,22 +151,25 @@
       "id": 39,
       "name": "ECO POSTO CAXIAS COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9628"
     },
     {
       "id": 3,
       "name": "ELIAS BITTENCOURT DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9598"
     },
     {
       "id": 50,
       "name": "ETHOS PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9634"
     },
     {
-      "id": 54,
+      "id": 53,
       "name": "Educação",
       "category": "destino",
       "connectionCount": 1
@@ -152,178 +178,199 @@
       "id": 24,
       "name": "FABIO MAGALHAES LIMA DE SOUSA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9619"
     },
     {
       "id": 5,
       "name": "FELIPE PINA DUQUE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9600"
     },
     {
       "id": 25,
       "name": "GABRIELLA ARAUJO DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9620"
     },
     {
       "id": 11,
       "name": "GILMAR PAZ SANTIAGO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9606"
     },
     {
       "id": 12,
       "name": "GISELE BASTOS TAVARES DUQUE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9607"
     },
     {
       "id": 41,
       "name": "GOES COMBUSTIVEIS, LUBRIFICANTES E GLP LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1251"
     },
     {
       "id": 30,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9623"
     },
     {
       "id": 36,
       "name": "GOLDEN GREEN AUTO POSTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9626"
     },
     {
       "id": 7,
       "name": "JOSE ISRAEL DE SOUZA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9602"
     },
     {
       "id": 31,
       "name": "KFC.NET SERVIÇOS DE INFORMATICA EIRELI EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9624"
     },
     {
       "id": 28,
       "name": "LIBRE COMUNICAÇÃO E MARKETING EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e362"
     },
     {
       "id": 33,
       "name": "LIGHT SERVICOS DE ELETRICIDADE S A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2868"
     },
     {
       "id": 13,
       "name": "MARCELO CARDOSO RODRIGUES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9608"
     },
     {
       "id": 22,
       "name": "MARCOS PAULO BARBOSA TAVARES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9617"
     },
     {
       "id": 26,
       "name": "MARCOS TAVARES FESTAS E EVENTOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9621"
     },
     {
       "id": 21,
       "name": "MICHELE DOS SANTOS CALHAU",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9616"
     },
     {
       "id": 34,
       "name": "NEOLOC - NEO TECNOLOGIA DA INFORMATICA EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2858"
     },
     {
       "id": 1,
       "name": "PARTIDO DEMOCRATICO TRABALHISTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e339"
     },
     {
       "id": 43,
       "name": "POSTO MEGA VERAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9630"
     },
     {
       "id": 8,
       "name": "RAFAEL SOUSA DE CAMPOS",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 51,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9603"
     },
     {
       "id": 20,
       "name": "ROBERTO SOUZA FELICIANO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9615"
     },
     {
       "id": 14,
       "name": "RODRIGO OLIVEIRA DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9609"
     },
     {
       "id": 17,
       "name": "SANIRA FARIAS CABRAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9612"
     },
     {
       "id": 46,
       "name": "SB CHURRASCARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9632"
     },
     {
       "id": 47,
       "name": "SERVIA O NACIONAL DE APREND. COMERCIAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e150"
     },
     {
       "id": 27,
       "name": "SHARMILIE MARTINS ASPERA TAVARES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9622"
     },
     {
       "id": 29,
       "name": "SUPREMA MOBILIDADE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3395"
     },
     {
-      "id": 52,
+      "id": 51,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 55,
+      "id": 54,
       "name": "Segurança pública",
       "category": "destino",
       "connectionCount": 1
@@ -332,25 +379,29 @@
       "id": 6,
       "name": "TAYANE SARDELLA NASCIMENTO SAMPAIO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9601"
     },
     {
       "id": 15,
       "name": "THAISE FELICIANO CHARLES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9610"
     },
     {
       "id": 16,
       "name": "WASHINGTON FERNANDES LIMA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9611"
     },
     {
       "id": 32,
       "name": "Águas do Rio 4 SPE S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9625"
     }
   ],
   "links": [
@@ -559,7 +610,7 @@
       "source": 220604,
       "target": 26,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 21/08/2020",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 21/08/2020",
       "strength": 1
     },
     {
@@ -647,7 +698,7 @@
       "source": 220604,
       "target": 37,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.266,58 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.272,20 (20 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -758,8 +809,8 @@
       "id": 51,
       "source": 220604,
       "target": 51,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5,62 (8 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.573.786,00 empenhado, R$37.573.786,00 pago (4 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -767,7 +818,7 @@
       "source": 220604,
       "target": 52,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$37.573.786,00 empenhado, R$37.573.786,00 pago (4 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$24.350.000,00 empenhado, R$200.000,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -775,21 +826,13 @@
       "source": 220604,
       "target": 53,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$24.350.000,00 empenhado, R$200.000,00 pago (2 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Educação: R$13.023.783,00 empenhado (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
       "id": 54,
       "source": 220604,
       "target": 54,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Educação: R$13.023.783,00 empenhado (2 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 55,
-      "source": 220604,
-      "target": 55,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Segurança pública: R$200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1

@@ -4,7 +4,7 @@
     "egoName": "Aureo Ribeiro",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:34.453467Z",
+    "generatedAt": "2026-07-17T04:22:49.050236Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "As emendas desde 2023 somam R$ 107,3 milhões empenhados e R$ 99,3 milhões pagos em nove áreas, com Saúde em destaque. Há R$ 380 mil em despesas de cota e R$ 2,8 milhões em doações registradas na campanha de 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,64 +27,72 @@
       "id": 160512,
       "name": "Aureo Ribeiro",
       "category": "politician",
-      "connectionCount": 59
+      "connectionCount": 58
     },
     {
       "id": 26,
       "name": "A.R. PARTICIPACOES, INCORPORACAO E CONSTRUCAO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1714"
     },
     {
       "id": 20,
       "name": "ADENILSON HONORATO DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1708"
     },
     {
       "id": 27,
       "name": "AEL RIBEIROS INFORMATICA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1715"
     },
     {
       "id": 10,
       "name": "ANGELINA GABRIELLE MOREIRA ORNELAS PEREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1698"
     },
     {
       "id": 28,
       "name": "AULIMAR INFORMATICA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1716"
     },
     {
       "id": 16,
       "name": "AUREO LIDIO MOREIRA RIBEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1704"
     },
     {
       "id": 29,
       "name": "AUREO'S INFORMATICA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1717"
     },
     {
       "id": 46,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1730"
     },
     {
-      "id": 56,
+      "id": 55,
       "name": "Administração",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 53,
+      "id": 52,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -86,34 +101,39 @@
       "id": 41,
       "name": "BROAD BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e170"
     },
     {
       "id": 11,
       "name": "CARLOS ALBERTO PASCOAL FIDALGO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1699"
     },
     {
       "id": 45,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 12,
       "name": "CESAR MIRANDA RIBEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1700"
     },
     {
       "id": 49,
       "name": "Cia Aérea - GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e147"
     },
     {
-      "id": 58,
+      "id": 57,
       "name": "Ciência e Tecnologia",
       "category": "destino",
       "connectionCount": 1
@@ -122,10 +142,11 @@
       "id": 44,
       "name": "Conde & Dell Aringa - Des de Softwares",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1729"
     },
     {
-      "id": 57,
+      "id": 56,
       "name": "Cultura",
       "category": "destino",
       "connectionCount": 1
@@ -134,22 +155,24 @@
       "id": 13,
       "name": "DANIELLE CHRISTIAN RIBEIRO BARROS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1701"
     },
     {
       "id": 30,
       "name": "DILBERT INFORMATICA COMERCIO E SERVICOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1718"
     },
     {
-      "id": 54,
+      "id": 53,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 55,
+      "id": 54,
       "name": "Direitos da cidadania",
       "category": "destino",
       "connectionCount": 1
@@ -158,16 +181,17 @@
       "id": 21,
       "name": "EDUARDO MACEDO FEITAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1709"
     },
     {
-      "id": 59,
+      "id": 58,
       "name": "Educação",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 52,
+      "id": 51,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -176,172 +200,193 @@
       "id": 40,
       "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 5,
       "name": "FREDERICO ANDRADE DOS SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1693"
     },
     {
       "id": 6,
       "name": "GILBERTO JOSE DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1694"
     },
     {
       "id": 34,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1722"
     },
     {
       "id": 36,
       "name": "GRUPODE GRAFICAS LKL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1724"
     },
     {
       "id": 19,
       "name": "IRACEMA MEDEIROS DA COSTA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1707"
     },
     {
       "id": 43,
       "name": "J V L DA COSTA FOXER DIGITAL SOLUÇOES ONLINE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1728"
     },
     {
       "id": 14,
       "name": "JANYR FERNANDES DE MENEZES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1702"
     },
     {
       "id": 22,
       "name": "JOAMILTON ORNELAS FONTES PEREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1710"
     },
     {
       "id": 7,
       "name": "JORGE HENRIQUE COSTA DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1695"
     },
     {
       "id": 31,
       "name": "L.S. ABREU TELEFONIA CELULAR LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1719"
     },
     {
       "id": 23,
       "name": "LEANDRO CATAO DE ABREU",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1711"
     },
     {
       "id": 18,
       "name": "LENIVALDO SANTOS DE ABREU",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1706"
     },
     {
       "id": 8,
       "name": "LUCIANA DE SOUZA COELHO FERREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1696"
     },
     {
       "id": 42,
       "name": "Latam Linhas Aéreas S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 38,
       "name": "MAIRA MORAES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1726"
     },
     {
       "id": 9,
       "name": "MARISE MOREIRA RIBEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1697"
     },
     {
       "id": 32,
       "name": "MISTER JAMES TELECOM COMERCIO E SERVICOS DE TELEFONIA CELULAR LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1720"
     },
     {
       "id": 3,
       "name": "MONICA MOREIRA DE BIVAR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1691"
     },
     {
       "id": 47,
       "name": "NELSON LOPES RIBEIRO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1731"
     },
     {
       "id": 24,
       "name": "PEDRO TOSHIO CARNEIRO KIMURA",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 50,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1712"
     },
     {
       "id": 4,
       "name": "RENATO FEITOSA RIQUE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1692"
     },
     {
       "id": 25,
       "name": "ROGERIA DE MELO FERNANDES LEAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1713"
     },
     {
       "id": 15,
       "name": "ROMULO FERREIRA SALES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1703"
     },
     {
       "id": 17,
       "name": "SELMA MARIA SILVA RODRIGUES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1705"
     },
     {
       "id": 2,
       "name": "SOLIDARIEDADE - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1690"
     },
     {
       "id": 1,
       "name": "SOLIDARIEDADE-RIO DE JANEIRO-RJ-ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1689"
     },
     {
-      "id": 51,
+      "id": 50,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -350,31 +395,36 @@
       "id": 35,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1723"
     },
     {
       "id": 33,
       "name": "TRIKILHA COMERCIO DE INFORMATICA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1721"
     },
     {
       "id": 48,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     },
     {
       "id": 37,
       "name": "av comunicação Multimidia LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1725"
     },
     {
       "id": 39,
       "name": "contec imoveis LTD",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1727"
     }
   ],
   "links": [
@@ -583,7 +633,7 @@
       "source": 160512,
       "target": 26,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 23/09/2020",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 23/09/2020",
       "strength": 1
     },
     {
@@ -591,7 +641,7 @@
       "source": 160512,
       "target": 27,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 14/08/2001",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 14/08/2001",
       "strength": 1
     },
     {
@@ -599,7 +649,7 @@
       "source": 160512,
       "target": 28,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 23/01/2001",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 23/01/2001",
       "strength": 1
     },
     {
@@ -607,7 +657,7 @@
       "source": 160512,
       "target": 29,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 30/08/1996",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 30/08/1996",
       "strength": 1
     },
     {
@@ -615,7 +665,7 @@
       "source": 160512,
       "target": 30,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 08/05/2000",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 08/05/2000",
       "strength": 1
     },
     {
@@ -623,7 +673,7 @@
       "source": 160512,
       "target": 31,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 16/09/2003",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 16/09/2003",
       "strength": 1
     },
     {
@@ -631,7 +681,7 @@
       "source": 160512,
       "target": 32,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 21/06/2004",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 21/06/2004",
       "strength": 1
     },
     {
@@ -639,7 +689,7 @@
       "source": 160512,
       "target": 33,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 26/10/2000",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 26/10/2000",
       "strength": 1
     },
     {
@@ -735,7 +785,7 @@
       "source": 160512,
       "target": 45,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.542,40 (28 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.598,96 (37 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -774,8 +824,8 @@
       "id": 50,
       "source": 160512,
       "target": 50,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$56,56 (9 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.625.486,00 empenhado, R$53.962.226,00 pago (8 emendas; 2023–2025)",
       "strength": 1
     },
     {
@@ -783,7 +833,7 @@
       "source": 160512,
       "target": 51,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$54.625.486,00 empenhado, R$53.962.226,00 pago (8 emendas; 2023–2025)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$36.655.826,00 empenhado, R$36.571.447,00 pago (3 emendas; 2023–2025)",
       "strength": 1
     },
     {
@@ -791,7 +841,7 @@
       "source": 160512,
       "target": 52,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$36.655.826,00 empenhado, R$36.571.447,00 pago (3 emendas; 2023–2025)",
+      "description": "Emendas individuais destinadas a Assistência social: R$6.451.500,00 empenhado, R$6.363.095,00 pago (6 emendas; 2023–2025)",
       "strength": 1
     },
     {
@@ -799,7 +849,7 @@
       "source": 160512,
       "target": 53,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$6.451.500,00 empenhado, R$6.363.095,00 pago (6 emendas; 2023–2025)",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$5.000.000,00 empenhado, R$2.450.000,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -807,7 +857,7 @@
       "source": 160512,
       "target": 54,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$5.000.000,00 empenhado, R$2.450.000,00 pago (2 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$2.000.000,00 empenhado (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -815,7 +865,7 @@
       "source": 160512,
       "target": 55,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Direitos da cidadania: R$2.000.000,00 empenhado (2 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Administração: R$1.629.209,00 empenhado (1 emenda; 2023)",
       "strength": 1
     },
     {
@@ -823,7 +873,7 @@
       "source": 160512,
       "target": 56,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Administração: R$1.629.209,00 empenhado (1 emenda; 2023)",
+      "description": "Emendas individuais destinadas a Cultura: R$488.762,00 empenhado (1 emenda; 2023)",
       "strength": 1
     },
     {
@@ -831,21 +881,13 @@
       "source": 160512,
       "target": 57,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Cultura: R$488.762,00 empenhado (1 emenda; 2023)",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$200.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     },
     {
       "id": 58,
       "source": 160512,
       "target": 58,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$200.000,00 empenhado (1 emenda; 2025)",
-      "strength": 1
-    },
-    {
-      "id": 59,
-      "source": 160512,
-      "target": 59,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Educação: R$200.000,00 empenhado (1 emenda; 2025)",
       "strength": 1

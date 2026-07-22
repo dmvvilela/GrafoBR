@@ -4,7 +4,7 @@
     "egoName": "Luiz Gastão",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.601870Z",
+    "generatedAt": "2026-07-17T04:22:53.949364Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Entre as emendas individuais de 2023 em diante, registram-se R$ 75,1 milhões empenhados e R$ 65,6 milhões pagos em sete áreas, com Saúde em destaque. Há R$ 508 mil em despesas de cota e R$ 1,2 milhão em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,46 +27,52 @@
       "id": 220658,
       "name": "Luiz Gastão",
       "category": "politician",
-      "connectionCount": 53
+      "connectionCount": 51
     },
     {
       "id": 24,
       "name": "A DE LIMA CARDOSO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8949"
     },
     {
       "id": 10,
       "name": "ALINE PINHEIRO RABELO RIBEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8936"
     },
     {
       "id": 30,
       "name": "AMORETTO CAFES EXPRESSO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13"
     },
     {
       "id": 33,
       "name": "AUTO POSTO 303 NORTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e27"
     },
     {
       "id": 15,
       "name": "AUXILIO ADMINISTRACAO PRISIONAL LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8940"
     },
     {
       "id": 16,
       "name": "AUXILIUM ENGENHARIA, CONSULTORIA E ADMINISTRACAO PRISIONAL LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8941"
     },
     {
-      "id": 51,
+      "id": 49,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -68,46 +81,53 @@
       "id": 17,
       "name": "BTK COMERCIO DE VESTUARIOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8942"
     },
     {
       "id": 27,
       "name": "BVA NEGÓCIOS IMOBILIÁRIOS S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8952"
     },
     {
       "id": 18,
       "name": "C & L ADMINISTRACAO PRISIONAL LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8943"
     },
     {
       "id": 36,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 11,
       "name": "CICERO LUIS CARVALHO ROCHA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8937"
     },
     {
       "id": 39,
       "name": "COMPANHIA ENERGÉTICA DO CEARÁ",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1280"
     },
     {
       "id": 35,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
-      "id": 52,
+      "id": 50,
       "name": "Cultura",
       "category": "destino",
       "connectionCount": 1
@@ -116,10 +136,11 @@
       "id": 12,
       "name": "DEBORA SOMBRA COSTA LIMA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8938"
     },
     {
-      "id": 53,
+      "id": 51,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
@@ -128,28 +149,32 @@
       "id": 14,
       "name": "ELEICAO 2022 ROBERTO CLAUDIO RODRIGUES BEZERRA GOVERNADOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1268"
     },
     {
       "id": 2,
       "name": "ELIANA GURGEL MONTEIRO BITTENCOURT",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8928"
     },
     {
       "id": 5,
       "name": "EVELINE GURGEL MONTEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8931"
     },
     {
       "id": 31,
       "name": "Elegis Gestão Estratégica, Consultoria e Tecn",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3220"
     },
     {
-      "id": 48,
+      "id": 46,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -158,40 +183,46 @@
       "id": 19,
       "name": "FORTCONTROL CONTROLES ELETRONICOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8944"
     },
     {
       "id": 28,
       "name": "Facebook Serviços Online do Brasil Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 26,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8951"
     },
     {
       "id": 32,
       "name": "GOMO COMUNICAÇÂO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e20"
     },
     {
       "id": 34,
       "name": "Gol Linhas Aereas S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e147"
     },
     {
       "id": 9,
       "name": "HENRIQUE JORGE JAVI DE SOUSA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8935"
     },
     {
-      "id": 49,
+      "id": 47,
       "name": "Indústria",
       "category": "destino",
       "connectionCount": 1
@@ -200,100 +231,109 @@
       "id": 20,
       "name": "KARAOKE MANIA LTDA.",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8945"
     },
     {
       "id": 21,
       "name": "L.G. BITTENCOURT AGENCIAMENTO DE RECURSOS HUMANOS E SERVICOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8946"
     },
     {
       "id": 22,
       "name": "LGB CONSULTORIA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8947"
     },
     {
       "id": 8,
       "name": "LUANA GURGEL MONTEIRO BITTENCOURT ISOLA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8934"
     },
     {
       "id": 4,
       "name": "LUCAS MONTEIRO BITTENCOURT",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8930"
     },
     {
       "id": 3,
       "name": "LUIZ FERNANDO MONTEIRO BITTENCOURT",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8929"
     },
     {
       "id": 7,
       "name": "LUIZ GASTAO BITTENCOURT DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8933"
     },
     {
       "id": 6,
       "name": "LUIZA GURGEL MONTEIRO BITTENCOURT",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8932"
     },
     {
       "id": 29,
       "name": "METRAN ADMINISTRADORA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8953"
     },
     {
       "id": 40,
       "name": "MUNICIPIO DE FORTALEZA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8955"
     },
     {
       "id": 41,
       "name": "ORION TELECOMUNICACOES COMERCIO E SERVICOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8956"
     },
     {
-      "id": 42,
+      "id": 43,
       "name": "ORION TELECOMUNICACOES COMERCIO E SERVICOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8957"
     },
     {
       "id": 44,
       "name": "ORION TELECOMUNICACOES COMERCIO E SERVICOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8958"
     },
     {
       "id": 1,
       "name": "PARTIDO SOCIAL DEMOCRATICO - PSD",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 46,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3330"
     },
     {
       "id": 23,
       "name": "SERVAL ALIMENTOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8948"
     },
     {
-      "id": 47,
+      "id": 45,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -302,28 +342,25 @@
       "id": 25,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8950"
     },
     {
       "id": 38,
       "name": "TECNOVETTI PRODUTOS E SERV. PARA ESCRITORIO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8954"
     },
     {
-      "id": 45,
+      "id": 42,
       "name": "TIM S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1104"
     },
     {
-      "id": 43,
-      "name": "TIM S/A",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 50,
+      "id": 48,
       "name": "Urbanismo",
       "category": "destino",
       "connectionCount": 1
@@ -332,13 +369,15 @@
       "id": 13,
       "name": "VINICIUS CASQUEIRO LEMOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8939"
     },
     {
       "id": 37,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     }
   ],
   "links": [
@@ -459,7 +498,7 @@
       "source": 220658,
       "target": 15,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 14/12/2006",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 14/12/2006",
       "strength": 1
     },
     {
@@ -467,7 +506,7 @@
       "source": 220658,
       "target": 16,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 20/02/2002",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 20/02/2002",
       "strength": 1
     },
     {
@@ -475,7 +514,7 @@
       "source": 220658,
       "target": 17,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 18/09/2003",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 18/09/2003",
       "strength": 1
     },
     {
@@ -483,7 +522,7 @@
       "source": 220658,
       "target": 18,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 14/04/2008",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 14/04/2008",
       "strength": 1
     },
     {
@@ -491,7 +530,7 @@
       "source": 220658,
       "target": 19,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 17/03/1995",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 17/03/1995",
       "strength": 1
     },
     {
@@ -499,7 +538,7 @@
       "source": 220658,
       "target": 20,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 19/05/1999",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 19/05/1999",
       "strength": 1
     },
     {
@@ -507,7 +546,7 @@
       "source": 220658,
       "target": 21,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 19/09/2002",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 19/09/2002",
       "strength": 1
     },
     {
@@ -515,7 +554,7 @@
       "source": 220658,
       "target": 22,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 21/05/2014",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 21/05/2014",
       "strength": 1
     },
     {
@@ -523,7 +562,7 @@
       "source": 220658,
       "target": 23,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 03/06/1998",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 03/06/1998",
       "strength": 1
     },
     {
@@ -627,7 +666,7 @@
       "source": 220658,
       "target": 36,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.266,58 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.290,69 (20 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -675,7 +714,7 @@
       "source": 220658,
       "target": 42,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$339,80 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 06/01/2025–03/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$419,94 (3 lançamentos; tipo: TELEFONIA; período: 27/10/2025–24/12/2025)",
       "strength": 1
     },
     {
@@ -683,7 +722,7 @@
       "source": 220658,
       "target": 43,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$279,96 (2 lançamentos; tipo: TELEFONIA; período: 27/10/2025–24/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$339,80 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 06/01/2025–03/02/2025)",
       "strength": 1
     },
     {
@@ -698,16 +737,16 @@
       "id": 45,
       "source": 220658,
       "target": 45,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$139,98 (1 lançamento; tipo: TELEFONIA; período: 25/11/2025)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$50.074.966,00 empenhado, R$45.275.885,00 pago (5 emendas; 2024–2025)",
       "strength": 1
     },
     {
       "id": 46,
       "source": 220658,
       "target": 46,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$24,11 (8 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$17.100.000,00 empenhado, R$17.050.000,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -715,7 +754,7 @@
       "source": 220658,
       "target": 47,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$50.074.966,00 empenhado, R$45.275.885,00 pago (5 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Indústria: R$3.000.000,00 empenhado, R$3.000.000,00 pago (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -723,7 +762,7 @@
       "source": 220658,
       "target": 48,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$17.100.000,00 empenhado, R$17.050.000,00 pago (2 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.551.585,00 empenhado, R$2.100,00 pago (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -731,7 +770,7 @@
       "source": 220658,
       "target": 49,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Indústria: R$3.000.000,00 empenhado, R$3.000.000,00 pago (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.220.000,00 empenhado, R$300.000,00 pago (3 emendas; 2024)",
       "strength": 1
     },
     {
@@ -739,29 +778,13 @@
       "source": 220658,
       "target": 50,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Urbanismo: R$1.551.585,00 empenhado, R$2.100,00 pago (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Cultura: R$1.200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {
       "id": 51,
       "source": 220658,
       "target": 51,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$1.220.000,00 empenhado, R$300.000,00 pago (3 emendas; 2024)",
-      "strength": 1
-    },
-    {
-      "id": 52,
-      "source": 220658,
-      "target": 52,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Cultura: R$1.200.000,00 empenhado (1 emenda; 2024)",
-      "strength": 1
-    },
-    {
-      "id": 53,
-      "source": 220658,
-      "target": 53,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Desporto e lazer: R$1.000.000,00 empenhado (1 emenda; 2024)",
       "strength": 1

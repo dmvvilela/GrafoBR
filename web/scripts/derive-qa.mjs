@@ -48,6 +48,8 @@ const missing = {
   sources: 0,
   metaEgoId: 0,
   linkDescription: 0,
+  entityId: 0,
+  sourceCoverage: 0,
 };
 const broken = {
   unreadableProfileFiles: 0,
@@ -92,6 +94,12 @@ for (const entry of index) {
   }
 
   if (!ego.meta?.egoId) missing.metaEgoId += 1;
+  if (
+    !ego.meta?.sourceCoverage ||
+    Object.keys(ego.meta.sourceCoverage).length !== (ego.meta.sources?.length ?? 0)
+  ) {
+    missing.sourceCoverage += 1;
+  }
   if (!ego.links?.length) {
     totals.emptyGraphs += 1;
     if (samples.emptyGraphs.length < 12) samples.emptyGraphs.push(entry.id);
@@ -103,6 +111,9 @@ for (const entry of index) {
   const nodeIds = new Set();
   for (const node of ego.nodes ?? []) {
     inc(nodeCategoryCounts, node.category ?? "unknown");
+    if (["donor", "supplier", "company"].includes(node.category) && !node.entityId) {
+      missing.entityId += 1;
+    }
     if (nodeIds.has(node.id)) broken.duplicateNodeIds += 1;
     nodeIds.add(node.id);
   }
@@ -205,3 +216,17 @@ await writeFile(path.join(dir, "_qa.json"), JSON.stringify(qa, null, 2), "utf8")
 console.log(
   `[derive-qa] ${totals.profiles} profiles, ${totals.links} links, ${warningItems.filter((item) => item.severity !== "ok").length} warnings`,
 );
+
+const fatalCount =
+  broken.unreadableProfileFiles +
+  broken.duplicateNodeIds +
+  broken.duplicateLinkIds +
+  broken.linksWithMissingEndpoint +
+  broken.linksWithSelfLoop +
+  missing.metaEgoId +
+  missing.linkDescription +
+  missing.entityId +
+  missing.sourceCoverage;
+if (fatalCount > 0) {
+  throw new Error(`[derive-qa] refusing to publish: ${fatalCount} structural error(s)`);
+}

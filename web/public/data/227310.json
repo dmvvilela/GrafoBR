@@ -4,13 +4,19 @@
     "egoName": "Silvio Antonio",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:39.573067Z",
+    "generatedAt": "2026-07-17T04:22:56.662102Z",
     "sources": [
       "camara",
       "cgu_emendas",
       "receita",
       "tse"
     ],
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
     "summary": "Os registros de emendas desde 2023 mostram R$ 37,9 milhões empenhados e R$ 37,8 milhões pagos em quatro áreas, principalmente Saúde. A campanha de 2022 recebeu R$ 297 mil de 11 doadores.",
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
@@ -25,13 +31,15 @@
       "id": 4,
       "name": "ALESSANDRA FRANCA PEREIRA MACHADO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13165"
     },
     {
       "id": 9,
       "name": "ANA CRISTINA SOUSA DOS REIS REZENDE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13170"
     },
     {
       "id": 17,
@@ -49,61 +57,71 @@
       "id": 12,
       "name": "GUIMARAES MACHADO EDUCA MAIS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13173"
     },
     {
       "id": 13,
       "name": "IGREJA BATISTA NACIONAL SHALOM",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13174"
     },
     {
       "id": 5,
       "name": "JOANA CELI PACHECO BARROS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13166"
     },
     {
       "id": 14,
       "name": "MINISTERIO APOSTOLICO INTERNACIONAL SHALOM",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13175"
     },
     {
       "id": 10,
       "name": "NAYARA COELHO LOPES ARAUJO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13171"
     },
     {
       "id": 2,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e129"
     },
     {
       "id": 3,
       "name": "PAULO VICTOR FERREIRA DE ALMEIDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13164"
     },
     {
       "id": 6,
       "name": "PEDRO PATRICIO BARROS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13167"
     },
     {
       "id": 7,
       "name": "RONALDO DINIZ GUIMARAES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13168"
     },
     {
       "id": 1,
       "name": "SILVIO ANTONIO GUIMARAES MACHADO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13163"
     },
     {
       "id": 15,
@@ -121,13 +139,15 @@
       "id": 11,
       "name": "VERA LUCIA TEIXEIRA AMORIM RODRIGUES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13172"
     },
     {
       "id": 8,
       "name": "VICENTE ADAMO LOPES FERREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13169"
     }
   ],
   "links": [
@@ -224,7 +244,7 @@
       "source": 227310,
       "target": 12,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 13/07/2017",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 13/07/2017",
       "strength": 1
     },
     {
@@ -232,7 +252,7 @@
       "source": 227310,
       "target": 13,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 12/09/2005",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 12/09/2005",
       "strength": 1
     },
     {
@@ -240,7 +260,7 @@
       "source": 227310,
       "target": 14,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 07/04/2015",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 07/04/2015",
       "strength": 1
     },
     {

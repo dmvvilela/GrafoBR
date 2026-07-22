@@ -4,14 +4,20 @@
     "egoName": "Felipe Francischini",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:36.091525Z",
+    "generatedAt": "2026-07-17T04:22:51.794234Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Nos registros públicos, constam R$ 105,2 milhões em emendas empenhadas e R$ 92,9 milhões pagos em quatro áreas, com Saúde como principal. Há R$ 453 mil em despesas de cota e R$ 3,0 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -22,52 +28,60 @@
       "connectionCount": 32
     },
     {
-      "id": 23,
-      "name": "045 - QL 02 - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "id": 21,
+      "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 5,
       "name": "ANDREONI CAMARGO MARKETING POLITICO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5581"
     },
     {
-      "id": 24,
+      "id": 25,
       "name": "AUTO POSTO BLUE 32 LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5596"
     },
     {
       "id": 19,
       "name": "AUTO POSTO COLOSSAL MERCES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5594"
     },
     {
       "id": 18,
       "name": "AUTO POSTO JF COMERCIO DE DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5593"
     },
     {
-      "id": 25,
+      "id": 26,
       "name": "AUTO POSTO ORTONA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5597"
     },
     {
       "id": 15,
       "name": "AUTO POSTO SORRISO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5590"
     },
     {
       "id": 12,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5587"
     },
     {
       "id": 32,
@@ -79,19 +93,22 @@
       "id": 3,
       "name": "CLAUDIA NETTO SAFATLE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5579"
     },
     {
-      "id": 26,
+      "id": 27,
       "name": "Cia Aérea - TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
-      "id": 22,
+      "id": 23,
       "name": "Copel Distribuição S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4360"
     },
     {
       "id": 31,
@@ -109,67 +126,78 @@
       "id": 13,
       "name": "FABIO AURELLE ATALIBA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5588"
     },
     {
       "id": 4,
       "name": "FM NEGOCIOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5580"
     },
     {
       "id": 11,
       "name": "Francisco Adami Silva",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5586"
     },
     {
       "id": 17,
       "name": "GAMA EMPREENDIMENTOS HOTELEIROS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5592"
     },
     {
       "id": 14,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5589"
     },
     {
       "id": 9,
       "name": "Grafica e Editora Grafbello Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4132"
     },
     {
       "id": 8,
       "name": "IRG CONSULTORIA E PRESTAÇÃO DE SERVIÇO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5584"
     },
     {
       "id": 7,
       "name": "Ibaneza Santos Salles",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5583"
     },
     {
       "id": 6,
       "name": "Inter Uno Comunicacao politica e marketing eleitoral LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5582"
     },
     {
-      "id": 27,
+      "id": 24,
       "name": "LOCALIZA RENT A CAR S/A AGENCIA AEROPORTO CONGONHA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e943"
     },
     {
       "id": 28,
       "name": "MOVIDA LOCAÇÃO DE VEÍCULOS S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e228"
     },
     {
       "id": 29,
@@ -181,37 +209,43 @@
       "id": 16,
       "name": "Soczek Corretagem De Imoveis Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5591"
     },
     {
       "id": 10,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5585"
     },
     {
-      "id": 21,
+      "id": 22,
       "name": "Telefônica Brasil S.A. VIVO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e687"
     },
     {
       "id": 2,
       "name": "UNIAO BRASIL - PARANA - PR - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4118"
     },
     {
       "id": 20,
       "name": "luxtour hotelaria eventos e turismo ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5595"
     }
   ],
   "links": [
@@ -380,7 +414,7 @@
       "source": 204398,
       "target": 21,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.409,35 (10 lançamentos; tipo: TELEFONIA; período: 22/01/2025–23/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.602,91 (11 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/03/2025–12/12/2025)",
       "strength": 1
     },
     {
@@ -388,7 +422,7 @@
       "source": 204398,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.407,94 (11 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 18/01/2025–19/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.409,35 (10 lançamentos; tipo: TELEFONIA; período: 22/01/2025–23/12/2025)",
       "strength": 1
     },
     {
@@ -396,7 +430,7 @@
       "source": 204398,
       "target": 23,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.066,74 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 24/03/2025–12/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.407,94 (11 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 18/01/2025–19/12/2025)",
       "strength": 1
     },
     {
@@ -404,7 +438,7 @@
       "source": 204398,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.046,47 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/02/2025–08/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.390,46 (3 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 17/02/2025–23/03/2025)",
       "strength": 1
     },
     {
@@ -412,7 +446,7 @@
       "source": 204398,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.919,75 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/11/2025–24/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.046,47 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/02/2025–08/11/2025)",
       "strength": 1
     },
     {
@@ -420,7 +454,7 @@
       "source": 204398,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.827,95 (1 lançamento; tipo: PASSAGEM AÉREA - RPA; período: 29/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.919,75 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/11/2025–24/12/2025)",
       "strength": 1
     },
     {
@@ -428,7 +462,7 @@
       "source": 204398,
       "target": 27,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.707,40 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 23/03/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.827,95 (1 lançamento; tipo: PASSAGEM AÉREA - RPA; período: 29/05/2025)",
       "strength": 1
     },
     {

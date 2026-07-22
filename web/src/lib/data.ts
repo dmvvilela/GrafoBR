@@ -196,6 +196,9 @@ export interface Meta {
   /** ISO timestamp of when the pipeline last rebuilt the data snapshot. */
   generatedAt: string;
   deputies?: number;
+  senators?: number;
+  politicians?: number;
+  sourceCoverage?: Record<string, string>;
 }
 
 export async function getMeta(): Promise<Meta | null> {

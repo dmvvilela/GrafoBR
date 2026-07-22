@@ -4,13 +4,19 @@
     "egoName": "Fabio Reis",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:36.017999Z",
+    "generatedAt": "2026-07-17T04:22:51.684873Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
     "summary": "Entre 2023 e os registros mais recentes, constam R$ 107,1 milhões em emendas empenhadas e R$ 83,2 milhões pagos em oito áreas, com foco em Saúde. A cota parlamentar registra R$ 184 mil com 25 fornecedores, e a campanha de 2022 recebeu R$ 2,0 milhões.",
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
@@ -22,46 +28,46 @@
       "connectionCount": 34
     },
     {
-      "id": 15,
+      "id": 16,
       "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 12,
       "name": "AMORETTO CAFES EXPRESSO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13"
     },
     {
       "id": 9,
       "name": "ASSOCIACAO DE RADIODIFUSAO COMUNITARIA LAGARTENSE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5418"
+    },
+    {
+      "id": 20,
+      "name": "AUTO POSTO ANTONIO ARAUJO MATOS EIRELI",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e5424"
     },
     {
       "id": 18,
-      "name": "AUTO POSTO ANTONIO ARAUJO MATOS EIRELI",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 25,
       "name": "AUTO POSTO CINCO ESTRELAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 26,
-      "name": "AUTO POSTO CINCO ESTRELAS LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e405"
     },
     {
       "id": 4,
       "name": "AUTO POSTO ROCHA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5414"
     },
     {
       "id": 30,
@@ -76,16 +82,18 @@
       "connectionCount": 1
     },
     {
-      "id": 19,
+      "id": 21,
       "name": "CAIOBA DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5425"
     },
     {
       "id": 14,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 34,
@@ -109,79 +117,92 @@
       "id": 7,
       "name": "GERALDO CAITANO DOS SANTOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5416"
     },
     {
       "id": 2,
       "name": "GRAFICA EDITORA J ANDRADE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5412"
     },
     {
       "id": 23,
       "name": "MURIBECA COMERCIO DE COMBUSTIVEL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5427"
     },
     {
       "id": 1,
       "name": "PARTIDO SOCIAL DEMOCRATICO - PSD DIRETORIO NACIONAL",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 16,
-      "name": "PETROX COMERCIAL LTDA (BR)",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 20,
-      "name": "POSTO J. MACARIO II LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1361"
     },
     {
       "id": 17,
+      "name": "PETROX COMERCIAL LTDA (BR)",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e5422"
+    },
+    {
+      "id": 24,
+      "name": "POSTO DE COMBUSTIVEIS 310 SUL LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e789"
+    },
+    {
+      "id": 22,
+      "name": "POSTO J. MACARIO II LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e5426"
+    },
+    {
+      "id": 19,
       "name": "POSTO SAO GABRIEL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5423"
+    },
+    {
+      "id": 26,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 10,
       "name": "RB SERVIÇOS E COMUNICAÇÕES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5419"
     },
     {
-      "id": 21,
+      "id": 15,
       "name": "REDE DE POSTOS PRESIDENTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 22,
-      "name": "REDE DE POSTOS PRESIDENTE LTDA",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 24,
-      "name": "REDE DE POSTOS PRESIDENTE LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5421"
     },
     {
       "id": 8,
       "name": "ROGéRIO C. COSTA MONTEIRO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5417"
     },
     {
       "id": 13,
       "name": "STARLINK BRAZIL SERVICOS DE INTERNET LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1256"
     },
     {
       "id": 27,
@@ -199,13 +220,15 @@
       "id": 5,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5415"
     },
     {
       "id": 6,
       "name": "TELEFONICA BRASIL S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 29,
@@ -217,13 +240,22 @@
       "id": 3,
       "name": "V & M LOCADORA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5413"
     },
     {
       "id": 11,
       "name": "WAD SOCIAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5420"
+    },
+    {
+      "id": 25,
+      "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e495"
     }
   ],
   "links": [
@@ -344,7 +376,7 @@
       "source": 171623,
       "target": 15,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$600,00 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/08/2025–02/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$794,41 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/01/2025–08/12/2025)",
       "strength": 1
     },
     {
@@ -352,7 +384,7 @@
       "source": 171623,
       "target": 16,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$491,80 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/01/2025–31/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$600,00 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/08/2025–02/12/2025)",
       "strength": 1
     },
     {
@@ -360,7 +392,7 @@
       "source": 171623,
       "target": 17,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$350,01 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/11/2025–01/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$491,80 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/01/2025–31/10/2025)",
       "strength": 1
     },
     {
@@ -368,7 +400,7 @@
       "source": 171623,
       "target": 18,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$350,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/10/2025–29/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$383,36 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 18/08/2025–15/12/2025)",
       "strength": 1
     },
     {
@@ -376,7 +408,7 @@
       "source": 171623,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$300,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$350,01 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/11/2025–01/12/2025)",
       "strength": 1
     },
     {
@@ -384,7 +416,7 @@
       "source": 171623,
       "target": 20,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$300,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/10/2025–05/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$350,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/10/2025–29/12/2025)",
       "strength": 1
     },
     {
@@ -392,7 +424,7 @@
       "source": 171623,
       "target": 21,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$300,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/01/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$300,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/08/2025)",
       "strength": 1
     },
     {
@@ -400,7 +432,7 @@
       "source": 171623,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$294,41 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$300,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/10/2025–05/11/2025)",
       "strength": 1
     },
     {
@@ -416,7 +448,7 @@
       "source": 171623,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$200,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$100,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 29/09/2025)",
       "strength": 1
     },
     {
@@ -424,7 +456,7 @@
       "source": 171623,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$199,05 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 18/08/2025–03/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$83,70 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 30/09/2025)",
       "strength": 1
     },
     {
@@ -432,7 +464,7 @@
       "source": 171623,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$184,31 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/08/2025–15/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$14,49 (4 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {

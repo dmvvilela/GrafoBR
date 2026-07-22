@@ -4,14 +4,20 @@
     "egoName": "Talíria Petrone",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:39.736989Z",
+    "generatedAt": "2026-07-17T04:22:56.875364Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Os dados públicos registram R$ 106,4 milhões em emendas empenhadas e R$ 55,0 milhões pagos em dez áreas. Registram-se também R$ 389 mil em despesas de cota com 25 fornecedores e R$ 1,6 milhões arrecadados na campanha de 2022, de 11 doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -25,37 +31,43 @@
       "id": 13,
       "name": "AVENIDA COMUNICACAO Jornalisticos ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13431"
     },
     {
-      "id": 23,
+      "id": 24,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13437"
     },
     {
       "id": 22,
       "name": "Airbnb Plataforma Digital Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9071"
     },
     {
-      "id": 24,
+      "id": 25,
       "name": "BROAD BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e170"
     },
     {
       "id": 18,
       "name": "BSZA DESIGN LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13435"
     },
     {
       "id": 26,
       "name": "CENTRO AUTOMOTIVO PACO DE SOUZA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12363"
     },
     {
       "id": 45,
@@ -73,22 +85,25 @@
       "id": 3,
       "name": "DANIEL ANTONIO DE MORAES SARMENTO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13422"
     },
     {
       "id": 6,
       "name": "DEMOCRATIZE TECNOLOGIA LTDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e283"
     },
     {
       "id": 7,
       "name": "DIEGO DE LIMA SANTIAGO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13425"
     },
     {
-      "id": 44,
+      "id": 43,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
@@ -103,7 +118,8 @@
       "id": 5,
       "name": "ELEN SILVA DEL GIUDICE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13424"
     },
     {
       "id": 38,
@@ -121,13 +137,15 @@
       "id": 14,
       "name": "FLEX MARKETING DIRETO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2838"
     },
     {
       "id": 17,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13434"
     },
     {
       "id": 41,
@@ -139,91 +157,113 @@
       "id": 29,
       "name": "Gol Linhas Aereas S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e147"
     },
     {
-      "id": 33,
+      "id": 32,
       "name": "H PLUS ADMINISTRAÇÃO E HOTELARIA LTDA - SCP FUSION",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1253"
     },
     {
       "id": 20,
       "name": "LOGICA TECNOLOGIA EIRELI EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12367"
     },
     {
       "id": 21,
       "name": "Latam Linhas Aéreas S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 8,
       "name": "MARCELO HENRIQUE BEZERRA RAMOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13426"
+    },
+    {
+      "id": 36,
+      "name": "MAXIMA ADMINISTRAÇÃO DE HOTÉIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e6638"
     },
     {
       "id": 9,
       "name": "NECI COSTA MOTA DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13427"
     },
     {
       "id": 1,
       "name": "PARTIDO SOCIALISMO E LIBERDADE (P-SOL)",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3266"
     },
     {
       "id": 2,
       "name": "PARTIDO SOCIALISMO E LIBERDADE - RIO DE JANEIRO - RJ - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2826"
     },
     {
-      "id": 36,
+      "id": 35,
       "name": "PORTAL DA PRAIA HOTEL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13441"
     },
     {
       "id": 27,
       "name": "POSTO DE GASOLINA SANTA ROSA DE ICARAI LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13438"
     },
     {
-      "id": 35,
+      "id": 34,
       "name": "POSTO UM AF SOUZA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13440"
     },
     {
       "id": 15,
       "name": "RIOKASA ADMINISTRAÇÃO DE BENS IMÓVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13432"
     },
     {
       "id": 31,
       "name": "SEISELLES DISTRIBUIÇÃO E LOGÍSTICA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1558"
     },
     {
       "id": 30,
       "name": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e142"
     },
     {
       "id": 4,
       "name": "STEPHANIE DI CHIARA SALGADO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13423"
     },
     {
       "id": 37,
@@ -235,31 +275,36 @@
       "id": 16,
       "name": "Self Imobiliaria",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13433"
     },
     {
       "id": 28,
       "name": "Self SPIN",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13439"
     },
     {
       "id": 19,
       "name": "Storyland Produção de Coneúdo e Serviços Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13436"
     },
     {
       "id": 12,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13430"
     },
     {
       "id": 11,
       "name": "THIAGO DEL GIUDICE DE SOUZA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13429"
     },
     {
       "id": 46,
@@ -268,19 +313,14 @@
       "connectionCount": 1
     },
     {
-      "id": 25,
+      "id": 23,
       "name": "UBER DO BRASIL TECNOLOGIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e213"
     },
     {
-      "id": 32,
-      "name": "UBER DO BRASIL TECNOLOGIA LTDA",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 43,
+      "id": 44,
       "name": "Urbanismo",
       "category": "destino",
       "connectionCount": 1
@@ -289,13 +329,15 @@
       "id": 10,
       "name": "WENCESLAU DE MACEDO RIMES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13428"
     },
     {
-      "id": 34,
+      "id": 33,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     }
   ],
   "links": [
@@ -480,7 +522,7 @@
       "source": 204464,
       "target": 23,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.458,23 (3 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 11/06/2025–16/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.265,87 (142 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 17/01/2025–03/01/2026)",
       "strength": 1
     },
     {
@@ -488,7 +530,7 @@
       "source": 204464,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.850,00 (9 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 18/01/2025–23/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.458,23 (3 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 11/06/2025–16/06/2025)",
       "strength": 1
     },
     {
@@ -496,7 +538,7 @@
       "source": 204464,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.504,82 (112 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 17/01/2025–03/01/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.850,00 (9 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 18/01/2025–23/09/2025)",
       "strength": 1
     },
     {
@@ -552,7 +594,7 @@
       "source": 204464,
       "target": 32,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.308,52 (18 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 23/01/2025–18/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.180,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 29/10/2025)",
       "strength": 1
     },
     {
@@ -560,7 +602,7 @@
       "source": 204464,
       "target": 33,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.180,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 29/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.147,10 (3 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 10/02/2025–23/09/2025)",
       "strength": 1
     },
     {
@@ -568,7 +610,7 @@
       "source": 204464,
       "target": 34,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.147,10 (3 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 10/02/2025–23/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$918,82 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/02/2025–19/09/2025)",
       "strength": 1
     },
     {
@@ -576,7 +618,7 @@
       "source": 204464,
       "target": 35,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$918,82 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/02/2025–19/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$868,50 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 14/12/2025)",
       "strength": 1
     },
     {
@@ -584,7 +626,7 @@
       "source": 204464,
       "target": 36,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$868,50 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 14/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$762,20 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 13/12/2025)",
       "strength": 1
     },
     {
@@ -640,7 +682,7 @@
       "source": 204464,
       "target": 43,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Urbanismo: R$800.000,00 empenhado (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$800.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -648,7 +690,7 @@
       "source": 204464,
       "target": 44,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$800.000,00 empenhado (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Urbanismo: R$800.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {

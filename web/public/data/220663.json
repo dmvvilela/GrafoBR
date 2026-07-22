@@ -4,14 +4,20 @@
     "egoName": "Eriberto Medeiros",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:35.929984Z",
+    "generatedAt": "2026-07-17T04:22:51.544925Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Os registros mostram R$ 74,7 milhões em emendas empenhadas e R$ 61,2 milhões pagos em dez áreas, com foco em Saúde. A cota parlamentar soma R$ 539 mil com 25 fornecedores, e a campanha de 2022 recebeu R$ 1,1 milhão.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -22,70 +28,67 @@
       "connectionCount": 37
     },
     {
-      "id": 24,
+      "id": 16,
       "name": "021 - 204 SUL CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 26,
-      "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 8,
       "name": "16LOCALIZA RENT A CAR S.A",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 17,
-      "name": "19 - 303 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e943"
     },
     {
       "id": 3,
       "name": "ALTER COMÉRCIO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5234"
     },
     {
       "id": 6,
       "name": "ASPENN Consultoria e Assessoria Empresarial",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5236"
     },
     {
       "id": 12,
       "name": "AUTO POSTO 302 SUL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e177"
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "AUTO POSTO AEROPORTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e75"
     },
     {
-      "id": 27,
+      "id": 24,
       "name": "AUTO POSTO ANDRADE LTDA - QNN 31",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e989"
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "AUTO POSTO CINCO ESTRELAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e405"
     },
     {
       "id": 11,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5240"
     },
     {
       "id": 30,
@@ -94,28 +97,32 @@
       "connectionCount": 1
     },
     {
-      "id": 25,
+      "id": 23,
       "name": "BELIZE COMPANY AUTO POSTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2332"
     },
     {
       "id": 18,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 14,
       "name": "Claro",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e23"
     },
     {
       "id": 13,
       "name": "Companhia Energética de Pernambuco",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1249"
     },
     {
       "id": 37,
@@ -127,7 +134,8 @@
       "id": 1,
       "name": "DIRETORIO ESTADUAL DO PARTIDO SOCIALISTA BRASILEIRO - PSB",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5232"
     },
     {
       "id": 34,
@@ -163,49 +171,71 @@
       "id": 10,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5239"
     },
     {
-      "id": 16,
+      "id": 17,
       "name": "GOMO COMUNICAÇÂO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e20"
     },
     {
       "id": 4,
       "name": "IMPACTO COMUNICAÇÃO E MARKETING LTDA ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3167"
     },
     {
       "id": 2,
       "name": "JOSE ERIBERTO MEDEIROS DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 19,
-      "name": "LOCALIZA RENT A CAR SA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5233"
     },
     {
       "id": 7,
       "name": "POSTO DO AMOR EM CRISTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5237"
     },
     {
-      "id": 22,
+      "id": 27,
+      "name": "POSTO LEAO DA ILHA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e2980"
+    },
+    {
+      "id": 25,
+      "name": "RESTAURANTE CHINA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e5242"
+    },
+    {
+      "id": 21,
       "name": "RGI BAR E RESTAURANTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5241"
     },
     {
       "id": 5,
       "name": "SENCONSULT LOCAÇÃO DE VEÍCULOS E CONSTRUÇÃO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5235"
+    },
+    {
+      "id": 26,
+      "name": "SERVIA O NACIONAL DE APREND. COMERCIAL",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e150"
     },
     {
       "id": 28,
@@ -223,7 +253,8 @@
       "id": 9,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5238"
     },
     {
       "id": 33,
@@ -232,16 +263,18 @@
       "connectionCount": 1
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "ZAPP PAPELARIA E INFORMATICA EIRELI-EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1212"
     },
     {
       "id": 15,
       "name": "telefonica Brasil S A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     }
   ],
   "links": [
@@ -306,7 +339,7 @@
       "source": 220663,
       "target": 8,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$30.510,34 (35 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 05/02/2025–18/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$31.765,59 (36 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 05/02/2025–18/12/2025)",
       "strength": 1
     },
     {
@@ -370,7 +403,7 @@
       "source": 220663,
       "target": 16,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 25/04/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.143,97 (15 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/02/2025–18/12/2025)",
       "strength": 1
     },
     {
@@ -378,7 +411,7 @@
       "source": 220663,
       "target": 17,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.356,80 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 19/05/2025–18/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 25/04/2025)",
       "strength": 1
     },
     {
@@ -386,7 +419,7 @@
       "source": 220663,
       "target": 18,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.266,58 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.282,06 (21 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -394,7 +427,7 @@
       "source": 220663,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.255,25 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 04/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.090,17 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/09/2025–11/12/2025)",
       "strength": 1
     },
     {
@@ -402,7 +435,7 @@
       "source": 220663,
       "target": 20,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.090,17 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/09/2025–11/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$842,58 (5 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 25/02/2025–03/11/2025)",
       "strength": 1
     },
     {
@@ -410,7 +443,7 @@
       "source": 220663,
       "target": 21,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$842,58 (5 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 25/02/2025–03/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$670,70 (6 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 01/07/2025–03/12/2025)",
       "strength": 1
     },
     {
@@ -418,7 +451,7 @@
       "source": 220663,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$670,70 (6 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 01/07/2025–03/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$582,49 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/04/2025–10/11/2025)",
       "strength": 1
     },
     {
@@ -426,7 +459,7 @@
       "source": 220663,
       "target": 23,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$582,49 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/04/2025–10/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$284,72 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/05/2025–13/11/2025)",
       "strength": 1
     },
     {
@@ -434,7 +467,7 @@
       "source": 220663,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$413,13 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/02/2025–25/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$212,64 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/11/2025)",
       "strength": 1
     },
     {
@@ -442,7 +475,7 @@
       "source": 220663,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$284,72 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/05/2025–13/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$211,00 (2 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 22/04/2025–06/05/2025)",
       "strength": 1
     },
     {
@@ -450,7 +483,7 @@
       "source": 220663,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$214,04 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$190,93 (2 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 23/04/2025–26/11/2025)",
       "strength": 1
     },
     {
@@ -458,7 +491,7 @@
       "source": 220663,
       "target": 27,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$212,64 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$176,95 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/11/2025)",
       "strength": 1
     },
     {

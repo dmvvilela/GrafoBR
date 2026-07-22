@@ -4,14 +4,20 @@
     "egoName": "Luiza Erundina",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.652588Z",
+    "generatedAt": "2026-07-17T04:22:54.019431Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Entre as emendas de 2023 em diante, aparecem R$ 96,4 milhões empenhados e R$ 43,7 milhões pagos em dez áreas, com Saúde como principal. Há R$ 516 mil em despesas de cota e R$ 1,9 milhão em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -22,31 +28,42 @@
       "connectionCount": 40
     },
     {
+      "id": 24,
+      "name": "026 - P WAY - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e28"
+    },
+    {
       "id": 5,
       "name": "ALEXANDRA REGINA LALIER",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9048"
     },
     {
       "id": 19,
       "name": "AUTO POSTO CASTANHEIRAS DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e406"
+    },
+    {
+      "id": 30,
+      "name": "AUTO POSTO CINCO ESTRELAS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e405"
     },
     {
       "id": 10,
       "name": "AUTO POSTO OBJETIVO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9052"
     },
     {
-      "id": 30,
-      "name": "AZUL",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 37,
+      "id": 38,
       "name": "Administração",
       "category": "destino",
       "connectionCount": 1
@@ -61,19 +78,22 @@
       "id": 4,
       "name": "CAMILO BORGES DE CARVALHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9047"
     },
     {
-      "id": 24,
+      "id": 25,
       "name": "CLARO NXT TELECOMUNICAÇÕES S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 22,
       "name": "COOPERTAXI - COOPERATIVA DOS TAXISTAS AUTONOMOS DO DISTRITO FEDERAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2019"
     },
     {
       "id": 33,
@@ -85,7 +105,8 @@
       "id": 16,
       "name": "DJ HOTELARIA S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5636"
     },
     {
       "id": 34,
@@ -97,19 +118,15 @@
       "id": 12,
       "name": "EDUARDO SILVA NOCETTI",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 29,
-      "name": "ENEL - Eletropaulo Metropolitana Eletricidade de São Paulo S. A",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9053"
     },
     {
       "id": 18,
       "name": "ERÁQUITO TAVARES DA SILVA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9057"
     },
     {
       "id": 32,
@@ -118,10 +135,11 @@
       "connectionCount": 1
     },
     {
-      "id": 25,
+      "id": 26,
       "name": "Empresa Folha da Manhã S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e224"
     },
     {
       "id": 40,
@@ -133,49 +151,57 @@
       "id": 14,
       "name": "FLEX MARKETING DIRETO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2838"
     },
     {
-      "id": 26,
+      "id": 27,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9059"
     },
     {
-      "id": 28,
+      "id": 29,
       "name": "HERON ANDRADE MARINHO LMF CONSTRUCOES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9060"
     },
     {
       "id": 8,
       "name": "LOCALIZA RENT A CAR S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e943"
     },
     {
       "id": 20,
       "name": "LOCAWEB SERVICOS DE INTERNET S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e217"
     },
     {
       "id": 3,
       "name": "MARCIA PERRONE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9046"
     },
     {
       "id": 13,
       "name": "MARIANA SOLANO DA SILVA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9054"
     },
     {
       "id": 7,
       "name": "MÍDIA IMÓVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9050"
     },
     {
       "id": 36,
@@ -187,49 +213,57 @@
       "id": 17,
       "name": "PAPEIS E PAPELARIA O GRANDE SAO PAULO LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9056"
     },
     {
       "id": 1,
       "name": "PARTIDO SOCIALISMO E LIBERDADE (P-SOL)",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3266"
     },
     {
       "id": 2,
       "name": "PARTIDO SOCIALISMO E LIBERDADE - SAO PAULO - SP - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5243"
     },
     {
       "id": 9,
       "name": "PATRICIA YURI CORAZZA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9051"
     },
     {
       "id": 23,
       "name": "POSTO DE COMBUSTIVEL AGUAS CLARAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9058"
     },
     {
-      "id": 27,
+      "id": 28,
       "name": "SABESP - COMPANHIA DE SANEAMENTO BÁSICO DO ESTADO DE SÃO PAULO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e604"
     },
     {
       "id": 21,
       "name": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e142"
     },
     {
       "id": 15,
       "name": "SISTEMAS CONVEX LOCAÇÃO DE PRODUTOS DE INFORMÁTICA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9055"
     },
     {
       "id": 31,
@@ -238,7 +272,7 @@
       "connectionCount": 1
     },
     {
-      "id": 38,
+      "id": 37,
       "name": "Segurança pública",
       "category": "destino",
       "connectionCount": 1
@@ -247,13 +281,15 @@
       "id": 6,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9049"
     },
     {
       "id": 11,
       "name": "TELEFONIA BRASIL S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 39,
@@ -452,7 +488,7 @@
       "source": 74784,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.783,52 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 18/01/2025–19/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.944,85 (11 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/02/2025–03/11/2025)",
       "strength": 1
     },
     {
@@ -460,7 +496,7 @@
       "source": 74784,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.341,80 (2 lançamentos; tipo: ASSINATURA DE PUBLICAÇÕES; período: 04/03/2025–02/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.783,52 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 18/01/2025–19/12/2025)",
       "strength": 1
     },
     {
@@ -468,7 +504,7 @@
       "source": 74784,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.950,29 (1 lançamento; tipo: PASSAGEM AÉREA - SIGEPA; período: 17/04/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.341,80 (2 lançamentos; tipo: ASSINATURA DE PUBLICAÇÕES; período: 04/03/2025–02/09/2025)",
       "strength": 1
     },
     {
@@ -476,7 +512,7 @@
       "source": 74784,
       "target": 27,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.850,54 (11 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 08/02/2025–09/01/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.950,29 (1 lançamento; tipo: PASSAGEM AÉREA - SIGEPA; período: 17/04/2025)",
       "strength": 1
     },
     {
@@ -484,7 +520,7 @@
       "source": 74784,
       "target": 28,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.783,98 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 04/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.850,54 (11 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 08/02/2025–09/01/2026)",
       "strength": 1
     },
     {
@@ -492,7 +528,7 @@
       "source": 74784,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.490,66 (11 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 24/01/2025–25/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.783,98 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 04/12/2025)",
       "strength": 1
     },
     {
@@ -500,7 +536,7 @@
       "source": 74784,
       "target": 30,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.454,41 (1 lançamento; tipo: PASSAGEM AÉREA - SIGEPA; período: 11/03/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.643,36 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/02/2025–25/11/2025)",
       "strength": 1
     },
     {
@@ -556,7 +592,7 @@
       "source": 74784,
       "target": 37,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Administração: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.000.000,00 empenhado (3 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -564,7 +600,7 @@
       "source": 74784,
       "target": 38,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Segurança pública: R$1.000.000,00 empenhado (3 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Administração: R$1.000.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {

@@ -4,7 +4,7 @@
     "egoName": "Juninho do Pneu",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.223966Z",
+    "generatedAt": "2026-07-17T04:22:53.434836Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Nos dados de emendas individuais, aparecem R$ 107,1 milhões empenhados e R$ 72,8 milhões pagos em nove áreas, com Saúde como principal. A cota parlamentar soma R$ 469 mil com 25 fornecedores, e a campanha de 2022 recebeu R$ 2,5 milhões.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -23,46 +30,53 @@
       "connectionCount": 40
     },
     {
-      "id": 30,
+      "id": 28,
       "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 10,
       "name": "AGF COMUNICAÇAO INTEGRADA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6323"
     },
     {
       "id": 16,
       "name": "ANGELO FERREIRA MARTINS SOARES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8045"
     },
     {
       "id": 18,
       "name": "AUTO POSTO FG LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8047"
     },
     {
       "id": 22,
       "name": "AUTO POSTO PARADA E DESCANSO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8048"
     },
     {
       "id": 12,
       "name": "AUTO POSTO VIA IGUACU LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8042"
     },
     {
       "id": 4,
       "name": "AVANTE REFORMA DE PNEUS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8035"
     },
     {
       "id": 36,
@@ -71,31 +85,35 @@
       "connectionCount": 1
     },
     {
-      "id": 29,
+      "id": 30,
       "name": "BR GONCALVES EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6227"
     },
     {
       "id": 19,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
-      "id": 28,
+      "id": 25,
       "name": "CLARO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 31,
       "name": "Copiadora Copia Exata LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8053"
     },
     {
-      "id": 38,
+      "id": 37,
       "name": "Cultura",
       "category": "destino",
       "connectionCount": 1
@@ -104,7 +122,8 @@
       "id": 24,
       "name": "D.BUZZ COPORATE E SERVIÇOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8050"
     },
     {
       "id": 34,
@@ -122,7 +141,8 @@
       "id": 23,
       "name": "EMPRESA JORNALISTICACAMINHO NOVO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8049"
     },
     {
       "id": 33,
@@ -140,85 +160,99 @@
       "id": 5,
       "name": "FAMILIA TEIXEIRA ADMINISTRACAO DE BENS PROPRIOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8036"
     },
     {
       "id": 7,
       "name": "GDAY PROJETOS E COMUNICAÇAO VISUAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8038"
     },
     {
       "id": 13,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8043"
     },
     {
-      "id": 25,
+      "id": 26,
       "name": "GOMO COMUNICAÇÂO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e20"
     },
     {
       "id": 14,
       "name": "INFORME DO VALE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8044"
     },
     {
       "id": 3,
       "name": "JOAQUIM TEIXEIRA DE BESSA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8034"
     },
     {
       "id": 6,
       "name": "JUNIOR DE IGUACU LOCACOES DE MAQUINAS E VEICULOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8037"
     },
     {
       "id": 15,
       "name": "LIGHT SERVICOS DE ELETRICIDADE S A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2868"
     },
     {
       "id": 11,
       "name": "LocaBella",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8041"
     },
     {
       "id": 8,
       "name": "Mazevedo Empreendimentos imobiliários EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8039"
     },
     {
       "id": 17,
       "name": "NUI COMUNICAÇÃO E MARKETING LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8046"
+    },
+    {
+      "id": 29,
+      "name": "POSTO DE GASOLINA AMIGAO DA DUTRA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8052"
     },
     {
       "id": 27,
-      "name": "POSTO DE GASOLINA AMIGAO DA DUTRA LTDA",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 26,
       "name": "POSTO DE GASOLINA DO NETINHO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8051"
     },
     {
       "id": 20,
       "name": "SEISELLES DISTRIBUIÇÃO E LOGÍSTICA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1558"
     },
     {
       "id": 32,
@@ -236,10 +270,11 @@
       "id": 9,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8040"
     },
     {
-      "id": 37,
+      "id": 38,
       "name": "Trabalho",
       "category": "destino",
       "connectionCount": 1
@@ -248,19 +283,22 @@
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e687"
     },
     {
       "id": 2,
       "name": "UNIAO BRASIL - RIO DE JANEIRO - RJ - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3572"
     },
     {
       "id": 21,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     }
   ],
   "links": [
@@ -293,7 +331,7 @@
       "source": 204457,
       "target": 4,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 11/12/2006",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 11/12/2006",
       "strength": 1
     },
     {
@@ -301,7 +339,7 @@
       "source": 204457,
       "target": 5,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 10/05/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 10/05/2021",
       "strength": 1
     },
     {
@@ -309,7 +347,7 @@
       "source": 204457,
       "target": 6,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 27/05/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 27/05/2021",
       "strength": 1
     },
     {
@@ -413,7 +451,7 @@
       "source": 204457,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.519,58 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.558,52 (20 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -461,7 +499,7 @@
       "source": 204457,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.300,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 07/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.495,55 (13 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 18/01/2025–19/12/2025)",
       "strength": 1
     },
     {
@@ -469,7 +507,7 @@
       "source": 204457,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.281,30 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/06/2025–11/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.300,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 07/07/2025)",
       "strength": 1
     },
     {
@@ -477,7 +515,7 @@
       "source": 204457,
       "target": 27,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.036,65 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/09/2025–29/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.281,30 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/06/2025–11/12/2025)",
       "strength": 1
     },
     {
@@ -485,7 +523,7 @@
       "source": 204457,
       "target": 28,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.989,95 (10 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 18/01/2025–19/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.048,82 (12 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/02/2025–29/10/2025)",
       "strength": 1
     },
     {
@@ -493,7 +531,7 @@
       "source": 204457,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.904,04 (3 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 05/12/2025–19/02/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.036,65 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/09/2025–29/10/2025)",
       "strength": 1
     },
     {
@@ -501,7 +539,7 @@
       "source": 204457,
       "target": 30,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.598,68 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/02/2025–29/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.904,04 (3 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 05/12/2025–19/02/2026)",
       "strength": 1
     },
     {
@@ -557,7 +595,7 @@
       "source": 204457,
       "target": 37,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Trabalho: R$500.000,00 empenhado, R$495.000,00 pago (1 emenda; 2023)",
+      "description": "Emendas individuais destinadas a Cultura: R$500.000,00 empenhado, R$200.000,00 pago (3 emendas; 2023–2025)",
       "strength": 1
     },
     {
@@ -565,7 +603,7 @@
       "source": 204457,
       "target": 38,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Cultura: R$500.000,00 empenhado, R$200.000,00 pago (3 emendas; 2023–2025)",
+      "description": "Emendas individuais destinadas a Trabalho: R$500.000,00 empenhado, R$495.000,00 pago (1 emenda; 2023)",
       "strength": 1
     },
     {

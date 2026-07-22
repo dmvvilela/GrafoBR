@@ -4,7 +4,7 @@
     "egoName": "Júnior Mano",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.298414Z",
+    "generatedAt": "2026-07-17T04:22:53.537926Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Entre 2023 e os registros mais recentes, aparecem R$ 70,0 milhões empenhados e R$ 68,2 milhões pagos em quatro áreas, com destaque para Saúde. Há R$ 453 mil em despesas da cota parlamentar com 16 fornecedores e R$ 567 mil em doações de campanha em 2022, de 7 doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,16 +27,17 @@
       "id": 204550,
       "name": "Júnior Mano",
       "category": "politician",
-      "connectionCount": 28
+      "connectionCount": 27
     },
     {
       "id": 2,
       "name": "ANTONIO LUIZ RODRIGUES MANO JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8196"
     },
     {
-      "id": 27,
+      "id": 26,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -38,28 +46,32 @@
       "id": 23,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 22,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 11,
       "name": "DALETH VEICULOS LTDA EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e598"
     },
     {
       "id": 20,
       "name": "DFC AGENCIA DE MARKETING E PUBLICIDADE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8209"
     },
     {
-      "id": 28,
+      "id": 27,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
@@ -68,16 +80,18 @@
       "id": 9,
       "name": "ELDORADO COMUNICACAO E JORNALISMO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1939"
     },
     {
       "id": 18,
       "name": "EXIBA COMUNICAÇÃO E MARKETING LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2246"
     },
     {
-      "id": 26,
+      "id": 25,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -86,76 +100,81 @@
       "id": 7,
       "name": "FRANCISCO ALEX LINHARES DO VALE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8201"
     },
     {
       "id": 3,
       "name": "GIORDANNA SILVA BRAGA MANO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8197"
     },
     {
       "id": 8,
       "name": "GJM DISTRIBUIDORA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8202"
     },
     {
       "id": 15,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8205"
     },
     {
       "id": 5,
       "name": "JOAO AMERICO DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8199"
     },
     {
       "id": 21,
       "name": "PARLANET WEB E TECNOLOGIA EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e328"
     },
     {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e129"
     },
     {
       "id": 12,
       "name": "PIBB PARTICIPAÇÕES S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8204"
     },
     {
       "id": 19,
       "name": "PORTAL CEARA ECOMMERCE SERVIÇOS DIGITAIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 24,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8208"
     },
     {
       "id": 16,
       "name": "RÁDIO FM RIO ACARAÚ DE TAMBORIL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8206"
     },
     {
       "id": 13,
       "name": "RÁDIO VALE DO RIO POTY LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3877"
     },
     {
-      "id": 25,
+      "id": 24,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -164,31 +183,36 @@
       "id": 10,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8203"
     },
     {
       "id": 17,
       "name": "TERRAL TAXI AEREO LTDA EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8207"
     },
     {
       "id": 14,
       "name": "UIRAPURU TAXI AEREO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4493"
     },
     {
       "id": 6,
       "name": "VALCELIO ABREU RODRIGUES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8200"
     },
     {
       "id": 4,
       "name": "YVENS WATILA OLIVEIRA DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8198"
     }
   ],
   "links": [
@@ -253,7 +277,7 @@
       "source": 204550,
       "target": 8,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 10/02/2022",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 10/02/2022",
       "strength": 1
     },
     {
@@ -373,15 +397,15 @@
       "source": 204550,
       "target": 23,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$960,32 (10 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$981,38 (19 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
       "id": 24,
       "source": 204550,
       "target": 24,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$21,06 (9 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$35.447.457,00 empenhado, R$34.061.826,00 pago (7 emendas; 2023–2024)",
       "strength": 1
     },
     {
@@ -389,7 +413,7 @@
       "source": 204550,
       "target": 25,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$35.447.457,00 empenhado, R$34.061.826,00 pago (7 emendas; 2023–2024)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$33.551.253,00 empenhado, R$33.551.253,00 pago (2 emendas; 2023–2024)",
       "strength": 1
     },
     {
@@ -397,21 +421,13 @@
       "source": 204550,
       "target": 26,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$33.551.253,00 empenhado, R$33.551.253,00 pago (2 emendas; 2023–2024)",
+      "description": "Emendas individuais destinadas a Assistência social: R$675.841,00 empenhado, R$550.000,00 pago (2 emendas; 2023–2024)",
       "strength": 1
     },
     {
       "id": 27,
       "source": 204550,
       "target": 27,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$675.841,00 empenhado, R$550.000,00 pago (2 emendas; 2023–2024)",
-      "strength": 1
-    },
-    {
-      "id": 28,
-      "source": 204550,
-      "target": 28,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Desporto e lazer: R$300.000,00 empenhado (1 emenda; 2024)",
       "strength": 1

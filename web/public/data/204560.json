@@ -4,7 +4,7 @@
     "egoName": "Adolfo Viana",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:33.859796Z",
+    "generatedAt": "2026-07-17T04:22:48.278578Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Entre as emendas de 2023 em diante, aparecem R$ 107,2 milhões empenhados e R$ 101,2 milhões pagos em sete áreas. Constam ainda R$ 468 mil em despesas de cota com 25 fornecedores; a campanha de 2022 recebeu R$ 2,3 milhões de 4 doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -23,61 +30,69 @@
       "connectionCount": 37
     },
     {
+      "id": 29,
+      "name": "025 - SIG - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e28"
+    },
+    {
       "id": 5,
       "name": "A2 PARTICIPACOES LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e161"
     },
     {
       "id": 13,
       "name": "ATA AEROTAXI ABAETE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e169"
     },
     {
       "id": 25,
       "name": "AUTO POSTO 302 SUL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e177"
     },
     {
       "id": 19,
       "name": "AUTO POSTO 303 NORTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e27"
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "AUTO POSTO NM 16 LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 29,
-      "name": "AUTO POSTO NM 16 LTDA - FILIAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e172"
     },
     {
       "id": 30,
       "name": "AUTO POSTO QNO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e181"
     },
     {
-      "id": 20,
+      "id": 21,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e173"
     },
     {
-      "id": 36,
+      "id": 35,
       "name": "Agricultura",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 35,
+      "id": 36,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -86,37 +101,43 @@
       "id": 14,
       "name": "BROAD BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e170"
     },
     {
       "id": 17,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 23,
       "name": "COMPANHIA DE ELETRICIDADE DO ESTADO DA BAHIA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e175"
     },
     {
       "id": 6,
       "name": "CONSUPORTE TRANSPORTES E SERVIÇOS LTDA - EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e162"
     },
     {
       "id": 18,
       "name": "Cia Aérea - TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 3,
       "name": "ELEICAO 2022 JUSMARI TEREZINHA DE SOUZA OLIVEIRA DEPUTADO ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e159"
     },
     {
       "id": 37,
@@ -134,85 +155,99 @@
       "id": 11,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e167"
     },
     {
       "id": 12,
       "name": "JAGUARARI FM LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e168"
     },
     {
       "id": 7,
       "name": "JC DE BRITO ASSESSORIA E COMINICA;'AO ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e163"
     },
     {
       "id": 9,
       "name": "JOAO GLAUCE ALMEIDA ANDREA BRANDAO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e165"
     },
     {
       "id": 2,
       "name": "KARINE DE ALMEIDA QUEIROZ",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e158"
     },
     {
       "id": 27,
       "name": "MANOEL CASSIO DE SOUZA GUEDES ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e179"
     },
     {
       "id": 15,
       "name": "MARIANGELA CALIL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e171"
     },
     {
       "id": 22,
       "name": "NENENS CHOPP POSTO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e174"
     },
     {
       "id": 10,
       "name": "ONIX IMOB LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e166"
     },
     {
       "id": 1,
       "name": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e157"
     },
     {
       "id": 4,
       "name": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA - BAHIA - BA - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e160"
     },
     {
       "id": 26,
       "name": "POSTO DE COMBUSTIVEIS 309 SUL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e178"
     },
     {
       "id": 28,
       "name": "POSTO DE COMBUSTIVEL GUERREIRINHO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e180"
     },
     {
       "id": 24,
       "name": "POSTO SANTO EXPEDITO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e176"
     },
     {
       "id": 31,
@@ -230,13 +265,15 @@
       "id": 8,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e164"
     },
     {
       "id": 16,
       "name": "TELEFONIA BRASIL S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 33,
@@ -283,7 +320,7 @@
       "source": 204560,
       "target": 5,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 28/09/2012",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 28/09/2012",
       "strength": 1
     },
     {
@@ -379,7 +416,7 @@
       "source": 204560,
       "target": 17,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.714,80 (35 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.733,84 (44 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -403,7 +440,7 @@
       "source": 204560,
       "target": 20,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.943,09 (2 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 25/03/2025–23/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.237,17 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/04/2025–09/08/2025)",
       "strength": 1
     },
     {
@@ -411,7 +448,7 @@
       "source": 204560,
       "target": 21,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.879,61 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/04/2025–09/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.943,09 (2 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 25/03/2025–23/07/2025)",
       "strength": 1
     },
     {
@@ -475,7 +512,7 @@
       "source": 204560,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$357,56 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/04/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$359,50 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 05/02/2025–08/12/2025)",
       "strength": 1
     },
     {
@@ -523,7 +560,7 @@
       "source": 204560,
       "target": 35,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$300.000,00 empenhado, R$300.000,00 pago (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Agricultura: R$300.000,00 empenhado, R$286.500,00 pago (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -531,7 +568,7 @@
       "source": 204560,
       "target": 36,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Agricultura: R$300.000,00 empenhado, R$286.500,00 pago (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Assistência social: R$300.000,00 empenhado, R$300.000,00 pago (1 emenda; 2024)",
       "strength": 1
     },
     {

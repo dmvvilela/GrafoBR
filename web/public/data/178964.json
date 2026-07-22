@@ -4,14 +4,20 @@
     "egoName": "Heitor Schuch",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:36.607002Z",
+    "generatedAt": "2026-07-17T04:22:52.545015Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Nos registros de emendas individuais, constam R$ 106,8 milhões empenhados e R$ 79,7 milhões pagos em dez áreas, principalmente Saúde. Há R$ 474 mil em despesas de cota e R$ 2,6 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -25,31 +31,36 @@
       "id": 20,
       "name": "ADRIANA BORBA FETZNER",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2534"
     },
     {
       "id": 4,
       "name": "ALINE DA SILVA MARIA POLI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6719"
     },
     {
       "id": 2,
       "name": "ANSELMO PIOVESAN",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6717"
     },
     {
       "id": 25,
       "name": "AUTOLOCADORA BONAUTO LOCALIZE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6738"
     },
     {
       "id": 26,
       "name": "AUTOSUL LOCADORA DE VEÍCULOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5942"
     },
     {
       "id": 48,
@@ -64,49 +75,55 @@
       "connectionCount": 1
     },
     {
+      "id": 37,
+      "name": "CAMAQUA NORTE",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e324"
+    },
+    {
       "id": 27,
       "name": "CASSIO PEGORARO",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 34,
-      "name": "CELULAR FUNCIONAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6739"
     },
     {
       "id": 42,
       "name": "CLIC CAMAQUA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6748"
     },
     {
       "id": 29,
       "name": "CREDITO REAL, IMO. E CONDOMÍNIOS SA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2169"
     },
     {
-      "id": 32,
+      "id": 30,
       "name": "Canva",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 35,
       "name": "Cia Aérea - TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
-      "id": 55,
+      "id": 54,
       "name": "Comércio e serviços",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 54,
+      "id": 55,
       "name": "Cultura",
       "category": "destino",
       "connectionCount": 1
@@ -115,7 +132,8 @@
       "id": 5,
       "name": "DIEGO KIEFER MOREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6720"
     },
     {
       "id": 53,
@@ -127,31 +145,36 @@
       "id": 6,
       "name": "EGON SCHNEIDER",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6721"
     },
     {
       "id": 23,
       "name": "ELF Locadora de Veículos Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e361"
     },
     {
       "id": 7,
       "name": "ELOI JOSE ALVES RODRIGUES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6722"
     },
     {
       "id": 19,
       "name": "ENIO CARLOS KLAFKE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6734"
     },
     {
       "id": 8,
       "name": "ENOQUE DE ASSUNCAO GOMES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6723"
     },
     {
       "id": 51,
@@ -169,79 +192,92 @@
       "id": 9,
       "name": "FABIANO RODRIGO DUPONT",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6724"
     },
     {
-      "id": 33,
+      "id": 34,
       "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 21,
       "name": "FORTE AGENCIA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6735"
     },
     {
       "id": 10,
       "name": "GABRIELA FERNANDES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6725"
     },
     {
       "id": 3,
       "name": "GILMAR KUSTER MATOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6718"
     },
     {
-      "id": 31,
+      "id": 33,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6742"
     },
     {
       "id": 24,
       "name": "GRAFICA E EDITORA IMAGEM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6737"
     },
     {
       "id": 18,
       "name": "ILICA JACINTA SCHMIDT GOECKS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6733"
     },
     {
       "id": 28,
       "name": "IMOBILIARIA BENDER LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6740"
     },
     {
       "id": 11,
       "name": "ISABEL CRISTIANE DA SILVA GOMES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6726"
     },
     {
       "id": 12,
       "name": "JAIME DA ROSA IGNACIO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6727"
     },
     {
       "id": 13,
       "name": "LUIZ CLEO FERREIRA CHAXIM",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6728"
     },
     {
       "id": 14,
       "name": "MARLENE ALVES COSTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6729"
     },
     {
       "id": 52,
@@ -253,79 +289,92 @@
       "id": 1,
       "name": "PARTIDO SOCIALISTA BRASILEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1841"
     },
     {
-      "id": 37,
+      "id": 32,
       "name": "PERSPECTIVA COMUNICACOES LTDA - Arauto FM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6741"
     },
     {
       "id": 15,
       "name": "PIETRO QUILIAO GERSON",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6730"
     },
     {
       "id": 45,
       "name": "RADIO GERACAO FM LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6751"
     },
     {
       "id": 39,
       "name": "RADIO SAO ROQUE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6745"
     },
     {
       "id": 16,
       "name": "RENATO PINHEIRO SOARES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6731"
     },
     {
       "id": 44,
       "name": "Radio Emissora Fandango Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6750"
     },
     {
       "id": 36,
       "name": "RÁDIO AGUDO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6743"
     },
     {
       "id": 40,
       "name": "RÁDIO ENCANTADO AM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6746"
     },
     {
       "id": 38,
       "name": "RÁDIO TRIÂNGULO FM LTDA - SORRISO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6744"
     },
     {
       "id": 43,
       "name": "Rádio Terra FM de Venâncio Aires Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6749"
     },
     {
       "id": 17,
       "name": "SANDRO DILAMAR DE BITTENCOURT",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6732"
     },
     {
       "id": 41,
       "name": "SOCIEDADE RADIO INTEGRACAO LTDA - Radio Integração Restinga Seca",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6747"
     },
     {
       "id": 46,
@@ -337,13 +386,15 @@
       "id": 22,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6736"
     },
     {
-      "id": 30,
-      "name": "Telefonica Brasil S.A",
+      "id": 31,
+      "name": "TELEFONIA BRASIL S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 50,
@@ -590,7 +641,7 @@
       "source": 178964,
       "target": 30,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8.884,51 (33 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 01/01/2025–28/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$15.591,78 (41 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR)",
       "strength": 1
     },
     {
@@ -598,7 +649,7 @@
       "source": 178964,
       "target": 31,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8.008,52 (7 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 01/02/2025–02/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$12.314,95 (47 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 01/01/2025–28/12/2025)",
       "strength": 1
     },
     {
@@ -606,7 +657,7 @@
       "source": 178964,
       "target": 32,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.980,27 (20 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 09/03/2025–16/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.351,70 (15 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 01/04/2025–15/12/2025)",
       "strength": 1
     },
     {
@@ -614,7 +665,7 @@
       "source": 178964,
       "target": 33,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.900,06 (10 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/03/2025–02/01/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8.008,52 (7 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 01/02/2025–02/07/2025)",
       "strength": 1
     },
     {
@@ -622,7 +673,7 @@
       "source": 178964,
       "target": 34,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.599,48 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.900,06 (10 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/03/2025–02/01/2026)",
       "strength": 1
     },
     {
@@ -646,7 +697,7 @@
       "source": 178964,
       "target": 37,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.776,70 (10 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 01/04/2025–04/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.216,57 (25 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/01/2025–29/12/2025)",
       "strength": 1
     },
     {
@@ -782,7 +833,7 @@
       "source": 178964,
       "target": 54,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Cultura: R$200.000,00 empenhado (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$200.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -790,7 +841,7 @@
       "source": 178964,
       "target": 55,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Comércio e serviços: R$200.000,00 empenhado (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Cultura: R$200.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     }
   ]

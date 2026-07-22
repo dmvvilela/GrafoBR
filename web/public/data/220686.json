@@ -4,7 +4,7 @@
     "egoName": "Duarte Jr.",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:35.782678Z",
+    "generatedAt": "2026-07-17T04:22:51.327163Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "As emendas individuais registram R$ 73,1 milhões empenhados e R$ 72,6 milhões pagos em três áreas, com destaque para Encargos especiais. Constam R$ 476 mil em despesas de cota e R$ 2,2 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,82 +27,93 @@
       "id": 220686,
       "name": "Duarte Jr.",
       "category": "politician",
-      "connectionCount": 39
+      "connectionCount": 38
     },
     {
       "id": 20,
       "name": "A.C SOUSA GALENO - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4926"
     },
     {
       "id": 4,
       "name": "ANTONIO PASSOS DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4912"
     },
     {
       "id": 27,
       "name": "AP2 TECNOLOGIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4930"
     },
     {
       "id": 13,
       "name": "APPCIVICO CONSULTORIA LTDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1109"
     },
     {
       "id": 22,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4927"
     },
     {
       "id": 16,
       "name": "Alan Fialho Gandra Filho",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4923"
     },
     {
       "id": 28,
       "name": "CLARO S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e23"
     },
     {
       "id": 33,
       "name": "CLARO S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 26,
       "name": "ELDORADO COMUNICACAO E JORNALISMO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1939"
     },
     {
       "id": 32,
       "name": "EQUATORIAL MARANHÃO DISTRIBUIDORA DE ENERGIA S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e940"
     },
     {
       "id": 5,
       "name": "ERALDO COLINS CARDOZO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4913"
     },
     {
-      "id": 39,
+      "id": 38,
       "name": "Educação",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 37,
+      "id": 36,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -104,112 +122,130 @@
       "id": 23,
       "name": "FAGULHA PROMO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4928"
     },
     {
       "id": 6,
       "name": "FRANCIVALDO DE SENA LIMA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4914"
     },
     {
       "id": 24,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4929"
     },
     {
       "id": 2,
       "name": "HILDELIS SILVA DUARTE JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4910"
     },
     {
       "id": 14,
       "name": "INSTITUTO MERITO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4921"
     },
     {
       "id": 30,
       "name": "INTELIG",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1104"
     },
     {
       "id": 7,
       "name": "JEZABEL SILVA SOUSA FERREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4915"
     },
     {
       "id": 8,
       "name": "JOANA BATISTA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4916"
     },
     {
       "id": 9,
       "name": "JOSE TRINDADE CONCEICAO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4917"
     },
     {
       "id": 18,
       "name": "L&S comunicação",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e875"
     },
     {
       "id": 15,
       "name": "LOCADORA SÃO LUÍS LTDA - EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4922"
     },
     {
       "id": 10,
       "name": "MARINILCE SOARES PEREIRA CONCEICAO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4918"
     },
     {
       "id": 19,
       "name": "NILSON R. DA SILVA EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4925"
     },
     {
       "id": 1,
       "name": "PARTIDO SOCIALISTA BRASILEIRO - MARANHAO - MA - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4909"
     },
     {
       "id": 11,
       "name": "PEDRO PAULO GUTERRES FILHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4919"
     },
     {
       "id": 12,
       "name": "RAFAEL COSTA DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4920"
     },
     {
-      "id": 36,
+      "id": 35,
       "name": "RAMAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 29,
       "name": "STARLINK BRAZIL SERVICOS DE INTERNET LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1256"
     },
     {
-      "id": 38,
+      "id": 37,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -218,43 +254,43 @@
       "id": 17,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 35,
-      "name": "TIM",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4924"
     },
     {
       "id": 3,
       "name": "TUPINAMBA FERREIRA DA SILVA II",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4911"
     },
     {
       "id": 31,
       "name": "TVN SERVIÇOS DE COBRANÇA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4931"
     },
     {
       "id": 34,
       "name": "UBER DO BRASIL TECNOLOGIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e213"
     },
     {
       "id": 25,
       "name": "VIZION GESTAO DE NEGOCIOS EMPRESARIAIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3152"
     },
     {
       "id": 21,
       "name": "WORKING ASSOCIAÇÃO DE INTEGRAÇÃO PROFISSIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2135"
     }
   ],
   "links": [
@@ -367,7 +403,7 @@
       "source": 220686,
       "target": 14,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 30/09/2010",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 30/09/2010",
       "strength": 1
     },
     {
@@ -495,7 +531,7 @@
       "source": 220686,
       "target": 30,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.268,09 (9 lançamentos; tipo: TELEFONIA; período: 02/02/2025–07/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.852,33 (11 lançamentos; tipo: TELEFONIA; período: 02/01/2025–07/12/2025)",
       "strength": 1
     },
     {
@@ -535,15 +571,15 @@
       "source": 220686,
       "target": 35,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$584,24 (2 lançamentos; tipo: TELEFONIA; período: 02/01/2025–02/04/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11,23 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
       "id": 36,
       "source": 220686,
       "target": 36,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11,23 (9 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$36.873.782,00 empenhado, R$36.687.404,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -551,21 +587,13 @@
       "source": 220686,
       "target": 37,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$36.873.782,00 empenhado, R$36.687.404,00 pago (2 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Saúde: R$35.573.786,00 empenhado, R$35.573.786,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     },
     {
       "id": 38,
       "source": 220686,
       "target": 38,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$35.573.786,00 empenhado, R$35.573.786,00 pago (3 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 39,
-      "source": 220686,
-      "target": 39,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Educação: R$700.000,00 empenhado, R$339.226,00 pago (2 emendas; 2024)",
       "strength": 1

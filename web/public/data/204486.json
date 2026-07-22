@@ -4,14 +4,20 @@
     "egoName": "Mauro Benevides Filho",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:38.044268Z",
+    "generatedAt": "2026-07-17T04:22:54.551622Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Os dados públicos registram R$ 107,1 milhões em emendas empenhadas e R$ 100,0 milhões pagos em nove áreas. Há R$ 515 mil em despesas da cota parlamentar com 19 fornecedores e R$ 1,6 milhões em doações de campanha em 2022, de 10 doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -19,16 +25,17 @@
       "id": 204486,
       "name": "Mauro Benevides Filho",
       "category": "politician",
-      "connectionCount": 38
+      "connectionCount": 37
     },
     {
       "id": 22,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9899"
     },
     {
-      "id": 33,
+      "id": 32,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -37,16 +44,18 @@
       "id": 5,
       "name": "CARLOS MAURO BENEVIDES FILHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9883"
     },
     {
       "id": 7,
       "name": "CARLOS MAURO BENEVIDES NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9885"
     },
     {
-      "id": 36,
+      "id": 35,
       "name": "Cultura",
       "category": "destino",
       "connectionCount": 1
@@ -55,10 +64,11 @@
       "id": 11,
       "name": "DELPHOS SERVICOS DE MARKETING E COMUNICACAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9888"
     },
     {
-      "id": 38,
+      "id": 37,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
@@ -67,34 +77,38 @@
       "id": 13,
       "name": "ECLIPSE SERVICOS & LOCACOES EIRELI - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9890"
     },
     {
       "id": 10,
       "name": "ELEICAO 2022 ROBERTO CLAUDIO RODRIGUES BEZERRA GOVERNADOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1268"
     },
     {
       "id": 23,
       "name": "ELLO PUBLICIDADE, CONSULTORIA E ENTRETENIMENTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9900"
     },
     {
-      "id": 28,
+      "id": 27,
       "name": "EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e609"
     },
     {
-      "id": 32,
+      "id": 31,
       "name": "Educação",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 31,
+      "id": 30,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -103,40 +117,46 @@
       "id": 16,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9893"
     },
     {
       "id": 8,
       "name": "JOSE DO EGITO FROTA LOPES FILHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9886"
     },
     {
       "id": 2,
       "name": "JOSE ERIVALDO ARRAES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9880"
     },
     {
       "id": 9,
       "name": "JOSE TEOBALDO MUNIZ",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9887"
     },
     {
       "id": 3,
       "name": "LUIZA MARIA DA SILVEIRA CAMINHA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9881"
     },
     {
       "id": 6,
       "name": "MARISA SANTA CRUZ BENEVIDES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9884"
     },
     {
-      "id": 34,
+      "id": 33,
       "name": "Múltiplo",
       "category": "destino",
       "connectionCount": 1
@@ -145,10 +165,11 @@
       "id": 1,
       "name": "PARTIDO DEMOCRATICO TRABALHISTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e339"
     },
     {
-      "id": 37,
+      "id": 36,
       "name": "Previdência social",
       "category": "destino",
       "connectionCount": 1
@@ -157,40 +178,46 @@
       "id": 21,
       "name": "RADIO FM CAXITORE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9898"
     },
     {
-      "id": 29,
+      "id": 28,
       "name": "RAMAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 17,
       "name": "RICHARD WAGNER OLIVEIRA LEITAO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9894"
     },
     {
       "id": 4,
       "name": "ROSE MARIE MATOS FERREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9882"
     },
     {
       "id": 19,
       "name": "RTV Jaguaribe LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9896"
     },
     {
       "id": 18,
       "name": "SM BRASIL DE COMUNICACAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9895"
     },
     {
-      "id": 30,
+      "id": 29,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -199,22 +226,18 @@
       "id": 14,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9891"
     },
     {
       "id": 24,
       "name": "TIM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1104"
     },
     {
-      "id": 27,
-      "name": "TIM S.A",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 35,
+      "id": 34,
       "name": "Urbanismo",
       "category": "destino",
       "connectionCount": 1
@@ -223,31 +246,36 @@
       "id": 26,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     },
     {
       "id": 25,
       "name": "WTC ADMINISTRAÇÃO E HOTELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9901"
     },
     {
       "id": 20,
       "name": "corporate plaza buziness center",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9897"
     },
     {
       "id": 12,
       "name": "triunfo service ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9889"
     },
     {
       "id": 15,
       "name": "viewclinic ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9892"
     }
   ],
   "links": [
@@ -440,7 +468,7 @@
       "source": 204486,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.015,93 (7 lançamentos; tipo: TELEFONIA; período: 19/01/2025–28/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.488,70 (9 lançamentos; tipo: TELEFONIA; período: 19/01/2025–28/10/2025)",
       "strength": 1
     },
     {
@@ -464,7 +492,7 @@
       "source": 204486,
       "target": 27,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$472,77 (2 lançamentos; tipo: TELEFONIA; período: 07/08/2025–19/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$123,90 (1 lançamento; tipo: SERVIÇOS POSTAIS; período: 29/09/2025)",
       "strength": 1
     },
     {
@@ -472,15 +500,15 @@
       "source": 204486,
       "target": 28,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$123,90 (1 lançamento; tipo: SERVIÇOS POSTAIS; período: 29/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$14,32 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
       "id": 29,
       "source": 204486,
       "target": 29,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$14,32 (9 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$54.337.661,00 empenhado, R$53.418.836,00 pago (5 emendas; 2023–2025)",
       "strength": 1
     },
     {
@@ -488,7 +516,7 @@
       "source": 204486,
       "target": 30,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$54.337.661,00 empenhado, R$53.418.836,00 pago (5 emendas; 2023–2025)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$42.433.477,00 empenhado, R$42.309.718,00 pago (3 emendas; 2023–2025)",
       "strength": 1
     },
     {
@@ -496,7 +524,7 @@
       "source": 204486,
       "target": 31,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$42.433.477,00 empenhado, R$42.309.718,00 pago (3 emendas; 2023–2025)",
+      "description": "Emendas individuais destinadas a Educação: R$3.981.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -504,7 +532,7 @@
       "source": 204486,
       "target": 32,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Educação: R$3.981.000,00 empenhado (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.500.048,00 empenhado, R$3.300.036,00 pago (7 emendas; 2023–2025)",
       "strength": 1
     },
     {
@@ -512,7 +540,7 @@
       "source": 204486,
       "target": 33,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$3.500.048,00 empenhado, R$3.300.036,00 pago (7 emendas; 2023–2025)",
+      "description": "Emendas individuais destinadas a Múltiplo: R$977.502,00 empenhado, R$395.973,00 pago (2 emendas; 2023)",
       "strength": 1
     },
     {
@@ -520,7 +548,7 @@
       "source": 204486,
       "target": 34,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Múltiplo: R$977.502,00 empenhado, R$395.973,00 pago (2 emendas; 2023)",
+      "description": "Emendas individuais destinadas a Urbanismo: R$775.988,00 empenhado, R$301,00 pago (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -528,7 +556,7 @@
       "source": 204486,
       "target": 35,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Urbanismo: R$775.988,00 empenhado, R$301,00 pago (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Cultura: R$400.000,00 empenhado, R$200.000,00 pago (1 emenda; 2023)",
       "strength": 1
     },
     {
@@ -536,21 +564,13 @@
       "source": 204486,
       "target": 36,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Cultura: R$400.000,00 empenhado, R$200.000,00 pago (1 emenda; 2023)",
+      "description": "Emendas individuais destinadas a Previdência social: R$400.000,00 empenhado, R$400.000,00 pago (1 emenda; 2024)",
       "strength": 1
     },
     {
       "id": 37,
       "source": 204486,
       "target": 37,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Previdência social: R$400.000,00 empenhado, R$400.000,00 pago (1 emenda; 2024)",
-      "strength": 1
-    },
-    {
-      "id": 38,
-      "source": 204486,
-      "target": 38,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Desporto e lazer: R$300.000,00 empenhado, R$4.000,00 pago (2 emendas; 2024–2025)",
       "strength": 1

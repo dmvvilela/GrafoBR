@@ -4,7 +4,7 @@
     "egoName": "Arthur Oliveira Maia",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:34.425650Z",
+    "generatedAt": "2026-07-17T04:22:49.013058Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "As emendas individuais registram R$ 107,1 milhões empenhados e R$ 72,5 milhões pagos em sete áreas, principalmente Saúde. Constam R$ 441 mil em despesas de cota e R$ 3,0 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -23,46 +30,53 @@
       "connectionCount": 45
     },
     {
-      "id": 34,
-      "name": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "id": 31,
+      "name": "045 - QL 02 - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 6,
       "name": "AGRICOLA RIO REAL LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1630"
     },
     {
       "id": 5,
       "name": "ARTHUR DE OLIVEIRA MAIA DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1629"
     },
     {
       "id": 7,
       "name": "ATLANTIC PARTICIPACOES LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1631"
     },
     {
       "id": 16,
       "name": "ATLÂNTICO TRANSPORTES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1640"
     },
     {
-      "id": 22,
+      "id": 24,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1645"
     },
     {
       "id": 29,
       "name": "AZUL LINHAS AÉREAS BRASILEIRAS S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e145"
     },
     {
       "id": 42,
@@ -77,28 +91,39 @@
       "connectionCount": 1
     },
     {
-      "id": 21,
+      "id": 23,
       "name": "Bahiana FM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1644"
     },
     {
       "id": 18,
       "name": "CARLOS EDUARDO CASAGRANDE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1373"
+    },
+    {
+      "id": 33,
+      "name": "CEDITUR - COELHO EMPREENDIMENTOS HOTÉIS E TURISMO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e1650"
     },
     {
       "id": 32,
-      "name": "CEDITUR - COELHO EMPREENDIMENTOS HOTÉIS E TURISMO LTDA",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 31,
       "name": "COMPANHIA DE ELETRICIDADE DO ESTADO DA BAHIA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e175"
+    },
+    {
+      "id": 35,
+      "name": "Claro NXT Telecomunicações S.A",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 43,
@@ -116,7 +141,8 @@
       "id": 14,
       "name": "Easy Way Tecnologia e Desenvolvimento de Software LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1638"
     },
     {
       "id": 41,
@@ -128,127 +154,141 @@
       "id": 26,
       "name": "FUNDACAO CULTURAL E EDUCACIONAL BOM JESUS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1646"
     },
     {
       "id": 20,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1643"
     },
     {
-      "id": 36,
+      "id": 37,
       "name": "GUANAMBI COMUNICAÇÃO E EVENTOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1652"
     },
     {
       "id": 30,
       "name": "Geraldo Rocha Teixeira - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1649"
     },
     {
-      "id": 23,
+      "id": 25,
       "name": "Gol Linhas Aereas S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e147"
     },
     {
       "id": 3,
       "name": "HELLEY RIBEIRO NEVES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1627"
     },
     {
       "id": 19,
       "name": "Hotel Tivoli - POJUCA S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1642"
     },
     {
       "id": 15,
       "name": "J. CERQUEIRA E COMPANHIA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1639"
     },
     {
       "id": 8,
       "name": "LAPA DISTRIBUIDORA DE COMB E DERV DO PETROLEO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1632"
     },
     {
-      "id": 33,
+      "id": 34,
       "name": "LIVRAMENTO PALACE HOTEL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1651"
     },
     {
-      "id": 25,
+      "id": 22,
       "name": "LOCALIZA RENT A CAR S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e943"
     },
     {
-      "id": 35,
+      "id": 36,
       "name": "Latam Linhas Aéreas S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 9,
       "name": "MARR EMPREENDIMENTOS IMOBILIARIOS SPE LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1633"
     },
     {
       "id": 10,
       "name": "MIRANTE DA LAPA EMPREENDIMENTOS IMOBILIARIOS SPE LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1634"
     },
     {
       "id": 11,
       "name": "MM LOCACAO DE MAQUINAS E EQUIPAMENTOS LTDA",
       "category": "company",
-      "connectionCount": 1
-    },
-    {
-      "id": 38,
-      "name": "MORUBIXABA HOTELARIA E TURISMO LTDA - ME",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1635"
     },
     {
       "id": 12,
       "name": "MRA EMPREENDIMENTOS E PARTICIPACOES LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1636"
     },
     {
       "id": 2,
       "name": "PAULO MASSAYOSHI MIZOTE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1626"
     },
     {
       "id": 27,
       "name": "RADIO ALVORADA LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1647"
     },
     {
       "id": 28,
       "name": "RB Comunicação",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1648"
     },
     {
-      "id": 37,
+      "id": 38,
       "name": "RÁDIO CULTURA DE GUANAMBI LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1653"
     },
     {
       "id": 39,
@@ -260,31 +300,36 @@
       "id": 17,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1641"
     },
     {
-      "id": 24,
+      "id": 21,
       "name": "TELEFÔNICA BRASIL S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 13,
       "name": "TRESAGE EMPREENDIMENTOS IMOBILIARIOS E PARTICIPACOES S/A",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1637"
     },
     {
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e687"
     },
     {
       "id": 4,
       "name": "UNIAO BRASIL - BAHIA - BA - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1628"
     },
     {
       "id": 40,
@@ -339,7 +384,7 @@
       "source": 160600,
       "target": 6,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 11/04/1994",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 11/04/1994",
       "strength": 1
     },
     {
@@ -347,7 +392,7 @@
       "source": 160600,
       "target": 7,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 13/01/2016",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 13/01/2016",
       "strength": 1
     },
     {
@@ -355,7 +400,7 @@
       "source": 160600,
       "target": 8,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 29/07/1996",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 29/07/1996",
       "strength": 1
     },
     {
@@ -363,7 +408,7 @@
       "source": 160600,
       "target": 9,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (administrador), desde 22/03/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (administrador), desde 22/03/2021",
       "strength": 1
     },
     {
@@ -371,7 +416,7 @@
       "source": 160600,
       "target": 10,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (administrador), desde 26/12/2013",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (administrador), desde 26/12/2013",
       "strength": 1
     },
     {
@@ -379,7 +424,7 @@
       "source": 160600,
       "target": 11,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 22/01/2013",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 22/01/2013",
       "strength": 1
     },
     {
@@ -387,7 +432,7 @@
       "source": 160600,
       "target": 12,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 15/03/2013",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 15/03/2013",
       "strength": 1
     },
     {
@@ -395,7 +440,7 @@
       "source": 160600,
       "target": 13,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 14/05/2012",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 14/05/2012",
       "strength": 1
     },
     {
@@ -459,7 +504,7 @@
       "source": 160600,
       "target": 21,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11.400,00 (3 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 09/01/2025–08/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11.970,98 (24 lançamentos; tipo: TELEFONIA; período: 04/01/2025–04/12/2025)",
       "strength": 1
     },
     {
@@ -467,7 +512,7 @@
       "source": 160600,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11.377,54 (6 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 30/01/2025–01/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11.550,39 (5 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 27/08/2025–10/11/2025)",
       "strength": 1
     },
     {
@@ -475,7 +520,7 @@
       "source": 160600,
       "target": 23,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11.238,28 (6 lançamentos; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 02/06/2025–17/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11.400,00 (3 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 09/01/2025–08/10/2025)",
       "strength": 1
     },
     {
@@ -483,7 +528,7 @@
       "source": 160600,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11.131,39 (22 lançamentos; tipo: TELEFONIA; período: 04/01/2025–04/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11.377,54 (6 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 30/01/2025–01/07/2025)",
       "strength": 1
     },
     {
@@ -491,7 +536,7 @@
       "source": 160600,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8.577,16 (2 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 27/08/2025–13/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11.238,28 (6 lançamentos; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 02/06/2025–17/10/2025)",
       "strength": 1
     },
     {
@@ -539,7 +584,7 @@
       "source": 160600,
       "target": 31,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.850,31 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 10/01/2025–12/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.101,64 (25 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/02/2025–04/12/2025)",
       "strength": 1
     },
     {
@@ -547,7 +592,7 @@
       "source": 160600,
       "target": 32,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.466,00 (14 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 26/01/2025–22/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.850,31 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 10/01/2025–12/12/2025)",
       "strength": 1
     },
     {
@@ -555,7 +600,7 @@
       "source": 160600,
       "target": 33,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.491,90 (9 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 03/02/2025–11/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.466,00 (14 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 26/01/2025–22/09/2025)",
       "strength": 1
     },
     {
@@ -563,7 +608,7 @@
       "source": 160600,
       "target": 34,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.905,07 (16 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/02/2025–04/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.491,90 (9 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 03/02/2025–11/10/2025)",
       "strength": 1
     },
     {
@@ -571,7 +616,7 @@
       "source": 160600,
       "target": 35,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.109,47 (1 lançamento; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 17/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.170,33 (24 lançamentos; tipo: TELEFONIA; período: 22/01/2025–27/12/2025)",
       "strength": 1
     },
     {
@@ -579,7 +624,7 @@
       "source": 160600,
       "target": 36,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.600,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 13/05/2025–18/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.109,47 (1 lançamento; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 17/10/2025)",
       "strength": 1
     },
     {
@@ -587,7 +632,7 @@
       "source": 160600,
       "target": 37,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.500,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 09/01/2025–26/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.600,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 13/05/2025–18/08/2025)",
       "strength": 1
     },
     {
@@ -595,7 +640,7 @@
       "source": 160600,
       "target": 38,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.427,20 (6 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 21/08/2025–25/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.500,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 09/01/2025–26/06/2025)",
       "strength": 1
     },
     {

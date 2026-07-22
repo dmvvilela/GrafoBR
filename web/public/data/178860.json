@@ -4,14 +4,20 @@
     "egoName": "Paulo Azi",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:38.585714Z",
+    "generatedAt": "2026-07-17T04:22:55.325654Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Nos registros de emendas a partir de 2023, constam R$ 106,4 milhões empenhados e R$ 100,9 milhões pagos em seis áreas, com foco em Saúde. Há R$ 530 mil em despesas de cota e R$ 3,0 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -25,31 +31,43 @@
       "id": 12,
       "name": "+MCL PRODUÇÃO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11046"
     },
     {
-      "id": 21,
+      "id": 25,
+      "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e28"
+    },
+    {
+      "id": 20,
       "name": "3L COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e836"
     },
     {
       "id": 10,
       "name": "A B PUBLICIDADE LTDA-ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11045"
     },
     {
-      "id": 16,
+      "id": 15,
       "name": "AIR BP PETROBAHIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3525"
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "AUTO POSTO AEROPORTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e75"
     },
     {
       "id": 33,
@@ -64,22 +82,18 @@
       "connectionCount": 1
     },
     {
-      "id": 15,
-      "name": "CELULAR FUNCIONAL",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
       "id": 5,
       "name": "CONSUPORTE TRANSPORTES E SERVIÇOS LTDA - EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e162"
     },
     {
       "id": 18,
       "name": "Cia Aérea - TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 34,
@@ -91,7 +105,8 @@
       "id": 28,
       "name": "EN COMBUSTIVEL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e845"
     },
     {
       "id": 30,
@@ -103,85 +118,99 @@
       "id": 7,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11043"
     },
     {
       "id": 26,
       "name": "HIPER POSTO CAMINHO DAS ARVORES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2906"
     },
     {
       "id": 11,
       "name": "ITALIA TRANSPORTO AEREO S.P.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 8,
       "name": "LUAN JOAQUIM DE JESUS SANTOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8375"
     },
     {
       "id": 4,
       "name": "M3 Assessoria de Comunicação Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11042"
     },
     {
       "id": 13,
       "name": "MACTRA COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5132"
     },
     {
-      "id": 25,
+      "id": 24,
       "name": "MD COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11047"
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "MEGA POSTO BERIMBAU LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e841"
     },
     {
       "id": 6,
       "name": "MULTIPLICAR E SERVIÇOS LTDA EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1799"
     },
     {
       "id": 14,
       "name": "PACIFICO COMERCIO E SERVICOS DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7712"
     },
     {
       "id": 3,
       "name": "PAULO VELLOSO DANTAS AZI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11041"
     },
     {
       "id": 27,
       "name": "POSTO ALBALONGA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11048"
     },
     {
-      "id": 19,
+      "id": 17,
       "name": "POSTO ALIANCA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e833"
     },
     {
-      "id": 24,
+      "id": 23,
       "name": "POSTO GARIBALDI REV DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e838"
     },
     {
       "id": 29,
@@ -193,25 +222,29 @@
       "id": 9,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11044"
     },
     {
-      "id": 17,
+      "id": 16,
       "name": "TELEFONIA BRASIL S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e687"
     },
     {
       "id": 2,
       "name": "UNIAO BRASIL - BAHIA - BA - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1628"
     },
     {
       "id": 31,
@@ -220,10 +253,11 @@
       "connectionCount": 1
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     }
   ],
   "links": [
@@ -312,7 +346,7 @@
       "source": 178860,
       "target": 11,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$18.207,00 (1 lançamento; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 03/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$26.097,84 (33 lançamentos; tipo: PASSAGEM AÉREA - REEMBOLSO)",
       "strength": 1
     },
     {
@@ -344,7 +378,7 @@
       "source": 178860,
       "target": 15,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.879,56 (23 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.111,90 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/04/2025–29/09/2025)",
       "strength": 1
     },
     {
@@ -352,7 +386,7 @@
       "source": 178860,
       "target": 16,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.111,90 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/04/2025–29/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.150,18 (7 lançamentos; tipo: TELEFONIA; período: 22/01/2025–25/09/2025)",
       "strength": 1
     },
     {
@@ -360,7 +394,7 @@
       "source": 178860,
       "target": 17,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.150,18 (7 lançamentos; tipo: TELEFONIA; período: 22/01/2025–25/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.342,49 (13 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/04/2025–12/12/2025)",
       "strength": 1
     },
     {
@@ -376,7 +410,7 @@
       "source": 178860,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.142,49 (12 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/04/2025–12/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.892,06 (18 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/02/2025–04/12/2025)",
       "strength": 1
     },
     {
@@ -384,7 +418,7 @@
       "source": 178860,
       "target": 20,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.892,06 (18 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/02/2025–04/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.610,58 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/04/2025–04/12/2025)",
       "strength": 1
     },
     {
@@ -392,7 +426,7 @@
       "source": 178860,
       "target": 21,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.610,58 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/04/2025–04/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.159,30 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 20/02/2025–10/12/2025)",
       "strength": 1
     },
     {
@@ -400,7 +434,7 @@
       "source": 178860,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.159,30 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 20/02/2025–10/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$650,00 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/02/2025–02/06/2025)",
       "strength": 1
     },
     {
@@ -408,7 +442,7 @@
       "source": 178860,
       "target": 23,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$650,00 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/02/2025–02/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$600,01 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 15/08/2025–22/09/2025)",
       "strength": 1
     },
     {
@@ -416,7 +450,7 @@
       "source": 178860,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$600,01 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 15/08/2025–22/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$469,87 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/09/2025–02/11/2025)",
       "strength": 1
     },
     {
@@ -424,7 +458,7 @@
       "source": 178860,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$469,87 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/09/2025–02/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$410,20 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 19/05/2025–01/10/2025)",
       "strength": 1
     },
     {

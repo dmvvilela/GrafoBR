@@ -2,10 +2,9 @@
 // deputies, list those deputies (with the amount, when the edge carries one).
 // This is what turns 512 isolated ego-views into an investigative graph — click a
 // supplier and see every deputy that pays it. Writes public/data/_entities.json
-// keyed by the exact node name (names are byte-identical across ego files because
-// they come from the same source rows, so no normalization drift). Supersedes
-// derive-shared.mjs (donors are included here, party committees excluded).
-import { readdir, readFile, writeFile } from "node:fs/promises";
+// keyed by the pipeline-issued opaque entityId. Display names are never identity
+// keys: two people/companies can share a name, and one entity can have variants.
+import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -13,7 +12,6 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const dir = path.resolve(here, "../public/data");
 
 const CATEGORIES = new Set(["donor", "company", "supplier"]);
-const MAX_DEPUTIES = 40; // cap each entity's list; keep the true count separately
 
 function norm(s) {
   return (s || "")
@@ -42,15 +40,11 @@ function brl(desc) {
   return m ? Number(m[1].replace(/\./g, "").replace(",", ".")) : 0;
 }
 
-let meta = {};
-try {
-  const idx = JSON.parse(await readFile(path.join(dir, "index.json"), "utf8"));
-  meta = Object.fromEntries(idx.map((e) => [e.id, { party: e.party, uf: e.uf }]));
-} catch {}
-
-const files = (await readdir(dir)).filter((f) => /^\d+\.json$/.test(f));
-// name -> { name, category, deputies: Map(id -> {id,name,party,uf,amount}) }
-const byName = new Map();
+const idx = JSON.parse(await readFile(path.join(dir, "index.json"), "utf8"));
+const meta = Object.fromEntries(idx.map((e) => [e.id, { party: e.party, uf: e.uf }]));
+const files = idx.map((entry) => `${entry.id}.json`);
+// opaque entityId -> { id, name, category, deputies: Map(...) }
+const byId = new Map();
 
 for (const f of files) {
   const ego = JSON.parse(await readFile(path.join(dir, f), "utf8"));
@@ -58,6 +52,7 @@ for (const f of files) {
   const depName = ego.meta?.egoName;
   for (const n of ego.nodes) {
     if (!CATEGORIES.has(n.category)) continue;
+    if (!n.entityId) continue;
     if (n.category === "donor" && isParty(n.name)) continue;
     // a node can have several incident edges (e.g. socio with no value + despesa/
     // contrato with one); take the largest parsed amount, not just the first edge
@@ -66,9 +61,19 @@ for (const f of files) {
       if (l.source === n.id || l.target === n.id)
         amount = Math.max(amount, brl(l.description));
     }
-    if (!byName.has(n.name))
-      byName.set(n.name, { name: n.name, category: n.category, deputies: new Map() });
-    const rec = byName.get(n.name);
+    if (!byId.has(n.entityId))
+      byId.set(n.entityId, {
+        id: n.entityId,
+        name: n.name,
+        category: n.category,
+        deputies: new Map(),
+      });
+    const rec = byId.get(n.entityId);
+    // Prefer Receita's company label when CEAP and QSA expose different names.
+    if (n.category === "company" && rec.category !== "company") {
+      rec.name = n.name;
+      rec.category = "company";
+    }
     // a deputy might touch the same entity once; keep the larger amount if repeated
     const prev = rec.deputies.get(depId);
     if (!prev || amount > prev.amount)
@@ -84,15 +89,16 @@ for (const f of files) {
 
 const out = {};
 let kept = 0;
-for (const [name, rec] of byName) {
+for (const [entityId, rec] of byId) {
   if (rec.deputies.size < 2) continue;
   kept++;
   const deputies = [...rec.deputies.values()].sort((a, b) => b.amount - a.amount);
-  out[name] = {
+  out[entityId] = {
+    id: entityId,
     name: rec.name,
     category: rec.category,
     count: deputies.length,
-    deputies: deputies.slice(0, MAX_DEPUTIES),
+    deputies,
   };
 }
 

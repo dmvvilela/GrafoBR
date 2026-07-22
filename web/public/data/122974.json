@@ -4,14 +4,20 @@
     "egoName": "Pedro Lucas Fernandes",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:38.749413Z",
+    "generatedAt": "2026-07-17T04:22:55.550302Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Entre as emendas de 2023 em diante, aparecem R$ 107,2 milhões empenhados e R$ 104,4 milhões pagos em cinco áreas, com Saúde em destaque. Constam R$ 588 mil em despesas de cota e R$ 2,8 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -22,52 +28,60 @@
       "connectionCount": 35
     },
     {
-      "id": 22,
-      "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "id": 20,
+      "name": "005 - LAGO SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 10,
       "name": "AMF COMUNICACOES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11362"
     },
     {
       "id": 15,
       "name": "ANNE REBECCA LIMA DOS SANTOS D ECA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11365"
     },
     {
       "id": 30,
       "name": "AUTO POSTO N2 LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7565"
     },
     {
-      "id": 21,
+      "id": 22,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11369"
     },
     {
       "id": 26,
       "name": "BALSAS PREMIER HOTEL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11370"
     },
     {
       "id": 23,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
-      "id": 20,
+      "id": 21,
       "name": "Companhia de Saneamento Ambiental do Maranhão - CAEMA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11368"
     },
     {
       "id": 35,
@@ -79,25 +93,29 @@
       "id": 5,
       "name": "ELEICAO 2022 ABIGAIL CUNHA DE ALMEIDA SOUSA DEPUTADO ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6883"
     },
     {
       "id": 3,
       "name": "ELEICAO 2022 CESAR HENRIQUE SANTOS PIRES DEPUTADO ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6882"
     },
     {
       "id": 4,
       "name": "ELEICAO 2022 HAMILTON NOGUEIRA ARAGAO DEPUTADO ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11359"
     },
     {
       "id": 17,
       "name": "EQUATORIAL MARANHÃO DISTRIBUIDORA DE ENERGIA S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e940"
     },
     {
       "id": 33,
@@ -115,79 +133,92 @@
       "id": 11,
       "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 28,
       "name": "Franere Participações S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e932"
     },
     {
       "id": 14,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11364"
     },
     {
       "id": 8,
       "name": "J C M DE MATOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4235"
     },
     {
       "id": 18,
       "name": "L M BOGEA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11366"
     },
     {
       "id": 24,
       "name": "NEWS SHOPPING PONTA DAREIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10392"
     },
     {
       "id": 25,
-      "name": "NICOLAU DERIVADOS DE PETROLEO LTDAP3",
+      "name": "NICOLAU DERIVADOS DE PETROLEO LTDA P13",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e942"
     },
     {
       "id": 13,
       "name": "PANTANAL VEÍCULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e70"
     },
     {
       "id": 6,
       "name": "PLAURA EMPREENDIMENTOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11360"
     },
     {
       "id": 19,
       "name": "ROGERIO PEREIRA DA SILVA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11367"
     },
     {
       "id": 27,
       "name": "ROMA TRUCK CENTER LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6902"
     },
     {
       "id": 9,
       "name": "SMART VEÍCULOS LTDA-ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2278"
     },
     {
       "id": 12,
       "name": "SOARES ASSESSORIACOMUNICAÇÃO E ESPORTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11363"
     },
     {
       "id": 31,
@@ -205,31 +236,36 @@
       "id": 7,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11361"
     },
     {
       "id": 16,
       "name": "TELEFÔNICA BRASIL S.A. - VIVO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e687"
     },
     {
       "id": 2,
       "name": "UNIAO BRASIL - MARANHAO - MA- ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8116"
     },
     {
       "id": 29,
       "name": "VERDES CAMPOS HOTEL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11371"
     }
   ],
   "links": [
@@ -390,7 +426,7 @@
       "source": 122974,
       "target": 20,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.605,38 (11 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 02/01/2025–01/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.936,96 (28 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 29/01/2025–17/11/2025)",
       "strength": 1
     },
     {
@@ -398,7 +434,7 @@
       "source": 122974,
       "target": 21,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.328,03 (4 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 20/01/2025–23/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.605,38 (11 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 02/01/2025–01/11/2025)",
       "strength": 1
     },
     {
@@ -406,7 +442,7 @@
       "source": 122974,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.205,74 (21 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 29/01/2025–17/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.328,03 (4 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 20/01/2025–23/02/2025)",
       "strength": 1
     },
     {
@@ -414,7 +450,7 @@
       "source": 122974,
       "target": 23,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.727,78 (13 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.780,42 (22 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -430,7 +466,7 @@
       "source": 122974,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.305,42 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/01/2025–28/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.916,66 (9 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/01/2025–09/10/2025)",
       "strength": 1
     },
     {

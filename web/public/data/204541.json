@@ -4,7 +4,7 @@
     "egoName": "Eduardo Bismarck",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:35.821796Z",
+    "generatedAt": "2026-07-17T04:22:51.381063Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Nos registros de emendas individuais a partir de 2023, constam R$ 107,2 milhões empenhados e R$ 103,2 milhões pagos em seis áreas, com Saúde como principal. Registram-se também R$ 2 mil em despesas de cota com 9 fornecedores e R$ 1,3 milhões arrecadados na campanha de 2022, de 5 doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,16 +27,17 @@
       "id": 204541,
       "name": "Eduardo Bismarck",
       "category": "politician",
-      "connectionCount": 25
+      "connectionCount": 23
     },
     {
       "id": 3,
       "name": "ALCEU ANTIMO VEZOZZO FILHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5020"
     },
     {
-      "id": 22,
+      "id": 20,
       "name": "Comércio e serviços",
       "category": "destino",
       "connectionCount": 1
@@ -38,16 +46,18 @@
       "id": 4,
       "name": "DEMOCRATIZE TECNOLOGIA LTDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e283"
     },
     {
       "id": 6,
       "name": "DISALY DISTRIBUIDORA DE ALIMENTOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5021"
     },
     {
-      "id": 25,
+      "id": 23,
       "name": "Defesa nacional",
       "category": "destino",
       "connectionCount": 1
@@ -56,34 +66,38 @@
       "id": 7,
       "name": "EDUARDO BISMARCK SOCIEDADE INDIVIDUAL DE ADVOCACIA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5022"
     },
     {
       "id": 8,
       "name": "EH MAIA BISMARCK CONSULTORIA EIRELI",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5023"
     },
     {
       "id": 5,
       "name": "ELEICAO 2022 ROBERTO CLAUDIO RODRIGUES BEZERRA GOVERNADOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1268"
     },
     {
-      "id": 18,
+      "id": 16,
       "name": "ESTACAO COMERCIO DE PETROLEO E SERVICOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5029"
     },
     {
-      "id": 23,
+      "id": 21,
       "name": "Educação",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 21,
+      "id": 19,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -92,84 +106,82 @@
       "id": 2,
       "name": "GIOVANA DE PAULA CEDRAZ OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5019"
     },
     {
-      "id": 19,
+      "id": 17,
       "name": "GRUPO ORGANICO ALIMENTOS SAUDAVEIS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5030"
     },
     {
       "id": 9,
       "name": "IMA CONSTRUCOES E TERRAPLANAGENS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5024"
     },
     {
-      "id": 17,
+      "id": 15,
       "name": "J.V. COMÉRCIO DE PETRÓLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3886"
     },
     {
       "id": 12,
       "name": "JANGADA COMERCIO DE COMBUSTIVEIS LTDA - AV DA ABOLIÇÃO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5026"
     },
     {
       "id": 10,
       "name": "MB CONSULTORES E ASSOCIADOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5025"
     },
     {
       "id": 1,
       "name": "PARTIDO DEMOCRATICO TRABALHISTA",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 15,
-      "name": "PINDORETAMA COMERCIO DE COMBUSTIVEIS LTDA",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 16,
-      "name": "PRAIA COMERCIO DE PETROLEO",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e339"
     },
     {
       "id": 13,
-      "name": "SOBRAL & PALACIO PETROLEO LTDA",
+      "name": "PINDORETAMA COMERCIO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5027"
     },
     {
       "id": 14,
-      "name": "SOBRAL & PALACIO PETROLEO LTDA",
+      "name": "PRAIA COMERCIO DE PETROLEO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5028"
     },
     {
-      "id": 20,
+      "id": 11,
+      "name": "SOBRAL & PALACIO PETROLEO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e19"
+    },
+    {
+      "id": 18,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 24,
+      "id": 22,
       "name": "Segurança pública",
       "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 11,
-      "name": "sobral & Palacio petroleo LTDA",
-      "category": "supplier",
       "connectionCount": 1
     }
   ],
@@ -219,7 +231,7 @@
       "source": 204541,
       "target": 6,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 13/10/2005",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 13/10/2005",
       "strength": 1
     },
     {
@@ -227,7 +239,7 @@
       "source": 204541,
       "target": 7,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (titular pessoa física), desde 02/10/2017",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (titular pessoa física), desde 02/10/2017",
       "strength": 1
     },
     {
@@ -235,7 +247,7 @@
       "source": 204541,
       "target": 8,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (titular pessoa física), desde 24/03/2015",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (titular pessoa física), desde 24/03/2015",
       "strength": 1
     },
     {
@@ -243,7 +255,7 @@
       "source": 204541,
       "target": 9,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 28/03/2007",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 28/03/2007",
       "strength": 1
     },
     {
@@ -251,7 +263,7 @@
       "source": 204541,
       "target": 10,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 28/04/2008",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 28/04/2008",
       "strength": 1
     },
     {
@@ -259,7 +271,7 @@
       "source": 204541,
       "target": 11,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$520,11 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/11/2025–17/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.068,36 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/01/2025–17/11/2025)",
       "strength": 1
     },
     {
@@ -275,7 +287,7 @@
       "source": 204541,
       "target": 13,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$280,01 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$250,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/01/2025)",
       "strength": 1
     },
     {
@@ -283,7 +295,7 @@
       "source": 204541,
       "target": 14,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$268,24 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/01/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$208,53 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/01/2025)",
       "strength": 1
     },
     {
@@ -291,7 +303,7 @@
       "source": 204541,
       "target": 15,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$250,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/01/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$164,98 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/01/2025)",
       "strength": 1
     },
     {
@@ -299,7 +311,7 @@
       "source": 204541,
       "target": 16,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$208,53 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/01/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$112,79 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/11/2025)",
       "strength": 1
     },
     {
@@ -307,23 +319,23 @@
       "source": 204541,
       "target": 17,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$164,98 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/01/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$44,51 (1 lançamento; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 02/01/2025)",
       "strength": 1
     },
     {
       "id": 18,
       "source": 204541,
       "target": 18,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$112,79 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/11/2025)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$71.764.945,00 empenhado, R$71.126.414,00 pago (10 emendas; 2023–2025)",
       "strength": 1
     },
     {
       "id": 19,
       "source": 204541,
       "target": 19,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$44,51 (1 lançamento; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 02/01/2025)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$31.810.364,00 empenhado, R$31.810.364,00 pago (2 emendas; 2023–2024)",
       "strength": 1
     },
     {
@@ -331,7 +343,7 @@
       "source": 204541,
       "target": 20,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$71.764.945,00 empenhado, R$71.126.414,00 pago (10 emendas; 2023–2025)",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$2.000.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -339,7 +351,7 @@
       "source": 204541,
       "target": 21,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$31.810.364,00 empenhado, R$31.810.364,00 pago (2 emendas; 2023–2024)",
+      "description": "Emendas individuais destinadas a Educação: R$930.950,00 empenhado, R$215.823,00 pago (2 emendas; 2025)",
       "strength": 1
     },
     {
@@ -347,29 +359,13 @@
       "source": 204541,
       "target": 22,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Comércio e serviços: R$2.000.000,00 empenhado (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Segurança pública: R$549.344,00 empenhado (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
       "id": 23,
       "source": 204541,
       "target": 23,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Educação: R$930.950,00 empenhado, R$215.823,00 pago (2 emendas; 2025)",
-      "strength": 1
-    },
-    {
-      "id": 24,
-      "source": 204541,
-      "target": 24,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Segurança pública: R$549.344,00 empenhado (2 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 25,
-      "source": 204541,
-      "target": 25,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Defesa nacional: R$162.905,00 empenhado, R$94.386,00 pago (1 emenda; 2023)",
       "strength": 1

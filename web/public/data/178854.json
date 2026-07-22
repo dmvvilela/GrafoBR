@@ -4,7 +4,7 @@
     "egoName": "Elmar Nascimento",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:35.882085Z",
+    "generatedAt": "2026-07-17T04:22:51.470197Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Desde 2023, constam R$ 106,4 milhões em emendas empenhadas e R$ 95,4 milhões pagos em quatro áreas, com foco em Saúde. Registram-se R$ 350 mil em despesas de cota e R$ 3,1 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,40 +27,45 @@
       "id": 178854,
       "name": "Elmar Nascimento",
       "category": "politician",
-      "connectionCount": 28
+      "connectionCount": 25
     },
     {
-      "id": 23,
+      "id": 21,
       "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 4,
       "name": "AGROPECUARIA CITRUS BAIXIO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5123"
     },
     {
       "id": 11,
       "name": "AIR BP PETROBAHIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3525"
     },
     {
       "id": 6,
       "name": "ATLÂNTICO TRANSPORTES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1640"
     },
     {
-      "id": 16,
+      "id": 17,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5131"
     },
     {
-      "id": 28,
+      "id": 25,
       "name": "Agricultura",
       "category": "destino",
       "connectionCount": 1
@@ -62,28 +74,25 @@
       "id": 13,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 12,
       "name": "COMPANHIA DE ELETRICIDADE DO ESTADO DA BAHIA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e175"
     },
     {
-      "id": 17,
+      "id": 15,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
-      "id": 18,
-      "name": "Claro NXT Telecomunicações S.A",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 27,
+      "id": 24,
       "name": "Direitos da cidadania",
       "category": "destino",
       "connectionCount": 1
@@ -92,10 +101,11 @@
       "id": 2,
       "name": "EDVALDO NILO DE ALMEIDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1067"
     },
     {
-      "id": 26,
+      "id": 23,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -104,70 +114,67 @@
       "id": 9,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5127"
     },
     {
       "id": 10,
       "name": "I DO MARKETING E CONSULTORIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5128"
     },
     {
       "id": 7,
       "name": "ISABELLA CEOLIN DADALTO SOUTO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5125"
     },
     {
-      "id": 20,
+      "id": 18,
       "name": "LOCALIZA RENT A CAR S.A",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 22,
-      "name": "LOCALIZA RENT A CAR SA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e943"
     },
     {
       "id": 19,
       "name": "MACTRA COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5132"
     },
     {
       "id": 5,
       "name": "N2 DISTRIBUIDORA DE BEBIDAS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5124"
     },
     {
       "id": 14,
       "name": "NATHALIA WEST DE MAGALHES LEITE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5129"
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "PANTANAL VEÍCULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e70"
     },
     {
-      "id": 24,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 15,
+      "id": 16,
       "name": "RODRIGO DOS SANTOS TAVARES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5130"
     },
     {
-      "id": 25,
+      "id": 22,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -176,19 +183,22 @@
       "id": 8,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5126"
     },
     {
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e687"
     },
     {
       "id": 3,
       "name": "UNIAO BRASIL - BAHIA - BA - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1628"
     }
   ],
   "links": [
@@ -221,7 +231,7 @@
       "source": 178854,
       "target": 4,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 13/07/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 13/07/2021",
       "strength": 1
     },
     {
@@ -229,7 +239,7 @@
       "source": 178854,
       "target": 5,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 16/06/2005",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 16/06/2005",
       "strength": 1
     },
     {
@@ -293,7 +303,7 @@
       "source": 178854,
       "target": 13,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.894,10 (35 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.907,17 (44 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -309,7 +319,7 @@
       "source": 178854,
       "target": 15,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 31/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.134,31 (24 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 18/01/2025–24/12/2025)",
       "strength": 1
     },
     {
@@ -317,7 +327,7 @@
       "source": 178854,
       "target": 16,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.548,46 (2 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 31/03/2025–03/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 31/08/2025)",
       "strength": 1
     },
     {
@@ -325,7 +335,7 @@
       "source": 178854,
       "target": 17,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.404,71 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 22/01/2025–24/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.548,46 (2 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 31/03/2025–03/06/2025)",
       "strength": 1
     },
     {
@@ -333,7 +343,7 @@
       "source": 178854,
       "target": 18,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.729,60 (12 lançamentos; tipo: TELEFONIA; período: 18/01/2025–19/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.786,80 (2 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 30/01/2025–25/02/2025)",
       "strength": 1
     },
     {
@@ -349,7 +359,7 @@
       "source": 178854,
       "target": 20,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.338,27 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 30/01/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$480,00 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 31/01/2025)",
       "strength": 1
     },
     {
@@ -357,61 +367,37 @@
       "source": 178854,
       "target": 21,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$480,00 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 31/01/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$201,20 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/02/2025)",
       "strength": 1
     },
     {
       "id": 22,
       "source": 178854,
       "target": 22,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$448,53 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 25/02/2025)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$60.614.250,00 empenhado, R$53.514.250,00 pago (8 emendas; 2023–2025)",
       "strength": 1
     },
     {
       "id": 23,
       "source": 178854,
       "target": 23,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$201,20 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/02/2025)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$40.754.243,00 empenhado, R$40.650.865,00 pago (3 emendas; 2023–2025)",
       "strength": 1
     },
     {
       "id": 24,
       "source": 178854,
       "target": 24,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$13,07 (9 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$2.676.547,00 empenhado (3 emendas; 2024–2025)",
       "strength": 1
     },
     {
       "id": 25,
       "source": 178854,
       "target": 25,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$60.614.250,00 empenhado, R$53.514.250,00 pago (8 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 26,
-      "source": 178854,
-      "target": 26,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$40.754.243,00 empenhado, R$40.650.865,00 pago (3 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 27,
-      "source": 178854,
-      "target": 27,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Direitos da cidadania: R$2.676.547,00 empenhado (3 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 28,
-      "source": 178854,
-      "target": 28,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Agricultura: R$2.350.857,00 empenhado, R$1.209.000,00 pago (6 emendas; 2023–2025)",
       "strength": 1

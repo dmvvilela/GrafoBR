@@ -10,7 +10,9 @@ from __future__ import annotations
 import csv
 import hashlib
 import json
+import os
 import re
+import tempfile
 import unicodedata
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -97,6 +99,19 @@ def _format_tse_date(value: Optional[str]) -> Optional[str]:
 def _money(value: float) -> str:
     formatted = f"{value:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
     return f"R${formatted}"
+
+
+def _collected_label(path: str | Path | None, description: str) -> str:
+    """Describe source coverage without pretending a cached build fetched it today."""
+
+    if path:
+        source = Path(path)
+        if source.exists():
+            collected = datetime.fromtimestamp(
+                source.stat().st_mtime, tz=timezone.utc
+            ).strftime("%d/%m/%Y")
+            return f"{description}; coleta local em {collected}"
+    return description
 
 
 _QUALIFICACAO_SOCIO = {
@@ -306,12 +321,16 @@ def _load_tse_receipts(
     rows: list[tuple[str, str, str, Optional[str], float]] = []
     for row in iter_receipts_for_candidates(receipts_zip, candidate_ids):
         donor_doc = _digits(row.get("NR_CPF_CNPJ_DOADOR"))
+        if donor_doc and len(donor_doc) not in {11, 14}:
+            donor_doc = None
         donor_name = (
             row.get("NM_DOADOR_RFB")
             or row.get("NM_DOADOR")
             or "Doador não identificado"
         ).strip()
-        donor_basis = donor_doc or donor_name
+        # Name-only records are safe inside one candidate's graph, but must never
+        # create a cross-politician identity merely because two names are equal.
+        donor_basis = donor_doc or f"{row.get('SQ_CANDIDATO')}:{donor_name}"
         donor_key = _hash_key("donor", donor_basis)
         rows.append(
             (
@@ -499,7 +518,10 @@ def _load_camara_expenses(con: duckdb.DuckDBPyConnection, ceap_file: str | Path)
             if isinstance(supplier_doc, str) and len(supplier_doc) == 14
             else None
         )
-        supplier_basis = supplier_doc or _normalize_name(row["supplier_name"])
+        # Missing-document suppliers stay profile-scoped; display names are not IDs.
+        supplier_basis = supplier_doc or (
+            f"{row['deputy_id']}:{_normalize_name(row['supplier_name'])}"
+        )
         rows.append(
             (
                 row["deputy_id"],
@@ -676,7 +698,10 @@ def expand_ego_network(
                 "name": company_name,
                 "category": "company",
             }
-            description = "Participação societária registrada na base CNPJ/Receita Federal"
+            description = (
+                "Participação societária registrada no snapshot 05/2023 "
+                "da base CNPJ/Receita Federal"
+            )
             qual_label = _QUALIFICACAO_SOCIO.get(str(qualification or "").strip())
             if qual_label:
                 description += f" ({qual_label})"
@@ -708,7 +733,7 @@ def expand_ego_network(
         expense_rows = con.execute(
             """
             select
-              supplier_key,
+              any_value(supplier_key) as supplier_key,
               supplier_cnpj_root,
               any_value(supplier_name) as supplier_name,
               any_value(nullif(expense_type, '')) as sample_expense_type,
@@ -718,7 +743,7 @@ def expand_ego_network(
               max(expense_date) as last_expense_date
             from camara_expenses
             where deputy_id = ?
-            group by supplier_key, supplier_cnpj_root
+            group by coalesce(supplier_cnpj_root, supplier_key), supplier_cnpj_root
             order by total_amount desc nulls last, supplier_name
             limit ?
             """,
@@ -742,11 +767,16 @@ def expand_ego_network(
             supplier_key = (
                 existing_company_key
                 if existing_company_key and existing_company_key in nodes
-                else supplier_hash
+                else (
+                    f"supplier-company:{supplier_cnpj_root}"
+                    if supplier_cnpj_root
+                    else supplier_hash
+                )
             )
             if supplier_key not in nodes:
                 nodes[supplier_key] = {
                     "key": supplier_key,
+                    "entity_key": existing_company_key or supplier_hash,
                     "name": supplier_name or "Fornecedor não identificado",
                     "category": "supplier",
                 }
@@ -837,10 +867,11 @@ def expand_ego_network(
             if distinct_ids and distinct_ids > 1:
                 _EMENDA_AUDIT.append((seed.get("name"), seed.get("uf"), distinct_ids))
                 print(
-                    f"  [emenda-audit] ambiguous author: {seed.get('name')} "
+                    f"  [emenda-audit] OMITTED ambiguous author: {seed.get('name')} "
                     f"({seed.get('uf')}) -> {distinct_ids} CGU author ids",
                     flush=True,
                 )
+                emenda_rows = []
             for funcao, empenhado, pago, n, ano_min, ano_max in emenda_rows:
                 destino_key = f"destino:{_normalize_name(funcao)}"
                 if destino_key not in nodes:
@@ -956,7 +987,12 @@ def expand_ego_network(
     return {"nodes": list(nodes.values()), "links": links}
 
 
-def to_contract(raw_graph: dict[str, Any], seed: dict[str, Any]) -> dict[str, Any]:
+def to_contract(
+    raw_graph: dict[str, Any],
+    seed: dict[str, Any],
+    ctx: Optional[BuildContext] = None,
+    entity_ids: Optional[dict[str, str]] = None,
+) -> dict[str, Any]:
     """Convert a raw graph into the public contract and scrub private keys."""
 
     used_ids = {int(seed["camara_id"])}
@@ -977,15 +1013,21 @@ def to_contract(raw_graph: dict[str, Any], seed: dict[str, Any]) -> dict[str, An
         degree[link["source"]] += 1
         degree[link["target"]] += 1
 
-    nodes = [
-        {
+    entity_ids = entity_ids if entity_ids is not None else {}
+    nodes = []
+    for node in raw_graph["nodes"]:
+        public_node = {
             "id": id_by_key[node["key"]],
             "name": node["name"],
             "category": node["category"],
             "connectionCount": degree[node["key"]],
         }
-        for node in raw_graph["nodes"]
-    ]
+        if node["category"] in {"company", "donor", "supplier"}:
+            entity_key = node.get("entity_key", node["key"])
+            if entity_key not in entity_ids:
+                entity_ids[entity_key] = f"e{len(entity_ids) + 1}"
+            public_node["entityId"] = entity_ids[entity_key]
+        nodes.append(public_node)
     nodes.sort(key=lambda node: (node["id"] != int(seed["camara_id"]), node["name"]))
 
     links = [
@@ -1000,6 +1042,43 @@ def to_contract(raw_graph: dict[str, Any], seed: dict[str, Any]) -> dict[str, An
         for index, link in enumerate(raw_graph["links"], start=1)
     ]
 
+    sources = sorted(
+        {
+            seed.get("chamber", "camara"),
+            *(["tse"] if any(link["connectionType"] == "doacao" for link in raw_graph["links"]) else []),
+            *(["receita"] if any(link["connectionType"] == "socio" for link in raw_graph["links"]) else []),
+            *(["camara_ceap"] if any(link["connectionType"] == "despesa" for link in raw_graph["links"]) else []),
+            *(["transparencia"] if any(link["connectionType"] == "contrato" for link in raw_graph["links"]) else []),
+            *(["cgu_emendas"] if any(link["connectionType"] == "emenda" for link in raw_graph["links"]) else []),
+        }
+    )
+    cache_dir = Path(ctx.cache_dir) if ctx else Path(".cache")
+    coverage_labels = {
+        "camara": _collected_label(
+            cache_dir / "camara" / "deputados-page-1.json",
+            "parlamentares em exercício na consulta",
+        ),
+        "senado": _collected_label(
+            cache_dir / "senado" / "senadores_atual.json",
+            "parlamentares em exercício na consulta",
+        ),
+        "tse": "eleições 2022",
+        "receita": "snapshot 2023-05",
+        "camara_ceap": (
+            f"ano {ctx.ceap_year}"
+            if ctx and ctx.ceap_year
+            else "ano informado no registro"
+        ),
+        "transparencia": _collected_label(
+            ctx.contratos_csv if ctx else None,
+            "histórico disponível na consulta",
+        ),
+        "cgu_emendas": _collected_label(
+            ctx.emendas_csv if ctx else None,
+            "emendas individuais de 2023 em diante",
+        ),
+    }
+
     return {
         "meta": {
             "egoId": int(seed["camara_id"]),
@@ -1009,52 +1088,8 @@ def to_contract(raw_graph: dict[str, Any], seed: dict[str, Any]) -> dict[str, An
             "generatedAt": datetime.now(timezone.utc)
             .isoformat()
             .replace("+00:00", "Z"),
-            "sources": sorted(
-                {
-                    # base source = which house; TSE only when donations exist
-                    seed.get("chamber", "camara"),
-                    *(
-                        ["tse"]
-                        if any(
-                            link["connectionType"] == "doacao"
-                            for link in raw_graph["links"]
-                        )
-                        else []
-                    ),
-                    *(
-                        ["receita"]
-                        if any(
-                            link["connectionType"] == "socio"
-                            for link in raw_graph["links"]
-                        )
-                        else []
-                    ),
-                    *(
-                        ["camara_ceap"]
-                        if any(
-                            link["connectionType"] == "despesa"
-                            for link in raw_graph["links"]
-                        )
-                        else []
-                    ),
-                    *(
-                        ["transparencia"]
-                        if any(
-                            link["connectionType"] == "contrato"
-                            for link in raw_graph["links"]
-                        )
-                        else []
-                    ),
-                    *(
-                        ["cgu_emendas"]
-                        if any(
-                            link["connectionType"] == "emenda"
-                            for link in raw_graph["links"]
-                        )
-                        else []
-                    ),
-                }
-            ),
+            "sources": sources,
+            "sourceCoverage": {source: coverage_labels[source] for source in sources},
             "summary": None,
             "disclaimer": (
                 "Dados públicos. Conexões não são acusações de irregularidade."
@@ -1071,6 +1106,19 @@ def _write_index(output_dir: Union[str, Path], written: list[dict[str, Any]]) ->
     return path
 
 
+def _publish_snapshot(staging_dir: Path, output_dir: Path) -> None:
+    """Publish only after a complete successful build, removing stale profiles."""
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    if not (staging_dir / "index.json").exists():
+        raise RuntimeError("refusing to publish a snapshot without index.json")
+    for path in output_dir.glob("*.json"):
+        if path.stem.isdigit() or path.name == "index.json":
+            path.unlink()
+    for path in staging_dir.glob("*.json"):
+        os.replace(path, output_dir / path.name)
+
+
 def build_all(ctx: Optional[BuildContext] = None) -> int:
     """Orchestrate the Phase 2 build and return count of ego-network files."""
 
@@ -1078,7 +1126,11 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
     _EMENDA_AUDIT.clear()
     con = duckdb.connect(database=":memory:")
     output_dir = Path(ctx.output_dir)
-    output_dir.mkdir(parents=True, exist_ok=True)
+    output_dir.parent.mkdir(parents=True, exist_ok=True)
+    staging = tempfile.TemporaryDirectory(
+        prefix=".grafobr-build-", dir=output_dir.parent
+    )
+    staging_dir = Path(staging.name)
 
     detail_pool = ctx.camara_detail_pool or max(ctx.limit * 10, 50)
     print(f"Fetching Câmara deputies (detail pool: {detail_pool})...", flush=True)
@@ -1120,41 +1172,42 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
 
     selected = con.execute(
         """
-        select m.*
-        from (
+        select
+          d.camara_id,
+          d.name,
+          d.civil_name,
+          d.cpf,
+          d.party,
+          d.uf,
+          d.birth_date,
+          m.sq_candidate,
+          m.ballot_name,
+          m.full_name,
+          m.result
+        from camara_deputies d
+        left join (
           select
-            d.camara_id,
-            d.name,
-            d.civil_name,
-            d.cpf,
-            d.party,
-            d.uf,
-            d.birth_date,
+            d2.camara_id,
             c.sq_candidate,
             c.ballot_name,
             c.full_name,
             c.result
-          from camara_deputies d
+          from camara_deputies d2
           join tse_candidates c
-            on (d.cpf is not null and d.cpf = c.cpf)
+            on (d2.cpf is not null and d2.cpf = c.cpf)
             or (
-              d.cpf is null
-              and d.normalized_name <> ''
-              and d.normalized_name = c.normalized_name
+              d2.cpf is null
+              and d2.normalized_name <> ''
+              and d2.normalized_name = c.normalized_name
             )
           qualify row_number() over (
-            partition by d.camara_id
+            partition by d2.camara_id
             order by
-              case when d.cpf is not null and d.cpf = c.cpf then 0 else 1 end,
+              case when d2.cpf is not null and d2.cpf = c.cpf then 0 else 1 end,
               c.result
           ) = 1
-        ) m
-        join (
-          select sq_candidate, count(*) as receipt_count
-          from tse_receipts
-          group by sq_candidate
-        ) r on r.sq_candidate = m.sq_candidate
-        order by m.name
+        ) m on m.camara_id = d.camara_id
+        order by d.name
         limit ?
         """,
         [ctx.limit],
@@ -1162,10 +1215,10 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
     columns = [column[0] for column in con.description]
     seeds = [dict(zip(columns, row)) for row in selected]
     if not seeds:
-        raise RuntimeError("No matched Câmara deputies had TSE receipt rows")
+        raise RuntimeError("No current Câmara deputies were available")
     if len(seeds) < ctx.limit:
         raise RuntimeError(
-            f"Only found {len(seeds)} deputies with TSE receipts in the first "
+            f"Only found {len(seeds)} current deputies in the first "
             f"{detail_pool} Câmara rows; increase --camara-detail-pool."
         )
 
@@ -1184,10 +1237,13 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
         )
 
     index_rows: list[dict[str, Any]] = []
+    entity_ids: dict[str, str] = {}
     for seed in seeds:
         print(f"Emitting {seed['name']}...", flush=True)
-        ego_network = to_contract(expand_ego_network(con, seed, ctx), seed)
-        path = emit(ego_network, output_dir)
+        ego_network = to_contract(
+            expand_ego_network(con, seed, ctx), seed, ctx, entity_ids
+        )
+        path = emit(ego_network, staging_dir)
         append_index(ego_network, seed, path)
 
     if ctx.include_senators:
@@ -1209,11 +1265,13 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
                 "chamber": "senado",
                 "photo": sen.photo_url,
             }
-            ego_network = to_contract(expand_ego_network(con, seed, ctx), seed)
+            ego_network = to_contract(
+                expand_ego_network(con, seed, ctx), seed, ctx, entity_ids
+            )
             # emit all senators (including the few with no matched emendas — the page
             # shows an explicit empty state) so the directory matches "todos os senadores"
             print(f"Emitting {sen.name} (Senado)...", flush=True)
-            path = emit(ego_network, output_dir)
+            path = emit(ego_network, staging_dir)
             append_index(ego_network, seed, path)
             if len(ego_network["links"]) > 0:
                 emitted += 1
@@ -1231,6 +1289,8 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
     else:
         print("[emenda-audit] no ambiguous emenda authors after UF filter.", flush=True)
 
-    _write_index(output_dir, index_rows)
+    _write_index(staging_dir, index_rows)
+    _publish_snapshot(staging_dir, output_dir)
+    staging.cleanup()
     con.close()
     return len(index_rows)

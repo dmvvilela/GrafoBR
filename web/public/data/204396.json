@@ -4,7 +4,7 @@
     "egoName": "Vermelho",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:39.892574Z",
+    "generatedAt": "2026-07-17T04:22:57.061802Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Os dados de emendas individuais mostram R$ 107,2 milhões empenhados e R$ 99,3 milhões pagos em cinco áreas, principalmente Saúde. A cota parlamentar registra R$ 554 mil com 25 fornecedores, e a campanha de 2022 arrecadou R$ 2,8 milhões.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,37 +33,43 @@
       "id": 10,
       "name": "32.094.326 ROBERTO PEIXOTO DE ARAUJO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13712"
     },
     {
       "id": 4,
       "name": "3FRONT COMUNICACAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13706"
     },
     {
       "id": 6,
       "name": "55.715.006 JOAO ADELINO DE SOUZA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13708"
     },
     {
-      "id": 18,
+      "id": 19,
       "name": "AUTO POSTO 303 NORTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e27"
     },
     {
       "id": 14,
       "name": "AUTO POSTO SUL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11188"
     },
     {
       "id": 8,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13710"
     },
     {
       "id": 32,
@@ -68,37 +81,43 @@
       "id": 16,
       "name": "CAROLINE CANAL DE SOUZA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1343"
     },
     {
-      "id": 21,
+      "id": 22,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 28,
       "name": "Cia Aérea - AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e145"
     },
     {
-      "id": 20,
+      "id": 21,
       "name": "Condomínio Empresarial Pedro Basso",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13718"
     },
     {
       "id": 27,
       "name": "Copel Distribuição S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4360"
     },
     {
       "id": 9,
       "name": "DUMOND ADMINISTRADORA DE BENS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13711"
     },
     {
       "id": 33,
@@ -107,10 +126,11 @@
       "connectionCount": 1
     },
     {
-      "id": 22,
+      "id": 23,
       "name": "EDITORA NOVAPRESS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8828"
     },
     {
       "id": 31,
@@ -128,79 +148,92 @@
       "id": 25,
       "name": "GDIA JORNAIS E INFORMAÇÃO EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13720"
     },
     {
       "id": 13,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13715"
     },
     {
       "id": 7,
       "name": "IMOBILIÁRIA APLICAR LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13709"
     },
     {
       "id": 3,
       "name": "NELSI COGUETTO MARIA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13705"
     },
     {
       "id": 15,
       "name": "PARLANET WEB E TECNOLOGIA EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e328"
     },
     {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e129"
     },
     {
       "id": 17,
       "name": "PASSARO COMERCIO DE COMBUSTIVEIS PARA AVIACAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13716"
     },
     {
       "id": 2,
       "name": "PAULO DEOLA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13704"
     },
     {
       "id": 12,
       "name": "RADAR INTELIGENCIA EIRELI EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13714"
     },
     {
       "id": 11,
       "name": "RADIO CULTURA DE FOZ DO IGUAÇU LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13713"
     },
     {
       "id": 26,
       "name": "REDE SALVARO - AUTO POSTO VENDRAMIN LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13721"
     },
     {
       "id": 24,
       "name": "REVISTA 100 FRONTEIRAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13719"
     },
     {
-      "id": 19,
+      "id": 20,
       "name": "SCHAEFER IDEIAS E COMUNICAÇÃO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13717"
     },
     {
       "id": 29,
@@ -212,13 +245,15 @@
       "id": 5,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13707"
     },
     {
-      "id": 23,
+      "id": 18,
       "name": "TELEFONIA BRASIL S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     }
   ],
   "links": [
@@ -243,7 +278,7 @@
       "source": 204396,
       "target": 3,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (titular pessoa física), desde 28/10/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (titular pessoa física), desde 28/10/2021",
       "strength": 1
     },
     {
@@ -363,7 +398,7 @@
       "source": 204396,
       "target": 18,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.880,35 (20 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/01/2025–25/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.937,90 (12 lançamentos; tipo: TELEFONIA; período: 19/01/2025–19/12/2025)",
       "strength": 1
     },
     {
@@ -371,7 +406,7 @@
       "source": 204396,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.500,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 13/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.880,35 (20 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/01/2025–25/11/2025)",
       "strength": 1
     },
     {
@@ -379,7 +414,7 @@
       "source": 204396,
       "target": 20,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.119,82 (5 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 24/01/2025–22/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.500,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 13/08/2025)",
       "strength": 1
     },
     {
@@ -387,7 +422,7 @@
       "source": 204396,
       "target": 21,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.573,15 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.119,82 (5 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 24/01/2025–22/05/2025)",
       "strength": 1
     },
     {
@@ -395,7 +430,7 @@
       "source": 204396,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.500,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 03/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.595,24 (20 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -403,7 +438,7 @@
       "source": 204396,
       "target": 23,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.485,36 (9 lançamentos; tipo: TELEFONIA; período: 19/01/2025–19/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.500,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 03/02/2025)",
       "strength": 1
     },
     {

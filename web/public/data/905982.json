@@ -4,11 +4,15 @@
     "egoName": "Alessandro Vieira",
     "chamber": "senado",
     "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5982.jpg",
-    "generatedAt": "2026-06-23T14:22:40.188485Z",
+    "generatedAt": "2026-07-17T04:22:57.467547Z",
     "sources": [
       "cgu_emendas",
       "senado"
     ],
+    "sourceCoverage": {
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "senado": "parlamentares em exercício na consulta; coleta local em 06/06/2026"
+    },
     "summary": "Nos dados públicos desde 2023, há R$ 195,5 milhões em emendas empenhadas e R$ 151,0 milhões pagos em doze áreas. Saúde aparece como principal destinação.",
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
@@ -50,7 +54,7 @@
       "connectionCount": 1
     },
     {
-      "id": 11,
+      "id": 12,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
@@ -74,7 +78,7 @@
       "connectionCount": 1
     },
     {
-      "id": 12,
+      "id": 11,
       "name": "Organização agrária",
       "category": "destino",
       "connectionCount": 1
@@ -178,7 +182,7 @@
       "source": 905982,
       "target": 11,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$200.000,00 empenhado (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Organização agrária: R$200.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -186,7 +190,7 @@
       "source": 905982,
       "target": 12,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Organização agrária: R$200.000,00 empenhado (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

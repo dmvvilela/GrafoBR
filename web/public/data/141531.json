@@ -4,7 +4,7 @@
     "egoName": "Rodrigo de Castro",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:39.281196Z",
+    "generatedAt": "2026-07-17T04:22:56.286043Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Os dados públicos indicam R$ 107,2 milhões em emendas empenhadas e R$ 100,6 milhões pagos em sete áreas, com Saúde em destaque. A cota parlamentar soma R$ 435 mil e a campanha de 2022 recebeu R$ 2,7 milhões.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,49 +33,57 @@
       "id": 7,
       "name": "#NULO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12556"
     },
     {
       "id": 45,
       "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 12,
       "name": "ARI ALVARES PIRES NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12561"
     },
     {
       "id": 24,
       "name": "ASHER CONSTRUTORA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12573"
     },
     {
       "id": 16,
       "name": "ASPEMA-S/C LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12565"
     },
     {
       "id": 17,
       "name": "ASSOCIACAO MINEIRA DE APOIO A INICIATIVAS VOLUNTARIAS SOCIAIS- AMAIVOS",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12566"
     },
     {
       "id": 35,
       "name": "AUTO POSTO 303 NORTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e27"
     },
     {
       "id": 25,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12574"
     },
     {
       "id": 52,
@@ -86,55 +101,64 @@
       "id": 18,
       "name": "BCCA PARTICIPACOES LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12567"
     },
     {
       "id": 33,
       "name": "BELVEDERE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12578"
     },
     {
       "id": 8,
       "name": "CAMILA DE MAGALHAES JUNQUEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12557"
     },
     {
       "id": 19,
       "name": "CASTRO, MENDONCA, URBANO E DE PAULA EMPREENDIMENTOS IMOBILIARIOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12568"
     },
     {
       "id": 38,
       "name": "CEMIG DISTRIBUIÇÃO S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1055"
     },
     {
       "id": 31,
       "name": "CLARO NEXTEL TELECOMUNICAÇÕES S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 5,
       "name": "CLAUDIA BATISTA DE CASTRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12554"
     },
     {
       "id": 43,
       "name": "Cia Aérea - TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 36,
       "name": "Conde & Dell Aringa - Des de Softwares",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1729"
     },
     {
       "id": 54,
@@ -146,7 +170,8 @@
       "id": 9,
       "name": "DANIEL MAGALHAES JUNQUEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12558"
     },
     {
       "id": 53,
@@ -158,13 +183,15 @@
       "id": 41,
       "name": "EMPREENDIMENTOS VIP LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11900"
     },
     {
       "id": 46,
       "name": "ERVALIA AUTO POSTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12581"
     },
     {
       "id": 49,
@@ -176,145 +203,169 @@
       "id": 39,
       "name": "FILIBRAS COMERCIAL IMPORTACAO E EXPORTACAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7013"
     },
     {
       "id": 26,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12575"
     },
     {
       "id": 13,
       "name": "GUSTAVO DA CUNHA PEREIRA VALADARES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12562"
     },
     {
       "id": 23,
       "name": "JAIR VIANA DE ALVARENGA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12572"
     },
     {
       "id": 15,
       "name": "JOAO CARLOS PINHEIRO RODRIGUES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12564"
     },
     {
       "id": 6,
       "name": "JUAN PABLO CORREA GOSSWEILER",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12555"
     },
     {
       "id": 32,
       "name": "LETSROCKET COMUNICAÇÃO DIGITAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1325"
     },
     {
       "id": 3,
       "name": "MARCO ALAN BATISTA DE CASTRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12552"
     },
     {
       "id": 29,
       "name": "MAXIMA ACELERADORA DE PRODUTOS DIGITAIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12576"
     },
     {
       "id": 20,
       "name": "MEDINA FM LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12569"
     },
     {
       "id": 21,
       "name": "MIRANDA E CASTRO EXPLORACAO MINERAL LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12570"
     },
     {
       "id": 22,
       "name": "MIXTECH - COMERCIO E DESENVOLVEDORA DE SOFTWARE LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12571"
     },
     {
       "id": 40,
       "name": "MUNICÍPIO DE BELO HORIZONTE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1765"
     },
     {
       "id": 27,
       "name": "PANTANAL VEÍCULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e70"
     },
     {
       "id": 44,
       "name": "PHOENIX TECNOLOGIA EM SEGURANÇA ELETRÔNICA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12580"
     },
     {
       "id": 42,
       "name": "POSTO CJ LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12579"
     },
     {
       "id": 47,
       "name": "POSTO J A LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5983"
     },
     {
       "id": 34,
       "name": "POSTO PIO XII LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11336"
     },
     {
       "id": 28,
       "name": "RAJA RENT A CAR LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6328"
     },
     {
       "id": 2,
       "name": "RALPH GUSTAVO ROSENBERG WHITAKER CARNEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5642"
     },
     {
       "id": 10,
       "name": "RAQUEL DE MAGALHAES JUNQUEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12559"
     },
     {
       "id": 4,
       "name": "RICARDO VALADARES GONTIJO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12553"
     },
     {
       "id": 14,
       "name": "ROBERTO DIAS DE ANDRADE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12563"
     },
     {
       "id": 11,
       "name": "RODRIGO BATISTA DE CASTRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12560"
     },
     {
       "id": 48,
@@ -326,19 +377,22 @@
       "id": 30,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12577"
     },
     {
       "id": 37,
       "name": "TELEFONICA BRASIL S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e687"
     },
     {
       "id": 51,
@@ -473,7 +527,7 @@
       "source": 141531,
       "target": 16,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 06/06/2000",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 06/06/2000",
       "strength": 1
     },
     {
@@ -481,7 +535,7 @@
       "source": 141531,
       "target": 17,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 25/09/2007",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 25/09/2007",
       "strength": 1
     },
     {
@@ -489,7 +543,7 @@
       "source": 141531,
       "target": 18,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 01/09/2017",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 01/09/2017",
       "strength": 1
     },
     {
@@ -497,7 +551,7 @@
       "source": 141531,
       "target": 19,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 05/03/1998",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 05/03/1998",
       "strength": 1
     },
     {
@@ -505,7 +559,7 @@
       "source": 141531,
       "target": 20,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 15/05/2000",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 15/05/2000",
       "strength": 1
     },
     {
@@ -513,7 +567,7 @@
       "source": 141531,
       "target": 21,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 01/10/2002",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 01/10/2002",
       "strength": 1
     },
     {
@@ -521,7 +575,7 @@
       "source": 141531,
       "target": 22,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 13/01/1997",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 13/01/1997",
       "strength": 1
     },
     {
@@ -641,7 +695,7 @@
       "source": 141531,
       "target": 37,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.968,57 (22 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 14/01/2025–12/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.432,79 (24 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 14/01/2025–12/12/2025)",
       "strength": 1
     },
     {
@@ -705,7 +759,7 @@
       "source": 141531,
       "target": 45,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.489,79 (11 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/02/2025–19/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.730,63 (12 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/02/2025–05/11/2025)",
       "strength": 1
     },
     {

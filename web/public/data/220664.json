@@ -4,7 +4,7 @@
     "egoName": "Guilherme Uchoa",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:36.558054Z",
+    "generatedAt": "2026-07-17T04:22:52.469464Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Entre 2023 e os registros mais recentes, constam R$ 73,4 milhões em emendas empenhadas e R$ 66,9 milhões pagos em quatro áreas, com Saúde em destaque. Há R$ 535 mil em despesas de cota e R$ 1,2 milhão em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,37 +33,50 @@
       "id": 17,
       "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 24,
       "name": "ALBUQUERQUE PNEUS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6640"
     },
     {
       "id": 25,
       "name": "AUTO POSTO CARRETEIRO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1258"
     },
     {
       "id": 32,
       "name": "AUTO POSTO GLOBO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6645"
     },
     {
       "id": 14,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6634"
+    },
+    {
+      "id": 33,
+      "name": "CJCM PETROLEO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e1261"
     },
     {
       "id": 13,
       "name": "CONTRANS TRANSPORTES E LOCACOES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6633"
     },
     {
       "id": 36,
@@ -68,13 +88,15 @@
       "id": 1,
       "name": "DIRETORIO ESTADUAL DO PARTIDO SOCIALISTA BRASILEIRO - PSB",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5232"
     },
     {
       "id": 3,
       "name": "EVA GOES UCHOA CAVALCANTI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6625"
     },
     {
       "id": 37,
@@ -89,142 +111,151 @@
       "connectionCount": 1
     },
     {
-      "id": 16,
+      "id": 18,
       "name": "Facebook Serviços Online do Brasil Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 4,
       "name": "GOES & UCHOA LTDA",
       "category": "company",
-      "connectionCount": 1
-    },
-    {
-      "id": 33,
-      "name": "GOL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6626"
     },
     {
       "id": 2,
       "name": "GUILHERME ARISTOTELES UCHOA CAVALCANTI PESSOA DE MELO JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6624"
     },
     {
       "id": 12,
       "name": "HPE AUTOMOTORES DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e783"
     },
     {
       "id": 10,
       "name": "IMPACTO COMUNICAÇÃO E MARKETING LTDA ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3167"
     },
     {
-      "id": 31,
+      "id": 29,
+      "name": "J A D ARAUJO & CIA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e2552"
+    },
+    {
+      "id": 30,
       "name": "LOCALIZA - MC LOCADORA PETROLINA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6643"
     },
     {
-      "id": 21,
+      "id": 16,
       "name": "LOCALIZA RENT A CAR S.A",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 19,
-      "name": "LOCALIZA RENT A CAR S/A AGENCIA AEROPORTO CONGONHA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e943"
     },
     {
       "id": 5,
       "name": "LOTERIA SONHO MEU LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6627"
     },
     {
       "id": 6,
       "name": "MAPA DA MINA LOTERIA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6628"
     },
     {
       "id": 22,
       "name": "MAXIMA ADMINISTRAÇÃO DE HOTÉIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6638"
     },
     {
       "id": 20,
       "name": "NOBILE SUITES DEL RIO PETROLINA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6637"
     },
     {
-      "id": 30,
+      "id": 28,
       "name": "NOVA EMPREENDIMETNOS HOTELEIROS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6642"
     },
     {
       "id": 9,
       "name": "PEDRO HENRIQUE MENEZES BEZERRA - PMZ CREATIVE STUDIO DE MARKETING LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6631"
+    },
+    {
+      "id": 21,
+      "name": "PETROCAL PETROLEO CAVALCANTI LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e1683"
+    },
+    {
+      "id": 19,
+      "name": "POSTO ENSEADA DO NORTE LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e6636"
     },
     {
       "id": 26,
-      "name": "PETROCAL PETROLEO CAVALCANTI LTDA",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 27,
-      "name": "PETROCAL PETROLEO CAVALCANTI LTDA",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 18,
-      "name": "POSTO ENSEADA DO NORTE LTDA",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 28,
       "name": "POSTO PERIMETRAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6641"
     },
     {
       "id": 7,
       "name": "SHOW DE LOTERIAS CASA LOTERICA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6629"
     },
     {
       "id": 15,
       "name": "SOLU ASSESSORIA EM MARKETING LTDA -- AGÊNCIA DE PUBLICIDADE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6635"
     },
     {
       "id": 8,
       "name": "STAR TURISMO & TRANSPORTE LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6630"
     },
     {
-      "id": 29,
+      "id": 27,
       "name": "STARLINK BRAZIL SERVIÇOS DE INTERNET LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1256"
     },
     {
       "id": 34,
@@ -236,13 +267,22 @@
       "id": 11,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6632"
     },
     {
       "id": 23,
       "name": "TIAGO NUNES DE LIMA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6639"
+    },
+    {
+      "id": 31,
+      "name": "VILA DE GOIANA COMERCIO DE COMBUSTIVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e6644"
     }
   ],
   "links": [
@@ -275,7 +315,7 @@
       "source": 220664,
       "target": 4,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 16/05/1989",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 16/05/1989",
       "strength": 1
     },
     {
@@ -283,7 +323,7 @@
       "source": 220664,
       "target": 5,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 13/03/2007",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 13/03/2007",
       "strength": 1
     },
     {
@@ -291,7 +331,7 @@
       "source": 220664,
       "target": 6,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 24/09/2004",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 24/09/2004",
       "strength": 1
     },
     {
@@ -299,7 +339,7 @@
       "source": 220664,
       "target": 7,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 13/06/2001",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 13/06/2001",
       "strength": 1
     },
     {
@@ -307,7 +347,7 @@
       "source": 220664,
       "target": 8,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 06/10/2003",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 06/10/2003",
       "strength": 1
     },
     {
@@ -371,7 +411,7 @@
       "source": 220664,
       "target": 16,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.700,59 (7 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/06/2025–02/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8.481,98 (3 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 10/02/2025–11/11/2025)",
       "strength": 1
     },
     {
@@ -379,7 +419,7 @@
       "source": 220664,
       "target": 17,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.419,22 (23 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/01/2025–16/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.964,50 (25 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/01/2025–16/12/2025)",
       "strength": 1
     },
     {
@@ -387,7 +427,7 @@
       "source": 220664,
       "target": 18,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.023,34 (18 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/02/2025–30/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.700,59 (7 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/06/2025–02/12/2025)",
       "strength": 1
     },
     {
@@ -395,7 +435,7 @@
       "source": 220664,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.998,02 (2 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 10/02/2025–11/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.023,34 (18 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/02/2025–30/11/2025)",
       "strength": 1
     },
     {
@@ -411,7 +451,7 @@
       "source": 220664,
       "target": 21,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.483,96 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 05/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.748,00 (11 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 22/04/2025–24/11/2025)",
       "strength": 1
     },
     {
@@ -451,7 +491,7 @@
       "source": 220664,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.529,40 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 09/05/2025–24/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.209,09 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/05/2025–13/12/2025)",
       "strength": 1
     },
     {
@@ -459,7 +499,7 @@
       "source": 220664,
       "target": 27,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.460,51 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 22/04/2025–12/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.152,00 (2 lançamentos; tipo: TELEFONIA; período: 26/09/2025–18/10/2025)",
       "strength": 1
     },
     {
@@ -467,7 +507,7 @@
       "source": 220664,
       "target": 28,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.209,09 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/05/2025–13/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.092,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 15/01/2025)",
       "strength": 1
     },
     {
@@ -475,7 +515,7 @@
       "source": 220664,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.152,00 (2 lançamentos; tipo: TELEFONIA; período: 26/09/2025–18/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.038,00 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 23/06/2025–28/11/2025)",
       "strength": 1
     },
     {
@@ -483,7 +523,7 @@
       "source": 220664,
       "target": 30,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.092,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 15/01/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.033,73 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 22/06/2025)",
       "strength": 1
     },
     {
@@ -491,7 +531,7 @@
       "source": 220664,
       "target": 31,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.033,73 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 22/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.009,72 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/05/2025–09/10/2025)",
       "strength": 1
     },
     {
@@ -507,7 +547,7 @@
       "source": 220664,
       "target": 33,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$886,80 (1 lançamento; tipo: PASSAGEM AÉREA - SIGEPA; período: 12/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$908,93 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 22/08/2025–04/11/2025)",
       "strength": 1
     },
     {

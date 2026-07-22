@@ -22,7 +22,7 @@ export function evidenceForConnection(type: ConnectionType): EvidenceLabel {
       confidence: "forte",
       label: "match forte",
       detail:
-        "Ligação societária pareada por CPF mascarado e nome normalizado na base CNPJ.",
+        "Ligação societária pareada por CPF mascarado e nome normalizado no snapshot CNPJ de maio de 2023.",
       className: STYLES.forte,
     };
   }

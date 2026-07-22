@@ -4,7 +4,7 @@
     "egoName": "Félix Mendonça Júnior",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:36.303342Z",
+    "generatedAt": "2026-07-17T04:22:52.101028Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Desde 2023, constam R$ 106,0 milhões em emendas empenhadas e R$ 100,9 milhões pagos em cinco áreas, com Saúde em destaque. Há R$ 510 mil em despesas de cota e R$ 1,4 milhão em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,19 +33,22 @@
       "id": 3,
       "name": "AGROPECUARIA LUA NOVA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6037"
     },
     {
       "id": 4,
       "name": "AGROPECUARIA RIO UNA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6038"
     },
     {
-      "id": 39,
+      "id": 38,
       "name": "AIRFRANCE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6065"
     },
     {
       "id": 44,
@@ -50,55 +60,64 @@
       "id": 17,
       "name": "C&C Comunicação Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6050"
     },
     {
       "id": 34,
       "name": "CARLOS ALBERTO SILVA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6062"
     },
     {
       "id": 5,
       "name": "CIMENTO IRAMAIA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6039"
     },
     {
       "id": 27,
       "name": "COMPANHIA DE ELETRICIDADE DO ESTADO DA BAHIA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e175"
     },
     {
       "id": 6,
       "name": "CONSORCIO FEIRA DE SANTANA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6040"
     },
     {
       "id": 7,
       "name": "CONSORCIO MLC",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6041"
     },
     {
       "id": 8,
       "name": "CONSORCIO TOP MRM",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6042"
     },
     {
       "id": 21,
       "name": "CONTRASTE EDITORA E INDUSTRIA GRAFICA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6054"
     },
     {
       "id": 9,
       "name": "COSTA ANDRADE MRM INCORPORADORA 1 LTDA.",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6043"
     },
     {
       "id": 43,
@@ -110,25 +129,29 @@
       "id": 20,
       "name": "Dilton Roberto Lopes dos Santos Junior",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6053"
     },
     {
       "id": 30,
       "name": "E-Mais Tecnologia e Suprimentos de Informática Eireli",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6059"
     },
     {
       "id": 23,
       "name": "EMMMMANUEL VARGAS LEAL FILHO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6055"
     },
     {
       "id": 29,
       "name": "EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e609"
     },
     {
       "id": 42,
@@ -146,109 +169,134 @@
       "id": 10,
       "name": "FX EMPREENDIMENTOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6044"
     },
     {
       "id": 31,
       "name": "GH Comunicacao Grafica Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6060"
     },
     {
       "id": 25,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6057"
     },
     {
       "id": 22,
       "name": "HERMES LOMANTO VAZ SAMPAIO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 26,
       "name": "HGIG COMERCIO E SERVICOS LTDA - POSTO BTS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6058"
     },
     {
       "id": 15,
       "name": "HPE AUTOMOTORES DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e783"
     },
     {
       "id": 19,
       "name": "LUZEIRO FILMES LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6052"
     },
     {
       "id": 32,
       "name": "Latam Linhas Aéreas S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 28,
       "name": "MELIA BRASIL ADMINISTRACAO HOTELEIRA E COMERCIAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4040"
     },
     {
-      "id": 38,
+      "id": 37,
       "name": "MF PUBLICIDADE & PROPAGANDA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6064"
     },
     {
       "id": 11,
       "name": "MLC EMPREENDIMENTOS LTDA.",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6045"
     },
     {
       "id": 12,
       "name": "NORDESTE FACTORING LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6046"
     },
     {
       "id": 1,
       "name": "PARTIDO DEMOCRATICO TRABALHISTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e339"
     },
     {
       "id": 2,
       "name": "PARTIDO DEMOCRATICO TRABALHISTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6036"
     },
     {
       "id": 13,
       "name": "PATRIMONIAL SOLIMOES LTDA.",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6047"
+    },
+    {
+      "id": 39,
+      "name": "PONTUAL ESPACO PUBLICITARIO LTDA - ME",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e6066"
     },
     {
       "id": 14,
       "name": "RADIO DIFUSORA GRAPIUNA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6048"
     },
     {
       "id": 35,
       "name": "RAMON MARGIOLLE PEREIRA DA SILVA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4328"
     },
     {
       "id": 36,
       "name": "RÁDIO ANDAIÁ",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6063"
     },
     {
       "id": 40,
@@ -260,31 +308,29 @@
       "id": 16,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 37,
-      "name": "TELEFONICA BRASIL S.A",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6049"
     },
     {
       "id": 18,
       "name": "TIAGO CARDOSO MACHADO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6051"
     },
     {
       "id": 33,
       "name": "TONI JUNIOR SANTOS SILVA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6061"
     },
     {
       "id": 24,
       "name": "VL Veículos Ltda - EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6056"
     }
   ],
   "links": [
@@ -309,7 +355,7 @@
       "source": 160666,
       "target": 3,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 27/02/2008",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 27/02/2008",
       "strength": 1
     },
     {
@@ -317,7 +363,7 @@
       "source": 160666,
       "target": 4,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 11/11/2004",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 11/11/2004",
       "strength": 1
     },
     {
@@ -325,7 +371,7 @@
       "source": 160666,
       "target": 5,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 25/05/1995",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 25/05/1995",
       "strength": 1
     },
     {
@@ -333,7 +379,7 @@
       "source": 160666,
       "target": 6,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (administrador), desde 01/08/2008",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (administrador), desde 01/08/2008",
       "strength": 1
     },
     {
@@ -341,7 +387,7 @@
       "source": 160666,
       "target": 7,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (administrador), desde 19/02/2003",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (administrador), desde 19/02/2003",
       "strength": 1
     },
     {
@@ -349,7 +395,7 @@
       "source": 160666,
       "target": 8,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (administrador), desde 17/10/2005",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (administrador), desde 17/10/2005",
       "strength": 1
     },
     {
@@ -357,7 +403,7 @@
       "source": 160666,
       "target": 9,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 24/07/2006",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 24/07/2006",
       "strength": 1
     },
     {
@@ -365,7 +411,7 @@
       "source": 160666,
       "target": 10,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 22/10/2007",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 22/10/2007",
       "strength": 1
     },
     {
@@ -373,7 +419,7 @@
       "source": 160666,
       "target": 11,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (administrador), desde 20/02/2003",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (administrador), desde 20/02/2003",
       "strength": 1
     },
     {
@@ -381,7 +427,7 @@
       "source": 160666,
       "target": 12,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 28/02/2007",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 28/02/2007",
       "strength": 1
     },
     {
@@ -389,7 +435,7 @@
       "source": 160666,
       "target": 13,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (administrador), desde 05/11/2007",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (administrador), desde 05/11/2007",
       "strength": 1
     },
     {
@@ -397,7 +443,7 @@
       "source": 160666,
       "target": 14,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 19/12/2002",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 19/12/2002",
       "strength": 1
     },
     {
@@ -461,7 +507,7 @@
       "source": 160666,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$17.150,79 (15 lançamentos; tipo: TELEFONIA; período: 29/01/2025–28/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$19.556,63 (17 lançamentos; tipo: TELEFONIA; período: 29/01/2025–28/12/2025)",
       "strength": 1
     },
     {
@@ -581,7 +627,7 @@
       "source": 160666,
       "target": 37,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.405,84 (2 lançamentos; tipo: TELEFONIA; período: 29/11/2025–28/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.300,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 25/09/2025–17/12/2025)",
       "strength": 1
     },
     {
@@ -589,7 +635,7 @@
       "source": 160666,
       "target": 38,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.300,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 25/09/2025–17/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.139,02 (1 lançamento; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 23/11/2025)",
       "strength": 1
     },
     {
@@ -597,7 +643,7 @@
       "source": 160666,
       "target": 39,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.139,02 (1 lançamento; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 23/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.000,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 21/08/2025–21/11/2025)",
       "strength": 1
     },
     {

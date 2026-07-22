@@ -4,14 +4,20 @@
     "egoName": "Capitão Alden",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:34.699442Z",
+    "generatedAt": "2026-07-17T04:22:49.378089Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Desde 2023, registram-se R$ 74,2 milhões em emendas empenhadas e R$ 58,3 milhões pagos em sete áreas, com Saúde em destaque. Constam R$ 479 mil em despesas de cota e R$ 807 mil em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -22,64 +28,74 @@
       "connectionCount": 34
     },
     {
-      "id": 14,
-      "name": "028 - AUTO CEI - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "id": 12,
+      "name": "026 - P WAY - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 3,
       "name": "AGÊNCIA BRANDING MARKETING DIRETO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2326"
     },
     {
       "id": 20,
       "name": "ALPHA COMERCIO E DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2337"
     },
     {
       "id": 17,
       "name": "AUTO POSTO AEROPORTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e75"
     },
     {
       "id": 24,
       "name": "AUTO POSTO ANDRADE LTDA - QNN 31",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e989"
     },
     {
       "id": 16,
       "name": "AUTO POSTO CONCORDE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e124"
     },
     {
       "id": 10,
       "name": "BELIZE COMPANY AUTO POSTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2332"
     },
     {
       "id": 4,
       "name": "Bipe Publicidade LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2327"
     },
     {
       "id": 22,
       "name": "COSTA DO ATLANTICO COMERCIO DE PRODUTOS DERIVADOS DO PETROLE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2338"
     },
     {
       "id": 11,
       "name": "Cia Aérea - TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 33,
@@ -103,7 +119,8 @@
       "id": 15,
       "name": "ESTACAO SUL AUTO POSTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2334"
     },
     {
       "id": 29,
@@ -115,91 +132,106 @@
       "id": 8,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2330"
     },
     {
-      "id": 12,
+      "id": 13,
       "name": "HP COMERCIO E DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1383"
     },
     {
       "id": 9,
       "name": "LINA CAROLINA DOS SANTOS MACHADO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2331"
     },
     {
       "id": 27,
       "name": "LR COMERCIO DE PRODUTOS E DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e453"
     },
     {
       "id": 25,
       "name": "NOVA CANDEIAS COMERCIO DE COMBUSTIVEL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1812"
     },
     {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e129"
     },
     {
       "id": 2,
       "name": "PARTIDO LIBERAL - BAHIA - BA - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2325"
     },
     {
       "id": 23,
       "name": "PNH COMERCIO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2339"
     },
     {
-      "id": 13,
+      "id": 14,
       "name": "POSTO ALTO DA SANTA RITA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2333"
     },
     {
       "id": 19,
       "name": "POSTO DE COMBUSTIVEIS CONNECTA CEILANDIA SUL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2336"
     },
     {
       "id": 18,
       "name": "R1 COMERCIO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2335"
     },
     {
       "id": 26,
       "name": "REDE JG BAIXA GRANDE COM&Eacute;RCIO DE COMBUSTIVEIS E LUBRI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2340"
     },
     {
       "id": 5,
       "name": "RIVALENO CARDOSO DE JESUS FILHO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2328"
     },
     {
       "id": 21,
       "name": "RODRIGUES TORRES COMERCIO E DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e834"
     },
     {
       "id": 7,
       "name": "SMART VEÍCULOS LTDA-ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2278"
     },
     {
       "id": 28,
@@ -217,7 +249,8 @@
       "id": 6,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2329"
     },
     {
       "id": 31,
@@ -320,7 +353,7 @@
       "source": 220690,
       "target": 12,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.111,75 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/03/2025–08/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.125,26 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/01/2025–07/10/2025)",
       "strength": 1
     },
     {
@@ -328,7 +361,7 @@
       "source": 220690,
       "target": 13,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$964,82 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 09/03/2025–03/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.111,75 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/03/2025–08/08/2025)",
       "strength": 1
     },
     {
@@ -336,7 +369,7 @@
       "source": 220690,
       "target": 14,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$950,90 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/01/2025–26/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$964,82 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 09/03/2025–03/08/2025)",
       "strength": 1
     },
     {

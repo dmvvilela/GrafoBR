@@ -27,7 +27,7 @@ python scripts/download_cnpj_files.py     # ~2.5GB CNPJ shards (Empresas+Sócios
 gcloud auth application-default login     # for contracts + emendas via BigQuery
 
 # build (donations + socio + contracts + emendas) -> ../data/*.json
-bash scripts/build_all.sh 512             # 512 = current TSE-matched ceiling
+bash scripts/build_all.sh 512             # 512 = current Câmara API population
 
 # sync derived indexes into the site + deploy
 cd ../web && pnpm sync-data && pnpm dev    # predev runs sync-data automatically
@@ -144,7 +144,9 @@ scripts/
 - Sócios are **2023-05** vintage; contracts are **federal-executive only** (no state/municipal).
 - The socio match is **masked-CPF middle-6 + name** — strong, but verify each lead (a rare
   namesake collision is possible). Tightening with UF/birth-year is a TODO.
-- `--limit` must be ≤ the number of TSE-matched deputies (currently **512**), or the build errors.
+- Câmara is authoritative for who gets a profile. TSE is optional enrichment, so a
+  current deputy without a 2022 candidate/receipt match is still emitted with no donation edge.
+- `--limit` must be ≤ the current number returned by Câmara (currently **512**), or the build errors.
 
 ## Cache & cleanup
 All downloads/intermediates live in `.cache/` (**gitignored**). To reclaim disk or rebuild

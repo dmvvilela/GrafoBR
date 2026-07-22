@@ -4,12 +4,14 @@
     "egoName": "Alan Rick",
     "chamber": "senado",
     "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5672.jpg",
-    "generatedAt": "2026-06-23T14:22:40.180162Z",
+    "generatedAt": "2026-07-17T04:22:57.456155Z",
     "sources": [
-      "cgu_emendas",
       "senado"
     ],
-    "summary": "Nos registros de emendas desde 2023, constam R$ 169,1 milhões empenhados e R$ 147,7 milhões pagos em onze áreas. Saúde é apontada como área principal.",
+    "sourceCoverage": {
+      "senado": "parlamentares em exercício na consulta; coleta local em 06/06/2026"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -17,163 +19,8 @@
       "id": 905672,
       "name": "Alan Rick",
       "category": "politician",
-      "connectionCount": 11
-    },
-    {
-      "id": 8,
-      "name": "Agricultura",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 5,
-      "name": "Assistência social",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 6,
-      "name": "Cultura",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 11,
-      "name": "Defesa nacional",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 4,
-      "name": "Desporto e lazer",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 10,
-      "name": "Direitos da cidadania",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 7,
-      "name": "Educação",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 2,
-      "name": "Encargos especiais",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 3,
-      "name": "Organização agrária",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 1,
-      "name": "Saúde",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 9,
-      "name": "Segurança pública",
-      "category": "destino",
-      "connectionCount": 1
+      "connectionCount": 0
     }
   ],
-  "links": [
-    {
-      "id": 1,
-      "source": 905672,
-      "target": 1,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$87.947.141,00 empenhado, R$82.547.202,00 pago (18 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 2,
-      "source": 905672,
-      "target": 2,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$60.396.395,00 empenhado, R$60.157.917,00 pago (17 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 3,
-      "source": 905672,
-      "target": 3,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Organização agrária: R$7.575.259,00 empenhado (3 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 4,
-      "source": 905672,
-      "target": 4,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$4.170.000,00 empenhado, R$41.999,00 pago (3 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 5,
-      "source": 905672,
-      "target": 5,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$3.450.000,00 empenhado, R$1.620.000,00 pago (3 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 6,
-      "source": 905672,
-      "target": 6,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Cultura: R$1.900.000,00 empenhado, R$1.700.000,00 pago (3 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 7,
-      "source": 905672,
-      "target": 7,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Educação: R$1.549.199,00 empenhado, R$900.000,00 pago (4 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 8,
-      "source": 905672,
-      "target": 8,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Agricultura: R$849.237,00 empenhado, R$683.310,00 pago (2 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 9,
-      "source": 905672,
-      "target": 9,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Segurança pública: R$523.741,00 empenhado (2 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 10,
-      "source": 905672,
-      "target": 10,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Direitos da cidadania: R$500.000,00 empenhado (1 emenda; 2025)",
-      "strength": 1
-    },
-    {
-      "id": 11,
-      "source": 905672,
-      "target": 11,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Defesa nacional: R$199.999,00 empenhado, R$14.000,00 pago (1 emenda; 2023)",
-      "strength": 1
-    }
-  ]
+  "links": []
 }

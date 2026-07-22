@@ -4,7 +4,7 @@
     "egoName": "Marcelo Álvaro Antônio",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.802589Z",
+    "generatedAt": "2026-07-17T04:22:54.219464Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Os registros de emendas individuais mostram R$ 107,2 milhões empenhados e R$ 104,3 milhões pagos em oito áreas, com Saúde como principal. A cota parlamentar soma R$ 483 mil com 25 fornecedores, e a campanha de 2022 recebeu R$ 1,0 milhão.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,43 +33,50 @@
       "id": 13,
       "name": "#NULO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9373"
     },
     {
       "id": 22,
       "name": "808000704MCOURA COMBSTÍVEIS DE AVIAÇÃO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8318"
     },
     {
       "id": 24,
       "name": "ANTONIO DA CRUZ FILGUEIRA NETO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 6,
       "name": "ANTONIO MAURICIO SIMOES DIAS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5538"
     },
     {
       "id": 25,
       "name": "ARTPLACAS COMUNICAÇÃO VISUAL LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9383"
     },
     {
       "id": 33,
       "name": "AUTO POSTO BARREIRO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9389"
     },
     {
       "id": 20,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9380"
     },
     {
       "id": 44,
@@ -71,7 +85,7 @@
       "connectionCount": 1
     },
     {
-      "id": 43,
+      "id": 42,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -80,37 +94,43 @@
       "id": 15,
       "name": "BRASIL INSPIRAR LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9375"
     },
     {
       "id": 30,
       "name": "CEMIG DISTRIBUIÇÃO S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1055"
     },
     {
       "id": 31,
       "name": "COMERCIO DE DERIVADOS DE PETROLEO MAJOR LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9387"
     },
     {
       "id": 23,
       "name": "CONDOMINIO DO EDIFICIO CARLA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9382"
     },
     {
-      "id": 39,
+      "id": 38,
       "name": "Claro S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e23"
     },
     {
       "id": 7,
       "name": "DANIEL DINIZ NEPOMUCENO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9367"
     },
     {
       "id": 47,
@@ -119,7 +139,7 @@
       "connectionCount": 1
     },
     {
-      "id": 42,
+      "id": 43,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
@@ -128,7 +148,8 @@
       "id": 11,
       "name": "ETIENE MAIRE COSTA ARTHUSO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9371"
     },
     {
       "id": 41,
@@ -137,130 +158,144 @@
       "connectionCount": 1
     },
     {
-      "id": 37,
+      "id": 36,
       "name": "GARDINUS RESTAURANTE & BUFFET LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9391"
     },
     {
       "id": 27,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9385"
     },
     {
       "id": 21,
       "name": "IVELONE MARIA CAMARGOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9381"
     },
     {
       "id": 3,
       "name": "JOSE FELIPE DINIZ",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9365"
     },
     {
       "id": 17,
       "name": "JOSÉ MURILO PROCÓPIO DE CARVALHO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9377"
     },
     {
       "id": 26,
       "name": "LEAPHAR LOCADORA DE VEICULOS EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9384"
     },
     {
       "id": 5,
       "name": "LUCIA ANGELICA DINIZ NEPOMUCENO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9366"
     },
     {
       "id": 2,
       "name": "MARCELO HENRIQUE TEIXEIRA DIAS",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 35,
-      "name": "MCOURA COMBUSTIVEIS DE AVIACAO LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9364"
     },
     {
       "id": 28,
       "name": "MOVIMENTO SISTEMAS DE GESTAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9386"
     },
     {
       "id": 16,
       "name": "MURICI LOCAÇOES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9376"
     },
     {
       "id": 18,
       "name": "Movizzy Locações Veiculares LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9378"
     },
     {
       "id": 29,
       "name": "ORGANIZACOES NOVO BELVEDERE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8927"
     },
     {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e129"
     },
     {
       "id": 4,
       "name": "PARTIDO LIBERAL - MINAS GERAIS - MG - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8056"
     },
     {
       "id": 34,
       "name": "POSTO ITAPOA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9390"
     },
     {
-      "id": 38,
+      "id": 37,
       "name": "PREFEITURA MUNICIPAL DE PASSOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9392"
     },
     {
       "id": 32,
       "name": "RAFAEL VIEIRA HENRIQUES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9388"
     },
     {
       "id": 10,
       "name": "RICARDO AUGUSTO TEIXEIRA DIAS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9370"
     },
     {
       "id": 12,
       "name": "ROGERIO PINHEIRO VENTURELLI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9372"
     },
     {
-      "id": 36,
+      "id": 35,
       "name": "SERVIA O NACIONAL DE APREND. COMERCIAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e150"
     },
     {
       "id": 40,
@@ -278,13 +313,15 @@
       "id": 19,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9379"
     },
     {
       "id": 9,
       "name": "TERCIO TULIO NUNES MARCATO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9369"
     },
     {
       "id": 45,
@@ -293,16 +330,25 @@
       "connectionCount": 1
     },
     {
+      "id": 39,
+      "name": "VERMONT PLAZA HOTEL",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e9393"
+    },
+    {
       "id": 8,
       "name": "VILMA PENIDO DIAS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9368"
     },
     {
       "id": 14,
       "name": "VOICELIDER SOLUCOES EM TECNOLOGIA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9374"
     }
   ],
   "links": [
@@ -415,7 +461,7 @@
       "source": 179000,
       "target": 14,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 16/05/2007",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 16/05/2007",
       "strength": 1
     },
     {
@@ -479,7 +525,7 @@
       "source": 179000,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$21.195,80 (11 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 13/01/2025–08/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$23.551,80 (13 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 13/01/2025–08/09/2025)",
       "strength": 1
     },
     {
@@ -583,7 +629,7 @@
       "source": 179000,
       "target": 35,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.356,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/05/2025–07/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.109,87 (25 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 05/02/2025–05/11/2025)",
       "strength": 1
     },
     {
@@ -591,7 +637,7 @@
       "source": 179000,
       "target": 36,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.005,67 (22 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 05/02/2025–15/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.997,93 (33 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 23/01/2025–03/11/2025)",
       "strength": 1
     },
     {
@@ -599,7 +645,7 @@
       "source": 179000,
       "target": 37,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.997,93 (33 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 23/01/2025–03/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.785,00 (5 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 01/03/2025–25/05/2025)",
       "strength": 1
     },
     {
@@ -607,7 +653,7 @@
       "source": 179000,
       "target": 38,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.785,00 (5 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 01/03/2025–25/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.287,99 (9 lançamentos; tipo: TELEFONIA; período: 20/02/2025–20/11/2025)",
       "strength": 1
     },
     {
@@ -615,7 +661,7 @@
       "source": 179000,
       "target": 39,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.287,99 (9 lançamentos; tipo: TELEFONIA; período: 20/02/2025–20/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.070,00 (4 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 24/08/2025–02/10/2025)",
       "strength": 1
     },
     {
@@ -639,7 +685,7 @@
       "source": 179000,
       "target": 42,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.000.000,00 empenhado (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.000.000,00 empenhado, R$1.000.000,00 pago (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -647,7 +693,7 @@
       "source": 179000,
       "target": 43,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$1.000.000,00 empenhado, R$1.000.000,00 pago (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.000.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {

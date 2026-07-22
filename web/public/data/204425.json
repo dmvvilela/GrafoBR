@@ -4,7 +4,7 @@
     "egoName": "Silvio Costa Filho",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:39.584311Z",
+    "generatedAt": "2026-07-17T04:22:56.677174Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,6 +12,13 @@
       "receita",
       "tse"
     ],
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
     "summary": "As emendas a partir de 2023 indicam R$ 32,1 milhões empenhados e R$ 31,7 milhões pagos em três áreas, principalmente Saúde. A campanha de 2022 arrecadou R$ 2,7 milhões de 14 doadores.",
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
@@ -26,25 +33,29 @@
       "id": 7,
       "name": "#NULO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13176"
     },
     {
       "id": 14,
       "name": "ADOLPHO LINDENBERG FILHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13183"
     },
     {
       "id": 8,
       "name": "ANDRE CAVALCANTI ROSA E SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13177"
     },
     {
       "id": 9,
       "name": "ANTONIO BENEVOLO DO AMARAL CARRILHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13178"
     },
     {
       "id": 22,
@@ -56,7 +67,8 @@
       "id": 15,
       "name": "CENTRO EDUCACIONAL COSTA E GONCALVES LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13184"
     },
     {
       "id": 21,
@@ -68,85 +80,99 @@
       "id": 16,
       "name": "GRUPO EDUCACIONAL DO CARPINA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13185"
     },
     {
       "id": 17,
       "name": "GRUPO EDUCACIONAL MATA NORTE LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13186"
     },
     {
       "id": 11,
       "name": "HUMBERTO BARBATO NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13180"
     },
     {
       "id": 5,
       "name": "INACIO DE BARROS MELO NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1654"
     },
     {
       "id": 13,
       "name": "MARIA GABRIELLA NEUENSCHWANDER PERAZZO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13182"
     },
     {
       "id": 2,
       "name": "NEIDE SANCHES FERNANDES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2558"
     },
     {
       "id": 12,
       "name": "PEDRO EVERTON SCHWAMBACH",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13181"
     },
     {
       "id": 19,
       "name": "RAMAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 6,
       "name": "RENATO FEITOSA RIQUE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1692"
     },
     {
       "id": 1,
       "name": "REPUBLICANOS - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e79"
     },
     {
       "id": 4,
       "name": "REPUBLICANOS - PERNAMBUCO - PE - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1655"
     },
     {
       "id": 10,
       "name": "RICARDO DO AMARAL CARRILHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13179"
     },
     {
       "id": 3,
       "name": "RUBENS OMETTO SILVEIRA MELLO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e461"
     },
     {
       "id": 18,
       "name": "SOCIEDADE SERAFIM COSTA CAVALCANTI ADMINISTRADORA DE IMOVEIS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13187"
     },
     {
       "id": 20,
@@ -273,7 +299,7 @@
       "source": 204425,
       "target": 15,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 21/10/2013",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 21/10/2013",
       "strength": 1
     },
     {
@@ -281,7 +307,7 @@
       "source": 204425,
       "target": 16,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 21/03/2001",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 21/03/2001",
       "strength": 1
     },
     {
@@ -289,7 +315,7 @@
       "source": 204425,
       "target": 17,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 15/08/2013",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 15/08/2013",
       "strength": 1
     },
     {
@@ -297,7 +323,7 @@
       "source": 204425,
       "target": 18,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 05/04/2010",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 05/04/2010",
       "strength": 1
     },
     {

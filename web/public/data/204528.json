@@ -4,7 +4,7 @@
     "egoName": "Adriana Ventura",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:33.872540Z",
+    "generatedAt": "2026-07-17T04:22:48.295340Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Nos registros de emendas individuais a partir de 2023, constam R$ 106,9 milhões empenhados e R$ 54,9 milhões pagos em dez áreas, com Saúde como principal. Constam ainda R$ 101 mil em despesas de cota com 24 fornecedores; a campanha de 2022 recebeu R$ 969 mil de 25 doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,52 +27,59 @@
       "id": 204528,
       "name": "Adriana Ventura",
       "category": "politician",
-      "connectionCount": 64
+      "connectionCount": 62
     },
     {
       "id": 17,
       "name": "ALEXANDRE TRAVASSOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e198"
     },
     {
       "id": 50,
       "name": "AMAZON SERVICOS DE VAREJO DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e229"
     },
     {
       "id": 37,
       "name": "AMERICAN PLAZA ADMINISTRAÇÃO HOTELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e216"
     },
     {
       "id": 25,
       "name": "ARNOUD FRANZ SCHARDT",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e206"
     },
     {
       "id": 26,
       "name": "AVENTURA TREINAMENTO E DESENVOLVIMENTO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e207"
     },
     {
       "id": 41,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e220"
     },
     {
       "id": 31,
       "name": "Adobe Systems Software Ireland Ltd",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
-      "id": 57,
+      "id": 55,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -74,34 +88,38 @@
       "id": 40,
       "name": "BOTCONVERSA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e219"
     },
     {
       "id": 39,
       "name": "BRASIL CLOUD SERVIÇOS DE COMPUTAÇAO EM NUVEM LTDA ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e218"
     },
     {
       "id": 18,
       "name": "CLAUDIA MAURANO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e199"
     },
     {
       "id": 11,
       "name": "CLAUDIO LINS VENTURA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e192"
     },
     {
-      "id": 59,
+      "id": 57,
       "name": "Ciência e Tecnologia",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 63,
+      "id": 61,
       "name": "Cultura",
       "category": "destino",
       "connectionCount": 1
@@ -110,28 +128,30 @@
       "id": 23,
       "name": "DAVI MACHADO EVANGELISTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e204"
     },
     {
-      "id": 43,
+      "id": 44,
       "name": "Datafy Analytics e Desenvolvimento de Projetos LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e223"
     },
     {
-      "id": 60,
+      "id": 58,
       "name": "Defesa nacional",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 64,
+      "id": 62,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 62,
+      "id": 60,
       "name": "Direitos da cidadania",
       "category": "destino",
       "connectionCount": 1
@@ -140,244 +160,268 @@
       "id": 48,
       "name": "EDITORA GAZETA DO POVO S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e227"
     },
     {
       "id": 24,
       "name": "EDUARDO CORDIOLI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e205"
     },
     {
       "id": 27,
       "name": "ESPACO 10 X 21 ARTE EM MOVIMENTO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e208"
     },
     {
-      "id": 58,
+      "id": 56,
       "name": "Educação",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 44,
+      "id": 45,
       "name": "Empresa Folha da Manha S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e224"
     },
     {
       "id": 13,
       "name": "FABIO COLLETTI BARBOSA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e194"
     },
     {
       "id": 3,
       "name": "FABIO PENTEADO DE ULHOA RODRIGUES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e184"
     },
     {
       "id": 36,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e215"
     },
     {
       "id": 35,
       "name": "HAPPY EMPREENDIMENTOS HOTELEIROS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e214"
     },
     {
-      "id": 45,
+      "id": 46,
       "name": "HOTELARIA ACCOR BRASIL S A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e225"
     },
     {
       "id": 47,
       "name": "INTERSUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e226"
     },
     {
       "id": 28,
       "name": "JAP PARTICIPACOES E CONSULTORIA LTDA.",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e209"
     },
     {
       "id": 19,
       "name": "JEAN CARLO DE CASTRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e200"
     },
     {
       "id": 14,
       "name": "JOSE CARLOS FERREIRA VILLELA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e195"
     },
     {
       "id": 1,
       "name": "JOSE SALIM MATTAR JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e182"
     },
     {
-      "id": 53,
+      "id": 52,
       "name": "JOSENILDO SALES AGUIAR",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e231"
     },
     {
       "id": 20,
       "name": "KAREN SKARSKI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e201"
     },
     {
-      "id": 46,
+      "id": 42,
       "name": "Kalunga SA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 51,
-      "name": "Kalunga SA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e221"
     },
     {
       "id": 8,
       "name": "LUIS STUHLBERGER",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e189"
     },
     {
       "id": 38,
       "name": "LWSA S.A. - Locaweb",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e217"
     },
     {
       "id": 22,
       "name": "MARCO AURELIO FERREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e203"
     },
     {
-      "id": 52,
+      "id": 51,
       "name": "MARE CLAUSUM PUBLICACOES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e230"
     },
     {
       "id": 16,
       "name": "MONIZE NEVES ANJOS DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e197"
     },
     {
       "id": 49,
       "name": "Movida Participações S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e228"
     },
     {
       "id": 29,
       "name": "NATYVO DISTRIBUICAO E COMERCIO DE COSMETICOS E HIGIENE PESSOAL LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e210"
     },
     {
       "id": 7,
       "name": "PARTIDO NOVO - SAO PAULO - SP - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e188"
     },
     {
       "id": 4,
       "name": "PATRICE PHILIPPE NOGUEIRA BAPTISTA ETLIN",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e185"
     },
     {
       "id": 15,
       "name": "PAULO ROBERTO ROQUE ANTONIO KHOURI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e196"
     },
     {
       "id": 2,
       "name": "PEDRO DE GODOY BUENO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e183"
     },
     {
-      "id": 42,
+      "id": 43,
       "name": "POUSADA MANSÃO DOS NOBRES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e222"
     },
     {
       "id": 30,
       "name": "PRISMA TREINAMENTO E DESENVOLVIMENTO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e211"
     },
     {
       "id": 10,
       "name": "QUEROAPOIAR.COM.BR LTDA",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 54,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e191"
     },
     {
       "id": 9,
       "name": "RAPHAEL BONSI PENTEADO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e190"
     },
     {
       "id": 21,
       "name": "ROBERTO EMILIO PATRIARCA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e202"
     },
     {
       "id": 5,
       "name": "ROBERTO LOMBARDI DE BARROS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e186"
     },
     {
       "id": 12,
       "name": "RONALDO MONTENEGRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e193"
     },
     {
       "id": 6,
       "name": "SALO DAVI SEIBEL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e187"
     },
     {
-      "id": 55,
+      "id": 53,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 61,
+      "id": 59,
       "name": "Segurança pública",
       "category": "destino",
       "connectionCount": 1
@@ -386,22 +430,25 @@
       "id": 32,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e212"
     },
     {
       "id": 34,
       "name": "Telefonica Brasil S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 33,
       "name": "UBER DO BRASIL TECNOLOGIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e213"
     },
     {
-      "id": 56,
+      "id": 54,
       "name": "Urbanismo",
       "category": "destino",
       "connectionCount": 1
@@ -613,7 +660,7 @@
       "source": 204528,
       "target": 26,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (administrador), desde 15/09/2020",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (administrador), desde 15/09/2020",
       "strength": 1
     },
     {
@@ -621,7 +668,7 @@
       "source": 204528,
       "target": 27,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 14/11/1996",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 14/11/1996",
       "strength": 1
     },
     {
@@ -629,7 +676,7 @@
       "source": 204528,
       "target": 28,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 30/01/2015",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 30/01/2015",
       "strength": 1
     },
     {
@@ -637,7 +684,7 @@
       "source": 204528,
       "target": 29,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 23/07/2015",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 23/07/2015",
       "strength": 1
     },
     {
@@ -645,7 +692,7 @@
       "source": 204528,
       "target": 30,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (administrador), desde 28/07/2004",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (administrador), desde 28/07/2004",
       "strength": 1
     },
     {
@@ -653,7 +700,7 @@
       "source": 204528,
       "target": 31,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$43.434,66 (56 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 22/12/2024–22/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$43.447,62 (65 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR)",
       "strength": 1
     },
     {
@@ -741,7 +788,7 @@
       "source": 204528,
       "target": 42,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$690,80 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 16/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$725,60 (3 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 27/08/2025–26/11/2025)",
       "strength": 1
     },
     {
@@ -749,7 +796,7 @@
       "source": 204528,
       "target": 43,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$600,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 07/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$690,80 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 16/06/2025)",
       "strength": 1
     },
     {
@@ -757,7 +804,7 @@
       "source": 204528,
       "target": 44,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$574,80 (1 lançamento; tipo: ASSINATURA DE PUBLICAÇÕES; período: 04/03/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$600,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 07/07/2025)",
       "strength": 1
     },
     {
@@ -765,7 +812,7 @@
       "source": 204528,
       "target": 45,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$543,90 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 17/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$574,80 (1 lançamento; tipo: ASSINATURA DE PUBLICAÇÕES; período: 04/03/2025)",
       "strength": 1
     },
     {
@@ -773,7 +820,7 @@
       "source": 204528,
       "target": 46,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$428,60 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 24/11/2025–26/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$543,90 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 17/06/2025)",
       "strength": 1
     },
     {
@@ -813,7 +860,7 @@
       "source": 204528,
       "target": 51,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$297,00 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 27/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$178,80 (1 lançamento; tipo: ASSINATURA DE PUBLICAÇÕES; período: 03/11/2025)",
       "strength": 1
     },
     {
@@ -821,23 +868,23 @@
       "source": 204528,
       "target": 52,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$178,80 (1 lançamento; tipo: ASSINATURA DE PUBLICAÇÕES; período: 03/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$60,60 (1 lançamento; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 14/04/2025)",
       "strength": 1
     },
     {
       "id": 53,
       "source": 204528,
       "target": 53,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$60,60 (1 lançamento; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 14/04/2025)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$79.727.501,00 empenhado, R$47.543.686,00 pago (6 emendas; 2023–2025)",
       "strength": 1
     },
     {
       "id": 54,
       "source": 204528,
       "target": 54,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$12,96 (9 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$8.000.000,00 empenhado (3 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -845,7 +892,7 @@
       "source": 204528,
       "target": 55,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$79.727.501,00 empenhado, R$47.543.686,00 pago (6 emendas; 2023–2025)",
+      "description": "Emendas individuais destinadas a Assistência social: R$7.340.495,00 empenhado, R$5.590.495,00 pago (4 emendas; 2023–2025)",
       "strength": 1
     },
     {
@@ -853,7 +900,7 @@
       "source": 204528,
       "target": 56,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Urbanismo: R$8.000.000,00 empenhado (3 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Educação: R$3.436.985,00 empenhado (3 emendas; 2023–2025)",
       "strength": 1
     },
     {
@@ -861,7 +908,7 @@
       "source": 204528,
       "target": 57,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$7.340.495,00 empenhado, R$5.590.495,00 pago (4 emendas; 2023–2025)",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$3.099.993,00 empenhado (4 emendas; 2023–2025)",
       "strength": 1
     },
     {
@@ -869,7 +916,7 @@
       "source": 204528,
       "target": 58,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Educação: R$3.436.985,00 empenhado (3 emendas; 2023–2025)",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$2.398.391,00 empenhado, R$1.724.911,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -877,7 +924,7 @@
       "source": 204528,
       "target": 59,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$3.099.993,00 empenhado (4 emendas; 2023–2025)",
+      "description": "Emendas individuais destinadas a Segurança pública: R$1.500.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -885,7 +932,7 @@
       "source": 204528,
       "target": 60,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Defesa nacional: R$2.398.391,00 empenhado, R$1.724.911,00 pago (3 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$488.000,00 empenhado (1 emenda; 2023)",
       "strength": 1
     },
     {
@@ -893,29 +940,13 @@
       "source": 204528,
       "target": 61,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Segurança pública: R$1.500.000,00 empenhado (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Cultura: R$484.345,00 empenhado (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
       "id": 62,
       "source": 204528,
       "target": 62,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Direitos da cidadania: R$488.000,00 empenhado (1 emenda; 2023)",
-      "strength": 1
-    },
-    {
-      "id": 63,
-      "source": 204528,
-      "target": 63,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Cultura: R$484.345,00 empenhado (2 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 64,
-      "source": 204528,
-      "target": 64,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Desporto e lazer: R$399.977,00 empenhado (2 emendas; 2024–2025)",
       "strength": 1

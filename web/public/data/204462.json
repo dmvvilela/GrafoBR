@@ -4,14 +4,20 @@
     "egoName": "Chris Tonietto",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:34.919651Z",
+    "generatedAt": "2026-07-17T04:22:49.689876Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Nos registros de emendas individuais a partir de 2023, constam R$ 99,9 milhões empenhados e R$ 55,5 milhões pagos em nove áreas, com Saúde como principal. Há R$ 323 mil em despesas da cota parlamentar com 25 fornecedores e R$ 506 mil em doações de campanha em 2022, de 8 doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -25,49 +31,64 @@
       "id": 12,
       "name": "'UBER DO BRASIL TECNOLOGIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e213"
     },
     {
       "id": 16,
       "name": "51.309.439 MICHELE GIOVANI SARNAGLIA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2860"
     },
     {
       "id": 25,
       "name": "99 POP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2867"
     },
     {
       "id": 23,
       "name": "ALFA PLAZA HOTEL LTDA-ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2865"
     },
     {
       "id": 8,
       "name": "ANNA CAROLINA PAPA TAVARES DOS ANJOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2854"
     },
     {
       "id": 6,
       "name": "ANTONIO FELIPE ALVES LIMA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2852"
     },
     {
-      "id": 31,
+      "id": 32,
       "name": "AUTO POSTO MARCO TIMBOZAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2872"
     },
     {
       "id": 29,
       "name": "AUTO POSTO RYDER LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2869"
+    },
+    {
+      "id": 30,
+      "name": "AUTO VIAÇÃO 1001",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e2870"
     },
     {
       "id": 42,
@@ -85,13 +106,15 @@
       "id": 3,
       "name": "BRUNNO DE SOUZA BARROS GUIMARAES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2849"
     },
     {
       "id": 17,
       "name": "Cia Aérea - TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 38,
@@ -127,121 +150,134 @@
       "id": 7,
       "name": "FABIO HENRIQUE DOS REIS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2853"
     },
     {
       "id": 18,
       "name": "GAS STATION COMBUSTIVEIS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2861"
     },
     {
       "id": 19,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2862"
     },
     {
       "id": 4,
       "name": "JEAN FELIPPE GARCIA PINTO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2850"
     },
     {
       "id": 28,
       "name": "LIGHT SERVICOS DE ELETRICIDADE S A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2868"
     },
     {
       "id": 15,
       "name": "Localiza Rent a Car S. A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e943"
     },
     {
       "id": 14,
       "name": "M L ADMINISTRACAO DE IMOVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2859"
     },
     {
       "id": 21,
       "name": "MUNICIPIO DE RIO DE JANEIRO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2864"
     },
     {
       "id": 11,
       "name": "NEOLOC - NEO TECNOLOGIA DA INFORMATICA EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2857"
     },
     {
       "id": 13,
       "name": "NEOLOC - NEO TECNOLOGIA DA INFORMATICA EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2858"
     },
     {
       "id": 5,
       "name": "OMAR DEMETRIO MANSOUR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2851"
     },
     {
       "id": 27,
       "name": "PANTANAL VEÍCULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e70"
     },
     {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 33,
-      "name": "POSTO BARRA LINDA LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e129"
     },
     {
       "id": 26,
       "name": "POSTO DE GASOLINA BRACARENSE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2846"
     },
     {
       "id": 20,
       "name": "POSTO DE GASOLINA TIMBOZAO III LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2863"
     },
     {
-      "id": 30,
+      "id": 31,
       "name": "POSTO GRAFFITI DE CAMPOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2871"
     },
     {
       "id": 2,
       "name": "RINOBOX SOLUCOES FINANCEIRAS LTDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1068"
     },
     {
       "id": 9,
       "name": "SERV RIO TERCEIRIZAÇÃO E SERVIÇOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2855"
     },
     {
-      "id": 32,
+      "id": 33,
       "name": "SEZONILDE RAMERY LOPES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2873"
     },
     {
       "id": 34,
@@ -259,19 +295,22 @@
       "id": 10,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2856"
     },
     {
       "id": 22,
       "name": "TELEFONIA BRASIL S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 24,
       "name": "VIDA PLAZA LTDA ME CNPJ",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2866"
     }
   ],
   "links": [
@@ -472,7 +511,7 @@
       "source": 204462,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.783,89 (40 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 08/03/2025–17/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.869,62 (41 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 25/02/2025–17/12/2025)",
       "strength": 1
     },
     {
@@ -512,7 +551,7 @@
       "source": 204462,
       "target": 30,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.184,72 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/01/2025–25/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.296,56 (20 lançamentos; tipo: PASSAGENS TERRESTRES, MARÍTIMAS OU FLUVIAIS; período: 17/02/2025–11/12/2025)",
       "strength": 1
     },
     {
@@ -520,7 +559,7 @@
       "source": 204462,
       "target": 31,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.150,09 (9 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/05/2025–28/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.184,72 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/01/2025–25/10/2025)",
       "strength": 1
     },
     {
@@ -528,7 +567,7 @@
       "source": 204462,
       "target": 32,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.050,00 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 29/05/2025–12/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.150,09 (9 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/05/2025–28/11/2025)",
       "strength": 1
     },
     {
@@ -536,7 +575,7 @@
       "source": 204462,
       "target": 33,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.044,14 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/03/2025–17/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.050,00 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 29/05/2025–12/06/2025)",
       "strength": 1
     },
     {

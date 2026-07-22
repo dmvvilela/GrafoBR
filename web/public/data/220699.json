@@ -4,7 +4,7 @@
     "egoName": "Castro Neto",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:34.845759Z",
+    "generatedAt": "2026-07-17T04:22:49.586727Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Nos registros de emendas, constam R$ 75,1 milhões empenhados e R$ 74,1 milhões pagos em sete áreas, com Saúde em destaque. Há R$ 544 mil em despesas de cota e R$ 2,0 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,61 +33,70 @@
       "id": 33,
       "name": "AMORETTO CAFES EXPRESSO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13"
     },
     {
       "id": 19,
       "name": "ANDERSON DIAS BRAGA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2681"
     },
     {
       "id": 21,
       "name": "ANDERSON OLIVEIRA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2683"
     },
     {
       "id": 18,
       "name": "ANDRE ALISON OLIVEIRA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2680"
     },
     {
       "id": 12,
       "name": "ANGELA FERNANDES DIAS DE CASTRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2674"
     },
     {
-      "id": 51,
+      "id": 50,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 39,
+      "id": 35,
       "name": "CACIQUE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2695"
     },
     {
-      "id": 35,
+      "id": 36,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 20,
       "name": "CLAUDEMIR REZENDE BARROS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2682"
     },
     {
       "id": 22,
       "name": "CONSTRUTORA HELENA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2684"
     },
     {
       "id": 53,
@@ -98,37 +114,43 @@
       "id": 44,
       "name": "FCN.X CARVALHO COMBUSTIVEL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2703"
     },
     {
       "id": 46,
       "name": "FERREIRA E COSTA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2705"
     },
     {
       "id": 25,
       "name": "FRANCISCA BEATRIZ NUNES DOS SANTOS ALBUQUERQUE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2687"
     },
     {
       "id": 13,
       "name": "GENILSON AMERICO RIBEIRO JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2675"
     },
     {
       "id": 43,
       "name": "GURGUEIA PALACE HOTEL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2702"
     },
     {
       "id": 41,
       "name": "GUSTAVO WILER QUINTAO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2700"
     },
     {
       "id": 54,
@@ -140,106 +162,123 @@
       "id": 10,
       "name": "HELENA KATIA COSTA PAULO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2672"
     },
     {
       "id": 5,
       "name": "HELENA SOARES RIBEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2667"
     },
     {
       "id": 11,
       "name": "INDIRA MARCIELLE RIBEIRO DE MACEDO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2673"
     },
     {
       "id": 24,
       "name": "INOP - INSTITUTO NACIONAL DE ORCAMENTO PUBLICO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2686"
     },
     {
       "id": 14,
       "name": "IVON LENDL BESERRA SALES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2676"
     },
     {
       "id": 32,
       "name": "JGF PRODUCAO DE TEXTOS E EVENTOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2693"
     },
     {
       "id": 15,
       "name": "JOAO NEY RIBEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2677"
     },
     {
       "id": 28,
       "name": "KEYLANE RIOS SPODE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2690"
     },
     {
       "id": 8,
       "name": "LUANA SOARES RIBEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2670"
     },
     {
       "id": 4,
       "name": "LUCRECIA SOARES RIBEIRO DIAS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2666"
     },
     {
       "id": 2,
       "name": "MARCELO COSTA E CASTRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2664"
     },
     {
       "id": 3,
       "name": "MARJORY RODRIGUES CAVALCANTE MELO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2665"
     },
     {
       "id": 7,
       "name": "MAURICIO TEIXEIRA NEGREIROS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2669"
     },
     {
-      "id": 38,
+      "id": 39,
       "name": "MEGA EXPRESS HOTEL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2698"
     },
     {
       "id": 47,
       "name": "MH BRASILIA ADMINISTRADORA DE EMPREENDIMENTOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2706"
     },
     {
       "id": 31,
       "name": "NEVES E FERREIRA TECNOLOGIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2692"
     },
     {
       "id": 30,
       "name": "Nacional Rent a Car Locação de Veiculos LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e138"
     },
     {
-      "id": 50,
+      "id": 51,
       "name": "Organização agrária",
       "category": "destino",
       "connectionCount": 1
@@ -248,73 +287,85 @@
       "id": 1,
       "name": "PARTIDO SOCIAL DEMOCRATICO - PSD DIRETORIO NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1361"
     },
     {
       "id": 9,
       "name": "PAULO HENRIQUE RIBEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2671"
     },
     {
       "id": 34,
       "name": "PICOS HOTEL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2694"
     },
     {
       "id": 16,
       "name": "POLYANA MARIA BARRETO DE SOUSA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2678"
     },
     {
       "id": 45,
       "name": "POSTO DEZ 3 LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2704"
     },
     {
       "id": 42,
       "name": "POSTO MARTINEZ LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2701"
     },
     {
       "id": 29,
       "name": "R. L EMPREENDIMENTOS E SERVIÇOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2691"
     },
     {
       "id": 40,
       "name": "R3 ADMINISTRACAO HOTELEIRA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2699"
     },
     {
-      "id": 37,
+      "id": 38,
       "name": "REAL HOTEL EMPREENDIMENTOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2697"
     },
     {
       "id": 17,
       "name": "SALMO CAVALCANTE PINDAIBA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2679"
     },
     {
       "id": 6,
       "name": "SIDNEY ANTUNES ALVES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2668"
     },
     {
-      "id": 36,
+      "id": 37,
       "name": "SMARTPRINT LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2696"
     },
     {
       "id": 48,
@@ -332,19 +383,22 @@
       "id": 27,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2689"
     },
     {
       "id": 26,
       "name": "THIAGO BASTOS MACHADO SERVICOS DE ASSESSORIA EM COMUNICACAO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2688"
     },
     {
       "id": 23,
       "name": "WELSON VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2685"
     }
   ],
   "links": [
@@ -521,7 +575,7 @@
       "source": 220699,
       "target": 22,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 13/07/2004",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 13/07/2004",
       "strength": 1
     },
     {
@@ -625,7 +679,7 @@
       "source": 220699,
       "target": 35,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.014,30 (17 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.120,29 (20 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/02/2025–18/08/2025)",
       "strength": 1
     },
     {
@@ -633,7 +687,7 @@
       "source": 220699,
       "target": 36,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.600,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 21/01/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.023,04 (26 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -641,7 +695,7 @@
       "source": 220699,
       "target": 37,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.040,44 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 28/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.600,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 21/01/2025)",
       "strength": 1
     },
     {
@@ -649,7 +703,7 @@
       "source": 220699,
       "target": 38,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.056,50 (8 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 05/07/2025–14/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.040,44 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 28/06/2025)",
       "strength": 1
     },
     {
@@ -657,7 +711,7 @@
       "source": 220699,
       "target": 39,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.350,17 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 22/02/2025–18/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.056,50 (8 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 05/07/2025–14/12/2025)",
       "strength": 1
     },
     {
@@ -745,7 +799,7 @@
       "source": 220699,
       "target": 50,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Organização agrária: R$500.000,00 empenhado (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Assistência social: R$500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -753,7 +807,7 @@
       "source": 220699,
       "target": 51,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Organização agrária: R$500.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     },
     {

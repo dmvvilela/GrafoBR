@@ -1,6 +1,6 @@
 // Per-politician "related" index: other deputies/senators that share the most
 // donors, companies, or suppliers (via _entities.json). Runs after derive-entities.
-import { readFile, readdir, writeFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -34,7 +34,8 @@ function isParty(name) {
 }
 
 const entities = JSON.parse(await readFile(path.join(dir, "_entities.json"), "utf8"));
-const files = (await readdir(dir)).filter((f) => /^\d+\.json$/.test(f));
+const index = JSON.parse(await readFile(path.join(dir, "index.json"), "utf8"));
+const files = index.map((entry) => `${entry.id}.json`);
 
 const out = {};
 let withRelated = 0;
@@ -48,7 +49,8 @@ for (const f of files) {
   for (const n of ego.nodes) {
     if (!CATEGORIES.has(n.category)) continue;
     if (n.category === "donor" && isParty(n.name)) continue;
-    const ent = entities[n.name];
+    if (!n.entityId) continue;
+    const ent = entities[n.entityId];
     if (!ent || ent.count < 2) continue;
 
     for (const d of ent.deputies) {

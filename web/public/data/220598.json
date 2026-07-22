@@ -4,14 +4,20 @@
     "egoName": "Tarcísio Motta",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:39.748799Z",
+    "generatedAt": "2026-07-17T04:22:56.890381Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Entre 2023 e os registros mais recentes, aparecem R$ 74,3 milhões empenhados e R$ 18,7 milhões pagos em seis áreas, principalmente Saúde. Há R$ 457 mil em despesas de cota com 25 fornecedores e R$ 1,5 milhões em doações de campanha em 2022, de cinco doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -25,49 +31,57 @@
       "id": 15,
       "name": "1198UBER DO BRASIL TECNOLOGIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e213"
     },
     {
       "id": 17,
       "name": "AUTO POSTO MAQUINE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5227"
+    },
+    {
+      "id": 12,
+      "name": "Adobe Systems Software",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 23,
       "name": "Adobe Systems Software",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2211"
     },
     {
       "id": 21,
       "name": "Agnes Cristine Duailibi Viana",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13451"
     },
     {
       "id": 28,
       "name": "BR HOTELS ADMINISTRADORA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13454"
     },
     {
       "id": 13,
       "name": "BROAD BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e170"
     },
     {
       "id": 3,
       "name": "CLAUDIA PECANHA DA TRINDADE",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 12,
-      "name": "Clara Morbach Gaby",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13442"
     },
     {
       "id": 33,
@@ -79,7 +93,8 @@
       "id": 4,
       "name": "DEMOCRATIZE TECNOLOGIA LTDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e283"
     },
     {
       "id": 34,
@@ -97,49 +112,64 @@
       "id": 11,
       "name": "GISELLY CANLLYA BARBOSA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13448"
     },
     {
       "id": 16,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13450"
     },
     {
       "id": 19,
       "name": "GOOGLE BRASIL INTERNET LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7916"
     },
     {
-      "id": 29,
+      "id": 30,
       "name": "HOTEL ATLANTICO TOWER LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13455"
     },
     {
       "id": 25,
       "name": "HOTEL OK MACEDO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13453"
     },
     {
       "id": 20,
       "name": "LC CUGULA POSTO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8345"
     },
     {
       "id": 18,
       "name": "LIGHT SERVICOS DE ELETRICIDADE S A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2868"
+    },
+    {
+      "id": 29,
+      "name": "LOCALIZA RENT A CAR SA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e943"
     },
     {
       "id": 22,
       "name": "MLS WIRELESS TELECOMUNICAÇÕES S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13452"
     },
     {
       "id": 36,
@@ -151,73 +181,78 @@
       "id": 1,
       "name": "PARTIDO SOCIALISMO E LIBERDADE (P-SOL)",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3266"
     },
     {
       "id": 2,
       "name": "PARTIDO SOCIALISMO E LIBERDADE - RIO DE JANEIRO - RJ - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2826"
     },
     {
       "id": 14,
       "name": "PAVUNAO DA LAPA SILKSCREEN LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 30,
-      "name": "POSTO CATEDRAL LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13449"
     },
     {
       "id": 26,
       "name": "POSTO DE GASOLINA DOM PEDRO II LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10929"
     },
     {
       "id": 24,
       "name": "POSTO PALACIO GUANABARA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1910"
     },
     {
       "id": 10,
       "name": "POUSADA SÍTIO DO INGÁ DE TERESÓPOLIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13447"
     },
     {
       "id": 27,
       "name": "REDE QUALITY II REPRESENTACAO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1871"
     },
     {
       "id": 8,
       "name": "RENHA IMÓVEIS E ADMINISTRAÇÃO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13445"
     },
     {
       "id": 5,
       "name": "ROGERIO NORBERTO DA CUNHA ALIMANDRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13443"
     },
     {
       "id": 7,
       "name": "SERVCAR SOLUÇÕES AUTOMOTIVAS LTDA ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10921"
     },
     {
       "id": 9,
       "name": "STUDIO CACTUS CC ARTES GRAFICAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13446"
     },
     {
       "id": 31,
@@ -229,7 +264,8 @@
       "id": 6,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13444"
     },
     {
       "id": 35,
@@ -332,7 +368,7 @@
       "source": 220598,
       "target": 12,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.500,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 17/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11.346,35 (13 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR)",
       "strength": 1
     },
     {
@@ -468,7 +504,7 @@
       "source": 220598,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.035,50 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 26/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.098,47 (2 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 15/02/2025)",
       "strength": 1
     },
     {
@@ -476,7 +512,7 @@
       "source": 220598,
       "target": 30,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.008,27 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/03/2025–24/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.035,50 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 26/06/2025)",
       "strength": 1
     },
     {

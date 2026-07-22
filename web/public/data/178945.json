@@ -4,7 +4,7 @@
     "egoName": "Rosangela Gomes",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:39.342211Z",
+    "generatedAt": "2026-07-17T04:22:56.370964Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,6 +12,13 @@
       "receita",
       "tse"
     ],
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
     "summary": "Nos dados de emendas desde 2023, registram-se R$ 104,5 milhões empenhados e R$ 75,9 milhões pagos em onze áreas, com foco em Saúde. A cota parlamentar soma R$ 233 com um fornecedor, e a campanha de 2022 recebeu R$ 2,1 milhões de 14 doadores.",
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
@@ -26,25 +33,29 @@
       "id": 11,
       "name": "ANA PAULA MACHADO DUTRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12681"
     },
     {
       "id": 4,
       "name": "ANDERSON DE AZEVEDO COELHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12676"
     },
     {
       "id": 6,
       "name": "ANNA KARINA CREMA DUARTE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12678"
     },
     {
       "id": 5,
       "name": "ANTONIO DE AZEVEDO COELHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12677"
     },
     {
       "id": 24,
@@ -56,13 +67,15 @@
       "id": 18,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 9,
       "name": "CHARLES DA SILVA CESARIO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12679"
     },
     {
       "id": 23,
@@ -92,19 +105,22 @@
       "id": 2,
       "name": "Direção Estadual/Distrital",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7398"
     },
     {
       "id": 3,
       "name": "Direção Municipal/Comissão Provisória",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12675"
     },
     {
       "id": 15,
       "name": "ELEICAO 2002 - CF UNICO PL",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12685"
     },
     {
       "id": 22,
@@ -128,43 +144,50 @@
       "id": 7,
       "name": "HOMERO BERNARDO PERRENOUD",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9348"
     },
     {
       "id": 8,
       "name": "LUIZ ANTONIO RAYMUNDO DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9349"
     },
     {
       "id": 16,
       "name": "MARKETING PLUS ASSESSORIA E CONSULTORIA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12686"
     },
     {
       "id": 12,
       "name": "MARTA DELFINO DIAS SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12682"
     },
     {
       "id": 10,
       "name": "MICHELE ROSA ZANARDI COELHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12680"
     },
     {
       "id": 17,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12687"
     },
     {
       "id": 1,
       "name": "REPUBLICANOS - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e79"
     },
     {
       "id": 27,
@@ -182,7 +205,8 @@
       "id": 13,
       "name": "TELMO FERNANDES CARNEIRO JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12683"
     },
     {
       "id": 28,
@@ -194,7 +218,8 @@
       "id": 14,
       "name": "VALERIA DA CONCEICAO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12684"
     }
   ],
   "links": [
@@ -315,7 +340,7 @@
       "source": 178945,
       "target": 15,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 12/09/2005",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 12/09/2005",
       "strength": 1
     },
     {
@@ -323,7 +348,7 @@
       "source": 178945,
       "target": 16,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 19/03/2003",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 19/03/2003",
       "strength": 1
     },
     {
@@ -331,7 +356,7 @@
       "source": 178945,
       "target": 17,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 12/09/2005",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 12/09/2005",
       "strength": 1
     },
     {

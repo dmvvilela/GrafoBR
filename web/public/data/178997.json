@@ -4,14 +4,20 @@
     "egoName": "Moses Rodrigues",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:38.202311Z",
+    "generatedAt": "2026-07-17T04:22:54.779156Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Desde 2023, aparecem R$ 75,1 milhões em emendas empenhadas e R$ 74,3 milhões pagos em seis áreas, principalmente Saúde. Registram-se R$ 585 mil em despesas de cota com 19 fornecedores e R$ 2,8 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -19,58 +25,65 @@
       "id": 178997,
       "name": "Moses Rodrigues",
       "category": "politician",
-      "connectionCount": 29
+      "connectionCount": 28
     },
     {
       "id": 15,
       "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 9,
       "name": "AURELIO MAGALHAES PONTE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10280"
     },
     {
       "id": 17,
       "name": "AUTO POSTO 302 SUL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e177"
     },
     {
       "id": 16,
       "name": "AUTO POSTO 303 NORTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e27"
     },
     {
       "id": 19,
       "name": "AUTO POSTO AEROPORTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e75"
     },
     {
       "id": 20,
       "name": "AUTO POSTO CAPITAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8030"
     },
     {
       "id": 22,
       "name": "AUTO POSTO FENIX ODJ LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2101"
     },
     {
-      "id": 26,
+      "id": 25,
       "name": "Agricultura",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 28,
+      "id": 27,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -79,16 +92,18 @@
       "id": 13,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 12,
       "name": "DIAMOND COMERCIO E SERVICOS LTDA - DIAMOND",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9861"
     },
     {
-      "id": 25,
+      "id": 24,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -97,52 +112,60 @@
       "id": 10,
       "name": "FEDERAL CREATIVE PUBLICIDADE & CONSULTORIA PUBLICA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9862"
     },
     {
       "id": 5,
       "name": "Francisco C. T. Araújo - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10277"
     },
     {
       "id": 11,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10281"
     },
     {
       "id": 3,
       "name": "JANAINA MARIA AGUIAR QUINTELA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10275"
     },
     {
       "id": 7,
       "name": "JOSE ROBERTO DE SOUSA NETO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3564"
     },
     {
       "id": 4,
       "name": "JOSE VITOR MARINHO FERREIRA GOMES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10276"
     },
     {
       "id": 6,
       "name": "JOÃO PEDRO AGUIAR DIOGENES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10278"
     },
     {
       "id": 2,
       "name": "MOSES HAENDEL MELO RODRIGUES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10274"
     },
     {
-      "id": 27,
+      "id": 26,
       "name": "Organização agrária",
       "category": "destino",
       "connectionCount": 1
@@ -151,28 +174,24 @@
       "id": 18,
       "name": "PETRONORTE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3796"
     },
     {
       "id": 21,
       "name": "POSTO DE COMBUSTIVEL AGUAS LINDAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10282"
     },
     {
       "id": 23,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 24,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 29,
+      "id": 28,
       "name": "Segurança pública",
       "category": "destino",
       "connectionCount": 1
@@ -181,19 +200,22 @@
       "id": 8,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10279"
     },
     {
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e687"
     },
     {
       "id": 14,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     }
   ],
   "links": [
@@ -298,7 +320,7 @@
       "source": 178997,
       "target": 13,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.599,48 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.612,20 (21 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -377,8 +399,8 @@
       "id": 23,
       "source": 178997,
       "target": 23,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$12,72 (9 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.586.585,00 empenhado, R$37.586.585,00 pago (11 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -386,7 +408,7 @@
       "source": 178997,
       "target": 24,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$37.586.585,00 empenhado, R$37.586.585,00 pago (11 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$31.935.000,00 empenhado, R$31.799.000,00 pago (9 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -394,7 +416,7 @@
       "source": 178997,
       "target": 25,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$31.935.000,00 empenhado, R$31.799.000,00 pago (9 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Agricultura: R$3.000.000,00 empenhado, R$2.500.000,00 pago (3 emendas; 2025)",
       "strength": 1
     },
     {
@@ -402,7 +424,7 @@
       "source": 178997,
       "target": 26,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Agricultura: R$3.000.000,00 empenhado, R$2.500.000,00 pago (3 emendas; 2025)",
+      "description": "Emendas individuais destinadas a Organização agrária: R$1.999.995,00 empenhado, R$1.999.995,00 pago (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -410,21 +432,13 @@
       "source": 178997,
       "target": 27,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Organização agrária: R$1.999.995,00 empenhado, R$1.999.995,00 pago (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Assistência social: R$400.000,00 empenhado, R$400.000,00 pago (2 emendas; 2024)",
       "strength": 1
     },
     {
       "id": 28,
       "source": 178997,
       "target": 28,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$400.000,00 empenhado, R$400.000,00 pago (2 emendas; 2024)",
-      "strength": 1
-    },
-    {
-      "id": 29,
-      "source": 178997,
-      "target": 29,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Segurança pública: R$140.432,00 empenhado (1 emenda; 2024)",
       "strength": 1

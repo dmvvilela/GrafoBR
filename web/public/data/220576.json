@@ -4,14 +4,20 @@
     "egoName": "Alfredo Gaspar",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:34.074229Z",
+    "generatedAt": "2026-07-17T04:22:48.556727Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Nos dados de emendas desde 2023, constam R$ 74,5 milhões empenhados e R$ 67,8 milhões pagos em nove áreas, com Saúde em destaque. Registram-se também R$ 469 mil em despesas de cota com 25 fornecedores; a campanha de 2022 arrecadou R$ 2,1 milhões de quatro doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -25,43 +31,50 @@
       "id": 15,
       "name": "40.544.585 RITA SCHEYLA TAVARES MARCHESIN",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e791"
     },
     {
       "id": 8,
       "name": "48.769.833 ANISIO CARLOS DE LIMA NETO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e785"
     },
     {
       "id": 4,
       "name": "ANDRE LUIZ CHAVES TEIXEIRA CAVALCANTE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e781"
     },
     {
-      "id": 29,
+      "id": 21,
       "name": "AUTO POSTO CINCO ESTRELAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e405"
     },
     {
       "id": 12,
       "name": "AUTO POSTO PERMANENTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e788"
     },
     {
-      "id": 26,
+      "id": 27,
       "name": "AUTO POSTO SABALANGA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e802"
     },
     {
       "id": 11,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e787"
     },
     {
       "id": 38,
@@ -79,25 +92,27 @@
       "id": 3,
       "name": "CARLOS ALBERTO PINHEIRO DE MENDONCA NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e780"
     },
     {
-      "id": 36,
+      "id": 37,
       "name": "Comércio e serviços",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 37,
+      "id": 36,
       "name": "Cultura",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 28,
+      "id": 29,
       "name": "DISTRIBUIDORA DE VEICULOS CONFIANCA LIMITADA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e804"
     },
     {
       "id": 34,
@@ -106,10 +121,11 @@
       "connectionCount": 1
     },
     {
-      "id": 27,
+      "id": 28,
       "name": "EQUATORIAL ENERGIA ALAGOAS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e803"
     },
     {
       "id": 32,
@@ -121,79 +137,92 @@
       "id": 5,
       "name": "GMB DE CASTRO REIS - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e782"
     },
     {
       "id": 16,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e792"
     },
     {
       "id": 6,
       "name": "HPE AUTOMOTORES DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e783"
     },
     {
-      "id": 22,
+      "id": 23,
       "name": "JOSE HENRIQUE CARDOSO ROCHA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e798"
     },
     {
       "id": 10,
       "name": "MANOEL CASSIO DE SOUZA GUEDES ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e179"
     },
     {
       "id": 17,
       "name": "MORAIS &amp; PINTO COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e793"
     },
     {
       "id": 13,
       "name": "POSTO DE COMBUSTIVEIS 310 SUL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e789"
     },
     {
-      "id": 21,
+      "id": 22,
       "name": "POSTO ECOLOGICO COM DE COMBUSTIVEIS LTDA - EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e797"
     },
     {
       "id": 19,
       "name": "POSTO GAMA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e795"
     },
     {
       "id": 14,
       "name": "POSTO QUARTO DE MILHA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e790"
     },
     {
-      "id": 23,
+      "id": 24,
       "name": "POSTO SAO DOMINGOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e799"
     },
     {
       "id": 18,
       "name": "RÁDIO MILÊNIO FM LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e794"
     },
     {
-      "id": 25,
+      "id": 26,
       "name": "SERVICOS AUTOMOTIVOS PONTA VERDE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e801"
     },
     {
       "id": 30,
@@ -211,31 +240,36 @@
       "id": 7,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e784"
     },
     {
       "id": 20,
       "name": "TARGINO COMERCIO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e796"
     },
     {
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e687"
     },
     {
       "id": 2,
       "name": "UNIAO BRASIL - ALAGOAS - AL - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e779"
     },
     {
       "id": 9,
       "name": "UNIVEST",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e786"
     },
     {
       "id": 35,
@@ -244,10 +278,11 @@
       "connectionCount": 1
     },
     {
-      "id": 24,
+      "id": 25,
       "name": "VINICIUS CANSANCAO E CIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e800"
     }
   ],
   "links": [
@@ -416,7 +451,7 @@
       "source": 220576,
       "target": 21,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.250,00 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/01/2025–02/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.251,95 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/02/2025–10/12/2025)",
       "strength": 1
     },
     {
@@ -424,7 +459,7 @@
       "source": 220576,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.200,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 15/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.250,00 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/01/2025–02/06/2025)",
       "strength": 1
     },
     {
@@ -432,7 +467,7 @@
       "source": 220576,
       "target": 23,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.200,00 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/02/2025–29/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.200,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 15/10/2025)",
       "strength": 1
     },
     {
@@ -440,7 +475,7 @@
       "source": 220576,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.000,00 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/05/2025–09/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.200,00 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/02/2025–29/08/2025)",
       "strength": 1
     },
     {
@@ -448,7 +483,7 @@
       "source": 220576,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$950,00 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/02/2025–23/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.000,00 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/05/2025–09/12/2025)",
       "strength": 1
     },
     {
@@ -456,7 +491,7 @@
       "source": 220576,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$900,00 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/02/2025–15/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$950,00 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/02/2025–23/06/2025)",
       "strength": 1
     },
     {
@@ -464,7 +499,7 @@
       "source": 220576,
       "target": 27,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$718,84 (6 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 23/01/2025–23/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$900,00 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/02/2025–15/05/2025)",
       "strength": 1
     },
     {
@@ -472,7 +507,7 @@
       "source": 220576,
       "target": 28,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$704,24 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/03/2025–24/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$718,84 (6 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 23/01/2025–23/07/2025)",
       "strength": 1
     },
     {
@@ -480,7 +515,7 @@
       "source": 220576,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$650,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 22/08/2025–10/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$704,24 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/03/2025–24/06/2025)",
       "strength": 1
     },
     {
@@ -536,7 +571,7 @@
       "source": 220576,
       "target": 36,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Comércio e serviços: R$600.000,00 empenhado, R$600.000,00 pago (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Cultura: R$600.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -544,7 +579,7 @@
       "source": 220576,
       "target": 37,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Cultura: R$600.000,00 empenhado (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$600.000,00 empenhado, R$600.000,00 pago (1 emenda; 2024)",
       "strength": 1
     },
     {

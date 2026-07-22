@@ -4,7 +4,7 @@
     "egoName": "Juscelino Filho",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.261195Z",
+    "generatedAt": "2026-07-17T04:22:53.484692Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Os registros indicam R$ 30,7 milhões em emendas empenhadas e R$ 28,7 milhões pagos em três áreas, principalmente Saúde. A cota parlamentar soma R$ 315 mil com 13 fornecedores, e a campanha de 2022 recebeu R$ 2,5 milhões.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,46 +27,44 @@
       "id": 178886,
       "name": "Juscelino Filho",
       "category": "politician",
-      "connectionCount": 22
+      "connectionCount": 21
     },
     {
-      "id": 14,
+      "id": 15,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8124"
     },
     {
       "id": 11,
       "name": "BELIZE COMPANY AUTO POSTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 18,
-      "name": "CLARO S.A",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2332"
     },
     {
       "id": 13,
       "name": "Cia Aérea - TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
-      "id": 15,
+      "id": 14,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "Educação",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -68,46 +73,53 @@
       "id": 12,
       "name": "Facebook Serviços Online do Brasil Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 10,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8123"
     },
     {
       "id": 4,
       "name": "JLMMF PARTICIPACOES LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8117"
     },
     {
       "id": 2,
       "name": "JOSE JUSCELINO DOS SANTOS REZENDE FILHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8115"
     },
     {
       "id": 7,
       "name": "L DOS S CARMO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8120"
     },
     {
       "id": 8,
       "name": "Mobile Automotiva Eireli",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8121"
+    },
+    {
+      "id": 18,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 19,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 20,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -116,43 +128,50 @@
       "id": 9,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8122"
     },
     {
       "id": 16,
       "name": "Telefonica Brasil S.A - Vivo",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e687"
     },
     {
       "id": 3,
       "name": "UNIAO BRASIL - MARANHAO - MA- ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8116"
     },
     {
       "id": 5,
       "name": "UNICLINICA BACABAL LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8118"
     },
     {
       "id": 6,
       "name": "UNICLINICA SANTA LUZIA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8119"
     },
     {
       "id": 17,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     }
   ],
   "links": [
@@ -185,7 +204,7 @@
       "source": 178886,
       "target": 4,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 23/04/2020",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 23/04/2020",
       "strength": 1
     },
     {
@@ -193,7 +212,7 @@
       "source": 178886,
       "target": 5,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 08/09/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 08/09/2021",
       "strength": 1
     },
     {
@@ -201,7 +220,7 @@
       "source": 178886,
       "target": 6,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 09/12/2011",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 09/12/2011",
       "strength": 1
     },
     {
@@ -265,7 +284,7 @@
       "source": 178886,
       "target": 14,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.940,72 (2 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 02/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.160,92 (9 lançamentos; tipo: TELEFONIA; período: 26/04/2025–09/12/2025)",
       "strength": 1
     },
     {
@@ -273,7 +292,7 @@
       "source": 178886,
       "target": 15,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.707,62 (6 lançamentos; tipo: TELEFONIA; período: 09/05/2025–09/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.940,72 (2 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 02/07/2025)",
       "strength": 1
     },
     {
@@ -297,15 +316,15 @@
       "source": 178886,
       "target": 18,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$453,30 (3 lançamentos; tipo: TELEFONIA; período: 26/04/2025–26/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8,82 (6 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
       "id": 19,
       "source": 178886,
       "target": 19,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8,82 (6 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$15.692.463,00 empenhado, R$14.091.954,00 pago (2 emendas; 2023)",
       "strength": 1
     },
     {
@@ -313,21 +332,13 @@
       "source": 178886,
       "target": 20,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$15.692.463,00 empenhado, R$14.091.954,00 pago (2 emendas; 2023)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$12.051.697,00 empenhado, R$12.051.697,00 pago (1 emenda; 2023)",
       "strength": 1
     },
     {
       "id": 21,
       "source": 178886,
       "target": 21,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$12.051.697,00 empenhado, R$12.051.697,00 pago (1 emenda; 2023)",
-      "strength": 1
-    },
-    {
-      "id": 22,
-      "source": 178886,
-      "target": 22,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Educação: R$3.000.000,00 empenhado, R$2.584.496,00 pago (2 emendas; 2023)",
       "strength": 1

@@ -22,6 +22,7 @@ export type ConnectionType =
 
 export interface GraphNode {
   id: number; // opaque — never a CPF/CNPJ
+  entityId?: string; // snapshot-local opaque cross-profile identity; never a document hash
   name: string;
   category: NodeCategory; // → node color
   connectionCount: number; // node degree → node size
@@ -37,18 +38,19 @@ export interface GraphLink {
 }
 
 export interface EgoNetworkMeta {
-  egoId?: number;
-  egoName?: string;
-  chamber?: "camara" | "senado";
+  egoId: number;
+  egoName: string;
+  chamber: "camara" | "senado";
   photo?: string | null;
-  generatedAt?: string;
-  sources?: string[];
-  summary?: string | null; // filled by build-time AI (Phase 5)
-  disclaimer?: string;
+  generatedAt: string;
+  sources: string[];
+  sourceCoverage: Record<string, string>;
+  summary: string | null; // filled by build-time AI (Phase 5)
+  disclaimer: string;
 }
 
 export interface EgoNetwork {
-  meta?: EgoNetworkMeta;
+  meta: EgoNetworkMeta;
   nodes: GraphNode[];
   links: GraphLink[];
 }

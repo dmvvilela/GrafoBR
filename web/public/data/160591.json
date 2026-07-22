@@ -4,7 +4,7 @@
     "egoName": "Vinicius Gurgel",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:39.929667Z",
+    "generatedAt": "2026-07-17T04:22:57.107849Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Nos dados de emendas a partir de 2023, constam R$ 51,6 milhões empenhados e R$ 39,0 milhões pagos em sete áreas, com Encargos especiais como principal. Há R$ 574 mil em despesas de cota e R$ 1,0 milhão em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,22 +27,24 @@
       "id": 160591,
       "name": "Vinicius Gurgel",
       "category": "politician",
-      "connectionCount": 22
+      "connectionCount": 21
     },
     {
       "id": 2,
       "name": "AMAZONIA SEGURANCA LTDA.",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13781"
     },
     {
       "id": 13,
       "name": "AMORETTO CAFES EXPRESSO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13"
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -44,16 +53,17 @@
       "id": 14,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "Defesa nacional",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 19,
+      "id": 18,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
@@ -62,16 +72,17 @@
       "id": 7,
       "name": "EDENILTON LIMA PEREIRA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13786"
     },
     {
-      "id": 18,
+      "id": 17,
       "name": "Educação",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 16,
+      "id": 15,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -80,58 +91,60 @@
       "id": 5,
       "name": "G DOS S PESSOA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13784"
     },
     {
       "id": 9,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13788"
     },
     {
       "id": 3,
       "name": "GURGEL & MAIA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13782"
     },
     {
       "id": 6,
       "name": "I DOS S RODRIGUES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13785"
     },
     {
       "id": 4,
       "name": "ICARO COMERCIO E COSNTRUCOES LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13783"
     },
     {
       "id": 8,
       "name": "J. BATISTA DOS SANTOS SB NOGUEIRA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13787"
     },
     {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e129"
     },
     {
       "id": 12,
       "name": "PRIME RENT A CAR",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13791"
     },
     {
-      "id": 15,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 17,
+      "id": 16,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -140,16 +153,18 @@
       "id": 10,
       "name": "Show de Bola Services Ltda Sdb Show de Bola",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13789"
     },
     {
       "id": 11,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13790"
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "Urbanismo",
       "category": "destino",
       "connectionCount": 1
@@ -169,7 +184,7 @@
       "source": 160591,
       "target": 2,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 02/06/2003",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 02/06/2003",
       "strength": 1
     },
     {
@@ -177,7 +192,7 @@
       "source": 160591,
       "target": 3,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 16/08/2000",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 16/08/2000",
       "strength": 1
     },
     {
@@ -185,7 +200,7 @@
       "source": 160591,
       "target": 4,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 21/05/2003",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 21/05/2003",
       "strength": 1
     },
     {
@@ -265,15 +280,15 @@
       "source": 160591,
       "target": 14,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.266,58 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.274,66 (21 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
       "id": 15,
       "source": 160591,
       "target": 15,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8,08 (9 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$27.200.000,00 empenhado, R$27.047.000,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -281,7 +296,7 @@
       "source": 160591,
       "target": 16,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$27.200.000,00 empenhado, R$27.047.000,00 pago (2 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Saúde: R$18.936.841,00 empenhado, R$10.553.522,00 pago (3 emendas; 2025)",
       "strength": 1
     },
     {
@@ -289,7 +304,7 @@
       "source": 160591,
       "target": 17,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$18.936.841,00 empenhado, R$10.553.522,00 pago (3 emendas; 2025)",
+      "description": "Emendas individuais destinadas a Educação: R$1.561.777,00 empenhado, R$148.800,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -297,7 +312,7 @@
       "source": 160591,
       "target": 18,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Educação: R$1.561.777,00 empenhado, R$148.800,00 pago (3 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.350.000,00 empenhado (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -305,7 +320,7 @@
       "source": 160591,
       "target": 19,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.350.000,00 empenhado (2 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.200.000,00 empenhado, R$54.000,00 pago (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -313,21 +328,13 @@
       "source": 160591,
       "target": 20,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Urbanismo: R$1.200.000,00 empenhado, R$54.000,00 pago (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.000.000,00 empenhado, R$1.000.000,00 pago (1 emenda; 2025)",
       "strength": 1
     },
     {
       "id": 21,
       "source": 160591,
       "target": 21,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$1.000.000,00 empenhado, R$1.000.000,00 pago (1 emenda; 2025)",
-      "strength": 1
-    },
-    {
-      "id": 22,
-      "source": 160591,
-      "target": 22,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Defesa nacional: R$398.060,00 empenhado, R$172.732,00 pago (1 emenda; 2024)",
       "strength": 1

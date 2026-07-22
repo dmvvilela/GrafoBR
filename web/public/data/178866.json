@@ -4,14 +4,20 @@
     "egoName": "Luizianne Lins",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.664117Z",
+    "generatedAt": "2026-07-17T04:22:54.035223Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "As emendas individuais registram R$ 106,9 milhões empenhados e R$ 76,8 milhões pagos em quinze áreas, principalmente Saúde. A cota parlamentar registra R$ 501 mil com 25 fornecedores, e a campanha de 2022 arrecadou R$ 2,3 milhões.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -25,7 +31,8 @@
       "id": 5,
       "name": "A DE LIMA CARDOSO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8949"
     },
     {
       "id": 43,
@@ -43,7 +50,8 @@
       "id": 24,
       "name": "Airbnb Plataforma Digital Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9071"
     },
     {
       "id": 37,
@@ -55,25 +63,35 @@
       "id": 28,
       "name": "BE HOTEL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9073"
     },
     {
       "id": 13,
       "name": "BELIZE COMPANY AUTO POSTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2332"
     },
     {
       "id": 16,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 39,
       "name": "Ciência e Tecnologia",
       "category": "destino",
       "connectionCount": 1
+    },
+    {
+      "id": 29,
+      "name": "Claro NXT Telecomunicações S.A",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 35,
@@ -85,13 +103,15 @@
       "id": 25,
       "name": "DAMPETRO COMERCIO DE DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e18"
     },
     {
-      "id": 19,
+      "id": 20,
       "name": "DRA4 DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e76"
     },
     {
       "id": 42,
@@ -109,7 +129,8 @@
       "id": 10,
       "name": "Diego Ladim Borges",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9065"
     },
     {
       "id": 31,
@@ -121,13 +142,15 @@
       "id": 2,
       "name": "ELEICAO 2022 CAMILO SOBREIRA DE SANTANA SENADOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7024"
     },
     {
       "id": 4,
       "name": "ELEICAO 2022 ELMANO DE FREITAS DA COSTA GOVERNADOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4"
     },
     {
       "id": 36,
@@ -145,13 +168,15 @@
       "id": 23,
       "name": "FERNANDO VOIGT DE BRITO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9070"
     },
     {
       "id": 12,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9067"
     },
     {
       "id": 34,
@@ -163,37 +188,36 @@
       "id": 8,
       "name": "Instituto Ertnest Mandel",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9063"
     },
     {
-      "id": 20,
+      "id": 18,
       "name": "Kalunga SA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 29,
-      "name": "Kalunga SA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e221"
     },
     {
       "id": 9,
       "name": "LOCARFLEX LOCAÇÕES DE VEÍCULOS EIRELI ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9064"
     },
     {
       "id": 17,
       "name": "Latam Linhas Aéreas S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 26,
       "name": "MULT COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8243"
     },
     {
       "id": 32,
@@ -211,31 +235,36 @@
       "id": 7,
       "name": "PANTANAL VEÍCULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e70"
     },
     {
       "id": 1,
       "name": "PARTIDO DOS TRABALHADORES - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e277"
     },
     {
       "id": 27,
       "name": "Papelaria Multiforma",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9072"
     },
     {
       "id": 3,
       "name": "SAMUEL DE OLIVEIRA LINS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9061"
     },
     {
       "id": 21,
       "name": "SEISELLES DISTRIBUIÇÃO E LOGÍSTICA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1558"
     },
     {
       "id": 30,
@@ -247,25 +276,29 @@
       "id": 22,
       "name": "TAIKAN FAST SUSHI LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9069"
     },
     {
       "id": 6,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9062"
     },
     {
       "id": 11,
       "name": "TAXI AEREO CONFIANÇA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9066"
     },
     {
-      "id": 18,
+      "id": 19,
       "name": "TELEFÕNICA BRASIL S.A VIVO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 40,
@@ -277,13 +310,15 @@
       "id": 14,
       "name": "UNIAO COMERCIAL DE SERVICOS E PRODUTOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9068"
     },
     {
       "id": 15,
       "name": "VILA GALE BRASIL - ATIVIDADES HOTELEIRAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4544"
     }
   ],
   "links": [
@@ -412,7 +447,7 @@
       "source": 178866,
       "target": 16,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.786,06 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.874,10 (21 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -428,7 +463,7 @@
       "source": 178866,
       "target": 18,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.131,22 (14 lançamentos; tipo: TELEFONIA; período: 09/01/2025–28/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.154,30 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 16/01/2025–08/12/2025)",
       "strength": 1
     },
     {
@@ -436,7 +471,7 @@
       "source": 178866,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.546,56 (21 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/01/2025–07/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.131,22 (14 lançamentos; tipo: TELEFONIA; período: 09/01/2025–28/12/2025)",
       "strength": 1
     },
     {
@@ -444,7 +479,7 @@
       "source": 178866,
       "target": 20,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.320,00 (9 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 16/01/2025–08/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.546,56 (21 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/01/2025–07/11/2025)",
       "strength": 1
     },
     {
@@ -460,7 +495,7 @@
       "source": 178866,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.095,85 (20 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 07/01/2025–17/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.291,75 (22 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 07/01/2025–17/12/2025)",
       "strength": 1
     },
     {
@@ -516,7 +551,7 @@
       "source": 178866,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$847,60 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 06/04/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$831,15 (5 lançamentos; tipo: TELEFONIA; período: 11/02/2025–09/01/2026)",
       "strength": 1
     },
     {

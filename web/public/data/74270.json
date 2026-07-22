@@ -4,14 +4,20 @@
     "egoName": "Gilberto Nascimento",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:36.432816Z",
+    "generatedAt": "2026-07-17T04:22:52.284882Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Nos dados de emendas individuais, aparecem R$ 107,3 milhões empenhados e R$ 101,4 milhões pagos em sete áreas, principalmente Saúde. Constam R$ 517 mil em despesas de cota e R$ 1,5 milhão em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -19,46 +25,52 @@
       "id": 74270,
       "name": "Gilberto Nascimento",
       "category": "politician",
-      "connectionCount": 45
+      "connectionCount": 42
     },
     {
       "id": 25,
       "name": "360 LOCAÇÕES EIRELI - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6358"
     },
     {
       "id": 7,
       "name": "ADONIS JESUS GARCIA AMOROSO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6340"
     },
     {
       "id": 6,
       "name": "ALEXANDRE AMBROZIO GILBERTI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6339"
     },
     {
       "id": 16,
       "name": "ANA PAULA FERREIRA MOREIRA DE SOUZA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6349"
     },
     {
       "id": 12,
       "name": "ANDREA ANDRADE DE CAMPOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6345"
     },
     {
-      "id": 31,
+      "id": 32,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6362"
     },
     {
-      "id": 43,
+      "id": 40,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -67,34 +79,38 @@
       "id": 5,
       "name": "BRUNO BUENO DRAGO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6338"
     },
     {
       "id": 17,
       "name": "CARLOS DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6350"
     },
     {
-      "id": 35,
+      "id": 34,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 1,
       "name": "DIRETORIO NACIONAL DO PARTIDO SOCIAL CRISTAO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e926"
     },
     {
-      "id": 42,
+      "id": 39,
       "name": "Defesa nacional",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 41,
+      "id": 38,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
@@ -103,16 +119,18 @@
       "id": 15,
       "name": "EDILZA TEREZINHA GARCIA AMOROSO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6348"
     },
     {
       "id": 13,
       "name": "ELIEL APARECIDO REZENDE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6346"
     },
     {
-      "id": 40,
+      "id": 37,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -121,82 +139,95 @@
       "id": 3,
       "name": "HELENO MASPOLI VERUCCI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6336"
     },
     {
       "id": 27,
       "name": "J.A. SERVICE E TRANSPORTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6360"
     },
     {
       "id": 10,
       "name": "JORGE ROBERTO TORREZIN",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6343"
     },
     {
       "id": 8,
       "name": "JOSE ROBERTO GARCIA AMOROSO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6341"
     },
     {
       "id": 21,
       "name": "LINDOMIRIAN PEDROSO SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6354"
     },
     {
       "id": 22,
       "name": "LUCIA BORBA LUIZ DE BRITO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6355"
     },
     {
       "id": 9,
       "name": "LUCIA INES RIBAS DE SOUZA SIQUEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6342"
     },
     {
       "id": 11,
       "name": "LUIZ FERNANDO ROSSINI PUGLIESI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6344"
     },
     {
-      "id": 36,
+      "id": 35,
       "name": "MANOEL PORTUGUES DA CUNHA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3160"
     },
     {
       "id": 19,
       "name": "MARCIO LUIZ DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6352"
     },
     {
       "id": 4,
       "name": "MARCO ANTONIO DA SILVA PILAO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6337"
     },
     {
       "id": 18,
       "name": "MARIA PATRICIO DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6351"
     },
     {
       "id": 23,
       "name": "MINUSSI FILMES PRESTACOES DE SERVICOS PRODUCOES CINEMATOGRAF",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6356"
     },
     {
-      "id": 45,
+      "id": 42,
       "name": "Organização agrária",
       "category": "destino",
       "connectionCount": 1
@@ -205,58 +236,59 @@
       "id": 20,
       "name": "PAULO ROBERTO DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6353"
     },
     {
       "id": 30,
       "name": "POSTO DE COMBUSTIVEIS SAO RAFAEL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e407"
     },
     {
       "id": 26,
       "name": "POSTO DE SERVICOS CHICAJULIA LT",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6359"
     },
     {
-      "id": 32,
+      "id": 33,
       "name": "PREFEITURA DE SÃO PAULO",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 38,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6363"
     },
     {
       "id": 2,
       "name": "RUBENS OMETTO SILVEIRA MELLO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e461"
     },
     {
       "id": 14,
       "name": "SILNEY FABIANO MENDES FIORI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6347"
     },
     {
       "id": 24,
       "name": "SUELY ELIAS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6357"
     },
     {
-      "id": 39,
+      "id": 36,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 44,
+      "id": 41,
       "name": "Segurança pública",
       "category": "destino",
       "connectionCount": 1
@@ -265,31 +297,22 @@
       "id": 29,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6361"
     },
     {
-      "id": 33,
+      "id": 31,
       "name": "TIM S.A",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 37,
-      "name": "TIM S.A",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 34,
-      "name": "TIM S/A",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1104"
     },
     {
       "id": 28,
       "name": "VIA LOCADORA DE AUTOMOVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e666"
     }
   ],
   "links": [
@@ -538,7 +561,7 @@
       "source": 74270,
       "target": 31,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.796,57 (2 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 06/03/2025–11/03/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.804,63 (18 lançamentos; tipo: TELEFONIA; período: 02/01/2025–11/10/2025)",
       "strength": 1
     },
     {
@@ -546,7 +569,7 @@
       "source": 74270,
       "target": 32,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.781,38 (6 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 12/03/2025–11/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.796,57 (2 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 06/03/2025–11/03/2025)",
       "strength": 1
     },
     {
@@ -554,7 +577,7 @@
       "source": 74270,
       "target": 33,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.214,72 (9 lançamentos; tipo: TELEFONIA; período: 07/01/2025–07/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.781,38 (6 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 12/03/2025–11/08/2025)",
       "strength": 1
     },
     {
@@ -562,7 +585,7 @@
       "source": 74270,
       "target": 34,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.399,92 (8 lançamentos; tipo: TELEFONIA; período: 02/01/2025–02/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.281,90 (21 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -570,31 +593,31 @@
       "source": 74270,
       "target": 35,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.266,58 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.050,00 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 07/08/2025–12/09/2025)",
       "strength": 1
     },
     {
       "id": 36,
       "source": 74270,
       "target": 36,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.050,00 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 07/08/2025–12/09/2025)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$58.444.552,00 empenhado, R$57.994.552,00 pago (19 emendas; 2023–2025)",
       "strength": 1
     },
     {
       "id": 37,
       "source": 74270,
       "target": 37,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$189,99 (1 lançamento; tipo: TELEFONIA; período: 11/10/2025)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$39.717.428,00 empenhado, R$39.633.969,00 pago (13 emendas; 2023–2025)",
       "strength": 1
     },
     {
       "id": 38,
       "source": 74270,
       "target": 38,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$15,32 (9 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$3.200.000,00 empenhado, R$64.000,00 pago (4 emendas; 2025)",
       "strength": 1
     },
     {
@@ -602,7 +625,7 @@
       "source": 74270,
       "target": 39,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$58.444.552,00 empenhado, R$57.994.552,00 pago (19 emendas; 2023–2025)",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$3.088.214,00 empenhado, R$1.586.038,00 pago (7 emendas; 2023–2025)",
       "strength": 1
     },
     {
@@ -610,7 +633,7 @@
       "source": 74270,
       "target": 40,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$39.717.428,00 empenhado, R$39.633.969,00 pago (13 emendas; 2023–2025)",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.800.000,00 empenhado, R$1.600.000,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -618,37 +641,13 @@
       "source": 74270,
       "target": 41,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$3.200.000,00 empenhado, R$64.000,00 pago (4 emendas; 2025)",
+      "description": "Emendas individuais destinadas a Segurança pública: R$800.000,00 empenhado, R$348.600,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
       "id": 42,
       "source": 74270,
       "target": 42,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Defesa nacional: R$3.088.214,00 empenhado, R$1.586.038,00 pago (7 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 43,
-      "source": 74270,
-      "target": 43,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$1.800.000,00 empenhado, R$1.600.000,00 pago (3 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 44,
-      "source": 74270,
-      "target": 44,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Segurança pública: R$800.000,00 empenhado, R$348.600,00 pago (2 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 45,
-      "source": 74270,
-      "target": 45,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Organização agrária: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
       "strength": 1

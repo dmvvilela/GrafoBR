@@ -4,7 +4,7 @@
     "egoName": "Carlos Henrique Gaguim",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:34.759283Z",
+    "generatedAt": "2026-07-17T04:22:49.461791Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Nos dados públicos, constam R$ 107,0 milhões em emendas empenhadas e R$ 103,8 milhões pagos em sete áreas, com foco em Saúde. Há R$ 466 mil em despesas de cota e R$ 2,3 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,43 +33,50 @@
       "id": 2,
       "name": "44 - UNIAO BRASIL TOCANTINS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2452"
     },
     {
       "id": 21,
       "name": "AGENCIA DE PROPAGANDA E PESQUISAS AUDIENCIA BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2469"
     },
     {
       "id": 6,
       "name": "APARTHOTEL TOMAZINI LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2456"
     },
     {
       "id": 22,
       "name": "ATITUDE MULTICOMUNICÇÃO LTDA - EIRELI ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2470"
     },
     {
       "id": 35,
       "name": "AUTO POSTO 303 NORTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e27"
     },
     {
       "id": 31,
       "name": "AUTO POSTO SHALOM LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2476"
     },
     {
       "id": 36,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2479"
     },
     {
       "id": 39,
@@ -74,28 +88,32 @@
       "id": 33,
       "name": "BR Soluções Técnicas e Administrativas Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1211"
     },
     {
       "id": 4,
       "name": "CARLOS HENRIQUE AMORIM",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2454"
     },
     {
       "id": 26,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 20,
       "name": "COMERCIAL DE COMBUSTIVEIS CASA TUA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2468"
     },
     {
-      "id": 41,
+      "id": 43,
       "name": "Comércio e serviços",
       "category": "destino",
       "connectionCount": 1
@@ -104,10 +122,11 @@
       "id": 15,
       "name": "Condomínio do Edifício JK Business Center",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2465"
     },
     {
-      "id": 42,
+      "id": 41,
       "name": "Cultura",
       "category": "destino",
       "connectionCount": 1
@@ -116,10 +135,11 @@
       "id": 28,
       "name": "DIARIO TOCANTINENSE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2474"
     },
     {
-      "id": 43,
+      "id": 42,
       "name": "Direitos da cidadania",
       "category": "destino",
       "connectionCount": 1
@@ -140,121 +160,141 @@
       "id": 13,
       "name": "FERNANDO GUIMARAES MENDES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2463"
     },
     {
       "id": 23,
       "name": "GLOBOL EMPREENDIMENTOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2471"
     },
     {
       "id": 7,
       "name": "HOLDING AMORIM LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2457"
     },
     {
       "id": 8,
       "name": "JARAGUA EMPREENDIMENTOS IMOBILIARIOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2458"
     },
     {
       "id": 9,
       "name": "JATOBA EMPREENDIMENTOS IMOBILIARIOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2459"
     },
     {
       "id": 29,
       "name": "JORNAL DIARIO DA REPUBLICA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2475"
     },
     {
       "id": 14,
       "name": "LS PRODUTOS E SERVIÇOS LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2464"
     },
     {
       "id": 32,
       "name": "MARIA JALAPAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2477"
     },
     {
       "id": 30,
       "name": "MAWAI MIDIA E PRODUÇÕES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e682"
     },
     {
       "id": 5,
       "name": "NAGILA TATIANE MECENAS DE LIMA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2455"
     },
     {
       "id": 10,
       "name": "PALMAS IATE CLUBE LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2460"
     },
     {
       "id": 27,
       "name": "PETRO - POSTOS DE ABASTECIMENTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2473"
     },
     {
       "id": 19,
       "name": "PETRO PETROLEO 75 COMERCIO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2467"
     },
     {
       "id": 18,
       "name": "PETROSHOP - COMERCIO DE COMBUSTIVEIS LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e685"
     },
     {
       "id": 34,
       "name": "POSTO MILENA PALMAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2478"
     },
     {
       "id": 11,
       "name": "PXANT'S INDUSTRIA E COM DE CONFECCOES LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2461"
     },
     {
       "id": 24,
       "name": "Portal CT Comunicação Eireli - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2472"
     },
     {
       "id": 25,
       "name": "R10 PRODUÇÕES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e667"
     },
     {
       "id": 3,
       "name": "RAGLEBIA BEZERRA DOS SANTOS LOPES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2453"
     },
     {
       "id": 12,
       "name": "RS PRODUTOS E SERVICOS EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2462"
     },
     {
       "id": 37,
@@ -266,19 +306,22 @@
       "id": 16,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2466"
     },
     {
       "id": 17,
       "name": "TELEFONIA BRASIL S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e687"
     }
   ],
   "links": [
@@ -327,7 +370,7 @@
       "source": 178993,
       "target": 6,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 27/12/2012",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 27/12/2012",
       "strength": 1
     },
     {
@@ -335,7 +378,7 @@
       "source": 178993,
       "target": 7,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 23/07/2020",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 23/07/2020",
       "strength": 1
     },
     {
@@ -343,7 +386,7 @@
       "source": 178993,
       "target": 8,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 20/08/2012",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 20/08/2012",
       "strength": 1
     },
     {
@@ -351,7 +394,7 @@
       "source": 178993,
       "target": 9,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 23/03/2010",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 23/03/2010",
       "strength": 1
     },
     {
@@ -359,7 +402,7 @@
       "source": 178993,
       "target": 10,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 13/10/2014",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 13/10/2014",
       "strength": 1
     },
     {
@@ -367,7 +410,7 @@
       "source": 178993,
       "target": 11,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 17/10/1997",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 17/10/1997",
       "strength": 1
     },
     {
@@ -423,7 +466,7 @@
       "source": 178993,
       "target": 18,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$13.300,27 (35 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/01/2025–28/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$14.258,40 (38 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/01/2025–28/12/2025)",
       "strength": 1
     },
     {
@@ -487,7 +530,7 @@
       "source": 178993,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.328,03 (26 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.348,84 (35 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -607,7 +650,7 @@
       "source": 178993,
       "target": 41,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Comércio e serviços: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Cultura: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -615,7 +658,7 @@
       "source": 178993,
       "target": 42,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Cultura: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -623,7 +666,7 @@
       "source": 178993,
       "target": 43,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Direitos da cidadania: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
       "strength": 1
     }
   ]

@@ -4,7 +4,7 @@
     "egoName": "Gustavo Gayer",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:36.570375Z",
+    "generatedAt": "2026-07-17T04:22:52.488334Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "As emendas desde 2023 totalizam R$ 36,0 milhões empenhados e R$ 21,0 milhões pagos em sete áreas, principalmente Saúde. Constam R$ 226 mil em despesas da cota parlamentar com 20 fornecedores e R$ 122 mil em doações de campanha em 2022, de catorze doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,22 +27,24 @@
       "id": 220568,
       "name": "Gustavo Gayer",
       "category": "politician",
-      "connectionCount": 44
+      "connectionCount": 42
     },
     {
       "id": 15,
       "name": "ACADEMIA GAYER LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6659"
     },
     {
       "id": 25,
       "name": "ASPAR - ASSESSORIA E CONSULTORIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6664"
     },
     {
-      "id": 39,
+      "id": 37,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -44,46 +53,46 @@
       "id": 26,
       "name": "BEM ESTAR SERVIÇOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6665"
     },
     {
       "id": 21,
       "name": "BROAD BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e170"
     },
     {
-      "id": 28,
+      "id": 29,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 4,
       "name": "CIBELLE DA SILVA XAVIER",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 35,
-      "name": "CLARO NXT TELECOMUNICAÇÕES S.A",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6648"
     },
     {
       "id": 31,
       "name": "Cia Aérea - GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e147"
     },
     {
-      "id": 29,
+      "id": 28,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
-      "id": 42,
+      "id": 40,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
@@ -92,16 +101,17 @@
       "id": 23,
       "name": "ENEL - COMPANHIA DE ENERGIA ELÉTRICA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e266"
     },
     {
-      "id": 44,
+      "id": 42,
       "name": "Educação",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 41,
+      "id": 39,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -110,160 +120,178 @@
       "id": 3,
       "name": "FREDERICO GAYER MACHADO DE ARAUJO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6647"
     },
     {
       "id": 16,
       "name": "GAYER COMUNICACAO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6660"
     },
     {
       "id": 17,
       "name": "GAYER E GAYER IDIOMAS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6661"
     },
     {
-      "id": 36,
+      "id": 35,
       "name": "GUARD PROTECTION SMART LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6668"
     },
     {
       "id": 9,
       "name": "GUSTAVO DE SANTANA CARVALHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6653"
     },
     {
       "id": 2,
       "name": "GUSTAVO GAYER MACHADO DE ARAUJO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6646"
     },
     {
       "id": 10,
       "name": "JOAO PAULO DE SOUSA CAVALCANTE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6654"
     },
     {
       "id": 5,
       "name": "JORGE ARANTES JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6649"
     },
     {
       "id": 7,
       "name": "JOSE PEIXOTO DOS SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6651"
     },
     {
       "id": 8,
       "name": "LEANDRO MATHEUS BASTOS RASSEN",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6652"
     },
     {
       "id": 33,
       "name": "LINQ TELECOM LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6667"
     },
     {
       "id": 20,
       "name": "MARCELO SIMON IMÓVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6662"
     },
     {
       "id": 18,
       "name": "Nacional Rent a Car Locação de Veiculos LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e138"
     },
     {
       "id": 13,
       "name": "OSMAR MOREIRA DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6657"
     },
     {
       "id": 34,
       "name": "PAPELARIA TRIBUTARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3944"
     },
     {
       "id": 24,
       "name": "PREFEITURA DE GOIÂNIA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e270"
     },
     {
       "id": 12,
       "name": "RAFAEL HUMBERTO NUNES JACOB GOMES",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 37,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6656"
     },
     {
       "id": 11,
       "name": "RAQUEL ANTUNES BUENO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6655"
     },
     {
       "id": 1,
       "name": "RINOBOX SOLUCOES FINANCEIRAS LTDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1068"
     },
     {
       "id": 30,
       "name": "SANEAGO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e276"
     },
     {
       "id": 22,
       "name": "SEM FRONTEIRAS - NEGÓCIOS IMOBILIÁRIOS LTDAS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6663"
     },
     {
       "id": 32,
       "name": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e142"
     },
     {
       "id": 14,
       "name": "SERGIO SEBASTIAO DE MENDONCA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6658"
     },
     {
       "id": 19,
       "name": "SUPREMA MOBILIDADE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3395"
     },
     {
-      "id": 38,
+      "id": 36,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 40,
+      "id": 38,
       "name": "Segurança pública",
       "category": "destino",
       "connectionCount": 1
@@ -272,10 +300,11 @@
       "id": 6,
       "name": "UEDER JOSE RAMOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6650"
     },
     {
-      "id": 43,
+      "id": 41,
       "name": "Urbanismo",
       "category": "destino",
       "connectionCount": 1
@@ -284,7 +313,8 @@
       "id": 27,
       "name": "WOSLEY DANIEL DE SOUZA COSTA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6666"
     }
   ],
   "links": [
@@ -405,7 +435,7 @@
       "source": 220568,
       "target": 15,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 07/07/2022",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 07/07/2022",
       "strength": 1
     },
     {
@@ -413,7 +443,7 @@
       "source": 220568,
       "target": 16,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 18/03/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 18/03/2021",
       "strength": 1
     },
     {
@@ -421,7 +451,7 @@
       "source": 220568,
       "target": 17,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 17/07/2013",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 17/07/2013",
       "strength": 1
     },
     {
@@ -509,7 +539,7 @@
       "source": 220568,
       "target": 28,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.852,07 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.029,13 (9 lançamentos; tipo: TELEFONIA; período: 24/01/2025–27/12/2025)",
       "strength": 1
     },
     {
@@ -517,7 +547,7 @@
       "source": 220568,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.711,28 (8 lançamentos; tipo: TELEFONIA; período: 24/01/2025–27/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.862,47 (21 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -565,23 +595,23 @@
       "source": 220568,
       "target": 35,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$317,85 (1 lançamento; tipo: TELEFONIA; período: 18/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$207,00 (1 lançamento; tipo: SERVIÇO DE SEGURANÇA PRESTADO POR EMPRESA ESPECIALIZADA.; período: 03/02/2025)",
       "strength": 1
     },
     {
       "id": 36,
       "source": 220568,
       "target": 36,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$207,00 (1 lançamento; tipo: SERVIÇO DE SEGURANÇA PRESTADO POR EMPRESA ESPECIALIZADA.; período: 03/02/2025)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$20.970.795,00 empenhado, R$15.339.688,00 pago (4 emendas; 2024)",
       "strength": 1
     },
     {
       "id": 37,
       "source": 220568,
       "target": 37,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10,40 (9 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$5.042.000,00 empenhado, R$2.300.000,00 pago (3 emendas; 2024)",
       "strength": 1
     },
     {
@@ -589,7 +619,7 @@
       "source": 220568,
       "target": 38,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$20.970.795,00 empenhado, R$15.339.688,00 pago (4 emendas; 2024)",
+      "description": "Emendas individuais destinadas a Segurança pública: R$3.390.000,00 empenhado, R$585.494,00 pago (2 emendas; 2024)",
       "strength": 1
     },
     {
@@ -597,7 +627,7 @@
       "source": 220568,
       "target": 39,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$5.042.000,00 empenhado, R$2.300.000,00 pago (3 emendas; 2024)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$2.750.000,00 empenhado, R$2.750.000,00 pago (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -605,7 +635,7 @@
       "source": 220568,
       "target": 40,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Segurança pública: R$3.390.000,00 empenhado, R$585.494,00 pago (2 emendas; 2024)",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.555.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -613,29 +643,13 @@
       "source": 220568,
       "target": 41,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$2.750.000,00 empenhado, R$2.750.000,00 pago (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.402.821,00 empenhado, R$33.134,00 pago (1 emenda; 2024)",
       "strength": 1
     },
     {
       "id": 42,
       "source": 220568,
       "target": 42,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.555.000,00 empenhado (1 emenda; 2024)",
-      "strength": 1
-    },
-    {
-      "id": 43,
-      "source": 220568,
-      "target": 43,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Urbanismo: R$1.402.821,00 empenhado, R$33.134,00 pago (1 emenda; 2024)",
-      "strength": 1
-    },
-    {
-      "id": 44,
-      "source": 220568,
-      "target": 44,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Educação: R$859.803,00 empenhado (1 emenda; 2024)",
       "strength": 1

@@ -71,7 +71,7 @@ type EntityDeputy = {
 };
 type EntityMap = Record<
   string,
-  { name: string; category: string; count: number; deputies: EntityDeputy[] }
+  { id: string; name: string; category: string; count: number; deputies: EntityDeputy[] }
 >;
 
 type RelatedEntry = {
@@ -425,7 +425,8 @@ function EgoViewInner({
 
   const selectedEntity = useMemo(() => {
     if (!selected) return null;
-    const e = entities[selected.name];
+    if (!selected.entityId) return null;
+    const e = entities[selected.entityId];
     if (!e) return null;
     const others = e.deputies.filter((d) => d.id !== ego.meta?.egoId);
     if (others.length === 0) return null;
@@ -1038,6 +1039,13 @@ function EgoViewInner({
             {sourceLabels.length ? ` (${sourceLabels.join(", ")})` : ""}. Não
             representam acusação de irregularidade.
           </p>
+          {Object.keys(ego.meta.sourceCoverage).length > 0 && (
+            <p className="px-1 text-[11px] leading-relaxed text-zinc-600">
+              Recortes: {Object.entries(ego.meta.sourceCoverage)
+                .map(([source, coverage]) => `${sourceLabel(source)} — ${coverage}`)
+                .join("; ")}.
+            </p>
+          )}
         </aside>
       </div>
     </div>

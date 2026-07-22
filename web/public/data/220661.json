@@ -4,14 +4,20 @@
     "egoName": "Matheus Noronha",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.995256Z",
+    "generatedAt": "2026-07-17T04:22:54.480570Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Desde 2023, aparecem R$ 75,1 milhões em emendas empenhadas e R$ 74,9 milhões pagos em três áreas, com Saúde como principal. Há R$ 466 mil em despesas de cota e R$ 719 mil em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -19,52 +25,58 @@
       "id": 220661,
       "name": "Matheus Noronha",
       "category": "politician",
-      "connectionCount": 30
+      "connectionCount": 29
     },
     {
       "id": 19,
       "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
-      "id": 24,
+      "id": 23,
       "name": "AUTO POSTO GOLDEN GAS 202 LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1289"
     },
     {
       "id": 10,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9777"
     },
     {
       "id": 17,
       "name": "AZUL LINHAS AÉREAS BRASILEIRAS S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e145"
     },
     {
-      "id": 25,
+      "id": 24,
       "name": "COMERCIAL DE COMBUSTÍVEL MAM LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9780"
     },
     {
       "id": 18,
       "name": "DJ - HOTELARIA S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5636"
     },
     {
-      "id": 30,
+      "id": 29,
       "name": "Defesa nacional",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 29,
+      "id": 28,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -73,106 +85,116 @@
       "id": 15,
       "name": "FV COMUNICAÇÕES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9778"
     },
     {
       "id": 2,
       "name": "GENECIAS MATEUS NORONHA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9770"
     },
     {
       "id": 8,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9775"
     },
     {
       "id": 21,
       "name": "GRANDES VIAGENS TURISMO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 22,
       "name": "HOTEL E RESTAURANTE WZ JARDINS 1 LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9779"
     },
     {
       "id": 20,
       "name": "HOTELARIA ACCOR BRASIL S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e225"
     },
     {
       "id": 11,
       "name": "J.M. Carneiro Junior Comunicaçoes",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4779"
     },
     {
       "id": 13,
       "name": "LIMA E SILVA AGENCIA DE NOTICIAS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4496"
     },
     {
       "id": 3,
       "name": "LUIZ ALVES NORONHA JUNIOR",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 23,
-      "name": "MELIA BRASIL ADMINISTRACAO HOTELEIRA E COMERCIAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9771"
     },
     {
       "id": 16,
-      "name": "MELIA BRASIL ADMINISTRACAO HOTELEIRA E COMERCIAL LTDA",
+      "name": "MELIA BRASIL ADMINISTRACAO HOTELEIRA E COMERCIAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4040"
     },
     {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e129"
     },
     {
       "id": 4,
       "name": "PARTIDO LIBERAL CEARA CE ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 27,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1193"
     },
     {
       "id": 26,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e10"
+    },
+    {
+      "id": 25,
       "name": "RESTAURANTE PICANHAS DO SUL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9781"
     },
     {
       "id": 12,
       "name": "RÁDIO VALE DO RIO POTY LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3877"
     },
     {
       "id": 9,
       "name": "SERVI 100 COMERCIO DE COMBUSTVIES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9776"
     },
     {
-      "id": 28,
+      "id": 27,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -181,25 +203,29 @@
       "id": 7,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9774"
     },
     {
       "id": 14,
       "name": "TRANSAMERICA COMERCIAL E SERVICOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4212"
     },
     {
       "id": 5,
       "name": "VERITAT CONSULTORIA EM PUBLICIDADE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9772"
     },
     {
       "id": 6,
       "name": "WEBERTE BERNARDO LEMOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9773"
     }
   ],
   "links": [
@@ -328,7 +354,7 @@
       "source": 220661,
       "target": 16,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.059,50 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 07/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.582,50 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 31/05/2025–07/11/2025)",
       "strength": 1
     },
     {
@@ -384,7 +410,7 @@
       "source": 220661,
       "target": 23,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$523,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 31/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$268,18 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 26/03/2025)",
       "strength": 1
     },
     {
@@ -392,7 +418,7 @@
       "source": 220661,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$268,18 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 26/03/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$235,15 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 13/02/2025)",
       "strength": 1
     },
     {
@@ -400,7 +426,7 @@
       "source": 220661,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$235,15 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 13/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$159,65 (2 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 12/03/2025–29/04/2025)",
       "strength": 1
     },
     {
@@ -408,15 +434,15 @@
       "source": 220661,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$159,65 (2 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 12/03/2025–29/04/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6,59 (8 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
       "id": 27,
       "source": 220661,
       "target": 27,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6,59 (8 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.573.786,00 empenhado, R$37.573.786,00 pago (4 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -424,21 +450,13 @@
       "source": 220661,
       "target": 28,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$37.573.786,00 empenhado, R$37.573.786,00 pago (4 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$37.423.783,00 empenhado, R$37.237.404,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
       "id": 29,
       "source": 220661,
       "target": 29,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$37.423.783,00 empenhado, R$37.237.404,00 pago (2 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 30,
-      "source": 220661,
-      "target": 30,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Defesa nacional: R$149.989,00 empenhado, R$124.699,00 pago (1 emenda; 2024)",
       "strength": 1

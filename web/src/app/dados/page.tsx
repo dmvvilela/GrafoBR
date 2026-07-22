@@ -203,6 +203,7 @@ export default async function DadosPage() {
         <ul className="mt-3 list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-zinc-500 marker:text-zinc-700">
           <li>CPFs nunca são publicados; identificadores do grafo são opacos.</li>
           <li>Receita/CNPJ usa CPF mascarado, então sócios exigem pareamento conservador.</li>
+          <li>As ligações societárias usam o snapshot Receita/CNPJ de maio de 2023; não afirmam situação societária atual.</li>
           <li>Senadores têm menos cruzamentos porque a base aberta do Senado não publica CPF.</li>
           <li>Obrasgov é tratado como amostra: a própria API não pagina listagens de forma confiável.</li>
           <li>Ausência de conexão significa ausência nas fontes usadas, não ausência no mundo real.</li>

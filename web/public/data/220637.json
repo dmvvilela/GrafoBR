@@ -4,12 +4,17 @@
     "egoName": "Marina Silva",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.947306Z",
+    "generatedAt": "2026-07-17T04:22:54.417642Z",
     "sources": [
       "camara",
       "receita",
       "tse"
     ],
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
     "summary": "Os dados públicos registram R$ 2,9 milhões em doações de campanha em 2022, de cinco doadores.",
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
@@ -24,37 +29,43 @@
       "id": 5,
       "name": "#NULO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9691"
     },
     {
       "id": 3,
       "name": "APPCIVICO CONSULTORIA LTDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1109"
     },
     {
       "id": 6,
       "name": "INSTITUTO MARINA SILVA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9692"
     },
     {
       "id": 2,
       "name": "PEDRO DE GODOY BUENO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e183"
     },
     {
       "id": 4,
       "name": "PLINIO SERGIO TARGA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9690"
     },
     {
       "id": 1,
       "name": "REDE SUSTENTABILIDADE - SAO PAULO - SP - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9689"
     }
   ],
   "links": [
@@ -103,7 +114,7 @@
       "source": 220637,
       "target": 6,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 24/09/2014",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 24/09/2014",
       "strength": 1
     }
   ]

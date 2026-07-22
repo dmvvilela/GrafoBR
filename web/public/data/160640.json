@@ -4,7 +4,7 @@
     "egoName": "Eros Biondini",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:35.968526Z",
+    "generatedAt": "2026-07-17T04:22:51.605407Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Os registros de emendas a partir de 2023 indicam R$ 106,6 milhões empenhados e R$ 90,7 milhões pagos em nove áreas, com Saúde em destaque. A cota parlamentar soma R$ 431 mil e a campanha de 2022 arrecadou R$ 1,8 milhão.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,19 +33,22 @@
       "id": 22,
       "name": "ARLETE DA CONCEICAO SILVA RIBEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5328"
     },
     {
-      "id": 50,
+      "id": 46,
       "name": "ATLANTICA HOTELS INTERNACIONAL BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1526"
     },
     {
       "id": 27,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5333"
     },
     {
       "id": 54,
@@ -47,52 +57,60 @@
       "connectionCount": 1
     },
     {
-      "id": 49,
+      "id": 50,
       "name": "Azul Linhas Aéreas Inteligentes S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e145"
     },
     {
       "id": 3,
       "name": "CARLOS JACOBINO LIMA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5309"
     },
     {
       "id": 43,
       "name": "CEMIG DISTRIBUIÇÃO S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1055"
     },
     {
       "id": 8,
       "name": "CESAR ANTONIO ARCI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5314"
     },
     {
       "id": 40,
       "name": "CLARO S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e23"
     },
     {
       "id": 21,
       "name": "CLEMENTE DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5327"
     },
     {
       "id": 12,
       "name": "CLEUNICE DO CARMO COSTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5318"
     },
     {
       "id": 28,
       "name": "Condomínio Edifício Lagoa Trade Center",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5334"
     },
     {
       "id": 59,
@@ -104,7 +122,8 @@
       "id": 37,
       "name": "DANIELA DE CARVALHO VAZ JACOB-ME HOTEL AGUA VIVA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5338"
     },
     {
       "id": 60,
@@ -116,13 +135,15 @@
       "id": 36,
       "name": "ESTRELA LOCAÇÕES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2192"
     },
     {
       "id": 35,
       "name": "ESTRELA LOGISTICA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2182"
     },
     {
       "id": 58,
@@ -140,127 +161,148 @@
       "id": 23,
       "name": "FABIANA DE JESUS RIBEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5329"
     },
     {
       "id": 42,
       "name": "GILBERTO SILVEIRA JUNIOR",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5340"
     },
     {
       "id": 13,
       "name": "GIMENE DOS SANTOS GALVAO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5319"
     },
     {
       "id": 34,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5337"
     },
     {
       "id": 4,
       "name": "GREGOR LIMA VIANA RODRIGUES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5310"
     },
     {
       "id": 24,
       "name": "IONE APARECIDA MENDES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5330"
     },
     {
       "id": 10,
       "name": "JOAO BIONDINI JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5316"
     },
     {
       "id": 9,
       "name": "JOSE CARLOS DE SOUZA NETTO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5315"
     },
     {
       "id": 31,
       "name": "JR COMERCIO E PRESTACAO DE SERVICOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5336"
     },
     {
       "id": 14,
       "name": "JUSCILENE DE FATIMA NEVES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5320"
     },
     {
       "id": 15,
       "name": "LARISSA MARIANA OLIVEIRA DUARTE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5321"
     },
     {
       "id": 16,
       "name": "LICIO MOREIRA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5322"
     },
     {
       "id": 17,
       "name": "LIZA BOSCO NERY",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5323"
     },
     {
       "id": 26,
       "name": "LOUVARTE PRODUCOES ARTISTICAS E CULTURAIS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5332"
     },
     {
       "id": 18,
       "name": "LUCIANO PALMA PROCOPIO BRETAS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5324"
     },
     {
       "id": 33,
       "name": "Latam Linhas Aéreas S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 5,
       "name": "MARCIO ALAOR DE ARAUJO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5311"
     },
     {
       "id": 2,
       "name": "MARCO ANTONIO MARTINS PATRUS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5308"
     },
     {
       "id": 11,
       "name": "MARIA MOREIRA RUAS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5317"
     },
     {
       "id": 6,
       "name": "MARIO BATISTA MIRANDA FILHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5312"
     },
     {
       "id": 25,
       "name": "MATHEUS BARBOSA WERNECK",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5331"
     },
     {
       "id": 55,
@@ -272,73 +314,85 @@
       "id": 39,
       "name": "PARLANET WEB E TECNOLOGIA EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e328"
     },
     {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e129"
     },
     {
       "id": 45,
       "name": "PLAZA BRASILIA HOTEIS E TURISMO LTDA (MPH)",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1862"
     },
     {
       "id": 32,
       "name": "POSTO DE COMBUSTIVEIS 214 SUL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3285"
     },
     {
       "id": 51,
       "name": "POUSADA M&M LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5342"
     },
     {
       "id": 41,
       "name": "POUSADA SOSSEGO DA PAMPULHA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5339"
+    },
+    {
+      "id": 38,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 7,
       "name": "RONALDO GOMES DE CARVALHO",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 38,
-      "name": "Residenza Piranesi",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5313"
     },
     {
       "id": 19,
       "name": "SALUA CARDOSO TUPY",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5325"
     },
     {
       "id": 20,
       "name": "SEBASTIANA CARLA CORREA RODRIGUES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5326"
     },
     {
-      "id": 47,
+      "id": 48,
       "name": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e142"
     },
     {
       "id": 44,
       "name": "SHERATON PORTO ALEGRE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5341"
     },
     {
       "id": 52,
@@ -356,7 +410,8 @@
       "id": 29,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5335"
     },
     {
       "id": 56,
@@ -368,19 +423,22 @@
       "id": 30,
       "name": "VALOR LOCAÇÕES EIRELI - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2184"
     },
     {
-      "id": 46,
+      "id": 47,
       "name": "WINDSOR ADMINISTRAÇÃO DE HOTEIS E SERVIÇOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4218"
     },
     {
-      "id": 48,
+      "id": 49,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     }
   ],
   "links": [
@@ -589,7 +647,7 @@
       "source": 160640,
       "target": 26,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 01/10/2013",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 01/10/2013",
       "strength": 1
     },
     {
@@ -685,7 +743,7 @@
       "source": 160640,
       "target": 38,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8.357,59 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 23/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8.396,63 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -749,7 +807,7 @@
       "source": 160640,
       "target": 46,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.181,80 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 09/04/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.800,35 (3 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 12/05/2025–31/07/2025)",
       "strength": 1
     },
     {
@@ -757,7 +815,7 @@
       "source": 160640,
       "target": 47,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.870,75 (9 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 23/01/2025–23/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.181,80 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 09/04/2025)",
       "strength": 1
     },
     {
@@ -765,7 +823,7 @@
       "source": 160640,
       "target": 48,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.572,70 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 18/03/2025–03/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.870,75 (9 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 23/01/2025–23/11/2025)",
       "strength": 1
     },
     {
@@ -773,7 +831,7 @@
       "source": 160640,
       "target": 49,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.521,90 (1 lançamento; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 25/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.572,70 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 18/03/2025–03/12/2025)",
       "strength": 1
     },
     {
@@ -781,7 +839,7 @@
       "source": 160640,
       "target": 50,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.502,55 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 12/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.521,90 (1 lançamento; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 25/06/2025)",
       "strength": 1
     },
     {

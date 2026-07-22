@@ -4,7 +4,7 @@
     "egoName": "Rosângela Reis",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:39.368634Z",
+    "generatedAt": "2026-07-17T04:22:56.403810Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "As emendas desde 2023 totalizam R$ 75,1 milhões empenhados e R$ 70,1 milhões pagos em cinco áreas, principalmente Saúde. Constam R$ 476 mil em despesas da cota parlamentar com 25 fornecedores e R$ 871 mil em doações de campanha em 2022, de vinte e cinco doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,43 +33,50 @@
       "id": 47,
       "name": "AB&B Marketing e Eventos Eireli",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12748"
     },
     {
       "id": 21,
       "name": "ADAIR ALBERTO DOS ANJOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12729"
     },
     {
       "id": 26,
       "name": "ADMINISTRADORA CARTAO DE TODOS BARREIRAS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12734"
     },
     {
       "id": 22,
       "name": "ALBERTO COSTA JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12730"
     },
     {
       "id": 27,
       "name": "AMOR SAUDE BARREIRAS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12735"
     },
     {
       "id": 43,
       "name": "AUTO POSTO DO ALEMÃO EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11527"
     },
     {
       "id": 34,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12741"
     },
     {
       "id": 57,
@@ -74,7 +88,8 @@
       "id": 52,
       "name": "Alfa FM Rádio do Povo",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12749"
     },
     {
       "id": 55,
@@ -86,49 +101,57 @@
       "id": 23,
       "name": "CARLOS HENRIQUE DA SILVA FERREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12731"
     },
     {
       "id": 51,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 50,
       "name": "CEMIG DISTRIBUIÇÃO S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1055"
     },
     {
       "id": 37,
       "name": "CONDOMINIO DO EDIFICIO CARLA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9382"
     },
     {
       "id": 30,
       "name": "Casa 222 - Artigos Musicais, Esportivos, Produção e Estrutura de Eventos Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12737"
     },
     {
       "id": 29,
       "name": "Comercial de Combustíveis Ideal Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12736"
     },
     {
       "id": 7,
       "name": "DANIELA CANDIDO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12715"
     },
     {
       "id": 36,
       "name": "Denis Martuscelli Publicidade e Marketing Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12742"
     },
     {
       "id": 56,
@@ -140,31 +163,36 @@
       "id": 24,
       "name": "EDUARDO LEANDRO NASCIMENTO ISAIAS VIEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12732"
     },
     {
       "id": 18,
       "name": "ELEICAO 2022 HELENO MARCIO DE MELO BOY DEPUTADO ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12726"
     },
     {
       "id": 6,
       "name": "ELEICAO 2022 JORGE LUIZ FORTUNATO ALI DEPUTADO ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12714"
     },
     {
       "id": 19,
       "name": "ELI MARTINS DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12727"
     },
     {
       "id": 25,
       "name": "ELOISIO DA COSTA BATISTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12733"
     },
     {
       "id": 54,
@@ -176,145 +204,169 @@
       "id": 46,
       "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 3,
       "name": "GERALDO MAGELA RIBEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12712"
     },
     {
       "id": 8,
       "name": "GLAUCIO BICALHO ERVILHA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12716"
     },
     {
       "id": 39,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12744"
     },
     {
       "id": 38,
       "name": "Hugo Lim Siqueira",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12743"
     },
     {
       "id": 45,
       "name": "I9 Comunicação & Marketing Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12747"
     },
     {
       "id": 20,
       "name": "ISAIAS MAGALHAES GONCALVES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12728"
     },
     {
       "id": 9,
       "name": "JORGE MALTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12717"
     },
     {
       "id": 32,
       "name": "LAS CASA & CIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12739"
     },
     {
       "id": 35,
       "name": "LETSROCKET COMUNICAÇÃO DIGITAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1325"
     },
     {
       "id": 5,
       "name": "LIEBERTH OLIVEIRA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12713"
     },
     {
       "id": 10,
       "name": "MARCO ANTONIO ALVES PEREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12718"
     },
     {
       "id": 11,
       "name": "MARCO AURELIO FAGUNDES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12719"
     },
     {
       "id": 48,
       "name": "MUNICÍPIO DE BELO HORIZONTE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1765"
     },
     {
       "id": 12,
       "name": "ORLANDO FRANCISCO PAULISTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12720"
     },
     {
       "id": 33,
       "name": "PAC Comunicação Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12740"
     },
     {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e129"
     },
     {
       "id": 4,
       "name": "PARTIDO LIBERAL - MINAS GERAIS - MG - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8056"
     },
     {
       "id": 13,
       "name": "PAULO ROBERTO MARTINS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12721"
     },
     {
       "id": 41,
       "name": "POSTO DE COMBUSTIVEIS 206 LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1214"
     },
     {
       "id": 40,
       "name": "Platy Serviços On Line",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12745"
     },
     {
       "id": 14,
       "name": "ROGERIO SILVA ABREU",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12722"
     },
     {
       "id": 2,
       "name": "ROSANGELA DE OLIVEIRA CAMPOS REIS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12711"
     },
     {
       "id": 15,
       "name": "SIRLEI GONCALVES LANA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12723"
     },
     {
       "id": 53,
@@ -326,43 +378,50 @@
       "id": 44,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12746"
     },
     {
       "id": 42,
       "name": "TECNEGOCIOS SOLUÇÕES EM INFORMÁTICA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1168"
     },
     {
       "id": 49,
-      "name": "TELEFONIA BRASIL S/A",
+      "name": "TELEFONICA BRASIL S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 16,
       "name": "TELMA APARECIDA MORAES CARDOSO DE AZEVEDO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12724"
     },
     {
       "id": 28,
       "name": "TRANSMOURA LOCADORA DE VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4518"
     },
     {
       "id": 31,
       "name": "Vagno Antônio Ribeiro",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12738"
     },
     {
       "id": 17,
       "name": "WANDERCY GOMES DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12725"
     }
   ],
   "links": [
@@ -571,7 +630,7 @@
       "source": 220620,
       "target": 26,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 05/12/2022",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 05/12/2022",
       "strength": 1
     },
     {
@@ -579,7 +638,7 @@
       "source": 220620,
       "target": 27,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 20/04/2020",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 20/04/2020",
       "strength": 1
     },
     {
@@ -755,7 +814,7 @@
       "source": 220620,
       "target": 49,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.565,71 (9 lançamentos; tipo: TELEFONIA; período: 04/01/2025–01/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.964,70 (10 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 04/01/2025–01/10/2025)",
       "strength": 1
     },
     {
@@ -771,7 +830,7 @@
       "source": 220620,
       "target": 51,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.533,16 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.585,08 (21 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {

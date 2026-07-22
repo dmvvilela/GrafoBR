@@ -4,7 +4,7 @@
     "egoName": "João Carlos Bacelar",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.096497Z",
+    "generatedAt": "2026-07-17T04:22:53.260614Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Os registros públicos indicam R$ 105,3 milhões em emendas empenhadas e R$ 102,9 milhões pagos em três áreas, principalmente Saúde. Há R$ 383 mil em despesas de cota e R$ 1,0 milhão em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -23,106 +30,123 @@
       "connectionCount": 41
     },
     {
-      "id": 32,
+      "id": 31,
       "name": "23 INTELIG TELECOM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1104"
     },
     {
       "id": 2,
       "name": "ADALBERTO DE MENEZES PEDROSO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7691"
     },
     {
       "id": 27,
       "name": "AERTOPOSTO TIGRÃO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7710"
     },
     {
       "id": 21,
       "name": "AMORETTO CAFES EXPRESSO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13"
     },
     {
       "id": 16,
       "name": "ARCO IRIS GRÁFICA E COMUNICAÇÃO VISUAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7701"
     },
     {
       "id": 20,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7705"
     },
     {
       "id": 23,
       "name": "BAHIA MARINA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7707"
     },
     {
       "id": 19,
       "name": "CARLALHO NETO, INSDUSTRIA E COMERCIO DE CONFECÇÕES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7704"
     },
     {
       "id": 4,
       "name": "CARLOS ALBERTO FREITAS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5735"
     },
     {
       "id": 29,
       "name": "CARLOS EDUARDO CASAGRANDE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1373"
     },
     {
       "id": 28,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 35,
       "name": "COMPANHIA DE ELETRICIDADE DO ESTADO DA BAHIA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e175"
     },
     {
       "id": 25,
       "name": "CONDOMÍNIO ED. EMPRESARIAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7709"
     },
     {
       "id": 10,
       "name": "COSTA ESMERALDA EMPREENDIMENTOS E PARTICIPACOES LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7696"
     },
     {
       "id": 11,
       "name": "CRIS CONSTRUCOES E EMPREENDIMENTOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7697"
     },
     {
       "id": 22,
       "name": "Cia de Hoteis Palace",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7706"
     },
     {
       "id": 26,
       "name": "Conde & Dell Aringa - Des de Softwares",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1729"
     },
     {
       "id": 41,
@@ -134,13 +158,15 @@
       "id": 8,
       "name": "ELEICAO 2022 KATIA HELENA BACELAR RIBEIRO DOS SANTOS DEPUTADO ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7695"
     },
     {
       "id": 12,
       "name": "EMPREENDIMENTOS TURISTICOS COSTA DOS COQUEIROS S/A",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7698"
     },
     {
       "id": 40,
@@ -152,97 +178,113 @@
       "id": 24,
       "name": "GM RESTAURANTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7708"
     },
     {
       "id": 18,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7703"
     },
     {
       "id": 13,
       "name": "JB EMPREENDIMENTOS E PARTICIPACOES LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7699"
     },
     {
       "id": 3,
       "name": "JOAO CARLOS PAOLILO BACELAR FILHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7692"
     },
     {
       "id": 7,
       "name": "JORGE EDUARDO DA SILVA FERNANDES DE ABREU NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7694"
     },
     {
       "id": 17,
       "name": "LUIS EDUARDO DE OLIVEIRA CONCEIÇÃO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7702"
     },
     {
       "id": 15,
       "name": "MACTRA COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5132"
     },
     {
       "id": 6,
       "name": "MARCELO NIGRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7693"
     },
     {
-      "id": 31,
+      "id": 32,
       "name": "PACIFICO COMERCIO E SERVICOS DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7712"
     },
     {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e129"
     },
     {
       "id": 9,
       "name": "PARTIDO LIBERAL - BAHIA - BA - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2325"
     },
     {
       "id": 33,
       "name": "POSTO CAR DISTRIBUIDORA DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7713"
     },
     {
       "id": 36,
       "name": "POSTO DE COMBUSTIVEIS PITANGUEIRAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1811"
     },
     {
       "id": 5,
       "name": "RUBENS OMETTO SILVEIRA MELLO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e461"
     },
     {
       "id": 34,
       "name": "SANTOS DUMONT INVESTIMENTO IMOBILIARIO S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7714"
     },
     {
       "id": 30,
       "name": "SOHO RESTAURANTE LTDA:",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7711"
     },
     {
       "id": 39,
@@ -254,19 +296,22 @@
       "id": 14,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7700"
     },
     {
       "id": 38,
       "name": "TRATORIA MISTURA FINA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7715"
     },
     {
       "id": 37,
       "name": "Telefônica Brasil S.A. VIVO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     }
   ],
   "links": [
@@ -347,7 +392,7 @@
       "source": 141458,
       "target": 10,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 20/08/2013",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 20/08/2013",
       "strength": 1
     },
     {
@@ -355,7 +400,7 @@
       "source": 141458,
       "target": 11,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 05/08/2014",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 05/08/2014",
       "strength": 1
     },
     {
@@ -363,7 +408,7 @@
       "source": 141458,
       "target": 12,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (diretor), desde 11/08/2000",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (diretor), desde 11/08/2000",
       "strength": 1
     },
     {
@@ -371,7 +416,7 @@
       "source": 141458,
       "target": 13,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 28/05/1997",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 28/05/1997",
       "strength": 1
     },
     {
@@ -491,7 +536,7 @@
       "source": 141458,
       "target": 28,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.306,32 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.367,19 (22 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -515,7 +560,7 @@
       "source": 141458,
       "target": 31,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.049,54 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/03/2025–25/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.358,37 (3 lançamentos; tipo: TELEFONIA; período: 07/08/2025–25/12/2025)",
       "strength": 1
     },
     {
@@ -523,7 +568,7 @@
       "source": 141458,
       "target": 32,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$905,58 (2 lançamentos; tipo: TELEFONIA; período: 07/08/2025–07/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.049,54 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/03/2025–25/10/2025)",
       "strength": 1
     },
     {

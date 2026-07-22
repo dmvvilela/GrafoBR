@@ -4,7 +4,7 @@
     "egoName": "Bruno Ganem",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:34.649581Z",
+    "generatedAt": "2026-07-17T04:22:49.307756Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Os dados públicos registram R$ 75,1 milhões em emendas empenhadas e R$ 60,8 milhões pagos em cinco áreas, com foco em Saúde. A cota parlamentar registra R$ 479 mil com 18 fornecedores, e a campanha de 2022 recebeu R$ 800 mil de 1 doador.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,40 +27,45 @@
       "id": 220635,
       "name": "Bruno Ganem",
       "category": "politician",
-      "connectionCount": 25
+      "connectionCount": 24
     },
     {
       "id": 5,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2206"
     },
     {
       "id": 12,
       "name": "Adobe Systems Software",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2211"
     },
     {
       "id": 11,
       "name": "CLARO NXT TELECOMUNICAÇÕES S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 6,
       "name": "COMPANHIA PIRATININGA DE FORCA E LUZ",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2207"
     },
     {
       "id": 2,
       "name": "DIRETO COMUNICACAO INTEGRADA EIRELI",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2204"
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -62,34 +74,32 @@
       "id": 3,
       "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 18,
       "name": "FERNANDES PRADO INFORMATICA LTDA ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2216"
     },
     {
       "id": 4,
       "name": "FINANZA CONSULTORIA IMOBILIARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 16,
-      "name": "FREEPIK COMPANY, SL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2205"
     },
     {
       "id": 10,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2210"
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "Gestão ambiental",
       "category": "destino",
       "connectionCount": 1
@@ -98,58 +108,66 @@
       "id": 17,
       "name": "INTERVEL TELECOMUNICAÇÕES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2215"
     },
     {
       "id": 9,
       "name": "JB2 COMÉRCIO E SERVIÇOS DE LIMPEZA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2209"
     },
     {
       "id": 8,
       "name": "KERAXWEB SERVIÇOS DE INTERLIGAÇÃO E INTERNET LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2208"
     },
     {
       "id": 19,
       "name": "LIBERTY SEGUROS SA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2217"
     },
     {
       "id": 15,
       "name": "NOVA PROVEDORA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2214"
     },
     {
       "id": 1,
       "name": "PODEMOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2203"
     },
     {
-      "id": 20,
+      "id": 16,
       "name": "RAMAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 14,
       "name": "SAAE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2213"
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 24,
+      "id": 23,
       "name": "Segurança pública",
       "category": "destino",
       "connectionCount": 1
@@ -158,16 +176,18 @@
       "id": 13,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2212"
     },
     {
       "id": 7,
       "name": "TELEFONICA BRASIL S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
-      "id": 25,
+      "id": 24,
       "name": "Transporte",
       "category": "destino",
       "connectionCount": 1
@@ -187,7 +207,7 @@
       "source": 220635,
       "target": 2,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (titular pessoa física), desde 22/02/2017",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (titular pessoa física), desde 22/02/2017",
       "strength": 1
     },
     {
@@ -299,7 +319,7 @@
       "source": 220635,
       "target": 16,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.350,00 (1 lançamento; tipo: ASSINATURA DE PUBLICAÇÕES; período: 19/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.358,77 (10 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -330,8 +350,8 @@
       "id": 20,
       "source": 220635,
       "target": 20,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8,77 (9 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.573.670,00 empenhado, R$37.373.551,00 pago (6 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -339,7 +359,7 @@
       "source": 220635,
       "target": 21,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$37.573.670,00 empenhado, R$37.373.551,00 pago (6 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$20.499.720,00 empenhado, R$7.082.172,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -347,7 +367,7 @@
       "source": 220635,
       "target": 22,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Gestão ambiental: R$20.499.720,00 empenhado, R$7.082.172,00 pago (2 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$16.360.790,00 empenhado, R$16.356.541,00 pago (4 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -355,21 +375,13 @@
       "source": 220635,
       "target": 23,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$16.360.790,00 empenhado, R$16.356.541,00 pago (4 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Segurança pública: R$400.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     },
     {
       "id": 24,
       "source": 220635,
       "target": 24,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Segurança pública: R$400.000,00 empenhado (1 emenda; 2025)",
-      "strength": 1
-    },
-    {
-      "id": 25,
-      "source": 220635,
-      "target": 25,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Transporte: R$312.992,00 empenhado (1 emenda; 2025)",
       "strength": 1

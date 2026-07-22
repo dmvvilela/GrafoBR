@@ -4,7 +4,7 @@
     "egoName": "Maria Arraes",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.913191Z",
+    "generatedAt": "2026-07-17T04:22:54.370259Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "As emendas individuais desde 2023 somam R$ 75,1 milhões empenhados e R$ 68,9 milhões pagos em dez áreas, principalmente Saúde. Registram-se R$ 480 mil em despesas de cota e R$ 3,2 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,19 +33,22 @@
       "id": 26,
       "name": "AUTO POSTO CARRETEIRO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1258"
     },
     {
-      "id": 18,
+      "id": 15,
       "name": "AUTO POSTO CINCO ESTRELAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e405"
     },
     {
       "id": 19,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9646"
     },
     {
       "id": 33,
@@ -50,37 +60,43 @@
       "id": 11,
       "name": "BANDEIRANTES PROPAGANDA EXTERNA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9642"
     },
     {
       "id": 5,
       "name": "Bruno Leite Pessoa de Andrade Grafica",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9638"
     },
     {
       "id": 13,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 2,
       "name": "CEU ABERTO DOCUMENTOS E SERVICOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9635"
     },
     {
       "id": 10,
       "name": "COND. ED. INABI CENTER",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9641"
     },
     {
       "id": 21,
       "name": "Companhia Energética de Pernambuco",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1249"
     },
     {
       "id": 34,
@@ -122,19 +138,22 @@
       "id": 24,
       "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 3,
       "name": "FERGOM COMUNICAÇÃO CRIATIVA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9636"
     },
     {
       "id": 14,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9644"
     },
     {
       "id": 35,
@@ -146,79 +165,92 @@
       "id": 12,
       "name": "HOTEIS E TURISMO DO NORDESTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9643"
     },
     {
       "id": 6,
       "name": "MIRANDA CORDEIRO INCORPORAÇÕES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9639"
     },
     {
-      "id": 17,
+      "id": 18,
       "name": "PANTANAL VEÍCULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e70"
     },
     {
       "id": 8,
       "name": "PETROCAL PETROLEO CAVALCANTI LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1683"
     },
     {
       "id": 27,
       "name": "PMJ COMERCIO DE PRODUTOS DE INFORMATICA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9649"
     },
     {
       "id": 23,
       "name": "POSTO DA SERRA COMERCIAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9648"
     },
     {
       "id": 22,
       "name": "POSTO DE ABASTECIMENTO IPSEP LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9647"
     },
     {
       "id": 20,
       "name": "POSTO RECH LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5079"
     },
     {
       "id": 4,
       "name": "PRALOC LOCAÇÃO DE VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9637"
     },
     {
       "id": 25,
       "name": "SAO MIGUEL PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8628"
     },
     {
-      "id": 15,
+      "id": 16,
       "name": "SOCIEDADE COMERCIAL CAVALCANTI E FILHO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9645"
     },
     {
       "id": 1,
       "name": "SOLIDARIEDADE - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1690"
     },
     {
       "id": 9,
       "name": "STAMPA DIGITAL & MIDIA EXTERIOR LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8619"
     },
     {
       "id": 28,
@@ -230,7 +262,8 @@
       "id": 7,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9640"
     },
     {
       "id": 30,
@@ -239,10 +272,11 @@
       "connectionCount": 1
     },
     {
-      "id": 16,
+      "id": 17,
       "name": "Vila Gale Brasila",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4544"
     }
   ],
   "links": [
@@ -259,7 +293,7 @@
       "source": 220668,
       "target": 2,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 07/04/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 07/04/2021",
       "strength": 1
     },
     {
@@ -307,7 +341,7 @@
       "source": 220668,
       "target": 8,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$17.030,91 (67 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/01/2025–28/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$19.151,92 (75 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/01/2025–28/12/2025)",
       "strength": 1
     },
     {
@@ -347,7 +381,7 @@
       "source": 220668,
       "target": 13,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.332,90 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.349,82 (21 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -363,7 +397,7 @@
       "source": 220668,
       "target": 15,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.283,41 (15 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/01/2025–30/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.594,77 (9 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 09/06/2025–09/12/2025)",
       "strength": 1
     },
     {
@@ -371,7 +405,7 @@
       "source": 220668,
       "target": 16,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.000,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 13/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.283,41 (15 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/01/2025–30/10/2025)",
       "strength": 1
     },
     {
@@ -379,7 +413,7 @@
       "source": 220668,
       "target": 17,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.835,00 (4 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 31/03/2025–26/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.000,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 13/11/2025)",
       "strength": 1
     },
     {
@@ -387,7 +421,7 @@
       "source": 220668,
       "target": 18,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.775,80 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 09/06/2025–09/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.835,00 (4 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 31/03/2025–26/08/2025)",
       "strength": 1
     },
     {

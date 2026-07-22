@@ -4,14 +4,20 @@
     "egoName": "Dorinaldo Malafaia",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:35.615101Z",
+    "generatedAt": "2026-07-17T04:22:51.110798Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Desde 2023, constam R$ 75,1 milhões em emendas empenhadas e R$ 50,3 milhões pagos em cinco áreas, com destaque para Saúde. A cota parlamentar registra R$ 515 mil com 18 fornecedores, e a campanha de 2022 recebeu R$ 264 mil de duas doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -19,46 +25,50 @@
       "id": 220573,
       "name": "Dorinaldo Malafaia",
       "category": "politician",
-      "connectionCount": 25
+      "connectionCount": 24
     },
     {
       "id": 8,
       "name": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 10,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4543"
     },
     {
-      "id": 18,
+      "id": 17,
       "name": "BELIZE COMPANY AUTO POSTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2332"
     },
     {
-      "id": 16,
+      "id": 15,
       "name": "Cia Aérea - GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e147"
     },
     {
-      "id": 25,
+      "id": 24,
       "name": "Defesa nacional",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "Direitos da cidadania",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -67,64 +77,67 @@
       "id": 14,
       "name": "GIGA DIGITAL TECNOLOGIA E MARKETING LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4545"
     },
     {
-      "id": 19,
+      "id": 18,
       "name": "GM CENTRAL COMERCIO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4547"
     },
     {
       "id": 6,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4542"
     },
     {
       "id": 2,
       "name": "MARIO WILLIS DA COSTA LEITE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4538"
     },
     {
       "id": 3,
       "name": "ORBE PRODUTORA & SERVIÇOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4539"
     },
     {
       "id": 1,
       "name": "PARTIDO DEMOCRATICO TRABALHISTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4537"
     },
     {
       "id": 5,
       "name": "PMA Serviços LTDA-EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4541"
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "RAMAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 9,
       "name": "SERVIA O NACIONAL DE APREND. COMERCIAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e150"
     },
     {
-      "id": 15,
-      "name": "SERVICO NACIONAL DE APREND. COMERCIAL",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 21,
+      "id": 20,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -133,16 +146,18 @@
       "id": 4,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4540"
     },
     {
       "id": 7,
       "name": "TECNEGOCIOS SOLUÇÕES EM INFORMÁTICA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1168"
     },
     {
-      "id": 24,
+      "id": 23,
       "name": "Urbanismo",
       "category": "destino",
       "connectionCount": 1
@@ -151,25 +166,29 @@
       "id": 12,
       "name": "VILA GALE BRASIL - ATIVIDADES HOTELEIRAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4544"
     },
     {
-      "id": 17,
+      "id": 16,
       "name": "WATER HOUSE COMERCIO DE ROUPAS E MATERIAIS NAUTIC",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4546"
     },
     {
       "id": 11,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     },
     {
       "id": 13,
       "name": "Windsor Administração de Hotéis e Serviços Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4218"
     }
   ],
   "links": [
@@ -242,7 +261,7 @@
       "source": 220573,
       "target": 9,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.822,20 (20 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 11/03/2025–01/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.081,60 (23 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 11/03/2025–01/12/2025)",
       "strength": 1
     },
     {
@@ -290,7 +309,7 @@
       "source": 220573,
       "target": 15,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$259,40 (3 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 23/09/2025–28/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$233,72 (1 lançamento; tipo: PASSAGEM AÉREA - RPA; período: 12/05/2025)",
       "strength": 1
     },
     {
@@ -298,7 +317,7 @@
       "source": 220573,
       "target": 16,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$233,72 (1 lançamento; tipo: PASSAGEM AÉREA - RPA; período: 12/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$137,28 (1 lançamento; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 02/07/2025)",
       "strength": 1
     },
     {
@@ -306,7 +325,7 @@
       "source": 220573,
       "target": 17,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$137,28 (1 lançamento; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 02/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$100,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/01/2025)",
       "strength": 1
     },
     {
@@ -314,7 +333,7 @@
       "source": 220573,
       "target": 18,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$100,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/01/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$100,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/12/2025)",
       "strength": 1
     },
     {
@@ -322,15 +341,15 @@
       "source": 220573,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$100,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$17,16 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
       "id": 20,
       "source": 220573,
       "target": 20,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$17,16 (9 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.648.430,00 empenhado, R$15.969.025,00 pago (14 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -338,7 +357,7 @@
       "source": 220573,
       "target": 21,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$37.648.430,00 empenhado, R$15.969.025,00 pago (14 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$34.175.984,00 empenhado, R$34.023.225,00 pago (4 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -346,7 +365,7 @@
       "source": 220573,
       "target": 22,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$34.175.984,00 empenhado, R$34.023.225,00 pago (4 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$2.000.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -354,21 +373,13 @@
       "source": 220573,
       "target": 23,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Direitos da cidadania: R$2.000.000,00 empenhado (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Urbanismo: R$850.000,00 empenhado, R$38.250,00 pago (1 emenda; 2025)",
       "strength": 1
     },
     {
       "id": 24,
       "source": 220573,
       "target": 24,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Urbanismo: R$850.000,00 empenhado, R$38.250,00 pago (1 emenda; 2025)",
-      "strength": 1
-    },
-    {
-      "id": 25,
-      "source": 220573,
-      "target": 25,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Defesa nacional: R$399.718,00 empenhado, R$256.255,00 pago (1 emenda; 2025)",
       "strength": 1

@@ -4,7 +4,7 @@
     "egoName": "Guilherme Derrite",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:36.546199Z",
+    "generatedAt": "2026-07-17T04:22:52.451485Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,6 +12,13 @@
       "receita",
       "tse"
     ],
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
     "summary": "Os dados públicos registram R$ 30,5 milhões em emendas empenhadas e R$ 29,9 milhões pagos em cinco áreas. Há R$ 4 mil em despesas da cota parlamentar com 3 fornecedores e R$ 2,4 milhões em doações de campanha em 2022, de 16 doadores.",
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
@@ -26,19 +33,22 @@
       "id": 9,
       "name": "ALEXANDRE AKIRA SASSAKI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6615"
     },
     {
       "id": 19,
       "name": "AUTO POSTO CONCORDE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e124"
     },
     {
       "id": 20,
       "name": "AUTO POSTO GOLDEN GAS LAGO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1612"
     },
     {
       "id": 23,
@@ -50,7 +60,8 @@
       "id": 4,
       "name": "DOMINGOS NELSON MARTINS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6611"
     },
     {
       "id": 24,
@@ -68,7 +79,8 @@
       "id": 16,
       "name": "EDUARDO PEREIRA DOS SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6622"
     },
     {
       "id": 22,
@@ -80,61 +92,71 @@
       "id": 7,
       "name": "FERNANDO JOSE BALBO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6614"
     },
     {
       "id": 10,
       "name": "JOAO TEIXEIRA RODRIGUES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6616"
     },
     {
       "id": 13,
       "name": "KEYNES FERNANDO TEIXEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6619"
     },
     {
       "id": 2,
       "name": "NELSON SANTINI NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6609"
     },
     {
       "id": 14,
       "name": "OSCAR LOURENCO DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6620"
     },
     {
       "id": 5,
       "name": "OSMAR COSSI JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6612"
     },
     {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e129"
     },
     {
       "id": 8,
       "name": "PARTIDO LIBERAL SAO PAULO SP ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e131"
     },
     {
       "id": 11,
       "name": "SABRINA HENRIQUES MARQUES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6617"
     },
     {
       "id": 6,
       "name": "SILVANA LEONARDO FESTA MARTINS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6613"
     },
     {
       "id": 21,
@@ -146,31 +168,36 @@
       "id": 17,
       "name": "TROPA DE ELITE CONCURSOS LTDA.",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6623"
     },
     {
       "id": 12,
       "name": "VAGNER BARBOSA MARQUES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6618"
     },
     {
       "id": 3,
       "name": "WALDEMAR BALBO JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6610"
     },
     {
       "id": 15,
       "name": "WALTER CARLOS SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6621"
     },
     {
       "id": 18,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     }
   ],
   "links": [
@@ -307,7 +334,7 @@
       "source": 204531,
       "target": 17,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 16/12/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 16/12/2021",
       "strength": 1
     },
     {

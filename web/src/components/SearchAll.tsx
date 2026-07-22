@@ -19,6 +19,7 @@ type EntityDeputy = {
   amount: number;
 };
 type Entity = {
+  id: string;
   name: string;
   category: NodeCategory;
   count: number;
@@ -171,7 +172,7 @@ export default function SearchAll({ index }: { index: IndexEntry[] }) {
           </p>
           <div className="space-y-2">
             {suggestions.map((e) => (
-              <EntityRow key={e.name} entity={e} />
+              <EntityRow key={e.id} entity={e} />
             ))}
           </div>
         </div>
@@ -209,7 +210,7 @@ export default function SearchAll({ index }: { index: IndexEntry[] }) {
               </h2>
               <div className="space-y-2">
                 {entityResults.map((e) => (
-                  <EntityRow key={e.name} entity={e} />
+                  <EntityRow key={e.id} entity={e} />
                 ))}
               </div>
             </section>

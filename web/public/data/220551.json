@@ -4,14 +4,20 @@
     "egoName": "Franciane Bayer",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:36.241960Z",
+    "generatedAt": "2026-07-17T04:22:52.012499Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "As emendas individuais desde 2023 somam R$ 75,2 milhões empenhados e R$ 72,9 milhões pagos em cinco áreas, com Saúde como principal. Constam R$ 478 mil em despesas da cota parlamentar com 25 fornecedores e R$ 804 mil em doações de campanha em 2022, de onze doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -22,40 +28,46 @@
       "connectionCount": 41
     },
     {
-      "id": 33,
+      "id": 31,
       "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 24,
       "name": "54.125.189 JOSIAS DE CAMPOS JUNIOR",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2793"
     },
     {
       "id": 20,
       "name": "ALBERTO RIBEIRO BENITES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2798"
     },
     {
-      "id": 31,
+      "id": 33,
       "name": "AUTO POSTO G SUL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5948"
     },
     {
       "id": 29,
       "name": "AUTO POSTO SAMDU LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5947"
     },
     {
       "id": 18,
       "name": "AUTOSUL LOCADORA DE VEÍCULOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5942"
     },
     {
       "id": 39,
@@ -67,25 +79,29 @@
       "id": 9,
       "name": "CIBELE DE FRAGA SILVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5934"
     },
     {
       "id": 10,
       "name": "CLAUDIA FERNANDA EDEL DA ROSA FERNANDES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5935"
     },
     {
       "id": 27,
       "name": "Critério Comunicação LTDA_ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5946"
     },
     {
       "id": 21,
       "name": "DANER TRINDADE DA COSTA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5944"
     },
     {
       "id": 40,
@@ -97,13 +113,15 @@
       "id": 23,
       "name": "ELF Locadora de Veículos Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e361"
     },
     {
       "id": 11,
       "name": "EVERTON JOAO MANTELLI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5936"
     },
     {
       "id": 38,
@@ -115,115 +133,134 @@
       "id": 12,
       "name": "FERNANDO DA SILVA CALVETE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5937"
     },
     {
       "id": 2,
       "name": "FRANCIANE ABADE BAYER MULLER",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5927"
     },
     {
       "id": 34,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5949"
     },
     {
       "id": 26,
       "name": "HOUSE DIGITAL EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5945"
     },
     {
       "id": 5,
       "name": "LUIZ NOE SOUZA SOARES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5930"
     },
     {
       "id": 15,
       "name": "LUIZA LOPES VARIZA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5940"
     },
     {
       "id": 19,
       "name": "MARIA IONE DA SILVA RIBEIRO LIMA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5943"
     },
     {
       "id": 6,
       "name": "MARIA IZABEL KREMER",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5931"
     },
     {
       "id": 3,
       "name": "MICHEL VILELA DA FLORENCA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5928"
     },
     {
       "id": 13,
       "name": "OFFICE SOLUÇÕES EM EQUIPAMENTOS E MOBILIÁRIOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5938"
     },
     {
       "id": 25,
       "name": "PARLANET WEB E TECNOLOGIA EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e328"
     },
     {
       "id": 36,
       "name": "POSTO JACARÉ LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5950"
     },
     {
       "id": 35,
       "name": "Planalto Transportes ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e735"
     },
     {
       "id": 32,
       "name": "REDE DE POSTOS AUTO POSTO CENTER LTDA WENCESLAU",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e376"
     },
     {
       "id": 1,
       "name": "REPUBLICANOS - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e79"
     },
     {
       "id": 4,
       "name": "SERGIO RENATO TEIXEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5929"
     },
     {
       "id": 22,
       "name": "SMART VEÍCULOS LTDA-ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2278"
     },
     {
       "id": 14,
       "name": "SOU PRODUCOES AUDIOVISUAIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5939"
     },
     {
       "id": 30,
       "name": "SUPREMA MOBILIDADE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3395"
     },
     {
       "id": 37,
@@ -241,31 +278,36 @@
       "id": 17,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5941"
     },
     {
       "id": 7,
       "name": "THAIS CRISTINE SUTIL GULES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5932"
     },
     {
       "id": 28,
       "name": "Telefônica Brasil S.A. VIVO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 8,
       "name": "VANESSA CONCEICAO JARDIM QUINTILHANO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5933"
     },
     {
       "id": 16,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     }
   ],
   "links": [
@@ -514,7 +556,7 @@
       "source": 220551,
       "target": 31,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.661,78 (29 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/03/2025–08/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.863,25 (29 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/01/2025–13/11/2025)",
       "strength": 1
     },
     {
@@ -522,7 +564,7 @@
       "source": 220551,
       "target": 32,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.555,04 (17 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 05/01/2025–02/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.780,91 (18 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 05/01/2025–05/11/2025)",
       "strength": 1
     },
     {
@@ -530,7 +572,7 @@
       "source": 220551,
       "target": 33,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.569,01 (21 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 23/01/2025–13/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.661,78 (29 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/03/2025–08/12/2025)",
       "strength": 1
     },
     {

@@ -4,7 +4,7 @@
     "egoName": "Márcio Marinho",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:38.263968Z",
+    "generatedAt": "2026-07-17T04:22:54.863146Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Nos dados de emendas individuais, constam R$ 107,2 milhões empenhados e R$ 87,4 milhões pagos em nove áreas, com Saúde em destaque. A cota parlamentar registra R$ 485 mil com 25 fornecedores, e a campanha de 2022 arrecadou R$ 1,1 milhão.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,49 +33,57 @@
       "id": 21,
       "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 7,
       "name": "A.M & M.M COMUNICACOES E PUBLICIDADE LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10403"
     },
     {
       "id": 3,
       "name": "ANTONIO SANTOS FILGUEIRAS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6088"
     },
     {
       "id": 18,
       "name": "ATA AEROTAXI ABAETE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e169"
     },
     {
       "id": 29,
       "name": "ATMOSFERA HOTELARIA LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10415"
     },
     {
       "id": 24,
       "name": "AUTO POSTO 303 NORTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e27"
     },
     {
       "id": 28,
       "name": "AUTO POSTO CINCO ESTRELAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e405"
     },
     {
       "id": 17,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10411"
     },
     {
       "id": 40,
@@ -86,25 +101,29 @@
       "id": 31,
       "name": "BERNARDETE FALCAO SAMPAIO ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10417"
     },
     {
       "id": 19,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 22,
       "name": "COMPANHIA DE ELETRICIDADE DO ESTADO DA BAHIA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e175"
     },
     {
       "id": 32,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 41,
@@ -122,7 +141,8 @@
       "id": 15,
       "name": "D R ALUGUEL DE MAQUINAS E EQUIPAMENTOS EIRELI - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10409"
     },
     {
       "id": 38,
@@ -140,7 +160,8 @@
       "id": 4,
       "name": "EUNAPIO LADEIA DE QUEIROZ",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10400"
     },
     {
       "id": 35,
@@ -152,103 +173,120 @@
       "id": 16,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10410"
     },
     {
       "id": 27,
       "name": "HOTEL ACALANTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10414"
     },
     {
       "id": 11,
       "name": "Iza Carla Silva Santa Brigida - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e953"
     },
     {
       "id": 5,
       "name": "LUIZ FERNANDO LUZ PESSOA DE SOUZA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10401"
     },
     {
       "id": 8,
       "name": "M.A. COMUNICACAO E ARTES CENICAS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10404"
     },
     {
       "id": 6,
       "name": "MARCIO CARLOS MARINHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10402"
     },
     {
       "id": 14,
       "name": "MEGA POSTO BERIMBAU LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e841"
     },
     {
       "id": 13,
       "name": "MIDIA NORDESTE DE COMUNICAÇÃO DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10408"
     },
     {
       "id": 10,
       "name": "MVT PATRIMONIAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10406"
     },
     {
       "id": 30,
       "name": "NOVOLESTE HOTEL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10416"
     },
     {
       "id": 23,
       "name": "PANTANAL VEÍCULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e70"
     },
     {
       "id": 33,
       "name": "PENA BRANCA HOTEL E EVENTOS LTDA-ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10418"
     },
     {
       "id": 25,
       "name": "PORTAL MIDIA GESTAO DE INFRAESTRUTURA DE PUBLICIDADE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10413"
     },
     {
       "id": 9,
       "name": "Progresso",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10405"
     },
     {
       "id": 2,
       "name": "REPUBLICANOS - BAHIA - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9342"
     },
     {
       "id": 1,
       "name": "REPUBLICANOS - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e79"
     },
     {
       "id": 20,
       "name": "SANDRO SANTOS OLIVEIRA JUNIOR",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10412"
     },
     {
       "id": 34,
@@ -260,19 +298,21 @@
       "id": 12,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 26,
-      "name": "TELEFONICA BRASIL S.A",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10407"
     },
     {
       "id": 39,
       "name": "Urbanismo",
       "category": "destino",
       "connectionCount": 1
+    },
+    {
+      "id": 26,
+      "name": "VIVO TELEFONICA BRASIL S.A",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e148"
     }
   ],
   "links": [
@@ -329,7 +369,7 @@
       "source": 150418,
       "target": 7,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 11/10/2011",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 11/10/2011",
       "strength": 1
     },
     {
@@ -337,7 +377,7 @@
       "source": 150418,
       "target": 8,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 14/02/2017",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 14/02/2017",
       "strength": 1
     },
     {
@@ -425,7 +465,7 @@
       "source": 150418,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$9.265,00 (39 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$9.302,97 (48 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -441,7 +481,7 @@
       "source": 150418,
       "target": 21,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.023,16 (47 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/01/2025–17/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.183,16 (48 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/01/2025–17/12/2025)",
       "strength": 1
     },
     {
@@ -481,7 +521,7 @@
       "source": 150418,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.471,71 (7 lançamentos; tipo: TELEFONIA; período: 19/01/2025–19/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.897,42 (8 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 19/01/2025–19/09/2025)",
       "strength": 1
     },
     {
@@ -497,7 +537,7 @@
       "source": 150418,
       "target": 28,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.188,75 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/04/2025–10/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.358,75 (9 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/04/2025–10/12/2025)",
       "strength": 1
     },
     {

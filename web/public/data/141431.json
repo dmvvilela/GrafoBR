@@ -4,7 +4,7 @@
     "egoName": "Fernando Coelho Filho",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:36.128168Z",
+    "generatedAt": "2026-07-17T04:22:51.848200Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Nos dados de emendas desde 2023, constam R$ 105,2 milhões empenhados e R$ 66,6 milhões pagos em seis áreas, principalmente Saúde. Há R$ 452 mil em despesas de cota e R$ 2,7 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -23,52 +30,53 @@
       "connectionCount": 47
     },
     {
-      "id": 38,
-      "name": "039 - QI 13 - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "id": 33,
+      "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 39,
-      "name": "14 - QL 14 - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 32,
       "name": "ARARIPE TURISMO E HOTELARIA LTDA - EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5662"
     },
     {
       "id": 31,
       "name": "AUTO POSTO LS COMERCIO DE DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e78"
     },
     {
-      "id": 41,
+      "id": 39,
       "name": "AUTO POSTO PETER PAN 01 LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e73"
     },
     {
-      "id": 36,
+      "id": 37,
       "name": "AUTO SHOPPING DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e608"
     },
     {
-      "id": 40,
+      "id": 38,
       "name": "AUTO SHOPPING QL 06 COMERCIO DE DERIV DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3767"
     },
     {
       "id": 23,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5657"
     },
     {
       "id": 44,
@@ -80,43 +88,43 @@
       "id": 25,
       "name": "BANANA OUTDOORS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5659"
     },
     {
       "id": 14,
       "name": "CABANAS PARTICIPACOES E INVESTIMENTOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5649"
     },
     {
       "id": 3,
       "name": "CARLOS ALBERTO OLIVEIRA NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5640"
     },
     {
       "id": 20,
       "name": "CATAVENTO DERIVADOS DE PETROLEO LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5654"
     },
     {
-      "id": 33,
+      "id": 34,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 30,
-      "name": "Claro NXT Telecomunicações S.A",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 28,
       "name": "Companhia Energética de Pernambuco",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1249"
     },
     {
       "id": 47,
@@ -128,7 +136,8 @@
       "id": 4,
       "name": "EMIVAL RAMOS CAIADO FILHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5641"
     },
     {
       "id": 46,
@@ -146,109 +155,141 @@
       "id": 26,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5660"
     },
     {
       "id": 15,
       "name": "INSTITUTO DE APOIO AO DESENVOLVIMENTO SOCIAL, POLITICO E ECONOMICO DE PETROLINA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5650"
     },
     {
       "id": 6,
       "name": "JOAO CARLOS FREITAS DE CAMARGO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4316"
     },
     {
       "id": 7,
       "name": "JOSE CARLOS RIBEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5643"
     },
     {
       "id": 18,
       "name": "L. PRIORI INDUSTRIA E COMÉRCIO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5653"
     },
     {
       "id": 8,
       "name": "LUIZ ANTONIO CERA OMETTO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1562"
     },
     {
       "id": 13,
       "name": "LUZEMBERG DIAS DOS SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5648"
     },
     {
       "id": 9,
       "name": "MARCELO CAMPOS OMETTO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5644"
     },
     {
       "id": 22,
       "name": "MONTEIRO EMPREENDIMENTOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5656"
     },
     {
       "id": 19,
       "name": "MOVIDA PARTICIPAÇÕES S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e228"
     },
     {
       "id": 11,
       "name": "NELSON MARQUES FERREIRA OMETTO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5646"
     },
     {
-      "id": 37,
+      "id": 29,
       "name": "NEXTEL TELECOMUNICAÇÕES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 12,
       "name": "PAULO JERONIMO BANDEIRA DE MELLO PEDROSA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5647"
     },
     {
-      "id": 35,
+      "id": 36,
       "name": "PLAZA ADMINISTRAÇAO E SERVIÇOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5664"
+    },
+    {
+      "id": 41,
+      "name": "POSTO ITAMARATY LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e398"
     },
     {
       "id": 24,
       "name": "POSTO LETICIA PEREIRA E SANTOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5658"
     },
     {
       "id": 5,
       "name": "RALPH GUSTAVO ROSENBERG WHITAKER CARNEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5642"
     },
     {
       "id": 10,
       "name": "RONALDO MARQUES SARTORI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5645"
     },
     {
-      "id": 34,
+      "id": 35,
       "name": "SOLLUS PORTAL ARARIPINA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5663"
+    },
+    {
+      "id": 40,
+      "name": "STARLINK BRAZIL SERVICOS DE INTERNET LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e1256"
     },
     {
       "id": 42,
@@ -260,31 +301,36 @@
       "id": 17,
       "name": "Stellantis Locadora de Automóveis LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5652"
     },
     {
       "id": 21,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5655"
     },
     {
       "id": 16,
       "name": "UMBURANA AGRICOLA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5651"
     },
     {
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e687"
     },
     {
       "id": 2,
       "name": "UNIAO BRASIL - PERNAMBUCO - PE - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5639"
     },
     {
       "id": 45,
@@ -296,13 +342,15 @@
       "id": 27,
       "name": "Vinte e um filmes produtora audivisual",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5661"
     },
     {
-      "id": 29,
+      "id": 30,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     }
   ],
   "links": [
@@ -415,7 +463,7 @@
       "source": 141431,
       "target": 14,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 07/05/2014",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 07/05/2014",
       "strength": 1
     },
     {
@@ -423,7 +471,7 @@
       "source": 141431,
       "target": 15,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 30/11/2005",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 30/11/2005",
       "strength": 1
     },
     {
@@ -431,7 +479,7 @@
       "source": 141431,
       "target": 16,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 05/05/2023",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 05/05/2023",
       "strength": 1
     },
     {
@@ -535,7 +583,7 @@
       "source": 141431,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.912,40 (6 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 26/02/2025–12/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.411,13 (20 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 11/02/2025–09/01/2026)",
       "strength": 1
     },
     {
@@ -543,7 +591,7 @@
       "source": 141431,
       "target": 30,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.213,89 (11 lançamentos; tipo: TELEFONIA; período: 18/02/2025–19/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.912,40 (6 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 26/02/2025–12/12/2025)",
       "strength": 1
     },
     {
@@ -567,7 +615,7 @@
       "source": 141431,
       "target": 33,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.613,44 (11 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.667,99 (17 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/01/2025–12/11/2025)",
       "strength": 1
     },
     {
@@ -575,7 +623,7 @@
       "source": 141431,
       "target": 34,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.918,34 (5 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 30/08/2025–25/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.645,63 (20 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -583,7 +631,7 @@
       "source": 141431,
       "target": 35,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.445,00 (4 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 04/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.918,34 (5 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 30/08/2025–25/10/2025)",
       "strength": 1
     },
     {
@@ -591,7 +639,7 @@
       "source": 141431,
       "target": 36,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.268,17 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 09/05/2025–20/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.445,00 (4 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 04/10/2025)",
       "strength": 1
     },
     {
@@ -599,7 +647,7 @@
       "source": 141431,
       "target": 37,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.197,24 (9 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 11/02/2025–09/01/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.268,17 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 09/05/2025–20/10/2025)",
       "strength": 1
     },
     {
@@ -607,7 +655,7 @@
       "source": 141431,
       "target": 38,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.030,07 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/04/2025–12/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$413,84 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/08/2025)",
       "strength": 1
     },
     {
@@ -615,7 +663,7 @@
       "source": 141431,
       "target": 39,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$542,69 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 29/04/2025–08/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$380,00 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/02/2025–13/05/2025)",
       "strength": 1
     },
     {
@@ -623,7 +671,7 @@
       "source": 141431,
       "target": 40,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$413,84 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$315,00 (1 lançamento; tipo: TELEFONIA; período: 04/12/2025)",
       "strength": 1
     },
     {
@@ -631,7 +679,7 @@
       "source": 141431,
       "target": 41,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$380,00 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/02/2025–13/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$270,46 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/07/2025–17/11/2025)",
       "strength": 1
     },
     {

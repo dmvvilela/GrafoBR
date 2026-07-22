@@ -4,7 +4,7 @@
     "egoName": "Benes Leocádio",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:34.544906Z",
+    "generatedAt": "2026-07-17T04:22:49.165645Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "As emendas individuais desde 2023 somam R$ 106,5 milhões empenhados e R$ 98,0 milhões pagos em onze áreas, com Saúde como principal. Registram-se também R$ 550 mil em despesas de cota e R$ 3,0 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -24,39 +31,52 @@
     },
     {
       "id": 29,
-      "name": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "name": "026 - P WAY - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 12,
       "name": "2HC CRIATIVIDADE E PRODUÇÕES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1933"
     },
     {
       "id": 26,
       "name": "ALEXANDRODE MEDIROS BLOG DO PASSARO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1945"
     },
     {
       "id": 4,
       "name": "ANA KARINA LOPES DA SILVA ARAUJO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1925"
     },
     {
       "id": 14,
       "name": "ATUAL ATACADISTA E DISTRIBUIDORA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1935"
     },
     {
       "id": 30,
       "name": "AUTO POSTO ORIGINAL BRASILIA 409 DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1948"
+    },
+    {
+      "id": 36,
+      "name": "AUTO SHOPPING DERIVADOS DE PETROLEO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e608"
     },
     {
       "id": 42,
@@ -74,31 +94,36 @@
       "id": 7,
       "name": "CARLA SORAIA DA COSTA SA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1928"
     },
     {
       "id": 27,
       "name": "CIRNE PNEUS COMERCIO E SERVICO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1946"
     },
     {
       "id": 24,
       "name": "COPIA & COPIADORA EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1180"
     },
     {
       "id": 23,
       "name": "COSERN",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1943"
     },
     {
       "id": 13,
       "name": "Claudio Manoel de Amorim Santos",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1934"
     },
     {
       "id": 46,
@@ -116,13 +141,15 @@
       "id": 28,
       "name": "DOMINGOS COMERCIAL DE COMBUSTiVEIS PLANALTO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1947"
     },
     {
       "id": 18,
       "name": "ELDORADO COMUNICACAO E JORNALISMO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1939"
     },
     {
       "id": 39,
@@ -140,19 +167,22 @@
       "id": 8,
       "name": "FRANCISCA IRENE MARTINS GOMES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1929"
     },
     {
       "id": 10,
       "name": "FUNDACAO DE ESTUDOS ECONOMICOS SOCIAIS E POLITICOS",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1931"
     },
     {
       "id": 33,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1950"
     },
     {
       "id": 40,
@@ -170,37 +200,36 @@
       "id": 35,
       "name": "J R R COML DE DERIVADO DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1951"
     },
     {
       "id": 9,
       "name": "JIMMY CLEYSON TEOFILO DA SILVA",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 36,
-      "name": "Josimário Nunes do Nascimento",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1930"
     },
     {
       "id": 22,
       "name": "LOCAINFO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1942"
     },
     {
       "id": 31,
       "name": "MAGDA BEATRIS DA SILVA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1104"
     },
     {
       "id": 20,
       "name": "NOVITTA RENT A CAR TRANSPORTE LTDA ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e396"
     },
     {
       "id": 44,
@@ -212,43 +241,50 @@
       "id": 32,
       "name": "PARELHAS GAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1949"
     },
     {
       "id": 34,
       "name": "POSTO DE COMBUSTIVEL GUERREIRINHO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e180"
     },
     {
       "id": 25,
       "name": "PREFEITURA MUNICIPAL DO NATAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1944"
     },
     {
       "id": 16,
       "name": "R & E LOCADORA LTDA ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1937"
     },
     {
       "id": 11,
       "name": "RADIO CABUGI DE ANGICOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1932"
     },
     {
       "id": 5,
       "name": "RAIMUNDO PAULO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1926"
     },
     {
       "id": 19,
       "name": "ROBSON SILVA DE OLIVEIRA-ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1940"
     },
     {
       "id": 37,
@@ -266,43 +302,50 @@
       "id": 15,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1936"
     },
     {
       "id": 21,
       "name": "TEC CONSTRUÇÕES E SERVIÇOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1941"
     },
     {
       "id": 6,
       "name": "THAYRONY JACKSON LEOCADIO DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1927"
     },
     {
       "id": 3,
       "name": "THIAGO LOPES LEOCADIO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1924"
     },
     {
       "id": 17,
       "name": "TRANSPORTES E COMERCIO NOVO HORIZONTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1938"
     },
     {
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e687"
     },
     {
       "id": 2,
       "name": "UNIAO BRASIL - RIO GRANDE DO NORTE - RN - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1923"
     }
   ],
   "links": [
@@ -383,7 +426,7 @@
       "source": 109429,
       "target": 10,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 12/09/2005",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 12/09/2005",
       "strength": 1
     },
     {
@@ -391,7 +434,7 @@
       "source": 109429,
       "target": 11,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 06/06/1997",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 06/06/1997",
       "strength": 1
     },
     {
@@ -535,7 +578,7 @@
       "source": 109429,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.886,72 (16 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/01/2025–01/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.311,68 (19 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/01/2025–01/12/2025)",
       "strength": 1
     },
     {
@@ -591,7 +634,7 @@
       "source": 109429,
       "target": 36,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.500,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 08/04/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.579,99 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/05/2025–22/12/2025)",
       "strength": 1
     },
     {

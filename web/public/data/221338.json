@@ -4,14 +4,20 @@
     "egoName": "Professora Luciene Cavalcante",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:38.887823Z",
+    "generatedAt": "2026-07-17T04:22:55.743087Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Desde 2023, aparecem R$ 73,1 milhões em emendas empenhadas e R$ 31,7 milhões pagos em dez áreas, principalmente Saúde. A cota parlamentar soma R$ 404 mil com 25 fornecedores, e a campanha de 2022 arrecadou R$ 506 mil.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -19,58 +25,66 @@
       "id": 221338,
       "name": "Professora Luciene Cavalcante",
       "category": "politician",
-      "connectionCount": 39
+      "connectionCount": 35
     },
     {
-      "id": 18,
+      "id": 15,
       "name": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 24,
-      "name": "ACCORSI EMPREENDIMENTOS TURISTICOS LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 20,
+      "name": "ACCORSI EMPREENDIMENTOS TURISTICOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e11638"
+    },
+    {
+      "id": 17,
       "name": "ATLANTICA HOTELS INTERNACIONAL BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1526"
     },
     {
       "id": 8,
       "name": "ATTBRASIL TECNOLOGIA LOCAÇÃO E SOLUÇÕES EM INFORMÁTICA LTDA-EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e767"
     },
     {
-      "id": 28,
+      "id": 24,
       "name": "AUTO POSTO ALVORADA PAULISTA LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 27,
-      "name": "AUTO POSTO PLAYGAS LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11641"
     },
     {
       "id": 23,
+      "name": "AUTO POSTO PLAYGAS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e11640"
+    },
+    {
+      "id": 19,
       "name": "AVARÉ PLAZA HOTEL PLUS LTDA ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11637"
     },
     {
-      "id": 16,
+      "id": 14,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11635"
     },
     {
-      "id": 34,
+      "id": 30,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -79,16 +93,17 @@
       "id": 3,
       "name": "CELSO LUIS GIANNASI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11629"
     },
     {
-      "id": 39,
+      "id": 35,
       "name": "Ciência e Tecnologia",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 32,
+      "id": 28,
       "name": "Cultura",
       "category": "destino",
       "connectionCount": 1
@@ -97,16 +112,17 @@
       "id": 4,
       "name": "DEMOCRATIZE TECNOLOGIA LTDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e283"
     },
     {
-      "id": 35,
+      "id": 31,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 33,
+      "id": 29,
       "name": "Direitos da cidadania",
       "category": "destino",
       "connectionCount": 1
@@ -115,88 +131,72 @@
       "id": 2,
       "name": "ELEICAO 2022 CARLOS ALBERTO GIANNAZI DEPUTADO ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11628"
     },
     {
-      "id": 31,
+      "id": 27,
       "name": "Educação",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 10,
+      "id": 11,
       "name": "Elison da Conceicao Antunes Menezes Soul Comunicacao Grafica",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11633"
     },
     {
       "id": 7,
       "name": "Embalagem Certa Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5267"
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11632"
     },
     {
-      "id": 38,
+      "id": 34,
       "name": "Gestão ambiental",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 25,
+      "id": 21,
       "name": "Gold Inn Hotel",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 26,
-      "name": "Kalunga SA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11639"
     },
     {
       "id": 22,
+      "name": "Kalunga SA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e221"
+    },
+    {
+      "id": 9,
       "name": "LOCALIZA Hertz",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e943"
     },
     {
-      "id": 17,
-      "name": "LOCALIZA RENT A CAR S/A AGENCIA AEROPORTO CONGONHA",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 11,
-      "name": "LOCALIZA RENT A CAR SA",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 13,
-      "name": "LOCALIZA RENT A CAR SA",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 15,
-      "name": "LOCALIZA RENT A CAR SA",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 19,
+      "id": 16,
       "name": "MB EMPREENDIMENTOS HOT. E TURISTICOS SA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11636"
     },
     {
-      "id": 36,
+      "id": 32,
       "name": "Organização agrária",
       "category": "destino",
       "connectionCount": 1
@@ -205,28 +205,32 @@
       "id": 1,
       "name": "PARTIDO SOCIALISMO E LIBERDADE - SAO PAULO - SP - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5243"
     },
     {
       "id": 12,
       "name": "PLANET GRAPHICS MOEMA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11634"
     },
     {
-      "id": 29,
+      "id": 25,
       "name": "RAMAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
-      "id": 21,
+      "id": 18,
       "name": "RB3 HOTELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4189"
     },
     {
-      "id": 30,
+      "id": 26,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -235,25 +239,28 @@
       "id": 6,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11631"
     },
     {
-      "id": 37,
+      "id": 33,
       "name": "Trabalho",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 14,
+      "id": 13,
       "name": "UBER DO BRASIL TECNOLOGIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e213"
     },
     {
       "id": 5,
       "name": "VICTOR SAVAS JACQUES CONSULTORIA EM TECNOLOGIA DA INFORMACAO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11630"
     }
   ],
   "links": [
@@ -326,7 +333,7 @@
       "source": 221338,
       "target": 9,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$16.990,43 (13 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 29/01/2025–08/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$27.318,68 (10 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 13/02/2025–29/12/2025)",
       "strength": 1
     },
     {
@@ -334,7 +341,7 @@
       "source": 221338,
       "target": 10,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$16.370,00 (5 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 04/02/2025–18/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$16.990,43 (13 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 29/01/2025–08/07/2025)",
       "strength": 1
     },
     {
@@ -342,7 +349,7 @@
       "source": 221338,
       "target": 11,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.878,28 (4 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 29/08/2025–29/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$16.370,00 (5 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 04/02/2025–18/12/2025)",
       "strength": 1
     },
     {
@@ -358,7 +365,7 @@
       "source": 221338,
       "target": 13,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8.139,43 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 17/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.812,76 (193 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 07/01/2025–29/12/2025)",
       "strength": 1
     },
     {
@@ -366,7 +373,7 @@
       "source": 221338,
       "target": 14,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.812,76 (193 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 07/01/2025–29/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.914,96 (3 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 23/05/2025–08/07/2025)",
       "strength": 1
     },
     {
@@ -374,7 +381,7 @@
       "source": 221338,
       "target": 15,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.324,85 (2 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 13/02/2025–17/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.999,46 (11 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/02/2025–29/12/2025)",
       "strength": 1
     },
     {
@@ -382,7 +389,7 @@
       "source": 221338,
       "target": 16,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.914,96 (3 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 23/05/2025–08/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.815,25 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 30/09/2025)",
       "strength": 1
     },
     {
@@ -390,7 +397,7 @@
       "source": 221338,
       "target": 17,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.007,97 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 17/04/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.304,12 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 31/05/2025)",
       "strength": 1
     },
     {
@@ -398,7 +405,7 @@
       "source": 221338,
       "target": 18,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.999,46 (11 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/02/2025–29/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.051,60 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 13/03/2025)",
       "strength": 1
     },
     {
@@ -406,7 +413,7 @@
       "source": 221338,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.815,25 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 30/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$561,00 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 17/05/2025)",
       "strength": 1
     },
     {
@@ -414,7 +421,7 @@
       "source": 221338,
       "target": 20,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.304,12 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 31/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$484,38 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 27/09/2025)",
       "strength": 1
     },
     {
@@ -422,7 +429,7 @@
       "source": 221338,
       "target": 21,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.051,60 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 13/03/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$289,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 13/09/2025)",
       "strength": 1
     },
     {
@@ -430,7 +437,7 @@
       "source": 221338,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$968,15 (2 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 27/05/2025–16/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$216,00 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 02/10/2025)",
       "strength": 1
     },
     {
@@ -438,7 +445,7 @@
       "source": 221338,
       "target": 23,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$561,00 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 17/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$92,92 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/05/2025)",
       "strength": 1
     },
     {
@@ -446,7 +453,7 @@
       "source": 221338,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$484,38 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 27/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$87,54 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/06/2025)",
       "strength": 1
     },
     {
@@ -454,39 +461,39 @@
       "source": 221338,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$289,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 13/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$9,59 (8 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
       "id": 26,
       "source": 221338,
       "target": 26,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$216,00 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 02/10/2025)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$40.390.891,00 empenhado, R$25.868.359,00 pago (7 emendas; 2024–2025)",
       "strength": 1
     },
     {
       "id": 27,
       "source": 221338,
       "target": 27,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$92,92 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/05/2025)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$11.170.445,00 empenhado, R$1.120.385,00 pago (7 emendas; 2024–2025)",
       "strength": 1
     },
     {
       "id": 28,
       "source": 221338,
       "target": 28,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$87,54 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/06/2025)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$9.050.000,00 empenhado, R$1.357.000,00 pago (5 emendas; 2024–2025)",
       "strength": 1
     },
     {
       "id": 29,
       "source": 221338,
       "target": 29,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$9,59 (8 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$6.083.000,00 empenhado, R$633.000,00 pago (8 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -494,7 +501,7 @@
       "source": 221338,
       "target": 30,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$40.390.891,00 empenhado, R$25.868.359,00 pago (7 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Assistência social: R$1.865.000,00 empenhado, R$1.865.000,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -502,7 +509,7 @@
       "source": 221338,
       "target": 31,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Educação: R$11.170.445,00 empenhado, R$1.120.385,00 pago (7 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.449.975,00 empenhado, R$147.000,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -510,7 +517,7 @@
       "source": 221338,
       "target": 32,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Cultura: R$9.050.000,00 empenhado, R$1.357.000,00 pago (5 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Organização agrária: R$1.200.000,00 empenhado (2 emendas; 2025)",
       "strength": 1
     },
     {
@@ -518,7 +525,7 @@
       "source": 221338,
       "target": 33,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Direitos da cidadania: R$6.083.000,00 empenhado, R$633.000,00 pago (8 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Trabalho: R$750.000,00 empenhado, R$750.000,00 pago (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -526,45 +533,13 @@
       "source": 221338,
       "target": 34,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$1.865.000,00 empenhado, R$1.865.000,00 pago (2 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$699.981,00 empenhado (1 emenda; 2025)",
       "strength": 1
     },
     {
       "id": 35,
       "source": 221338,
       "target": 35,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.449.975,00 empenhado, R$147.000,00 pago (3 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 36,
-      "source": 221338,
-      "target": 36,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Organização agrária: R$1.200.000,00 empenhado (2 emendas; 2025)",
-      "strength": 1
-    },
-    {
-      "id": 37,
-      "source": 221338,
-      "target": 37,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Trabalho: R$750.000,00 empenhado, R$750.000,00 pago (1 emenda; 2024)",
-      "strength": 1
-    },
-    {
-      "id": 38,
-      "source": 221338,
-      "target": 38,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Gestão ambiental: R$699.981,00 empenhado (1 emenda; 2025)",
-      "strength": 1
-    },
-    {
-      "id": 39,
-      "source": 221338,
-      "target": 39,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$400.000,00 empenhado (1 emenda; 2025)",
       "strength": 1

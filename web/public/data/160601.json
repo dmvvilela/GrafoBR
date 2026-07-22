@@ -4,7 +4,7 @@
     "egoName": "Pr. Marco Feliciano",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:38.850703Z",
+    "generatedAt": "2026-07-17T04:22:55.690907Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Nos dados de emendas desde 2023, constam R$ 107,3 milhões empenhados e R$ 103,4 milhões pagos em duas áreas, com Saúde como principal. A cota parlamentar registra R$ 496 mil com 17 fornecedores, e a campanha de 2022 recebeu R$ 2,0 milhões.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,64 +27,73 @@
       "id": 160601,
       "name": "Pr. Marco Feliciano",
       "category": "politician",
-      "connectionCount": 31
+      "connectionCount": 30
     },
     {
       "id": 28,
       "name": "A. ALVES COMERCIO DE DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11567"
     },
     {
       "id": 23,
       "name": "AALVES S/A IND. COMERCIO - POSTO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11565"
     },
     {
       "id": 24,
       "name": "AMORETTO CAFES EXPRESSO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13"
     },
     {
       "id": 3,
       "name": "ANTONIO APARECIDO SAVEGNAGO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7355"
     },
     {
       "id": 25,
       "name": "AUTO POSTO DE SERVICOS SACI LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11566"
     },
     {
       "id": 18,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11560"
     },
     {
       "id": 27,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 6,
       "name": "CINESE - CENTRO DE INTELIGENCIA ESPIRITUAL E EMOCIONAL - CURSOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11550"
     },
     {
       "id": 7,
       "name": "EL-SABAOTH EVENTOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11551"
     },
     {
-      "id": 31,
+      "id": 30,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -86,106 +102,116 @@
       "id": 8,
       "name": "GMF - ADMINISTRACAO E REPRESENTACAO COMERCIAL DE CONSORCIOS DE BENS E DIREITOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11552"
     },
     {
       "id": 22,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11564"
     },
     {
       "id": 13,
       "name": "HPE AUTOMOTORES DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e783"
     },
     {
       "id": 9,
       "name": "IGREJA EVANGELICA ASSEMBLEIA DE DEUS DE ORLANDIA - MINISTERIO CATEDRAL DO AVIVAMENTO",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11553"
     },
     {
       "id": 20,
       "name": "JORGE GABRIEL SANTOS DE MENESES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11562"
     },
     {
       "id": 14,
       "name": "JOÃO VITOR OLIVEIRA CUNHA DA SILVA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11557"
     },
     {
       "id": 21,
       "name": "JOÃO VITOR OLIVEIRA CUNHA DA SILVA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11563"
     },
     {
       "id": 10,
       "name": "KAKEKA COMERCIO VAREJISTA DE BRINQUEDOS E ARTIGOS DO VESTUARIO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11554"
     },
     {
       "id": 11,
       "name": "MARCO FELICIANO EMPREENDIMENTOS CULTURAIS E EVENTOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11555"
     },
     {
       "id": 16,
       "name": "MARILENE DE ALMEIDA ARAUJO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11559"
     },
     {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e129"
     },
     {
       "id": 2,
       "name": "PARTIDO LIBERAL SAO PAULO SP ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 29,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e131"
     },
     {
       "id": 15,
       "name": "ROBERTO FIGUEIRA MARINHO-ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11558"
     },
     {
       "id": 4,
       "name": "SEBASTIAO EDSON SAVEGNAGO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11548"
     },
     {
       "id": 17,
       "name": "STUDIO AB - CRIATIVIDADE VISUAL EIRELI - EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11076"
     },
     {
       "id": 5,
       "name": "SUZANA DE OLIVEIRA SILVA LIMA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11549"
     },
     {
-      "id": 30,
+      "id": 29,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -194,19 +220,22 @@
       "id": 19,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11561"
     },
     {
       "id": 12,
       "name": "TEMPO DE AVIVAMENTO EMPREENDIMENTOS LTDA.",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11556"
     },
     {
       "id": 26,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     }
   ],
   "links": [
@@ -255,7 +284,7 @@
       "source": 160601,
       "target": 6,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 03/04/2008",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 03/04/2008",
       "strength": 1
     },
     {
@@ -263,7 +292,7 @@
       "source": 160601,
       "target": 7,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 12/08/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 12/08/2021",
       "strength": 1
     },
     {
@@ -271,7 +300,7 @@
       "source": 160601,
       "target": 8,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 04/07/2007",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 04/07/2007",
       "strength": 1
     },
     {
@@ -279,7 +308,7 @@
       "source": 160601,
       "target": 9,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 27/11/2008",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 27/11/2008",
       "strength": 1
     },
     {
@@ -287,7 +316,7 @@
       "source": 160601,
       "target": 10,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 17/01/2002",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 17/01/2002",
       "strength": 1
     },
     {
@@ -295,7 +324,7 @@
       "source": 160601,
       "target": 11,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 27/04/2007",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 27/04/2007",
       "strength": 1
     },
     {
@@ -303,7 +332,7 @@
       "source": 160601,
       "target": 12,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 03/06/2008",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 03/06/2008",
       "strength": 1
     },
     {
@@ -423,7 +452,7 @@
       "source": 160601,
       "target": 27,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.533,16 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.562,01 (21 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -438,22 +467,14 @@
       "id": 29,
       "source": 160601,
       "target": 29,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$28,85 (9 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$66.509.983,00 empenhado, R$62.747.063,00 pago (52 emendas; 2023–2025)",
       "strength": 1
     },
     {
       "id": 30,
       "source": 160601,
       "target": 30,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$66.509.983,00 empenhado, R$62.747.063,00 pago (52 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 31,
-      "source": 160601,
-      "target": 31,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Encargos especiais: R$40.740.974,00 empenhado, R$40.651.976,00 pago (7 emendas; 2023–2025)",
       "strength": 1

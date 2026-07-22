@@ -4,7 +4,7 @@
     "egoName": "Delegado Bruno Lima",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:35.384173Z",
+    "generatedAt": "2026-07-17T04:22:50.775478Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Entre as emendas de 2023 em diante, aparecem R$ 36,9 milhões empenhados e R$ 23,8 milhões pagos em duas áreas, com foco em Saúde. Há R$ 498 mil em despesas da cota parlamentar com 25 fornecedores e R$ 2,8 milhões em doações de campanha em 2022, de três doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -23,94 +30,109 @@
       "connectionCount": 31
     },
     {
-      "id": 15,
+      "id": 14,
       "name": "021 - 204 SUL CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 12,
       "name": "41.177.038 YURI FONSECA SIQUEIRA DE BARROS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4036"
     },
     {
       "id": 4,
       "name": "ABL2 EMPREENDIMENTOS E PARTICIPACOES LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4030"
     },
     {
       "id": 10,
       "name": "APRENDIZAGEM EM FOCO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4035"
     },
     {
       "id": 29,
       "name": "AUTO POSTO EKKO PARK",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4045"
     },
     {
       "id": 22,
       "name": "AUTO POSTO GOLDEN GAS 202 LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1289"
     },
     {
       "id": 9,
       "name": "AUTO POSTO JARDIM COLONIAL LTDA ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4034"
     },
     {
       "id": 25,
       "name": "AUTO POSTO NOVA SUICA LT",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4042"
     },
     {
       "id": 28,
       "name": "AUTO POSTO REINA SOFHIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4044"
     },
     {
       "id": 8,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4033"
     },
     {
       "id": 2,
       "name": "BRUNO MARCELLO DE OLIVEIRA LIMA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4028"
     },
     {
       "id": 23,
       "name": "CLARO NXT TELECOMUNICAÇÕES S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 11,
       "name": "COPIA & COPIADORA EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1180"
     },
     {
       "id": 7,
       "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 16,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4038"
     },
     {
       "id": 31,
@@ -122,67 +144,78 @@
       "id": 17,
       "name": "HOTELARIA ACCOR BRASIL S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e225"
     },
     {
       "id": 18,
       "name": "JT COMERCIO DE DERIVADOS DE PETROLEO LTDA (POSTO 210)",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e410"
     },
     {
       "id": 26,
       "name": "LAPAPEL COM DE PAPEIS LT",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4043"
     },
     {
       "id": 24,
       "name": "LE PREVILEGE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4041"
     },
     {
       "id": 6,
       "name": "LIMA PARTICIPAÇÕES E ADMINISTRAÇÃO DE BENS PRÓPRIOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4032"
     },
     {
       "id": 19,
       "name": "Latam Linhas Aéreas S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 21,
       "name": "MELIA BRASIL ADMINISTRACAO HOTELEIRA E COMERCIAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4040"
     },
     {
-      "id": 14,
+      "id": 15,
       "name": "PEDRO HENRIQUE BATISTA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4037"
     },
     {
       "id": 27,
       "name": "PLAZA BRASILIA HOTEIS E TURISMO LTDA (BPH)",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1862"
     },
     {
       "id": 1,
       "name": "PROGRESSISTAS - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1"
     },
     {
       "id": 13,
       "name": "SEM PARAR INSTITUIÇÃO DE PAGAMENTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e142"
     },
     {
       "id": 30,
@@ -194,19 +227,22 @@
       "id": 20,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4039"
     },
     {
       "id": 3,
       "name": "THIAGO VASCONCELLOS DE SOUZA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4029"
     },
     {
       "id": 5,
       "name": "VIMPE TRANSPORTES RODOVIÁRIOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4031"
     }
   ],
   "links": [
@@ -239,7 +275,7 @@
       "source": 220642,
       "target": 4,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 29/07/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 29/07/2021",
       "strength": 1
     },
     {
@@ -319,7 +355,7 @@
       "source": 220642,
       "target": 14,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.000,00 (3 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 06/03/2025–06/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.447,92 (17 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/01/2025–16/11/2025)",
       "strength": 1
     },
     {
@@ -327,7 +363,7 @@
       "source": 220642,
       "target": 15,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.649,01 (13 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/01/2025–09/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.000,00 (3 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 06/03/2025–06/05/2025)",
       "strength": 1
     },
     {

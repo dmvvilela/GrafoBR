@@ -1,7 +1,7 @@
 // Computes the "money trail" highlights: deputies who co-own a company that won a
 // federal contract (deputy -socio-> company -contrato-> contract). Writes
 // public/data/_highlights.json, sorted by contract value. Runs after sync-data.
-import { readdir, readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -30,7 +30,8 @@ try {
 // deputy page — this only governs the homepage highlights.
 const MIN_CONTRACT_BRL = 25_000;
 
-const files = (await readdir(dir)).filter((f) => /^\d+\.json$/.test(f));
+const index = JSON.parse(await readFile(path.join(dir, "index.json"), "utf8"));
+const files = index.map((entry) => `${entry.id}.json`);
 const highlights = [];
 for (const f of files) {
   const ego = JSON.parse(await readFile(path.join(dir, f), "utf8"));

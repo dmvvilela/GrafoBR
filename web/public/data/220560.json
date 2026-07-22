@@ -4,7 +4,7 @@
     "egoName": "Thiago de Joaldo",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:39.774594Z",
+    "generatedAt": "2026-07-17T04:22:56.922078Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Os dados públicos registram R$ 75,1 milhões em emendas empenhadas e R$ 69,0 milhões pagos em cinco áreas, com foco em Saúde. Na cota parlamentar, constam R$ 523 mil com 25 fornecedores; em 2022, a campanha arrecadou R$ 770 mil de sete doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,25 +33,29 @@
       "id": 12,
       "name": "AGENCIA LIBERTY LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13505"
     },
     {
       "id": 6,
       "name": "ANA LUIZA SILVA DE CARVALHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13499"
     },
     {
       "id": 22,
       "name": "AUTO POSTO CINCO ESTRELAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e405"
     },
     {
       "id": 26,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13517"
     },
     {
       "id": 39,
@@ -56,31 +67,36 @@
       "id": 8,
       "name": "CARVALHO REPRESENTACAO COMERCIAL LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13501"
     },
     {
       "id": 9,
       "name": "COMBUSTIVEIS CARVALHO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13502"
     },
     {
       "id": 4,
       "name": "DANILO ALVES DE CARVALHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13497"
     },
     {
       "id": 3,
       "name": "ELEICAO 2022 LAERCIO JOSE DE OLIVEIRA SENADOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3990"
     },
     {
       "id": 10,
       "name": "ELEICOES 2004 CF - ITABAIANINHA - SE - COMITE FINANC MUN P/VEREADOR - PDT",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13503"
     },
     {
       "id": 41,
@@ -95,130 +111,151 @@
       "connectionCount": 1
     },
     {
-      "id": 32,
+      "id": 33,
       "name": "GOES COMBUSTIVEIS, LUBRIFICANTES E GLP LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1251"
     },
     {
       "id": 21,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13514"
     },
     {
       "id": 5,
       "name": "JAIRO LIMA DE CARVALHO SOBRINHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13498"
     },
     {
       "id": 7,
       "name": "JOSEFA ALVES DOS SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13500"
     },
     {
       "id": 2,
       "name": "JOSEFA GENIKELE ALVES DE SOUZA CARVALHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13496"
     },
     {
       "id": 15,
       "name": "KAROLAYNE DE OLIVEIRA NASCIMENTO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13508"
     },
     {
       "id": 18,
       "name": "LOCACAO DE VEICULOS, MAQUINAS E IMPLEMENTOS AGRICO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13511"
     },
     {
       "id": 27,
       "name": "Movida Participações S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e228"
     },
     {
-      "id": 33,
-      "name": "PETROX COMERCIAL LTDA (BR)",
+      "id": 31,
+      "name": "PETROX COMERCIAL LTDA (ATALAIA)",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5422"
     },
     {
       "id": 23,
       "name": "PORTAL FAN F1",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4017"
     },
     {
       "id": 17,
       "name": "POSTO DE COMBUSTIVEL V E R LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13510"
     },
     {
       "id": 36,
       "name": "POSTO J. MACARIO II LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5426"
     },
     {
       "id": 35,
       "name": "POSTO NOSSA SENHORA DE LOURDES LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13520"
     },
     {
       "id": 25,
       "name": "POSTO REFORCO 8 LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13516"
     },
     {
       "id": 28,
       "name": "POSTO TRES IRMAOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13518"
     },
     {
       "id": 19,
       "name": "PRIME OFFICE ARACAJU",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13512"
     },
     {
       "id": 1,
       "name": "PROGRESSISTAS - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1"
     },
     {
       "id": 30,
       "name": "REDE DE POSTOS PRESIDENTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5421"
     },
     {
       "id": 24,
       "name": "REDE FAN DE COMUNICAÇÃO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13515"
     },
     {
       "id": 20,
       "name": "RÁDIO CLUBE DE ITAPICURU LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13513"
     },
     {
       "id": 34,
       "name": "SOF SUPER TROCA DE OLEO LTDA ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13519"
     },
     {
       "id": 37,
@@ -230,19 +267,22 @@
       "id": 14,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13507"
     },
     {
       "id": 29,
       "name": "Telefônica Brasil S.A. VIVO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 11,
       "name": "UNIAO DOS DIRIGENTES MUNICIPAIS DE EDUCACAO DO ESTADO DE SERGIPE",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13504"
     },
     {
       "id": 40,
@@ -254,19 +294,22 @@
       "id": 13,
       "name": "VIAMAX LOCACOES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13506"
     },
     {
-      "id": 31,
+      "id": 32,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     },
     {
       "id": 16,
       "name": "YMPACTUS LOCAÇÕES DE VEÍCULOS LTDA-ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13509"
     }
   ],
   "links": [
@@ -331,7 +374,7 @@
       "source": 220560,
       "target": 8,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 06/05/2014",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 06/05/2014",
       "strength": 1
     },
     {
@@ -339,7 +382,7 @@
       "source": 220560,
       "target": 9,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 22/12/2014",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 22/12/2014",
       "strength": 1
     },
     {
@@ -347,7 +390,7 @@
       "source": 220560,
       "target": 10,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 12/09/2005",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 12/09/2005",
       "strength": 1
     },
     {
@@ -355,7 +398,7 @@
       "source": 220560,
       "target": 11,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 26/04/2017",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 26/04/2017",
       "strength": 1
     },
     {
@@ -507,7 +550,7 @@
       "source": 220560,
       "target": 30,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.299,15 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/03/2025–17/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.564,83 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/03/2025–17/11/2025)",
       "strength": 1
     },
     {
@@ -515,7 +558,7 @@
       "source": 220560,
       "target": 31,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.269,20 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 20/03/2025–17/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.283,03 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 05/02/2025–12/12/2025)",
       "strength": 1
     },
     {
@@ -523,7 +566,7 @@
       "source": 220560,
       "target": 32,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.095,16 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/02/2025–15/04/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.269,20 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 20/03/2025–17/06/2025)",
       "strength": 1
     },
     {
@@ -531,7 +574,7 @@
       "source": 220560,
       "target": 33,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.060,87 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 05/02/2025–05/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.095,16 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/02/2025–15/04/2025)",
       "strength": 1
     },
     {

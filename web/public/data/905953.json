@@ -4,11 +4,15 @@
     "egoName": "Fabiano Contarato",
     "chamber": "senado",
     "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador5953.jpg",
-    "generatedAt": "2026-06-23T14:22:40.390164Z",
+    "generatedAt": "2026-07-17T04:22:57.777728Z",
     "sources": [
       "cgu_emendas",
       "senado"
     ],
+    "sourceCoverage": {
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "senado": "parlamentares em exercício na consulta; coleta local em 06/06/2026"
+    },
     "summary": "Os dados públicos desde 2023 indicam R$ 193,5 milhões empenhados e R$ 113,9 milhões pagos em dezesseis áreas de emendas. Saúde consta como principal destinação.",
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
@@ -20,7 +24,7 @@
       "connectionCount": 16
     },
     {
-      "id": 16,
+      "id": 15,
       "name": "Administração",
       "category": "destino",
       "connectionCount": 1
@@ -38,7 +42,7 @@
       "connectionCount": 1
     },
     {
-      "id": 15,
+      "id": 16,
       "name": "Ciência e Tecnologia",
       "category": "destino",
       "connectionCount": 1
@@ -234,7 +238,7 @@
       "source": 905953,
       "target": 15,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$200.000,00 empenhado (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Administração: R$200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -242,7 +246,7 @@
       "source": 905953,
       "target": 16,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Administração: R$200.000,00 empenhado (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     }
   ]

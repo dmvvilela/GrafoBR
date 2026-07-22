@@ -4,13 +4,19 @@
     "egoName": "Milton Vieira",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:38.169007Z",
+    "generatedAt": "2026-07-17T04:22:54.731738Z",
     "sources": [
       "camara",
       "cgu_emendas",
       "receita",
       "tse"
     ],
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
     "summary": "Os registros públicos indicam R$ 31,9 milhões em emendas empenhadas e R$ 29,6 milhões pagos em quatro áreas, principalmente Saúde. A campanha de 2022 recebeu R$ 1,1 milhão de quatro doadores.",
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
@@ -25,7 +31,8 @@
       "id": 5,
       "name": "ABC ASSOCIACAO BENEFICENTE CRISTA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10221"
     },
     {
       "id": 9,
@@ -49,25 +56,29 @@
       "id": 4,
       "name": "JOSE ERNESTO GHEDIN SERVIDEI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10220"
     },
     {
       "id": 3,
       "name": "MILTON VIEIRA PINTO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10219"
     },
     {
       "id": 1,
       "name": "REPUBLICANOS - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e79"
     },
     {
       "id": 2,
       "name": "REPUBLICANOS - SAO PAULO - SP - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2707"
     },
     {
       "id": 6,
@@ -114,7 +125,7 @@
       "source": 154178,
       "target": 5,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 12/09/2005",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 12/09/2005",
       "strength": 1
     },
     {

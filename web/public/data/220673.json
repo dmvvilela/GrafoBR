@@ -4,14 +4,20 @@
     "egoName": "Delegado Caveira",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:35.395507Z",
+    "generatedAt": "2026-07-17T04:22:50.792546Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "As emendas individuais mostram R$ 75,1 milhões empenhados e R$ 52,9 milhões pagos em seis áreas, principalmente Saúde. Há R$ 254 mil em despesas de cota e R$ 563 mil em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -22,82 +28,95 @@
       "connectionCount": 44
     },
     {
-      "id": 15,
-      "name": "A M LIBERATO",
+      "id": 33,
+      "name": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
-      "id": 17,
+      "id": 14,
       "name": "A M LIBERATO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4058"
     },
     {
       "id": 12,
       "name": "ALAILSON MENDES PEREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4056"
     },
     {
       "id": 13,
       "name": "ALTAMIR SANTOS FILHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4057"
     },
     {
-      "id": 30,
+      "id": 29,
       "name": "AUTO POSTO DISNEY LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4069"
     },
     {
       "id": 35,
       "name": "AUTO POSTO PARASAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4073"
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4063"
     },
     {
       "id": 34,
       "name": "BARRUDADA PALACE HOTEL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4072"
     },
     {
       "id": 4,
       "name": "BENEDITO BENTO DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4048"
+    },
+    {
+      "id": 26,
+      "name": "BRAVO'S PALACE HOTEL LTDA - EPP",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4067"
     },
     {
       "id": 27,
-      "name": "BRAVO'S PALACE HOTEL LTDA - EPP",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 28,
       "name": "DACAR SERVIÇOS LTDA-EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4068"
     },
     {
       "id": 5,
       "name": "DORIVAL GONZAGA DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4049"
     },
     {
       "id": 6,
       "name": "DURVAL GONZAGA DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4050"
     },
     {
       "id": 42,
@@ -109,7 +128,8 @@
       "id": 3,
       "name": "ELEICAO 2022 JOSE DA CRUZ MARINHO GOVERNADOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4047"
     },
     {
       "id": 44,
@@ -127,139 +147,162 @@
       "id": 10,
       "name": "GEILSON LEITE DE BRITO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4054"
     },
     {
-      "id": 18,
+      "id": 17,
       "name": "GERALDO JOSE DE FARIA HOTEIS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4060"
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4064"
     },
     {
-      "id": 29,
+      "id": 28,
       "name": "HOTEL INTER SIT",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3292"
     },
     {
       "id": 36,
       "name": "INACIO'S PLAZA HOTEL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4074"
     },
     {
       "id": 37,
       "name": "INÁCIO'S HOTEL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4075"
     },
     {
-      "id": 19,
+      "id": 18,
       "name": "IRMAOS TEIXEIRA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4061"
     },
     {
       "id": 16,
       "name": "Instituto Mais Cidades Assessoria e Consultoria ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e505"
     },
     {
       "id": 7,
       "name": "LETICIA AMELIA DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4051"
     },
     {
-      "id": 24,
+      "id": 23,
       "name": "Latam Linhas Aéreas S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 38,
       "name": "MAHLE CARACOL COMERCIO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4076"
     },
     {
-      "id": 14,
+      "id": 15,
       "name": "MARIA DE FATIMA SOUZA DE QUEIROZ",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4059"
     },
     {
       "id": 11,
       "name": "MARIO LUCIO ALVES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4055"
     },
     {
       "id": 8,
       "name": "MARISA BENTO DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4052"
     },
     {
       "id": 2,
       "name": "ONICIO LAURIANO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4046"
     },
     {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 32,
-      "name": "POSTO 109 SUL DERIVADOS DE PETROLEO LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e129"
     },
     {
       "id": 31,
+      "name": "POSTO 109 SUL DERIVADOS DE PETROLEO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e2324"
+    },
+    {
+      "id": 30,
       "name": "POSTO DALLAS EIRELI ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4070"
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "POSTO DE COMBUSTIVEIS 310 SUL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e789"
     },
     {
-      "id": 25,
+      "id": 24,
       "name": "POSTO TIDA LTDA EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4065"
     },
     {
-      "id": 33,
+      "id": 32,
       "name": "Pumas Hotel e Restaurante LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4071"
     },
     {
       "id": 9,
       "name": "RAPHAEL DOS SANTOS SOEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4053"
     },
     {
-      "id": 26,
+      "id": 25,
       "name": "SUPER POSTO TRIUNFO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4066"
     },
     {
       "id": 39,
@@ -274,10 +317,11 @@
       "connectionCount": 1
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4062"
     },
     {
       "id": 41,
@@ -396,7 +440,7 @@
       "source": 220673,
       "target": 14,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$60.000,00 (12 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 13/02/2025–30/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$90.500,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 11/07/2025–16/12/2025)",
       "strength": 1
     },
     {
@@ -404,7 +448,7 @@
       "source": 220673,
       "target": 15,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$49.500,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 16/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$60.000,00 (12 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 13/02/2025–30/12/2025)",
       "strength": 1
     },
     {
@@ -420,7 +464,7 @@
       "source": 220673,
       "target": 17,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$41.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 11/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.900,00 (19 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 01/01/2025–01/01/2026)",
       "strength": 1
     },
     {
@@ -428,7 +472,7 @@
       "source": 220673,
       "target": 18,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.900,00 (19 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 01/01/2025–01/01/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.642,67 (18 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/02/2025–15/12/2025)",
       "strength": 1
     },
     {
@@ -436,7 +480,7 @@
       "source": 220673,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.642,67 (18 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/02/2025–15/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.863,08 (3 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 04/02/2025–28/07/2025)",
       "strength": 1
     },
     {
@@ -444,7 +488,7 @@
       "source": 220673,
       "target": 20,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.863,08 (3 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 04/02/2025–28/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.104,47 (3 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 02/03/2025–21/06/2025)",
       "strength": 1
     },
     {
@@ -452,7 +496,7 @@
       "source": 220673,
       "target": 21,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.104,47 (3 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 02/03/2025–21/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.550,57 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/03/2025–07/10/2025)",
       "strength": 1
     },
     {
@@ -460,7 +504,7 @@
       "source": 220673,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.550,57 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/03/2025–07/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.131,68 (3 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 26/03/2025–21/05/2025)",
       "strength": 1
     },
     {
@@ -468,7 +512,7 @@
       "source": 220673,
       "target": 23,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.131,68 (3 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 26/03/2025–21/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.091,57 (1 lançamento; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 07/07/2025)",
       "strength": 1
     },
     {
@@ -476,7 +520,7 @@
       "source": 220673,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.091,57 (1 lançamento; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 07/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.054,70 (9 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/01/2025–14/11/2025)",
       "strength": 1
     },
     {
@@ -484,7 +528,7 @@
       "source": 220673,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.054,70 (9 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/01/2025–14/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.164,96 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/03/2025–11/11/2025)",
       "strength": 1
     },
     {
@@ -492,7 +536,7 @@
       "source": 220673,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.164,96 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/03/2025–11/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.650,80 (5 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 15/02/2025–13/11/2025)",
       "strength": 1
     },
     {
@@ -500,7 +544,7 @@
       "source": 220673,
       "target": 27,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.650,80 (5 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 15/02/2025–13/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.400,00 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 18/02/2025)",
       "strength": 1
     },
     {
@@ -508,7 +552,7 @@
       "source": 220673,
       "target": 28,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.400,00 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 18/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.400,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 25/05/2025)",
       "strength": 1
     },
     {
@@ -516,7 +560,7 @@
       "source": 220673,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.400,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 25/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.329,98 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/01/2025–13/11/2025)",
       "strength": 1
     },
     {
@@ -524,7 +568,7 @@
       "source": 220673,
       "target": 30,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.329,98 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/01/2025–13/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.215,17 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/01/2025–16/11/2025)",
       "strength": 1
     },
     {
@@ -532,7 +576,7 @@
       "source": 220673,
       "target": 31,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.215,17 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/01/2025–16/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.146,93 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/02/2025–29/12/2025)",
       "strength": 1
     },
     {
@@ -540,7 +584,7 @@
       "source": 220673,
       "target": 32,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.146,93 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/02/2025–29/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$920,00 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 15/01/2025–08/11/2025)",
       "strength": 1
     },
     {
@@ -548,7 +592,7 @@
       "source": 220673,
       "target": 33,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$920,00 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 15/01/2025–08/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$790,15 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 18/02/2025–30/09/2025)",
       "strength": 1
     },
     {

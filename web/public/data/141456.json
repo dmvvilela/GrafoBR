@@ -4,7 +4,7 @@
     "egoName": "Jilmar Tatto",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:36.904333Z",
+    "generatedAt": "2026-07-17T04:22:52.981392Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Desde 2023, constam R$ 74,9 milhões em emendas empenhadas e R$ 67,2 milhões pagos em oito áreas, com destaque para Saúde. Registram-se R$ 493 mil em despesas de cota e R$ 2,0 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,40 +27,37 @@
       "id": 141456,
       "name": "Jilmar Tatto",
       "category": "politician",
-      "connectionCount": 36
-    },
-    {
-      "id": 23,
-      "name": "026 - P WAY - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 35
     },
     {
       "id": 20,
-      "name": "036 - SIA - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "name": "026 - P WAY - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
-      "id": 27,
+      "id": 26,
       "name": "AUTO POSTO CINCO ESTRELAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e405"
     },
     {
       "id": 19,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7309"
     },
     {
-      "id": 36,
+      "id": 35,
       "name": "Agricultura",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 31,
+      "id": 30,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -62,16 +66,18 @@
       "id": 17,
       "name": "BRASAL COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e408"
     },
     {
       "id": 11,
       "name": "CREATIVE FULL SERVICE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7303"
     },
     {
-      "id": 35,
+      "id": 34,
       "name": "Cultura",
       "category": "destino",
       "connectionCount": 1
@@ -80,16 +86,17 @@
       "id": 10,
       "name": "DENISE EMY BRETAS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7302"
     },
     {
-      "id": 34,
+      "id": 33,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 32,
+      "id": 31,
       "name": "Direitos da cidadania",
       "category": "destino",
       "connectionCount": 1
@@ -98,34 +105,38 @@
       "id": 5,
       "name": "EDIMAR GOMES DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7298"
     },
     {
       "id": 4,
       "name": "ELEICAO 2022 ENIO FRANCISCO TATTO DEPUTADO ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7297"
     },
     {
       "id": 2,
       "name": "ELEICAO 2022 FERNANDO HADDAD GOVERNADOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e574"
     },
     {
       "id": 6,
       "name": "EXPRESSIVO SISTEMA INTEGRADO DE ENSINO S/C LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7299"
     },
     {
-      "id": 33,
+      "id": 32,
       "name": "Educação",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 30,
+      "id": 29,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -134,82 +145,95 @@
       "id": 9,
       "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 16,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7308"
     },
     {
       "id": 13,
       "name": "JOSEANE DO NASCIMENTO MIGUEL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7305"
     },
     {
       "id": 12,
       "name": "NOVA MOVE COMUNICACAO NA WEB LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7304"
     },
     {
       "id": 1,
       "name": "PARTIDO DOS TRABALHADORES - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e277"
     },
     {
       "id": 3,
       "name": "PARTIDO DOS TRABALHADORES - SAO PAULO - SP - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e575"
     },
     {
       "id": 21,
       "name": "POSTO 109 SUL DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2324"
     },
     {
       "id": 22,
       "name": "POSTO 212 SUL LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 26,
-      "name": "POSTO DE COMBUSTIVEIS SAO RAFAEL LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2322"
     },
     {
       "id": 25,
+      "name": "POSTO DE COMBUSTIVEIS SAO RAFAEL LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e407"
+    },
+    {
+      "id": 24,
       "name": "POSTO DE COMBUSTIVEL THAIANE BASTOS DE OLIVEIRA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7310"
     },
     {
       "id": 7,
       "name": "PRESTAÇÃO DE SERVIÇOS DE DESIGN SGA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7300"
+    },
+    {
+      "id": 27,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e10"
+    },
+    {
+      "id": 23,
+      "name": "ROTA COMBUSTIVEIS LTDA (POSTO 113)",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e403"
     },
     {
       "id": 28,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 24,
-      "name": "ROTA COMBUSTIVEIS LTDA (POSTO 113)",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 29,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -218,25 +242,29 @@
       "id": 15,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7307"
     },
     {
       "id": 8,
       "name": "TATIANA BARROS MAIA PIRES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7301"
     },
     {
       "id": 14,
       "name": "THIAGO MACEDO TOMAZ DE OLIVEIRA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7306"
     },
     {
       "id": 18,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     }
   ],
   "links": [
@@ -285,7 +313,7 @@
       "source": 141456,
       "target": 6,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 09/09/1993",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 09/09/1993",
       "strength": 1
     },
     {
@@ -397,7 +425,7 @@
       "source": 141456,
       "target": 20,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$305,65 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/03/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$550,14 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/03/2025–25/11/2025)",
       "strength": 1
     },
     {
@@ -421,7 +449,7 @@
       "source": 141456,
       "target": 23,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$244,49 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 25/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$243,99 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/10/2025)",
       "strength": 1
     },
     {
@@ -429,7 +457,7 @@
       "source": 141456,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$243,99 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$233,14 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/05/2025)",
       "strength": 1
     },
     {
@@ -437,7 +465,7 @@
       "source": 141456,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$233,14 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$205,55 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/08/2025)",
       "strength": 1
     },
     {
@@ -445,7 +473,7 @@
       "source": 141456,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$205,55 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$204,58 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/09/2025)",
       "strength": 1
     },
     {
@@ -453,15 +481,15 @@
       "source": 141456,
       "target": 27,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$204,58 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$31,50 (9 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
       "id": 28,
       "source": 141456,
       "target": 28,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$31,50 (9 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$39.658.104,00 empenhado, R$35.997.790,00 pago (7 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -469,7 +497,7 @@
       "source": 141456,
       "target": 29,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$39.658.104,00 empenhado, R$35.997.790,00 pago (7 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$24.165.502,00 empenhado, R$24.060.202,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -477,7 +505,7 @@
       "source": 141456,
       "target": 30,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$24.165.502,00 empenhado, R$24.060.202,00 pago (3 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Assistência social: R$5.500.000,00 empenhado, R$5.000.000,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -485,7 +513,7 @@
       "source": 141456,
       "target": 31,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$5.500.000,00 empenhado, R$5.000.000,00 pago (3 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$1.949.990,00 empenhado, R$1.199.990,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -493,7 +521,7 @@
       "source": 141456,
       "target": 32,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Direitos da cidadania: R$1.949.990,00 empenhado, R$1.199.990,00 pago (3 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Educação: R$1.619.959,00 empenhado, R$483.404,00 pago (3 emendas; 2025)",
       "strength": 1
     },
     {
@@ -501,7 +529,7 @@
       "source": 141456,
       "target": 33,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Educação: R$1.619.959,00 empenhado, R$483.404,00 pago (3 emendas; 2025)",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.050.000,00 empenhado, R$266.000,00 pago (2 emendas; 2025)",
       "strength": 1
     },
     {
@@ -509,21 +537,13 @@
       "source": 141456,
       "target": 34,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.050.000,00 empenhado, R$266.000,00 pago (2 emendas; 2025)",
+      "description": "Emendas individuais destinadas a Cultura: R$500.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {
       "id": 35,
       "source": 141456,
       "target": 35,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Cultura: R$500.000,00 empenhado (1 emenda; 2024)",
-      "strength": 1
-    },
-    {
-      "id": 36,
-      "source": 141456,
-      "target": 36,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Agricultura: R$500.000,00 empenhado, R$222.895,00 pago (1 emenda; 2025)",
       "strength": 1

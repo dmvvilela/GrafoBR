@@ -4,14 +4,20 @@
     "egoName": "Pedro Lupion",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:38.761113Z",
+    "generatedAt": "2026-07-17T04:22:55.566070Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Entre 2023 e os registros mais recentes, registram-se R$ 106,8 milhões em emendas empenhadas e R$ 89,4 milhões pagos em duas áreas, com foco em Saúde. Há R$ 487 mil em despesas de cota e R$ 2,6 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -19,82 +25,94 @@
       "id": 204395,
       "name": "Pedro Lupion",
       "category": "politician",
-      "connectionCount": 36
+      "connectionCount": 35
     },
     {
       "id": 12,
       "name": "ABELARDO LUIZ LUPION MELLO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11375"
     },
     {
       "id": 17,
       "name": "ALEX NOBUYOSHI UTIDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5401"
     },
     {
       "id": 25,
       "name": "ATILANO DE OMS SOBRINHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11379"
     },
     {
       "id": 32,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11385"
     },
     {
       "id": 2,
       "name": "CARLOS ERNESTO AUGUSTIN",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e526"
     },
     {
       "id": 33,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 18,
       "name": "CIRINEU DE AGUIAR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5398"
     },
     {
       "id": 14,
       "name": "CLETO WEBLER",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1574"
     },
     {
       "id": 31,
       "name": "Chagas e Cardoso Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11384"
     },
     {
       "id": 19,
       "name": "EDILSON ANTONIO PIAIA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5396"
     },
     {
       "id": 6,
       "name": "ERASMO CARLOS BATTISTELLA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e529"
     },
     {
       "id": 9,
       "name": "ERIKA BRANDAO LEMOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e532"
     },
     {
-      "id": 36,
+      "id": 35,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -103,112 +121,123 @@
       "id": 10,
       "name": "FERNANDO DO VAL GUERRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e533"
     },
     {
       "id": 20,
       "name": "FERNANDO XAVIER FERREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11377"
     },
     {
       "id": 30,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11383"
     },
     {
       "id": 21,
       "name": "JOAO ANDRE LOPES GUERREIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3127"
     },
     {
       "id": 15,
       "name": "JOAO GILBERTO COMINESE FREIRE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11376"
     },
     {
       "id": 7,
       "name": "LUIZ MENEGHEL NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11373"
     },
     {
       "id": 3,
       "name": "NEIDE SANCHES FERNANDES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2558"
     },
     {
       "id": 28,
       "name": "OCEANICA CONSULTORIA DE COMUNICACAO AUDIOVISUAL E MIDIAS SO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11382"
     },
     {
       "id": 11,
       "name": "ORCIVAL GOUVEIA GUIMARAES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1577"
     },
     {
       "id": 4,
       "name": "PAULA ABREU BARCELLOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11372"
     },
     {
       "id": 22,
       "name": "PAULO ROGERIO DE MORAIS MACHADO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5399"
     },
     {
       "id": 26,
       "name": "PINEAPPLE MARKETING LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11380"
     },
     {
       "id": 1,
       "name": "PROGRESSISTAS - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1"
     },
     {
       "id": 13,
       "name": "RAFAEL DAVIDSOHN ABUD",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 34,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e531"
     },
     {
       "id": 23,
       "name": "RODRIGO LOPES ALMEIDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11378"
     },
     {
       "id": 16,
       "name": "ROMEU FROELICH",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1578"
     },
     {
       "id": 5,
       "name": "RUBENS OMETTO SILVEIRA MELLO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e461"
     },
     {
-      "id": 35,
+      "id": 34,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -217,25 +246,29 @@
       "id": 27,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11381"
     },
     {
       "id": 29,
       "name": "VD COMÉRCIO DE VEÍCULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2812"
     },
     {
       "id": 8,
       "name": "WALFRIDO VICTORINO AVILA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11374"
     },
     {
       "id": 24,
       "name": "WILSON DALTROZO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5400"
     }
   ],
   "links": [
@@ -500,29 +533,21 @@
       "source": 204395,
       "target": 33,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.410,81 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.509,50 (21 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
       "id": 34,
       "source": 204395,
       "target": 34,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$98,69 (9 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$65.978.591,00 empenhado, R$48.803.180,00 pago (8 emendas; 2023–2025)",
       "strength": 1
     },
     {
       "id": 35,
       "source": 204395,
       "target": 35,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$65.978.591,00 empenhado, R$48.803.180,00 pago (8 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 36,
-      "source": 204395,
-      "target": 36,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Encargos especiais: R$40.774.260,00 empenhado, R$40.621.002,00 pago (4 emendas; 2023–2025)",
       "strength": 1

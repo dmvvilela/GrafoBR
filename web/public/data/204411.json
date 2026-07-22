@@ -4,14 +4,20 @@
     "egoName": "Filipe Barros",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:36.179178Z",
+    "generatedAt": "2026-07-17T04:22:51.924131Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "As emendas desde 2023 somam R$ 98,9 milhões empenhados e R$ 91,7 milhões pagos em seis áreas, com Saúde como principal. Há R$ 411 mil em despesas de cota e R$ 3,0 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -25,31 +31,29 @@
       "id": 44,
       "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 37,
       "name": "ADOBE",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 50,
-      "name": "AUTO POSTO CONCORDE LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 40,
       "name": "AUTO POSTO SANT ANA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5796"
     },
     {
       "id": 30,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5793"
     },
     {
       "id": 55,
@@ -67,55 +71,64 @@
       "id": 34,
       "name": "BROAD BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e170"
     },
     {
       "id": 19,
       "name": "BRUNO CESAR DE OLIVEIRA MACHADO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5782"
     },
     {
       "id": 26,
       "name": "CANAA IMÓVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5789"
     },
     {
       "id": 8,
       "name": "CAROLINE FELIZ SARRAF FERRI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5771"
     },
     {
       "id": 5,
       "name": "CLAYTON DE PAULA SANTOS OLIVEIRA MATOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5768"
     },
     {
       "id": 33,
       "name": "Copel Distribuição S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4360"
     },
     {
-      "id": 48,
+      "id": 49,
       "name": "DERIVADOS DE PETROLEO TRES MARCOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5801"
     },
     {
       "id": 7,
       "name": "DIEGO FRANCO NORONHA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5770"
     },
     {
       "id": 18,
       "name": "DIOGO LEMOS DE FARIA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5781"
     },
     {
       "id": 53,
@@ -127,19 +140,22 @@
       "id": 14,
       "name": "EDUARDO DE MIRANDA MENEGHETTI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5777"
     },
     {
       "id": 9,
       "name": "ENEIAS DOS SANTOS COELHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5772"
     },
     {
       "id": 21,
       "name": "EUGENIO PEDRINI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5784"
     },
     {
       "id": 56,
@@ -157,175 +173,211 @@
       "id": 17,
       "name": "FABRICIO PETINELLI VIEIRA COUTINHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5780"
     },
     {
-      "id": 49,
+      "id": 50,
       "name": "FJP SUPRIMENTOS PARA INFORMATICA LTDA - JK",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5802"
     },
     {
       "id": 10,
       "name": "FLAVIA DE MIRANDA MENEGHETTI PALUMBO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5773"
     },
     {
       "id": 11,
       "name": "FLAVIO ANTONIO MENEGHETTI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5774"
     },
     {
       "id": 43,
       "name": "G.D.J Comercial de Alarmes Ltda - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5798"
     },
     {
       "id": 4,
       "name": "GABRIEL FERNANDO DO AMARAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5767"
     },
     {
       "id": 46,
       "name": "GAMA EMPREENDIMENTOS HOTELEIROS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5592"
     },
     {
       "id": 29,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5792"
     },
     {
       "id": 28,
       "name": "HCC HOTELS GESTAO HOTELEIRA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5791"
     },
     {
       "id": 45,
       "name": "HOTEL CARIMA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5799"
     },
     {
       "id": 39,
       "name": "HOTELARIA BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2817"
     },
     {
       "id": 31,
       "name": "Hotel Curitiba Capital S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5794"
     },
     {
       "id": 20,
       "name": "JONAIR LOPES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5783"
     },
     {
       "id": 12,
       "name": "JULIAN VALONE GORINI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5775"
     },
     {
       "id": 32,
       "name": "LOCALIZA RENT A CAR SA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e943"
     },
     {
       "id": 13,
       "name": "LUIZ CARLOS ALVES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5776"
     },
     {
       "id": 41,
       "name": "Latam Linhas Aéreas S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 15,
       "name": "OSWALDO PITOL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5778"
     },
     {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e129"
     },
     {
       "id": 6,
       "name": "PRISCILA ROMEIRO DA SILVA TEIXEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5769"
     },
     {
       "id": 42,
       "name": "R S COMERCIO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5797"
     },
     {
       "id": 3,
       "name": "RANIERI ALBERTON MARCHIORO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5766"
     },
     {
       "id": 23,
       "name": "REGINALDO ALVES DE SOUZA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5786"
     },
     {
       "id": 16,
       "name": "ROBERTO AVILA OTTE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5779"
     },
     {
       "id": 24,
       "name": "RODRIGO DEZUO KISLKI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5787"
     },
     {
       "id": 47,
       "name": "SANEPAR",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5800"
     },
     {
       "id": 25,
       "name": "SANIE FERNANDA DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5788"
     },
     {
       "id": 22,
       "name": "SHIRLEIA MARIA GOMES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5785"
+    },
+    {
+      "id": 48,
+      "name": "SLAVIEIRO EMPREDIMENTOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4974"
     },
     {
       "id": 38,
       "name": "STARLINK BRAZIL SERVICOS DE INTERNET LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1256"
     },
     {
       "id": 51,
@@ -337,25 +389,29 @@
       "id": 27,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5790"
     },
     {
       "id": 36,
       "name": "TELEFONICA BRASIL S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 35,
       "name": "TRAMADAI HOTELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5795"
     },
     {
       "id": 2,
       "name": "WESLEY TOLEDO RIBEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5765"
     }
   ],
   "links": [
@@ -652,7 +708,7 @@
       "source": 204411,
       "target": 37,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.049,75 (41 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 08/01/2025–11/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.063,72 (50 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR)",
       "strength": 1
     },
     {
@@ -740,7 +796,7 @@
       "source": 204411,
       "target": 48,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.620,37 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 30/01/2025–03/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.753,29 (5 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 28/04/2025–11/12/2025)",
       "strength": 1
     },
     {
@@ -748,7 +804,7 @@
       "source": 204411,
       "target": 49,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.248,25 (7 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 23/01/2025–29/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.620,37 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 30/01/2025–03/12/2025)",
       "strength": 1
     },
     {
@@ -756,7 +812,7 @@
       "source": 204411,
       "target": 50,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.197,51 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/02/2025–09/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.248,25 (7 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 23/01/2025–29/10/2025)",
       "strength": 1
     },
     {

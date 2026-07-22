@@ -4,7 +4,7 @@
     "egoName": "Fábio Macedo",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:36.279699Z",
+    "generatedAt": "2026-07-17T04:22:52.066639Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,6 +12,13 @@
       "receita",
       "tse"
     ],
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
     "summary": "As emendas individuais desde 2023 totalizam R$ 75,1 milhões empenhados e R$ 74,9 milhões pagos em duas áreas, com Saúde como principal. A cota parlamentar registra R$ 466 mil com seis fornecedores, e a campanha de 2022 arrecadou R$ 3,3 milhões.",
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
@@ -26,13 +33,15 @@
       "id": 11,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6016"
     },
     {
       "id": 5,
       "name": "ELEICAO 2022 CARLOS ORLEANS BRANDAO JUNIOR GOVERNADOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6010"
     },
     {
       "id": 14,
@@ -44,55 +53,64 @@
       "id": 6,
       "name": "F. MACEDO P. LAVAGENS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6011"
     },
     {
       "id": 2,
       "name": "FABIO HENRIQUE DIAS DE MACEDO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6007"
     },
     {
       "id": 8,
       "name": "FN SERVICES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6013"
     },
     {
       "id": 10,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6015"
     },
     {
       "id": 7,
       "name": "IMS SERVIÇOS EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6012"
     },
     {
       "id": 3,
       "name": "JOSE WILSON DE MACEDO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6008"
     },
     {
       "id": 4,
       "name": "LORENA VERUSKA SOUSA MELO MACEDO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6009"
     },
     {
       "id": 1,
       "name": "PODEMOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2203"
     },
     {
       "id": 12,
       "name": "RAMAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 13,
@@ -104,7 +122,8 @@
       "id": 9,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6014"
     }
   ],
   "links": [
@@ -153,7 +172,7 @@
       "source": 220681,
       "target": 6,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 19/04/2011",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 19/04/2011",
       "strength": 1
     },
     {

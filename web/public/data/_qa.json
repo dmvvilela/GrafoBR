@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-07-07T16:15:34.505Z",
-  "snapshotGeneratedAt": "2026-06-23T11:22:40-03:00",
+  "generatedAt": "2026-07-17T04:23:23.261Z",
+  "snapshotGeneratedAt": "2026-07-17T01:23:01-03:00",
   "totals": {
     "profiles": 593,
-    "emptyGraphs": 5,
-    "nodes": 24181,
-    "links": 23588
+    "emptyGraphs": 10,
+    "nodes": 24049,
+    "links": 23456
   },
   "coverage": {
     "bySource": [
       {
         "key": "cgu_emendas",
-        "count": 563
+        "count": 556
       },
       {
         "key": "camara",
@@ -51,7 +51,7 @@
     "byNodeCategory": [
       {
         "key": "supplier",
-        "count": 11158
+        "count": 11088
       },
       {
         "key": "donor",
@@ -59,7 +59,7 @@
       },
       {
         "key": "destino",
-        "count": 3963
+        "count": 3901
       },
       {
         "key": "company",
@@ -77,7 +77,7 @@
     "byConnectionType": [
       {
         "key": "despesa",
-        "count": 11158
+        "count": 11088
       },
       {
         "key": "doacao",
@@ -85,7 +85,7 @@
       },
       {
         "key": "emenda",
-        "count": 3963
+        "count": 3901
       },
       {
         "key": "socio",
@@ -103,7 +103,9 @@
     "uf": 0,
     "sources": 0,
     "metaEgoId": 0,
-    "linkDescription": 0
+    "linkDescription": 0,
+    "entityId": 0,
+    "sourceCoverage": 0
   },
   "broken": {
     "unreadableProfileFiles": 0,
@@ -127,7 +129,7 @@
       "id": "empty_graphs",
       "severity": "info",
       "label": "Perfis sem vínculos",
-      "count": 5,
+      "count": 10,
       "detail": "Ausência no recorte usado; não significa ausência de relações fora das fontes."
     },
     {
@@ -154,11 +156,16 @@
   ],
   "samples": {
     "emptyGraphs": [
+      905672,
+      904639,
       906336,
       905906,
+      904642,
       906381,
+      904811,
       905207,
-      906025
+      906025,
+      905736
     ],
     "missingUf": [],
     "missingParty": [],

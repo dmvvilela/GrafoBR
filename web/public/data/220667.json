@@ -4,7 +4,7 @@
     "egoName": "Pedro Campos",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:38.737174Z",
+    "generatedAt": "2026-07-17T04:22:55.533527Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Os dados públicos indicam R$ 75,1 milhões em emendas empenhadas e R$ 60,5 milhões pagos em treze áreas, com Saúde como principal. Há R$ 544 mil em despesas de cota e R$ 2,8 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -23,28 +30,25 @@
       "connectionCount": 45
     },
     {
-      "id": 32,
-      "name": "050 - QI 28 - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "id": 24,
+      "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 27,
-      "name": "076 - MELHOR 10 - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 29,
       "name": "AUTO POSTO CINCO ESTRELAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e405"
     },
     {
       "id": 12,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11351"
     },
     {
       "id": 38,
@@ -56,22 +60,32 @@
       "id": 22,
       "name": "BANDEIRANTES PROPAGANDA EXTERNA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9642"
     },
     {
       "id": 7,
       "name": "BIGU APLICATIVO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11346"
+    },
+    {
+      "id": 32,
+      "name": "BRASTARLINK BRAZIL SERVIÇOS DE INTERNET LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e1256"
     },
     {
       "id": 20,
       "name": "CONDOMINIO EDIFICIO TORQUE EMPRESARIAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11356"
     },
     {
-      "id": 44,
+      "id": 45,
       "name": "Ciência e Tecnologia",
       "category": "destino",
       "connectionCount": 1
@@ -80,7 +94,8 @@
       "id": 23,
       "name": "Companhia Energética de Pernambuco",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1249"
     },
     {
       "id": 39,
@@ -98,16 +113,18 @@
       "id": 1,
       "name": "DIRETORIO ESTADUAL DO PARTIDO SOCIALISTA BRASILEIRO - PSB",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5232"
     },
     {
       "id": 16,
       "name": "DROPBOX INTERNATIONAL UNLIMITED COMPANY",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
-      "id": 45,
+      "id": 43,
       "name": "Defesa nacional",
       "category": "destino",
       "connectionCount": 1
@@ -128,19 +145,22 @@
       "id": 14,
       "name": "ESCRITORIO DE MIDIA DE PERNAMBUCO LTDA EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11352"
     },
     {
-      "id": 26,
+      "id": 28,
       "name": "EXPRESS BRASILIA HOSPEDAGEM E TURISMO S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3794"
     },
     {
       "id": 11,
       "name": "Ed. Torque Empresarial",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11350"
     },
     {
       "id": 36,
@@ -158,13 +178,15 @@
       "id": 13,
       "name": "FLEX MARKETING DIRETO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2838"
     },
     {
       "id": 19,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11355"
     },
     {
       "id": 42,
@@ -176,91 +198,106 @@
       "id": 3,
       "name": "INACIO DE BARROS MELO NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1654"
     },
     {
       "id": 30,
-      "name": "JAD ARAUJO CIA LTDA - POSTO CRUZEIRO IV",
+      "name": "J A D ARAUJO CIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2552"
     },
     {
       "id": 4,
       "name": "JOAO HENRIQUE DE ANDRADE LIMA CAMPOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11343"
     },
     {
       "id": 15,
       "name": "LIA CONSULTORIA E PERMANCE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11353"
     },
     {
       "id": 18,
       "name": "MARCA CLIMATIZAÇÃO E TERCEIRIZAÇÃO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11354"
     },
     {
       "id": 5,
       "name": "MARCUS VINICIUS ALENCAR SAMPAIO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11344"
     },
     {
       "id": 2,
       "name": "PARTIDO SOCIALISTA BRASILEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1841"
     },
     {
       "id": 8,
       "name": "PARVI LOCADORA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11347"
     },
     {
       "id": 17,
       "name": "PETROCAL PETROLEO CAVALCANTI LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1683"
     },
     {
       "id": 31,
       "name": "PLAZA ADMINISTRAÇAO E SERVIÇOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5664"
     },
     {
       "id": 9,
       "name": "PONTOGOV MARKETING DIGITAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11348"
     },
     {
-      "id": 28,
+      "id": 29,
       "name": "PREFEITURA DA CIDADE DO RECIFE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1252"
     },
     {
       "id": 6,
       "name": "RENATA DE ANDRADE LIMA CAMPOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11345"
     },
     {
-      "id": 25,
+      "id": 26,
       "name": "ROTA MIDIA EXTERIOR E IMPRESSÃO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11358"
     },
     {
       "id": 21,
       "name": "STAMPA OUTDOOR EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11357"
     },
     {
       "id": 33,
@@ -269,7 +306,7 @@
       "connectionCount": 1
     },
     {
-      "id": 43,
+      "id": 44,
       "name": "Segurança pública",
       "category": "destino",
       "connectionCount": 1
@@ -278,13 +315,15 @@
       "id": 10,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11349"
     },
     {
-      "id": 24,
+      "id": 25,
       "name": "TELEFONIA BRASIL S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 34,
@@ -347,7 +386,7 @@
       "source": 220667,
       "target": 7,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 21/03/2016",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 21/03/2016",
       "strength": 1
     },
     {
@@ -419,7 +458,7 @@
       "source": 220667,
       "target": 16,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$13.336,75 (14 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 01/01/2025–01/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$13.361,54 (23 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR)",
       "strength": 1
     },
     {
@@ -483,7 +522,7 @@
       "source": 220667,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.870,98 (11 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 29/01/2025–29/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.375,37 (24 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 15/01/2025–17/12/2025)",
       "strength": 1
     },
     {
@@ -491,7 +530,7 @@
       "source": 220667,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.500,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 08/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.870,98 (11 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 29/01/2025–29/11/2025)",
       "strength": 1
     },
     {
@@ -499,7 +538,7 @@
       "source": 220667,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.014,00 (4 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 23/01/2025–30/04/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.500,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 08/05/2025)",
       "strength": 1
     },
     {
@@ -507,7 +546,7 @@
       "source": 220667,
       "target": 27,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.989,50 (11 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/02/2025–02/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.099,68 (12 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 23/01/2025–15/12/2025)",
       "strength": 1
     },
     {
@@ -515,7 +554,7 @@
       "source": 220667,
       "target": 28,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.923,16 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 20/01/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.014,00 (4 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 23/01/2025–30/04/2025)",
       "strength": 1
     },
     {
@@ -523,7 +562,7 @@
       "source": 220667,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.259,84 (9 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/03/2025–15/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.923,16 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 20/01/2025)",
       "strength": 1
     },
     {
@@ -531,7 +570,7 @@
       "source": 220667,
       "target": 30,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.180,15 (12 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 29/03/2025–27/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.734,81 (15 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/02/2025–27/12/2025)",
       "strength": 1
     },
     {
@@ -547,7 +586,7 @@
       "source": 220667,
       "target": 32,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.012,36 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 22/05/2025–17/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.768,01 (5 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 16/07/2025–17/10/2025)",
       "strength": 1
     },
     {
@@ -635,7 +674,7 @@
       "source": 220667,
       "target": 43,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Segurança pública: R$200.000,00 empenhado (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -643,7 +682,7 @@
       "source": 220667,
       "target": 44,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Segurança pública: R$200.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -651,7 +690,7 @@
       "source": 220667,
       "target": 45,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Defesa nacional: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2024)",
       "strength": 1
     }
   ]

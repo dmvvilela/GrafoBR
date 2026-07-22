@@ -4,14 +4,20 @@
     "egoName": "Delegada Katarina",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:35.371128Z",
+    "generatedAt": "2026-07-17T04:22:50.756864Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "As emendas individuais desde 2023 somam R$ 75,1 milhões empenhados e R$ 71,1 milhões pagos em nove áreas, com Saúde como principal. Há R$ 532 mil em despesas da cota parlamentar com 24 fornecedores e R$ 2,6 milhões em doações de campanha em 2022, de vinte e cinco doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -19,64 +25,72 @@
       "id": 220561,
       "name": "Delegada Katarina",
       "category": "politician",
-      "connectionCount": 58
+      "connectionCount": 57
     },
     {
       "id": 44,
       "name": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 43,
       "name": "A.C. POSTO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4025"
     },
     {
       "id": 14,
       "name": "ANDRE LUIS GOUVEIA DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4000"
     },
     {
       "id": 5,
       "name": "ANDRE PINHEIRO BARONTO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3991"
     },
     {
       "id": 6,
       "name": "ANTONIO SERGIO ARAUJO PINTO DOS SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3992"
     },
     {
       "id": 39,
       "name": "AUTO POSTO BRAGA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4021"
     },
     {
       "id": 40,
       "name": "AUTO POSTO PRECIOSO DO OESTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4022"
     },
     {
       "id": 41,
       "name": "AUTO POSTO VITORIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4023"
     },
     {
-      "id": 53,
+      "id": 52,
       "name": "Agricultura",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 56,
+      "id": 55,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -85,46 +99,51 @@
       "id": 25,
       "name": "CARINA REZENDE DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4011"
     },
     {
       "id": 31,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 27,
       "name": "COMERCIAL MARIVAN LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4013"
     },
     {
       "id": 26,
       "name": "CONCEITO COMUNICAÇÃO INTEGRADA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4012"
     },
     {
       "id": 47,
       "name": "DERIVADOS DE PETROLEO DE SERGIPE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4027"
     },
     {
-      "id": 55,
+      "id": 54,
       "name": "Defesa nacional",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 54,
+      "id": 53,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 57,
+      "id": 56,
       "name": "Direitos da cidadania",
       "category": "destino",
       "connectionCount": 1
@@ -133,16 +152,18 @@
       "id": 3,
       "name": "ELEICAO 2022 FABIO CRUZ MITIDIERI GOVERNADOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3989"
     },
     {
       "id": 4,
       "name": "ELEICAO 2022 LAERCIO JOSE DE OLIVEIRA SENADOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3990"
     },
     {
-      "id": 51,
+      "id": 50,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -151,184 +172,206 @@
       "id": 15,
       "name": "FABIO LUIZ SILVA PEREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4001"
     },
     {
       "id": 36,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4019"
     },
     {
       "id": 38,
       "name": "Gol Linhas Aereas S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e147"
     },
     {
       "id": 7,
       "name": "HILTON PAULO FIGUEREDO DUARTE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3993"
     },
     {
       "id": 32,
       "name": "HOTELARIA BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2817"
     },
     {
       "id": 8,
       "name": "HUGO LEONARDO DE OLIVEIRA MELO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3994"
     },
     {
       "id": 16,
       "name": "JOAO MARTINS DA SILVA MAIA DA CUNHA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4002"
     },
     {
       "id": 17,
       "name": "JONATHAS DE OLIVEIRA EVANGELISTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4003"
     },
     {
       "id": 9,
       "name": "JOSE INEPHANIO DE SOUZA CARDOSO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3995"
     },
     {
       "id": 10,
       "name": "JOSE PEREIRA DE ANDRADE FILHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3996"
     },
     {
       "id": 33,
       "name": "JOSE ROBERTO DE SOUSA NETO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3564"
     },
     {
       "id": 35,
       "name": "LK ADMINISTRADORA HOTELEIRA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4018"
     },
     {
       "id": 2,
       "name": "LUCIANO FRANCO BARRETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e460"
     },
     {
       "id": 13,
       "name": "MANUEL LUCIO NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3999"
     },
     {
       "id": 18,
       "name": "MARIANA DINIZ FRANCO SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4004"
     },
     {
       "id": 19,
       "name": "MARILIA DA SILVA MIRANDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4005"
     },
     {
       "id": 20,
       "name": "MAYRA FERNANDA MOINHOS EVANGELISTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4006"
     },
     {
       "id": 21,
       "name": "NAYANNA GOMES BATALHA DE GOES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4007"
     },
     {
       "id": 11,
       "name": "NELIO BICALHO PESSOA JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3997"
     },
     {
       "id": 1,
       "name": "PARTIDO SOCIAL DEMOCRATICO - SERGIPE - SE - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3988"
     },
     {
       "id": 34,
       "name": "PORTAL FAN F1",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4017"
     },
     {
       "id": 42,
       "name": "POSTO RIO CORRENTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4024"
     },
     {
       "id": 48,
       "name": "POSTO ROSARIO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e835"
     },
     {
       "id": 45,
       "name": "POSTO SEABRA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4026"
     },
     {
       "id": 30,
       "name": "PREST SERVICE - REPRESENTAÇÕES E SERVIÇOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 49,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4016"
     },
     {
       "id": 46,
       "name": "REDE HG COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1377"
     },
     {
       "id": 22,
       "name": "RONALDO ALVES MARINHO DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4008"
     },
     {
       "id": 23,
       "name": "ROSANA DE SOUZA FREITAS FIGUEIREDO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4009"
     },
     {
-      "id": 50,
+      "id": 49,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 58,
+      "id": 57,
       "name": "Segurança pública",
       "category": "destino",
       "connectionCount": 1
@@ -337,22 +380,25 @@
       "id": 28,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4014"
     },
     {
       "id": 24,
       "name": "THAIS OLIVEIRA LEMOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4010"
     },
     {
       "id": 29,
       "name": "UNIR LOCAÇÕES E SERVIÇOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4015"
     },
     {
-      "id": 52,
+      "id": 51,
       "name": "Urbanismo",
       "category": "destino",
       "connectionCount": 1
@@ -361,13 +407,15 @@
       "id": 37,
       "name": "WA ADMINISTRADORA DE HOTEIS LTDA-ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4020"
     },
     {
       "id": 12,
       "name": "WERNER AZEVEDO DE ALMEIDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3998"
     }
   ],
   "links": [
@@ -616,7 +664,7 @@
       "source": 220561,
       "target": 31,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.599,48 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.610,86 (20 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -759,8 +807,8 @@
       "id": 49,
       "source": 220561,
       "target": 49,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11,38 (8 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.574.455,00 empenhado, R$36.944.455,00 pago (4 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -768,7 +816,7 @@
       "source": 220561,
       "target": 50,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$37.574.455,00 empenhado, R$36.944.455,00 pago (4 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$30.942.784,00 empenhado, R$30.790.215,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -776,7 +824,7 @@
       "source": 220561,
       "target": 51,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$30.942.784,00 empenhado, R$30.790.215,00 pago (2 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Urbanismo: R$3.000.000,00 empenhado, R$67.921,00 pago (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -784,7 +832,7 @@
       "source": 220561,
       "target": 52,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Urbanismo: R$3.000.000,00 empenhado, R$67.921,00 pago (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Agricultura: R$1.200.000,00 empenhado, R$1.200.000,00 pago (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -792,7 +840,7 @@
       "source": 220561,
       "target": 53,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Agricultura: R$1.200.000,00 empenhado, R$1.200.000,00 pago (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.099.999,00 empenhado, R$1.078.000,00 pago (2 emendas; 2025)",
       "strength": 1
     },
     {
@@ -800,7 +848,7 @@
       "source": 220561,
       "target": 54,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.099.999,00 empenhado, R$1.078.000,00 pago (2 emendas; 2025)",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$449.969,00 empenhado, R$352.859,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -808,7 +856,7 @@
       "source": 220561,
       "target": 55,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Defesa nacional: R$449.969,00 empenhado, R$352.859,00 pago (3 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Assistência social: R$430.000,00 empenhado, R$430.000,00 pago (4 emendas; 2025)",
       "strength": 1
     },
     {
@@ -816,21 +864,13 @@
       "source": 220561,
       "target": 56,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$430.000,00 empenhado, R$430.000,00 pago (4 emendas; 2025)",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$300.000,00 empenhado, R$200.000,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     },
     {
       "id": 57,
       "source": 220561,
       "target": 57,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Direitos da cidadania: R$300.000,00 empenhado, R$200.000,00 pago (3 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 58,
-      "source": 220561,
-      "target": 58,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Segurança pública: R$149.999,00 empenhado (1 emenda; 2025)",
       "strength": 1

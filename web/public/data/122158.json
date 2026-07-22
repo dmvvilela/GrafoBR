@@ -4,7 +4,7 @@
     "egoName": "Pedro Paulo",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:38.773195Z",
+    "generatedAt": "2026-07-17T04:22:55.582894Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,6 +12,13 @@
       "receita",
       "tse"
     ],
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
     "summary": "Os registros de emendas individuais mostram R$ 105,0 milhões empenhados e R$ 81,4 milhões pagos em quatro áreas, principalmente Saúde. A cota parlamentar registra R$ 446 mil com nove fornecedores, e a campanha de 2022 recebeu R$ 1,5 milhão.",
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
@@ -26,19 +33,22 @@
       "id": 9,
       "name": "AN COM EVENTOS E SOLUCOES COMPLEMENTARES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11391"
     },
     {
       "id": 3,
       "name": "ANDERSON OLIVEIRA DE MACEDO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11386"
     },
     {
       "id": 11,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11393"
     },
     {
       "id": 17,
@@ -50,7 +60,8 @@
       "id": 10,
       "name": "ETICA TURISMO VIAGENS E RECEPTIVOS LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11392"
     },
     {
       "id": 15,
@@ -68,49 +79,57 @@
       "id": 8,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11390"
     },
     {
       "id": 6,
       "name": "HADDAD RENT A CAR LOCADORA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6169"
     },
     {
       "id": 4,
       "name": "MATTECCA CONSULTORIA EM GESTAO E INOVACAO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11387"
     },
     {
       "id": 1,
       "name": "PARTIDO SOCIAL DEMOCRATICO - PSD DIRETORIO NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1361"
     },
     {
       "id": 2,
       "name": "PARTIDO SOCIAL DEMOCRATICO - RIO DE JANEIRO - RJ - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4594"
     },
     {
       "id": 5,
       "name": "PAX IMÓVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11388"
     },
     {
       "id": 12,
       "name": "PLANALTO BITTAR HOTEL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1108"
     },
     {
       "id": 13,
       "name": "RAMAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 14,
@@ -122,7 +141,8 @@
       "id": 7,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11389"
     }
   ],
   "links": [
@@ -155,7 +175,7 @@
       "source": 122158,
       "target": 4,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 03/03/2023",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 03/03/2023",
       "strength": 1
     },
     {

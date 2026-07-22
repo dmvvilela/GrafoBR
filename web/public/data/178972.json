@@ -4,7 +4,7 @@
     "egoName": "Alex Manente",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:34.012289Z",
+    "generatedAt": "2026-07-17T04:22:48.473397Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Desde 2023, registram-se R$ 107,0 milhões em emendas empenhadas e R$ 95,5 milhões pagos em duas áreas, principalmente Saúde. Há R$ 458 mil em despesas de cota com 22 fornecedores e R$ 3,1 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,130 +27,150 @@
       "id": 178972,
       "name": "Alex Manente",
       "category": "politician",
-      "connectionCount": 53
+      "connectionCount": 52
     },
     {
       "id": 41,
       "name": "49099968 TATIANA YUMI OTOMO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e649"
     },
     {
       "id": 4,
       "name": "ALEX SPINELLI MANENTE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e613"
     },
     {
       "id": 10,
       "name": "ALEXANDRE TOMAS ALENCAR PEREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e619"
     },
     {
       "id": 25,
       "name": "ALEXIA MARIA DOS SANTOS LIMA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e634"
     },
     {
       "id": 5,
       "name": "ANDRE SPINELLI MANENTE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e614"
     },
     {
       "id": 26,
       "name": "ANIMA CENTRO DE PSICOLOGIA E FONOAUDIOLOGIA SPINELLI LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e635"
     },
     {
       "id": 11,
       "name": "ANTONIO DA LOCA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e620"
     },
     {
       "id": 12,
       "name": "ANTONIO GONCALVES DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e621"
     },
     {
       "id": 13,
       "name": "ARACI SILVEIRA DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e622"
     },
     {
       "id": 14,
       "name": "BENEDITA HELENA BARBOSA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e623"
     },
     {
       "id": 39,
       "name": "BOXNET SERVICOS DE INFORMATICA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e647"
     },
     {
       "id": 35,
       "name": "CENTRO EMPRESARIAL MEDITERRANEO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e643"
     },
     {
       "id": 15,
       "name": "CICERA FIRMINO DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e624"
     },
     {
       "id": 2,
       "name": "CIDADANIA - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e611"
     },
     {
       "id": 1,
       "name": "CIDADANIA SAO PAULO SP ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e610"
     },
     {
       "id": 16,
       "name": "CLEBER DOS SANTOS FERREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e625"
     },
     {
       "id": 27,
       "name": "CONSTRUTORA ANEX LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e636"
     },
     {
       "id": 40,
       "name": "DIÁRIO DO GRANDE ABC",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e648"
     },
     {
       "id": 43,
       "name": "ENEL - Eletropaulo Metropolitana Eletricidade de São Paulo S. A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e651"
     },
     {
       "id": 17,
       "name": "ERICA DA SILVA ABREU",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e626"
     },
     {
-      "id": 53,
+      "id": 52,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -152,154 +179,172 @@
       "id": 31,
       "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 46,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e653"
     },
     {
       "id": 30,
       "name": "GWDIAS AGENCIA DE MARKETING DIGITAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e639"
     },
     {
       "id": 37,
       "name": "IGOR PAULIN DA SILVA CONSULTORIA EM COMUNICAÇÃO - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e645"
     },
     {
       "id": 23,
       "name": "JOAO VICTOR VIANA PEREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e632"
     },
     {
       "id": 6,
       "name": "JORGE MARTINS SALGADO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e615"
     },
     {
       "id": 7,
       "name": "JOSE RIBAMAR DE CASTRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e616"
     },
     {
       "id": 47,
       "name": "KELLY ALECSANDRA SILVA CALDEIRA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e654"
     },
     {
       "id": 18,
       "name": "LEANDRO ARNAUD",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e627"
     },
     {
       "id": 38,
       "name": "LF BENEDITO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e646"
     },
     {
       "id": 28,
       "name": "LOCARES ADMINISTRACAO DE BENS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e637"
     },
     {
       "id": 8,
       "name": "LUCIANA DE ANDRADE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e617"
     },
     {
       "id": 29,
       "name": "MAEX PARTICIPACOES LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e638"
     },
     {
       "id": 19,
       "name": "MARCOS FELIX DIAS DOS SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e628"
     },
     {
       "id": 20,
       "name": "MARIA APARECIDA FERRAZA DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e629"
     },
     {
       "id": 21,
       "name": "MARIA DO SOCORRO PAULO E SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e630"
     },
     {
       "id": 44,
       "name": "MARIANA BARROS MISSI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e652"
     },
     {
       "id": 33,
       "name": "MARX VIDEO PRODUÇOES S/S LTDA ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e641"
     },
     {
       "id": 42,
       "name": "MUNICIPIO DE SAO BERNARDO DO CAMPO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e650"
     },
     {
       "id": 34,
       "name": "NOVA CONTEUDO AGENCIA DE COMUNICAÇÃO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e642"
     },
     {
       "id": 3,
       "name": "PARTIDO DA SOCIAL DEMOCRACIA BRASILEIRA - SAO PAULO - SP - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e612"
     },
     {
       "id": 9,
       "name": "PAULO FERREIRA DO NASCIMENTO",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 51,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e618"
     },
     {
       "id": 49,
       "name": "SOLARYS SOLUCOES DIGITAIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e655"
     },
     {
       "id": 36,
       "name": "SONDAINTEL INTELIGENCIA DE DADOS E TECNOLOGIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e644"
     },
     {
-      "id": 52,
+      "id": 51,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -308,37 +353,43 @@
       "id": 50,
       "name": "Sky Serviços de Banda Larga Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e656"
     },
     {
       "id": 32,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e640"
     },
     {
       "id": 45,
       "name": "TELEFÔNICA BRASIL S.A. VIVO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 24,
       "name": "WEIDA APPARECIDA MAZZIERO ROMAN",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e633"
     },
     {
       "id": 22,
       "name": "YARA RAQUEL SILVA BRITO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e631"
     },
     {
       "id": 48,
       "name": "apify technoglogies s.r.o",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     }
   ],
   "links": [
@@ -547,7 +598,7 @@
       "source": 178972,
       "target": 26,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 03/12/2012",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 03/12/2012",
       "strength": 1
     },
     {
@@ -555,7 +606,7 @@
       "source": 178972,
       "target": 27,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 12/12/2001",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 12/12/2001",
       "strength": 1
     },
     {
@@ -563,7 +614,7 @@
       "source": 178972,
       "target": 28,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 23/05/2013",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 23/05/2013",
       "strength": 1
     },
     {
@@ -571,7 +622,7 @@
       "source": 178972,
       "target": 29,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 21/10/2020",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 21/10/2020",
       "strength": 1
     },
     {
@@ -723,7 +774,7 @@
       "source": 178972,
       "target": 48,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.191,85 (7 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 01/10/2025–16/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.214,25 (16 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR)",
       "strength": 1
     },
     {
@@ -746,22 +797,14 @@
       "id": 51,
       "source": 178972,
       "target": 51,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$22,40 (9 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$55.730.221,00 empenhado, R$44.430.221,00 pago (5 emendas; 2023–2025)",
       "strength": 1
     },
     {
       "id": 52,
       "source": 178972,
       "target": 52,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$55.730.221,00 empenhado, R$44.430.221,00 pago (5 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 53,
-      "source": 178972,
-      "target": 53,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Encargos especiais: R$51.258.877,00 empenhado, R$51.093.118,00 pago (4 emendas; 2023–2025)",
       "strength": 1

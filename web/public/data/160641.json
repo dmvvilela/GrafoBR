@@ -4,14 +4,20 @@
     "egoName": "Professora Marcivania",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:38.899324Z",
+    "generatedAt": "2026-07-17T04:22:55.758780Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Entre as emendas de 2023 em diante, constam R$ 31,6 milhões empenhados e R$ 31,2 milhões pagos em duas áreas, com Encargos especiais como principal. Há R$ 226 mil em despesas de cota e R$ 1,9 milhão em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -19,76 +25,80 @@
       "id": 160641,
       "name": "Professora Marcivania",
       "category": "politician",
-      "connectionCount": 29
+      "connectionCount": 28
     },
     {
-      "id": 24,
+      "id": 18,
       "name": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
-      "id": 20,
-      "name": "19 - 303 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 26,
+      "id": 25,
       "name": "AEROPOSTO COMBUSTIVEIS AUTOMOTIVOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11659"
     },
     {
       "id": 2,
       "name": "ALEXANDRE MAGNO DE SOUZA FRANCO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11642"
     },
     {
       "id": 3,
       "name": "ALEXSANDRO PINHEIRO LOPES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11643"
     },
     {
-      "id": 19,
+      "id": 20,
       "name": "AUTO POSTO 302 SUL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e177"
     },
     {
       "id": 23,
       "name": "AUTO POSTO AMAZONAS STN LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11658"
     },
     {
-      "id": 18,
+      "id": 19,
       "name": "AUTO POSTO FENIX ODJ LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2101"
     },
     {
       "id": 14,
       "name": "AUTO POSTO MACHADO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7537"
     },
     {
       "id": 16,
       "name": "Azul Linhas Aéreas Inteligentes S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e145"
     },
     {
       "id": 4,
       "name": "DAVI LOPES SANTIAGO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11644"
     },
     {
-      "id": 28,
+      "id": 27,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -97,94 +107,109 @@
       "id": 5,
       "name": "GRACIMONE DO SOCORRO DOS SANTOS BRAGA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11645"
     },
     {
       "id": 6,
       "name": "HELENA PEREIRA COLARES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11646"
     },
     {
       "id": 13,
       "name": "J M BARBOSA TAVARES - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11653"
     },
     {
       "id": 7,
       "name": "KELSON LUIZ DE ALMEIDA CARDOSO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11647"
     },
     {
       "id": 21,
       "name": "MARANATA ARMARINHO PAPELARIA E UTILIDADES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11656"
     },
     {
       "id": 8,
       "name": "MARIA DO SOCORRO ALVES DE MATOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11648"
     },
     {
       "id": 9,
       "name": "MARLENO DA ROCHA FLEXA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11649"
     },
     {
       "id": 15,
       "name": "OZEAS AMORAS MACIEL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11654"
     },
     {
       "id": 12,
       "name": "Oito Comunicacao e Servicos Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11652"
     },
     {
       "id": 1,
       "name": "PARTIDO COMUNISTA DO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e805"
     },
     {
-      "id": 25,
+      "id": 24,
       "name": "POSTO DE COMBUSTIVEIS 310 SUL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e789"
     },
     {
       "id": 22,
       "name": "POUSADA SÃO CRISTOVÃO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11657"
     },
     {
       "id": 11,
       "name": "QUINTELA & SA SERVIÇOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11651"
     },
     {
-      "id": 27,
+      "id": 26,
       "name": "RAMAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 10,
       "name": "RENATA CRISTINA LOPES DE CARVALHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11650"
     },
     {
-      "id": 29,
+      "id": 28,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -193,7 +218,8 @@
       "id": 17,
       "name": "WELLIDA S LIMA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11655"
     }
   ],
   "links": [
@@ -338,7 +364,7 @@
       "source": 160641,
       "target": 18,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$954,27 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/08/2025–27/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.067,42 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/10/2025–16/12/2025)",
       "strength": 1
     },
     {
@@ -346,7 +372,7 @@
       "source": 160641,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$811,86 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/08/2025–02/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$954,27 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/08/2025–27/08/2025)",
       "strength": 1
     },
     {
@@ -354,7 +380,7 @@
       "source": 160641,
       "target": 20,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$700,79 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 13/11/2025–16/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$811,86 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/08/2025–02/11/2025)",
       "strength": 1
     },
     {
@@ -386,7 +412,7 @@
       "source": 160641,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$366,63 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$294,14 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/10/2025)",
       "strength": 1
     },
     {
@@ -394,7 +420,7 @@
       "source": 160641,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$294,14 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$242,03 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/10/2025)",
       "strength": 1
     },
     {
@@ -402,29 +428,21 @@
       "source": 160641,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$242,03 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$0,42 (1 lançamento; tipo: TELEFONIA)",
       "strength": 1
     },
     {
       "id": 27,
       "source": 160641,
       "target": 27,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$0,42 (1 lançamento; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$16.051.698,00 empenhado, R$16.051.698,00 pago (3 emendas; 2023)",
       "strength": 1
     },
     {
       "id": 28,
       "source": 160641,
       "target": 28,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$16.051.698,00 empenhado, R$16.051.698,00 pago (3 emendas; 2023)",
-      "strength": 1
-    },
-    {
-      "id": 29,
-      "source": 160641,
-      "target": 29,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Saúde: R$15.522.044,00 empenhado, R$15.138.439,00 pago (3 emendas; 2023)",
       "strength": 1

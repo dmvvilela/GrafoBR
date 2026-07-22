@@ -4,15 +4,20 @@
     "egoName": "Átila Lira",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:40.169550Z",
+    "generatedAt": "2026-07-17T04:22:57.441387Z",
     "sources": [
       "camara",
       "camara_ceap",
-      "cgu_emendas",
       "receita",
       "tse"
     ],
-    "summary": "Os dados públicos indicam R$ 107,2 milhões em emendas empenhadas e R$ 100,3 milhões pagos em seis áreas, com foco em Saúde. Há R$ 474 mil em despesas de cota com 25 fornecedores e R$ 2,9 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,325 +25,336 @@
       "id": 123086,
       "name": "Átila Lira",
       "category": "politician",
-      "connectionCount": 53
+      "connectionCount": 47
     },
     {
-      "id": 34,
+      "id": 33,
       "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 47,
-      "name": "082 - QI 21 - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 29,
       "name": "A4 VIGILANCIA E SEGURANCA PATRIMONIAL EIRELI - EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14350"
     },
     {
       "id": 27,
       "name": "ANTONIETA LIRA E SILVA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14348"
     },
     {
       "id": 13,
       "name": "ASSOCIACAO TERESINENSE DE ENSINO S/C LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14334"
     },
     {
       "id": 3,
       "name": "ATILA DE MELO LIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14325"
     },
     {
       "id": 6,
       "name": "ATILA FREITAS LIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14327"
+    },
+    {
+      "id": 44,
+      "name": "AUTO POSTO 303 NORTE LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e27"
+    },
+    {
+      "id": 40,
+      "name": "AUTO POSTO AEROPORTO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e75"
     },
     {
       "id": 45,
-      "name": "AUTO POSTO 303 NORTE LTDA",
+      "name": "AUTO POSTO CINCO ESTRELAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 41,
-      "name": "AUTO POSTO AEROPORTO LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e405"
     },
     {
       "id": 46,
-      "name": "AUTO POSTO CINCO ESTRELAS LTDA",
+      "name": "AUTO SHOPPING QL 06 COMERCIO DE DERIV DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3767"
     },
     {
       "id": 26,
       "name": "AVANCE DIGITAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14347"
     },
     {
       "id": 38,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 51,
-      "name": "Agricultura",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 53,
-      "name": "Assistência social",
-      "category": "destino",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14353"
     },
     {
       "id": 30,
       "name": "CONDOMÍNIO ÁLVARO PIRES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14351"
     },
     {
-      "id": 44,
+      "id": 43,
       "name": "CONFRARIA UCHOA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14354"
     },
     {
       "id": 37,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
-      "id": 33,
+      "id": 35,
       "name": "ELDORADO COMUNICACAO E JORNALISMO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1939"
     },
     {
       "id": 5,
       "name": "ELEICAO 2022 SILVIO MENDES DE OLIVEIRA FILHO GOVERNADOR",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 50,
-      "name": "Educação",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 49,
-      "name": "Encargos especiais",
-      "category": "destino",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7940"
     },
     {
       "id": 14,
       "name": "FUNDACAO ESCOLA CHRISFAPI",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14335"
     },
     {
       "id": 36,
       "name": "Facebook Serviços Online do Brasil Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
-      "id": 40,
+      "id": 39,
       "name": "G3 AUTO POSTO LTDA EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12413"
     },
     {
       "id": 7,
       "name": "GILBERTO ANTONIO NEVES PEREIRA DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14328"
     },
     {
-      "id": 32,
+      "id": 34,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14352"
     },
     {
-      "id": 43,
+      "id": 42,
       "name": "GOMO COMUNICAÇÂO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e20"
     },
     {
       "id": 15,
       "name": "HOLDINGATIPE EMPREENDIMENTOS DO PIAUI LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14336"
     },
     {
       "id": 12,
       "name": "INDIRA MARIA DE MELO LIRA PEREIRA DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14333"
     },
     {
       "id": 8,
       "name": "JOSE GOMES DO AMARAL NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14329"
     },
     {
       "id": 4,
       "name": "LIA RACQUEL CARVALHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14326"
     },
     {
       "id": 16,
       "name": "LIRA & GONCALVES LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14337"
     },
     {
       "id": 17,
       "name": "LIRA, SILVA & XEREZ ADVOGADOS ASSOCIADOS S/S",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14338"
     },
     {
-      "id": 35,
+      "id": 32,
       "name": "MAGDA BEATRIS DA SILVA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1104"
     },
     {
       "id": 9,
       "name": "MANOEL FERREIRA PACIFICO NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14330"
     },
     {
       "id": 10,
       "name": "MARIA HELENA COELHO DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14331"
     },
     {
       "id": 18,
       "name": "MC ESTETICA TERESINA COSMETICOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14339"
     },
     {
       "id": 19,
       "name": "MC ESTETICA TERESINA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14340"
     },
     {
       "id": 31,
       "name": "PARLANET WEB E TECNOLOGIA EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e328"
+    },
+    {
+      "id": 47,
+      "name": "POSTO DE COMBUSTIVEL QL 09 LAGO SUL LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e1614"
     },
     {
       "id": 24,
       "name": "POSTO HOMERO CASTELO BRANCO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14345"
     },
     {
       "id": 1,
       "name": "PROGRESSISTAS - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1"
     },
     {
       "id": 2,
       "name": "PROGRESSISTAS - PIAUI - PI - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7919"
     },
     {
       "id": 20,
       "name": "RADIO FM CIDADE DE PIRIPIRI LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14341"
     },
     {
       "id": 11,
       "name": "RAFAEL COELHO SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14332"
     },
     {
       "id": 21,
       "name": "SERVICO ESCOLA DE FARMACIA EMPRESA JUNIOR SEF",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14342"
     },
     {
       "id": 22,
       "name": "SESP - SOCIEDADE DE ENSINO SUPERIOR DE PARNAIBA LTDA",
       "category": "company",
-      "connectionCount": 1
-    },
-    {
-      "id": 48,
-      "name": "Saúde",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 52,
-      "name": "Segurança pública",
-      "category": "destino",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14343"
     },
     {
       "id": 25,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 39,
-      "name": "TIM",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14346"
     },
     {
       "id": 23,
       "name": "V DE SOUSA OLIVEIRA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14344"
     },
     {
       "id": 28,
       "name": "VERBO COMUNICAÇÃO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14349"
     },
     {
-      "id": 42,
+      "id": 41,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     }
   ],
   "links": [
@@ -443,7 +459,7 @@
       "source": 123086,
       "target": 13,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 15/08/2002",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 15/08/2002",
       "strength": 1
     },
     {
@@ -451,7 +467,7 @@
       "source": 123086,
       "target": 14,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 12/08/2015",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 12/08/2015",
       "strength": 1
     },
     {
@@ -459,7 +475,7 @@
       "source": 123086,
       "target": 15,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 02/09/2013",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 02/09/2013",
       "strength": 1
     },
     {
@@ -467,7 +483,7 @@
       "source": 123086,
       "target": 16,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 05/03/2018",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 05/03/2018",
       "strength": 1
     },
     {
@@ -475,7 +491,7 @@
       "source": 123086,
       "target": 17,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal, desde 07/12/2007",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal, desde 07/12/2007",
       "strength": 1
     },
     {
@@ -483,7 +499,7 @@
       "source": 123086,
       "target": 18,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 19/10/2022",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 19/10/2022",
       "strength": 1
     },
     {
@@ -491,7 +507,7 @@
       "source": 123086,
       "target": 19,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 11/11/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 11/11/2021",
       "strength": 1
     },
     {
@@ -499,7 +515,7 @@
       "source": 123086,
       "target": 20,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 27/05/2022",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 27/05/2022",
       "strength": 1
     },
     {
@@ -507,7 +523,7 @@
       "source": 123086,
       "target": 21,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (diretor), desde 15/10/2013",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (diretor), desde 15/10/2013",
       "strength": 1
     },
     {
@@ -515,7 +531,7 @@
       "source": 123086,
       "target": 22,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 14/03/2008",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 14/03/2008",
       "strength": 1
     },
     {
@@ -595,7 +611,7 @@
       "source": 123086,
       "target": 32,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.349,43 (3 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 05/02/2025–29/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.867,75 (22 lançamentos; tipo: TELEFONIA; período: 19/01/2025–26/11/2025)",
       "strength": 1
     },
     {
@@ -603,7 +619,7 @@
       "source": 123086,
       "target": 33,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 01/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.616,25 (12 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/03/2025–02/12/2025)",
       "strength": 1
     },
     {
@@ -611,7 +627,7 @@
       "source": 123086,
       "target": 34,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.980,34 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/03/2025–02/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.349,43 (3 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 05/02/2025–29/06/2025)",
       "strength": 1
     },
     {
@@ -619,7 +635,7 @@
       "source": 123086,
       "target": 35,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.679,88 (15 lançamentos; tipo: TELEFONIA; período: 19/01/2025–26/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 01/10/2025)",
       "strength": 1
     },
     {
@@ -651,7 +667,7 @@
       "source": 123086,
       "target": 39,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.187,87 (7 lançamentos; tipo: TELEFONIA; período: 19/04/2025–29/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.108,64 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 18/03/2025–10/09/2025)",
       "strength": 1
     },
     {
@@ -659,7 +675,7 @@
       "source": 123086,
       "target": 40,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.108,64 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 18/03/2025–10/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$960,60 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/03/2025–27/11/2025)",
       "strength": 1
     },
     {
@@ -667,7 +683,7 @@
       "source": 123086,
       "target": 41,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$960,60 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/03/2025–27/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$657,90 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 18/03/2025)",
       "strength": 1
     },
     {
@@ -675,7 +691,7 @@
       "source": 123086,
       "target": 42,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$657,90 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 18/03/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$428,84 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 22/01/2026)",
       "strength": 1
     },
     {
@@ -683,7 +699,7 @@
       "source": 123086,
       "target": 43,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$428,84 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 22/01/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$383,55 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 12/08/2025)",
       "strength": 1
     },
     {
@@ -691,7 +707,7 @@
       "source": 123086,
       "target": 44,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$383,55 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 12/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$342,39 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 29/04/2025)",
       "strength": 1
     },
     {
@@ -699,7 +715,7 @@
       "source": 123086,
       "target": 45,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$342,39 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 29/04/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$341,67 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/04/2025)",
       "strength": 1
     },
     {
@@ -707,7 +723,7 @@
       "source": 123086,
       "target": 46,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$341,67 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/04/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$307,60 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/09/2025)",
       "strength": 1
     },
     {
@@ -715,55 +731,7 @@
       "source": 123086,
       "target": 47,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$319,42 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/04/2025)",
-      "strength": 1
-    },
-    {
-      "id": 48,
-      "source": 123086,
-      "target": 48,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$53.688.498,00 empenhado, R$49.611.498,00 pago (5 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 49,
-      "source": 123086,
-      "target": 49,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$50.120.518,00 empenhado, R$49.950.759,00 pago (3 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 50,
-      "source": 123086,
-      "target": 50,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Educação: R$1.699.431,00 empenhado, R$23.709,00 pago (3 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 51,
-      "source": 123086,
-      "target": 51,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Agricultura: R$891.756,00 empenhado, R$58.757,00 pago (2 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 52,
-      "source": 123086,
-      "target": 52,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Segurança pública: R$745.592,00 empenhado, R$592.155,00 pago (3 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 53,
-      "source": 123086,
-      "target": 53,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$100.000,00 empenhado, R$100.000,00 pago (1 emenda; 2024)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$296,64 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/09/2025)",
       "strength": 1
     }
   ]

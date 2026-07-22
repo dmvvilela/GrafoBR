@@ -4,7 +4,7 @@
     "egoName": "Mauricio Neves",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:38.020305Z",
+    "generatedAt": "2026-07-17T04:22:54.516667Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Os dados públicos indicam R$ 75,1 milhões em emendas empenhadas e R$ 75,0 milhões pagos em três áreas, com foco em Saúde. Registram-se R$ 458 mil em despesas de cota e R$ 2,8 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,28 +27,31 @@
       "id": 220647,
       "name": "Mauricio Neves",
       "category": "politician",
-      "connectionCount": 36
+      "connectionCount": 35
     },
     {
       "id": 8,
       "name": "#NULO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9827"
     },
     {
       "id": 6,
       "name": "AUGUSTO MACHADO DINIZ JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9825"
     },
     {
       "id": 26,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9843"
     },
     {
-      "id": 36,
+      "id": 35,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -50,64 +60,74 @@
       "id": 9,
       "name": "BOATE AZUL SHOWS E EVENTOS SPE LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9828"
     },
     {
       "id": 4,
       "name": "CAMILA CHRISTIANE BOCALAO CANDEIAS NEVES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9823"
     },
     {
       "id": 28,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 2,
       "name": "CLAUDIO DAHRUJ",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9821"
     },
     {
       "id": 10,
       "name": "CONSTRUNORTE CONSTRUTORA E INCORPORADORA SPE LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9829"
     },
     {
       "id": 11,
       "name": "CONSTRUSUL CONSTRUTORA E INCORPORADORA SPE LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9830"
     },
     {
       "id": 12,
       "name": "CONSTRUTORA E INCORPORADORA ACGUA DE PAUBA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9831"
     },
     {
       "id": 22,
       "name": "DARRUJ LOCAÇÃO DE VEICULOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7742"
     },
     {
       "id": 29,
       "name": "EMPRESA GRÁFICA E EDITOR VALE DO PARANAPANEMA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9845"
     },
     {
       "id": 20,
       "name": "EPOLITICS S/S LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9839"
     },
     {
-      "id": 35,
+      "id": 34,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -116,94 +136,102 @@
       "id": 25,
       "name": "FACE- Grafica e editora LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9842"
     },
     {
       "id": 21,
       "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 7,
       "name": "FERNANDO BISCARO DE SOUZA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9826"
     },
     {
       "id": 13,
       "name": "GESTAO E ADMINISTRACAO DE IMOVEIS M.G. LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9832"
     },
     {
       "id": 27,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9844"
     },
     {
       "id": 14,
       "name": "JERONIMO 446 EVENTOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9833"
     },
     {
       "id": 15,
       "name": "LE ROI RESTAURANTE, BAR E EVENTOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9834"
     },
     {
       "id": 16,
       "name": "LITORANEA BRASIL EMPREENDIMENTOS IMOBILIARIOS SPE LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9835"
     },
     {
       "id": 31,
       "name": "LRC Editora Sudoeste LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9847"
     },
     {
       "id": 32,
       "name": "MICHEL WELLINGTON DA SILVA LOPES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9848"
     },
     {
       "id": 17,
       "name": "NOEL PARTICIPACOES E EVENTOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9836"
     },
     {
       "id": 3,
       "name": "PEDRO HENRIQUE GONCALVES DE VILHENA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9822"
     },
     {
       "id": 1,
       "name": "PROGRESSISTAS - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1"
     },
     {
       "id": 5,
       "name": "RAFAEL SORIANO RODAS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9824"
     },
     {
       "id": 33,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 34,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -212,31 +240,36 @@
       "id": 24,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9841"
     },
     {
       "id": 30,
       "name": "THAIS HELENA PENTEADO DE MOURA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9846"
     },
     {
       "id": 18,
       "name": "VSP GESTAO E EMPREENDIMENTOS SPE LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9837"
     },
     {
       "id": 23,
       "name": "WILSON SOARES DE OLIVEIRA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9840"
     },
     {
       "id": 19,
       "name": "ZBM COMERCIO DE ALIMENTOS E PRODUCOES LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9838"
     }
   ],
   "links": [
@@ -309,7 +342,7 @@
       "source": 220647,
       "target": 9,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (administrador), desde 21/01/2022",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (administrador), desde 21/01/2022",
       "strength": 1
     },
     {
@@ -317,7 +350,7 @@
       "source": 220647,
       "target": 10,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 18/06/2012",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 18/06/2012",
       "strength": 1
     },
     {
@@ -325,7 +358,7 @@
       "source": 220647,
       "target": 11,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 25/09/2018",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 25/09/2018",
       "strength": 1
     },
     {
@@ -333,7 +366,7 @@
       "source": 220647,
       "target": 12,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 05/12/2016",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 05/12/2016",
       "strength": 1
     },
     {
@@ -341,7 +374,7 @@
       "source": 220647,
       "target": 13,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (administrador), desde 28/03/2018",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (administrador), desde 28/03/2018",
       "strength": 1
     },
     {
@@ -349,7 +382,7 @@
       "source": 220647,
       "target": 14,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 31/01/2017",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 31/01/2017",
       "strength": 1
     },
     {
@@ -357,7 +390,7 @@
       "source": 220647,
       "target": 15,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 01/08/2007",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 01/08/2007",
       "strength": 1
     },
     {
@@ -365,7 +398,7 @@
       "source": 220647,
       "target": 16,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 24/07/2014",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 24/07/2014",
       "strength": 1
     },
     {
@@ -373,7 +406,7 @@
       "source": 220647,
       "target": 17,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 01/04/2019",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 01/04/2019",
       "strength": 1
     },
     {
@@ -381,7 +414,7 @@
       "source": 220647,
       "target": 18,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (administrador), desde 21/01/2022",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (administrador), desde 21/01/2022",
       "strength": 1
     },
     {
@@ -389,7 +422,7 @@
       "source": 220647,
       "target": 19,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 30/03/2015",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 30/03/2015",
       "strength": 1
     },
     {
@@ -461,7 +494,7 @@
       "source": 220647,
       "target": 28,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.819,33 (18 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.834,22 (26 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -500,8 +533,8 @@
       "id": 33,
       "source": 220647,
       "target": 33,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$14,89 (8 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$38.404.524,00 empenhado, R$38.404.524,00 pago (4 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -509,21 +542,13 @@
       "source": 220647,
       "target": 34,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$38.404.524,00 empenhado, R$38.404.524,00 pago (4 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$30.743.045,00 empenhado, R$30.588.166,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
       "id": 35,
       "source": 220647,
       "target": 35,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$30.743.045,00 empenhado, R$30.588.166,00 pago (2 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 36,
-      "source": 220647,
-      "target": 36,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Assistência social: R$6.000.000,00 empenhado, R$6.000.000,00 pago (2 emendas; 2024–2025)",
       "strength": 1

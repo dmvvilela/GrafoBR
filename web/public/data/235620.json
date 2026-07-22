@@ -4,12 +4,17 @@
     "egoName": "Ilacir Bicalho",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:36.760604Z",
+    "generatedAt": "2026-07-17T04:22:52.779897Z",
     "sources": [
       "camara",
       "receita",
       "tse"
     ],
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
     "summary": "A campanha de 2022 arrecadou R$ 298 mil provenientes de quatro doadores, conforme os registros eleitorais disponíveis.",
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
@@ -24,37 +29,43 @@
       "id": 3,
       "name": "ANDREI DUTRA BICALHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7015"
     },
     {
       "id": 2,
       "name": "BRUNA ANTUNES DE OLIVEIRA LAGES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7014"
     },
     {
       "id": 1,
       "name": "DIRETORIO NACIONAL DO PARTIDO SOCIAL CRISTAO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e926"
     },
     {
       "id": 5,
       "name": "GRUPO AMIGOS DA CIDADE",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7017"
     },
     {
       "id": 4,
       "name": "LUCILENE APARECIDA MONTEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7016"
     },
     {
       "id": 6,
       "name": "POLIPRENE INDUSTRIA E COMERCIO LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7018"
     }
   ],
   "links": [
@@ -95,7 +106,7 @@
       "source": 235620,
       "target": 5,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 12/08/2013",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 12/08/2013",
       "strength": 1
     },
     {
@@ -103,7 +114,7 @@
       "source": 235620,
       "target": 6,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 04/06/1979",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 04/06/1979",
       "strength": 1
     }
   ]

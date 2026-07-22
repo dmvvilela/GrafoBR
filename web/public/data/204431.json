@@ -4,7 +4,7 @@
     "egoName": "Marcos Aurélio Sampaio",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.839628Z",
+    "generatedAt": "2026-07-17T04:22:54.267660Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,6 +12,13 @@
       "receita",
       "tse"
     ],
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
     "summary": "Nos dados de emendas individuais, constam R$ 107,3 milhões empenhados e R$ 98,9 milhões pagos em três áreas, principalmente Saúde. Há R$ 544 mil em despesas de cota com 10 fornecedores e R$ 1,9 milhão em doações de campanha em 2022.",
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
@@ -26,37 +33,43 @@
       "id": 11,
       "name": "ANDRE LUIZ SANTOS MAGALHAES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9474"
     },
     {
       "id": 6,
       "name": "ARENILDO LIMA DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9469"
     },
     {
       "id": 12,
       "name": "AUTO LESTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8146"
     },
     {
       "id": 17,
       "name": "AUTO POSTO JK LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e404"
     },
     {
       "id": 5,
       "name": "CONCEICAO DE MARIA PADUA SAMPAIO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9468"
     },
     {
       "id": 3,
       "name": "DAVID BORGES HAGEM MASUAD",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9467"
     },
     {
       "id": 22,
@@ -68,79 +81,92 @@
       "id": 7,
       "name": "FMJR EMPREENDIMENTOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9470"
     },
     {
       "id": 16,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9478"
     },
     {
       "id": 4,
       "name": "JOSE EDVAN LIMA OLIVEIRA JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7186"
     },
     {
       "id": 2,
       "name": "MARCOS AURELIO PADUA RIBEIRO GONCALVES DE SAMPAIO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9466"
     },
     {
       "id": 8,
       "name": "MARCOS AURELIO SAMPAIO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9471"
     },
     {
       "id": 9,
       "name": "MARLUS SANTOS IMOVEIS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9472"
     },
     {
       "id": 10,
       "name": "MLF INTERMEDIACAO DE NEGOCIOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9473"
     },
     {
       "id": 14,
       "name": "PARENTE & ARAUJO COMBUSTIVEL LTDA EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9476"
     },
     {
       "id": 1,
       "name": "PARTIDO SOCIAL DEMOCRATICO - PSD DIRETORIO NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1361"
     },
     {
       "id": 18,
       "name": "POSTO DE COMBUSTIVEIS 206 LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1214"
     },
     {
       "id": 19,
       "name": "POSTO SANTO EXPEDITO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e176"
     },
     {
       "id": 20,
       "name": "RAMAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 13,
       "name": "SS COMUNICACAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9475"
     },
     {
       "id": 21,
@@ -158,7 +184,8 @@
       "id": 15,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9477"
     }
   ],
   "links": [
@@ -215,7 +242,7 @@
       "source": 204431,
       "target": 7,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 29/04/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 29/04/2021",
       "strength": 1
     },
     {
@@ -223,7 +250,7 @@
       "source": 204431,
       "target": 8,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (titular pessoa física), desde 30/03/2017",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (titular pessoa física), desde 30/03/2017",
       "strength": 1
     },
     {
@@ -231,7 +258,7 @@
       "source": 204431,
       "target": 9,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 28/04/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 28/04/2021",
       "strength": 1
     },
     {
@@ -239,7 +266,7 @@
       "source": 204431,
       "target": 10,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 18/05/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 18/05/2021",
       "strength": 1
     },
     {

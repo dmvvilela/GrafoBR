@@ -4,7 +4,7 @@
     "egoName": "Tiririca",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:39.801344Z",
+    "generatedAt": "2026-07-17T04:22:56.952576Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,6 +12,13 @@
       "receita",
       "tse"
     ],
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
     "summary": "Nos dados de emendas a partir de 2023, constam R$ 101,9 milhões empenhados e R$ 78,7 milhões pagos em doze áreas, com destaque para Saúde. A cota parlamentar registra R$ 394 mil com 25 fornecedores, e a campanha de 2022 recebeu R$ 600 mil.",
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
@@ -26,43 +33,43 @@
       "id": 15,
       "name": "ATLANTICA HOTELS INTERNACIONAL BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1526"
     },
     {
-      "id": 13,
+      "id": 12,
       "name": "AUTO POSTO CINCO ESTRELAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e405"
     },
     {
-      "id": 19,
-      "name": "AUTO POSTO CINCO ESTRELAS LTDA",
+      "id": 23,
+      "name": "AUTO POSTO JK LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e404"
     },
     {
       "id": 24,
-      "name": "AUTO POSTO JK LTDA",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 25,
       "name": "AUTO POSTO LS COMERCIO DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e78"
     },
     {
       "id": 16,
       "name": "AUTO SERVICOS ROCAR LT",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13544"
     },
     {
-      "id": 27,
+      "id": 26,
       "name": "AUTO SHOPPING DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e608"
     },
     {
       "id": 35,
@@ -77,28 +84,32 @@
       "connectionCount": 1
     },
     {
-      "id": 12,
+      "id": 13,
       "name": "BELIZE COMPANY AUTO POSTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2332"
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "BRASAL COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e408"
     },
     {
       "id": 8,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "Claro S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e23"
     },
     {
       "id": 32,
@@ -107,7 +118,7 @@
       "connectionCount": 1
     },
     {
-      "id": 38,
+      "id": 36,
       "name": "Cultura",
       "category": "destino",
       "connectionCount": 1
@@ -119,13 +130,13 @@
       "connectionCount": 1
     },
     {
-      "id": 36,
+      "id": 37,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 37,
+      "id": 38,
       "name": "Direitos da cidadania",
       "category": "destino",
       "connectionCount": 1
@@ -134,7 +145,8 @@
       "id": 2,
       "name": "EVELLYN EVENTOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13539"
     },
     {
       "id": 30,
@@ -152,25 +164,29 @@
       "id": 10,
       "name": "GOES COMBUSTIVEIS, LUBRIFICANTES E GLP LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1251"
     },
     {
       "id": 7,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13543"
     },
     {
       "id": 11,
       "name": "HOTELARIA ACCOR BRASIL S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e225"
     },
     {
       "id": 9,
       "name": "MELIA BRASIL ADMINISTRACAO HOTELEIRA E COMERCIAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4040"
     },
     {
       "id": 33,
@@ -182,49 +198,64 @@
       "id": 3,
       "name": "N.M. COMERCIO E PRODUCOES ARTISTICAS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13540"
     },
     {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e129"
     },
     {
-      "id": 26,
+      "id": 25,
       "name": "POSTO DA 7 EIXINHO W SUL DERIVADOS DEPETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1213"
     },
     {
       "id": 14,
       "name": "POSTO DE COMBUSTIVEL QI 09 LAGO SUL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1333"
     },
     {
       "id": 18,
       "name": "POSTO SANTO EXPEDITO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e176"
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "POSTO VIA ESTRUTURAL COMERCIO DE DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7685"
+    },
+    {
+      "id": 28,
+      "name": "RAMAL",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 17,
       "name": "RIO PRETO HOTEIS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13545"
     },
     {
       "id": 6,
       "name": "SUPREMA MOBILIDADE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3395"
     },
     {
       "id": 29,
@@ -239,28 +270,32 @@
       "connectionCount": 1
     },
     {
-      "id": 28,
+      "id": 27,
       "name": "Serviço de Táxi",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13546"
     },
     {
       "id": 4,
       "name": "Strike Media",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13541"
     },
     {
       "id": 5,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13542"
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     }
   ],
   "links": [
@@ -277,7 +312,7 @@
       "source": 160976,
       "target": 2,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 22/07/1997",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 22/07/1997",
       "strength": 1
     },
     {
@@ -285,7 +320,7 @@
       "source": 160976,
       "target": 3,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 04/01/2011",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 04/01/2011",
       "strength": 1
     },
     {
@@ -357,7 +392,7 @@
       "source": 160976,
       "target": 12,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.072,53 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/04/2025–21/10/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.459,74 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/02/2025–07/12/2025)",
       "strength": 1
     },
     {
@@ -365,7 +400,7 @@
       "source": 160976,
       "target": 13,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$907,37 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/05/2025–24/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.072,53 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/04/2025–21/10/2025)",
       "strength": 1
     },
     {
@@ -413,7 +448,7 @@
       "source": 160976,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$552,37 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/02/2025–07/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$406,00 (1 lançamento; tipo: TELEFONIA; período: 11/02/2025)",
       "strength": 1
     },
     {
@@ -421,7 +456,7 @@
       "source": 160976,
       "target": 20,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$406,00 (1 lançamento; tipo: TELEFONIA; período: 11/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$371,06 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/03/2025)",
       "strength": 1
     },
     {
@@ -429,7 +464,7 @@
       "source": 160976,
       "target": 21,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$371,06 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/03/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$334,00 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 03/04/2025–21/08/2025)",
       "strength": 1
     },
     {
@@ -437,7 +472,7 @@
       "source": 160976,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$334,00 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 03/04/2025–21/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$326,53 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/08/2025)",
       "strength": 1
     },
     {
@@ -445,7 +480,7 @@
       "source": 160976,
       "target": 23,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$326,53 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$303,18 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 30/03/2025)",
       "strength": 1
     },
     {
@@ -453,7 +488,7 @@
       "source": 160976,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$303,18 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 30/03/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$285,41 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 09/09/2025)",
       "strength": 1
     },
     {
@@ -461,7 +496,7 @@
       "source": 160976,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$285,41 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 09/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$231,60 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/09/2025)",
       "strength": 1
     },
     {
@@ -469,7 +504,7 @@
       "source": 160976,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$231,60 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$160,11 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/07/2025)",
       "strength": 1
     },
     {
@@ -477,7 +512,7 @@
       "source": 160976,
       "target": 27,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$160,11 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$78,00 (1 lançamento; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 28/04/2025)",
       "strength": 1
     },
     {
@@ -485,7 +520,7 @@
       "source": 160976,
       "target": 28,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$78,00 (1 lançamento; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 28/04/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1,42 (7 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -549,7 +584,7 @@
       "source": 160976,
       "target": 36,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$600.000,00 empenhado (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Cultura: R$600.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -557,7 +592,7 @@
       "source": 160976,
       "target": 37,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Direitos da cidadania: R$600.000,00 empenhado (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$600.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -565,7 +600,7 @@
       "source": 160976,
       "target": 38,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Cultura: R$600.000,00 empenhado (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$600.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {

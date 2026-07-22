@@ -4,7 +4,7 @@
     "egoName": "Marcos Pollon",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.875013Z",
+    "generatedAt": "2026-07-17T04:22:54.317654Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Entre as emendas de 2023 em diante, aparecem R$ 74,0 milhões empenhados e R$ 56,9 milhões pagos em sete áreas. Registram-se também R$ 477 mil em despesas de cota com 25 fornecedores e R$ 903 mil arrecadados na campanha de 2022, de 25 doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,55 +33,57 @@
       "id": 26,
       "name": "ACADEMIA DE DIREITO PROCESSUAL DE MATO GROSSO DO SUL - A.D.P.M.S",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9555"
     },
     {
       "id": 34,
       "name": "ADRIANA TENORIO SEHNEM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9562"
     },
     {
-      "id": 52,
+      "id": 53,
       "name": "AGUAS GUARIROBA / MS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1979"
     },
     {
       "id": 48,
       "name": "ANA PAULA MARTINS BRITEZ",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9570"
     },
     {
       "id": 13,
       "name": "ANDRE RUARO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9542"
     },
     {
       "id": 6,
       "name": "ANTONIO TEIXEIRA DA LUZ OLLE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9535"
     },
     {
       "id": 27,
       "name": "ASSOCIACAO NACIONAL MOVIMENTO PRO ARMAS-AMPA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9556"
     },
     {
       "id": 44,
       "name": "AUTO POSTO MILENIO LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 54,
-      "name": "Academia Sul-Mato-Grossesnse e Letras",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9568"
     },
     {
       "id": 60,
@@ -89,34 +98,46 @@
       "connectionCount": 1
     },
     {
+      "id": 52,
+      "name": "BONATTO E BONATTO LTDA (TB)",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e9573"
+    },
+    {
       "id": 41,
       "name": "BROAD BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e170"
     },
     {
       "id": 49,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 25,
       "name": "CLASIO LUIZ RAUBER",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9554"
     },
     {
       "id": 33,
       "name": "CLEIDE FERNANDES DE MACCEDO OLIVEIRA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9561"
     },
     {
       "id": 51,
       "name": "COMERCIO DE COMBUSTIVEIS CARAVAGIO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9572"
     },
     {
       "id": 61,
@@ -128,13 +149,15 @@
       "id": 23,
       "name": "DAIANA NICOLODI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9552"
     },
     {
       "id": 38,
       "name": "DANILO CAMPELLO CURADO GALVAO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9565"
     },
     {
       "id": 58,
@@ -146,25 +169,29 @@
       "id": 3,
       "name": "ELEGIS GESTAO ESTRATEGICA, CONSULTORIA E TECNOLOGIA LTDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9532"
     },
     {
       "id": 40,
       "name": "ENERGISA DISTRIBUIDORA DE ENERGIA / MS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2283"
     },
     {
       "id": 7,
       "name": "ENIO MAURICIO GALHERI CARRERA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9536"
     },
     {
       "id": 31,
       "name": "Emilio Kerber Consultoria e Servicos Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e146"
     },
     {
       "id": 56,
@@ -176,199 +203,232 @@
       "id": 39,
       "name": "Estratégia Comunicação Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2485"
     },
     {
       "id": 14,
       "name": "FELIPE DI BENEDETTO JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9543"
     },
     {
       "id": 15,
       "name": "FELIPE ROBERTO SOARES DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9544"
     },
     {
       "id": 8,
       "name": "FERNANDO PANAZZOLO BALDASSO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9537"
     },
     {
       "id": 45,
       "name": "Facebook Serviços Online do Brasil Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 42,
       "name": "GIOVANADOSSANTOSBURNIER",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9566"
     },
     {
       "id": 43,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9567"
     },
     {
       "id": 5,
       "name": "GUSTAVO FERREIRA RAMALHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9534"
     },
     {
       "id": 10,
       "name": "GUSTAVO HENRIQUE DOS SANTOS FERREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9539"
     },
     {
       "id": 32,
       "name": "ID MARKETING DIGITAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9560"
     },
     {
       "id": 22,
       "name": "IPENOR JOSE SALVI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9551"
     },
     {
       "id": 50,
       "name": "ISRAEL SOUZA DO NASCIMENTO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9571"
     },
     {
       "id": 47,
       "name": "JEAN LUCAS LESCANO DE BRITO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9569"
     },
     {
       "id": 16,
       "name": "JOAO DA MATA CORREA NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9545"
     },
     {
       "id": 37,
       "name": "Kingdom Design",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9564"
     },
     {
       "id": 17,
       "name": "LAURA GARCIA PINTO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9546"
     },
     {
-      "id": 53,
+      "id": 54,
       "name": "Latam Linhas Aéreas S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 18,
       "name": "MARCOS APARECIDO POLLON",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9547"
     },
     {
       "id": 2,
       "name": "MARCOS SBOROWSKI POLLON",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9531"
     },
     {
       "id": 19,
       "name": "MIGUEL ANTONIO PETRALLAS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9548"
     },
     {
       "id": 11,
       "name": "NAIANE BITTENCOURT",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9540"
     },
     {
       "id": 36,
       "name": "PANTANAL VEÍCULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e70"
     },
     {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e129"
     },
     {
       "id": 20,
       "name": "PEDRO HENRIQUE DOS SANTOS ARAUJO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9549"
     },
     {
       "id": 28,
       "name": "POLLON SOCIEDADE INDIVIDUAL DE ADVOCACIA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9557"
     },
     {
       "id": 29,
       "name": "PROARMAS CURSOS E EVENTOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9558"
     },
     {
       "id": 46,
       "name": "R.C.U. CONSULTORIA EM PUBLICIDADE LIMITADA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4805"
     },
     {
       "id": 4,
       "name": "RENATO BURGEL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9533"
     },
     {
       "id": 35,
       "name": "RICARDO DE SOUZA KRAMER",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9563"
     },
     {
       "id": 12,
       "name": "RICARDO DIAS DE BRITO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9541"
     },
     {
       "id": 21,
       "name": "RITA DE CASSIA GANDRA TAVEIRA DOS SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9550"
     },
     {
       "id": 24,
       "name": "ROSEMERE FABIOLA PILLONETTO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9553"
     },
     {
       "id": 9,
       "name": "ROVILSON ALVES CORREA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9538"
     },
     {
       "id": 55,
@@ -386,7 +446,8 @@
       "id": 30,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9559"
     }
   ],
   "links": [
@@ -595,7 +656,7 @@
       "source": 220547,
       "target": 26,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 08/05/2017",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 08/05/2017",
       "strength": 1
     },
     {
@@ -603,7 +664,7 @@
       "source": 220547,
       "target": 27,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 23/06/2020",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 23/06/2020",
       "strength": 1
     },
     {
@@ -611,7 +672,7 @@
       "source": 220547,
       "target": 28,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (titular pessoa física), desde 20/04/2022",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (titular pessoa física), desde 20/04/2022",
       "strength": 1
     },
     {
@@ -619,7 +680,7 @@
       "source": 220547,
       "target": 29,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 04/08/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 04/08/2021",
       "strength": 1
     },
     {
@@ -779,7 +840,7 @@
       "source": 220547,
       "target": 49,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.427,76 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.456,49 (19 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -803,7 +864,7 @@
       "source": 220547,
       "target": 52,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.240,79 (7 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 08/02/2025–10/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.267,13 (12 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/02/2025–21/11/2025)",
       "strength": 1
     },
     {
@@ -811,7 +872,7 @@
       "source": 220547,
       "target": 53,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.139,13 (1 lançamento; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 07/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.240,79 (7 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 08/02/2025–10/11/2025)",
       "strength": 1
     },
     {
@@ -819,7 +880,7 @@
       "source": 220547,
       "target": 54,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 19/03/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.139,13 (1 lançamento; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 07/09/2025)",
       "strength": 1
     },
     {

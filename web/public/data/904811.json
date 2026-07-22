@@ -4,12 +4,14 @@
     "egoName": "Laércio Oliveira",
     "chamber": "senado",
     "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador4811.jpg",
-    "generatedAt": "2026-06-23T14:22:40.524709Z",
+    "generatedAt": "2026-07-17T04:22:57.969283Z",
     "sources": [
-      "cgu_emendas",
       "senado"
     ],
-    "summary": "Os dados de emendas individuais desde 2023 registram R$ 170,2 milhões empenhados e R$ 144,5 milhões pagos em nove áreas. A principal área indicada é Saúde.",
+    "sourceCoverage": {
+      "senado": "parlamentares em exercício na consulta; coleta local em 06/06/2026"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -17,135 +19,8 @@
       "id": 904811,
       "name": "Laércio Oliveira",
       "category": "politician",
-      "connectionCount": 9
-    },
-    {
-      "id": 5,
-      "name": "Agricultura",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 6,
-      "name": "Assistência social",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 9,
-      "name": "Comércio e serviços",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 8,
-      "name": "Defesa nacional",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 3,
-      "name": "Desporto e lazer",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 2,
-      "name": "Encargos especiais",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 1,
-      "name": "Saúde",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 7,
-      "name": "Segurança pública",
-      "category": "destino",
-      "connectionCount": 1
-    },
-    {
-      "id": 4,
-      "name": "Urbanismo",
-      "category": "destino",
-      "connectionCount": 1
+      "connectionCount": 0
     }
   ],
-  "links": [
-    {
-      "id": 1,
-      "source": 904811,
-      "target": 1,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$93.130.544,00 empenhado, R$76.949.391,00 pago (10 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 2,
-      "source": 904811,
-      "target": 2,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$60.488.947,00 empenhado, R$60.237.249,00 pago (5 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 3,
-      "source": 904811,
-      "target": 3,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$5.999.952,00 empenhado, R$4.900.000,00 pago (2 emendas; 2025)",
-      "strength": 1
-    },
-    {
-      "id": 4,
-      "source": 904811,
-      "target": 4,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Urbanismo: R$3.210.146,00 empenhado, R$84.829,00 pago (3 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 5,
-      "source": 904811,
-      "target": 5,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Agricultura: R$2.798.696,00 empenhado, R$346.378,00 pago (4 emendas; 2023–2024)",
-      "strength": 1
-    },
-    {
-      "id": 6,
-      "source": 904811,
-      "target": 6,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$1.950.000,00 empenhado, R$1.450.000,00 pago (4 emendas; 2023–2025)",
-      "strength": 1
-    },
-    {
-      "id": 7,
-      "source": 904811,
-      "target": 7,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Segurança pública: R$1.200.000,00 empenhado (4 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 8,
-      "source": 904811,
-      "target": 8,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Defesa nacional: R$999.960,00 empenhado, R$494.776,00 pago (4 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 9,
-      "source": 904811,
-      "target": 9,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Comércio e serviços: R$400.000,00 empenhado, R$3.500,00 pago (1 emenda; 2025)",
-      "strength": 1
-    }
-  ]
+  "links": []
 }

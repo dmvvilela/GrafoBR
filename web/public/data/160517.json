@@ -4,7 +4,7 @@
     "egoName": "Paulo Folletto",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:38.598138Z",
+    "generatedAt": "2026-07-17T04:22:55.342572Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Os registros mostram R$ 104,7 milhões em emendas empenhadas e R$ 100,1 milhões pagos em sete áreas, principalmente Saúde. A cota parlamentar soma R$ 539 mil com 25 fornecedores, e a campanha de 2022 arrecadou R$ 2,5 milhões.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -23,40 +30,46 @@
       "connectionCount": 38
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 29,
-      "name": "19 - 303 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 4,
       "name": "215-FM PRINCESA DO NORTE LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11051"
     },
     {
       "id": 17,
       "name": "ANTONIO DA CRUZ FILGUEIRA NETO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 8,
       "name": "ATIVA RENT A CAR LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11055"
     },
     {
-      "id": 31,
+      "id": 30,
       "name": "AUTO POSTO CONILON LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11069"
+    },
+    {
+      "id": 29,
+      "name": "AUTO POSTO FENIX ODJ LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e2101"
     },
     {
       "id": 36,
@@ -74,13 +87,15 @@
       "id": 18,
       "name": "CONDOMINIO DO EDIFICIO PETRO TOWER",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3402"
     },
     {
       "id": 24,
       "name": "Comercial Veiga LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11065"
     },
     {
       "id": 38,
@@ -95,28 +110,32 @@
       "connectionCount": 1
     },
     {
-      "id": 19,
+      "id": 20,
       "name": "EDP - ESPIRITO SANTO DISTRIBUICAO DE ENERGIA S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e987"
     },
     {
       "id": 3,
       "name": "ESTEVAO MORAES DORNA FOLETTO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11050"
     },
     {
       "id": 9,
       "name": "EXPERTS CONSULTORIA E AVALIAÇÕES EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11056"
     },
     {
       "id": 21,
       "name": "Empresa Luz e Força Santa Maria",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11062"
     },
     {
       "id": 33,
@@ -128,43 +147,50 @@
       "id": 10,
       "name": "Giovani Fontana",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11057"
     },
     {
       "id": 26,
       "name": "Gramont LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11066"
     },
     {
       "id": 7,
       "name": "IMMAGINE COMUNICAÇÃO E MARKETING LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11054"
     },
     {
       "id": 13,
       "name": "INSTITUTO CAPIXABA DE INTELIGENCIA E PESQUISAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11060"
     },
     {
       "id": 5,
       "name": "MIRANTE CONSTRUTORA E INCORPORADORA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11052"
     },
     {
       "id": 23,
       "name": "NASSAU EDITORA RADIO E TV LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11064"
     },
     {
       "id": 28,
       "name": "NORTE HOTEL LTDA - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11068"
     },
     {
       "id": 35,
@@ -176,49 +202,57 @@
       "id": 1,
       "name": "PARTIDO SOCIALISTA BRASILEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1841"
     },
     {
       "id": 2,
       "name": "PAULO ROBERTO FOLETTO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11049"
     },
     {
       "id": 27,
       "name": "POSTO ATLANTICO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11067"
     },
     {
       "id": 12,
       "name": "POSTO DE COMBUSTIVEIS GIRASSOL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11059"
     },
     {
       "id": 25,
       "name": "POSTO ESCOLA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6453"
     },
     {
       "id": 22,
       "name": "POSTO SHOPPING LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11063"
     },
     {
       "id": 14,
       "name": "REDE BRASIL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3394"
     },
     {
       "id": 6,
       "name": "SERV-MED SERVICOS MEDICOS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11053"
     },
     {
       "id": 32,
@@ -230,25 +264,29 @@
       "id": 15,
       "name": "Sistema Por Do Sol De Comunicação LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11061"
     },
     {
       "id": 11,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11058"
     },
     {
       "id": 16,
       "name": "VITÓRIA TECNOLOGIA DA INFORMAÇÃO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5383"
     },
     {
-      "id": 30,
-      "name": "Vivo - Telefonica Brasil S.A",
+      "id": 31,
+      "name": "ÁPIDES PALACE HOTEL LTDA - EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11070"
     }
   ],
   "links": [
@@ -281,7 +319,7 @@
       "source": 160517,
       "target": 4,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 24/04/2002",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 24/04/2002",
       "strength": 1
     },
     {
@@ -289,7 +327,7 @@
       "source": 160517,
       "target": 5,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 15/10/2021",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 15/10/2021",
       "strength": 1
     },
     {
@@ -297,7 +335,7 @@
       "source": 160517,
       "target": 6,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 09/12/1997",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 09/12/1997",
       "strength": 1
     },
     {
@@ -385,7 +423,7 @@
       "source": 160517,
       "target": 17,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.732,80 (18 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 29/01/2025–28/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.258,80 (19 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 29/01/2025–28/12/2025)",
       "strength": 1
     },
     {
@@ -401,7 +439,7 @@
       "source": 160517,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.674,88 (20 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 23/01/2025–22/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.431,07 (16 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/02/2025–13/11/2025)",
       "strength": 1
     },
     {
@@ -409,7 +447,7 @@
       "source": 160517,
       "target": 20,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.631,19 (13 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/02/2025–30/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.674,88 (20 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 23/01/2025–22/12/2025)",
       "strength": 1
     },
     {
@@ -481,7 +519,7 @@
       "source": 160517,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$531,83 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/10/2025–13/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$586,67 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/09/2025–02/12/2025)",
       "strength": 1
     },
     {
@@ -489,7 +527,7 @@
       "source": 160517,
       "target": 30,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$526,00 (1 lançamento; tipo: TELEFONIA; período: 29/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$509,99 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/12/2025–29/12/2025)",
       "strength": 1
     },
     {
@@ -497,7 +535,7 @@
       "source": 160517,
       "target": 31,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$509,99 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/12/2025–29/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$416,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 11/10/2025)",
       "strength": 1
     },
     {

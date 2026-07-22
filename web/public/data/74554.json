@@ -4,7 +4,7 @@
     "egoName": "José Rocha",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.075238Z",
+    "generatedAt": "2026-07-17T04:22:53.228140Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Os registros públicos indicam R$ 107,2 milhões em emendas empenhadas e R$ 96,3 milhões pagos em cinco áreas, principalmente Saúde. A cota parlamentar soma R$ 294 mil e a campanha de 2022 recebeu R$ 3,0 milhões.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,37 +33,43 @@
       "id": 11,
       "name": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 25,
-      "name": "19 - 303 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 29,
       "name": "3L COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e836"
     },
     {
       "id": 12,
       "name": "AEROPREST COM. DERIVADOS PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7646"
+    },
+    {
+      "id": 25,
+      "name": "AUTO POSTO PRECIOSO DO OESTE LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4022"
     },
     {
       "id": 23,
       "name": "AUTO POSTO VIA ESTRUTURAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e77"
     },
     {
       "id": 9,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7677"
     },
     {
       "id": 34,
@@ -68,25 +81,29 @@
       "id": 3,
       "name": "BAHIASOL COMERCIO DE VEICULOS LTDA.",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7671"
     },
     {
       "id": 13,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 14,
       "name": "CONDOMINIO CENTRO EMPRESARIAL PREVINOR",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7679"
     },
     {
       "id": 18,
       "name": "Cia Aérea - TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e72"
     },
     {
       "id": 35,
@@ -98,7 +115,8 @@
       "id": 19,
       "name": "ECO POSTO 3L LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7680"
     },
     {
       "id": 32,
@@ -110,91 +128,106 @@
       "id": 7,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7675"
     },
     {
       "id": 27,
       "name": "HP COMERCIO E DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1383"
     },
     {
       "id": 4,
       "name": "JR EMPREENDIMENTO E AGROPECUARIA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7672"
     },
     {
       "id": 28,
       "name": "JSM COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7684"
     },
     {
       "id": 20,
       "name": "MACTRA COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5132"
     },
     {
       "id": 10,
       "name": "OESTE COMERCIAL DE COMBUSTIVEIS PARA AVIACAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7678"
     },
     {
       "id": 17,
       "name": "POSTO AREMBEPE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e833"
     },
     {
       "id": 24,
       "name": "POSTO JK LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7683"
     },
     {
       "id": 15,
       "name": "POSTO ROSARIO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e835"
     },
     {
       "id": 30,
       "name": "POSTO VIA ESTRUTURAL COMERCIO DE DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7685"
     },
     {
       "id": 22,
       "name": "PRAIA DO FORTE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7682"
     },
     {
       "id": 26,
       "name": "Posto de Combustiveis Garantia Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e401"
     },
     {
       "id": 5,
       "name": "RIO DAS FRUTAS LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7673"
     },
     {
       "id": 16,
       "name": "SECRETARIA MUNICIPAL DA FAZENDA SALVADOR",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1370"
     },
     {
       "id": 21,
       "name": "SOBRAL &amp; FILHOS COMERCIO DE COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7681"
     },
     {
       "id": 31,
@@ -206,19 +239,22 @@
       "id": 8,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7676"
     },
     {
       "id": 1,
       "name": "UNIAO BRASIL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e687"
     },
     {
       "id": 2,
       "name": "UNIAO BRASIL - BAHIA - BA - ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1628"
     },
     {
       "id": 33,
@@ -230,7 +266,8 @@
       "id": 6,
       "name": "Wilson Suedy Lopes da Silva Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7674"
     }
   ],
   "links": [
@@ -255,7 +292,7 @@
       "source": 74554,
       "target": 3,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 28/03/2011",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 28/03/2011",
       "strength": 1
     },
     {
@@ -263,7 +300,7 @@
       "source": 74554,
       "target": 4,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 23/03/2022",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 23/03/2022",
       "strength": 1
     },
     {
@@ -271,7 +308,7 @@
       "source": 74554,
       "target": 5,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 08/06/1999",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 08/06/1999",
       "strength": 1
     },
     {
@@ -319,7 +356,7 @@
       "source": 74554,
       "target": 11,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$12.570,44 (36 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/01/2025–03/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$13.848,86 (39 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/01/2025–10/12/2025)",
       "strength": 1
     },
     {
@@ -335,7 +372,7 @@
       "source": 74554,
       "target": 13,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.575,68 (35 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.602,25 (44 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -367,7 +404,7 @@
       "source": 74554,
       "target": 17,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.206,14 (18 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/07/2025–08/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.105,07 (21 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 30/06/2025–08/12/2025)",
       "strength": 1
     },
     {
@@ -431,7 +468,7 @@
       "source": 74554,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.278,42 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/05/2025–10/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.120,71 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 24/02/2025–28/09/2025)",
       "strength": 1
     },
     {
@@ -447,7 +484,7 @@
       "source": 74554,
       "target": 27,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$890,95 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 09/01/2025–01/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.040,95 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 09/01/2025–01/12/2025)",
       "strength": 1
     },
     {

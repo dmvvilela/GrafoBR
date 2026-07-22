@@ -4,7 +4,7 @@
     "egoName": "Fernando Mineiro",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:36.140926Z",
+    "generatedAt": "2026-07-17T04:22:51.867791Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Os dados públicos indicam R$ 73,8 milhões em emendas empenhadas e R$ 45,5 milhões pagos em quinze áreas, com Saúde como principal. A cota parlamentar soma R$ 485 mil com 25 fornecedores, e a campanha de 2022 recebeu R$ 925 mil.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -23,16 +30,18 @@
       "connectionCount": 47
     },
     {
-      "id": 29,
+      "id": 27,
       "name": "AUTO POSTO CINCO ESTRELAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e405"
     },
     {
       "id": 19,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5680"
     },
     {
       "id": 44,
@@ -50,16 +59,11 @@
       "id": 8,
       "name": "CENTER FILMES AUDIOVISUAL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5671"
     },
     {
-      "id": 32,
-      "name": "COMERCIAL DE COMBUSTIVEIS MEDEIROS E MEDEIROS LTDA",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 45,
+      "id": 46,
       "name": "Comércio e serviços",
       "category": "destino",
       "connectionCount": 1
@@ -86,13 +90,15 @@
       "id": 21,
       "name": "ELDORADO COMUNICACAO E JORNALISMO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1939"
     },
     {
       "id": 7,
       "name": "EMPRESA GESTORA DE ATIVOS DO RIO GRANDE DO NORTE - EMGERN",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5670"
     },
     {
       "id": 35,
@@ -116,31 +122,36 @@
       "id": 2,
       "name": "FERNANDO WANDERLEY VARGAS DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5665"
     },
     {
       "id": 5,
       "name": "FRANCISCO CIPRIANO DE CARVALHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5668"
     },
     {
       "id": 24,
       "name": "Facebook Serviços Online do Brasil Ltda",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 6,
       "name": "GILBERTO NUNES LACET",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5669"
     },
     {
       "id": 17,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5678"
     },
     {
       "id": 43,
@@ -149,73 +160,84 @@
       "connectionCount": 1
     },
     {
-      "id": 27,
+      "id": 28,
       "name": "HOTEL IBIS STYLES BELÉM PARÁ",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5685"
     },
     {
       "id": 20,
       "name": "HOTEL VILLAOESTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2401"
     },
     {
       "id": 25,
       "name": "HUMBERTO BONIFÁCIO DE SALES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5683"
     },
     {
       "id": 18,
       "name": "ITALO BEETHOVEN PEREIRA CORREIA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5679"
     },
     {
       "id": 4,
       "name": "JOSE NILTO DANTAS PEREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5667"
     },
     {
       "id": 14,
       "name": "KAMILA TUENIA DE OLIVEIRA COSTA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5676"
     },
     {
       "id": 22,
       "name": "KEILA SENA PRODUÇÕES",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5681"
     },
     {
       "id": 15,
       "name": "LOCAINFO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1942"
     },
     {
       "id": 9,
       "name": "LOCALIZA RENT A CAR S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e943"
     },
     {
       "id": 12,
       "name": "MANUELA NASCIMENTO FERNANDES DE QUEIROZ",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5674"
     },
     {
       "id": 3,
       "name": "MICHELA KATIUSCIA CALACA ALVES DOS SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5666"
     },
     {
-      "id": 46,
+      "id": 45,
       "name": "Múltiplo",
       "category": "destino",
       "connectionCount": 1
@@ -227,34 +249,46 @@
       "connectionCount": 1
     },
     {
+      "id": 31,
+      "name": "PARELHAS GAS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e1949"
+    },
+    {
       "id": 1,
       "name": "PARTIDO DOS TRABALHADORES - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e277"
     },
     {
       "id": 23,
       "name": "PGCS TECNOLOGIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5682"
     },
     {
-      "id": 28,
+      "id": 29,
       "name": "RAFAEL F C DUARTE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5686"
     },
     {
       "id": 16,
       "name": "RCE INTELIGENCIA IMOBILIARIA EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5677"
     },
     {
       "id": 30,
       "name": "RÁDIO DIFUSARA DE MOSSORO S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5687"
     },
     {
       "id": 33,
@@ -266,13 +300,15 @@
       "id": 11,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5673"
     },
     {
       "id": 13,
       "name": "THIAGO HENRIQUE CAMARA DE MEDEIROS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5675"
     },
     {
       "id": 42,
@@ -284,13 +320,15 @@
       "id": 26,
       "name": "UMBIT CRIATIVO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5684"
     },
     {
-      "id": 31,
+      "id": 32,
       "name": "UNIGRAFICA EDITORA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5688"
     },
     {
       "id": 37,
@@ -302,7 +340,8 @@
       "id": 10,
       "name": "YASMIN ALVES FARIAS MAIA DE MEDEIROS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5672"
     }
   ],
   "links": [
@@ -359,7 +398,7 @@
       "source": 204445,
       "target": 7,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (administrador), desde 05/06/2019",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (administrador), desde 05/06/2019",
       "strength": 1
     },
     {
@@ -519,7 +558,7 @@
       "source": 204445,
       "target": 27,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.042,90 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 14/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.974,75 (14 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/03/2025–10/12/2025)",
       "strength": 1
     },
     {
@@ -527,7 +566,7 @@
       "source": 204445,
       "target": 28,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 19/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.042,90 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 14/11/2025)",
       "strength": 1
     },
     {
@@ -535,7 +574,7 @@
       "source": 204445,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.824,75 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/04/2025–10/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 19/12/2025)",
       "strength": 1
     },
     {
@@ -551,7 +590,7 @@
       "source": 204445,
       "target": 31,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.790,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/04/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.903,17 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 19/03/2025–09/11/2025)",
       "strength": 1
     },
     {
@@ -559,7 +598,7 @@
       "source": 204445,
       "target": 32,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.695,56 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 22/02/2025–21/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.790,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/04/2025)",
       "strength": 1
     },
     {
@@ -663,7 +702,7 @@
       "source": 204445,
       "target": 45,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Comércio e serviços: R$500.000,00 empenhado (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Múltiplo: R$500.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -671,7 +710,7 @@
       "source": 204445,
       "target": 46,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Múltiplo: R$500.000,00 empenhado (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$500.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {

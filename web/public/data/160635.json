@@ -4,14 +4,20 @@
     "egoName": "Ruy Carneiro",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:39.422332Z",
+    "generatedAt": "2026-07-17T04:22:56.470377Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Desde 2023, registram-se R$ 107,0 milhões em emendas empenhadas e R$ 83,3 milhões pagos em onze áreas, principalmente Saúde. Constam R$ 526 mil em despesas de cota e R$ 2,8 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -25,13 +31,15 @@
       "id": 27,
       "name": "ALEXANDRE DE SOUSA FREIRE ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6288"
     },
     {
       "id": 21,
       "name": "AY SERVIÇO DE AGENCIAMENTO E PORTAL DE NOTICIAS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12853"
     },
     {
       "id": 44,
@@ -46,34 +54,39 @@
       "connectionCount": 1
     },
     {
-      "id": 38,
+      "id": 37,
       "name": "BLOG DO NINJA PORTAIS, AGENCIA DE NOTICIAS E SERVIÇOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6285"
     },
     {
       "id": 33,
       "name": "BLOG MAIS COMUNICAÇÃO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12858"
     },
     {
       "id": 17,
       "name": "CAIS NOVO COMUNICAÇÃO E ESTRATEGIA E CONTEUDO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12850"
     },
     {
       "id": 29,
       "name": "CENARIO COMUNICACAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6286"
     },
     {
       "id": 30,
       "name": "Claudia Maria Carvalho",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6287"
     },
     {
       "id": 47,
@@ -91,13 +104,15 @@
       "id": 20,
       "name": "DIGICULT CONSULTORIA E COMUNICAÇÃO EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6959"
     },
     {
       "id": 1,
       "name": "DIRETORIO NACIONAL DO PARTIDO SOCIAL CRISTAO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e926"
     },
     {
       "id": 49,
@@ -115,37 +130,50 @@
       "id": 34,
       "name": "ECLITON DA SILVA MONTEIRO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12859"
     },
     {
       "id": 22,
       "name": "ELDORADO COMUNICACAO E JORNALISMO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1939"
     },
     {
       "id": 7,
       "name": "EMILIA MENDONCA LIMEIRA FERREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12841"
     },
     {
       "id": 18,
       "name": "EMPRESA DE TELEVISÃO JOÃO PESSOA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12851"
     },
     {
       "id": 8,
       "name": "ERYCLENIA RODRIGUES DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12842"
     },
     {
-      "id": 37,
+      "id": 36,
       "name": "ESTRATEGIA SERVIÇOS DE COMUNICAÇÃO EIRELI",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12860"
+    },
+    {
+      "id": 38,
+      "name": "EXTRA MARKETING POLITICO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e12861"
     },
     {
       "id": 45,
@@ -163,13 +191,15 @@
       "id": 12,
       "name": "FITZGERALD RODRIGUES MEDEIROS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12846"
     },
     {
       "id": 24,
       "name": "FONTE CZ SERVIÇOS DE INTERNET E COMUNICACAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12855"
     },
     {
       "id": 48,
@@ -181,103 +211,113 @@
       "id": 2,
       "name": "HENRY KENNER SOARES DE CASTRO RIBEIRO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12836"
     },
     {
       "id": 16,
       "name": "INTELIGENCIA.COM SERVIÇOS LTDA - FONTE 83",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12849"
     },
     {
       "id": 4,
       "name": "JOAO BATISTA MONTEIRO XAVIER",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12838"
     },
     {
       "id": 25,
       "name": "JOSE HIRAM DONATO DE CASTRO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12856"
     },
     {
       "id": 13,
       "name": "LUIZ SERGIO CARNEIRO BAPTISTA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12847"
     },
     {
       "id": 23,
       "name": "MAIS PB PORTAL DE NOTICIAS E COMUNICACAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12854"
     },
     {
       "id": 19,
       "name": "MOSH COMUNICACAO E TECNOLOGIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12852"
     },
     {
       "id": 15,
       "name": "MOTOGAS IND.DE COMPRESSAO E COM.DE GAS NATURAL LTD",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 35,
-      "name": "MOTOGAS IND.DE COMPRESSAO E COM.DE GAS NATURAL LTD",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12848"
     },
     {
       "id": 14,
       "name": "NSF TRANSPORTES ME LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e109"
     },
     {
       "id": 3,
       "name": "PAULO CEZAR LUCION",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12837"
     },
     {
-      "id": 36,
+      "id": 35,
       "name": "POSTO DE COMBUSTIVEIS 206 LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1214"
     },
     {
       "id": 11,
       "name": "RAIMUNDA MARIA BIAO SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12845"
     },
     {
       "id": 6,
       "name": "ROSIMAR DE CASTRO BARRETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12840"
     },
     {
       "id": 9,
       "name": "RUY CARNEIRO BARBOSA MENDONCA LIMEIRA DE ACA BELCHIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12843"
     },
     {
       "id": 5,
       "name": "RUY MANUEL CARNEIRO BARBOSA DE ACA BELCHIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12839"
     },
     {
       "id": 31,
       "name": "STRATEGIA COMUNICACAO SERVICOS DE CONSULTORIA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e395"
     },
     {
       "id": 39,
@@ -295,25 +335,29 @@
       "id": 26,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12857"
     },
     {
       "id": 28,
       "name": "THIAGO VASCONCELOS MORAIS ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2243"
     },
     {
       "id": 10,
       "name": "WALESKA MARA DE OLIVEIRA BARRETO CARNEIRO BARBOSA BELCHIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12844"
     },
     {
       "id": 32,
       "name": "X COMUNICAÇÃO SERVIÇOS DE INFORMAÇÃO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6958"
     }
   ],
   "links": [
@@ -434,7 +478,7 @@
       "source": 160635,
       "target": 15,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$38.139,16 (22 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/01/2025–06/01/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$48.741,89 (40 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/01/2025–06/01/2026)",
       "strength": 1
     },
     {
@@ -594,7 +638,7 @@
       "source": 160635,
       "target": 35,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.602,73 (18 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/01/2025–03/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.436,96 (18 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/02/2025–16/12/2025)",
       "strength": 1
     },
     {
@@ -602,7 +646,7 @@
       "source": 160635,
       "target": 36,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.436,96 (18 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/02/2025–16/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.200,00 (10 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 28/02/2025–19/11/2025)",
       "strength": 1
     },
     {
@@ -610,7 +654,7 @@
       "source": 160635,
       "target": 37,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.200,00 (10 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 28/02/2025–19/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.000,00 (10 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 24/02/2025–19/11/2025)",
       "strength": 1
     },
     {
@@ -618,7 +662,7 @@
       "source": 160635,
       "target": 38,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.000,00 (10 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 24/02/2025–19/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$10.000,00 (10 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 05/03/2025–19/11/2025)",
       "strength": 1
     },
     {

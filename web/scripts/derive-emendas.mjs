@@ -2,7 +2,7 @@
 // they directed (emendas individuais, current mandate). Reads the synced ego files,
 // sums each deputy's emenda edges, and writes public/data/_emenda-trails.json sorted
 // by amount empenhado. Runs after sync-data.
-import { readdir, readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -20,7 +20,8 @@ try {
   meta = Object.fromEntries(idx.map((e) => [e.id, { party: e.party, uf: e.uf }]));
 } catch {}
 
-const files = (await readdir(dir)).filter((f) => /^\d+\.json$/.test(f));
+const index = JSON.parse(await readFile(path.join(dir, "index.json"), "utf8"));
+const files = index.map((entry) => `${entry.id}.json`);
 const trails = [];
 for (const f of files) {
   const ego = JSON.parse(await readFile(path.join(dir, f), "utf8"));

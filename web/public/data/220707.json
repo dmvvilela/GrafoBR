@@ -4,14 +4,20 @@
     "egoName": "Amanda Gentil",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:34.145356Z",
+    "generatedAt": "2026-07-17T04:22:48.647927Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Os dados de emendas registram R$ 75,1 milhões empenhados e R$ 68,9 milhões pagos em seis áreas, com Saúde como principal. Constam R$ 487 mil em despesas de cota e R$ 2,7 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -19,16 +25,17 @@
       "id": 220707,
       "name": "Amanda Gentil",
       "category": "politician",
-      "connectionCount": 22
+      "connectionCount": 21
     },
     {
       "id": 10,
       "name": "ALIANÇA EDITORA GRÁFICA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e954"
     },
     {
-      "id": 19,
+      "id": 18,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -37,10 +44,11 @@
       "id": 14,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "Comércio e serviços",
       "category": "destino",
       "connectionCount": 1
@@ -49,22 +57,24 @@
       "id": 5,
       "name": "DISCOVER SERVICOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e949"
     },
     {
       "id": 4,
       "name": "ELEICAO 2022 CARLOS WELLINGTON DE CASTRO BEZERRA DEPUTADO ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e948"
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "Educação",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 18,
+      "id": 17,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -73,64 +83,67 @@
       "id": 11,
       "name": "F.S. CORREA NETO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e955"
     },
     {
       "id": 2,
       "name": "FABIO JOSE GENTIL PEREIRA ROSA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e946"
     },
     {
       "id": 6,
       "name": "FERNANDO JOSÉ OLIVEIRA DUAILIBE MENDONÇA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e950"
     },
     {
       "id": 3,
       "name": "GIL RICARDO COSTA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e947"
     },
     {
       "id": 15,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e958"
     },
     {
       "id": 7,
       "name": "INDUSTRIA GRAFICA E EDITORA SAO PAULO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e951"
     },
     {
       "id": 9,
       "name": "Iza Carla Silva Santa Brigida - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e953"
     },
     {
       "id": 1,
       "name": "PROGRESSISTAS - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 16,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1"
     },
     {
       "id": 12,
       "name": "SAGA DE ITACOLOMI COM. E PECUARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e956"
     },
     {
-      "id": 17,
+      "id": 16,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -139,10 +152,11 @@
       "id": 13,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e957"
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "Urbanismo",
       "category": "destino",
       "connectionCount": 1
@@ -151,7 +165,8 @@
       "id": 8,
       "name": "VIA URBANO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e952"
     }
   ],
   "links": [
@@ -264,7 +279,7 @@
       "source": 220707,
       "target": 14,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.799,74 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.812,47 (20 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -279,8 +294,8 @@
       "id": 16,
       "source": 220707,
       "target": 16,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$12,73 (8 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$44.911.780,00 empenhado, R$40.935.795,00 pago (4 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -288,7 +303,7 @@
       "source": 220707,
       "target": 17,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$44.911.780,00 empenhado, R$40.935.795,00 pago (4 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$25.085.789,00 empenhado, R$24.992.790,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -296,7 +311,7 @@
       "source": 220707,
       "target": 18,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$25.085.789,00 empenhado, R$24.992.790,00 pago (2 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.000.000,00 empenhado, R$3.000.000,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -304,7 +319,7 @@
       "source": 220707,
       "target": 19,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$3.000.000,00 empenhado, R$3.000.000,00 pago (2 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$1.000.000,00 empenhado, R$3.500,00 pago (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -312,21 +327,13 @@
       "source": 220707,
       "target": 20,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Comércio e serviços: R$1.000.000,00 empenhado, R$3.500,00 pago (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Urbanismo: R$850.000,00 empenhado, R$4.687,00 pago (1 emenda; 2024)",
       "strength": 1
     },
     {
       "id": 21,
       "source": 220707,
       "target": 21,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Urbanismo: R$850.000,00 empenhado, R$4.687,00 pago (1 emenda; 2024)",
-      "strength": 1
-    },
-    {
-      "id": 22,
-      "source": 220707,
-      "target": 22,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Educação: R$300.000,00 empenhado (1 emenda; 2024)",
       "strength": 1

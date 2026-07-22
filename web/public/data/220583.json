@@ -4,14 +4,20 @@
     "egoName": "Delegado Fabio Costa",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:35.407219Z",
+    "generatedAt": "2026-07-17T04:22:50.809553Z",
     "sources": [
       "camara",
       "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
-    "summary": "Nos registros de emendas individuais a partir de 2023, constam R$ 75,1 milhões empenhados e R$ 70,1 milhões pagos em sete áreas, com destaque para Saúde. A cota parlamentar soma R$ 476 mil com 16 fornecedores, e a campanha de 2022 arrecadou R$ 1,7 milhões de nove doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -19,16 +25,17 @@
       "id": 220583,
       "name": "Delegado Fabio Costa",
       "category": "politician",
-      "connectionCount": 32
+      "connectionCount": 31
     },
     {
       "id": 18,
       "name": "AUTO POSTO GOLDEN GAS 202 LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1289"
     },
     {
-      "id": 31,
+      "id": 30,
       "name": "Agricultura",
       "category": "destino",
       "connectionCount": 1
@@ -37,40 +44,44 @@
       "id": 13,
       "name": "C5 SERVIÇOS DE COMUNICAÇÃO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4087"
     },
     {
       "id": 20,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 23,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 3,
       "name": "DIOGO CESAR MATOS BORGES",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4078"
     },
     {
-      "id": 29,
+      "id": 28,
       "name": "Defesa nacional",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 30,
+      "id": 29,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 32,
+      "id": 31,
       "name": "Direitos da cidadania",
       "category": "destino",
       "connectionCount": 1
@@ -79,22 +90,25 @@
       "id": 4,
       "name": "EDVILSON FERREIRA NERI",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4079"
     },
     {
       "id": 22,
       "name": "ELIANE FERREIRA DE MORAIS CARVALHO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4093"
     },
     {
       "id": 21,
       "name": "EQUATORIAL ENERGIA ALAGOAS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e803"
     },
     {
-      "id": 27,
+      "id": 26,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -103,88 +117,94 @@
       "id": 9,
       "name": "FABIANO COSTA DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4084"
     },
     {
       "id": 2,
       "name": "FABIO MICHEY COSTA DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4077"
     },
     {
       "id": 19,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4092"
     },
     {
       "id": 14,
       "name": "JA COMUNICAÇÃO LTDA ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4088"
     },
     {
       "id": 8,
       "name": "JOSE WILSON ARAUJO FERNANDES JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4083"
     },
     {
       "id": 24,
       "name": "Kalunga SA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e221"
     },
     {
       "id": 5,
       "name": "MARIA BEATRIZ FERRO DE OMENA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4080"
     },
     {
       "id": 6,
       "name": "MAX LUCIANO DA ROCHA TRINDADE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4081"
     },
     {
       "id": 11,
       "name": "OK LOCADORA DE VEÍCULOS LTDA - EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1609"
     },
     {
       "id": 15,
       "name": "PREVISIBILIDADE MIDIA E COMUNICAÇÃO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4089"
     },
     {
       "id": 1,
       "name": "PROGRESSISTAS - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
-    },
-    {
-      "id": 25,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1"
     },
     {
       "id": 10,
       "name": "RBF CONSULTORIA EM COMUNICACAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4085"
     },
     {
-      "id": 26,
+      "id": 25,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 28,
+      "id": 27,
       "name": "Segurança pública",
       "category": "destino",
       "connectionCount": 1
@@ -193,25 +213,29 @@
       "id": 7,
       "name": "TAIS PEREIRA DE VILAS BOAS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4082"
     },
     {
       "id": 16,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4090"
     },
     {
       "id": 12,
       "name": "THAIS MALTA BULHOES CAMPELLO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4086"
     },
     {
       "id": 17,
       "name": "WRV SERVICOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4091"
     }
   ],
   "links": [
@@ -372,7 +396,7 @@
       "source": 220583,
       "target": 20,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.799,74 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.828,42 (22 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -411,8 +435,8 @@
       "id": 25,
       "source": 220583,
       "target": 25,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$28,68 (10 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$39.308.372,00 empenhado, R$37.525.760,00 pago (5 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -420,7 +444,7 @@
       "source": 220583,
       "target": 26,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$39.308.372,00 empenhado, R$37.525.760,00 pago (5 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$31.295.260,00 empenhado, R$31.132.308,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -428,7 +452,7 @@
       "source": 220583,
       "target": 27,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$31.295.260,00 empenhado, R$31.132.308,00 pago (2 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Segurança pública: R$2.500.871,00 empenhado, R$477.797,00 pago (5 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -436,7 +460,7 @@
       "source": 220583,
       "target": 28,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Segurança pública: R$2.500.871,00 empenhado, R$477.797,00 pago (5 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.049.517,00 empenhado, R$639.579,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -444,7 +468,7 @@
       "source": 220583,
       "target": 29,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Defesa nacional: R$1.049.517,00 empenhado, R$639.579,00 pago (3 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$477.930,00 empenhado, R$9.558,00 pago (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -452,21 +476,13 @@
       "source": 220583,
       "target": 30,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$477.930,00 empenhado, R$9.558,00 pago (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Agricultura: R$300.000,00 empenhado, R$293.250,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
       "id": 31,
       "source": 220583,
       "target": 31,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Agricultura: R$300.000,00 empenhado, R$293.250,00 pago (2 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 32,
-      "source": 220583,
-      "target": 32,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Direitos da cidadania: R$200.000,00 empenhado (1 emenda; 2024)",
       "strength": 1

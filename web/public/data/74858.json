@@ -4,7 +4,7 @@
     "egoName": "Lindbergh Farias",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:37.434900Z",
+    "generatedAt": "2026-07-17T04:22:53.728280Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Nos dados de emendas individuais, constam R$ 75,1 milhões empenhados e R$ 38,8 milhões pagos em nove áreas, com Saúde em destaque. Há R$ 326 mil em despesas de cota e R$ 2,0 milhões em doações de campanha em 2022.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -20,52 +27,52 @@
       "id": 74858,
       "name": "Lindbergh Farias",
       "category": "politician",
-      "connectionCount": 53
+      "connectionCount": 51
     },
     {
-      "id": 40,
+      "id": 37,
       "name": "026 - P WAY - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 42,
-      "name": "044 - REC 2 - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 13,
       "name": "AFRANIO NEVES DE MELO NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8492"
     },
     {
       "id": 2,
       "name": "ANA MARIA NOBREGA FARIAS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8482"
     },
     {
       "id": 14,
       "name": "ARLINDO MAGNO DE OLIVEIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8493"
     },
     {
       "id": 26,
       "name": "ASSOCIACAO DOS PREFEITOS DA BAIXADA FLUMINENSE - RJ",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8505"
     },
     {
-      "id": 38,
+      "id": 39,
       "name": "AUTO POSTO AEROPORTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e75"
     },
     {
-      "id": 50,
+      "id": 48,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -74,34 +81,39 @@
       "id": 33,
       "name": "BROAD BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e170"
     },
     {
       "id": 34,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 24,
       "name": "CLADICE NOBILE DINIZ",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8503"
     },
     {
       "id": 31,
       "name": "CLICK SEARCH AGENCIA DE PUBLICIDADE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8509"
     },
     {
-      "id": 37,
+      "id": 38,
       "name": "CMKS COMERCIO DE DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8510"
     },
     {
-      "id": 46,
+      "id": 44,
       "name": "Cultura",
       "category": "destino",
       "connectionCount": 1
@@ -110,16 +122,18 @@
       "id": 12,
       "name": "DEMOCRATIZE TECNOLOGIA LTDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e283"
     },
     {
       "id": 5,
       "name": "DUILIO JOSE MONROY CABREJOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8485"
     },
     {
-      "id": 49,
+      "id": 47,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
@@ -128,28 +142,31 @@
       "id": 15,
       "name": "EDUARDO MARQUES DE LUCENA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8494"
     },
     {
       "id": 16,
       "name": "EDUARDO QUEIROGA ESTRELA MAIA PAIVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8495"
     },
     {
       "id": 3,
       "name": "ELVIO LIMA GASPAR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8483"
     },
     {
-      "id": 47,
+      "id": 45,
       "name": "Educação",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 48,
+      "id": 46,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -158,28 +175,32 @@
       "id": 29,
       "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 23,
       "name": "GEORGE OTTAVIO BRASILINO OLEGARIO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8502"
     },
     {
       "id": 21,
       "name": "GEORGIANA NOBREGA FARIAS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8500"
     },
     {
       "id": 30,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8508"
     },
     {
-      "id": 52,
+      "id": 50,
       "name": "Gestão ambiental",
       "category": "destino",
       "connectionCount": 1
@@ -188,52 +209,60 @@
       "id": 8,
       "name": "JORGE RIBEIRO COUTINHO GONCALVES DA SILVA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8488"
     },
     {
       "id": 11,
       "name": "JOSEF THOME EL HADER",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8491"
     },
     {
       "id": 19,
       "name": "JOYCE DUARTE DE MELLO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8498"
     },
     {
       "id": 6,
       "name": "LAERCIO FREIRE ATAIDE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8486"
     },
     {
       "id": 9,
       "name": "LEUCIO AUGUSTO PEREIRA DE MEDEIROS JUNIOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8489"
     },
     {
       "id": 18,
       "name": "MANUELA PINHO DE AZEVEDO SOUZA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8497"
     },
     {
       "id": 22,
       "name": "MARCIA MARIA DA SILVA FERREIRA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8501"
     },
     {
       "id": 10,
       "name": "MARIA JOSE DE ANDRADE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8490"
     },
     {
-      "id": 53,
+      "id": 51,
       "name": "Organização agrária",
       "category": "destino",
       "connectionCount": 1
@@ -242,76 +271,81 @@
       "id": 1,
       "name": "PARTIDO DOS TRABALHADORES - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e277"
     },
     {
       "id": 25,
       "name": "PAULO SERGIO DA SILVA FIALHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8504"
     },
     {
       "id": 32,
       "name": "PIMENTO COMUNICACAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4904"
     },
     {
       "id": 35,
       "name": "POSTO DE COMBUSTIVEIS 309 SUL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e178"
     },
     {
       "id": 41,
       "name": "POSTO DE COMBUSTIVEIS 310 SUL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e789"
     },
     {
-      "id": 44,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 43,
+      "id": 42,
       "name": "RECANTO COMERCIO DE PRODUTOS AUTOMOTIVOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8512"
     },
     {
-      "id": 39,
+      "id": 40,
       "name": "RECANTO OIL AUTO POSTO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8511"
     },
     {
       "id": 4,
       "name": "RICARDO DANTAS RIBEIRO COUTINHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8484"
     },
     {
       "id": 7,
       "name": "ROOSEVELT RUI DOS SANTOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8487"
     },
     {
       "id": 28,
       "name": "SENGE- SINDICATO DOS ENGENHEIROS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8507"
     },
     {
       "id": 20,
       "name": "SIMONE DE BARROS ARAUJO BRITO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8499"
     },
     {
-      "id": 45,
+      "id": 43,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -320,10 +354,11 @@
       "id": 27,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8506"
     },
     {
-      "id": 51,
+      "id": 49,
       "name": "Urbanismo",
       "category": "destino",
       "connectionCount": 1
@@ -332,13 +367,15 @@
       "id": 17,
       "name": "VANDERLAN DE SOUSA CARVALHO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8496"
     },
     {
       "id": 36,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e495"
     }
   ],
   "links": [
@@ -547,7 +584,7 @@
       "source": 74858,
       "target": 26,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (presidente), desde 12/09/2005",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (presidente), desde 12/09/2005",
       "strength": 1
     },
     {
@@ -611,7 +648,7 @@
       "source": 74858,
       "target": 34,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.159,65 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.167,74 (20 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -635,7 +672,7 @@
       "source": 74858,
       "target": 37,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$543,67 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/01/2025–13/01/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$637,77 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/01/2025–21/01/2025)",
       "strength": 1
     },
     {
@@ -643,7 +680,7 @@
       "source": 74858,
       "target": 38,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$344,12 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/01/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$543,67 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/01/2025–13/01/2025)",
       "strength": 1
     },
     {
@@ -651,7 +688,7 @@
       "source": 74858,
       "target": 39,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$336,97 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$344,12 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/01/2025)",
       "strength": 1
     },
     {
@@ -659,7 +696,7 @@
       "source": 74858,
       "target": 40,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$335,89 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/01/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$336,97 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/02/2025)",
       "strength": 1
     },
     {
@@ -675,23 +712,23 @@
       "source": 74858,
       "target": 42,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$301,88 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/01/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$267,41 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/01/2025)",
       "strength": 1
     },
     {
       "id": 43,
       "source": 74858,
       "target": 43,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$267,41 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/01/2025)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$37.544.252,00 empenhado, R$24.119.252,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     },
     {
       "id": 44,
       "source": 74858,
       "target": 44,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8,09 (8 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Cultura: R$12.737.992,00 empenhado, R$1.400.000,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -699,7 +736,7 @@
       "source": 74858,
       "target": 45,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$37.544.252,00 empenhado, R$24.119.252,00 pago (3 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Educação: R$6.738.130,00 empenhado, R$300.000,00 pago (5 emendas; 2024)",
       "strength": 1
     },
     {
@@ -707,7 +744,7 @@
       "source": 74858,
       "target": 46,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Cultura: R$12.737.992,00 empenhado, R$1.400.000,00 pago (3 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$5.975.000,00 empenhado, R$5.975.000,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -715,7 +752,7 @@
       "source": 74858,
       "target": 47,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Educação: R$6.738.130,00 empenhado, R$300.000,00 pago (5 emendas; 2024)",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$5.420.000,00 empenhado, R$3.723.180,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -723,7 +760,7 @@
       "source": 74858,
       "target": 48,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$5.975.000,00 empenhado, R$5.975.000,00 pago (2 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.998.722,00 empenhado, R$3.276.908,00 pago (1 emenda; 2025)",
       "strength": 1
     },
     {
@@ -731,7 +768,7 @@
       "source": 74858,
       "target": 49,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$5.420.000,00 empenhado, R$3.723.180,00 pago (2 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Urbanismo: R$1.500.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {
@@ -739,29 +776,13 @@
       "source": 74858,
       "target": 50,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$3.998.722,00 empenhado, R$3.276.908,00 pago (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Gestão ambiental: R$600.000,00 empenhado (1 emenda; 2025)",
       "strength": 1
     },
     {
       "id": 51,
       "source": 74858,
       "target": 51,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Urbanismo: R$1.500.000,00 empenhado (1 emenda; 2024)",
-      "strength": 1
-    },
-    {
-      "id": 52,
-      "source": 74858,
-      "target": 52,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Gestão ambiental: R$600.000,00 empenhado (1 emenda; 2025)",
-      "strength": 1
-    },
-    {
-      "id": 53,
-      "source": 74858,
-      "target": 53,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Organização agrária: R$548.265,00 empenhado (1 emenda; 2024)",
       "strength": 1

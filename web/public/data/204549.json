@@ -4,7 +4,7 @@
     "egoName": "AJ Albuquerque",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:33.791014Z",
+    "generatedAt": "2026-07-17T04:22:48.181591Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Os dados públicos registram R$ 107,2 milhões em emendas empenhadas e R$ 105,9 milhões pagos em duas áreas, com foco em Encargos especiais. Constam ainda R$ 309 mil em despesas de cota com 25 fornecedores; a campanha de 2022 recebeu R$ 1,1 milhões de 5 doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -23,82 +30,88 @@
       "connectionCount": 33
     },
     {
-      "id": 29,
+      "id": 28,
       "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
-      "connectionCount": 1
-    },
-    {
-      "id": 31,
-      "name": "A E CHAVES COMERCIO DE DERIVADOS DE PETROLEO LTD",
-      "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e28"
     },
     {
       "id": 25,
       "name": "ACOPEL - AMERICO COMERCIAL DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e25"
     },
     {
-      "id": 30,
+      "id": 31,
       "name": "ALENCAR GOULART COMERCIO DE COMBUSTIVEIS E DERIVADOS DE PETR",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e31"
     },
     {
       "id": 13,
       "name": "AMORETTO CAFES EXPRESSO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13"
     },
     {
       "id": 2,
       "name": "ANTONIO JOSE AGUIAR ALBUQUERQUE",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2"
     },
     {
       "id": 27,
       "name": "AUTO POSTO 303 NORTE LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e27"
     },
     {
       "id": 17,
       "name": "Claro NXT Telecomunicações S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 23,
       "name": "Claro S/A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e23"
     },
     {
       "id": 18,
       "name": "DAMPETRO COMERCIO DE DERIVADOS DE PETROLEO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e18"
     },
     {
       "id": 12,
       "name": "DAVID DA MATA FEITOSA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e12"
     },
     {
       "id": 4,
       "name": "ELEICAO 2022 ELMANO DE FREITAS DA COSTA GOVERNADOR",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4"
     },
     {
       "id": 15,
       "name": "ER MELO PUBLICIDADE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e15"
     },
     {
       "id": 32,
@@ -110,103 +123,127 @@
       "id": 9,
       "name": "GEVE COMINICAÇÃO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e9"
     },
     {
       "id": 20,
       "name": "GOMO COMUNICAÇÂO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e20"
     },
     {
       "id": 24,
       "name": "H P N CHAVES COMERCIO DE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e24"
     },
     {
       "id": 14,
       "name": "JC COMERCIO DE COMBUSTIVEL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e14"
     },
     {
       "id": 3,
       "name": "JOAO DE SA CAVALCANTE NETO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3"
     },
     {
       "id": 10,
       "name": "Latam Airlines",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 7,
       "name": "MONT CAR",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7"
+    },
+    {
+      "id": 29,
+      "name": "ORGANIZACAO HELIO MEIRELES PETROLEO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e29"
     },
     {
       "id": 5,
       "name": "PARTIDO PROGRESSISTA - PP - DIRETORIO ESTADUAL DO CEARA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5"
     },
     {
       "id": 16,
       "name": "PONTES E LANDIM COMBUSTIVEIS LTDA - EPP",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e16"
     },
     {
       "id": 21,
       "name": "POSTO ALTO DO TENENTE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e21"
     },
     {
       "id": 26,
       "name": "POSTO CAUIPE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e26"
     },
     {
       "id": 22,
       "name": "POSTO LUAR DO SERTAO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e22"
     },
     {
       "id": 1,
       "name": "PROGRESSISTAS - BRASIL - BR - NACIONAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1"
     },
     {
       "id": 19,
       "name": "Posto Dom Luis",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e19"
     },
     {
-      "id": 28,
+      "id": 30,
       "name": "Posto Mariana",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e30"
     },
     {
       "id": 6,
       "name": "RADIO DRAGAO DO NORTE LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e6"
     },
     {
       "id": 11,
       "name": "REDE CEARÁ DE COMUNICAÇÃO",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e11"
     },
     {
       "id": 33,
@@ -218,7 +255,8 @@
       "id": 8,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e8"
     }
   ],
   "links": [
@@ -267,7 +305,7 @@
       "source": 204549,
       "target": 6,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio), desde 17/02/2023",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 17/02/2023",
       "strength": 1
     },
     {
@@ -299,7 +337,7 @@
       "source": 204549,
       "target": 10,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$34.644,11 (2 lançamentos; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 28/04/2025–20/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$34.656,56 (12 lançamentos; tipo: PASSAGEM AÉREA - REEMBOLSO)",
       "strength": 1
     },
     {
@@ -371,7 +409,7 @@
       "source": 204549,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.881,19 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/03/2025–25/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.981,19 (10 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/03/2025–25/11/2025)",
       "strength": 1
     },
     {
@@ -443,7 +481,7 @@
       "source": 204549,
       "target": 28,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$521,20 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$790,90 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 30/01/2025–19/02/2025)",
       "strength": 1
     },
     {
@@ -451,7 +489,7 @@
       "source": 204549,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$500,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/02/2025–19/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$670,75 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/10/2025–19/11/2025)",
       "strength": 1
     },
     {
@@ -459,7 +497,7 @@
       "source": 204549,
       "target": 30,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$429,99 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$521,20 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/06/2025)",
       "strength": 1
     },
     {
@@ -467,7 +505,7 @@
       "source": 204549,
       "target": 31,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$428,10 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 09/08/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$429,99 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/11/2025)",
       "strength": 1
     },
     {

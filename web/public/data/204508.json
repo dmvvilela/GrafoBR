@@ -4,7 +4,7 @@
     "egoName": "Igor Timo",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-06-23T14:22:36.749987Z",
+    "generatedAt": "2026-07-17T04:22:52.764060Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,7 +12,14 @@
       "receita",
       "tse"
     ],
-    "summary": "Nos dados de emendas individuais, constam R$ 107,2 milhões empenhados e R$ 96,9 milhões pagos em seis áreas. Registram-se também R$ 410 mil em despesas de cota com 25 fornecedores e R$ 2,8 milhões arrecadados na campanha de 2022, de 4 doadores.",
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara_ceap": "ano 2025",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -26,13 +33,15 @@
       "id": 16,
       "name": "AMORETTO CAFES EXPRESSO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e13"
     },
     {
       "id": 8,
       "name": "AZUL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7004"
     },
     {
       "id": 34,
@@ -41,28 +50,32 @@
       "connectionCount": 1
     },
     {
-      "id": 18,
+      "id": 19,
       "name": "BRASAL COMBUSTIVEIS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e408"
     },
     {
       "id": 25,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e10"
     },
     {
       "id": 15,
       "name": "CEMIG DISTRIBUIÇÃO S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1055"
     },
     {
-      "id": 26,
+      "id": 18,
       "name": "CLARO NEXTEL TELECOMUNICAÇÕES S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e17"
     },
     {
       "id": 35,
@@ -74,13 +87,15 @@
       "id": 3,
       "name": "EDVALDO NILO DE ALMEIDA",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1067"
     },
     {
       "id": 4,
       "name": "ELEICAO 2022 ALENCAR MAGALHAES DA SILVEIRA JUNIOR DEPUTADO ESTADUAL",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4438"
     },
     {
       "id": 36,
@@ -98,85 +113,99 @@
       "id": 11,
       "name": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e333"
     },
     {
       "id": 30,
       "name": "FILIBRAS COMERCIAL IMPORTACAO E EXPORTACAO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7013"
     },
     {
       "id": 27,
       "name": "Fratele Business Hotel",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7012"
     },
     {
-      "id": 24,
+      "id": 26,
       "name": "GOL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7011"
     },
     {
       "id": 2,
       "name": "IGOR TARCIANO TIMO",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7000"
     },
     {
-      "id": 21,
+      "id": 22,
       "name": "JET AVIACAO COMERCIO LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7009"
     },
     {
-      "id": 23,
+      "id": 24,
       "name": "MARLI MIGUEL",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7010"
     },
     {
       "id": 5,
       "name": "MICROLIG - COMERCIO E SERVICOS DE MATERIAL DE INFORMATICA LTDA",
       "category": "company",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7001"
     },
     {
-      "id": 19,
+      "id": 20,
       "name": "MILDO ALVES ADM. COM. E TRANSP. LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7008"
     },
     {
       "id": 29,
       "name": "MUNICÍPIO DE BELO HORIZONTE",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1765"
     },
     {
       "id": 10,
       "name": "PATRÍCIA REZENDE LAMOUNIER",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7006"
     },
     {
       "id": 1,
       "name": "PODEMOS",
       "category": "donor",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2203"
     },
     {
       "id": 13,
       "name": "POSTO TOCANTINS LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e3284"
     },
     {
       "id": 7,
       "name": "SIGGO SIST. DE INF. GERENCIAL E GOV. OPPORTUNE LTD",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7003"
     },
     {
       "id": 31,
@@ -188,25 +217,29 @@
       "id": 12,
       "name": "Selbetti Gestão de Documentos SA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e5013"
     },
     {
       "id": 14,
       "name": "TAM",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7007"
     },
     {
       "id": 17,
       "name": "TECNEGOCIOS SOLUÇÕES EM INFORMÁTICA LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e1168"
     },
     {
-      "id": 22,
+      "id": 23,
       "name": "TELEFONICA BRASIL S.A",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e148"
     },
     {
       "id": 33,
@@ -215,28 +248,32 @@
       "connectionCount": 1
     },
     {
-      "id": 20,
+      "id": 21,
       "name": "VALOR LOCAÇÕES EIRELI - ME",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e2184"
     },
     {
       "id": 6,
       "name": "VALÉRIA LUIZA DOS SANTOS",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7002"
     },
     {
       "id": 9,
       "name": "VISAO CONSULTORIA E MARKETING LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e7005"
     },
     {
       "id": 28,
       "name": "W & W VIDEO PRODUCOES LTDA",
       "category": "supplier",
-      "connectionCount": 1
+      "connectionCount": 1,
+      "entityId": "e4101"
     }
   ],
   "links": [
@@ -277,7 +314,7 @@
       "source": 204508,
       "target": 5,
       "connectionType": "socio",
-      "description": "Participação societária registrada na base CNPJ/Receita Federal (sócio-administrador), desde 20/11/2006",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 20/11/2006",
       "strength": 1
     },
     {
@@ -381,7 +418,7 @@
       "source": 204508,
       "target": 18,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.485,85 (35 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/02/2025–15/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.941,99 (24 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 22/01/2025–27/12/2025)",
       "strength": 1
     },
     {
@@ -389,7 +426,7 @@
       "source": 204508,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.739,15 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/05/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.485,85 (35 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/02/2025–15/12/2025)",
       "strength": 1
     },
     {
@@ -397,7 +434,7 @@
       "source": 204508,
       "target": 20,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.610,00 (2 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 12/11/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.739,15 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/05/2025)",
       "strength": 1
     },
     {
@@ -405,7 +442,7 @@
       "source": 204508,
       "target": 21,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.080,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/06/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.610,00 (2 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 12/11/2025)",
       "strength": 1
     },
     {
@@ -413,7 +450,7 @@
       "source": 204508,
       "target": 22,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.010,88 (12 lançamentos; tipo: TELEFONIA; período: 29/01/2025–28/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.080,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/06/2025)",
       "strength": 1
     },
     {
@@ -421,7 +458,7 @@
       "source": 204508,
       "target": 23,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 09/09/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.010,88 (12 lançamentos; tipo: TELEFONIA; período: 29/01/2025–28/12/2025)",
       "strength": 1
     },
     {
@@ -429,7 +466,7 @@
       "source": 204508,
       "target": 24,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.800,94 (4 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 10/01/2025–20/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 09/09/2025)",
       "strength": 1
     },
     {
@@ -437,7 +474,7 @@
       "source": 204508,
       "target": 25,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.799,74 (12 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.823,70 (20 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -445,7 +482,7 @@
       "source": 204508,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.705,88 (12 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 24/01/2025–27/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.800,94 (4 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 10/01/2025–20/02/2025)",
       "strength": 1
     },
     {
