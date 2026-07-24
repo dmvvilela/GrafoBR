@@ -115,7 +115,16 @@ export default async function RootLayout({
                 . Encontrou um erro? Os dados vêm direto das fontes oficiais.
               </p>
               <p className="text-zinc-600">
-                Projeto aberto · v0 · dados estáticos pré-computados.
+                Código aberto no{" "}
+                <a
+                  href="https://github.com/dmvvilela/GrafoBR"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-zinc-400 underline decoration-zinc-700 underline-offset-2 transition hover:text-zinc-200"
+                >
+                  GitHub
+                </a>{" "}
+                · v0 · dados estáticos pré-computados.
                 {snapshot ? ` Snapshot principal: ${snapshot}.` : ""}
                 {obrasSnapshot ? ` Obras: ${obrasSnapshot}.` : ""}
               </p>

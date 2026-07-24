@@ -128,10 +128,26 @@ export default function SobrePage() {
         </ul>
       </Section>
 
+      <Section title="Código aberto">
+        <p>
+          O código do GrafoBR é aberto e está disponível no{" "}
+          <a
+            href="https://github.com/dmvvilela/GrafoBR"
+            target="_blank"
+            rel="noreferrer"
+            className="text-emerald-300 underline decoration-emerald-800 underline-offset-2 hover:text-emerald-200"
+          >
+            repositório do projeto no GitHub
+          </a>
+          . Você pode consultar como os dados são processados, acompanhar o
+          desenvolvimento e contribuir.
+        </p>
+      </Section>
+
       <p className="border-t border-white/5 pt-5 text-xs leading-relaxed text-zinc-600">
-        Projeto aberto, dados estáticos pré-computados. As conexões refletem registros
-        públicos e não constituem acusação de irregularidade. Encontrou um erro? Os
-        dados vêm direto das fontes oficiais citadas.
+        Dados estáticos pré-computados. As conexões refletem registros públicos e não
+        constituem acusação de irregularidade. Encontrou um erro? Os dados vêm direto
+        das fontes oficiais citadas.
       </p>
     </div>
   );
