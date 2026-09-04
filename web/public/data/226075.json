@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "egoId": 226075,
+    "egoName": "Priscila Costa",
+    "chamber": "camara",
+    "photo": null,
+    "generatedAt": "2026-09-04T03:41:31.459688Z",
+    "sources": [
+      "camara",
+      "receita",
+      "tse"
+    ],
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/09/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 226075,
+      "name": "Priscila Costa",
+      "category": "politician",
+      "connectionCount": 4
+    },
+    {
+      "id": 2,
+      "name": "IGOR QUEIROZ BARROSO",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e11459"
+    },
+    {
+      "id": 3,
+      "name": "JOAO ITALO OLIVEIRA CLEMENTE POMPEU",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e11460"
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO LIBERAL (PL)",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e133"
+    },
+    {
+      "id": 4,
+      "name": "PEIXE PRODUTORA DE VIDEOS LTDA",
+      "category": "company",
+      "connectionCount": 1,
+      "entityId": "e11461"
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 226075,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.000.000,00 em 2022 registrada no TSE (2 receitas, 29/08/2022–02/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 226075,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$300.000,00 em 2022 registrada no TSE (25/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 226075,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$3.825,00 em 2022 registrada no TSE (31/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 226075,
+      "target": 4,
+      "connectionType": "socio",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 25/09/2013",
+      "strength": 1
+    }
+  ]
+}

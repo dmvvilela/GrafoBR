@@ -4,7 +4,7 @@
     "egoName": "Dr. Daniel Soranz",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-07-17T04:22:51.158066Z",
+    "generatedAt": "2026-09-04T03:41:27.722766Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,12 +12,12 @@
       "tse"
     ],
     "sourceCoverage": {
-      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
-      "camara_ceap": "ano 2025",
-      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/09/2026",
+      "camara_ceap": "ano 2026; coleta local em 04/09/2026",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 04/09/2026",
       "tse": "eleições 2022"
     },
-    "summary": "Os registros de emendas individuais mostram R$ 75,1 milhões empenhados e R$ 59,7 milhões pagos em quatro áreas, principalmente Saúde. Registram-se R$ 27 mil em despesas de cota e R$ 2,1 milhões em doações de campanha em 2022, de vinte e cinco doadores.",
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -25,66 +25,101 @@
       "id": 220614,
       "name": "Dr. Daniel Soranz",
       "category": "politician",
-      "connectionCount": 38
+      "connectionCount": 54
+    },
+    {
+      "id": 40,
+      "name": "59.332.704 MATEUS LUIZ LEONE COSTA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4565"
+    },
+    {
+      "id": 26,
+      "name": "ALUGAUTO LOCADORA DE VEICULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4554"
     },
     {
       "id": 20,
       "name": "ANDRES CRISTIAN NACHT",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4610"
+      "entityId": "e4548"
     },
     {
       "id": 3,
       "name": "APPCIVICO CONSULTORIA LTDA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e1109"
+      "entityId": "e1077"
     },
     {
       "id": 11,
       "name": "ARMINIO FRAGA NETO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4601"
+      "entityId": "e4539"
     },
     {
       "id": 17,
       "name": "ARNALDO FERREIRA LEAL FILHO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4607"
+      "entityId": "e4545"
+    },
+    {
+      "id": 45,
+      "name": "AUTO POSTO 3F LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e1836"
+    },
+    {
+      "id": 48,
+      "name": "AUTO POSTO SERRA DO CAPIM LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4570"
     },
     {
       "id": 30,
-      "name": "ASSOCIAÇÃO DOS TAXISTAS DO DISTRITO FEDERAL",
+      "name": "AUTO POSTO TOP GLORIA LTDA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e1187"
+      "entityId": "e4558"
+    },
+    {
+      "id": 27,
+      "name": "BRITHE GRAFICA LTDA - ME",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4555"
     },
     {
       "id": 12,
       "name": "BRUNO FRAJHOF LEVACOV",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4602"
+      "entityId": "e4540"
     },
     {
       "id": 4,
       "name": "CANDIDO BOTELHO BRACHER",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4339"
+      "entityId": "e4292"
     },
     {
       "id": 15,
       "name": "CLECIO RADLER DOS GUARANYS",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4605"
+      "entityId": "e4543"
     },
     {
-      "id": 38,
+      "id": 54,
       "name": "Cultura",
       "category": "destino",
       "connectionCount": 1
@@ -94,30 +129,37 @@
       "name": "DANIEL DAL ASTA COIMBRA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4612"
+      "entityId": "e4550"
     },
     {
       "id": 18,
       "name": "DANIELA KLABIN BASILIO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4608"
+      "entityId": "e4546"
     },
     {
       "id": 13,
       "name": "DANIELLA FONSECA RAIMUNDO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4603"
+      "entityId": "e4541"
     },
     {
-      "id": 36,
+      "id": 32,
+      "name": "ECT",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e160"
+    },
+    {
+      "id": 52,
       "name": "Educação",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 37,
+      "id": 53,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -127,167 +169,237 @@
       "name": "FABIANO DE CASTRO ROBALINHO CAVALCANTI",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4604"
-    },
-    {
-      "id": 27,
-      "name": "GOL",
-      "category": "supplier",
-      "connectionCount": 1,
-      "entityId": "e4617"
+      "entityId": "e4542"
     },
     {
       "id": 23,
       "name": "GUSTAVO BRAGA MARINI",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4613"
+      "entityId": "e4551"
+    },
+    {
+      "id": 41,
+      "name": "HOTEL PHENICIA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4566"
+    },
+    {
+      "id": 28,
+      "name": "INSTITUTO HISTORICO E GEOGRAFICO BRASILEIRO",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4556"
     },
     {
       "id": 2,
       "name": "ISABELLA DE QUEIROZ SEQUEIROS TANURE CORREA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4595"
+      "entityId": "e4533"
     },
     {
       "id": 10,
       "name": "JAYME BRASIL GARFINKEL",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e3746"
+      "entityId": "e3714"
     },
     {
       "id": 6,
       "name": "JEAN MARC ROBERT NOGUEIRA BAPTISTA ETLIN",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4597"
+      "entityId": "e4535"
+    },
+    {
+      "id": 36,
+      "name": "Kalunga SA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e221"
     },
     {
       "id": 21,
       "name": "LAERCIO JOSE DE LUCENA COSENTINO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4611"
+      "entityId": "e4549"
+    },
+    {
+      "id": 38,
+      "name": "M.A.F. COM. DE ARTIGOS DE PAPELARIA E ESCRITORIO L",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4563"
     },
     {
       "id": 7,
       "name": "MARCOS DA VEIGA PEREIRA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4598"
+      "entityId": "e4536"
+    },
+    {
+      "id": 31,
+      "name": "MOVIDA PARTICIPACOES S.A",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e215"
     },
     {
       "id": 5,
       "name": "NELSON SEQUEIROS RODRIGUEZ TANURE",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4596"
+      "entityId": "e4534"
+    },
+    {
+      "id": 39,
+      "name": "OSORIOS PAMPAS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4564"
     },
     {
       "id": 1,
       "name": "PARTIDO SOCIAL DEMOCRATICO - RIO DE JANEIRO - RJ - ESTADUAL",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4594"
+      "entityId": "e4532"
     },
     {
       "id": 16,
       "name": "PAULO SERGIO COUTINHO GALVAO FILHO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4606"
+      "entityId": "e4544"
+    },
+    {
+      "id": 33,
+      "name": "POSTO CATEDRAL LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4559"
+    },
+    {
+      "id": 42,
+      "name": "POSTO DE ABASTECIMENTO FUNDAO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4567"
+    },
+    {
+      "id": 35,
+      "name": "POSTO DE COMB JARDIM SULACAP LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4561"
+    },
+    {
+      "id": 47,
+      "name": "POSTO DE GASOLINA DOM PEDRO II LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4569"
     },
     {
       "id": 34,
-      "name": "RAMAL",
+      "name": "POSTO DE GASOLINA JOCKEY RIO LTDA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e10"
+      "entityId": "e4560"
+    },
+    {
+      "id": 43,
+      "name": "POSTO DE GASOLINA SAO LUIZ GONZAGA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4568"
+    },
+    {
+      "id": 49,
+      "name": "POSTO SANTA CLARA DE BARRA MANSA ABAST. DE COMB. LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4571"
     },
     {
       "id": 8,
       "name": "ROGERIO CHOR",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4599"
+      "entityId": "e4537"
     },
     {
       "id": 24,
       "name": "ROSA MARIA LISBOA KLABIN",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4614"
+      "entityId": "e4552"
     },
     {
-      "id": 29,
-      "name": "SERVIA O NACIONAL DE APREND. COMERCIAL",
+      "id": 44,
+      "name": "SERVICO NACIONAL DE APREND. COMERCIAL",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e150"
+      "entityId": "e2002"
     },
     {
-      "id": 32,
-      "name": "SINPETAXI",
+      "id": 50,
+      "name": "SOCAPE SOCIEDADE CAXIENSE DE PETROLEO LTDA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e1185"
+      "entityId": "e4572"
     },
     {
-      "id": 35,
+      "id": 51,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 33,
-      "name": "TAIOBA SELF-SERVICE LTDA EPP",
+      "id": 29,
+      "name": "TECHMAXX - COMERCIO, SERVICOS DE INSTALACAO, MANUTENCAO E REPARACAO LTDA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e2847"
+      "entityId": "e4557"
     },
     {
-      "id": 26,
-      "name": "TAM",
+      "id": 37,
+      "name": "TECIDOS E ARMARINHO 253 COM E IND DE ART",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e4616"
+      "entityId": "e4562"
     },
     {
       "id": 9,
       "name": "TOMAS DA VEIGA PEREIRA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4600"
+      "entityId": "e4538"
     },
     {
-      "id": 31,
-      "name": "TÁXI LEGAL",
-      "category": "supplier",
-      "connectionCount": 1,
-      "entityId": "e1191"
-    },
-    {
-      "id": 28,
+      "id": 46,
       "name": "UBER DO BRASIL TECNOLOGIA LTDA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e213"
+      "entityId": "e214"
     },
     {
       "id": 25,
       "name": "VICTOR JORGE SNABAITIS BOMFIM",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4615"
+      "entityId": "e4553"
     },
     {
       "id": 19,
       "name": "WOLFF KLABIN",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e4609"
+      "entityId": "e4547"
     }
   ],
   "links": [
@@ -496,7 +608,7 @@
       "source": 220614,
       "target": 26,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$14.057,68 (10 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 30/01/2025–19/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$57.618,08 (5 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 01/04/2026–06/07/2026)",
       "strength": 1
     },
     {
@@ -504,7 +616,7 @@
       "source": 220614,
       "target": 27,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$12.596,67 (7 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 22/01/2025–27/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$22.700,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 29/05/2026)",
       "strength": 1
     },
     {
@@ -512,7 +624,7 @@
       "source": 220614,
       "target": 28,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$270,92 (7 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 01/02/2025–20/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$13.995,77 (4 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 30/06/2026–03/08/2026)",
       "strength": 1
     },
     {
@@ -520,7 +632,7 @@
       "source": 220614,
       "target": 29,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$88,22 (1 lançamento; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 11/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$7.842,00 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 26/06/2026–22/07/2026)",
       "strength": 1
     },
     {
@@ -528,7 +640,7 @@
       "source": 220614,
       "target": 30,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$80,00 (1 lançamento; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 01/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.699,31 (34 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/04/2026–26/08/2026)",
       "strength": 1
     },
     {
@@ -536,7 +648,7 @@
       "source": 220614,
       "target": 31,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$80,00 (2 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 11/02/2025–19/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.517,46 (3 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 06/05/2026–05/07/2026)",
       "strength": 1
     },
     {
@@ -544,7 +656,7 @@
       "source": 220614,
       "target": 32,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$60,00 (1 lançamento; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 25/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.134,12 (1 lançamento; tipo: SERVIÇOS POSTAIS; período: 05/06/2026)",
       "strength": 1
     },
     {
@@ -552,7 +664,7 @@
       "source": 220614,
       "target": 33,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$47,38 (1 lançamento; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 19/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.515,42 (14 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/05/2026–24/08/2026)",
       "strength": 1
     },
     {
@@ -560,37 +672,165 @@
       "source": 220614,
       "target": 34,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$0,47 (2 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.184,57 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/05/2026–15/08/2026)",
       "strength": 1
     },
     {
       "id": 35,
       "source": 220614,
       "target": 35,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$57.584.134,00 empenhado, R$51.733.002,00 pago (13 emendas; 2024–2025)",
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.038,00 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 23/05/2026–24/08/2026)",
       "strength": 1
     },
     {
       "id": 36,
       "source": 220614,
       "target": 36,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Educação: R$16.673.398,00 empenhado, R$7.044.576,00 pago (7 emendas; 2024–2025)",
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.029,30 (3 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 02/06/2026–03/06/2026)",
       "strength": 1
     },
     {
       "id": 37,
       "source": 220614,
       "target": 37,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2024)",
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$889,94 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 02/06/2026)",
       "strength": 1
     },
     {
       "id": 38,
       "source": 220614,
       "target": 38,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$688,00 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 07/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 220614,
+      "target": 39,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$449,54 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/05/2026–20/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 220614,
+      "target": 40,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$440,00 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 16/04/2026–28/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 220614,
+      "target": 41,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$403,15 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 09/04/2026)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 220614,
+      "target": 42,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$400,06 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 24/04/2026–15/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 220614,
+      "target": 43,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$380,00 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/07/2026–23/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 220614,
+      "target": 44,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$350,76 (4 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 08/04/2026–09/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 220614,
+      "target": 45,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$341,17 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 22/07/2026–14/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 220614,
+      "target": 46,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$324,60 (12 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 09/04/2026–27/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 220614,
+      "target": 47,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$320,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/05/2026–10/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 220614,
+      "target": 48,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$300,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 18/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 220614,
+      "target": 49,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$298,09 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 29/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 220614,
+      "target": 50,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$285,07 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 220614,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$57.584.134,00 empenhado, R$51.733.002,00 pago (13 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 220614,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$16.673.398,00 empenhado, R$7.044.576,00 pago (7 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 220614,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$500.000,00 empenhado, R$500.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 220614,
+      "target": 54,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Cultura: R$390.000,00 empenhado, R$390.000,00 pago (1 emenda; 2025)",
       "strength": 1

@@ -4,18 +4,20 @@
     "egoName": "Itamar Paim",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-07-17T04:22:52.841661Z",
+    "generatedAt": "2026-09-04T03:41:29.057640Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
     "sourceCoverage": {
-      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/09/2026",
+      "camara_ceap": "ano 2026; coleta local em 04/09/2026",
       "receita": "snapshot 2023-05",
       "tse": "eleições 2022"
     },
-    "summary": "Nos registros disponíveis para este mandato, a principal movimentação financeira documentada são as doações de campanha de 2022, totalizando R$ 462 mil de três doadores.",
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -23,35 +25,161 @@
       "id": 225846,
       "name": "Itamar Paim",
       "category": "politician",
-      "connectionCount": 4
+      "connectionCount": 22
+    },
+    {
+      "id": 19,
+      "name": "AUTO POSTO CONCORDE LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e957"
+    },
+    {
+      "id": 18,
+      "name": "AUTO POSTO DAKOTA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7116"
+    },
+    {
+      "id": 10,
+      "name": "AUTO POSTO ROSEIRA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7111"
+    },
+    {
+      "id": 13,
+      "name": "BELIZE COMPANY AUTO POSTO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e674"
+    },
+    {
+      "id": 21,
+      "name": "C.B. BRASILIA COMERCIO DE ALIMENTOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7117"
+    },
+    {
+      "id": 6,
+      "name": "CALGAN EDITORA GRAFICA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7107"
     },
     {
       "id": 4,
       "name": "DENIFLEX COMERCIO DE PERSIANAS LTDA ME",
       "category": "company",
       "connectionCount": 1,
-      "entityId": "e7098"
+      "entityId": "e7106"
+    },
+    {
+      "id": 22,
+      "name": "ESMANIOTTO RESTAURANTE LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7118"
+    },
+    {
+      "id": 20,
+      "name": "ESPLANADA EVENTOS RESTAURANTE E DELIVERY EIRELI",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e2814"
+    },
+    {
+      "id": 7,
+      "name": "Freegrafatividades Graficas Eireli - ME",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7108"
     },
     {
       "id": 3,
       "name": "ITAMAR PAIM PRUCH",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e7097"
+      "entityId": "e7105"
+    },
+    {
+      "id": 5,
+      "name": "MOVIDA PARTICIPACOES S.A",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e215"
     },
     {
       "id": 1,
       "name": "PARTIDO LIBERAL (PL)",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e129"
+      "entityId": "e133"
     },
     {
       "id": 2,
       "name": "PARTIDO LIBERAL - PARANA - PR - ESTADUAL",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e7096"
+      "entityId": "e7104"
+    },
+    {
+      "id": 15,
+      "name": "PHE HOTELARIA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7113"
+    },
+    {
+      "id": 12,
+      "name": "POSTO MARU S A - 2",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7112"
+    },
+    {
+      "id": 11,
+      "name": "REDE QUALITY COMERCIO DE COMBUSTIVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e755"
+    },
+    {
+      "id": 17,
+      "name": "ROBASSA COMERCIO DE GASOLINA E PRODUTOS AGRICOLAS",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7115"
+    },
+    {
+      "id": 8,
+      "name": "SEGLINE SEGURANCA E VIGILANCIA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7109"
+    },
+    {
+      "id": 14,
+      "name": "SERVICO NACIONAL DE APREND. COMERCIAL",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e2002"
+    },
+    {
+      "id": 9,
+      "name": "ana paula simao cardoso de moura",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7110"
+    },
+    {
+      "id": 16,
+      "name": "hotel slim guarapuava ltda",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7114"
     }
   ],
   "links": [
@@ -85,6 +213,150 @@
       "target": 4,
       "connectionType": "socio",
       "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 28/05/2007",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 225846,
+      "target": 5,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$31.405,12 (4 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 28/05/2026–24/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 225846,
+      "target": 6,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$24.284,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 01/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 225846,
+      "target": 7,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$18.525,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 27/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 8,
+      "source": 225846,
+      "target": 8,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$15.800,00 (2 lançamentos; tipo: SERVIÇO DE SEGURANÇA PRESTADO POR EMPRESA ESPECIALIZADA.; período: 03/07/2026–05/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 9,
+      "source": 225846,
+      "target": 9,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.400,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 02/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 10,
+      "source": 225846,
+      "target": 10,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.501,27 (9 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 25/05/2026–16/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 11,
+      "source": 225846,
+      "target": 11,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.428,00 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 18/05/2026–31/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 12,
+      "source": 225846,
+      "target": 12,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.021,05 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 15/05/2026–07/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 13,
+      "source": 225846,
+      "target": 13,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$304,65 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 19/06/2026–30/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 225846,
+      "target": 14,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$300,18 (3 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 07/05/2026–19/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 225846,
+      "target": 15,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$284,09 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 09/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 225846,
+      "target": 16,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$269,85 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 10/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 225846,
+      "target": 17,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$262,19 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 30/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 225846,
+      "target": 18,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$249,50 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 15/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 225846,
+      "target": 19,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$225,13 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 15/07/2026–16/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 225846,
+      "target": 20,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$223,87 (2 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 06/05/2026–26/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 225846,
+      "target": 21,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$165,50 (1 lançamento; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 17/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 22,
+      "source": 225846,
+      "target": 22,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$71,23 (1 lançamento; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 16/05/2026)",
       "strength": 1
     }
   ]

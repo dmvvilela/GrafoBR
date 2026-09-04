@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-17T04:23:23.261Z",
-  "snapshotGeneratedAt": "2026-07-17T01:23:01-03:00",
+  "generatedAt": "2026-09-04T19:43:39.743Z",
+  "snapshotGeneratedAt": "2026-09-04T00:41:33-03:00",
   "totals": {
     "profiles": 593,
-    "emptyGraphs": 10,
-    "nodes": 24049,
-    "links": 23456
+    "emptyGraphs": 11,
+    "nodes": 23900,
+    "links": 23308
   },
   "coverage": {
     "bySource": [
@@ -19,15 +19,15 @@
       },
       {
         "key": "tse",
-        "count": 512
+        "count": 511
       },
       {
         "key": "camara_ceap",
-        "count": 489
+        "count": 509
       },
       {
         "key": "receita",
-        "count": 339
+        "count": 338
       },
       {
         "key": "senado",
@@ -35,7 +35,7 @@
       },
       {
         "key": "transparencia",
-        "count": 7
+        "count": 8
       }
     ],
     "byChamber": [
@@ -51,19 +51,19 @@
     "byNodeCategory": [
       {
         "key": "supplier",
-        "count": 11088
+        "count": 10962
       },
       {
         "key": "donor",
-        "count": 7383
+        "count": 7399
       },
       {
         "key": "destino",
-        "count": 3901
+        "count": 3873
       },
       {
         "key": "company",
-        "count": 1077
+        "count": 1065
       },
       {
         "key": "politician",
@@ -71,29 +71,29 @@
       },
       {
         "key": "other",
-        "count": 7
+        "count": 8
       }
     ],
     "byConnectionType": [
       {
         "key": "despesa",
-        "count": 11088
+        "count": 10963
       },
       {
         "key": "doacao",
-        "count": 7383
+        "count": 7399
       },
       {
         "key": "emenda",
-        "count": 3901
+        "count": 3873
       },
       {
         "key": "socio",
-        "count": 1077
+        "count": 1065
       },
       {
         "key": "contrato",
-        "count": 7
+        "count": 8
       }
     ]
   },
@@ -129,7 +129,7 @@
       "id": "empty_graphs",
       "severity": "info",
       "label": "Perfis sem vínculos",
-      "count": 10,
+      "count": 11,
       "detail": "Ausência no recorte usado; não significa ausência de relações fora das fontes."
     },
     {
@@ -161,10 +161,11 @@
       906336,
       905906,
       904642,
-      906381,
       904811,
+      906359,
       905207,
       906025,
+      905974,
       905736
     ],
     "missingUf": [],

@@ -4,7 +4,7 @@
     "egoName": "Gabriel Mota",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-07-17T04:22:52.117721Z",
+    "generatedAt": "2026-09-04T03:41:28.537656Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,12 +12,12 @@
       "tse"
     ],
     "sourceCoverage": {
-      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
-      "camara_ceap": "ano 2025",
-      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/09/2026",
+      "camara_ceap": "ano 2026; coleta local em 04/09/2026",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 04/09/2026",
       "tse": "eleições 2022"
     },
-    "summary": "Os registros de emendas indicam R$ 74,4 milhões empenhados e R$ 61,6 milhões pagos em quatro áreas, com Saúde como principal. Há R$ 632 mil em despesas de cota e R$ 556 mil em doações de campanha em 2022.",
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -25,37 +25,44 @@
       "id": 224117,
       "name": "Gabriel Mota",
       "category": "politician",
-      "connectionCount": 18
+      "connectionCount": 17
+    },
+    {
+      "id": 9,
+      "name": "36.899.824 ANDERSON DE JESUS VIEIRA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e6047"
     },
     {
       "id": 6,
       "name": "ADILSON SOARES DE ALMEIDA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e6071"
+      "entityId": "e6044"
     },
     {
-      "id": 9,
-      "name": "CK INFO DESIGN E MIDIA SOCIAIS",
+      "id": 13,
+      "name": "AUTO POSTO AEROPORTO LTDA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e6074"
+      "entityId": "e419"
     },
     {
-      "id": 17,
+      "id": 11,
+      "name": "CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e22"
+    },
+    {
+      "id": 16,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 11,
-      "name": "EZEQUIEL BEZERRA DA SILVA",
-      "category": "supplier",
-      "connectionCount": 1,
-      "entityId": "e6076"
-    },
-    {
-      "id": 16,
+      "id": 15,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -65,89 +72,75 @@
       "name": "GABRIELLY REIS PESSOA MOTA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e6070"
-    },
-    {
-      "id": 13,
-      "name": "GOL",
-      "category": "supplier",
-      "connectionCount": 1,
-      "entityId": "e6078"
+      "entityId": "e6043"
     },
     {
       "id": 10,
       "name": "JESSYANE MATOS DE FREITAS",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e6075"
+      "entityId": "e6048"
     },
     {
       "id": 3,
       "name": "MARIA ALDENES MENDES DE SOUSA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e6068"
+      "entityId": "e6041"
     },
     {
       "id": 4,
       "name": "OLISMAR RIBEIRO DA SILVA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e6069"
+      "entityId": "e6042"
     },
     {
       "id": 7,
       "name": "POLIANA CINTYA DOS SANTOS",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e6072"
-    },
-    {
-      "id": 14,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1,
-      "entityId": "e10"
+      "entityId": "e6045"
     },
     {
       "id": 8,
       "name": "RAYSSA REIS PESSOA PICANCO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e6073"
+      "entityId": "e6046"
+    },
+    {
+      "id": 12,
+      "name": "REDE QUALITY II REPRESENTACAO DE COMBUSTIVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e6049"
     },
     {
       "id": 1,
       "name": "REPUBLICANOS - BRASIL - BR - NACIONAL",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e79"
+      "entityId": "e82"
     },
     {
       "id": 2,
       "name": "SUZY MEIRE REIS PICANCO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e6067"
+      "entityId": "e6040"
     },
     {
-      "id": 15,
+      "id": 14,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 18,
+      "id": 17,
       "name": "Segurança pública",
       "category": "destino",
       "connectionCount": 1
-    },
-    {
-      "id": 12,
-      "name": "TAM",
-      "category": "supplier",
-      "connectionCount": 1,
-      "entityId": "e6077"
     }
   ],
   "links": [
@@ -220,7 +213,7 @@
       "source": 224117,
       "target": 9,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$450.000,00 (24 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 23/01/2025–05/01/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$260.350,00 (13 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 13/01/2026–20/07/2026)",
       "strength": 1
     },
     {
@@ -228,7 +221,7 @@
       "source": 224117,
       "target": 10,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$112.000,00 (8 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 08/05/2025–22/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$70.000,00 (5 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 13/01/2026–15/05/2026)",
       "strength": 1
     },
     {
@@ -236,7 +229,7 @@
       "source": 224117,
       "target": 11,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$42.000,00 (3 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 27/01/2025–10/03/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.298,69 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/06/2026–28/06/2026)",
       "strength": 1
     },
     {
@@ -244,7 +237,7 @@
       "source": 224117,
       "target": 12,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$25.803,10 (20 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 20/01/2025–14/07/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$256,55 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 04/07/2026)",
       "strength": 1
     },
     {
@@ -252,15 +245,15 @@
       "source": 224117,
       "target": 13,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.178,89 (1 lançamento; tipo: PASSAGEM AÉREA - SIGEPA; período: 27/02/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$200,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/07/2026)",
       "strength": 1
     },
     {
       "id": 14,
       "source": 224117,
       "target": 14,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$16,55 (8 lançamentos; tipo: TELEFONIA)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$36.857.979,00 empenhado, R$25.961.278,00 pago (7 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -268,7 +261,7 @@
       "source": 224117,
       "target": 15,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$36.857.979,00 empenhado, R$25.961.278,00 pago (7 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$35.773.783,00 empenhado, R$35.592.404,00 pago (3 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -276,21 +269,13 @@
       "source": 224117,
       "target": 16,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$35.773.783,00 empenhado, R$35.592.404,00 pago (3 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.000.000,00 empenhado (1 emenda; 2024)",
       "strength": 1
     },
     {
       "id": 17,
       "source": 224117,
       "target": 17,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.000.000,00 empenhado (1 emenda; 2024)",
-      "strength": 1
-    },
-    {
-      "id": 18,
-      "source": 224117,
-      "target": 18,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Segurança pública: R$779.954,00 empenhado (2 emendas; 2024–2025)",
       "strength": 1

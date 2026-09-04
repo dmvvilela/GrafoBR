@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import SourceFreshness from "@/components/SourceFreshness";
 import { getChanges, getIndex, getMeta, getObras, getQaReport, getSignals } from "@/lib/data";
 
 export const metadata: Metadata = {
@@ -99,6 +100,10 @@ export default async function DadosPage() {
           GrafoBR mostra conexões documentais; não calcula risco, culpa ou intenção.
         </p>
       </header>
+
+      <div id="atualizacao" className="scroll-mt-24">
+        <SourceFreshness generatedAt={meta?.generatedAt} coverage={meta?.sourceCoverage} />
+      </div>
 
       <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         <Stat label="Parlamentares" value={index.length} help={`${camara} deputados · ${senado} senadores`} />

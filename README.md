@@ -1,5 +1,13 @@
 # GrafoBR
 
+September 2026 additions: source-level freshness, persistent `/atualizacoes` history,
+`/eleicoes` with separate 2022/2026 views, an official-file importer for 2026, and reviewed
+press context on profiles. The core snapshot covers **593 profiles (512 deputies and 81
+senators)**. Live 2026 files are not yet imported: the TSE CDN returned HTTP 403 here.
+See [`docs/REFRESH.md`](docs/REFRESH.md) for current commands and limitations. GitHub
+Actions scheduling remains disabled; no GrafoBR refresh job was found in the Cloudflare
+account inspected on September 4 (the scheduled Workers there belong to other projects).
+
 **An open, static graph of Brazilian federal deputies and their public-data connections.**
 
 GrafoBR joins Brazil's already-public government data — campaign donations, company
@@ -25,8 +33,9 @@ The interesting signal is the **chain**: a deputy who co-owns a company that won
 contract. That pattern is rare and worth a journalist's attention — exactly what the tool
 makes findable.
 
-Current build: **512 sitting deputies**, ~7.4k donation + ~1.1k ownership + a handful of
-contract edges, served as static files. *(Sócios are the 2023-05 Receita release; contracts
+Current local build (September 4, 2026): **512 sitting deputies and 81 senators**, ~7.4k
+donation + ~1.1k ownership + a handful of contract edges, served as static files.
+*(Sócios are the 2023-05 Receita release; contracts
 are federal-executive only — so this is a floor, not a ceiling, of what's there.)*
 
 ## How it works
@@ -60,7 +69,7 @@ cd pipeline && python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt google-cloud-bigquery db-dtypes
 python scripts/download_cnpj_files.py        # ~1.6GB, one-time
 gcloud auth application-default login        # for contracts via BigQuery
-bash scripts/build_all.sh 512                # -> ../data/*.json
+bash scripts/build_all.sh 512 2026           # -> ../data/*.json
 ```
 
 Deploy: `cd web && vercel` (Next.js SSG — Vercel serves it natively, no CI needed).

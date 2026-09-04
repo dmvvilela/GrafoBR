@@ -9,13 +9,19 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const srcDir = path.resolve(here, "../../data"); // repo-root /data
 const outDir = path.resolve(here, "../public/data"); // web/public/data
 
+await mkdir(outDir, { recursive: true });
+// An election import is independent of a full core rebuild. This also works in
+// a clean checkout, where only the committed public core snapshot exists.
+for (const file of ["_elections-2026.json"]) {
+  if (existsSync(path.join(srcDir, file))) await copyFile(path.join(srcDir, file), path.join(outDir, file));
+}
+
 if (!existsSync(path.join(srcDir, "index.json"))) {
   console.warn(`[sync-data] no complete pipeline snapshot at ${srcDir} — keeping committed data`);
   process.exit(0);
 }
 
-await mkdir(outDir, { recursive: true });
-const buildOnly = new Set(["_emenda-destinations.json"]);
+const buildOnly = new Set(["_emenda-destinations.json", "_updates.json", "_updates-state.json", "_press.json", "_signals.json", "_changes.json"]);
 const files = (await readdir(srcDir)).filter(
   (f) => f.endsWith(".json") && !buildOnly.has(f),
 );

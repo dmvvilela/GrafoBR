@@ -4,7 +4,7 @@
     "egoName": "Silvio Costa Filho",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-07-17T04:22:56.677174Z",
+    "generatedAt": "2026-09-04T03:41:32.219660Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -13,13 +13,13 @@
       "tse"
     ],
     "sourceCoverage": {
-      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
-      "camara_ceap": "ano 2025",
-      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/09/2026",
+      "camara_ceap": "ano 2026; coleta local em 04/09/2026",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 04/09/2026",
       "receita": "snapshot 2023-05",
       "tse": "eleições 2022"
     },
-    "summary": "As emendas a partir de 2023 indicam R$ 32,1 milhões empenhados e R$ 31,7 milhões pagos em três áreas, principalmente Saúde. A campanha de 2022 arrecadou R$ 2,7 milhões de 14 doadores.",
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -27,38 +27,59 @@
       "id": 204425,
       "name": "Silvio Costa Filho",
       "category": "politician",
-      "connectionCount": 22
+      "connectionCount": 29
     },
     {
       "id": 7,
       "name": "#NULO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e13176"
+      "entityId": "e13063"
+    },
+    {
+      "id": 23,
+      "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e22"
     },
     {
       "id": 14,
       "name": "ADOLPHO LINDENBERG FILHO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e13183"
+      "entityId": "e13070"
+    },
+    {
+      "id": 21,
+      "name": "ALDAN ASSESSORIA E PARTICIPACOES LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e13076"
     },
     {
       "id": 8,
       "name": "ANDRE CAVALCANTI ROSA E SILVA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e13177"
+      "entityId": "e13064"
     },
     {
       "id": 9,
       "name": "ANTONIO BENEVOLO DO AMARAL CARRILHO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e13178"
+      "entityId": "e13065"
     },
     {
-      "id": 22,
+      "id": 25,
+      "name": "AUTO POSTO CONCORDE LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e957"
+    },
+    {
+      "id": 29,
       "name": "Agricultura",
       "category": "destino",
       "connectionCount": 1
@@ -68,10 +89,31 @@
       "name": "CENTRO EDUCACIONAL COSTA E GONCALVES LTDA",
       "category": "company",
       "connectionCount": 1,
-      "entityId": "e13184"
+      "entityId": "e13071"
     },
     {
-      "id": 21,
+      "id": 20,
+      "name": "DB Transporte e Locadora de Veículos LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e13075"
+    },
+    {
+      "id": 24,
+      "name": "DRA4 DERIVADOS DE PETROLEO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e676"
+    },
+    {
+      "id": 19,
+      "name": "E P M LOCADORA DE VEICULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7169"
+    },
+    {
+      "id": 28,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -81,104 +123,111 @@
       "name": "GRUPO EDUCACIONAL DO CARPINA LTDA",
       "category": "company",
       "connectionCount": 1,
-      "entityId": "e13185"
+      "entityId": "e13072"
     },
     {
       "id": 17,
       "name": "GRUPO EDUCACIONAL MATA NORTE LTDA",
       "category": "company",
       "connectionCount": 1,
-      "entityId": "e13186"
+      "entityId": "e13073"
     },
     {
       "id": 11,
       "name": "HUMBERTO BARBATO NETO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e13180"
+      "entityId": "e13067"
     },
     {
       "id": 5,
       "name": "INACIO DE BARROS MELO NETO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e1654"
+      "entityId": "e1629"
     },
     {
       "id": 13,
       "name": "MARIA GABRIELLA NEUENSCHWANDER PERAZZO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e13182"
+      "entityId": "e13069"
     },
     {
       "id": 2,
       "name": "NEIDE SANCHES FERNANDES",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e2558"
+      "entityId": "e2555"
     },
     {
       "id": 12,
       "name": "PEDRO EVERTON SCHWAMBACH",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e13181"
+      "entityId": "e13068"
     },
     {
-      "id": 19,
-      "name": "RAMAL",
+      "id": 26,
+      "name": "Posto de Combustiveis Garantia Ltda",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e10"
+      "entityId": "e1839"
     },
     {
       "id": 6,
       "name": "RENATO FEITOSA RIQUE",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e1692"
+      "entityId": "e1667"
     },
     {
       "id": 1,
       "name": "REPUBLICANOS - BRASIL - BR - NACIONAL",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e79"
+      "entityId": "e82"
     },
     {
       "id": 4,
       "name": "REPUBLICANOS - PERNAMBUCO - PE - ESTADUAL",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e1655"
+      "entityId": "e1630"
     },
     {
       "id": 10,
       "name": "RICARDO DO AMARAL CARRILHO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e13179"
+      "entityId": "e13066"
     },
     {
       "id": 3,
       "name": "RUBENS OMETTO SILVEIRA MELLO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e461"
+      "entityId": "e469"
     },
     {
       "id": 18,
       "name": "SOCIEDADE SERAFIM COSTA CAVALCANTI ADMINISTRADORA DE IMOVEIS LTDA",
       "category": "company",
       "connectionCount": 1,
-      "entityId": "e13187"
+      "entityId": "e13074"
     },
     {
-      "id": 20,
+      "id": 27,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
+    },
+    {
+      "id": 22,
+      "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e156"
     }
   ],
   "links": [
@@ -331,29 +380,85 @@
       "source": 204425,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$0,07 (1 lançamento; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$30.000,00 (2 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 15/05/2026–09/06/2026)",
       "strength": 1
     },
     {
       "id": 20,
       "source": 204425,
       "target": 20,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$16.055.469,00 empenhado, R$16.013.908,00 pago (4 emendas; 2023)",
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.600,00 (2 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 29/04/2026–12/05/2026)",
       "strength": 1
     },
     {
       "id": 21,
       "source": 204425,
       "target": 21,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$15.640.408,00 empenhado, R$15.640.408,00 pago (1 emenda; 2023)",
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.119,00 (2 lançamentos; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 09/04/2026–13/05/2026)",
       "strength": 1
     },
     {
       "id": 22,
       "source": 204425,
       "target": 22,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.157,20 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 11/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 204425,
+      "target": 23,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.038,60 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/04/2026–29/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 24,
+      "source": 204425,
+      "target": 24,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$500,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 13/04/2026–14/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 204425,
+      "target": 25,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$250,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 26/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 204425,
+      "target": 26,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$250,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 204425,
+      "target": 27,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$16.055.469,00 empenhado, R$16.013.908,00 pago (4 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 204425,
+      "target": 28,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$15.640.408,00 empenhado, R$15.640.408,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 204425,
+      "target": 29,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Agricultura: R$407.236,00 empenhado (1 emenda; 2023)",
       "strength": 1

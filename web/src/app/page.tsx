@@ -1,6 +1,6 @@
 import {
   getCeapTrails,
-  getChanges,
+  getUpdates,
   getEmendaTrails,
   getHighlights,
   getIndex,
@@ -9,8 +9,9 @@ import {
 } from "@/lib/data";
 import SearchDirectory from "@/components/SearchDirectory";
 import MoneyTrails from "@/components/MoneyTrails";
-import SnapshotChanges from "@/components/SnapshotChanges";
+import UpdatesFeed from "@/components/UpdatesFeed";
 import SnapshotSignals from "@/components/SnapshotSignals";
+import SourceFreshness from "@/components/SourceFreshness";
 
 function formatUpdated(iso?: string): string | null {
   if (!iso) return null;
@@ -31,7 +32,7 @@ export default async function Home() {
     getEmendaTrails(),
     getMeta(),
     getSignals(),
-    getChanges(),
+    getUpdates(),
   ]);
   const updated = formatUpdated(meta?.generatedAt);
 
@@ -44,7 +45,7 @@ export default async function Home() {
           {updated && (
             <>
               {" · "}
-              <span className="text-zinc-500">atualizado em {updated}</span>
+              <span className="text-zinc-500">versão de {updated}</span>
             </>
           )}
         </div>
@@ -60,6 +61,8 @@ export default async function Home() {
         </p>
       </section>
 
+      <SourceFreshness generatedAt={meta?.generatedAt} coverage={meta?.sourceCoverage} compact />
+
       <MoneyTrails
         highlights={highlights}
         ceapTrails={ceapTrails}
@@ -68,7 +71,7 @@ export default async function Home() {
 
       <SnapshotSignals signals={signals} />
 
-      <SnapshotChanges changes={changes} />
+      <UpdatesFeed history={changes} preview />
 
       <SearchDirectory index={index} />
     </div>

@@ -1,7 +1,9 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getEgo, getIndex } from "@/lib/data";
+import { getEgo, getIndex, getElections, getPress } from "@/lib/data";
 import EgoView from "@/components/EgoView";
+import ProfileContext from "@/components/ProfileContext";
+import SourceFreshness from "@/components/SourceFreshness";
 
 export async function generateStaticParams() {
   const index = await getIndex();
@@ -36,5 +38,21 @@ export default async function PoliticoPage({
   const index = await getIndex();
   const entry = index.find((e) => String(e.id) === id) ?? null;
 
-  return <EgoView ego={ego} entry={entry} />;
+  const [elections, press] = await Promise.all([getElections(), getPress()]);
+  return (
+    <>
+      <EgoView ego={ego} entry={entry} />
+      <ProfileContext
+        snapshot={elections}
+        election={elections?.entries.find((e) => e.politicianId === Number(id))}
+        articles={press.filter((a) => a.politicianIds.includes(Number(id)))}
+      />
+      <div className="mt-5">
+        <SourceFreshness
+          generatedAt={ego.meta.generatedAt}
+          coverage={ego.meta.sourceCoverage}
+        />
+      </div>
+    </>
+  );
 }

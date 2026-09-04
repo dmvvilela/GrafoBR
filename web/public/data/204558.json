@@ -4,18 +4,20 @@
     "egoName": "Marcelo Nilo",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-07-17T04:22:54.189661Z",
+    "generatedAt": "2026-09-04T03:41:30.308561Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
     "sourceCoverage": {
-      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
-      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/09/2026",
+      "camara_ceap": "ano 2026; coleta local em 04/09/2026",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 04/09/2026",
       "tse": "eleições 2022"
     },
-    "summary": "Os registros públicos indicam R$ 32,1 milhões empenhados e R$ 32,1 milhões pagos em duas áreas. A campanha de 2022 arrecadou R$ 2,6 milhões de 6 doadores.",
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -23,61 +25,236 @@
       "id": 204558,
       "name": "Marcelo Nilo",
       "category": "politician",
-      "connectionCount": 8
+      "connectionCount": 33
+    },
+    {
+      "id": 21,
+      "name": "072 - 403 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e22"
+    },
+    {
+      "id": 11,
+      "name": "66.748.580 TASSO GOMES DA SILVA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e807"
     },
     {
       "id": 2,
       "name": "ALEXANDRE VICENTE DE PAULA ALMEIDA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e9340"
+      "entityId": "e9351"
+    },
+    {
+      "id": 23,
+      "name": "ALPHA COMERCIO E DERIVADOS DE PETROLEO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4291"
+    },
+    {
+      "id": 12,
+      "name": "ATENDE TECNOLOGIA SERVICOS E LOCACOES LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e9358"
+    },
+    {
+      "id": 25,
+      "name": "AUTO POSTO CINCO ESTRELAS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e71"
+    },
+    {
+      "id": 10,
+      "name": "B3 CINE VIDEO LTDA - ME",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e9357"
+    },
+    {
+      "id": 14,
+      "name": "CATEGORIA ECOPOSTOS COMBUSTIVEIS E SERVICOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e288"
+    },
+    {
+      "id": 22,
+      "name": "DEUSREI - COMBUSTIVEIS E LUBRIFICANTES LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e9362"
+    },
+    {
+      "id": 20,
+      "name": "DO SUL RESTAURANTE LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8953"
     },
     {
       "id": 4,
       "name": "EDVALDO NILO DE ALMEIDA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e1067"
+      "entityId": "e1033"
     },
     {
-      "id": 8,
+      "id": 33,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
+    },
+    {
+      "id": 7,
+      "name": "FLAVIA MANUELA OLIVEIRA SIMOES DE CASTRO",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e9355"
+    },
+    {
+      "id": 17,
+      "name": "HP COMERCIO E DERIVADOS DE PETROLEO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e292"
+    },
+    {
+      "id": 31,
+      "name": "JAILTON SANTANA LISBOA(POSTO JJ)",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e9366"
     },
     {
       "id": 6,
       "name": "JOSE MARCELO DO NASCIMENTO NILO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e9343"
+      "entityId": "e9354"
+    },
+    {
+      "id": 13,
+      "name": "MAIS OBJETIVO MARKETING LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e9359"
+    },
+    {
+      "id": 24,
+      "name": "MP COMERCIO DE COMBUSTIVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7715"
+    },
+    {
+      "id": 8,
+      "name": "PANTANAL VEÍCULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e286"
+    },
+    {
+      "id": 15,
+      "name": "PNH COMERCIO DE COMBUSTIVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e2324"
+    },
+    {
+      "id": 28,
+      "name": "POSTO DE COMBUSTIVEIS SANCA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e2323"
+    },
+    {
+      "id": 19,
+      "name": "POSTO NOVO HORIZONTE LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e6080"
+    },
+    {
+      "id": 26,
+      "name": "POSTO QUATRO RODAS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e9363"
+    },
+    {
+      "id": 29,
+      "name": "POSTO TIGRAO COMERCIO DE COMBUSTIVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e9365"
     },
     {
       "id": 5,
       "name": "REPUBLICANOS - BAHIA - ESTADUAL",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e9342"
+      "entityId": "e9353"
     },
     {
       "id": 1,
       "name": "REPUBLICANOS - BRASIL - BR - NACIONAL",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e79"
+      "entityId": "e82"
     },
     {
       "id": 3,
       "name": "RITA DE CASSIA NILO DE ALMEIDA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e9341"
+      "entityId": "e9352"
     },
     {
-      "id": 7,
+      "id": 16,
+      "name": "SABBA COMBUSTIVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e9360"
+    },
+    {
+      "id": 30,
+      "name": "SOBRAL &amp; FILHOS COMERCIO DE COMBUSTIVEIS LTDA - PSG2",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e6077"
+    },
+    {
+      "id": 32,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
+    },
+    {
+      "id": 9,
+      "name": "TMT SERVICOS, LOCACOES E PRODUCOES LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e9356"
+    },
+    {
+      "id": 18,
+      "name": "TOP GLAMOUR VIAGENS E TURISMO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e9361"
+    },
+    {
+      "id": 27,
+      "name": "WF3 COMERCIO DE COMBUSTIVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e9364"
     }
   ],
   "links": [
@@ -133,14 +310,214 @@
       "id": 7,
       "source": 204558,
       "target": 7,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$16.053.328,00 empenhado, R$16.053.328,00 pago (1 emenda; 2023)",
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$37.000,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 29/04/2026–01/06/2026)",
       "strength": 1
     },
     {
       "id": 8,
       "source": 204558,
       "target": 8,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$33.600,00 (4 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 19/05/2026–04/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 9,
+      "source": 204558,
+      "target": 9,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$28.710,00 (3 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 30/06/2026–30/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 10,
+      "source": 204558,
+      "target": 10,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$25.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 03/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 11,
+      "source": 204558,
+      "target": 11,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$12.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 23/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 12,
+      "source": 204558,
+      "target": 12,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8.655,00 (1 lançamento; tipo: SERVIÇO DE SEGURANÇA PRESTADO POR EMPRESA ESPECIALIZADA.; período: 10/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 13,
+      "source": 204558,
+      "target": 13,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.500,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 03/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 204558,
+      "target": 14,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.660,24 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/04/2026–29/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 204558,
+      "target": 15,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.484,35 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/05/2026–17/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 204558,
+      "target": 16,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.395,39 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 29/06/2026–19/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 204558,
+      "target": 17,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.385,80 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/06/2026–18/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 204558,
+      "target": 18,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.382,00 (1 lançamento; tipo: PASSAGEM AÉREA - REEMBOLSO; período: 08/04/2026)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 204558,
+      "target": 19,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.320,73 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 05/05/2026–23/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 204558,
+      "target": 20,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$731,46 (13 lançamentos; tipo: FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR; período: 09/04/2026–03/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 204558,
+      "target": 21,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$721,86 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/04/2026–20/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 22,
+      "source": 204558,
+      "target": 22,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$612,58 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 23/04/2026–28/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 204558,
+      "target": 23,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$567,71 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 27/07/2026–31/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 24,
+      "source": 204558,
+      "target": 24,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$547,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 13/07/2026–21/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 204558,
+      "target": 25,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$540,73 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 28/04/2026–10/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 204558,
+      "target": 26,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$519,31 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 204558,
+      "target": 27,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$507,61 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/07/2026–19/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 204558,
+      "target": 28,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$500,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/08/2026–13/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 204558,
+      "target": 29,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$466,68 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 22/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 204558,
+      "target": 30,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$453,26 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 20/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 204558,
+      "target": 31,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$440,11 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 13/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 204558,
+      "target": 32,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$16.053.328,00 empenhado, R$16.053.328,00 pago (1 emenda; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 204558,
+      "target": 33,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Encargos especiais: R$16.050.072,00 empenhado, R$16.050.072,00 pago (1 emenda; 2023)",
       "strength": 1

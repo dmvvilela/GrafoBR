@@ -51,7 +51,7 @@ run -m grafobr_pipeline.run --limit "$LIMIT" \
   --senators
 
 echo "[meta] stamp data freshness (-> ../data/_meta.json)..."
-run scripts/write_meta.py
+run scripts/write_meta.py --ceap-year "$CEAP_YEAR"
 
 echo "=== edge counts ==="
 grep -oh '"connectionType": "[a-z]*"' ../data/*.json | sort | uniq -c

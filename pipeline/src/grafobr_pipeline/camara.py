@@ -17,6 +17,7 @@ from pathlib import Path
 from typing import Any, Iterable, Optional
 
 import httpx
+from .freshness import cache_is_fresh
 
 CAMARA_API = "https://dadosabertos.camara.leg.br/api/v2"
 CEAP_CSV_ZIP_URL = "https://www.camara.leg.br/cotas/Ano-{year}.csv.zip"
@@ -86,7 +87,7 @@ def _download_file(
     *,
     attempts: int = 4,
 ) -> Path:
-    if output_path.exists() and output_path.stat().st_size > 0:
+    if cache_is_fresh(output_path):
         return output_path
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -119,7 +120,7 @@ def _cached_json(
     url: str,
     params: Optional[dict[str, Any]] = None,
 ) -> Any:
-    if cache_path.exists() and cache_path.stat().st_size > 0:
+    if cache_is_fresh(cache_path):
         return _read_json(cache_path)
     payload = _get_json(client, url, params=params)
     _write_json(cache_path, payload)

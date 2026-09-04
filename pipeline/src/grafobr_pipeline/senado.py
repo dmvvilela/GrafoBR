@@ -19,6 +19,7 @@ from pathlib import Path
 from typing import Optional
 
 import httpx
+from .freshness import cache_is_fresh
 
 SENADO_API = "https://legis.senado.leg.br/dadosabertos"
 SENATOR_ID_OFFSET = 900_000
@@ -43,7 +44,7 @@ def fetch_current_senators(cache_dir: str | Path = ".cache") -> list[Senator]:
     cache.mkdir(parents=True, exist_ok=True)
     path = cache / "senadores_atual.json"
 
-    if path.exists() and path.stat().st_size > 0:
+    if cache_is_fresh(path):
         data = json.loads(path.read_text(encoding="utf-8"))
     else:
         headers = {"Accept": "application/json", "User-Agent": "GrafoBR/1.0"}
@@ -60,7 +61,9 @@ def fetch_current_senators(cache_dir: str | Path = ".cache") -> list[Senator]:
                     if attempt == 4:
                         raise RuntimeError("failed to fetch Senado list") from last
                     time.sleep(0.5 * 2 ** (attempt - 1))
-        path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+        temp = path.with_suffix(".tmp")
+        temp.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+        temp.replace(path)
 
     parls = data["ListaParlamentarEmExercicio"]["Parlamentares"]["Parlamentar"]
     senators: list[Senator] = []

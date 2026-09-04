@@ -4,18 +4,20 @@
     "egoName": "Leandre",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-07-17T04:22:53.641236Z",
+    "generatedAt": "2026-09-04T03:41:29.840924Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "cgu_emendas",
       "tse"
     ],
     "sourceCoverage": {
-      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
-      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/09/2026",
+      "camara_ceap": "ano 2026; coleta local em 04/09/2026",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 04/09/2026",
       "tse": "eleições 2022"
     },
-    "summary": "Entre as emendas de 2023 em diante, constam R$ 106,8 milhões empenhados e R$ 89,0 milhões pagos em oito áreas, com foco em Saúde. A campanha de 2022 recebeu R$ 2,2 milhões de 25 doadores.",
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -23,116 +25,193 @@
       "id": 178832,
       "name": "Leandre",
       "category": "politician",
-      "connectionCount": 33
+      "connectionCount": 58
+    },
+    {
+      "id": 38,
+      "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e22"
     },
     {
       "id": 4,
       "name": "ADALGISA LOUREIRO DE MELLO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8348"
+      "entityId": "e8341"
+    },
+    {
+      "id": 39,
+      "name": "ADENIR RODOLFO TECCHIO & CIA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8372"
     },
     {
       "id": 5,
       "name": "ANA REGINA VIERO DEL GASPERIN",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8349"
+      "entityId": "e8342"
     },
     {
       "id": 16,
       "name": "ANDRE LUIS ZANATTA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8359"
+      "entityId": "e8352"
     },
     {
       "id": 23,
       "name": "ANNE CRISTINE GOMES DA SILVA CAVALI",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8366"
+      "entityId": "e8359"
     },
     {
       "id": 24,
       "name": "ANTONIO PEREIRA RODRIGUES",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8367"
+      "entityId": "e8360"
+    },
+    {
+      "id": 49,
+      "name": "APTEK AUDIOVISUAL LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8378"
+    },
+    {
+      "id": 42,
+      "name": "AUTO POSTO 405 NORTE LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e677"
+    },
+    {
+      "id": 48,
+      "name": "AUTO POSTO BLUE 32 LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e2040"
+    },
+    {
+      "id": 32,
+      "name": "AUTO POSTO COASUL - DOIS VIZINHOS",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8368"
     },
     {
       "id": 31,
+      "name": "AUTO POSTO NAPOLES LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8367"
+    },
+    {
+      "id": 36,
+      "name": "AUTO POSTO SOBUTKA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8370"
+    },
+    {
+      "id": 56,
       "name": "Agricultura",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 28,
+      "id": 53,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
+    },
+    {
+      "id": 28,
+      "name": "CARRO RESERVA PREVICAR LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8364"
     },
     {
       "id": 14,
       "name": "CLADIOVAN RUY DE OLIVEIRA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8357"
+      "entityId": "e8350"
     },
     {
       "id": 3,
       "name": "CLEOMAR DEL GASPERIN",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8347"
+      "entityId": "e8340"
+    },
+    {
+      "id": 29,
+      "name": "CRIART DIGITAL LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8365"
     },
     {
       "id": 11,
       "name": "DAGOBERTO WAYDZIK",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8354"
+      "entityId": "e8347"
     },
     {
       "id": 6,
       "name": "DEMOCRATIZE TECNOLOGIA LTDA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e283"
+      "entityId": "e272"
+    },
+    {
+      "id": 43,
+      "name": "DIPOL POSTOS DE COMBUSTIVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8375"
     },
     {
       "id": 22,
       "name": "DOUGLAS MATEUS ROSSA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8365"
+      "entityId": "e8358"
     },
     {
-      "id": 33,
+      "id": 58,
       "name": "Defesa nacional",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 29,
+      "id": 54,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 32,
+      "id": 57,
       "name": "Direitos da cidadania",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 30,
+      "id": 55,
       "name": "Educação",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 27,
+      "id": 52,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -142,111 +221,209 @@
       "name": "FLORES PILARSKI",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8356"
+      "entityId": "e8349"
     },
     {
       "id": 25,
       "name": "GILSON LAROCA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8368"
+      "entityId": "e8361"
+    },
+    {
+      "id": 40,
+      "name": "GP SISTEMAS E SERVICOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8373"
+    },
+    {
+      "id": 27,
+      "name": "HOPPE AGENCIA CRIATIVA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8363"
+    },
+    {
+      "id": 30,
+      "name": "JEED LOCADORA DE VEÍCULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8366"
     },
     {
       "id": 15,
       "name": "JOAO CORA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8358"
+      "entityId": "e8351"
     },
     {
       "id": 7,
       "name": "JOAO PAULO PEREIRA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8350"
+      "entityId": "e8343"
     },
     {
       "id": 10,
       "name": "JOSEMIR RODRIGUES DA ROSA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8353"
+      "entityId": "e8346"
     },
     {
       "id": 17,
       "name": "KLEVERSON AKIHITO TAKAHASHI",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8360"
+      "entityId": "e8353"
     },
     {
       "id": 2,
       "name": "LEANDRE DAL PONTE",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8346"
+      "entityId": "e8339"
     },
     {
       "id": 18,
       "name": "MARIA APARECIDA TARACHUK SCHILIGA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8361"
+      "entityId": "e8354"
     },
     {
       "id": 9,
       "name": "MARIANO BOICO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8352"
+      "entityId": "e8345"
     },
     {
       "id": 8,
       "name": "MARILENE APARECIDA SANTANA DE LARA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8351"
+      "entityId": "e8344"
     },
     {
       "id": 19,
       "name": "MAURI LUIZ CAVALHEIRO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8362"
+      "entityId": "e8355"
     },
     {
       "id": 20,
       "name": "MAURO DE OLIVEIRA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8363"
+      "entityId": "e8356"
     },
     {
       "id": 21,
       "name": "OSMARIO RODRIGUES FERREIRA FILHO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8364"
+      "entityId": "e8357"
+    },
+    {
+      "id": 50,
+      "name": "PAGNUSSAT COMERCIO DE COMBUSTIVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8379"
+    },
+    {
+      "id": 44,
+      "name": "PANDA AUTO POSTO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e6213"
+    },
+    {
+      "id": 33,
+      "name": "PARLANET WEB E TECNOLOGIA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e1700"
     },
     {
       "id": 1,
       "name": "PARTIDO SOCIAL DEMOCRATICO-PARANA-ESTADUAL",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e1989"
+      "entityId": "e1962"
     },
     {
       "id": 12,
       "name": "PAULO VICTOR PACHECO DONNER",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8355"
+      "entityId": "e8348"
     },
     {
-      "id": 26,
+      "id": 47,
+      "name": "POSTO TIGRAO",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8377"
+    },
+    {
+      "id": 34,
+      "name": "POSTO TIO ZICO REBOUCAS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8369"
+    },
+    {
+      "id": 46,
+      "name": "SAN RAFAEL COMBUSTÍVEIS",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8376"
+    },
+    {
+      "id": 37,
+      "name": "STANG & STANG LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8371"
+    },
+    {
+      "id": 41,
+      "name": "STOPETROLEO S.A-COM.E DER.DE PETR. LJ01",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8374"
+    },
+    {
+      "id": 51,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
+    },
+    {
+      "id": 45,
+      "name": "Starlink Brazil Serviços de Internet Ltda",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e148"
+    },
+    {
+      "id": 35,
+      "name": "TIM S A",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e1067"
+    },
+    {
+      "id": 26,
+      "name": "VINICIUS BULIGON",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e8362"
     }
   ],
   "links": [
@@ -454,62 +631,262 @@
       "id": 26,
       "source": 178832,
       "target": 26,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$57.038.156,00 empenhado, R$45.220.007,00 pago (12 emendas; 2023–2025)",
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$26.000,00 (4 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 29/04/2026–27/07/2026)",
       "strength": 1
     },
     {
       "id": 27,
       "source": 178832,
       "target": 27,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$32.547.705,00 empenhado, R$32.469.105,00 pago (3 emendas; 2023–2025)",
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$23.000,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 08/05/2026–02/06/2026)",
       "strength": 1
     },
     {
       "id": 28,
       "source": 178832,
       "target": 28,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$9.734.000,00 empenhado, R$8.106.391,00 pago (4 emendas; 2023–2025)",
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$17.500,00 (4 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 14/04/2026–29/06/2026)",
       "strength": 1
     },
     {
       "id": 29,
       "source": 178832,
       "target": 29,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Desporto e lazer: R$3.999.992,00 empenhado, R$1.649.000,00 pago (5 emendas; 2023–2025)",
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.500,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 03/06/2026)",
       "strength": 1
     },
     {
       "id": 30,
       "source": 178832,
       "target": 30,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Educação: R$1.599.396,00 empenhado, R$540.955,00 pago (5 emendas; 2023–2025)",
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.228,33 (2 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 09/06/2026–02/07/2026)",
       "strength": 1
     },
     {
       "id": 31,
       "source": 178832,
       "target": 31,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Agricultura: R$850.000,00 empenhado (1 emenda; 2025)",
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.490,30 (11 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 05/05/2026–01/08/2026)",
       "strength": 1
     },
     {
       "id": 32,
       "source": 178832,
       "target": 32,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Direitos da cidadania: R$800.000,00 empenhado, R$800.000,00 pago (2 emendas; 2023–2024)",
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.000,02 (8 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/05/2026–29/07/2026)",
       "strength": 1
     },
     {
       "id": 33,
       "source": 178832,
       "target": 33,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.900,00 (2 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 02/07/2026–15/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 178832,
+      "target": 34,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.531,97 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/06/2026–11/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 178832,
+      "target": 35,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.519,92 (4 lançamentos; tipo: TELEFONIA; período: 21/04/2026–21/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 178832,
+      "target": 36,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.465,02 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/04/2026–23/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 37,
+      "source": 178832,
+      "target": 37,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.400,00 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 15/04/2026–19/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 38,
+      "source": 178832,
+      "target": 38,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.289,97 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 08/04/2026–10/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 39,
+      "source": 178832,
+      "target": 39,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.195,01 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 09/04/2026–09/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 40,
+      "source": 178832,
+      "target": 40,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.141,00 (4 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 28/04/2026–05/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 41,
+      "source": 178832,
+      "target": 41,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.102,10 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/04/2026–28/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 42,
+      "source": 178832,
+      "target": 42,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.026,56 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 15/04/2026–01/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 43,
+      "source": 178832,
+      "target": 43,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$981,86 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/06/2026–01/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 44,
+      "source": 178832,
+      "target": 44,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$974,51 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 17/04/2026–31/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 45,
+      "source": 178832,
+      "target": 45,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$969,00 (3 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 28/04/2026–28/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 46,
+      "source": 178832,
+      "target": 46,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$966,03 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/05/2026–21/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 47,
+      "source": 178832,
+      "target": 47,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$952,59 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/04/2026–22/04/2026)",
+      "strength": 1
+    },
+    {
+      "id": 48,
+      "source": 178832,
+      "target": 48,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$860,48 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 22/04/2026–09/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 49,
+      "source": 178832,
+      "target": 49,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$850,67 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 21/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 50,
+      "source": 178832,
+      "target": 50,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$830,06 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 23/06/2026–03/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 51,
+      "source": 178832,
+      "target": 51,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$57.038.156,00 empenhado, R$45.220.007,00 pago (12 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 52,
+      "source": 178832,
+      "target": 52,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$32.547.705,00 empenhado, R$32.469.105,00 pago (3 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 53,
+      "source": 178832,
+      "target": 53,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$9.734.000,00 empenhado, R$8.106.391,00 pago (4 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 54,
+      "source": 178832,
+      "target": 54,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$3.999.992,00 empenhado, R$1.649.000,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 55,
+      "source": 178832,
+      "target": 55,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Educação: R$1.599.396,00 empenhado, R$540.955,00 pago (5 emendas; 2023–2025)",
+      "strength": 1
+    },
+    {
+      "id": 56,
+      "source": 178832,
+      "target": 56,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$850.000,00 empenhado (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 57,
+      "source": 178832,
+      "target": 57,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$800.000,00 empenhado, R$800.000,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 58,
+      "source": 178832,
+      "target": 58,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Defesa nacional: R$193.290,00 empenhado, R$185.000,00 pago (1 emenda; 2024)",
       "strength": 1

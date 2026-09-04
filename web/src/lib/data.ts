@@ -136,6 +136,37 @@ export interface ChangesIndex {
 
 export const getChanges = () => readJson<ChangesIndex | null>("_changes.json", null);
 
+export interface UpdateEvent {
+  key: string; kind: string; title: string; href: string; context: string;
+  count: number; previousCount: number | null; politicianId?: number;
+  mode: "added" | "removed" | "changed";
+}
+export interface UpdatesHistory {
+  version: number;
+  batches: { id: string; observedAt: string; previousObservedAt: string | null;
+    snapshotGeneratedAt: string | null; baseline: boolean; events: UpdateEvent[] }[];
+}
+export const getUpdates = () => readJson<UpdatesHistory | null>("_updates.json", null);
+
+export interface ElectionEntry {
+  politicianId: number; name: string; candidateName: string; office: string;
+  party: string; uf: string; ballotNumber: string; status: string;
+  totalReceived: number | null; receiptCount: number | null;
+}
+export interface ElectionSnapshot {
+  year: 2026; importedAt: string; sourceGeneratedAt: string; sourceUrl: string;
+  financeSourceUrl: string; financeGeneratedAt: string | null; financeImported: boolean;
+  scopeProfiles: number; matchedProfiles: number; ambiguousProfiles: number;
+  entries: ElectionEntry[]; note: string;
+}
+export const getElections = () => readJson<ElectionSnapshot | null>("_elections-2026.json", null);
+
+export interface PressArticle {
+  title: string; publisher: string; url: string; publishedAt: string;
+  reviewedAt: string; politicianIds: number[];
+}
+export const getPress = () => readJson<PressArticle[]>("_press.json", []);
+
 export interface QaEntry {
   key: string;
   count: number;

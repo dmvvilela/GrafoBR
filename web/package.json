@@ -4,14 +4,15 @@
   "private": true,
   "description": "GrafoBR frontend — static per-politician pages + D3 connection graph. See ../docs/PLAN.md.",
   "scripts": {
-    "sync-data": "node scripts/sync-data.mjs && node scripts/derive-entities.mjs && node scripts/derive-related.mjs && node scripts/derive-highlights.mjs && node scripts/derive-ceap-trails.mjs && node scripts/derive-emendas.mjs && node scripts/derive-obras-insights.mjs && node scripts/derive-signals.mjs && node scripts/derive-qa.mjs",
-    "predev": "node scripts/sync-data.mjs && node scripts/derive-entities.mjs && node scripts/derive-related.mjs && node scripts/derive-highlights.mjs && node scripts/derive-ceap-trails.mjs && node scripts/derive-emendas.mjs && node scripts/derive-obras-insights.mjs && node scripts/derive-signals.mjs && node scripts/derive-qa.mjs",
-    "prebuild": "node scripts/sync-data.mjs && node scripts/derive-entities.mjs && node scripts/derive-related.mjs && node scripts/derive-highlights.mjs && node scripts/derive-ceap-trails.mjs && node scripts/derive-emendas.mjs && node scripts/derive-obras-insights.mjs && node scripts/derive-signals.mjs && node scripts/derive-qa.mjs",
+    "sync-data": "node scripts/sync-data.mjs && node scripts/derive-entities.mjs && node scripts/derive-related.mjs && node scripts/derive-highlights.mjs && node scripts/derive-ceap-trails.mjs && node scripts/derive-emendas.mjs && node scripts/derive-obras-insights.mjs && node scripts/derive-signals.mjs && node scripts/derive-qa.mjs && node scripts/publish-press.mjs && node scripts/derive-updates.mjs",
+    "predev": "node scripts/sync-data.mjs && node scripts/derive-entities.mjs && node scripts/derive-related.mjs && node scripts/derive-highlights.mjs && node scripts/derive-ceap-trails.mjs && node scripts/derive-emendas.mjs && node scripts/derive-obras-insights.mjs && node scripts/derive-signals.mjs && node scripts/derive-qa.mjs && node scripts/publish-press.mjs && node scripts/derive-updates.mjs",
+    "prebuild": "node scripts/sync-data.mjs && node scripts/derive-entities.mjs && node scripts/derive-related.mjs && node scripts/derive-highlights.mjs && node scripts/derive-ceap-trails.mjs && node scripts/derive-emendas.mjs && node scripts/derive-obras-insights.mjs && node scripts/derive-signals.mjs && node scripts/derive-qa.mjs && node scripts/publish-press.mjs && node scripts/derive-updates.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "node --test scripts/tests/*.test.mjs"
   },
   "dependencies": {
     "d3": "^7.9.0",

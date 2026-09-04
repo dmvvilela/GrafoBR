@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "egoId": 906342,
+    "egoName": "Jorge Seif",
+    "chamber": "senado",
+    "photo": "https://www.senado.leg.br/senadores/img/fotos-oficiais/senador6342.jpg",
+    "generatedAt": "2026-09-04T03:41:33.381809Z",
+    "sources": [
+      "cgu_emendas",
+      "senado"
+    ],
+    "sourceCoverage": {
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 04/09/2026",
+      "senado": "parlamentares em exercício na consulta; coleta local em 04/09/2026"
+    },
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 906342,
+      "name": "Jorge Seif",
+      "category": "politician",
+      "connectionCount": 8
+    },
+    {
+      "id": 7,
+      "name": "Agricultura",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 8,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 4,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 6,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 5,
+      "name": "Desporto e lazer",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 3,
+      "name": "Direitos da cidadania",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 906342,
+      "target": 1,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$76.027.557,00 empenhado, R$40.152.739,00 pago (8 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 906342,
+      "target": 2,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$49.492.847,00 empenhado, R$49.226.850,00 pago (4 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 906342,
+      "target": 3,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Direitos da cidadania: R$3.000.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 906342,
+      "target": 4,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$1.700.000,00 empenhado, R$1.500.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 906342,
+      "target": 5,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Desporto e lazer: R$1.399.954,00 empenhado, R$400.000,00 pago (2 emendas; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 906342,
+      "target": 6,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$1.000.000,00 empenhado, R$75.390,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 906342,
+      "target": 7,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Agricultura: R$750.000,00 empenhado, R$316.223,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 8,
+      "source": 906342,
+      "target": 8,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$200.000,00 empenhado, R$200.000,00 pago (1 emenda; 2025)",
+      "strength": 1
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "egoId": 194260,
+    "egoName": "Nivaldo Albuquerque",
+    "chamber": "camara",
+    "photo": null,
+    "generatedAt": "2026-09-04T03:41:30.995452Z",
+    "sources": [
+      "camara",
+      "cgu_emendas",
+      "receita",
+      "tse"
+    ],
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/09/2026",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 04/09/2026",
+      "receita": "snapshot 2023-05",
+      "tse": "eleições 2022"
+    },
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 194260,
+      "name": "Nivaldo Albuquerque",
+      "category": "politician",
+      "connectionCount": 7
+    },
+    {
+      "id": 4,
+      "name": "ALBUQUERQUE AGROPECUARIA ESPIRITO SANTO LTDA",
+      "category": "company",
+      "connectionCount": 1,
+      "entityId": "e10709"
+    },
+    {
+      "id": 3,
+      "name": "ELEICAO 2022 ANTONIO RIBEIRO DE ALBUQUERQUE DEPUTADO ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e10708"
+    },
+    {
+      "id": 5,
+      "name": "EMGEP  -  EMPRESA DE GESTAO E PARTICIPACOES LTDA",
+      "category": "company",
+      "connectionCount": 1,
+      "entityId": "e10710"
+    },
+    {
+      "id": 7,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 2,
+      "name": "NIVALDO FERREIRA DE ALBUQUERQUE NETO",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e10707"
+    },
+    {
+      "id": 1,
+      "name": "REPUBLICANOS - BRASIL - BR - NACIONAL",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e82"
+    },
+    {
+      "id": 6,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 194260,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.810.000,00 em 2022 registrada no TSE (01/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 194260,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$38.000,00 em 2022 registrada no TSE (24/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 194260,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$35.000,00 em 2022 registrada no TSE (24/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 194260,
+      "target": 4,
+      "connectionType": "socio",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (administrador), desde 22/02/2016",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 194260,
+      "target": 5,
+      "connectionType": "socio",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 21/07/2015",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 194260,
+      "target": 6,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$17.498.613,00 empenhado, R$15.603.416,00 pago (11 emendas; 2023)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 194260,
+      "target": 7,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$7.657.281,00 empenhado, R$7.657.281,00 pago (6 emendas; 2023)",
+      "strength": 1
+    }
+  ]
+}

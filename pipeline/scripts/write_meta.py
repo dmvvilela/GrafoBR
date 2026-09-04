@@ -7,6 +7,7 @@ the date only moves on a real data rebuild — not on UI-only redeploys.
 """
 import json
 import pathlib
+import argparse
 from datetime import datetime
 
 # build_all.sh runs from pipeline/; output lives at repo-root /data.
@@ -22,6 +23,9 @@ def collected(path: pathlib.Path, description: str) -> str:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--ceap-year", type=int, required=True)
+    args = parser.parse_args()
     index = json.loads((DATA_DIR / "index.json").read_text(encoding="utf-8"))
     deputies = sum(1 for entry in index if entry.get("chamber") != "senado")
     senators = sum(1 for entry in index if entry.get("chamber") == "senado")
@@ -42,7 +46,10 @@ def main() -> None:
             ),
             "tse": "eleições 2022",
             "receita": "snapshot 2023-05",
-            "camara_ceap": "ano configurado no build",
+            "camara_ceap": collected(
+                PIPELINE_DIR / f".cache/camara/ceap/Ano-{args.ceap_year}.csv.zip",
+                f"ano {args.ceap_year}",
+            ),
             "transparencia": collected(
                 PIPELINE_DIR / ".cache/cnpj/scoped/contratos.csv",
                 "histórico disponível na consulta",

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GrafoBR 2026 election context",
+  "type": "object", "additionalProperties": false,
+  "required": ["year", "importedAt", "sourceGeneratedAt", "sourceUrl", "financeSourceUrl", "financeGeneratedAt", "financeImported", "scopeProfiles", "matchedProfiles", "ambiguousProfiles", "entries", "note"],
+  "properties": {
+    "year": { "const": 2026 },
+    "importedAt": { "type": "string", "format": "date-time" },
+    "sourceGeneratedAt": { "type": "string", "format": "date-time" },
+    "sourceUrl": { "const": "https://dadosabertos.tse.jus.br/dataset/candidatos-2026" },
+    "financeSourceUrl": { "const": "https://dadosabertos.tse.jus.br/dataset/prestacao-de-contas-eleitorais-2026" },
+    "financeGeneratedAt": { "type": ["string", "null"], "format": "date-time" },
+    "financeImported": { "type": "boolean" },
+    "scopeProfiles": { "type": "integer", "minimum": 0 },
+    "matchedProfiles": { "type": "integer", "minimum": 0 },
+    "ambiguousProfiles": { "type": "integer", "minimum": 0 },
+    "note": { "type": "string" },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["politicianId", "name", "candidateName", "office", "party", "uf", "ballotNumber", "status", "totalReceived", "receiptCount"],
+        "properties": {
+          "politicianId": { "type": "integer" },
+          "name": { "type": "string", "minLength": 1 },
+          "candidateName": { "type": "string", "minLength": 1 },
+          "office": { "type": "string", "minLength": 1 },
+          "party": { "type": "string", "minLength": 1 },
+          "uf": { "type": "string", "pattern": "^(AC|AL|AM|AP|BA|CE|DF|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO|BR)$" },
+          "ballotNumber": { "type": "string", "pattern": "^[0-9]{1,5}$" },
+          "status": { "type": "string", "minLength": 1 },
+          "totalReceived": { "type": ["number", "null"] },
+          "receiptCount": { "type": ["integer", "null"], "minimum": 1 }
+        }
+      }
+    }
+  }
+}

@@ -3,10 +3,11 @@ import Link from "next/link";
 import Script from "next/script";
 import Providers from "@/components/Providers";
 import { getMeta, getObras } from "@/lib/data";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://grafo-br.vercel.app"),
+  metadataBase: new URL(SITE_URL),
   title: "GrafoBR — conexões de dados públicos",
   description:
     "Grafo aberto das conexões de parlamentares federais a partir de dados públicos. Conexões não são acusações.",
@@ -48,9 +49,26 @@ export default async function RootLayout({
   const [meta, obras] = await Promise.all([getMeta(), getObras()]);
   const snapshot = formatDate(meta?.generatedAt);
   const obrasSnapshot = formatDate(obras?.meta.generatedAt);
+  const websiteJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "GrafoBR",
+    alternateName: "Grafo BR",
+    url: SITE_URL,
+    description:
+      "Conexões documentais de parlamentares federais a partir de dados públicos.",
+    inLanguage: "pt-BR",
+  };
   return (
     <html lang="pt-BR">
       <body>
+        <Script
+          id="website-jsonld"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(websiteJsonLd).replace(/</g, "\\u003c"),
+          }}
+        />
         {enableAnalytics && (
           <Script
             id="clarity"
@@ -92,6 +110,18 @@ export default async function RootLayout({
                 </Link>
                 <Link href="/dados" className="transition hover:text-zinc-100">
                   Dados
+                </Link>
+                <Link
+                  href="/eleicoes"
+                  className="transition hover:text-zinc-100"
+                >
+                  Eleições
+                </Link>
+                <Link
+                  href="/atualizacoes"
+                  className="transition hover:text-zinc-100"
+                >
+                  Atualizações
                 </Link>
                 <Link href="/sobre" className="transition hover:text-zinc-100">
                   Sobre

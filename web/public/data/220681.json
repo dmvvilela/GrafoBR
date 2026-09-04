@@ -4,7 +4,7 @@
     "egoName": "Fábio Macedo",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-07-17T04:22:52.066639Z",
+    "generatedAt": "2026-09-04T03:41:28.500889Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -13,13 +13,13 @@
       "tse"
     ],
     "sourceCoverage": {
-      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
-      "camara_ceap": "ano 2025",
-      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 25/06/2026",
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/09/2026",
+      "camara_ceap": "ano 2026; coleta local em 04/09/2026",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 04/09/2026",
       "receita": "snapshot 2023-05",
       "tse": "eleições 2022"
     },
-    "summary": "As emendas individuais desde 2023 totalizam R$ 75,1 milhões empenhados e R$ 74,9 milhões pagos em duas áreas, com Saúde como principal. A cota parlamentar registra R$ 466 mil com seis fornecedores, e a campanha de 2022 arrecadou R$ 3,3 milhões.",
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -27,24 +27,17 @@
       "id": 220681,
       "name": "Fábio Macedo",
       "category": "politician",
-      "connectionCount": 14
-    },
-    {
-      "id": 11,
-      "name": "AZUL",
-      "category": "supplier",
-      "connectionCount": 1,
-      "entityId": "e6016"
+      "connectionCount": 9
     },
     {
       "id": 5,
       "name": "ELEICAO 2022 CARLOS ORLEANS BRANDAO JUNIOR GOVERNADOR",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e6010"
+      "entityId": "e5987"
     },
     {
-      "id": 14,
+      "id": 9,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -54,76 +47,48 @@
       "name": "F. MACEDO P. LAVAGENS LTDA",
       "category": "company",
       "connectionCount": 1,
-      "entityId": "e6011"
+      "entityId": "e5988"
     },
     {
       "id": 2,
       "name": "FABIO HENRIQUE DIAS DE MACEDO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e6007"
-    },
-    {
-      "id": 8,
-      "name": "FN SERVICES LTDA",
-      "category": "supplier",
-      "connectionCount": 1,
-      "entityId": "e6013"
-    },
-    {
-      "id": 10,
-      "name": "GOL",
-      "category": "supplier",
-      "connectionCount": 1,
-      "entityId": "e6015"
+      "entityId": "e5984"
     },
     {
       "id": 7,
       "name": "IMS SERVIÇOS EIRELI",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e6012"
+      "entityId": "e5989"
     },
     {
       "id": 3,
       "name": "JOSE WILSON DE MACEDO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e6008"
+      "entityId": "e5985"
     },
     {
       "id": 4,
       "name": "LORENA VERUSKA SOUSA MELO MACEDO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e6009"
+      "entityId": "e5986"
     },
     {
       "id": 1,
       "name": "PODEMOS",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e2203"
+      "entityId": "e2193"
     },
     {
-      "id": 12,
-      "name": "RAMAL",
-      "category": "supplier",
-      "connectionCount": 1,
-      "entityId": "e10"
-    },
-    {
-      "id": 13,
+      "id": 8,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
-    },
-    {
-      "id": 9,
-      "name": "TAM",
-      "category": "supplier",
-      "connectionCount": 1,
-      "entityId": "e6014"
     }
   ],
   "links": [
@@ -180,61 +145,21 @@
       "source": 220681,
       "target": 7,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$239.000,00 (7 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 11/03/2025–16/12/2025)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$159.000,00 (3 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 12/03/2026–28/04/2026)",
       "strength": 1
     },
     {
       "id": 8,
       "source": 220681,
       "target": 8,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$196.000,00 (6 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 27/02/2025–15/12/2025)",
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$38.044.037,00 empenhado, R$38.044.037,00 pago (4 emendas; 2024–2025)",
       "strength": 1
     },
     {
       "id": 9,
       "source": 220681,
       "target": 9,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$24.595,67 (16 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 13/01/2025–16/07/2025)",
-      "strength": 1
-    },
-    {
-      "id": 10,
-      "source": 220681,
-      "target": 10,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.260,28 (4 lançamentos; tipo: PASSAGEM AÉREA - SIGEPA; período: 29/01/2025–01/07/2025)",
-      "strength": 1
-    },
-    {
-      "id": 11,
-      "source": 220681,
-      "target": 11,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.415,74 (1 lançamento; tipo: PASSAGEM AÉREA - SIGEPA; período: 19/03/2025)",
-      "strength": 1
-    },
-    {
-      "id": 12,
-      "source": 220681,
-      "target": 12,
-      "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3,19 (9 lançamentos; tipo: TELEFONIA)",
-      "strength": 1
-    },
-    {
-      "id": 13,
-      "source": 220681,
-      "target": 13,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$38.044.037,00 empenhado, R$38.044.037,00 pago (4 emendas; 2024–2025)",
-      "strength": 1
-    },
-    {
-      "id": 14,
-      "source": 220681,
-      "target": 14,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Encargos especiais: R$37.050.873,00 empenhado, R$36.869.723,00 pago (3 emendas; 2024–2025)",
       "strength": 1

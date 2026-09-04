@@ -1,5 +1,6 @@
 import { ImageResponse } from "next/og";
 import { getEgo, getEmendaRanking, getIndex } from "@/lib/data";
+import { SITE_HOST } from "@/lib/site";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
@@ -89,10 +90,16 @@ export default async function Image({
           >
             {initials(name)}
           </div>
-          <div style={{ display: "flex", flexDirection: "column", maxWidth: 760 }}>
-            <div style={{ fontSize: 60, fontWeight: 700, lineHeight: 1.05 }}>{name}</div>
+          <div
+            style={{ display: "flex", flexDirection: "column", maxWidth: 760 }}
+          >
+            <div style={{ fontSize: 60, fontWeight: 700, lineHeight: 1.05 }}>
+              {name}
+            </div>
             {sub ? (
-              <div style={{ fontSize: 30, color: "#a1a1aa", marginTop: 10 }}>{sub}</div>
+              <div style={{ fontSize: 30, color: "#a1a1aa", marginTop: 10 }}>
+                {sub}
+              </div>
             ) : null}
             <div
               style={{
@@ -108,7 +115,7 @@ export default async function Image({
         </div>
 
         <div style={{ display: "flex", fontSize: 24, color: "#71717a" }}>
-          grafo-br.vercel.app · conexões de dados públicos, não acusações
+          {SITE_HOST} · conexões de dados públicos, não acusações
         </div>
       </div>
     ),

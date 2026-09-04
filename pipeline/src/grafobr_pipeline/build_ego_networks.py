@@ -1065,7 +1065,7 @@ def to_contract(
         "tse": "eleições 2022",
         "receita": "snapshot 2023-05",
         "camara_ceap": (
-            f"ano {ctx.ceap_year}"
+            _collected_label(cache_dir / "camara" / "ceap" / f"Ano-{ctx.ceap_year}.csv.zip", f"ano {ctx.ceap_year}")
             if ctx and ctx.ceap_year
             else "ano informado no registro"
         ),

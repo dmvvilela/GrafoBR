@@ -1,5 +1,14 @@
 # AGENTS.md — orientation for the implementing model
 
+> **Current status (September 2026):** the scaffold description below is historical.
+> Graphs, real pipelines, 593 profiles, comparisons, rankings and Obrasgov are implemented.
+> Source dates, persistent updates, election context and reviewed news are implemented;
+> see `docs/REFRESH.md`. The 2026 bulk import awaits accessible official files (CDN 403).
+> GitHub Actions scheduling must stay disabled (user's minutes exhausted). The user
+> recalls Cloudflare scheduling. The authenticated account was inspected September 4:
+> only Chutômetro and Pharos have scheduled Workers; no GrafoBR job was found.
+> See `docs/REFRESH.md` before choosing a scheduler; do not restart Phase 1.
+
 You're picking up a **scaffold**. Nothing is implemented; the structure, the data
 contract, and a detailed plan are in place. Your job is to implement it phase by phase.
 

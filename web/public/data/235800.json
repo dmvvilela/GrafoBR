@@ -4,18 +4,20 @@
     "egoName": "Jorge Araújo",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-07-17T04:22:53.031461Z",
+    "generatedAt": "2026-09-04T03:41:29.259036Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
     "sourceCoverage": {
-      "camara": "parlamentares em exercício na consulta; coleta local em 04/06/2026",
+      "camara": "parlamentares em exercício na consulta; coleta local em 04/09/2026",
+      "camara_ceap": "ano 2026; coleta local em 04/09/2026",
       "receita": "snapshot 2023-05",
       "tse": "eleições 2022"
     },
-    "summary": "As doações de campanha de 2022 somam R$ 211 mil de dez doadores, segundo os registros eleitorais.",
+    "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
   },
   "nodes": [
@@ -23,70 +25,238 @@
       "id": 235800,
       "name": "Jorge Araújo",
       "category": "politician",
-      "connectionCount": 11
+      "connectionCount": 36
+    },
+    {
+      "id": 26,
+      "name": "063 - 311 SUL - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e22"
     },
     {
       "id": 2,
       "name": "ALINE SANTANA SOUZA SANTOS",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e7388"
+      "entityId": "e7408"
     },
     {
       "id": 3,
       "name": "ANTONIO CARLOS DA SILVA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e7389"
+      "entityId": "e7409"
+    },
+    {
+      "id": 33,
+      "name": "AR COMERCIO DE COMBUSTIVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7432"
     },
     {
       "id": 4,
       "name": "ARIOSVALDO COSTA DE ARAUJO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e7390"
+      "entityId": "e7410"
+    },
+    {
+      "id": 18,
+      "name": "ATMOSFERA HOTELARIA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7421"
+    },
+    {
+      "id": 27,
+      "name": "AUTO POSTO NOVA OLINDA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e3633"
+    },
+    {
+      "id": 34,
+      "name": "AUTO POSTO SANTA BARBARA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7433"
+    },
+    {
+      "id": 15,
+      "name": "BONFIM ECOPOSTOS COMBUSTIVEIS E SERVICOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e288"
     },
     {
       "id": 5,
       "name": "CAMILA HELLEN DOREA VERGASTA SANTOS",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e7391"
+      "entityId": "e7411"
+    },
+    {
+      "id": 30,
+      "name": "COMERCIAL DE COMBUSTIVEIS MARTINS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7429"
+    },
+    {
+      "id": 35,
+      "name": "DSSM COMERCIO DE COMBUSTIVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7434"
     },
     {
       "id": 6,
       "name": "FERNANDO GONZAGA DA CONCEICAO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e7392"
+      "entityId": "e7412"
+    },
+    {
+      "id": 36,
+      "name": "FX COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7435"
     },
     {
       "id": 7,
       "name": "GILMARA LIMA BAHIA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e7393"
+      "entityId": "e7413"
+    },
+    {
+      "id": 16,
+      "name": "HOTEL DO JORRO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7420"
     },
     {
       "id": 11,
       "name": "J ARAUJO PUBLICIDADE LTDA",
       "category": "company",
       "connectionCount": 1,
-      "entityId": "e7397"
+      "entityId": "e7417"
+    },
+    {
+      "id": 12,
+      "name": "KAPO VEICULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e3082"
     },
     {
       "id": 8,
       "name": "KARINA SANTOS BARRETO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e7394"
+      "entityId": "e7414"
     },
     {
       "id": 9,
       "name": "MANUELA DOS SANTOS LIMA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e7395"
+      "entityId": "e7415"
+    },
+    {
+      "id": 14,
+      "name": "MIRO PSAROS COMUNICAÇÃO DIGITAL LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7419"
+    },
+    {
+      "id": 20,
+      "name": "MORUBIXABA HOTELARIA E TURISMO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e1628"
+    },
+    {
+      "id": 32,
+      "name": "OLIVEIRASILVA DERIVADOS DE PETROLEO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7431"
+    },
+    {
+      "id": 28,
+      "name": "POSTO DE COMBUSTIVEIS CAMINHONEIRO 020 LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7427"
+    },
+    {
+      "id": 24,
+      "name": "POSTO ILPRES COM DE COMBUSTIVEIS E LUB LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7425"
+    },
+    {
+      "id": 21,
+      "name": "POSTO JORRINHO DERIVADOS DE PETROLEO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7423"
+    },
+    {
+      "id": 25,
+      "name": "POSTO MAXX I LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7426"
+    },
+    {
+      "id": 17,
+      "name": "POSTO NOVO HORIZONTE LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e6080"
+    },
+    {
+      "id": 22,
+      "name": "POSTO PERNAMBUES COMBUSTIVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7424"
+    },
+    {
+      "id": 31,
+      "name": "POSTO RADAR LTDA EPP",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7430"
+    },
+    {
+      "id": 29,
+      "name": "POSTO VALE OURO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7428"
+    },
+    {
+      "id": 23,
+      "name": "POSTO VEREDAS",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e301"
+    },
+    {
+      "id": 13,
+      "name": "PRETA OURO DA PUBLICIDADE LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7418"
     },
     {
       "id": 1,
@@ -100,7 +270,14 @@
       "name": "RENATA DOS SANTOS SOUZA CRUZ",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e7396"
+      "entityId": "e7416"
+    },
+    {
+      "id": 19,
+      "name": "SOLAR HOTEIS E TURISMO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e7422"
     }
   ],
   "links": [
@@ -190,6 +367,206 @@
       "target": 11,
       "connectionType": "socio",
       "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 14/07/2020",
+      "strength": 1
+    },
+    {
+      "id": 12,
+      "source": 235800,
+      "target": 12,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$48.000,00 (4 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 12/05/2026–03/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 13,
+      "source": 235800,
+      "target": 13,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$26.000,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 23/04/2026–26/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 235800,
+      "target": 14,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$16.000,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 27/04/2026–27/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 235800,
+      "target": 15,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.046,39 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 07/05/2026–22/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 235800,
+      "target": 16,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.000,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 06/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 235800,
+      "target": 17,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$900,00 (4 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 01/06/2026–23/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 235800,
+      "target": 18,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$853,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 18/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 235800,
+      "target": 19,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$727,00 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 04/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 235800,
+      "target": 20,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$717,75 (1 lançamento; tipo: HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL.; período: 06/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 235800,
+      "target": 21,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$700,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 24/05/2026–15/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 22,
+      "source": 235800,
+      "target": 22,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$683,41 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 11/08/2026–21/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 235800,
+      "target": 23,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$647,86 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/04/2026–10/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 24,
+      "source": 235800,
+      "target": 24,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$600,00 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/06/2026–27/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 25,
+      "source": 235800,
+      "target": 25,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$583,24 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 05/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 26,
+      "source": 235800,
+      "target": 26,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$551,43 (2 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 13/05/2026–21/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 27,
+      "source": 235800,
+      "target": 27,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$545,64 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/04/2026)",
+      "strength": 1
+    },
+    {
+      "id": 28,
+      "source": 235800,
+      "target": 28,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$526,73 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 09/04/2026)",
+      "strength": 1
+    },
+    {
+      "id": 29,
+      "source": 235800,
+      "target": 29,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$506,02 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 10/04/2026)",
+      "strength": 1
+    },
+    {
+      "id": 30,
+      "source": 235800,
+      "target": 30,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$461,06 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 12/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 31,
+      "source": 235800,
+      "target": 31,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$400,26 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 31/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 32,
+      "source": 235800,
+      "target": 32,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$400,10 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 29/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 33,
+      "source": 235800,
+      "target": 33,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$400,00 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/05/2026–15/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 34,
+      "source": 235800,
+      "target": 34,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$400,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 29/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 35,
+      "source": 235800,
+      "target": 35,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$400,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 24/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 36,
+      "source": 235800,
+      "target": 36,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$400,00 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 03/08/2026)",
       "strength": 1
     }
   ]

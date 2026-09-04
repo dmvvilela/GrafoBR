@@ -91,6 +91,18 @@ Stable CPF/CNPJ keys (kept private in the build) anchor most joins. Still expect
    ego-network scoping (seed on politicians, expand outward) is what keeps it small — don't
    ingest the whole base, pull only entities connected to a seed.
 
+## Additional static context (September 2026)
+
+The ego-network schema is unchanged. Optional `_elections-2026.json` is a separate,
+year-specific sidecar governed by `contract/elections.schema.json`; TS mirrors live in
+`web/src/lib/data.ts`. It carries source-generation/import dates, public candidacy fields
+and partial receipt totals, never CPF or private join keys. It does not replace 2022 edges.
+
+`_updates.json` records observation batches and `_updates-state.json` stores comparison
+state derived only from public graph content. They must be retained together. `_press.json`
+contains only reviewed entries from `content/press.json`. See `docs/REFRESH.md` for the
+generation commands, semantics, failure behavior and current data-access limitation.
+
 ## Validation
 
 `pipeline/` must validate every emitted file against `contract/ego-network.schema.json`

@@ -1,5 +1,9 @@
 # GrafoBR — pipeline
 
+Current refresh behavior, 2026 election importer and history retention are documented in
+[`docs/REFRESH.md`](../docs/REFRESH.md). Mutable Câmara/CEAP/Senado caches now expire after
+seven days; `GRAFOBR_REFRESH=1` forces a re-fetch. GitHub scheduling stays disabled.
+
 Build-time ETL. Produces one static `{nodes,links}` JSON per federal deputy in `../data/`,
 with three edge types:
 

@@ -148,6 +148,13 @@ function buildChanges(prev, current) {
 
 const changes = buildChanges(previous, payload);
 
+// UI-only builds must not replace the last useful diff with an empty one.
+// Also include context/status changes (e.g. a work becomes stalled).
+if (JSON.stringify(allItems(previous)) === JSON.stringify(allItems(payload))) {
+  console.log("[derive-signals] unchanged; previous signals and changes preserved");
+  process.exit(0);
+}
+
 await writeFile(path.join(dir, "_signals.json"), JSON.stringify(payload), "utf8");
 await writeFile(path.join(dir, "_changes.json"), JSON.stringify(changes), "utf8");
 console.log(
