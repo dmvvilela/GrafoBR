@@ -4,7 +4,7 @@
     "egoName": "Amanda Gentil",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-09-04T03:41:26.067371Z",
+    "generatedAt": "2026-10-29T17:12:47.942851Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,9 +12,9 @@
       "tse"
     ],
     "sourceCoverage": {
-      "camara": "parlamentares em exercício na consulta; coleta local em 04/09/2026",
-      "camara_ceap": "ano 2026; coleta local em 04/09/2026",
-      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 04/09/2026",
+      "camara": "parlamentares em exercício na consulta; coleta local em 29/10/2026",
+      "camara_ceap": "ano 2026; coleta local em 29/10/2026",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 29/10/2026",
       "tse": "eleições 2022"
     },
     "summary": null,
@@ -25,23 +25,30 @@
       "id": 220707,
       "name": "Amanda Gentil",
       "category": "politician",
-      "connectionCount": 14
+      "connectionCount": 15
     },
     {
-      "id": 11,
+      "id": 12,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 7,
+      "id": 8,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
       "connectionCount": 1,
       "entityId": "e70"
     },
     {
-      "id": 12,
+      "id": 7,
+      "name": "Cia Aérea - TAM",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e934"
+    },
+    {
+      "id": 13,
       "name": "Comércio e serviços",
       "category": "destino",
       "connectionCount": 1
@@ -51,23 +58,23 @@
       "name": "DISCOVER SERVICOS LTDA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e925"
+      "entityId": "e932"
     },
     {
       "id": 4,
       "name": "ELEICAO 2022 CARLOS WELLINGTON DE CASTRO BEZERRA DEPUTADO ESTADUAL",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e924"
+      "entityId": "e931"
     },
     {
-      "id": 14,
+      "id": 15,
       "name": "Educação",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 10,
+      "id": 11,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -77,21 +84,21 @@
       "name": "FABIO JOSE GENTIL PEREIRA ROSA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e922"
+      "entityId": "e929"
     },
     {
       "id": 6,
       "name": "FERNANDO JOSÉ OLIVEIRA DUAILIBE MENDONÇA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e926"
+      "entityId": "e933"
     },
     {
       "id": 3,
       "name": "GIL RICARDO COSTA SILVA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e923"
+      "entityId": "e930"
     },
     {
       "id": 1,
@@ -101,23 +108,23 @@
       "entityId": "e1"
     },
     {
-      "id": 9,
+      "id": 10,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 13,
+      "id": 14,
       "name": "Urbanismo",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 8,
+      "id": 9,
       "name": "WMS COMERCIO DE ARTIGOS DE PAPELARIA LTDA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e156"
+      "entityId": "e157"
     }
   ],
   "links": [
@@ -174,7 +181,7 @@
       "source": 220707,
       "target": 7,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.522,23 (5 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.112,28 (1 lançamento; tipo: PASSAGEM AÉREA - RPA; período: 01/09/2026)",
       "strength": 1
     },
     {
@@ -182,15 +189,15 @@
       "source": 220707,
       "target": 8,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$106,80 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 28/04/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$2.571,27 (8 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
       "id": 9,
       "source": 220707,
       "target": 9,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$44.911.780,00 empenhado, R$40.935.795,00 pago (4 emendas; 2024–2025)",
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$106,80 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 28/04/2026)",
       "strength": 1
     },
     {
@@ -198,7 +205,7 @@
       "source": 220707,
       "target": 10,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$25.085.789,00 empenhado, R$24.992.790,00 pago (2 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Saúde: R$44.911.780,00 empenhado, R$40.935.795,00 pago (4 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -206,7 +213,7 @@
       "source": 220707,
       "target": 11,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$3.000.000,00 empenhado, R$3.000.000,00 pago (2 emendas; 2024–2025)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$25.085.789,00 empenhado, R$24.992.790,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -214,7 +221,7 @@
       "source": 220707,
       "target": 12,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Comércio e serviços: R$1.000.000,00 empenhado, R$3.500,00 pago (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Assistência social: R$3.000.000,00 empenhado, R$3.000.000,00 pago (2 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -222,13 +229,21 @@
       "source": 220707,
       "target": 13,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Urbanismo: R$850.000,00 empenhado, R$4.687,00 pago (1 emenda; 2024)",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$1.000.000,00 empenhado, R$3.500,00 pago (1 emenda; 2025)",
       "strength": 1
     },
     {
       "id": 14,
       "source": 220707,
       "target": 14,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Urbanismo: R$850.000,00 empenhado, R$4.687,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 220707,
+      "target": 15,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Educação: R$300.000,00 empenhado (1 emenda; 2024)",
       "strength": 1

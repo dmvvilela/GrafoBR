@@ -64,6 +64,15 @@ class ElectionsTests(unittest.TestCase):
         payload = build(archive, None, self.index, {self.doc: 7})
         self.assertEqual(payload["matchedProfiles"], 1)
 
+    def test_live_receipt_year_alias_and_conflicts(self):
+        row = {"AA_ELEICAO": "2026", "SQ_CANDIDATO": "123", "SQ_RECEITA": "1", "VR_RECEITA": "1.234,56", "DT_GERACAO": "29/10/2026", "HH_GERACAO": "12:00:00"}
+        receipts = self.write("receipts.csv", [row])
+        self.assertEqual(self.run_build([self.row], receipts)["entries"][0]["totalReceived"], 1234.56)
+        receipts = self.write("receipts.csv", [{**row, "ANO_ELEICAO": "2022"}])
+        with self.assertRaises(ValueError): self.run_build([self.row], receipts)
+        receipts = self.write("receipts.csv", [{**row, "AA_ELEICAO": "2022"}])
+        with self.assertRaises(ValueError): self.run_build([self.row], receipts)
+
     def test_same_sequence_cannot_belong_to_multiple_documents(self):
         with self.assertRaises(ValueError):
             self.run_build([self.row, {**self.row, "NR_CPF_CANDIDATO": "98765432109"}])

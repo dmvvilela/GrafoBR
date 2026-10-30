@@ -12,6 +12,7 @@ import MoneyTrails from "@/components/MoneyTrails";
 import UpdatesFeed from "@/components/UpdatesFeed";
 import SnapshotSignals from "@/components/SnapshotSignals";
 import SourceFreshness from "@/components/SourceFreshness";
+import Link from "next/link";
 
 function formatUpdated(iso?: string): string | null {
   if (!iso) return null;
@@ -62,6 +63,13 @@ export default async function Home() {
       </section>
 
       <SourceFreshness generatedAt={meta?.generatedAt} coverage={meta?.sourceCoverage} compact />
+
+      <Link href="/comparar" className="group block rounded-2xl border border-indigo-300/20 bg-gradient-to-r from-indigo-400/10 to-emerald-400/5 p-6 transition hover:border-emerald-300/40 sm:p-8">
+        <p className="text-xs font-medium uppercase tracking-widest text-emerald-300">Explore lado a lado</p>
+        <h2 className="mt-2 text-2xl font-semibold text-zinc-100">O que conecta dois parlamentares?</h2>
+        <p className="mt-2 max-w-2xl text-sm leading-relaxed text-zinc-400">Veja entidades em comum, consulte os registros de cada lado e crie um card com fontes para compartilhar.</p>
+        <span className="mt-4 inline-block text-sm font-medium text-emerald-300">Abrir comparação visual →</span>
+      </Link>
 
       <MoneyTrails
         highlights={highlights}

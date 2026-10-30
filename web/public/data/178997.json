@@ -4,7 +4,7 @@
     "egoName": "Moses Rodrigues",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-09-04T03:41:30.782719Z",
+    "generatedAt": "2026-10-29T17:12:53.167006Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -12,9 +12,9 @@
       "tse"
     ],
     "sourceCoverage": {
-      "camara": "parlamentares em exercício na consulta; coleta local em 04/09/2026",
-      "camara_ceap": "ano 2026; coleta local em 04/09/2026",
-      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 04/09/2026",
+      "camara": "parlamentares em exercício na consulta; coleta local em 29/10/2026",
+      "camara_ceap": "ano 2026; coleta local em 29/10/2026",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 29/10/2026",
       "tse": "eleições 2022"
     },
     "summary": null,
@@ -25,14 +25,14 @@
       "id": 178997,
       "name": "Moses Rodrigues",
       "category": "politician",
-      "connectionCount": 17
+      "connectionCount": 19
     },
     {
       "id": 10,
       "name": "031 - 302 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e22"
+      "entityId": "e24"
     },
     {
       "id": 8,
@@ -42,13 +42,20 @@
       "entityId": "e10307"
     },
     {
-      "id": 14,
+      "id": 11,
+      "name": "AUTO POSTO CAPITAL LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e6148"
+    },
+    {
+      "id": 16,
       "name": "Agricultura",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 16,
+      "id": 18,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
@@ -61,14 +68,14 @@
       "entityId": "e70"
     },
     {
-      "id": 11,
+      "id": 13,
       "name": "EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e160"
+      "entityId": "e382"
     },
     {
-      "id": 13,
+      "id": 15,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -78,7 +85,7 @@
       "name": "Francisco C. T. Araújo - ME",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e3775"
+      "entityId": "e3792"
     },
     {
       "id": 3,
@@ -113,22 +120,29 @@
       "name": "NF COMUNICAÇÃO DIGITAL LTDA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e4954"
+      "entityId": "e4972"
     },
     {
-      "id": 15,
+      "id": 17,
       "name": "Organização agrária",
       "category": "destino",
       "connectionCount": 1
     },
     {
       "id": 12,
+      "name": "POSTO DE COMBUSTIVEIS CAMPEAO FIESTA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e10308"
+    },
+    {
+      "id": 14,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 17,
+      "id": 19,
       "name": "Segurança pública",
       "category": "destino",
       "connectionCount": 1
@@ -138,7 +152,7 @@
       "name": "UNIAO BRASIL",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e667"
+      "entityId": "e671"
     }
   ],
   "links": [
@@ -211,7 +225,7 @@
       "source": 178997,
       "target": 9,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.044,46 (5 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$5.142,54 (8 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -227,23 +241,23 @@
       "source": 178997,
       "target": 11,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$105,30 (1 lançamento; tipo: SERVIÇOS POSTAIS; período: 01/06/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$276,38 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 22/10/2026)",
       "strength": 1
     },
     {
       "id": 12,
       "source": 178997,
       "target": 12,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$37.586.585,00 empenhado, R$37.586.585,00 pago (11 emendas; 2024–2025)",
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$196,97 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 21/10/2026)",
       "strength": 1
     },
     {
       "id": 13,
       "source": 178997,
       "target": 13,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$31.935.000,00 empenhado, R$31.799.000,00 pago (9 emendas; 2024–2025)",
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$105,30 (1 lançamento; tipo: SERVIÇOS POSTAIS; período: 01/06/2026)",
       "strength": 1
     },
     {
@@ -251,7 +265,7 @@
       "source": 178997,
       "target": 14,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Agricultura: R$3.000.000,00 empenhado, R$2.500.000,00 pago (3 emendas; 2025)",
+      "description": "Emendas individuais destinadas a Saúde: R$37.586.585,00 empenhado, R$37.586.585,00 pago (11 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -259,7 +273,7 @@
       "source": 178997,
       "target": 15,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Organização agrária: R$1.999.995,00 empenhado, R$1.999.995,00 pago (1 emenda; 2025)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$31.935.000,00 empenhado, R$31.799.000,00 pago (9 emendas; 2024–2025)",
       "strength": 1
     },
     {
@@ -267,13 +281,29 @@
       "source": 178997,
       "target": 16,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$400.000,00 empenhado, R$400.000,00 pago (2 emendas; 2024)",
+      "description": "Emendas individuais destinadas a Agricultura: R$3.000.000,00 empenhado, R$2.500.000,00 pago (3 emendas; 2025)",
       "strength": 1
     },
     {
       "id": 17,
       "source": 178997,
       "target": 17,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$1.999.995,00 empenhado, R$1.999.995,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 178997,
+      "target": 18,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$400.000,00 empenhado, R$400.000,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 178997,
+      "target": 19,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Segurança pública: R$140.432,00 empenhado (1 emenda; 2024)",
       "strength": 1

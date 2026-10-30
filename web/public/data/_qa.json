@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-09-04T19:43:39.743Z",
-  "snapshotGeneratedAt": "2026-09-04T00:41:33-03:00",
+  "generatedAt": "2026-10-30T17:07:56.277Z",
+  "snapshotGeneratedAt": "2026-10-29T14:12:56-03:00",
   "totals": {
-    "profiles": 593,
-    "emptyGraphs": 11,
-    "nodes": 23900,
-    "links": 23308
+    "profiles": 594,
+    "emptyGraphs": 12,
+    "nodes": 24197,
+    "links": 23605
   },
   "coverage": {
     "bySource": [
       {
         "key": "cgu_emendas",
-        "count": 556
+        "count": 562
       },
       {
         "key": "camara",
-        "count": 512
+        "count": 513
       },
       {
         "key": "tse",
-        "count": 511
+        "count": 513
       },
       {
         "key": "camara_ceap",
-        "count": 509
+        "count": 511
       },
       {
         "key": "receita",
-        "count": 338
+        "count": 339
       },
       {
         "key": "senado",
@@ -35,13 +35,13 @@
       },
       {
         "key": "transparencia",
-        "count": 8
+        "count": 6
       }
     ],
     "byChamber": [
       {
         "key": "camara",
-        "count": 512
+        "count": 513
       },
       {
         "key": "senado",
@@ -51,49 +51,49 @@
     "byNodeCategory": [
       {
         "key": "supplier",
-        "count": 10962
+        "count": 11161
       },
       {
         "key": "donor",
-        "count": 7399
+        "count": 7454
       },
       {
         "key": "destino",
-        "count": 3873
+        "count": 3916
       },
       {
         "key": "company",
-        "count": 1065
+        "count": 1066
       },
       {
         "key": "politician",
-        "count": 593
+        "count": 594
       },
       {
         "key": "other",
-        "count": 8
+        "count": 6
       }
     ],
     "byConnectionType": [
       {
         "key": "despesa",
-        "count": 10963
+        "count": 11163
       },
       {
         "key": "doacao",
-        "count": 7399
+        "count": 7454
       },
       {
         "key": "emenda",
-        "count": 3873
+        "count": 3916
       },
       {
         "key": "socio",
-        "count": 1065
+        "count": 1066
       },
       {
         "key": "contrato",
-        "count": 8
+        "count": 6
       }
     ]
   },
@@ -129,7 +129,7 @@
       "id": "empty_graphs",
       "severity": "info",
       "label": "Perfis sem vínculos",
-      "count": 11,
+      "count": 12,
       "detail": "Ausência no recorte usado; não significa ausência de relações fora das fontes."
     },
     {
@@ -162,8 +162,9 @@
       905906,
       904642,
       904811,
-      906359,
+      905977,
       905207,
+      905257,
       906025,
       905974,
       905736

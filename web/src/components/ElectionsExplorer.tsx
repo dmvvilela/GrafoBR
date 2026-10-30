@@ -138,7 +138,9 @@ export default function ElectionsExplorer({
                     </p>
                     <p className="mt-2 text-sm text-emerald-200">
                       {e.totalReceived === null
-                        ? "Sem receitas identificadas no recorte importado"
+                        ? snapshot?.financeImported
+                          ? "Sem receitas identificadas no recorte importado"
+                          : "Receitas de 2026 não importadas"
                         : `${e.totalReceived.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })} em receitas declaradas`}
                     </p>
                   </Link>

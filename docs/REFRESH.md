@@ -18,15 +18,16 @@ the pipeline. A site rebuild by itself is not a source refresh.
 
 ## Core records
 
-The local refresh completed successfully on September 4, 2026 at 00:41 BRT: 593
-profiles (512 deputies and 81 senators), with CEAP 2026 and fresh Câmara, Senado,
-contracts and amendment queries. The resulting static site passed pipeline tests,
-frontend data tests, type checking, graph QA and a full production build.
+The latest local core refresh completed on October 29, 2026 at 14:12 BRT: **594
+profiles (513 deputies and 81 senators)**, with CEAP 2026 and fresh Câmara, Senado,
+contracts and amendment queries. The current Câmara list was checked against the
+output; the former 512 limit omitted one current deputy. Recheck the list size
+before each refresh. This is a local snapshot, not confirmation of deployment.
 
 From `pipeline/`, with dependencies and BigQuery credentials configured:
 
 ```sh
-bash scripts/build_all.sh 512 2026
+bash scripts/build_all.sh 513 2026
 ```
 
 The final argument selects the CEAP year explicitly (the legacy default is 2025).
@@ -42,6 +43,33 @@ reference period and known local collection date. CEAP now includes the actual c
 year and archive collection date. Never restamp `_meta.json` during a UI-only deployment.
 
 ## 2026 election context
+
+### October 29–30 refresh result
+
+The official candidate and receipt ZIPs became downloadable on October 29.
+The candidate file (source generation October 29, 12:30:44 BRT) was imported
+against all 594 profiles: **499 exact matches; one ambiguous profile excluded**.
+The receipts archive uses `AA_ELEICAO`, now normalized to `ANO_ELEICAO` with
+conflicting aliases rejected. Importing the actual receipts then found conflicting
+values for the same candidate/receipt key and correctly aborted. The candidate-only
+snapshot leaves financial totals null and `financeImported: false`; do not sum
+revisions or infer zero revenue. Resolve receipt revision semantics before importing
+the finance archive.
+
+Reproduce the candidate-only import from the downloaded cache:
+
+```sh
+PYTHONPATH=src .venv/bin/python -m grafobr_pipeline.elections \
+  --candidates .cache/elections/consulta_cand_2026.zip --index ../data/index.json
+```
+
+Obrasgov was fetched separately into `.cache/obras-refresh.json` for inspection.
+Repeated HTTP 500 and 429 failures left discovery and physical enrichment incomplete
+(461 discovered, 357 flagged). **That file was not promoted.** The published-data
+folder retains the June 23 Obrasgov snapshot and its original date. Retry when the
+source is healthy; never replace it with an incomplete response stamped as current.
+
+### Import workflow and earlier source availability
 
 Official sources (verified September 2026):
 
@@ -78,8 +106,9 @@ empty-file and conflicting-receipt failures preserve the existing published outp
 Missing matching receipts produce **null**, not a claim of zero revenue. Receipt amounts
 use decimal arithmetic before export; duplicate receipt IDs are not counted twice.
 Source generation time (from TSE rows) and local import time remain separate.
-Live 2026 row-level compatibility remains unverified until the blocked official files
-are available; tests cover expected columns, privacy, ambiguity and receipt integrity.
+Candidate row-level compatibility was verified with the October 29 official file.
+Receipt revision conflicts remain unresolved; tests cover year-column aliases,
+privacy, ambiguity and receipt integrity.
 
 ## Build and review
 
@@ -115,3 +144,17 @@ profile associations. No articles have been seeded or automatically attributed.
 
 All commands above prepare local static artifacts. Review the diff, including generated
 data, before publishing through the existing deployment path.
+
+## Visual comparison and sharing
+
+`/comparar` joins direct profile connections by the pipeline's opaque `entityId`,
+never display names. Suggested pairs are verified against the actual profile files.
+Indirect company contracts are not rendered as direct politician-to-entity edges.
+The selected entity's two source records and coverage periods remain visible.
+
+Copied URLs carry both profile IDs, the selected entity and both profile generation
+timestamps. Entity IDs are snapshot-local: a link from another generation warns and
+requires a fresh selection instead of silently selecting a recycled ID. PNG cards
+are generated locally in the browser with the selected entity, source periods,
+profile dates and neutral context. Their printed URL opens the pair; copy the full
+link alongside the image to preserve the exact selected connection.

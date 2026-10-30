@@ -29,7 +29,9 @@ export default function ProfileContext({
             </p>
             <p className="mt-2 text-sm text-zinc-400">
               {election.totalReceived === null
-                ? "Receitas não identificadas no recorte importado; não equivale a receita zero."
+                ? snapshot?.financeImported
+                  ? "Receitas não identificadas no recorte importado; não equivale a receita zero."
+                  : "Receitas de 2026 não importadas; não equivale a receita zero."
                 : `Receitas declaradas: ${election.totalReceived.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })} (${election.receiptCount} registros). Valores parciais.`}
             </p>
             <p className="mt-3 text-xs text-zinc-500">

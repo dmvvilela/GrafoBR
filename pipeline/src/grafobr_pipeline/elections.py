@@ -30,9 +30,19 @@ ACCOUNTS_URL = "https://dadosabertos.tse.jus.br/dataset/prestacao-de-contas-elei
 def rows(path: Path, member: str, required: set[str]) -> Iterator[dict[str, str]]:
     def parse(stream):
         reader = csv.DictReader(stream, delimiter=";")
-        if not required.issubset(set(reader.fieldnames or [])):
+        fields = set(reader.fieldnames or [])
+        # The official 2026 receipts archive uses AA_ELEICAO; candidates use
+        # ANO_ELEICAO. Normalize this documented-in-file alias, not other fields.
+        if "AA_ELEICAO" in fields:
+            fields.add("ANO_ELEICAO")
+        if not required.issubset(fields):
             raise ValueError(f"TSE schema changed: required columns missing in {path.name}")
-        yield from reader
+        for row in reader:
+            if "AA_ELEICAO" in row:
+                if "ANO_ELEICAO" in row and row["ANO_ELEICAO"] != row["AA_ELEICAO"]:
+                    raise ValueError("Conflicting TSE election year columns")
+                row["ANO_ELEICAO"] = row["AA_ELEICAO"]
+            yield row
 
     if path.suffix.lower() == ".zip":
         with zipfile.ZipFile(path) as archive:
