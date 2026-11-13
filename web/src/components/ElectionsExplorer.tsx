@@ -55,7 +55,7 @@ export default function ElectionsExplorer({
       {year === "2026" ? (
         <div className="rounded-2xl border border-sky-300/15 bg-sky-300/[0.03] p-5">
           <h2 className="font-medium text-sky-100">
-            Candidaturas de parlamentares acompanhados
+            Candidaturas de representantes acompanhados
           </h2>
           <p className="mt-2 text-sm leading-relaxed text-zinc-400">
             {snapshot
@@ -79,7 +79,7 @@ export default function ElectionsExplorer({
       ) : (
         <div className="rounded-xl border border-amber-300/15 bg-amber-300/[0.03] p-5 text-sm leading-relaxed text-zinc-400">
           Doações das eleições de 2022 disponíveis nos grafos. Partido e UF
-          abaixo são os do cadastro parlamentar da versão, não necessariamente
+          abaixo são os do cadastro de perfis desta versão, não necessariamente
           os de 2022. Este recorte não é uma lista de candidatos de 2026.
         </div>
       )}
@@ -92,7 +92,7 @@ export default function ElectionsExplorer({
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 className="mt-1 block w-full rounded-lg border border-white/10 bg-zinc-900 px-3 py-2.5 text-sm text-white"
-                placeholder="Buscar parlamentar"
+                placeholder="Buscar representante"
               />
             </label>
             <label className="text-xs text-zinc-400">
@@ -175,7 +175,7 @@ export default function ElectionsExplorer({
       )}
       <p className="text-xs leading-relaxed text-zinc-500">
         {snapshot?.note ??
-          "O GrafoBR acompanha um recorte de parlamentares federais. Não é um cadastro completo de candidaturas. Não encontrar um perfil não significa que a pessoa não se candidatou."}
+          "O GrafoBR acompanha um recorte de representantes públicos. Não é um cadastro completo de candidaturas. Não encontrar um perfil não significa que a pessoa não se candidatou."}
       </p>
       <div className="flex flex-wrap gap-4 text-xs text-emerald-300">
         <a

@@ -1,3 +1,5 @@
+import { isExecutive } from "@/lib/offices";
+import type { OfficeKind } from "@/lib/offices";
 import type { ConnectionType, EgoNetwork, GraphLink, GraphNode } from "@/lib/contract";
 import {
   evidenceForConnection,
@@ -10,7 +12,7 @@ export type ProfileEntryLike = {
   name?: string;
   party?: string | null;
   uf?: string | null;
-  chamber?: "camara" | "senado";
+  chamber?: OfficeKind;
   sources?: string[];
 };
 
@@ -115,6 +117,8 @@ export function explainConnection(
 export function profileCoverageWarnings(entry: ProfileEntryLike | null, ego: EgoNetwork): string[] {
   const warnings: string[] = [];
   const sources = new Set(entry?.sources ?? ego.meta?.sources ?? []);
+  const executive = isExecutive(ego.meta.chamber);
+  if (executive) warnings.push("Executivo: o recorte não inclui despesas do governo nem contratos estaduais. Registros eleitorais são históricos e pertencem à própria candidatura.");
   if (ego.meta?.chamber === "senado" || entry?.chamber === "senado") {
     warnings.push(
       "Senado: bases abertas não publicam CPF em formato suficiente para alguns cruzamentos de sócios e contratos.",
@@ -123,13 +127,13 @@ export function profileCoverageWarnings(entry: ProfileEntryLike | null, ego: Ego
   if (!sources.has("receita")) {
     warnings.push("Sem cobertura de Receita/CNPJ neste perfil; ligações societárias podem não aparecer.");
   }
-  if (!sources.has("camara_ceap")) {
+  if (!executive && !sources.has("camara_ceap")) {
     warnings.push("Sem CEAP da Câmara neste perfil; fornecedores de cota parlamentar podem estar ausentes.");
   }
   if (!sources.has("tse")) {
     warnings.push("Sem dados de doação TSE neste arquivo estático.");
   }
-  if (!sources.has("cgu_emendas")) {
+  if (!executive && !sources.has("cgu_emendas")) {
     warnings.push("Sem emendas individuais CGU carregadas para este perfil.");
   }
   if (ego.links.length === 0) {

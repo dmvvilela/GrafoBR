@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "egoId": 1000023,
+    "egoName": "Marcos Rocha",
+    "chamber": "governo",
+    "photo": null,
+    "office": {
+      "verifiedAt": "2026-11-13",
+      "sourceUrl": "https://rondonia.ro.gov.br/portal/o-governador/",
+      "note": "Titular do mandato; substituições temporárias por viagem ou licença não alteram este cadastro.",
+      "campaignYear": 2022,
+      "campaignOffice": "GOVERNADOR",
+      "campaignParty": "UNIÃO"
+    },
+    "generatedAt": "2026-11-13T19:32:04.654856Z",
+    "sources": [
+      "executivo",
+      "tse"
+    ],
+    "sourceCoverage": {
+      "executivo": "titularidade verificada em 2026-11-13; fonte oficial no perfil",
+      "tse": "eleições 2022; até 25 doadores; recibos repetidos consolidados e versões conflitantes excluídas; valores parciais do recorte"
+    },
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 1000023,
+      "name": "Marcos Rocha",
+      "category": "politician",
+      "connectionCount": 2
+    },
+    {
+      "id": 1,
+      "name": "UNIAO BRASIL",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e667"
+    },
+    {
+      "id": 2,
+      "name": "UNIAO BRASIL - RONDONIA - RO - ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e4592"
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 1000023,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$8.220.654,31 nas eleições 2022 registrada no TSE (5 receitas, 19/08/2022–05/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 1000023,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.583.690,00 nas eleições 2022 registrada no TSE (17/10/2022)",
+      "strength": 1
+    }
+  ]
+}

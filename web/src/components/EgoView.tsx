@@ -1,4 +1,5 @@
 "use client";
+import { officeLabel, isExecutive } from "@/lib/offices";
 
 import { Suspense, useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
@@ -51,8 +52,9 @@ const CROSS_VERB: Record<string, (n: number) => string> = {
 const SOURCE_LABELS: Record<string, string> = {
   camara: "Câmara dos Deputados",
   senado: "Senado Federal",
+  executivo: "Cadastro oficial do Executivo",
   camara_ceap: "Câmara dos Deputados — CEAP",
-  cgu_emendas: "CGU — Emendas Parlamentares",
+  cgu_emendas: "CGU — Emendas Representantes",
   tse: "TSE",
   receita: "Receita Federal",
   transparencia: "Portal da Transparência",
@@ -271,7 +273,7 @@ function standoutSummary({
     pieces.push(`${obrasInsight!.state.total} sinais de obras públicas na UF`);
   }
   if (related.length > 0) {
-    pieces.push(`${related.length} ${related.length === 1 ? "parlamentar com conexão em comum" : "parlamentares com conexões em comum"}`);
+    pieces.push(`${related.length} ${related.length === 1 ? "representante com conexão em comum" : "representantes com conexões em comum"}`);
   }
   if (pieces.length === 0 && partyDonors > 0) {
     pieces.push(`${partyDonors} ${partyDonors === 1 ? "doador partidário" : "doadores partidários"}`);
@@ -441,7 +443,7 @@ function EgoViewInner({
         href="/"
         className="inline-flex items-center gap-1.5 text-sm text-zinc-400 transition hover:text-zinc-200"
       >
-        <ArrowLeft size={15} /> todos os parlamentares
+        <ArrowLeft size={15} /> todos os representantes
       </Link>
 
       <header className="flex flex-wrap items-center gap-4 rounded-2xl border border-white/5 bg-white/[0.03] p-5">
@@ -463,9 +465,7 @@ function EgoViewInner({
             {entry?.uf && <span className="text-zinc-400">{entry.uf}</span>}
             <span className="text-zinc-600">·</span>
             <span className="text-zinc-400">
-              {ego.meta?.chamber === "senado"
-                ? "Senador(a)"
-                : "Deputado(a) federal"}
+              {officeLabel(ego.meta.chamber)}
             </span>
             {donors.length > 0 && (
               <>
@@ -727,7 +727,7 @@ function EgoViewInner({
           ) : (
             <p className="mt-3 border-t border-white/5 pt-3 text-xs text-zinc-600">
               Sem correspondência temática automática com as áreas de emendas
-              deste parlamentar.
+              deste representante.
             </p>
           )}
         </section>
@@ -736,7 +736,7 @@ function EgoViewInner({
       {related.length > 0 && (
         <section className="rounded-2xl border border-white/5 bg-white/[0.02] p-4">
           <h2 className="text-sm font-medium text-zinc-200">
-            Parlamentares com conexões em comum
+            Representantes com conexões em comum
           </h2>
           <p className="mt-1 text-xs text-zinc-500">
             Compartilham doadores, empresas ou fornecedores nos registros
@@ -776,6 +776,17 @@ function EgoViewInner({
         </section>
       )}
 
+      {ego.meta.office && (
+        <section className="rounded-2xl border border-sky-300/20 bg-sky-300/5 p-5 text-sm text-zinc-300">
+          <h2 className="font-semibold text-sky-200">Cargo atual e registros históricos</h2>
+          <p className="mt-2">{officeLabel(ego.meta.chamber)} · titularidade verificada em {new Date(`${ego.meta.office.verifiedAt}T12:00:00Z`).toLocaleDateString("pt-BR", { timeZone: "UTC" })}. <a href={ego.meta.office.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-emerald-300 underline">Consultar fonte oficial ↗</a></p>
+          <p className="mt-2 text-xs text-zinc-400">{ego.meta.office.note}</p>
+          <p className="mt-2 text-xs text-zinc-400">{ego.meta.office.campaignYear
+            ? `Registros eleitorais históricos: ${ego.meta.office.campaignOffice}, ${ego.meta.office.campaignYear} · partido naquela eleição: ${ego.meta.office.campaignParty}. Doações pertencem à candidatura da própria pessoa; não são transferidas do titular anterior ou de outro integrante da chapa.`
+            : "Sem candidatura histórica pareada neste recorte. Nenhuma doação foi atribuída por nome ou por sucessão no cargo."}</p>
+          <p className="mt-2 text-xs text-zinc-400">Este recorte não inclui despesas do Executivo nem contratos estaduais. CEAP e emendas individuais parlamentares não se aplicam ao cargo atual.</p>
+        </section>
+      )}
       <div className="grid gap-5 lg:grid-cols-[1fr_330px]">
         {ego.links.length === 0 ? (
           <div className="grid h-[560px] place-items-center rounded-2xl border border-white/5 bg-white/[0.03] p-8 text-center">
@@ -784,10 +795,9 @@ function EgoViewInner({
                 Sem conexões atribuídas nesta base.
               </p>
               <p className="text-xs leading-relaxed text-zinc-500">
-                Não identificamos emendas individuais (2023+) para este
-                parlamentar nos dados da CGU. A base aberta do Senado não
-                publica CPF, então não cruzamos sócios e contratos para
-                senadores.
+                Não há vínculos verificáveis carregados para este perfil no recorte
+                disponível. Isso não significa ausência de relações. Consulte a
+                cobertura e as fontes deste perfil.
               </p>
             </div>
           </div>
@@ -834,7 +844,7 @@ function EgoViewInner({
               </h2>
             </div>
             <div className="flex flex-wrap gap-1.5">
-              {FILTERS.map((filter) => {
+              {FILTERS.filter((filter) => !isExecutive(ego.meta.chamber) || !["despesa", "emenda"].includes(filter.key)).map((filter) => {
                 const total = totals.get(filter.key) ?? 0;
                 const active = activeTypes.has(filter.key);
                 return (

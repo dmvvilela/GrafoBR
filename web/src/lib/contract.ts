@@ -1,3 +1,4 @@
+import type { OfficeKind, OfficeRecord } from "@/lib/offices";
 // TypeScript mirror of contract/ego-network.schema.json — THE seam.
 // If you change this, also change the JSON Schema and the sample fixture. See
 // ../../../docs/DATA-CONTRACT.md.
@@ -40,7 +41,8 @@ export interface GraphLink {
 export interface EgoNetworkMeta {
   egoId: number;
   egoName: string;
-  chamber: "camara" | "senado";
+  chamber: OfficeKind;
+  office?: OfficeRecord;
   photo?: string | null;
   generatedAt: string;
   sources: string[];

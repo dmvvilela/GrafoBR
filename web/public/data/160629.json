@@ -1,0 +1,385 @@
+{
+  "meta": {
+    "egoId": 160629,
+    "egoName": "Romero Rodrigues",
+    "chamber": "camara",
+    "photo": null,
+    "generatedAt": "2026-11-13T19:32:01.733357Z",
+    "sources": [
+      "camara",
+      "camara_ceap",
+      "cgu_emendas",
+      "tse"
+    ],
+    "sourceCoverage": {
+      "camara": "parlamentares em exercício na consulta; coleta local em 13/11/2026",
+      "camara_ceap": "ano 2026; coleta local em 13/11/2026",
+      "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 29/10/2026",
+      "tse": "eleições 2022; até 25 doadores; recibos repetidos consolidados e versões conflitantes excluídas; valores parciais do recorte"
+    },
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 160629,
+      "name": "Romero Rodrigues",
+      "category": "politician",
+      "connectionCount": 24
+    },
+    {
+      "id": 15,
+      "name": "ALFA COMUNICAÇÃO E MARKETING DIGITAL LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4669"
+    },
+    {
+      "id": 19,
+      "name": "Assistência social",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 8,
+      "name": "CGCAR Agenciamento Comércio e Locação de Veículo E",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e12572"
+    },
+    {
+      "id": 21,
+      "name": "Ciência e Tecnologia",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 22,
+      "name": "Comércio e serviços",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "DIRETORIO NACIONAL DO PARTIDO SOCIAL CRISTAO",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e903"
+    },
+    {
+      "id": 20,
+      "name": "Defesa nacional",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 13,
+      "name": "ELDORADO COMUNICACAO E JORNALISMO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e1910"
+    },
+    {
+      "id": 2,
+      "name": "ELEICAO 2022 EFRAIM DE ARAUJO MORAIS FILHO SENADOR",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e12568"
+    },
+    {
+      "id": 5,
+      "name": "ELEICAO 2022 JOAO PAULO BARBOSA LEAL SEGUNDO DEPUTADO ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e12570"
+    },
+    {
+      "id": 18,
+      "name": "Encargos especiais",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 16,
+      "name": "Energisa Paraíba Distribuidora de Energia S.A",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e6251"
+    },
+    {
+      "id": 9,
+      "name": "FAUSTINO NEGÓCIOS IMOBILIÁRIOS",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e12573"
+    },
+    {
+      "id": 6,
+      "name": "LUZIA ANJO DA SILVA",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e12571"
+    },
+    {
+      "id": 7,
+      "name": "MAIS PROPAGANDA LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e3529"
+    },
+    {
+      "id": 12,
+      "name": "OPAIO SERVICOS DE COMUNICACAO LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e12575"
+    },
+    {
+      "id": 23,
+      "name": "Organização agrária",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 11,
+      "name": "POSTO DE COMBUSTIVEIS 214 SUL LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e1473"
+    },
+    {
+      "id": 10,
+      "name": "POSTO DE COMBUSTIVEIS SAO MARCOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e12574"
+    },
+    {
+      "id": 4,
+      "name": "RAIMUNDO LIRA",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e6908"
+    },
+    {
+      "id": 3,
+      "name": "ROMERO RODRIGUES VEIGA",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e12569"
+    },
+    {
+      "id": 17,
+      "name": "Saúde",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 24,
+      "name": "Segurança pública",
+      "category": "destino",
+      "connectionCount": 1
+    },
+    {
+      "id": 14,
+      "name": "Starlink Brazil Serviços de Internet Ltda",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e148"
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 160629,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.500.000,00 nas eleições 2022 registrada no TSE (18/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 160629,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$100.000,00 nas eleições 2022 registrada no TSE (30/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 160629,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$23.574,11 nas eleições 2022 registrada no TSE (2 receitas, 17/08/2022–10/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 160629,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$20.000,00 nas eleições 2022 registrada no TSE (23/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 5,
+      "target": 160629,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$635,29 nas eleições 2022 registrada no TSE (26/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 6,
+      "target": 160629,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$11,00 nas eleições 2022 registrada no TSE (13/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 160629,
+      "target": 7,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$132.250,00 (5 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 16/01/2026–19/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 8,
+      "source": 160629,
+      "target": 8,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$82.000,00 (12 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 28/01/2026–28/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 9,
+      "source": 160629,
+      "target": 9,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$16.800,00 (6 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 29/01/2026–01/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 10,
+      "source": 160629,
+      "target": 10,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$15.701,71 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/01/2026–01/07/2026)",
+      "strength": 1
+    },
+    {
+      "id": 11,
+      "source": 160629,
+      "target": 11,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$8.139,23 (6 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 16/01/2026–16/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 12,
+      "source": 160629,
+      "target": 12,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.000,00 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 30/03/2026)",
+      "strength": 1
+    },
+    {
+      "id": 13,
+      "source": 160629,
+      "target": 13,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.600,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 11/03/2026–12/05/2026)",
+      "strength": 1
+    },
+    {
+      "id": 14,
+      "source": 160629,
+      "target": 14,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.456,00 (6 lançamentos; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 26/12/2025–25/06/2026)",
+      "strength": 1
+    },
+    {
+      "id": 15,
+      "source": 160629,
+      "target": 15,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.000,00 (2 lançamentos; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 25/02/2026–23/04/2026)",
+      "strength": 1
+    },
+    {
+      "id": 16,
+      "source": 160629,
+      "target": 16,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$47,82 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 09/01/2026)",
+      "strength": 1
+    },
+    {
+      "id": 17,
+      "source": 160629,
+      "target": 17,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Saúde: R$40.002.407,00 empenhado, R$34.435.795,00 pago (6 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 18,
+      "source": 160629,
+      "target": 18,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$30.900.000,00 empenhado, R$30.740.000,00 pago (2 emendas; 2024–2025)",
+      "strength": 1
+    },
+    {
+      "id": 19,
+      "source": 160629,
+      "target": 19,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$2.575.985,00 empenhado, R$2.575.985,00 pago (1 emenda; 2025)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 160629,
+      "target": 20,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Defesa nacional: R$499.820,00 empenhado, R$139.735,00 pago (2 emendas; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 21,
+      "source": 160629,
+      "target": 21,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Ciência e Tecnologia: R$435.790,00 empenhado, R$435.790,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 22,
+      "source": 160629,
+      "target": 22,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Comércio e serviços: R$300.000,00 empenhado, R$300.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 23,
+      "source": 160629,
+      "target": 23,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Organização agrária: R$250.000,00 empenhado (1 emenda; 2024)",
+      "strength": 1
+    },
+    {
+      "id": 24,
+      "source": 160629,
+      "target": 24,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Segurança pública: R$150.000,00 empenhado, R$150.000,00 pago (1 emenda; 2024)",
+      "strength": 1
+    }
+  ]
+}

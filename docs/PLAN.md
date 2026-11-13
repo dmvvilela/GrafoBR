@@ -1,5 +1,9 @@
 # GrafoBR — Build Plan
 
+> 2026-11-13 scope expansion: current president and 27 state/DF governors now join
+> the existing parliamentary profiles. See DECISIONS D3 and REFRESH for the implemented
+> workflow. Phase descriptions below document the original build, not a restart.
+
 > Detailed, phase-by-phase plan for implementation. Written for the next model/dev.
 > Pair this with `DECISIONS.md` (the *why*) and `DATA-CONTRACT.md` (the *seam*).
 

@@ -1,9 +1,9 @@
 import type { EgoNetwork } from "@/lib/contract";
-import { isPartyDonor } from "@/lib/donors";
+import { isExecutive } from "@/lib/offices";
 
 type Fact = {
   label: string;
-  value: number;
+  value: number | string;
   hint?: string;
 };
 
@@ -21,22 +21,22 @@ export default function ProfileFacts({
   obrasSignals?: number;
 }) {
   const donors = ego.nodes.filter((node) => node.category === "donor");
-  const privateDonors = donors.filter((node) => !isPartyDonor(node.name)).length;
   const companies = ego.nodes.filter((node) => node.category === "company").length;
   const suppliers = ego.nodes.filter((node) => node.category === "supplier").length;
   const emendaAreas = ego.nodes.filter((node) => node.category === "destino").length;
   const contracts = countLinks(ego, "contrato");
+  const executive = isExecutive(ego.meta.chamber);
   const facts: Fact[] = [
     {
       label: "doadores",
       value: donors.length,
-      hint: privateDonors ? `${privateDonors} privados` : undefined,
+      hint: "registros do recorte",
     },
     { label: "empresas", value: companies },
-    { label: "fornecedores CEAP", value: suppliers },
+    ...(!executive ? [{ label: "fornecedores CEAP", value: suppliers }] : []),
     { label: "contratos federais", value: contracts },
-    { label: "áreas de emenda", value: emendaAreas },
-    { label: "parlamentares em comum", value: relatedCount },
+    ...(!executive ? [{ label: "áreas de emenda", value: emendaAreas }] : []),
+    { label: "representantes em comum", value: relatedCount },
   ];
   if (obrasSignals != null) {
     facts.push({ label: "obras no estado", value: obrasSignals });
@@ -50,7 +50,7 @@ export default function ProfileFacts({
           className="min-w-0 rounded-xl border border-white/5 bg-white/[0.02] px-3 py-2.5"
         >
           <p className="text-lg font-semibold tabular-nums text-zinc-100">
-            {fact.value.toLocaleString("pt-BR")}
+            {typeof fact.value === "number" ? fact.value.toLocaleString("pt-BR") : fact.value}
           </p>
           <p className="truncate text-[11px] text-zinc-500" title={fact.label}>
             {fact.label}

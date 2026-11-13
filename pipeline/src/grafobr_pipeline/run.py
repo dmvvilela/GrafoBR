@@ -58,6 +58,7 @@ def main() -> int:
         action="store_true",
         help="also emit current senators (Senado API; emendas-only — no CPF for socio/contrato)",
     )
+    parser.add_argument("--executives", action="store_true", help="Include reviewed current president and governors")
     args = parser.parse_args()
 
     count = build_all(
@@ -72,6 +73,7 @@ def main() -> int:
             contratos_csv=args.contratos_csv,
             emendas_csv=args.emendas_csv,
             include_senators=args.senators,
+            include_executives=args.executives,
         )
     )
     print(f"OK — wrote {count} ego-network files")

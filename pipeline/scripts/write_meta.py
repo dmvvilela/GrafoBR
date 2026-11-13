@@ -27,7 +27,7 @@ def main() -> None:
     parser.add_argument("--ceap-year", type=int, required=True)
     args = parser.parse_args()
     index = json.loads((DATA_DIR / "index.json").read_text(encoding="utf-8"))
-    deputies = sum(1 for entry in index if entry.get("chamber") != "senado")
+    deputies = sum(1 for entry in index if entry.get("chamber", "camara") == "camara")
     senators = sum(1 for entry in index if entry.get("chamber") == "senado")
     meta = {
         # local tz (BRT) ISO timestamp; the frontend formats it for display
@@ -35,7 +35,9 @@ def main() -> None:
         "politicians": len(index),
         "deputies": deputies,
         "senators": senators,
+        "executives": sum(e.get("chamber") in {"presidencia", "governo"} for e in index),
         "sourceCoverage": {
+            **({"executivo": "titularidade verificada em " + min(e["office"]["verifiedAt"] for e in index if e.get("office")) + "; fonte oficial em cada perfil"} if any(e.get("office") for e in index) else {}),
             "camara": collected(
                 PIPELINE_DIR / ".cache/camara/deputados-page-1.json",
                 "parlamentares em exercício na consulta",
@@ -44,7 +46,7 @@ def main() -> None:
                 PIPELINE_DIR / ".cache/senado/senadores_atual.json",
                 "parlamentares em exercício na consulta",
             ),
-            "tse": "eleições 2022",
+            "tse": "eleições 2022; até 25 doadores por perfil; recibos repetidos consolidados e versões conflitantes excluídas",
             "receita": "snapshot 2023-05",
             "camara_ceap": collected(
                 PIPELINE_DIR / f".cache/camara/ceap/Ano-{args.ceap_year}.csv.zip",

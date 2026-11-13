@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "egoId": 1000014,
+    "egoName": "Mateus Simões",
+    "chamber": "governo",
+    "photo": null,
+    "office": {
+      "verifiedAt": "2026-11-13",
+      "sourceUrl": "https://www.mg.gov.br/governadoratual",
+      "note": "Titular do mandato; substituições temporárias por viagem ou licença não alteram este cadastro.",
+      "campaignYear": 2022,
+      "campaignOffice": "VICE-GOVERNADOR",
+      "campaignParty": "NOVO"
+    },
+    "generatedAt": "2026-11-13T19:32:04.451922Z",
+    "sources": [
+      "executivo",
+      "receita"
+    ],
+    "sourceCoverage": {
+      "executivo": "titularidade verificada em 2026-11-13; fonte oficial no perfil",
+      "receita": "snapshot 2023-05"
+    },
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 1000014,
+      "name": "Mateus Simões",
+      "category": "politician",
+      "connectionCount": 4
+    },
+    {
+      "id": 1,
+      "name": "ABC CAPITAL MFO GESTAO DE ATIVOS LTDA.",
+      "category": "company",
+      "connectionCount": 1,
+      "entityId": "e14417"
+    },
+    {
+      "id": 2,
+      "name": "ALMEIDA BEHRENS CARVALHO CONSULTORIA LTDA.",
+      "category": "company",
+      "connectionCount": 1,
+      "entityId": "e14418"
+    },
+    {
+      "id": 3,
+      "name": "ALMEIDA, BEHRENS E CARVALHO SOCIEDADE DE ADVOGADOS",
+      "category": "company",
+      "connectionCount": 1,
+      "entityId": "e14419"
+    },
+    {
+      "id": 4,
+      "name": "MMR PARTICIPACOES LTDA.",
+      "category": "company",
+      "connectionCount": 1,
+      "entityId": "e14420"
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1000014,
+      "target": 1,
+      "connectionType": "socio",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 08/07/2022",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 1000014,
+      "target": 2,
+      "connectionType": "socio",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 28/08/2018",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 1000014,
+      "target": 3,
+      "connectionType": "socio",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal, desde 17/07/2020",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 1000014,
+      "target": 4,
+      "connectionType": "socio",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 19/04/2012",
+      "strength": 1
+    }
+  ]
+}

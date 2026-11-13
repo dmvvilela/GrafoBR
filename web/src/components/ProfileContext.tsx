@@ -66,7 +66,7 @@ export default function ProfileContext({
       <section className="rounded-2xl border border-white/10 bg-white/[0.02] p-5">
         <h2 className="font-semibold">Na imprensa</h2>
         <p className="mt-2 text-xs leading-relaxed text-zinc-500">
-          Links com associação ao parlamentar revisada. Reportagens são contexto
+          Links com associação ao representante revisada. Reportagens são contexto
           editorial; não criam vínculos no grafo.
         </p>
         {articles.length ? (

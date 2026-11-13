@@ -109,3 +109,15 @@ generation commands, semantics, failure behavior and current data-access limitat
 (use `jsonschema` in Python). The web can trust the shape because the pipeline guarantees it.
 If you change the contract, change it in **three** places: the schema, the TS mirror, and the
 sample fixture — and bump a version note here.
+
+
+## Executive offices (2026-11-13)
+
+The legacy `meta.chamber` discriminator now accepts `presidencia` and `governo`,
+as well as `camara` and `senado`. Executive profiles and index rows carry `office`:
+`verifiedAt`, `sourceUrl`, `note`, and nullable `campaignYear`, `campaignOffice`,
+`campaignParty`. Office evidence and historical election evidence are separate.
+Public IDs >= 1,000,000 are permanently assigned to people in the reviewed roster;
+never reassign an ID to the next holder of the same office. CPF and candidate sequences
+remain private. All four offices share one opaque entity-ID registry per full build,
+so comparisons work across offices without name-only entity matching.

@@ -1,3 +1,4 @@
+import type { OfficeKind, OfficeRecord } from "@/lib/offices";
 // Build-time data access. The static site reads the pipeline's JSON from
 // public/data (populated by scripts/sync-data.mjs). No runtime database.
 import { promises as fs } from "node:fs";
@@ -11,7 +12,8 @@ export interface IndexEntry {
   name: string;
   party?: string | null;
   uf?: string | null;
-  chamber?: "camara" | "senado";
+  chamber?: OfficeKind;
+  office?: OfficeRecord;
   photo?: string | null;
   sources: string[];
   path: string;

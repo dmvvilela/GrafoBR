@@ -5,6 +5,7 @@ import Link from "next/link";
 import Fuse from "fuse.js";
 import { ArrowUpRight, ChevronLeft, ChevronRight, Search } from "lucide-react";
 import type { IndexEntry } from "@/lib/data";
+import { officeLabel, type OfficeKind } from "@/lib/offices";
 import Avatar from "@/components/Avatar";
 import { sourceBadges } from "@/lib/evidence";
 
@@ -53,6 +54,7 @@ function DeputyCard({ entry }: { entry: IndexEntry }) {
           )}
           {entry.uf && <span>{entry.uf}</span>}
         </span>
+        <span className="mt-1 block text-xs text-sky-200/80">{officeLabel(entry.chamber)}</span>
         {badges.length > 0 && (
           <span className="mt-2 flex flex-wrap gap-1">
             {badges.map((badge) => (
@@ -76,6 +78,7 @@ function DeputyCard({ entry }: { entry: IndexEntry }) {
 
 export default function SearchDirectory({ index }: { index: IndexEntry[] }) {
   const [query, setQuery] = useState("");
+  const [office, setOffice] = useState<OfficeKind | "">("");
   const [letter, setLetter] = useState<string | null>(null);
   const [page, setPage] = useState(1);
   const topRef = useRef<HTMLDivElement>(null);
@@ -93,12 +96,13 @@ export default function SearchDirectory({ index }: { index: IndexEntry[] }) {
   }, [index]);
 
   const results = useMemo(() => {
-    if (query.trim()) return fuse.search(query).map((r) => r.item);
+    const scoped = index.filter((e) => !office || (e.chamber ?? "camara") === office);
+    if (query.trim()) return fuse.search(query).map((r) => r.item).filter((e) => !office || (e.chamber ?? "camara") === office);
     const base = letter
-      ? index.filter((e) => firstLetter(e.name) === letter)
-      : index;
+      ? scoped.filter((e) => firstLetter(e.name) === letter)
+      : scoped;
     return [...base].sort((a, b) => a.name.localeCompare(b.name, "pt-BR"));
-  }, [query, letter, fuse, index]);
+  }, [query, letter, fuse, index, office]);
 
   const totalPages = Math.max(1, Math.ceil(results.length / PAGE_SIZE));
   const safePage = Math.min(page, totalPages);
@@ -140,11 +144,17 @@ export default function SearchDirectory({ index }: { index: IndexEntry[] }) {
         <input
           value={query}
           onChange={(e) => onSearch(e.target.value)}
-          placeholder="Buscar parlamentar por nome, partido ou estado"
+          placeholder="Buscar representante por nome, partido ou estado"
           className="w-full rounded-xl border border-white/10 bg-white/[0.03] py-3 pr-4 pl-11 text-sm text-zinc-100 shadow-sm transition outline-none placeholder:text-zinc-500 focus:border-emerald-400/40 focus:ring-2 focus:ring-emerald-400/10"
         />
       </div>
 
+      <label className="mx-auto block max-w-xl text-xs text-zinc-400">
+        Filtrar por cargo
+        <select aria-label="Filtrar por cargo" value={office} onChange={(e) => { setOffice(e.target.value as OfficeKind | ""); setPage(1); setLetter(null); }} className="mt-2 w-full rounded-xl border border-white/10 bg-zinc-950 px-3 py-3 text-sm text-zinc-100">
+          <option value="">Todos os cargos</option><option value="presidencia">Presidência</option><option value="governo">Governadores</option><option value="camara">Deputados federais</option><option value="senado">Senadores</option>
+        </select>
+      </label>
       {/* A–Z quick filter (hidden while searching) */}
       {!query.trim() && (
         <div className="flex flex-wrap items-center justify-center gap-1">
@@ -249,7 +259,7 @@ export default function SearchDirectory({ index }: { index: IndexEntry[] }) {
         </>
       ) : (
         <p className="py-10 text-center text-sm text-zinc-500">
-          Nenhum parlamentar encontrado para “{query}”.
+          Nenhum representante encontrado para “{query}”.
         </p>
       )}
     </section>

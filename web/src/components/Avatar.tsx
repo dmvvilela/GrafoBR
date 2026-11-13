@@ -33,7 +33,7 @@ export default function Avatar({
   const [failed, setFailed] = useState(false);
   const dim = { width: size, height: size };
 
-  if (failed || !id) {
+  if (failed || !id || id >= 1_000_000) {
     return (
       <span
         style={dim}

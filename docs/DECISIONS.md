@@ -23,7 +23,16 @@ At our scale (~594 small ego-networks), bounded expansion is a handful of SQL jo
 no runtime database; the site reads precomputed files. (If/when a live AI layer ships,
 **Neon + pgvector** becomes the RAG store — see D6/Phase 6.)
 
-### D3 — Scope to ~594 federal politicians as bounded ego-networks
+### D3 — Bounded profiles, including the current Executive
+**Updated 2026-11-13, explicitly requested by the user:** include the current president
+and governors of all 26 states and the Federal District. The reviewed official roster
+in `pipeline/config/executives.json` determines officeholding, not election results.
+Historical TSE candidacies belong only to the same verified person. Incoming winners
+are not treated as officeholders before taking office. Person IDs never transfer to
+successors. Temporary travel/leave substitutions do not change the titular roster.
+Existing static architecture, privacy, neutral framing and source attribution remain.
+
+Historical v1 decision:
 **Decision:** Don't build the full 83M-node national graph. Seed on sitting federal deputies
 + senators; expand ~1–2 hops each.
 **Why:** Turns an 83M-node / terabyte problem into a few hundred thousand nodes total —

@@ -96,3 +96,35 @@ def iter_receipts_for_candidates(
             for row in reader:
                 if row.get("SQ_CANDIDATO") in candidate_ids:
                     yield row
+
+
+def verified_receipts(rows: Iterator[dict[str, str]]) -> Iterator[dict[str, str]]:
+    """Deduplicate receipt IDs; omit *all* versions of conflicting receipts.
+
+    Never choose an arbitrary revision or sum two versions. This yields a partial,
+    explicitly labeled graph slice, not a campaign-finance total.
+    """
+    from decimal import Decimal
+    selected = {}
+    signatures = {}
+    conflicted = set()
+    repeated = missing = 0
+    for row in rows:
+        receipt = row.get('SQ_RECEITA', '')
+        if not receipt.isdigit():
+            missing += 1
+            continue
+        key = (row['SQ_CANDIDATO'], receipt)
+        value = Decimal(row['VR_RECEITA'].replace('.', '').replace(',', '.'))
+        if not value.is_finite() or value < 0:
+            raise ValueError('Invalid campaign receipt amount')
+        signature = (value, row.get('NR_CPF_CNPJ_DOADOR'), row.get('DT_RECEITA'))
+        if key in signatures:
+            repeated += 1
+            if signatures[key] != signature:
+                conflicted.add(key)
+        else:
+            selected[key] = row
+            signatures[key] = signature
+    print(f'TSE receipts: {repeated} repeated rows; {len(conflicted)} conflicting receipts and {missing} unidentified rows omitted', flush=True)
+    yield from (row for key, row in selected.items() if key not in conflicted)

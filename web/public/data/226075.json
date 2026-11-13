@@ -4,16 +4,18 @@
     "egoName": "Priscila Costa",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-10-29T17:12:54.144563Z",
+    "generatedAt": "2026-11-13T19:32:01.091348Z",
     "sources": [
       "camara",
+      "camara_ceap",
       "receita",
       "tse"
     ],
     "sourceCoverage": {
-      "camara": "parlamentares em exercício na consulta; coleta local em 29/10/2026",
+      "camara": "parlamentares em exercício na consulta; coleta local em 13/11/2026",
+      "camara_ceap": "ano 2026; coleta local em 13/11/2026",
       "receita": "snapshot 2023-05",
-      "tse": "eleições 2022"
+      "tse": "eleições 2022; até 25 doadores; recibos repetidos consolidados e versões conflitantes excluídas; valores parciais do recorte"
     },
     "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
@@ -23,21 +25,42 @@
       "id": 226075,
       "name": "Priscila Costa",
       "category": "politician",
-      "connectionCount": 4
+      "connectionCount": 8
     },
     {
       "id": 2,
       "name": "IGOR QUEIROZ BARROSO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e11535"
+      "entityId": "e11532"
+    },
+    {
+      "id": 8,
+      "name": "J C M IMOVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e11537"
+    },
+    {
+      "id": 7,
+      "name": "JANGADA COMERCIO DE COMBUSTIVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e4985"
     },
     {
       "id": 3,
       "name": "JOAO ITALO OLIVEIRA CLEMENTE POMPEU",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e11536"
+      "entityId": "e11533"
+    },
+    {
+      "id": 5,
+      "name": "MARCIO ALMEIDA MARTINS",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e11535"
     },
     {
       "id": 1,
@@ -51,7 +74,14 @@
       "name": "PEIXE PRODUTORA DE VIDEOS LTDA",
       "category": "company",
       "connectionCount": 1,
-      "entityId": "e11537"
+      "entityId": "e11534"
+    },
+    {
+      "id": 6,
+      "name": "WAR LOCACOES LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e11536"
     }
   ],
   "links": [
@@ -60,7 +90,7 @@
       "source": 1,
       "target": 226075,
       "connectionType": "doacao",
-      "description": "Doação de campanha de R$2.000.000,00 em 2022 registrada no TSE (2 receitas, 29/08/2022–02/09/2022)",
+      "description": "Doação de campanha de R$2.000.000,00 nas eleições 2022 registrada no TSE (2 receitas, 29/08/2022–02/09/2022)",
       "strength": 1
     },
     {
@@ -68,7 +98,7 @@
       "source": 2,
       "target": 226075,
       "connectionType": "doacao",
-      "description": "Doação de campanha de R$300.000,00 em 2022 registrada no TSE (25/08/2022)",
+      "description": "Doação de campanha de R$300.000,00 nas eleições 2022 registrada no TSE (25/08/2022)",
       "strength": 1
     },
     {
@@ -76,7 +106,7 @@
       "source": 3,
       "target": 226075,
       "connectionType": "doacao",
-      "description": "Doação de campanha de R$3.825,00 em 2022 registrada no TSE (31/10/2022)",
+      "description": "Doação de campanha de R$3.825,00 nas eleições 2022 registrada no TSE (31/10/2022)",
       "strength": 1
     },
     {
@@ -85,6 +115,38 @@
       "target": 4,
       "connectionType": "socio",
       "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 25/09/2013",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 226075,
+      "target": 5,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$25.237,50 (1 lançamento; tipo: DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR.; período: 27/10/2026)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 226075,
+      "target": 6,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$16.000,00 (2 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 07/08/2026)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 226075,
+      "target": 7,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$11.815,65 (3 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 06/11/2026–09/11/2026)",
+      "strength": 1
+    },
+    {
+      "id": 8,
+      "source": 226075,
+      "target": 8,
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$6.000,00 (1 lançamento; tipo: MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR; período: 10/08/2026)",
       "strength": 1
     }
   ]

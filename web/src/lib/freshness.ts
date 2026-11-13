@@ -3,6 +3,7 @@ export const SOURCE_DETAILS: Record<string, { name: string; url: string }> = {
     name: "Câmara dos Deputados",
     url: "https://dadosabertos.camara.leg.br/",
   },
+  executivo: { name: "Executivo — fontes oficiais", url: "/sobre" },
   senado: {
     name: "Senado Federal",
     url: "https://www12.senado.leg.br/dados-abertos",

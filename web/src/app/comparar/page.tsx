@@ -6,9 +6,9 @@ import { sharedConnections } from "@/lib/comparison";
 import ComparePoliticians from "@/components/ComparePoliticians";
 
 export const metadata: Metadata = {
-  title: "Comparar parlamentares — GrafoBR",
+  title: "Comparar representantes — GrafoBR",
   description:
-    "Explore o que dois parlamentares têm em comum, confira os registros e compartilhe um card com fontes e contexto.",
+    "Explore o que dois representantes têm em comum, confira os registros e compartilhe um card com fontes e contexto.",
 };
 
 export default async function CompararPage() {
@@ -19,7 +19,8 @@ export default async function CompararPage() {
   let related: Record<string, { id: number }[]> = {};
   try { related = JSON.parse(await fs.readFile(path.join(process.cwd(), "public/data/_related.json"), "utf8")); } catch { /* Suggestions are optional. */ }
   const used = new Set<number>();
-  for (const entry of entries) {
+  const suggestionOrder = [...entries].sort((a, b) => Number(Boolean(b.office)) - Number(Boolean(a.office)));
+  for (const entry of suggestionOrder) {
     if (used.has(entry.id)) continue;
     const other = related[entry.id]?.find((candidate) => !used.has(candidate.id) && entries.some((e) => e.id === candidate.id));
     if (!other) continue;
@@ -33,12 +34,12 @@ export default async function CompararPage() {
   return (
     <div className="space-y-7">
       <header className="max-w-3xl">
-        <p className="mb-3 text-xs font-medium uppercase tracking-widest text-emerald-300">Comparar parlamentares</p>
+        <p className="mb-3 text-xs font-medium uppercase tracking-widest text-emerald-300">Comparar representantes</p>
         <h1 className="text-3xl font-semibold tracking-tight text-zinc-100 sm:text-4xl">
           O que conecta estes dois?
         </h1>
         <p className="mt-2 text-sm leading-relaxed text-zinc-500">
-          Escolha dois parlamentares, explore fornecedores, doadores e empresas
+          Escolha dois representantes, explore fornecedores, doadores e empresas
           em comum e confira a origem de cada vínculo. Uma conexão é um ponto de
           partida para entender os registros públicos.
         </p>

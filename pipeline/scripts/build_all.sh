@@ -8,16 +8,16 @@
 #   - BigQuery auth (for contracts): gcloud auth application-default login + a project
 #
 # Usage:  bash scripts/build_all.sh [LIMIT] [CEAP_YEAR]
-#   LIMIT defaults to 512 = current Câmara API population; CEAP_YEAR defaults to 2025.
+#   LIMIT defaults to 513; CEAP_YEAR defaults to 2026. Recheck Câmara population before refreshing.
 set -euo pipefail
 cd "$(dirname "$0")/.."   # -> pipeline/
-LIMIT="${1:-512}"
-CEAP_YEAR="${2:-2025}"
+LIMIT="${1:-513}"
+CEAP_YEAR="${2:-2026}"
 run() { PYTHONPATH=src .venv/bin/python "$@"; }
 
 echo "[1/7] bootstrap seed build ($LIMIT deputies; isolated from publish output)..."
 run -m grafobr_pipeline.run --limit "$LIMIT" --ceap-year "$CEAP_YEAR" \
-  --output-dir .cache/bootstrap
+  --output-dir .cache/bootstrap --executives
 
 echo "[2/7] extract target CPFs (stay local)..."
 run scripts/extract_target_cpfs.py --index .cache/bootstrap/index.json
@@ -48,7 +48,7 @@ run -m grafobr_pipeline.run --limit "$LIMIT" \
   --cnpj-socios-csv   .cache/cnpj/scoped/receita_socios_scoped.csv \
   --contratos-csv     .cache/cnpj/scoped/contratos.csv \
   --emendas-csv       .cache/emendas/emendas.csv \
-  --senators
+  --senators --executives
 
 echo "[meta] stamp data freshness (-> ../data/_meta.json)..."
 run scripts/write_meta.py --ceap-year "$CEAP_YEAR"

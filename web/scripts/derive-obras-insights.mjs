@@ -222,7 +222,7 @@ function themeMatches(areas, stateProjects, destinationRows) {
 
     for (const project of candidates.slice(0, 1)) {
       const strength = matchStrength(project, destination.funcao, [
-        "mesma UF do parlamentar",
+        "mesma UF do representante",
         `municipio da emenda: ${destination.municipio ?? destination.localidade}`,
         `tema de emenda: ${destination.funcao}`,
       ]);
@@ -241,7 +241,7 @@ function themeMatches(areas, stateProjects, destinationRows) {
         emendas: destination.emendas ?? 0,
         sampleIds: destination.sampleIds ?? [],
         evidence: [
-          "mesma UF do parlamentar",
+          "mesma UF do representante",
           `municipio da emenda: ${destination.municipio ?? destination.localidade}`,
           `tema de emenda: ${destination.funcao}`,
           "texto/cadastro da obra sugere o mesmo municipio e tema",
@@ -269,7 +269,7 @@ function themeMatches(areas, stateProjects, destinationRows) {
 
     for (const { project } of candidates.slice(0, 2)) {
       const strength = matchStrength(project, area.area, [
-        "mesma UF do parlamentar",
+        "mesma UF do representante",
         `tema de emenda: ${area.area}`,
       ]);
       usedProjects.add(project.id);
@@ -280,7 +280,7 @@ function themeMatches(areas, stateProjects, destinationRows) {
         area: area.area,
         emendaEmpenhada: area.empenhado,
         evidence: [
-          "mesma UF do parlamentar",
+          "mesma UF do representante",
           `tema de emenda: ${area.area}`,
           "texto do projeto/orgao sugere tema parecido",
         ],
@@ -367,7 +367,7 @@ for (const entry of index) {
     emendaAreas: areas.slice(0, 6),
     possibleMatches: themeMatches(areas, stateProjects, destinationRows),
     note:
-      "Contexto por UF e correspondencias tematicas fracas; nao atribui autoria, responsabilidade ou financiamento a parlamentar.",
+      "Contexto por UF e correspondencias tematicas fracas; nao atribui autoria, responsabilidade ou financiamento a representante.",
   };
 
   if (insight.state.total > 0) withStateSignals += 1;

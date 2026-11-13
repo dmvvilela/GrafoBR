@@ -64,7 +64,14 @@ def cpf(value: str) -> str | None:
 
 def private_profile_ids(index: list[dict], cache: Path) -> dict[str, int]:
     matches = defaultdict(set)
+    executive_cache = cache / "executives/identities.json"
+    executive_ids = json.loads(executive_cache.read_text()) if executive_cache.exists() else {}
     for entry in index:
+        if entry.get("chamber") in {"presidencia", "governo"}:
+            doc = cpf(executive_ids.get(str(entry["id"]), ""))
+            if doc:
+                matches[doc].add(entry["id"])
+            continue
         if entry.get("chamber") == "senado":
             continue  # Senate API has no CPF; a shared name is not enough.
         detail = cache / "camara" / "deputados" / f"{entry['id']}.json"

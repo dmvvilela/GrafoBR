@@ -187,7 +187,7 @@ export default function SearchAll({ index }: { index: IndexEntry[] }) {
               rows={results.map((result) =>
                 result.kind === "deputy"
                   ? {
-                      tipo: "parlamentar",
+                      tipo: "representante",
                       id: result.id,
                       nome: result.name,
                       partido: result.party,

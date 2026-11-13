@@ -1,37 +1,41 @@
 {
-  "generatedAt": "2026-10-30T17:07:56.277Z",
-  "snapshotGeneratedAt": "2026-10-29T14:12:56-03:00",
+  "generatedAt": "2026-11-13T19:41:51.143Z",
+  "snapshotGeneratedAt": "2026-11-13T16:35:14-03:00",
   "totals": {
-    "profiles": 594,
-    "emptyGraphs": 12,
-    "nodes": 24197,
-    "links": 23605
+    "profiles": 622,
+    "emptyGraphs": 17,
+    "nodes": 24695,
+    "links": 24075
   },
   "coverage": {
     "bySource": [
       {
         "key": "cgu_emendas",
-        "count": 562
+        "count": 563
+      },
+      {
+        "key": "tse",
+        "count": 532
       },
       {
         "key": "camara",
         "count": 513
       },
       {
-        "key": "tse",
-        "count": 513
-      },
-      {
         "key": "camara_ceap",
-        "count": 511
+        "count": 512
       },
       {
         "key": "receita",
-        "count": 339
+        "count": 354
       },
       {
         "key": "senado",
         "count": 81
+      },
+      {
+        "key": "executivo",
+        "count": 28
       },
       {
         "key": "transparencia",
@@ -46,28 +50,36 @@
       {
         "key": "senado",
         "count": 81
+      },
+      {
+        "key": "governo",
+        "count": 27
+      },
+      {
+        "key": "presidencia",
+        "count": 1
       }
     ],
     "byNodeCategory": [
       {
         "key": "supplier",
-        "count": 11161
+        "count": 11212
       },
       {
         "key": "donor",
-        "count": 7454
+        "count": 7830
       },
       {
         "key": "destino",
-        "count": 3916
+        "count": 3924
       },
       {
         "key": "company",
-        "count": 1066
+        "count": 1101
       },
       {
         "key": "politician",
-        "count": 594
+        "count": 622
       },
       {
         "key": "other",
@@ -77,19 +89,19 @@
     "byConnectionType": [
       {
         "key": "despesa",
-        "count": 11163
+        "count": 11214
       },
       {
         "key": "doacao",
-        "count": 7454
+        "count": 7830
       },
       {
         "key": "emenda",
-        "count": 3916
+        "count": 3924
       },
       {
         "key": "socio",
-        "count": 1066
+        "count": 1101
       },
       {
         "key": "contrato",
@@ -99,7 +111,7 @@
   },
   "missing": {
     "profileName": 0,
-    "party": 0,
+    "party": 28,
     "uf": 0,
     "sources": 0,
     "metaEgoId": 0,
@@ -129,7 +141,7 @@
       "id": "empty_graphs",
       "severity": "info",
       "label": "Perfis sem vínculos",
-      "count": 12,
+      "count": 17,
       "detail": "Ausência no recorte usado; não significa ausência de relações fora das fontes."
     },
     {
@@ -170,7 +182,20 @@
       905736
     ],
     "missingUf": [],
-    "missingParty": [],
+    "missingParty": [
+      1000001,
+      1000002,
+      1000003,
+      1000004,
+      1000005,
+      1000006,
+      1000007,
+      1000008,
+      1000009,
+      1000010,
+      1000011,
+      1000012
+    ],
     "brokenLinks": []
   },
   "note": "QA build-time: aponta anomalias estruturais e lacunas de cobertura; não acusa irregularidade."

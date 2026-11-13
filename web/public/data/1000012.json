@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "egoId": 1000012,
+    "egoName": "Otaviano Pivetta",
+    "chamber": "governo",
+    "photo": null,
+    "office": {
+      "verifiedAt": "2026-11-13",
+      "sourceUrl": "https://mpc.mt.gov.br/noticias/procurador-geral-de-contas-prestigia-posse-de-otaviano-pivetta-como-governador-de-mato-grosso/",
+      "note": "Titular do mandato; substituições temporárias por viagem ou licença não alteram este cadastro.",
+      "campaignYear": 2022,
+      "campaignOffice": "VICE-GOVERNADOR",
+      "campaignParty": "REPUBLICANOS"
+    },
+    "generatedAt": "2026-11-13T19:32:04.408828Z",
+    "sources": [
+      "executivo",
+      "receita"
+    ],
+    "sourceCoverage": {
+      "executivo": "titularidade verificada em 2026-11-13; fonte oficial no perfil",
+      "receita": "snapshot 2023-05"
+    },
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 1000012,
+      "name": "Otaviano Pivetta",
+      "category": "politician",
+      "connectionCount": 7
+    },
+    {
+      "id": 1,
+      "name": "ABRANGE-ASSOCIACAO BRASILEIRA DE PRODUTORES DE GRAOS NAO GENETICAMENTE MODIFICADOS",
+      "category": "company",
+      "connectionCount": 1,
+      "entityId": "e14387"
+    },
+    {
+      "id": 2,
+      "name": "IDEAL PORC SUINOCULTURA LTDA",
+      "category": "company",
+      "connectionCount": 1,
+      "entityId": "e14388"
+    },
+    {
+      "id": 3,
+      "name": "QC IMPORT E EXPORT LOGISTICA BRASIL LTDA.",
+      "category": "company",
+      "connectionCount": 1,
+      "entityId": "e14389"
+    },
+    {
+      "id": 4,
+      "name": "RADIO REGIONAL CENTRO NORTE LTDA",
+      "category": "company",
+      "connectionCount": 1,
+      "entityId": "e14390"
+    },
+    {
+      "id": 5,
+      "name": "RIO VERDE AGRIBUSINESS LTDA",
+      "category": "company",
+      "connectionCount": 1,
+      "entityId": "e14391"
+    },
+    {
+      "id": 6,
+      "name": "VANGUARDA PARANA LOGISTICA DE TRANSPORTES LTDA",
+      "category": "company",
+      "connectionCount": 1,
+      "entityId": "e14392"
+    },
+    {
+      "id": 7,
+      "name": "VANGUARDA SAO PAULO LOGISTICA DE TRANSPORTES LTDA.",
+      "category": "company",
+      "connectionCount": 1,
+      "entityId": "e14393"
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1000012,
+      "target": 1,
+      "connectionType": "socio",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (diretor), desde 30/09/2008",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 1000012,
+      "target": 2,
+      "connectionType": "socio",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 03/08/2004",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 1000012,
+      "target": 3,
+      "connectionType": "socio",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 14/06/2006",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 1000012,
+      "target": 4,
+      "connectionType": "socio",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 06/08/1997",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 1000012,
+      "target": 5,
+      "connectionType": "socio",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio-administrador), desde 01/10/2000",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 1000012,
+      "target": 6,
+      "connectionType": "socio",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 09/08/2007",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 1000012,
+      "target": 7,
+      "connectionType": "socio",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 02/08/2007",
+      "strength": 1
+    }
+  ]
+}

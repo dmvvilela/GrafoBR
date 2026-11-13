@@ -12,6 +12,7 @@ export const metadata: Metadata = {
 const SOURCE_NAMES: Record<string, string> = {
   camara: "Câmara",
   senado: "Senado",
+  executivo: "Executivo",
   camara_ceap: "CEAP",
   cgu_emendas: "Emendas CGU",
   receita: "Receita/CNPJ",
@@ -84,7 +85,8 @@ export default async function DadosPage() {
       sourceCounts.set(source, (sourceCounts.get(source) ?? 0) + 1);
     }
   }
-  const camara = index.filter((e) => e.chamber !== "senado").length;
+  const camara = index.filter((e) => (e.chamber ?? "camara") === "camara").length;
+  const executives = index.filter((e) => e.chamber === "presidencia" || e.chamber === "governo").length;
   const senado = index.filter((e) => e.chamber === "senado").length;
   const obrasTotal = obras?.all?.length ?? 0;
   const obrasNoValue =
@@ -106,7 +108,7 @@ export default async function DadosPage() {
       </div>
 
       <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-        <Stat label="Parlamentares" value={index.length} help={`${camara} deputados · ${senado} senadores`} />
+        <Stat label="Representantes" value={index.length} help={`${camara} deputados · ${senado} senadores · ${executives} no Executivo`} />
         <Stat label="Snapshot principal" value={formatDate(meta?.generatedAt)} />
         <Stat label="Obras com sinal" value={obrasTotal} help="Amostra Obrasgov.br" />
         <Stat label="Obras sem valor confiável" value={obrasNoValue} />
@@ -189,7 +191,7 @@ export default async function DadosPage() {
               <dt className="font-medium text-sky-300">match forte / cadeia forte</dt>
               <dd className="text-xs leading-relaxed text-zinc-500">
                 Pareamento conservador, como sócio por CPF mascarado + nome, ou empresa
-                ligada ao parlamentar que aparece em contratos federais.
+                ligada ao representante que aparece em contratos federais.
               </dd>
             </div>
             <div>

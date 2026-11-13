@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "egoId": 1000021,
+    "egoName": "Fátima Bezerra",
+    "chamber": "governo",
+    "photo": null,
+    "office": {
+      "verifiedAt": "2026-11-13",
+      "sourceUrl": "https://webdisk.diariooficial.rn.gov.br/Jornal/12026-06-24.pdf",
+      "note": "Titular do mandato; substituições temporárias por viagem ou licença não alteram este cadastro.",
+      "campaignYear": 2022,
+      "campaignOffice": "GOVERNADOR",
+      "campaignParty": "PT"
+    },
+    "generatedAt": "2026-11-13T19:32:04.612467Z",
+    "sources": [
+      "executivo",
+      "tse"
+    ],
+    "sourceCoverage": {
+      "executivo": "titularidade verificada em 2026-11-13; fonte oficial no perfil",
+      "tse": "eleições 2022; até 25 doadores; recibos repetidos consolidados e versões conflitantes excluídas; valores parciais do recorte"
+    },
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 1000021,
+      "name": "Fátima Bezerra",
+      "category": "politician",
+      "connectionCount": 2
+    },
+    {
+      "id": 2,
+      "name": "MOVIMENTO DEMOCRATICO BRASILEIRO - NATAL - RN - ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e14492"
+    },
+    {
+      "id": 1,
+      "name": "PARTIDO DOS TRABALHADORES - BRASIL - BR - NACIONAL",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e268"
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 1000021,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$7.115.522,00 nas eleições 2022 registrada no TSE (2 receitas, 19/08/2022–09/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 1000021,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$24.000,00 nas eleições 2022 registrada no TSE (2 receitas, 31/08/2022–08/09/2022)",
+      "strength": 1
+    }
+  ]
+}

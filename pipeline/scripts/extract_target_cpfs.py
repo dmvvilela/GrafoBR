@@ -22,8 +22,17 @@ def _digits(value: object) -> str:
 def extract_target_cpfs(*, index_path: Path, cache_dir: Path, output_path: Path) -> int:
     entries = json.loads(index_path.read_text(encoding="utf-8"))
     cpfs: set[str] = set()
+    executive_cache = cache_dir.parent.parent / "executives/identities.json"
+    executive_ids = json.loads(executive_cache.read_text()) if executive_cache.exists() else {}
     missing = 0
     for entry in entries:
+        if entry.get("chamber") in {"presidencia", "governo"}:
+            doc = executive_ids.get(str(entry["id"]))
+            if doc:
+                cpfs.add(doc)
+            else:
+                missing += 1
+            continue
         detail = cache_dir / f"{entry['id']}.json"
         if not detail.exists():
             missing += 1

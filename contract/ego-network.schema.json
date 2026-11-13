@@ -4,49 +4,168 @@
   "title": "GrafoBR Ego-Network",
   "description": "One politician-centered connection graph. The single seam between pipeline (producer) and web (consumer). See docs/DATA-CONTRACT.md.",
   "type": "object",
-  "required": ["meta", "nodes", "links"],
+  "required": [
+    "meta",
+    "nodes",
+    "links"
+  ],
   "additionalProperties": false,
   "properties": {
     "meta": {
       "type": "object",
-      "required": ["egoId", "egoName", "chamber", "generatedAt", "sources", "sourceCoverage", "summary", "disclaimer"],
+      "required": [
+        "egoId",
+        "egoName",
+        "chamber",
+        "generatedAt",
+        "sources",
+        "sourceCoverage",
+        "summary",
+        "disclaimer"
+      ],
       "additionalProperties": false,
       "properties": {
-        "egoId": { "type": "integer", "description": "node id of the politician this file centers on" },
-        "egoName": { "type": "string" },
-        "chamber": { "type": "string", "enum": ["camara", "senado"] },
-        "photo": { "type": ["string", "null"] },
-        "generatedAt": { "type": "string", "format": "date-time" },
-        "sources": { "type": "array", "items": { "type": "string" }, "description": "portal keys that contributed, e.g. camara, tse, receita" },
+        "egoId": {
+          "type": "integer",
+          "description": "node id of the politician this file centers on"
+        },
+        "egoName": {
+          "type": "string"
+        },
+        "chamber": {
+          "type": "string",
+          "enum": [
+            "camara",
+            "senado",
+            "presidencia",
+            "governo"
+          ]
+        },
+        "photo": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "generatedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "portal keys that contributed, e.g. camara, tse, receita"
+        },
         "sourceCoverage": {
           "type": "object",
-          "additionalProperties": { "type": "string" },
+          "additionalProperties": {
+            "type": "string"
+          },
           "description": "human-readable release or coverage window for every contributing source"
         },
-        "summary": { "type": ["string", "null"], "description": "optional plain-language summary; filled by build-time AI (Phase 5). Must be reviewable/neutral." },
-        "disclaimer": { "type": "string" }
+        "summary": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "optional plain-language summary; filled by build-time AI (Phase 5). Must be reviewable/neutral."
+        },
+        "disclaimer": {
+          "type": "string"
+        },
+        "office": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "verifiedAt",
+            "sourceUrl",
+            "note",
+            "campaignYear",
+            "campaignOffice",
+            "campaignParty"
+          ],
+          "properties": {
+            "verifiedAt": {
+              "type": "string",
+              "format": "date"
+            },
+            "sourceUrl": {
+              "type": "string",
+              "format": "uri"
+            },
+            "note": {
+              "type": "string"
+            },
+            "campaignYear": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "enum": [
+                2022,
+                null
+              ]
+            },
+            "campaignOffice": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "campaignParty": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        }
       }
     },
     "nodes": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "name", "category", "connectionCount"],
+        "required": [
+          "id",
+          "name",
+          "category",
+          "connectionCount"
+        ],
         "additionalProperties": false,
         "properties": {
-          "id": { "type": "integer", "description": "opaque node id. NEVER a CPF/CNPJ." },
+          "id": {
+            "type": "integer",
+            "description": "opaque node id. NEVER a CPF/CNPJ."
+          },
           "entityId": {
             "type": "string",
             "pattern": "^e[0-9]+$",
             "description": "snapshot-local opaque identity used only to join the same public entity across ego-networks"
           },
-          "name": { "type": "string" },
+          "name": {
+            "type": "string"
+          },
           "category": {
             "type": "string",
-            "enum": ["politician", "company", "donor", "supplier", "destino", "relative", "other"],
+            "enum": [
+              "politician",
+              "company",
+              "donor",
+              "supplier",
+              "destino",
+              "relative",
+              "other"
+            ],
             "description": "drives node color"
           },
-          "connectionCount": { "type": "integer", "minimum": 0, "description": "node degree; drives node size" }
+          "connectionCount": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "node degree; drives node size"
+          }
         }
       }
     },
@@ -54,19 +173,51 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "source", "target", "connectionType", "description", "strength"],
+        "required": [
+          "id",
+          "source",
+          "target",
+          "connectionType",
+          "description",
+          "strength"
+        ],
         "additionalProperties": false,
         "properties": {
-          "id": { "type": "integer" },
-          "source": { "type": "integer", "description": "node id" },
-          "target": { "type": "integer", "description": "node id" },
+          "id": {
+            "type": "integer"
+          },
+          "source": {
+            "type": "integer",
+            "description": "node id"
+          },
+          "target": {
+            "type": "integer",
+            "description": "node id"
+          },
           "connectionType": {
             "type": "string",
-            "enum": ["socio", "doacao", "despesa", "contrato", "emenda", "parente", "other"],
+            "enum": [
+              "socio",
+              "doacao",
+              "despesa",
+              "contrato",
+              "emenda",
+              "parente",
+              "other"
+            ],
             "description": "drives edge color"
           },
-          "description": { "type": ["string", "null"], "description": "human-readable, source-attributed" },
-          "strength": { "type": "number", "description": "edge weight; currently unused in rendering" }
+          "description": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "human-readable, source-attributed"
+          },
+          "strength": {
+            "type": "number",
+            "description": "edge weight; currently unused in rendering"
+          }
         }
       }
     }

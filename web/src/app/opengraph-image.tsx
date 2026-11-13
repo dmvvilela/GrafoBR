@@ -54,7 +54,7 @@ export default async function Image() {
             maxWidth: 980,
           }}
         >
-          Conexões de dados públicos dos parlamentares federais
+          Conexões de dados públicos dos representantes públicos
         </div>
 
         <div
@@ -98,7 +98,7 @@ export default async function Image() {
               marginLeft: 8,
             }}
           >
-            {`${index.length} parlamentares · ${SITE_HOST}`}
+            {`${index.length} representantes · ${SITE_HOST}`}
           </div>
         </div>
       </div>

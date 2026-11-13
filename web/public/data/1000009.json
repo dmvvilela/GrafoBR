@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "egoId": 1000009,
+    "egoName": "Ricardo Ferraço",
+    "chamber": "governo",
+    "photo": null,
+    "office": {
+      "verifiedAt": "2026-11-13",
+      "sourceUrl": "https://www.es.gov.br/Noticia/governador-ferraco-anuncia-jordano-bruno-como-novo-delegado-geral-da-policia-civil",
+      "note": "Titular do mandato; substituições temporárias por viagem ou licença não alteram este cadastro.",
+      "campaignYear": 2022,
+      "campaignOffice": "VICE-GOVERNADOR",
+      "campaignParty": "PSDB"
+    },
+    "generatedAt": "2026-11-13T19:32:04.342174Z",
+    "sources": [
+      "executivo",
+      "receita"
+    ],
+    "sourceCoverage": {
+      "executivo": "titularidade verificada em 2026-11-13; fonte oficial no perfil",
+      "receita": "snapshot 2023-05"
+    },
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 1000009,
+      "name": "Ricardo Ferraço",
+      "category": "politician",
+      "connectionCount": 1
+    },
+    {
+      "id": 1,
+      "name": "TREKKING GESTAO E ESTRATEGIA EMPRESARIAL LTDA.",
+      "category": "company",
+      "connectionCount": 1,
+      "entityId": "e14359"
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1000009,
+      "target": 1,
+      "connectionType": "socio",
+      "description": "Participação societária registrada no snapshot 05/2023 da base CNPJ/Receita Federal (sócio), desde 10/01/2019",
+      "strength": 1
+    }
+  ]
+}

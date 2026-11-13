@@ -1,3 +1,4 @@
+import type { OfficeKind } from "@/lib/offices";
 import type { ConnectionType } from "@/lib/contract";
 
 export type EvidenceConfidence = "direta" | "forte" | "contextual" | "derivada";
@@ -31,7 +32,7 @@ export function evidenceForConnection(type: ConnectionType): EvidenceLabel {
       confidence: "forte",
       label: "cadeia forte",
       detail:
-        "Empresa ligada ao parlamentar aparece em contrato federal; a relação passa pela ligação societária.",
+        "Empresa ligada ao representante aparece em contrato federal; a relação passa pela ligação societária.",
       className: STYLES.forte,
     };
   }
@@ -85,7 +86,7 @@ export function sourceUrlForConnection(type: ConnectionType): string | null {
 
 export function politicianOfficialUrl(
   id: number | string | null | undefined,
-  chamber?: "camara" | "senado" | null,
+  chamber?: OfficeKind | null,
 ): string | null {
   if (!id || chamber !== "camara") return null;
   return `https://www.camara.leg.br/deputados/${id}`;
@@ -118,5 +119,6 @@ export function sourceBadges(sources: string[]): string[] {
   if (sources.includes("transparencia")) badges.push("contratos");
   if (sources.includes("cgu_emendas")) badges.push("emendas");
   if (sources.includes("senado")) badges.push("Senado");
+  if (sources.includes("executivo")) badges.push("Executivo");
   return badges;
 }

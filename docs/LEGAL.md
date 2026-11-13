@@ -23,8 +23,10 @@ that caution by design.
    *where it came from*. We do **not** label anyone "corrupt," "suspect," or attach a "risk
    score" in v1. UI/copy/naming stays neutral. (This was also br-acc's own pivot.)
 
-2. **Scope = elected federal officials acting in public office.** The most defensible subjects:
-   deputies/senators, and their *public* activities (donations received, contracts, company
+2. **Scope = public officeholders and their documented public activities.** The user
+   explicitly expanded coverage on 2026-11-13 to the current president and state/DF
+   governors, including verified successors and interims, alongside deputies/senators.
+   Their *public* activities (donations received, contracts, company
    ownership on public record). Avoid private individuals who aren't public figures.
 
 3. **CPF never ships.** Node `id` is an opaque integer. The CPF↔id map stays inside the build

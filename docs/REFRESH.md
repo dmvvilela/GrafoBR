@@ -158,3 +158,46 @@ requires a fresh selection instead of silently selecting a recycled ID. PNG card
 are generated locally in the browser with the selected entity, source periods,
 profile dates and neutral context. Their printed URL opens the pair; copy the full
 link alongside the image to preserve the exact selected connection.
+
+
+## President and governors (2026-11-13)
+
+`pipeline/config/executives.json` is the reviewed roster of the president and 27
+state/DF governors. Each person has an official evidence URL and review date.
+It includes permanent successors and interims, not temporary travel substitutions.
+Review all seats when holders change; never reuse a person's ID for a successor.
+The loader refuses a roster older than 45 days, a duplicate jurisdiction, or an
+ambiguous historical candidate. Incoming election winners are not current holders.
+
+`bash scripts/build_all.sh 513 2026` now includes `--executives` in bootstrap and final
+builds. Bootstrap writes only private exact CPF mappings; the Receita slicer includes
+those identities. The normal company-root and contract steps then cover the expanded
+scope. `python -m grafobr_pipeline.run --executives` also supports explicit builds.
+Never append graphs from a separate entity-ID namespace: regenerate the full snapshot.
+
+Historical candidacies are selected from the national TSE 2022 file by reviewed exact
+full name, UF, election office and general-election date. The archive also contains
+later supplementary elections, which are excluded. Receipt and company joins use
+private identifiers. A vice's graph never inherits donations from the ticket's head;
+no campaign match remains explicit missing coverage, not zero income.
+
+The historical receipt loader now deduplicates receipt IDs and excludes ALL versions
+when amount, donor document or date conflict. The published coverage labels explicitly
+state that totals are partial and bound the graph to 25 donors per profile. These
+counts must not be represented as complete campaign finances. The separate 2026
+financial importer still rejects conflicts and remains candidate-only.
+
+CEAP and individual parliamentary amendments are not assigned to executive profiles.
+Company ownership remains a May 2023 snapshot; contracts are federal company records,
+not the governor's contracts or state-government spending. Current party is left unset
+for these profiles; the historical campaign party has an explicit year.
+
+The November 13 local build validated 622 profiles (513 deputies, 81 senators,
+28 executive officeholders) and 24,075 edges. Twenty-three executive profiles have
+verified links; five have an explicit empty state (Mailza Assis, Celina Leão, Hana
+Ghassan, Lucas Ribeiro, Ricardo Couto). There are 1,173 directed executive-to-other
+profile pairs with at least one shared direct entity; this is not a count of unique
+undirected pairs. The combined receipt audit consolidated 523 repeated rows and
+excluded 149 conflicting receipt identities. The 2026 candidate-only context now
+matches 519 profiles; one ambiguous case is still omitted. Its source file remains
+October 29, not November 13. Obrasgov retains its prior June 23 snapshot.

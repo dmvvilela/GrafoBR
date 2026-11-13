@@ -5,6 +5,7 @@ import type { EgoNetwork, GraphLink } from "@/lib/contract";
 import type { SharedConnection } from "@/lib/comparison";
 import { CONNECTION_LABELS } from "@/lib/graph-colors";
 import { sourceForConnection } from "@/lib/evidence";
+import { officeLabel } from "@/lib/offices";
 import { SITE_HOST } from "@/lib/site";
 
 const SOURCE_KEYS: Record<string, string> = {
@@ -38,7 +39,10 @@ function makeCard(a: EgoNetwork, b: EgoNetwork, connection: SharedConnection): s
   y += 35;
   const leftEnd = block(a.meta.egoName, 64, y, 490, 36, "#a5b4fc");
   const rightEnd = block(b.meta.egoName, 646, y, 490, 36, "#5eead4");
-  y = Math.max(leftEnd, rightEnd) + 60;
+  const rolesY = Math.max(leftEnd, rightEnd) + 4;
+  const leftRole = block(officeLabel(a.meta.chamber), 64, rolesY, 490, 23, "#a1a1aa");
+  const rightRole = block(officeLabel(b.meta.chamber), 646, rolesY, 490, 23, "#a1a1aa");
+  y = Math.max(leftRole, rightRole) + 60;
   const entityY = y;
   y = block(connection.left.name, 90, y + 44, 1020, 34, "#fafafa");
   if (connection.left.name !== connection.right.name) {
@@ -59,7 +63,7 @@ function makeCard(a: EgoNetwork, b: EgoNetwork, connection: SharedConnection): s
   }
   y = evidenceBottom;
   y += 36;
-  y = block("Uma entidade aparece nos dois perfis. Isso não demonstra relação direta entre os parlamentares nem irregularidade.", 64, y, 1072, 25, "#d4d4d8") + 25;
+  y = block("Uma entidade aparece nos dois perfis. Isso não demonstra relação direta entre os representantes nem irregularidade.", 64, y, 1072, 25, "#d4d4d8") + 25;
   const date = (ego: EgoNetwork) => new Date(ego.meta.generatedAt).toLocaleDateString("pt-BR", { timeZone: "America/Sao_Paulo" });
   y = block(`Versões dos perfis: ${date(a)} e ${date(b)}. Recorte limitado de registros públicos.`, 64, y, 1072, 21, "#a1a1aa") + 12;
   y = block(`${SITE_HOST}/comparar?a=${a.meta.egoId}&b=${b.meta.egoId}`, 64, y, 1072, 23, "#6ee7b7");

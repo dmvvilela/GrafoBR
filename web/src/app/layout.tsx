@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "GrafoBR — conexões de dados públicos",
   description:
-    "Grafo aberto das conexões de parlamentares federais a partir de dados públicos. Conexões não são acusações.",
+    "Grafo aberto das conexões de representantes públicos a partir de dados públicos. Conexões não são acusações.",
 };
 
 function formatDate(iso?: string | null): string | null {
@@ -56,7 +56,7 @@ export default async function RootLayout({
     alternateName: "Grafo BR",
     url: SITE_URL,
     description:
-      "Conexões documentais de parlamentares federais a partir de dados públicos.",
+      "Conexões documentais de representantes públicos a partir de dados públicos.",
     inLanguage: "pt-BR",
   };
   return (

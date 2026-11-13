@@ -1,4 +1,4 @@
-// At-a-glance money facts for a parlamentar, computed straight from the ego graph
+// At-a-glance money facts for a representante, computed straight from the ego graph
 // (no AI, no extra data) so the page tells its story before you explore the nodes.
 import type { EgoNetwork } from "@/lib/contract";
 import { isPartyDonor } from "@/lib/donors";
@@ -96,9 +96,9 @@ export default function DeputyHighlights({ ego }: { ego: EgoNetwork }) {
     });
   if (donations > 0)
     stats.push({
-      label: "em doações de campanha",
+      label: "em receitas de campanha no recorte (2022)",
       value: donations,
-      hint: topDonor ? `maior privado: ${topDonor.name}` : undefined,
+      hint: topDonor ? `maior registro não partidário: ${topDonor.name}` : undefined,
       color: "text-yellow-300",
       ring: "border-yellow-400/15 bg-yellow-400/[0.03]",
     });

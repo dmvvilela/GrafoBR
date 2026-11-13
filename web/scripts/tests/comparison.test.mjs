@@ -45,3 +45,17 @@ test("share URL round-trips a version-bound selection and rejects recycled IDs",
   assert.equal(selectionForVersion(shared, "e99", version, version), null);
   assert.equal(selectionForVersion(shared, "e1", null, version), null);
 });
+test("executives compare to deputies by the same proven donor, regardless of office", () => {
+  const a = graph(1000001, "Doador Exemplo", "e37"); a.meta.chamber = "presidencia";
+  const b = graph(204379, "Doador Exemplo", "e37"); b.meta.chamber = "camara";
+  for (const ego of [a, b]) {
+    ego.nodes[1].category = "donor";
+    ego.links[0].connectionType = "doacao";
+    ego.links[0].source = 100;
+    ego.links[0].target = ego.meta.egoId;
+  }
+  const [shared] = sharedConnections(a, b);
+  assert.equal(shared.entityId, "e37");
+  b.nodes[1].entityId = "e38";
+  assert.equal(sharedConnections(a, b).length, 0);
+});

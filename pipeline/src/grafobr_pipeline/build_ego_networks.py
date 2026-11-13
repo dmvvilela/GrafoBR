@@ -24,9 +24,10 @@ import duckdb
 from .camara import Deputy, fetch_current_deputies, iter_ceap_expenses, prepare_ceap_file
 from .senado import fetch_current_senators
 from .emit import emit
+from .executives import load_executives
 from .receita import iter_empresas_csv, iter_socios_csv
 from .transparencia import iter_contracts_csv
-from .tse import iter_receipts_for_candidates, prepare_2022_files
+from .tse import iter_receipts_for_candidates, prepare_2022_files, verified_receipts
 
 
 @dataclass
@@ -43,6 +44,7 @@ class BuildContext:
     contratos_csv: Optional[str] = None
     emendas_csv: Optional[str] = None
     include_senators: bool = False
+    include_executives: bool = False
 
 
 def _digits(value: Optional[str], width: Optional[int] = None) -> Optional[str]:
@@ -319,9 +321,9 @@ def _load_tse_receipts(
     )
 
     rows: list[tuple[str, str, str, Optional[str], float]] = []
-    for row in iter_receipts_for_candidates(receipts_zip, candidate_ids):
+    for row in verified_receipts(iter_receipts_for_candidates(receipts_zip, candidate_ids)):
         donor_doc = _digits(row.get("NR_CPF_CNPJ_DOADOR"))
-        if donor_doc and len(donor_doc) not in {11, 14}:
+        if donor_doc and (len(donor_doc) not in {11, 14} or len(set(donor_doc)) == 1):
             donor_doc = None
         donor_name = (
             row.get("NM_DOADOR_RFB")
@@ -604,7 +606,7 @@ def expand_ego_network(
         else:
             period = None
         description = (
-            f"Doação de campanha de {_money(total_amount or 0)} em 2022 "
+            f"Doação de campanha de {_money(total_amount or 0)} nas eleições 2022 "
             f"registrada no TSE"
         )
         if receipt_count > 1:
@@ -729,7 +731,7 @@ def expand_ego_network(
         ).fetchone()[0]
         > 0
     )
-    if has_expenses:
+    if has_expenses and seed.get("chamber", "camara") == "camara":
         expense_rows = con.execute(
             """
             select
@@ -821,7 +823,7 @@ def expand_ego_network(
         ).fetchone()[0]
         > 0
     )
-    if has_emendas:
+    if has_emendas and seed.get("chamber", "camara") in {"camara", "senado"}:
         emenda_names = {
             _normalize_name(seed.get("name")),
             _normalize_name(seed.get("civil_name")),
@@ -1044,7 +1046,7 @@ def to_contract(
 
     sources = sorted(
         {
-            seed.get("chamber", "camara"),
+            ("executivo" if seed.get("office") else seed.get("chamber", "camara")),
             *(["tse"] if any(link["connectionType"] == "doacao" for link in raw_graph["links"]) else []),
             *(["receita"] if any(link["connectionType"] == "socio" for link in raw_graph["links"]) else []),
             *(["camara_ceap"] if any(link["connectionType"] == "despesa" for link in raw_graph["links"]) else []),
@@ -1062,7 +1064,8 @@ def to_contract(
             cache_dir / "senado" / "senadores_atual.json",
             "parlamentares em exercício na consulta",
         ),
-        "tse": "eleições 2022",
+        "executivo": f"titularidade verificada em {seed.get('office', {}).get('verifiedAt', '')}; fonte oficial no perfil",
+        "tse": "eleições 2022; até 25 doadores; recibos repetidos consolidados e versões conflitantes excluídas; valores parciais do recorte",
         "receita": "snapshot 2023-05",
         "camara_ceap": (
             _collected_label(cache_dir / "camara" / "ceap" / f"Ano-{ctx.ceap_year}.csv.zip", f"ano {ctx.ceap_year}")
@@ -1085,6 +1088,7 @@ def to_contract(
             "egoName": seed["name"],
             "chamber": seed.get("chamber", "camara"),
             "photo": seed.get("photo"),
+            **({"office": seed["office"]} if seed.get("office") else {}),
             "generatedAt": datetime.now(timezone.utc)
             .isoformat()
             .replace("+00:00", "Z"),
@@ -1163,7 +1167,8 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
     if not matches:
         raise RuntimeError("No Câmara deputies matched TSE 2022 candidates")
 
-    candidate_ids = {str(seed["sq_candidate"]) for seed in matches}
+    executives = load_executives(candidates_csv, ctx.cache_dir) if ctx.include_executives else []
+    candidate_ids = {str(seed["sq_candidate"]) for seed in [*matches, *executives] if seed.get("sq_candidate")}
     print(
         f"Streaming TSE receipts for {len(candidate_ids)} matched deputies...",
         flush=True,
@@ -1231,6 +1236,7 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
                 "uf": seed.get("uf"),
                 "chamber": ego_network["meta"].get("chamber", "camara"),
                 "photo": ego_network["meta"].get("photo"),
+                **({"office": seed["office"]} if seed.get("office") else {}),
                 "sources": ego_network["meta"]["sources"],
                 "path": path.name,
             }
@@ -1278,6 +1284,12 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
         print(
             f"Emitted {len(senators)} senators ({emitted} with emendas).", flush=True
         )
+
+    for seed in executives:
+        print(f"Emitting {seed['name']} (Executivo)...", flush=True)
+        ego_network = to_contract(expand_ego_network(con, seed, ctx), seed, ctx, entity_ids)
+        path = emit(ego_network, staging_dir)
+        append_index(ego_network, seed, path)
 
     if _EMENDA_AUDIT:
         print(

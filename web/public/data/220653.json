@@ -4,7 +4,7 @@
     "egoName": "Fábio Teruel",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-10-29T17:12:50.398063Z",
+    "generatedAt": "2026-11-13T19:31:57.514399Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -13,11 +13,11 @@
       "tse"
     ],
     "sourceCoverage": {
-      "camara": "parlamentares em exercício na consulta; coleta local em 29/10/2026",
-      "camara_ceap": "ano 2026; coleta local em 29/10/2026",
+      "camara": "parlamentares em exercício na consulta; coleta local em 13/11/2026",
+      "camara_ceap": "ano 2026; coleta local em 13/11/2026",
       "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 29/10/2026",
       "receita": "snapshot 2023-05",
-      "tse": "eleições 2022"
+      "tse": "eleições 2022; até 25 doadores; recibos repetidos consolidados e versões conflitantes excluídas; valores parciais do recorte"
     },
     "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
@@ -34,7 +34,7 @@
       "name": "051 - 313 NORTE - CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e24"
+      "entityId": "e25"
     },
     {
       "id": 21,
@@ -55,14 +55,14 @@
       "name": "AUTO POSTO 302 SUL LTDA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e416"
+      "entityId": "e413"
     },
     {
-      "id": 34,
+      "id": 35,
       "name": "AUTO POSTO AEROPORTO LTDA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e421"
+      "entityId": "e418"
     },
     {
       "id": 22,
@@ -90,7 +90,7 @@
       "name": "AUTO POSTO CONCORDE LTDA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e965"
+      "entityId": "e960"
     },
     {
       "id": 30,
@@ -104,7 +104,14 @@
       "name": "AUTO SERVICOS GRAND PRIX LTDA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e1536"
+      "entityId": "e1530"
+    },
+    {
+      "id": 34,
+      "name": "BRASAL COMBUSTIVEIS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e781"
     },
     {
       "id": 23,
@@ -114,14 +121,14 @@
       "entityId": "e70"
     },
     {
-      "id": 19,
+      "id": 20,
       "name": "CENTRO AUTOMOTIVO PONTE METALICA DE OSASCO LTDA",
       "category": "supplier",
       "connectionCount": 1,
       "entityId": "e6008"
     },
     {
-      "id": 20,
+      "id": 18,
       "name": "CLARO NXT TELECOMUNICAÇÕES S.A",
       "category": "supplier",
       "connectionCount": 1,
@@ -132,14 +139,7 @@
       "name": "Claro S.A - Embratel",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e261"
-    },
-    {
-      "id": 35,
-      "name": "EIXINHO L 212 NORTE COM DE COM E DERIV LTDA",
-      "category": "supplier",
-      "connectionCount": 1,
-      "entityId": "e5486"
+      "entityId": "e260"
     },
     {
       "id": 37,
@@ -187,7 +187,7 @@
       "name": "NOVACAR LOCADORA DE VEICULOS LTDA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e681"
+      "entityId": "e676"
     },
     {
       "id": 7,
@@ -197,7 +197,7 @@
       "entityId": "e6001"
     },
     {
-      "id": 18,
+      "id": 19,
       "name": "POSTO BATALHA LTDA",
       "category": "supplier",
       "connectionCount": 1,
@@ -211,7 +211,7 @@
       "entityId": "e161"
     },
     {
-      "id": 15,
+      "id": 16,
       "name": "POSTO DE SERVIÇOS RIMACRIS LT",
       "category": "supplier",
       "connectionCount": 1,
@@ -253,7 +253,7 @@
       "entityId": "e6004"
     },
     {
-      "id": 16,
+      "id": 15,
       "name": "SEM PARAR INSTITUICAO DE PAGAMENTO LTDA",
       "category": "supplier",
       "connectionCount": 1,
@@ -277,7 +277,7 @@
       "name": "TONINHO TRINTA AUTO POSTO",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e756"
+      "entityId": "e751"
     },
     {
       "id": 27,
@@ -293,7 +293,7 @@
       "source": 1,
       "target": 220653,
       "connectionType": "doacao",
-      "description": "Doação de campanha de R$1.000.000,00 em 2022 registrada no TSE (29/08/2022)",
+      "description": "Doação de campanha de R$1.000.000,00 nas eleições 2022 registrada no TSE (29/08/2022)",
       "strength": 1
     },
     {
@@ -373,7 +373,7 @@
       "source": 220653,
       "target": 11,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$100.500,00 (11 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 05/01/2026–03/09/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$110.500,00 (12 lançamentos; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 05/01/2026–05/10/2026)",
       "strength": 1
     },
     {
@@ -381,7 +381,7 @@
       "source": 220653,
       "target": 12,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$28.252,40 (95 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/01/2026–20/10/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$28.561,48 (96 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/01/2026–24/10/2026)",
       "strength": 1
     },
     {
@@ -397,7 +397,7 @@
       "source": 220653,
       "target": 14,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.385,88 (8 lançamentos; tipo: TELEFONIA; período: 08/01/2026–07/08/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.931,20 (9 lançamentos; tipo: TELEFONIA; período: 08/01/2026–08/09/2026)",
       "strength": 1
     },
     {
@@ -405,7 +405,7 @@
       "source": 220653,
       "target": 15,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.655,14 (12 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 26/03/2026–23/09/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$4.001,82 (7 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 31/01/2026–30/09/2026)",
       "strength": 1
     },
     {
@@ -413,7 +413,7 @@
       "source": 220653,
       "target": 16,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.479,40 (6 lançamentos; tipo: SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO; período: 31/01/2026–31/08/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$3.889,60 (13 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 26/03/2026–23/10/2026)",
       "strength": 1
     },
     {
@@ -429,7 +429,7 @@
       "source": 220653,
       "target": 18,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.737,63 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 15/05/2026–09/10/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.863,08 (6 lançamentos; tipo: TELEFONIA; período: 22/04/2026–23/09/2026)",
       "strength": 1
     },
     {
@@ -437,7 +437,7 @@
       "source": 220653,
       "target": 19,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.585,73 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/06/2026–02/10/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.737,63 (7 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 15/05/2026–09/10/2026)",
       "strength": 1
     },
     {
@@ -445,7 +445,7 @@
       "source": 220653,
       "target": 20,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.563,18 (5 lançamentos; tipo: TELEFONIA; período: 22/04/2026–23/08/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.585,73 (5 lançamentos; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 02/06/2026–02/10/2026)",
       "strength": 1
     },
     {
@@ -557,7 +557,7 @@
       "source": 220653,
       "target": 34,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$240,95 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/04/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$244,26 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 26/10/2026)",
       "strength": 1
     },
     {
@@ -565,7 +565,7 @@
       "source": 220653,
       "target": 35,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$219,31 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 30/03/2026)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$240,95 (1 lançamento; tipo: COMBUSTÍVEIS E LUBRIFICANTES.; período: 14/04/2026)",
       "strength": 1
     },
     {

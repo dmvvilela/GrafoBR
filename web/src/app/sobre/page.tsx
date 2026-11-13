@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Sobre e metodologia — GrafoBR",
   description:
-    "Como o GrafoBR coleta e cruza dados públicos de parlamentares federais — fontes, método de pareamento, limitações e ressalvas.",
+    "Como o GrafoBR coleta e cruza dados públicos de representantes públicos — fontes, método de pareamento, limitações e ressalvas.",
 };
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
@@ -23,7 +23,7 @@ export default function SobrePage() {
         <p className="text-[15px] leading-relaxed text-zinc-400">
           O GrafoBR cruza <strong className="font-medium text-zinc-200">dados
           públicos por lei</strong> para mostrar conexões registradas de
-          parlamentares federais — doadores de campanha, empresas, contratos,
+          representantes públicos — doadores de campanha, empresas, contratos,
           despesas de cota e emendas. São{" "}
           <strong className="font-medium text-zinc-200">conexões, não
           acusações</strong>: indicam o que está em registros oficiais, não
@@ -67,16 +67,16 @@ export default function SobrePage() {
 
       <Section title="Contratos federais">
         <p>
-          Ligamos uma empresa a um contrato quando o deputado é sócio dela{" "}
+          Ligamos uma empresa a um contrato quando a pessoa é sócia dela{" "}
           <em>e</em> ela aparece nos contratos de compras do governo federal. É uma
-          cadeia conservadora e rara: poucos deputados são sócios diretos de empresas
+          cadeia conservadora e rara: poucos perfis têm sócios diretos de empresas
           com contratos federais.
         </p>
       </Section>
 
       <Section title="Emendas individuais">
         <p>
-          Emendas individuais são a principal forma de um parlamentar{" "}
+          Emendas individuais são uma forma de um parlamentar{" "}
           <strong className="text-zinc-300">direcionar dinheiro federal</strong>.
           Usamos as emendas do tipo individual a partir de 2023 (mandato atual),
           atribuídas pelo nome do autor. Mostramos dois valores:{" "}
@@ -107,6 +107,10 @@ export default function SobrePage() {
         </p>
       </Section>
 
+      <Section title="Presidência e governos estaduais">
+        <p>Acompanhamos o presidente e os titulares dos 26 estados e do Distrito Federal, incluindo sucessores e interinos. Cada perfil informa a fonte oficial e a data da verificação do cargo. Eleitos que ainda não tomaram posse não substituem os titulares. Substituições temporárias por viagens ou licenças não alteram o cadastro.</p>
+        <p>Os registros de campanha de 2022 pertencem à candidatura da própria pessoa, mesmo quando disputou outro cargo. Não transferimos doações de outro integrante da chapa. Partido eleitoral é identificado com seu ano; não é uma afirmação de filiação atual. A cobertura de sócios usa o snapshot da Receita de maio de 2023. Este recorte não inclui despesas do Executivo ou contratos estaduais, nem atribui CEAP ou emendas parlamentares a esses cargos.</p>
+      </Section>
       <Section title="Senadores">
         <p>
           Incluímos os senadores em exercício, mas com menos dados: a base aberta

@@ -42,7 +42,7 @@ export default async function Home() {
       <section className="pt-8 text-center">
         <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-xs text-zinc-400">
           <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
-          {index.length} {index.length === 1 ? "parlamentar" : "parlamentares"}
+          {index.length} {index.length === 1 ? "representante" : "representantes"}
           {updated && (
             <>
               {" · "}
@@ -53,12 +53,12 @@ export default async function Home() {
 
         <h1 className="mx-auto mt-5 max-w-3xl text-4xl font-semibold tracking-tight text-balance sm:text-5xl">
           Explore <span className="gradient-text">conexões</span> registradas de
-          parlamentares federais.
+          representantes públicos.
         </h1>
 
         <p className="mx-auto mt-4 max-w-xl text-[15px] leading-relaxed text-pretty text-zinc-400">
-          Doadores de campanha, despesas de cota, empresas e contratos de parlamentares federais — a
-          partir de dados abertos e fontes oficiais.
+          Doadores de campanha, despesas de cota, empresas e contratos de representantes públicos — a
+          partir de dados abertos e fontes oficiais. Presidência, governos estaduais, Câmara e Senado, com cobertura indicada em cada perfil.
         </p>
       </section>
 
@@ -66,7 +66,7 @@ export default async function Home() {
 
       <Link href="/comparar" className="group block rounded-2xl border border-indigo-300/20 bg-gradient-to-r from-indigo-400/10 to-emerald-400/5 p-6 transition hover:border-emerald-300/40 sm:p-8">
         <p className="text-xs font-medium uppercase tracking-widest text-emerald-300">Explore lado a lado</p>
-        <h2 className="mt-2 text-2xl font-semibold text-zinc-100">O que conecta dois parlamentares?</h2>
+        <h2 className="mt-2 text-2xl font-semibold text-zinc-100">O que conecta dois representantes?</h2>
         <p className="mt-2 max-w-2xl text-sm leading-relaxed text-zinc-400">Veja entidades em comum, consulte os registros de cada lado e crie um card com fontes para compartilhar.</p>
         <span className="mt-4 inline-block text-sm font-medium text-emerald-300">Abrir comparação visual →</span>
       </Link>

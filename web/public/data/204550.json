@@ -4,7 +4,7 @@
     "egoName": "Júnior Mano",
     "chamber": "camara",
     "photo": null,
-    "generatedAt": "2026-10-29T17:12:51.727259Z",
+    "generatedAt": "2026-11-13T19:31:58.875940Z",
     "sources": [
       "camara",
       "camara_ceap",
@@ -13,11 +13,11 @@
       "tse"
     ],
     "sourceCoverage": {
-      "camara": "parlamentares em exercício na consulta; coleta local em 29/10/2026",
-      "camara_ceap": "ano 2026; coleta local em 29/10/2026",
+      "camara": "parlamentares em exercício na consulta; coleta local em 13/11/2026",
+      "camara_ceap": "ano 2026; coleta local em 13/11/2026",
       "cgu_emendas": "emendas individuais de 2023 em diante; coleta local em 29/10/2026",
       "receita": "snapshot 2023-05",
-      "tse": "eleições 2022"
+      "tse": "eleições 2022; até 25 doadores; recibos repetidos consolidados e versões conflitantes excluídas; valores parciais do recorte"
     },
     "summary": null,
     "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
@@ -27,36 +27,43 @@
       "id": 204550,
       "name": "Júnior Mano",
       "category": "politician",
-      "connectionCount": 19
+      "connectionCount": 20
     },
     {
       "id": 2,
       "name": "ANTONIO LUIZ RODRIGUES MANO JUNIOR",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8174"
+      "entityId": "e8189"
     },
     {
-      "id": 18,
+      "id": 19,
       "name": "Assistência social",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 15,
+      "id": 16,
       "name": "CELULAR FUNCIONAL",
       "category": "supplier",
       "connectionCount": 1,
       "entityId": "e70"
     },
     {
-      "id": 19,
+      "id": 15,
+      "name": "DALETH VEICULOS LTDA",
+      "category": "supplier",
+      "connectionCount": 1,
+      "entityId": "e593"
+    },
+    {
+      "id": 20,
       "name": "Desporto e lazer",
       "category": "destino",
       "connectionCount": 1
     },
     {
-      "id": 17,
+      "id": 18,
       "name": "Encargos especiais",
       "category": "destino",
       "connectionCount": 1
@@ -66,35 +73,35 @@
       "name": "FRANCISCO ALEX LINHARES DO VALE",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8179"
+      "entityId": "e8194"
     },
     {
       "id": 3,
       "name": "GIORDANNA SILVA BRAGA MANO",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8175"
+      "entityId": "e8190"
     },
     {
       "id": 8,
       "name": "GJM DISTRIBUIDORA LTDA",
       "category": "company",
       "connectionCount": 1,
-      "entityId": "e8180"
+      "entityId": "e8195"
     },
     {
       "id": 5,
       "name": "JOAO AMERICO DA SILVA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8177"
+      "entityId": "e8192"
     },
     {
       "id": 11,
       "name": "LAVOR NEGOCIOS E SERVIÇOS LTDA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e5339"
+      "entityId": "e5345"
     },
     {
       "id": 1,
@@ -108,31 +115,31 @@
       "name": "PIBB PARTICIPACOES S/A",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e8181"
+      "entityId": "e8196"
     },
     {
       "id": 14,
       "name": "R M DE SOUSA TAVORA COSTA PUBLICIDADE EIRELE",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e8183"
+      "entityId": "e8198"
     },
     {
       "id": 13,
       "name": "RÁDIO FM RIO ACARAÚ DE TAMBORIL",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e8182"
+      "entityId": "e8197"
     },
     {
       "id": 12,
       "name": "RÁDIO VALE DO RIO POTY LTDA",
       "category": "supplier",
       "connectionCount": 1,
-      "entityId": "e5642"
+      "entityId": "e5647"
     },
     {
-      "id": 16,
+      "id": 17,
       "name": "Saúde",
       "category": "destino",
       "connectionCount": 1
@@ -149,14 +156,14 @@
       "name": "VALCELIO ABREU RODRIGUES",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8178"
+      "entityId": "e8193"
     },
     {
       "id": 4,
       "name": "YVENS WATILA OLIVEIRA DA SILVA",
       "category": "donor",
       "connectionCount": 1,
-      "entityId": "e8176"
+      "entityId": "e8191"
     }
   ],
   "links": [
@@ -165,7 +172,7 @@
       "source": 1,
       "target": 204550,
       "connectionType": "doacao",
-      "description": "Doação de campanha de R$500.000,00 em 2022 registrada no TSE (23/08/2022)",
+      "description": "Doação de campanha de R$500.000,00 nas eleições 2022 registrada no TSE (23/08/2022)",
       "strength": 1
     },
     {
@@ -173,7 +180,7 @@
       "source": 2,
       "target": 204550,
       "connectionType": "doacao",
-      "description": "Doação de campanha de R$36.390,00 em 2022 registrada no TSE (3 receitas, 28/10/2022–31/10/2022)",
+      "description": "Doação de campanha de R$36.390,00 nas eleições 2022 registrada no TSE (3 receitas, 28/10/2022–31/10/2022)",
       "strength": 1
     },
     {
@@ -181,7 +188,7 @@
       "source": 3,
       "target": 204550,
       "connectionType": "doacao",
-      "description": "Doação de campanha de R$10.000,00 em 2022 registrada no TSE (04/10/2022)",
+      "description": "Doação de campanha de R$10.000,00 nas eleições 2022 registrada no TSE (04/10/2022)",
       "strength": 1
     },
     {
@@ -189,7 +196,7 @@
       "source": 4,
       "target": 204550,
       "connectionType": "doacao",
-      "description": "Doação de campanha de R$9.500,00 em 2022 registrada no TSE (29/08/2022)",
+      "description": "Doação de campanha de R$9.500,00 nas eleições 2022 registrada no TSE (29/08/2022)",
       "strength": 1
     },
     {
@@ -197,7 +204,7 @@
       "source": 5,
       "target": 204550,
       "connectionType": "doacao",
-      "description": "Doação de campanha de R$6.000,00 em 2022 registrada no TSE (15/08/2022)",
+      "description": "Doação de campanha de R$6.000,00 nas eleições 2022 registrada no TSE (15/08/2022)",
       "strength": 1
     },
     {
@@ -205,7 +212,7 @@
       "source": 6,
       "target": 204550,
       "connectionType": "doacao",
-      "description": "Doação de campanha de R$3.600,00 em 2022 registrada no TSE (16/09/2022)",
+      "description": "Doação de campanha de R$3.600,00 nas eleições 2022 registrada no TSE (16/09/2022)",
       "strength": 1
     },
     {
@@ -213,7 +220,7 @@
       "source": 7,
       "target": 204550,
       "connectionType": "doacao",
-      "description": "Doação de campanha de R$2.000,00 em 2022 registrada no TSE (16/09/2022)",
+      "description": "Doação de campanha de R$2.000,00 nas eleições 2022 registrada no TSE (16/09/2022)",
       "strength": 1
     },
     {
@@ -277,15 +284,15 @@
       "source": 204550,
       "target": 15,
       "connectionType": "despesa",
-      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$857,09 (8 lançamentos; tipo: TELEFONIA)",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$1.950,00 (1 lançamento; tipo: LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES; período: 21/10/2026)",
       "strength": 1
     },
     {
       "id": 16,
       "source": 204550,
       "target": 16,
-      "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Saúde: R$35.447.457,00 empenhado, R$34.061.826,00 pago (7 emendas; 2023–2024)",
+      "connectionType": "despesa",
+      "description": "Despesa de cota parlamentar registrada pela Câmara, total de R$857,09 (8 lançamentos; tipo: TELEFONIA)",
       "strength": 1
     },
     {
@@ -293,7 +300,7 @@
       "source": 204550,
       "target": 17,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Encargos especiais: R$33.551.253,00 empenhado, R$33.551.253,00 pago (2 emendas; 2023–2024)",
+      "description": "Emendas individuais destinadas a Saúde: R$35.447.457,00 empenhado, R$34.061.826,00 pago (7 emendas; 2023–2024)",
       "strength": 1
     },
     {
@@ -301,13 +308,21 @@
       "source": 204550,
       "target": 18,
       "connectionType": "emenda",
-      "description": "Emendas individuais destinadas a Assistência social: R$675.841,00 empenhado, R$550.000,00 pago (2 emendas; 2023–2024)",
+      "description": "Emendas individuais destinadas a Encargos especiais: R$33.551.253,00 empenhado, R$33.551.253,00 pago (2 emendas; 2023–2024)",
       "strength": 1
     },
     {
       "id": 19,
       "source": 204550,
       "target": 19,
+      "connectionType": "emenda",
+      "description": "Emendas individuais destinadas a Assistência social: R$675.841,00 empenhado, R$550.000,00 pago (2 emendas; 2023–2024)",
+      "strength": 1
+    },
+    {
+      "id": 20,
+      "source": 204550,
+      "target": 20,
       "connectionType": "emenda",
       "description": "Emendas individuais destinadas a Desporto e lazer: R$300.000,00 empenhado (1 emenda; 2024)",
       "strength": 1

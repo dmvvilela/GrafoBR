@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "egoId": 1000024,
+    "egoName": "Soldado Sampaio",
+    "chamber": "governo",
+    "photo": null,
+    "office": {
+      "verifiedAt": "2026-11-13",
+      "sourceUrl": "https://portal.rr.gov.br/governo-de-roraima-paga-salario-de-outubro-nesta-sexta-feira-30/",
+      "note": "Titular do mandato; substituições temporárias por viagem ou licença não alteram este cadastro.",
+      "campaignYear": 2022,
+      "campaignOffice": "DEPUTADO ESTADUAL",
+      "campaignParty": "REPUBLICANOS"
+    },
+    "generatedAt": "2026-11-13T19:32:04.672289Z",
+    "sources": [
+      "executivo",
+      "tse"
+    ],
+    "sourceCoverage": {
+      "executivo": "titularidade verificada em 2026-11-13; fonte oficial no perfil",
+      "tse": "eleições 2022; até 25 doadores; recibos repetidos consolidados e versões conflitantes excluídas; valores parciais do recorte"
+    },
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 1000024,
+      "name": "Soldado Sampaio",
+      "category": "politician",
+      "connectionCount": 7
+    },
+    {
+      "id": 5,
+      "name": "CARLA TAUMATURGO SANTOS",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e503"
+    },
+    {
+      "id": 4,
+      "name": "CAROBI DE SOUSA E SOUSA",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e14512"
+    },
+    {
+      "id": 2,
+      "name": "FRANCISCO DOS SANTOS SAMPAIO",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e14510"
+    },
+    {
+      "id": 6,
+      "name": "GERARDO SOARES AZEVEDO JUNIOR",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e504"
+    },
+    {
+      "id": 3,
+      "name": "RAIMUNDA DA PAZ RODRIGUES LEITE SILVA",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e14511"
+    },
+    {
+      "id": 1,
+      "name": "REPUBLICANOS - BRASIL - BR - NACIONAL",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e82"
+    },
+    {
+      "id": 7,
+      "name": "ROSA LINA LEITE DE FREITAS",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e14513"
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 1000024,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$400.000,00 nas eleições 2022 registrada no TSE (2 receitas, 31/08/2022–01/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 1000024,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$50.000,00 nas eleições 2022 registrada no TSE (23/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 1000024,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$5.900,00 nas eleições 2022 registrada no TSE (16/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 1000024,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$4.600,00 nas eleições 2022 registrada no TSE (16/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 5,
+      "target": 1000024,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.000,00 nas eleições 2022 registrada no TSE (16/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 6,
+      "target": 1000024,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$2.000,00 nas eleições 2022 registrada no TSE (16/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 7,
+      "source": 7,
+      "target": 1000024,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.000,00 nas eleições 2022 registrada no TSE (24/10/2022)",
+      "strength": 1
+    }
+  ]
+}

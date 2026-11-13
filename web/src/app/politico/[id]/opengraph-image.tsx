@@ -1,5 +1,6 @@
 import { ImageResponse } from "next/og";
 import { getEgo, getEmendaRanking, getIndex } from "@/lib/data";
+import { officeLabel } from "@/lib/offices";
 import { SITE_HOST } from "@/lib/site";
 
 export const size = { width: 1200, height: 630 };
@@ -36,10 +37,10 @@ export default async function Image({
     getIndex(),
     getEmendaRanking(),
   ]);
-  const name = ego?.meta?.egoName ?? "Deputado federal";
+  const name = ego?.meta?.egoName ?? "Representante público";
   const entry = index.find((e) => String(e.id) === id);
   const em = ranking.find((r) => String(r.id) === id);
-  const sub = [entry?.party, entry?.uf].filter(Boolean).join(" · ");
+  const sub = [officeLabel(entry?.chamber), entry?.party, entry?.uf].filter(Boolean).join(" · ");
   const headline = em
     ? `${compactBRL(em.empenhado)} em emendas individuais`
     : "Conexões de dados públicos";

@@ -4,7 +4,7 @@ import ElectionsExplorer from "@/components/ElectionsExplorer";
 export const metadata: Metadata = {
   title: "Eleições — GrafoBR",
   description:
-    "Contexto eleitoral dos parlamentares acompanhados: candidaturas de 2026 e doações históricas de 2022, com fontes e períodos separados.",
+    "Contexto eleitoral dos representantes acompanhados: candidaturas de 2026 e doações históricas de 2022, com fontes e períodos separados.",
 };
 export default async function ElectionsPage() {
   const [snapshot, index] = await Promise.all([getElections(), getIndex()]);

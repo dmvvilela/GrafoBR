@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "egoId": 1000005,
+    "egoName": "Roberto Cidade",
+    "chamber": "governo",
+    "photo": null,
+    "office": {
+      "verifiedAt": "2026-11-13",
+      "sourceUrl": "https://www.vicegovernadoria.am.gov.br/roberto-cidade-e-omar-aziz-alinham-transicao-com-foco-na-transparencia/",
+      "note": "Titular do mandato; substituições temporárias por viagem ou licença não alteram este cadastro.",
+      "campaignYear": 2022,
+      "campaignOffice": "DEPUTADO ESTADUAL",
+      "campaignParty": "UNIÃO"
+    },
+    "generatedAt": "2026-11-13T19:32:04.287559Z",
+    "sources": [
+      "executivo",
+      "tse"
+    ],
+    "sourceCoverage": {
+      "executivo": "titularidade verificada em 2026-11-13; fonte oficial no perfil",
+      "tse": "eleições 2022; até 25 doadores; recibos repetidos consolidados e versões conflitantes excluídas; valores parciais do recorte"
+    },
+    "summary": null,
+    "disclaimer": "Dados públicos. Conexões não são acusações de irregularidade."
+  },
+  "nodes": [
+    {
+      "id": 1000005,
+      "name": "Roberto Cidade",
+      "category": "politician",
+      "connectionCount": 6
+    },
+    {
+      "id": 3,
+      "name": "AMIN ABDELAZIZ NETO",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e14316"
+    },
+    {
+      "id": 4,
+      "name": "ELEICAO 2022 WILSON MIRANDA LIMA GOVERNADOR",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e2281"
+    },
+    {
+      "id": 2,
+      "name": "ROBERTO MAIA CIDADE FILHO",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e14315"
+    },
+    {
+      "id": 1,
+      "name": "UNIAO BRASIL",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e667"
+    },
+    {
+      "id": 5,
+      "name": "UNIAO BRASIL - AMAZONAS - AM - ESTADUAL",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e5464"
+    },
+    {
+      "id": 6,
+      "name": "UNIAO BRASIL - MANAUS - AM - MUNICIPAL",
+      "category": "donor",
+      "connectionCount": 1,
+      "entityId": "e83"
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 1000005,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.200.000,00 nas eleições 2022 registrada no TSE (3 receitas, 26/08/2022–12/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 2,
+      "source": 2,
+      "target": 1000005,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$44.100,00 nas eleições 2022 registrada no TSE (18/10/2022)",
+      "strength": 1
+    },
+    {
+      "id": 3,
+      "source": 3,
+      "target": 1000005,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$15.000,00 nas eleições 2022 registrada no TSE (16/08/2022)",
+      "strength": 1
+    },
+    {
+      "id": 4,
+      "source": 4,
+      "target": 1000005,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$5.471,43 nas eleições 2022 registrada no TSE (2 receitas, 14/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 5,
+      "source": 5,
+      "target": 1000005,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$4.285,71 nas eleições 2022 registrada no TSE (30/09/2022)",
+      "strength": 1
+    },
+    {
+      "id": 6,
+      "source": 6,
+      "target": 1000005,
+      "connectionType": "doacao",
+      "description": "Doação de campanha de R$1.510,00 nas eleições 2022 registrada no TSE (4 receitas, 28/09/2022)",
+      "strength": 1
+    }
+  ]
+}
