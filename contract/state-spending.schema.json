@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GrafoBR state spending snapshot v1", "type": "object", "additionalProperties": false,
+  "required": ["schemaVersion", "version", "fetchedAt", "years", "basis", "populationSource", "states"],
+  "properties": {
+    "schemaVersion": {"const": 1}, "version": {"type": "string", "pattern": "^[a-f0-9]{16}$"},
+    "fetchedAt": {"type": "string", "format": "date-time"}, "years": {"const": [2024, 2025]},
+    "basis": {"const": "liquidated-excluding-intra"},
+    "populationSource": {"type": "object", "additionalProperties": false, "required": ["url", "table", "fetchedAt"], "properties": {"url": {"type": "string", "format": "uri"}, "table": {"const": "6579"}, "fetchedAt": {"type": "string", "format": "date-time"}}},
+    "states": {"type": "array", "minItems": 27, "maxItems": 27, "items": {
+      "type": "object", "additionalProperties": false, "required": ["code", "uf", "name", "records"],
+      "properties": {
+        "code": {"type": "integer", "minimum": 11, "maximum": 53},
+        "uf": {"enum": ["RO","AC","AM","RR","PA","AP","TO","MA","PI","CE","RN","PB","PE","AL","SE","BA","MG","ES","RJ","SP","PR","SC","RS","MS","MT","GO","DF"]},
+        "name": {"type": "string", "minLength": 2},
+        "records": {"type": "array", "minItems": 2, "maxItems": 2, "items": {
+          "type": "object", "additionalProperties": false,
+          "required": ["year", "population", "fetchedAt", "sourceUrls", "status", "total", "functions", "investment"],
+          "properties": {
+            "year": {"enum": [2024,2025]}, "population": {"type": "integer", "minimum": 1},
+            "fetchedAt": {"type": "string", "format": "date-time"},
+            "sourceUrls": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "string", "format": "uri"}},
+            "status": {"enum": ["available", "missing"]},
+            "total": {"type": ["number", "null"], "minimum": 0}, "investment": {"type": ["number", "null"], "minimum": 0},
+            "functions": {"type": "object", "patternProperties": {"^[0-9]{2}$": {"type": "number", "minimum": 0}}, "additionalProperties": false}
+          },
+          "allOf": [{"if": {"properties": {"status": {"const": "missing"}}}, "then": {"properties": {"total": {"type": "null"}, "investment": {"type": "null"}, "functions": {"maxProperties": 0}}}, "else": {"properties": {"total": {"type": "number", "exclusiveMinimum": 0}}}}]
+        }}
+      }
+    }}
+  }
+}

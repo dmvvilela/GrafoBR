@@ -308,3 +308,12 @@ export async function getObrasInsight(id: string): Promise<unknown | null> {
     return null;
   }
 }
+
+export async function getStateSpending(): Promise<import("./state-spending").SpendingSnapshot | null> {
+  try {
+    return JSON.parse(await fs.readFile(path.join(DATA_DIR, "_state-spending.json"), "utf8"));
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === "ENOENT") return null;
+    throw error;
+  }
+}

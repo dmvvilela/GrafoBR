@@ -201,3 +201,63 @@ undirected pairs. The combined receipt audit consolidated 523 repeated rows and
 excluded 149 conflicting receipt identities. The 2026 candidate-only context now
 matches 519 profiles; one ambiguous case is still omitted. Its source file remains
 October 29, not November 13. Obrasgov retains its prior June 23 snapshot.
+
+## State spending comparisons (2026-11-13)
+
+`/estados` serves a separate, verified snapshot of the 26 states and DF for complete
+calendar years 2024 and 2025. All 54 annual records were available on November 13.
+The Treasury [DCA API](https://apidatalake.tesouro.gov.br/docs/siconfi/) supplies annual
+accounts; the IBGE [SIDRA table 6579](https://sidra.ibge.gov.br/tabela/6579) supplies
+July population estimates for the same year. No undocumented population field from
+Siconfi is substituted for the explicit IBGE series.
+
+From `pipeline/`:
+
+```sh
+PYTHONPATH=src .venv/bin/python -m grafobr_pipeline.state_spending --refresh
+```
+
+Without `--refresh`, response caches expire after seven days. Requests are sequential,
+at most one per second per Treasury documentation, with bounded retries and verified
+pagination. Raw responses, exact URLs and collection dates stay in
+`pipeline/.cache/state-spending/`. Failed downloads, inconsistent identity, duplicates,
+negative/nonfinite values, and reconciliation errors abort without replacing the last
+validated output. Empty official reports produce explicit missing values. The web build
+copies `data/_state-spending.json` even when a core pipeline snapshot is absent and
+retains the committed file in clean deployments. No job or GitHub Actions schedule is enabled.
+
+Calculation rules:
+
+- Select only **Despesas Liquidadas**; don't mix commitment, liquidation and payment.
+- I-E: `Total Geral da Despesa por Função` / `TotalDespesas`. The denominator is
+  `Despesas Exceto Intraorçamentárias`. Only two-digit top-level function rows enter
+  the breakdown; do not also sum their subfunctions. Their sum must match the total
+  to R$1 (rounding tolerance across published cells).
+- I-D: reconcile its total with the I-E total plus I-E intra-budget expenditure.
+  Investment parent `DO4.4.00.00.00.00` must reconcile to its modality subtotals.
+  Sum the `DO4.4.xx.00.00.00` modalities; exclude `DI` intra-budget modalities and
+  do not add their detailed child accounts again.
+- Per resident = selected expenditure / IBGE population of the same year.
+  Share = selected expenditure / total liquidated excluding intra-budget * 100.
+  The shares are not constitutional health/education minimum calculations.
+- Investments overlap with spending functions and are never stacked with them.
+  The composition chart uses health + education + security + remaining functions.
+- Values are nominal BRL; trends are not inflation-adjusted. Prior-year arrears are
+  not added. Accounts include the state's powers and are not personal gubernatorial
+  expenses or the total public expenditure within the territory. DF's special
+  competencies and federal financing remain visible when selected.
+
+The page offers source records, exact-value tables, the downloadable snapshot, and
+links to current governor profiles with a clear separation from the historical fiscal
+period. Shared URLs preserve both UFs, year, metric, unit and data version. A revised
+snapshot produces a visible warning; unavailable data cannot produce a numeric card.
+PNG cards are rendered locally and include the period, units, source references,
+coverage caveats and a reproducible link. Rebuilding the site never restamps the core
+`_meta.json` or claims to refresh fiscal sources.
+
+Release validation: 30 pipeline tests and 18 web tests passed; the production build
+rendered 2,874 static pages. Edge checks covered 320px and 393px viewports without
+horizontal overflow, state/year/category/unit changes, restoring a copied URL after
+reload, and PNG preview/download. The exported image was visually inspected, including
+investment classification and DF context. Desktop and the local production build were
+also checked.

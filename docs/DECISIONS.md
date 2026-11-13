@@ -96,3 +96,10 @@ public base URLs aren't copyrightable; the code is. So we learn from it and writ
 **Decision:** Project name is **GrafoBR** (chosen by the user over Teia / Lupa / Elo).
 **Why:** Descriptive, clear to a developer/OSS audience. Keep all public-facing copy neutral
 ("connections," "public data") — never bake accusation into naming or UI.
+
+### D10 — State spending comparisons
+**Approved 2026-11-13:** compare annual consolidated state/DF accounts, using Siconfi
+DCA and IBGE population from the same year. Keep it a separate static sidecar/page,
+not governor-to-spending graph edges. Begin with complete 2024/2025 accounts. Liquidated
+spending excludes intra-budget transactions; investment is a separate economic category,
+not an extra spending function. No performance ranking or attribution to current holders.

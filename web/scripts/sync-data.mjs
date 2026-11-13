@@ -10,9 +10,9 @@ const srcDir = path.resolve(here, "../../data"); // repo-root /data
 const outDir = path.resolve(here, "../public/data"); // web/public/data
 
 await mkdir(outDir, { recursive: true });
-// An election import is independent of a full core rebuild. This also works in
+// Election and state-spending imports are independent of a full core rebuild. This works in
 // a clean checkout, where only the committed public core snapshot exists.
-for (const file of ["_elections-2026.json"]) {
+for (const file of ["_elections-2026.json", "_state-spending.json"]) {
   if (existsSync(path.join(srcDir, file))) await copyFile(path.join(srcDir, file), path.join(outDir, file));
 }
 

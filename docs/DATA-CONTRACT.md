@@ -121,3 +121,14 @@ Public IDs >= 1,000,000 are permanently assigned to people in the reviewed roste
 never reassign an ID to the next holder of the same office. CPF and candidate sequences
 remain private. All four offices share one opaque entity-ID registry per full build,
 so comparisons work across offices without name-only entity matching.
+
+## State spending (2026-11-13)
+
+`_state-spending.json` is an independent static sidecar, governed by
+`contract/state-spending.schema.json` and mirrored in `web/src/lib/state-spending.ts`.
+It contains 27 UF identities, two complete years (2024/2025), same-year IBGE population,
+liquidated expenditure excluding intra-budget transactions, function subtotals and a
+separate investment measure. Missing reports/metrics remain null or absent, never zero.
+Each annual record carries official API URLs and its actual collection timestamp.
+The content-derived `version` excludes collection timestamps; shared links warn after
+substantive revisions. This file does not change profile graph identities or core dates.

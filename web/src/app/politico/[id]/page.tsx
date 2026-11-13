@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getEgo, getIndex, getElections, getPress } from "@/lib/data";
@@ -41,6 +42,7 @@ export default async function PoliticoPage({
   const [elections, press] = await Promise.all([getElections(), getPress()]);
   return (
     <>
+      {entry?.chamber === "governo" && entry.uf && <Link href={`/estados?a=${entry.uf}&b=${entry.uf === "SP" ? "MG" : "SP"}`} className="mb-6 block rounded-xl border border-emerald-300/20 bg-emerald-300/5 p-4 text-sm text-emerald-200">Compare as despesas de {entry.uf} com outros estados →<span className="mt-1 block text-xs text-zinc-400">Contas estaduais de anos completos. Não representam despesas pessoais do titular atual.</span></Link>}
       <EgoView ego={ego} entry={entry} />
       <ProfileContext
         snapshot={elections}

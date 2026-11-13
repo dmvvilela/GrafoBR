@@ -71,6 +71,13 @@ export default async function Home() {
         <span className="mt-4 inline-block text-sm font-medium text-emerald-300">Abrir comparação visual →</span>
       </Link>
 
+      <Link href="/estados" className="block rounded-2xl border border-emerald-300/20 bg-emerald-400/5 p-6 transition hover:border-emerald-300/40 sm:p-8">
+        <p className="text-xs font-medium uppercase tracking-widest text-emerald-300">Contas dos estados</p>
+        <h2 className="mt-2 text-2xl font-semibold">Para onde vai o dinheiro do seu estado?</h2>
+        <p className="mt-2 text-sm leading-relaxed text-zinc-400">Compare saúde, educação, segurança e investimentos com dados do Tesouro e IBGE. Veja valores por habitante, distribuição e evolução anual.</p>
+        <span className="mt-4 inline-block text-sm font-medium text-emerald-300">Comparar estados →</span>
+      </Link>
+
       <MoneyTrails
         highlights={highlights}
         ceapTrails={ceapTrails}
