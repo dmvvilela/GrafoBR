@@ -1,4 +1,5 @@
 "use client";
+import { isContractFocusCurrent } from "@/lib/state-contracts";
 import { officeLabel, isExecutive } from "@/lib/offices";
 
 import { Suspense, useCallback, useEffect, useMemo, useState } from "react";
@@ -295,12 +296,16 @@ function SignalPill({ signal }: { signal: string }) {
   );
 }
 
+export interface ProfileStateSupplier { id: string; nodeId: number; count: number }
+
 function EgoViewInner({
   ego,
   entry,
+  stateSuppliers = [],
 }: {
   ego: EgoNetwork;
   entry: IndexEntry | null;
+  stateSuppliers?: ProfileStateSupplier[];
 }) {
   const [query, setQuery] = useQueryState(
     "q",
@@ -311,16 +316,19 @@ function EgoViewInner({
     parseAsInteger.withOptions(urlOpts),
   );
 
+  const [contractVersion, setContractVersion] = useQueryState("cv", parseAsString.withOptions(urlOpts));
+  const staleContractFocus = !isContractFocusCurrent(contractVersion, ego.meta.generatedAt);
   const selected = useMemo(() => {
-    if (focusId == null) return null;
+    if (focusId == null || staleContractFocus) return null;
     return ego.nodes.find((n) => n.id === focusId) ?? null;
-  }, [focusId, ego.nodes]);
+  }, [focusId, ego.nodes, staleContractFocus]);
 
   const setSelected = useCallback(
     (node: GraphNode | null) => {
+      void setContractVersion(null);
       void setFocusId(node?.id ?? null);
     },
-    [setFocusId],
+    [setFocusId, setContractVersion],
   );
 
   const [entities, setEntities] = useState<EntityMap>({});
@@ -439,6 +447,7 @@ function EgoViewInner({
 
   return (
     <div className="space-y-6">
+      {staleContractFocus && <p className="rounded-xl border border-amber-300/30 bg-amber-300/5 p-4 text-sm text-amber-100">O grafo foi atualizado desde esta conexão compartilhada. A seleção antiga foi removida para não apontar para outra entidade. Consulte novamente o fornecedor ou selecione um ponto do grafo atual.</p>}
       <Link
         href="/"
         className="inline-flex items-center gap-1.5 text-sm text-zinc-400 transition hover:text-zinc-200"
@@ -989,6 +998,12 @@ function EgoViewInner({
                   ))}
                 </ul>
 
+                {stateSuppliers.filter(s => s.nodeId === selected.id).map(s => (
+                  <Link key={s.id} href={`/fornecedores/${s.id}`} className="mt-4 block rounded-xl border border-emerald-300/20 bg-emerald-300/5 p-4 text-sm text-emerald-200">
+                    Contratos estaduais desta empresa →
+                    <span className="mt-2 block text-xs text-zinc-400">{s.count} contrato(s) de SP/MG no recorte PNCP. Correspondência por raiz documental; não atribui os contratos ao perfil.</span>
+                  </Link>
+                ))}
                 {selectedEntity && (
                   <div className="mt-3 border-t border-white/5 pt-3">
                     <p className="text-xs font-medium text-zinc-400">
@@ -1065,9 +1080,11 @@ function EgoViewInner({
 export default function EgoView({
   ego,
   entry,
+  stateSuppliers = [],
 }: {
   ego: EgoNetwork;
   entry: IndexEntry | null;
+  stateSuppliers?: ProfileStateSupplier[];
 }) {
   return (
     <Suspense
@@ -1079,7 +1096,7 @@ export default function EgoView({
         </div>
       }
     >
-      <EgoViewInner ego={ego} entry={entry} />
+      <EgoViewInner ego={ego} entry={entry} stateSuppliers={stateSuppliers} />
     </Suspense>
   );
 }

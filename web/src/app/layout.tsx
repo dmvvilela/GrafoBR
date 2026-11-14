@@ -108,6 +108,7 @@ export default async function RootLayout({
                 >
                   Comparar
                 </Link>
+                <Link href="/contratos" className="transition hover:text-zinc-100">Contratos</Link>
                 <Link href="/estados" className="transition hover:text-zinc-100">Estados</Link>
                 <Link href="/dados" className="transition hover:text-zinc-100">
                   Dados

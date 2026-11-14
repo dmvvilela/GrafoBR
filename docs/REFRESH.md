@@ -261,3 +261,66 @@ horizontal overflow, state/year/category/unit changes, restoring a copied URL af
 reload, and PNG preview/download. The exported image was visually inspected, including
 investment classification and DF context. Desktop and the local production build were
 also checked.
+
+## State contracts and suppliers — SP/MG (PNCP)
+
+This independent pilot covers **publications from 2026-10-01 to 2026-11-12**. It is not a
+complete inventory of active contracts. All daily pages of the national PNCP consultation
+API are checked, then state-sphere records with contracting unit UF SP/MG are selected.
+Only expenditure `tipoContrato.id = 1` and validated PJ suppliers remain. Empenhos,
+other instruments, revenue records, subrogated authorities/units, invalid identifiers and
+invalid amounts are excluded with reason counts. All state powers are included.
+Deduplication/pagination/date inconsistency fails the import; no partial snapshot publishes.
+The UI shows initial nominal values, not global/amended value or actual payments.
+
+Official references:
+- https://www.gov.br/pncp/pt-br/acesso-a-informacao/dados-abertos
+- https://pncp.gov.br/api/consulta/swagger-ui/index.html
+- https://pncp.gov.br/manual/pt-br/latest/contrato_empenho/consultar_contrato_ou_empenho.html
+
+Reconstruct the **private** graph identity bridge with the exact core source inputs:
+
+```sh
+cd pipeline
+PYTHONPATH=src .venv/bin/python -m grafobr_pipeline.run \
+  --limit 513 --ceap-year 2026 --senators --executives \
+  --cnpj-empresas-csv .cache/cnpj/scoped-executives/receita_empresas_scoped.csv \
+  --cnpj-socios-csv .cache/cnpj/scoped-executives/receita_socios_scoped.csv \
+  --contratos-csv .cache/cnpj/scoped/contratos.csv \
+  --emendas-csv .cache/emendas/emendas.csv \
+  --output-dir .cache/pncp/reconstructed \
+  --private-identity-path .cache/pncp/graph-identities.json
+PYTHONPATH=src .venv/bin/python -m grafobr_pipeline.state_contracts \
+  --start 2026-10-01 --end 2026-11-12 --refresh
+```
+
+The bridge checks entity-bearing nodes, not nondeterministic order of unrelated amendment
+destinations. A mismatch requires rebuilding/reconciling the core snapshot first, never
+matching suppliers by display name. The importer uses validated CNPJ roots privately;
+`state-supplier-identities.json` must remain in the private cache and be retained across
+refreshes for stable URLs. It must never be copied into `data/` or `web/public/`.
+
+Daily raw responses are cached under `.cache/pncp/publications`. `--refresh` refetches the
+whole requested period, including historical corrections; omit only to resume an interrupted
+import. Requests are globally spaced, with shared backoff on HTTP 429. Keep the last public
+snapshot if the official source fails. The import writes atomically only after the schema,
+coverage and identity checks pass. `pnpm sync-data` copies the resulting sidecar independently.
+The core source freshness dates are unchanged by this import. No scheduler was enabled.
+
+Before publishing, run Python and web tests, typecheck, production build, and Edge mobile
+QA of the directory, supplier graph, original profile connection, contract/source links,
+and downloaded supplier/contract PNG cards. Cards retain period, source and nominal-value
+context. Shared URLs carry a snapshot version; older versions display an update notice.
+
+Verified first complete snapshot: `4b926ddae7d60c02` (13 November 2026, São Paulo time).
+The importer checked 244,263 national records and 16,898 SP/MG state-sphere records.
+Published 3,641 contracts (SP: 2,913; MG: 728), 2,017 suppliers, and 14 matched suppliers
+covering 45 PNCP contracts and 355 distinct existing profile graphs. Exclusions:
+12,843 other instruments; 27 revenue/unknown-nature records; 331 non-PJ suppliers;
+56 subrogated authority/unit records. No document-identity guesswork was used.
+
+PNCP changed the 27 October record count during collection. Inconsistent daily caches
+are quarantined under `.cache/pncp/rejected/` and the complete day is retried up to three
+times. Persistent inconsistencies fail the import. The final snapshot passed all daily
+pagination, uniqueness, schema, identifier and public-graph checks. Historical source
+records can still be corrected after collection; this is a dated snapshot, not a live feed.

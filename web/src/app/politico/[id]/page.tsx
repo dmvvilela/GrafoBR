@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getEgo, getIndex, getElections, getPress } from "@/lib/data";
+import { getEgo, getIndex, getElections, getPress, getStateContracts } from "@/lib/data";
 import EgoView from "@/components/EgoView";
 import ProfileContext from "@/components/ProfileContext";
 import SourceFreshness from "@/components/SourceFreshness";
@@ -39,11 +39,16 @@ export default async function PoliticoPage({
   const index = await getIndex();
   const entry = index.find((e) => String(e.id) === id) ?? null;
 
-  const [elections, press] = await Promise.all([getElections(), getPress()]);
+  const [elections, press, stateContracts] = await Promise.all([getElections(), getPress(), getStateContracts()]);
+  const stateSuppliers = (stateContracts?.suppliers ?? []).flatMap(s => s.connections.filter(c => c.profileId === Number(id)).map(c => {
+    const records = stateContracts!.contracts.filter(r => r.supplierId === s.id);
+    return { id:s.id, nodeId:c.nodeId, count:records.length };
+  }));
   return (
     <>
       {entry?.chamber === "governo" && entry.uf && <Link href={`/estados?a=${entry.uf}&b=${entry.uf === "SP" ? "MG" : "SP"}`} className="mb-6 block rounded-xl border border-emerald-300/20 bg-emerald-300/5 p-4 text-sm text-emerald-200">Compare as despesas de {entry.uf} com outros estados →<span className="mt-1 block text-xs text-zinc-400">Contas estaduais de anos completos. Não representam despesas pessoais do titular atual.</span></Link>}
-      <EgoView ego={ego} entry={entry} />
+      {entry?.chamber === "governo" && ["SP", "MG"].includes(entry.uf ?? "") && <Link href={`/contratos?uf=${entry.uf}`} className="mb-6 block rounded-xl border border-white/10 p-4 text-sm text-emerald-200">Explore os contratos estaduais de {entry.uf} no PNCP →<span className="mt-1 block text-xs text-zinc-400">Órgãos, fornecedores e documentos. Não representa contratação pessoal do governador.</span></Link>}
+      <EgoView ego={ego} entry={entry} stateSuppliers={stateSuppliers} />
       <ProfileContext
         snapshot={elections}
         election={elections?.entries.find((e) => e.politicianId === Number(id))}

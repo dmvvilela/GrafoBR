@@ -59,6 +59,7 @@ def main() -> int:
         help="also emit current senators (Senado API; emendas-only — no CPF for socio/contrato)",
     )
     parser.add_argument("--executives", action="store_true", help="Include reviewed current president and governors")
+    parser.add_argument("--private-identity-path", help="Private CNPJ-root bridge outside public/output directories")
     args = parser.parse_args()
 
     count = build_all(
@@ -74,6 +75,7 @@ def main() -> int:
             emendas_csv=args.emendas_csv,
             include_senators=args.senators,
             include_executives=args.executives,
+            private_identity_path=args.private_identity_path,
         )
     )
     print(f"OK — wrote {count} ego-network files")

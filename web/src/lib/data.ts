@@ -4,6 +4,7 @@ import type { OfficeKind, OfficeRecord } from "@/lib/offices";
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import type { EgoNetwork } from "@/lib/contract";
+import type { StateContractsSnapshot } from "@/lib/state-contracts";
 
 const DATA_DIR = path.join(process.cwd(), "public", "data");
 
@@ -316,4 +317,24 @@ export async function getStateSpending(): Promise<import("./state-spending").Spe
     if ((error as NodeJS.ErrnoException).code === "ENOENT") return null;
     throw error;
   }
+}
+
+// A missing optional import is an empty state; corrupted/stale connections fail the build.
+let stateContractsLoad: Promise<StateContractsSnapshot | null> | undefined;
+export function getStateContracts(): Promise<StateContractsSnapshot | null> {
+  return stateContractsLoad ??= loadStateContracts();
+}
+async function loadStateContracts(): Promise<StateContractsSnapshot | null> {
+  let data: StateContractsSnapshot;
+  try { data = JSON.parse(await fs.readFile(path.join(DATA_DIR, "_state-contracts.json"), "utf8")); }
+  catch (error) { if ((error as NodeJS.ErrnoException).code === "ENOENT") return null; throw error; }
+  if (data.schemaVersion !== 1) throw new Error("Unsupported state contracts schema");
+  const graphs = new Map<number, EgoNetwork>();
+  for (const supplier of data.suppliers) for (const connection of supplier.connections) {
+    let graph = graphs.get(connection.profileId);
+    if (!graph) { graph = JSON.parse(await fs.readFile(path.join(DATA_DIR, `${connection.profileId}.json`), "utf8")); graphs.set(connection.profileId, graph!); }
+    const node = graph!.nodes.find(n => n.id === connection.nodeId);
+    if (graph!.meta.generatedAt !== connection.snapshot || node?.entityId !== connection.entityId) throw new Error("State supplier connections are stale. Re-run the verified PNCP import before building.");
+  }
+  return data;
 }

@@ -45,6 +45,7 @@ class BuildContext:
     emendas_csv: Optional[str] = None
     include_senators: bool = False
     include_executives: bool = False
+    private_identity_path: Optional[str] = None
 
 
 def _digits(value: Optional[str], width: Optional[int] = None) -> Optional[str]:
@@ -1300,6 +1301,20 @@ def build_all(ctx: Optional[BuildContext] = None) -> int:
         )
     else:
         print("[emenda-audit] no ambiguous emenda authors after UF filter.", flush=True)
+
+    if ctx.private_identity_path:
+        # Private bridge only. Never copy this document-key mapping into public data.
+        from .state_contracts import graph_fingerprint
+        private_path = Path(ctx.private_identity_path).resolve()
+        if private_path.is_relative_to(output_dir.resolve()) or "public" in private_path.parts:
+            raise ValueError("Private identity map must remain outside output/public directories")
+        private_path.parent.mkdir(parents=True, exist_ok=True)
+        private_path.write_text(json.dumps({
+            "graphFingerprint": graph_fingerprint(staging_dir),
+            "companies": {key.removeprefix("company:"): value for key, value in entity_ids.items()
+                          if key.startswith("company:")},
+        }), encoding="utf-8")
+        private_path.chmod(0o600)
 
     _write_index(staging_dir, index_rows)
     _publish_snapshot(staging_dir, output_dir)

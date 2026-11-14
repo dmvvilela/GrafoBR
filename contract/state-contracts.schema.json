@@ -1,0 +1,302 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "version": {
+      "type": "string"
+    },
+    "fetchedAt": {
+      "type": "string"
+    },
+    "period": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "type": "string"
+        },
+        "end": {
+          "type": "string"
+        },
+        "basis": {
+          "const": "publication"
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "basis"
+      ]
+    },
+    "graphFingerprint": {
+      "type": "string"
+    },
+    "source": {
+      "const": "https://pncp.gov.br/api/consulta/v1/contratos"
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "states": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "SP",
+              "MG"
+            ]
+          }
+        },
+        "nationalRecordsChecked": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "stateRecordsChecked": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "excluded": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "days": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "date": {
+                "type": "string"
+              },
+              "nationalRecords": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "pages": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "stateRecords": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "required": [
+              "date",
+              "nationalRecords",
+              "pages",
+              "stateRecords"
+            ]
+          }
+        }
+      },
+      "required": [
+        "states",
+        "nationalRecordsChecked",
+        "stateRecordsChecked",
+        "excluded",
+        "days"
+      ]
+    },
+    "suppliers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^f[0-9a-f]{20}$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "connections": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "profileId": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "profileName": {
+                  "type": "string"
+                },
+                "nodeId": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "entityId": {
+                  "type": "string",
+                  "pattern": "^e[0-9]+$"
+                },
+                "snapshot": {
+                  "type": "string"
+                },
+                "direct": {
+                  "type": "boolean"
+                },
+                "relationships": {
+                  "type": "array",
+                  "items": {
+                    "enum": [
+                      "socio",
+                      "doacao",
+                      "despesa",
+                      "contrato",
+                      "emenda",
+                      "parente",
+                      "other"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "profileId",
+                "profileName",
+                "nodeId",
+                "entityId",
+                "snapshot",
+                "direct",
+                "relationships"
+              ]
+            }
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "aliases",
+          "connections"
+        ]
+      }
+    },
+    "contracts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^c[0-9a-f]{20}$"
+          },
+          "supplierId": {
+            "type": "string",
+            "pattern": "^f[0-9a-f]{20}$"
+          },
+          "supplierName": {
+            "type": "string"
+          },
+          "uf": {
+            "enum": [
+              "SP",
+              "MG"
+            ]
+          },
+          "agency": {
+            "type": "string"
+          },
+          "unit": {
+            "type": "string"
+          },
+          "power": {
+            "enum": [
+              "E",
+              "L",
+              "J"
+            ]
+          },
+          "number": {
+            "type": "string"
+          },
+          "year": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "object": {
+            "type": "string"
+          },
+          "initialValue": {
+            "type": "number",
+            "minimum": 0
+          },
+          "signedAt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "startsAt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "endsAt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "publishedAt": {
+            "type": "string"
+          },
+          "updatedAt": {
+            "type": "string"
+          },
+          "sourceUrl": {
+            "type": "string",
+            "pattern": "^https://pncp.gov.br/app/contratos/[0-9]{14}/[0-9]{4}/[0-9]+$"
+          }
+        },
+        "required": [
+          "id",
+          "supplierId",
+          "supplierName",
+          "uf",
+          "agency",
+          "unit",
+          "power",
+          "number",
+          "year",
+          "object",
+          "initialValue",
+          "signedAt",
+          "startsAt",
+          "endsAt",
+          "publishedAt",
+          "updatedAt",
+          "sourceUrl"
+        ]
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "version",
+    "fetchedAt",
+    "period",
+    "graphFingerprint",
+    "source",
+    "coverage",
+    "suppliers",
+    "contracts"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GrafoBR state contracts and supplier connections"
+}

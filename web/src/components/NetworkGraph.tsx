@@ -19,9 +19,15 @@ import {
   getEdgeColor,
 } from "@/lib/graph-colors";
 
+export type NetworkGraphData = Pick<EgoNetwork, "nodes" | "links"> & {
+  meta: Pick<EgoNetwork["meta"], "egoId" | "egoName">;
+};
+
 interface NetworkGraphProps {
-  data: EgoNetwork;
+  data: NetworkGraphData;
   searchQuery?: string;
+  compact?: boolean;
+  legendLabels?: Partial<Record<GraphNode["category"], string>>;
   focusId?: number | null;
   onSelectNode?: (node: GraphNode) => void;
 }
@@ -52,6 +58,8 @@ function isNodeMatch(node: GraphNode, normalizedQuery: string): boolean {
 export default function NetworkGraph({
   data,
   searchQuery = "",
+  compact = false,
+  legendLabels = CATEGORY_LABELS,
   focusId = null,
   onSelectNode,
 }: NetworkGraphProps) {
@@ -339,7 +347,7 @@ export default function NetworkGraph({
   return (
     <div className="overflow-hidden rounded-2xl border border-white/5 bg-white/[0.03]">
       <div className="flex flex-wrap items-center gap-x-5 gap-y-2 border-b border-white/5 px-4 py-3 text-xs text-zinc-400">
-        {Object.entries(CATEGORY_LABELS).map(([category, label]) => (
+        {Object.entries(legendLabels).map(([category, label]) => (
           <span key={category} className="inline-flex items-center gap-2">
             <span
               className="h-2.5 w-2.5 rounded-full"
@@ -354,7 +362,7 @@ export default function NetworkGraph({
         ))}
       </div>
 
-      <div className="relative h-[560px]">
+      <div className={compact ? "relative h-[340px] sm:h-[480px]" : "relative h-[560px]"}>
         <svg
           ref={svgRef}
           className="graph-canvas h-full w-full touch-none"

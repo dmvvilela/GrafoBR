@@ -12,7 +12,7 @@ const outDir = path.resolve(here, "../public/data"); // web/public/data
 await mkdir(outDir, { recursive: true });
 // Election and state-spending imports are independent of a full core rebuild. This works in
 // a clean checkout, where only the committed public core snapshot exists.
-for (const file of ["_elections-2026.json", "_state-spending.json"]) {
+for (const file of ["_elections-2026.json", "_state-spending.json", "_state-contracts.json"]) {
   if (existsSync(path.join(srcDir, file))) await copyFile(path.join(srcDir, file), path.join(outDir, file));
 }
 

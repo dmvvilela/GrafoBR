@@ -132,3 +132,20 @@ separate investment measure. Missing reports/metrics remain null or absent, neve
 Each annual record carries official API URLs and its actual collection timestamp.
 The content-derived `version` excludes collection timestamps; shared links warn after
 substantive revisions. This file does not change profile graph identities or core dates.
+
+## State contracts and suppliers (SP/MG pilot)
+
+`contract/state-contracts.schema.json` defines `_state-contracts.json`; TypeScript mirror:
+`web/src/lib/state-contracts.ts`. This independent sidecar preserves the core ego seam.
+Publication window and source coverage are explicit. Contract amounts are initial nominal
+values, not payments or annual DCA spending. Only PNCP instrument 1, expenditure, state
+sphere, SP/MG contracting units and validated legal-entity suppliers are included.
+
+Supplier IDs are persistent opaque random IDs from a **private** registry; matrix and
+branches share the validated CNPJ root. Private documents never enter public supplier
+fields. Official contract URLs contain the public contracting authority's CNPJ.
+The private graph bridge is reconstructed from the same core inputs and must match every
+public entity-bearing node, including its local and cross-profile IDs. Links retain the
+original profile snapshot and node ID. A stale connection fails the web build. New graph
+views use actual PNCP agency → contract → supplier paths and copy only documented direct
+profile edges; merely holding office never creates an edge to a state supplier.

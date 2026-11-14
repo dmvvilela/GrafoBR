@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getIndex, getMeta, getObras, getStateSpending } from "@/lib/data";
+import { getIndex, getMeta, getObras, getStateSpending, getStateContracts } from "@/lib/data";
 import { absoluteUrl } from "@/lib/site";
 
 const STATIC_ROUTES = [
@@ -9,6 +9,7 @@ const STATIC_ROUTES = [
   "/obras",
   "/comparar",
   "/estados",
+  "/contratos",
   "/dados",
   "/dados/qa",
   "/eleicoes",
@@ -17,11 +18,12 @@ const STATIC_ROUTES = [
 ];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [index, meta, obras, spending] = await Promise.all([
+  const [index, meta, obras, spending, contracts] = await Promise.all([
     getIndex(),
     getMeta(),
     getObras(),
     getStateSpending(),
+    getStateContracts(),
   ]);
   const snapshotDate = meta?.generatedAt
     ? new Date(meta.generatedAt)
@@ -33,8 +35,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return [
     ...STATIC_ROUTES.map((route) => ({
       url: absoluteUrl(route || "/"),
-      lastModified: route === "/estados" && spending ? new Date(spending.fetchedAt) : route.startsWith("/obras") ? obrasDate : snapshotDate,
+      lastModified: route === "/contratos" && contracts ? new Date(contracts.fetchedAt) : route === "/estados" && spending ? new Date(spending.fetchedAt) : route.startsWith("/obras") ? obrasDate : snapshotDate,
     })),
+    ...(contracts?.contracts ?? []).map(c => ({url:absoluteUrl(`/contratos/${c.id}`), lastModified:new Date(contracts!.fetchedAt)})),
+    ...(contracts?.suppliers ?? []).map(s => ({url:absoluteUrl(`/fornecedores/${s.id}`), lastModified:new Date(contracts!.fetchedAt)})),
     ...index.map((politician) => ({
       url: absoluteUrl(`/politico/${politician.id}`),
       lastModified: snapshotDate,

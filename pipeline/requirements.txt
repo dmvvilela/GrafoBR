@@ -1,5 +1,6 @@
 # GrafoBR pipeline dependencies (verify/bump on first install)
 duckdb>=1.1            # the join/transform engine
+requests>=2.32        # PNCP publication API with cached pagination
 httpx>=0.27           # downloading from public portals
 pandas>=2.2           # tabular glue where DuckDB isn't ergonomic
 pyarrow>=17           # parquet I/O for cached datasets
