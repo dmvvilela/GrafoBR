@@ -324,3 +324,27 @@ are quarantined under `.cache/pncp/rejected/` and the complete day is retried up
 times. Persistent inconsistencies fail the import. The final snapshot passed all daily
 pagination, uniqueness, schema, identifier and public-graph checks. Historical source
 records can still be corrected after collection; this is a dated snapshot, not a live feed.
+
+## Meu estado dashboards — SP and MG
+
+`/meu-estado` links to static `/meu-estado/sp` and `/meu-estado/mg` dashboards.
+These views reuse the committed Siconfi/IBGE and PNCP snapshots; this UI release does
+not refresh or restamp either source. Annual selectors affect only fiscal charts.
+The PNCP publication window remains independently labeled and is never added to
+annual expenditure. Supplier shares divide each supplier's initial contract values
+by all included contract values for that state only, grouping by existing supplier ID.
+Daily counts use publication dates, including zero only on verified covered days.
+The six newest records link to the existing contract/source and supplier graph pages.
+
+The server passes only two fiscal states and a bounded contract summary to the client.
+Shared URLs preserve year, unit, fiscal version (`sv`) and PNCP version (`cv`); either
+source changing triggers a notice. Locally rendered PNG cards contain both periods,
+units, sources and the same reproducible URL. No scheduler or pipeline changes.
+
+Validation: 24 web tests and typecheck passed; production build generated 8,536 pages.
+Isolated browser checks covered 320px, 393px and desktop: state/year/unit changes,
+source-revision notice, bounded supplier totals, supplier graph navigation, PNG rendering,
+and copy-link success. Exact-value tables scroll inside their container on narrow phones.
+Edge's browser connection was unavailable in this session. Browser URL policy blocked
+an automated data-URL PNG download, so only preview rendering and download-link metadata
+were verified for this release, not the browser file-save action.
