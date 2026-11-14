@@ -30,7 +30,7 @@ test("state summaries reconcile all contracts, supplier shares and publication d
   for (const uf of ["SP", "MG"]) {
     const result = summarizeStateContracts(snapshot, uf);
     const rows = snapshot.contracts.filter((c) => c.uf === uf);
-    assert.equal(result.count, uf === "SP" ? 2913 : 728);
+    assert.equal(result.count, rows.length);
     assert.equal(
       result.supplierCount,
       new Set(rows.map((c) => c.supplierId)).size,

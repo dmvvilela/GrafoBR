@@ -1,3 +1,6 @@
+import { allKnownContracts } from "@/lib/contract-history";
+import ContractEventList from "@/components/ContractEventList";
+import ContractFreshness from "@/components/ContractFreshness";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -14,7 +17,7 @@ export const dynamicParams = false;
 
 export async function generateStaticParams() {
   const data = await getStateContracts();
-  return data?.contracts.map((c) => ({ id: c.id })) ?? [];
+  return (data ? allKnownContracts(data) : []).map((c) => ({ id: c.id })) ?? [];
 }
 export async function generateMetadata({
   params,
@@ -23,7 +26,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { id } = await params;
   const data = await getStateContracts();
-  const c = data?.contracts.find((c) => c.id === id);
+  const c = (data ? allKnownContracts(data) : []).find((c) => c.id === id);
   return {
     title: c
       ? `Contrato ${c.number}/${c.year} · ${c.uf} — GrafoBR`
@@ -39,7 +42,7 @@ export default async function ContractPage({
 }) {
   const { id } = await params;
   const data = await getStateContracts();
-  const c = data?.contracts.find((c) => c.id === id);
+  const c = (data ? allKnownContracts(data) : []).find((c) => c.id === id);
   if (!data || !c) notFound();
   return (
     <div className="mx-auto max-w-4xl space-y-7">
@@ -50,6 +53,12 @@ export default async function ContractPage({
         ← Contratos de {c.uf}
       </Link>
       <ContractVersion version={data.version} />
+      {!data.contracts.some((row) => row.id === id) && (
+        <p className="rounded-xl border border-amber-300/30 p-4 text-sm text-amber-200">
+          Este registro não retornou na última consulta completa. Exibimos a
+          última versão observada; isso não significa cancelamento.
+        </p>
+      )}
       <header>
         <p className="text-xs uppercase tracking-widest text-emerald-300">
           PNCP · CONTRATO ESTADUAL · {c.uf}
@@ -122,6 +131,28 @@ export default async function ContractPage({
       >
         Consultar registro e documentos oficiais no PNCP ↗
       </a>
+      <section id="historico" className="space-y-4">
+        <h2 className="text-2xl font-semibold">Histórico observado</h2>
+        <p className="text-sm text-zinc-400">
+          Acompanhamento desde{" "}
+          {contractDate(data.history?.baselineAt ?? data.fetchedAt)}. As datas
+          abaixo indicam quando observamos os registros; não reconstituem
+          alterações anteriores à primeira consulta.
+        </p>
+        <ContractEventList
+          events={[...(data.history?.events ?? [])]
+            .reverse()
+            .filter((e) => (e.after ?? e.before)?.id === id)}
+        />
+        {!(data.history?.events ?? []).some(
+          (e) => (e.after ?? e.before)?.id === id,
+        ) && (
+          <p className="text-sm text-zinc-400">
+            Nenhuma alteração observada desde a referência inicial.
+          </p>
+        )}
+      </section>
+      <ContractFreshness fetchedAt={data.fetchedAt} refresh={data.refresh} />
       <ContractShare
         title={`Contrato ${c.number}/${c.year} · ${c.uf}`}
         amount={contractMoney(c.initialValue)}

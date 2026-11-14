@@ -14,6 +14,7 @@ import re
 import time
 import threading
 import uuid
+from zoneinfo import ZoneInfo
 import requests
 
 API = "https://pncp.gov.br/api/consulta/v1/contratos"
@@ -233,7 +234,7 @@ def build(args: argparse.Namespace) -> dict:
             "Private identity bridge does not match the public graph snapshot. Reconstruct it first."
         )
     start, end = date.fromisoformat(args.start), date.fromisoformat(args.end)
-    if start > end or end >= date.today():
+    if start > end or end >= datetime.now(ZoneInfo("America/Sao_Paulo")).date():
         raise ValueError("Use a nonempty publication period ending before today")
     days = [start + timedelta(days=i) for i in range((end - start).days + 1)]
     if args.refresh:
@@ -257,8 +258,8 @@ def build(args: argparse.Namespace) -> dict:
                 roots[contract["supplierId"]] = reason
             else:
                 exclusions[reason] += 1
-    registry_path.write_text(json.dumps(registry, sort_keys=True))
-    registry_path.chmod(0o600)
+    from .contract_history import atomic_json
+    atomic_json(registry_path, registry, private=True)
     entities: dict[str, list] = {}
     for path in sorted(public.glob("*.json")):
         if not path.stem.isdigit():
@@ -359,7 +360,8 @@ def main():
     parser.add_argument("--graph-dir", default="../web/public/data")
     parser.add_argument("--identity-map", default=".cache/pncp/graph-identities.json")
     parser.add_argument("--output", default="../data/_state-contracts.json")
-    build(parser.parse_args())
+    from .contract_history import refresh
+    refresh(parser.parse_args())
 
 
 if __name__ == "__main__":

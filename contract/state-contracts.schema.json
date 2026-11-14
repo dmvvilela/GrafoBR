@@ -284,6 +284,130 @@
           "sourceUrl"
         ]
       }
+    },
+    "history": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schemaVersion",
+        "baselineAt",
+        "baselineVersion",
+        "sequence",
+        "events"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": 1
+        },
+        "baselineAt": {
+          "type": "string"
+        },
+        "baselineVersion": {
+          "type": "string"
+        },
+        "sequence": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "events": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "sequence",
+              "observedAt",
+              "previousObservedAt",
+              "fromVersion",
+              "toVersion",
+              "kind",
+              "fields",
+              "before",
+              "after"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^h[0-9a-f]{20}$"
+              },
+              "sequence": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "observedAt": {
+                "type": "string"
+              },
+              "previousObservedAt": {
+                "type": "string"
+              },
+              "fromVersion": {
+                "type": "string"
+              },
+              "toVersion": {
+                "type": "string"
+              },
+              "kind": {
+                "enum": [
+                  "added",
+                  "changed",
+                  "removed"
+                ]
+              },
+              "fields": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "before": {
+                "anyOf": [
+                  {
+                    "$ref": "#/properties/contracts/items"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "after": {
+                "anyOf": [
+                  {
+                    "$ref": "#/properties/contracts/items"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "refresh": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "attemptedAt",
+        "lastSuccessAt"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "success",
+            "failed",
+            "running"
+          ]
+        },
+        "attemptedAt": {
+          "type": "string"
+        },
+        "lastSuccessAt": {
+          "type": "string"
+        }
+      }
     }
   },
   "required": [

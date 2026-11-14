@@ -1,5 +1,12 @@
+import { allKnownContracts, allKnownSuppliers } from "@/lib/contract-history";
 import type { MetadataRoute } from "next";
-import { getIndex, getMeta, getObras, getStateSpending, getStateContracts } from "@/lib/data";
+import {
+  getIndex,
+  getMeta,
+  getObras,
+  getStateSpending,
+  getStateContracts,
+} from "@/lib/data";
 import { absoluteUrl } from "@/lib/site";
 
 const STATIC_ROUTES = [
@@ -13,6 +20,7 @@ const STATIC_ROUTES = [
   "/meu-estado/sp",
   "/meu-estado/mg",
   "/contratos",
+  "/contratos/historico",
   "/dados",
   "/dados/qa",
   "/eleicoes",
@@ -38,10 +46,35 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return [
     ...STATIC_ROUTES.map((route) => ({
       url: absoluteUrl(route || "/"),
-      lastModified: route.startsWith("/meu-estado") ? new Date(Math.max(...[spending?.fetchedAt, contracts?.fetchedAt].filter((v): v is string => !!v).map(v => new Date(v).getTime()), 0)) : route === "/contratos" && contracts ? new Date(contracts.fetchedAt) : route === "/estados" && spending ? new Date(spending.fetchedAt) : route.startsWith("/obras") ? obrasDate : snapshotDate,
+      lastModified: route.startsWith("/meu-estado")
+        ? new Date(
+            Math.max(
+              ...[spending?.fetchedAt, contracts?.fetchedAt]
+                .filter((v): v is string => !!v)
+                .map((v) => new Date(v).getTime()),
+              0,
+            ),
+          )
+        : route === "/contratos" && contracts
+          ? new Date(contracts.fetchedAt)
+          : route === "/estados" && spending
+            ? new Date(spending.fetchedAt)
+            : route.startsWith("/obras")
+              ? obrasDate
+              : snapshotDate,
     })),
-    ...(contracts?.contracts ?? []).map(c => ({url:absoluteUrl(`/contratos/${c.id}`), lastModified:new Date(contracts!.fetchedAt)})),
-    ...(contracts?.suppliers ?? []).map(s => ({url:absoluteUrl(`/fornecedores/${s.id}`), lastModified:new Date(contracts!.fetchedAt)})),
+    ...(contracts ? allKnownContracts(contracts) : []).map((c) => ({
+      url: absoluteUrl(`/contratos/${c.id}`),
+      lastModified: new Date(contracts!.fetchedAt),
+    })),
+    ...(contracts ? allKnownSuppliers(contracts) : []).map((s) => ({
+      url: absoluteUrl(`/fornecedores/${s.id}`),
+      lastModified: new Date(contracts!.fetchedAt),
+    })),
+    ...(contracts?.history?.events ?? []).map((e) => ({
+      url: absoluteUrl(`/contratos/historico/${e.id}`),
+      lastModified: new Date(e.observedAt),
+    })),
     ...index.map((politician) => ({
       url: absoluteUrl(`/politico/${politician.id}`),
       lastModified: snapshotDate,

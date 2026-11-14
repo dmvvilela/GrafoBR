@@ -149,3 +149,18 @@ public entity-bearing node, including its local and cross-profile IDs. Links ret
 original profile snapshot and node ID. A stale connection fails the web build. New graph
 views use actual PNCP agency → contract → supplier paths and copy only documented direct
 profile edges; merely holding office never creates an edge to a state supplier.
+
+### PNCP observed contract history
+
+`_state-contracts.json` retains schema version 1 and optionally carries `history` and
+`refresh`, described in `contract/state-contracts.schema.json`. These belong to the same
+atomic publication as `contracts` and `suppliers`. `version` still hashes the source
+snapshot excluding retrieval time; it does not include refresh status or history.
+`history.baselineVersion` identifies the first retained snapshot. Each changed observation
+increments `sequence` once and appends events with stable IDs, full public before/after
+contract records, both consultation times and source versions. No-op checks retain history
+and sequence. `added` means entered the observed recorte; `removed` means absent from the
+next complete consultation, never legal cancellation. Events and historical URLs are
+retained. The publication-window start and state scope cannot move, and the end cannot
+shrink. `refresh.status` is `running`, `success`, or `failed`; only successful complete
+checks advance `fetchedAt`. A separate UI build never advances source freshness.

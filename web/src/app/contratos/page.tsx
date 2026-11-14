@@ -1,3 +1,4 @@
+import ContractFreshness from "@/components/ContractFreshness";
 import { Suspense } from "react";
 import type { Metadata } from "next";
 import { getStateContracts } from "@/lib/data";
@@ -34,6 +35,10 @@ export default async function ContractsPage() {
       </header>
       {data ? (
         <>
+          <ContractFreshness
+            fetchedAt={data.fetchedAt}
+            refresh={data.refresh}
+          />
           <Suspense fallback={<p>Carregando filtros…</p>}>
             <ContractsDirectory data={contractDirectoryData(data)} />
           </Suspense>

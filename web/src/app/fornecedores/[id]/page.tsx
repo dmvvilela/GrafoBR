@@ -1,3 +1,7 @@
+import { allKnownSuppliers, eventMatches } from "@/lib/contract-history";
+import FollowButton from "@/components/FollowButton";
+import ContractEventList from "@/components/ContractEventList";
+import ContractFreshness from "@/components/ContractFreshness";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -18,7 +22,7 @@ export const dynamicParams = false;
 
 export async function generateStaticParams() {
   const data = await getStateContracts();
-  return data?.suppliers.map((s) => ({ id: s.id })) ?? [];
+  return (data ? allKnownSuppliers(data) : []).map((s) => ({ id: s.id })) ?? [];
 }
 export async function generateMetadata({
   params,
@@ -27,7 +31,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { id } = await params;
   const data = await getStateContracts();
-  const s = data?.suppliers.find((s) => s.id === id);
+  const s = (data ? allKnownSuppliers(data) : []).find((s) => s.id === id);
   return {
     title: s
       ? `${s.name} · contratos estaduais — GrafoBR`
@@ -44,7 +48,9 @@ export default async function SupplierPage({
 }) {
   const { id } = await params;
   const data = await getStateContracts();
-  const supplier = data?.suppliers.find((s) => s.id === id);
+  const supplier = (data ? allKnownSuppliers(data) : []).find(
+    (s) => s.id === id,
+  );
   if (!data || !supplier) notFound();
   const contracts = data.contracts.filter((c) => c.supplierId === id),
     total = contracts.reduce((sum, c) => sum + c.initialValue, 0),
@@ -72,6 +78,37 @@ export default async function SupplierPage({
           atualizado mais recentemente neste recorte.
         </p>
       </header>
+      <FollowButton
+        target={`supplier:${supplier.id}`}
+        name={supplier.name}
+        sequence={data.history?.sequence ?? 0}
+        baseline={data.history?.baselineVersion ?? data.version}
+      />
+      <ContractFreshness fetchedAt={data.fetchedAt} refresh={data.refresh} />
+      <section className="space-y-4">
+        <h2 className="text-xl font-semibold">
+          O que mudou para este fornecedor
+        </h2>
+        <ContractEventList
+          events={[...(data.history?.events ?? [])]
+            .reverse()
+            .filter((e) => eventMatches(e, `supplier:${supplier.id}`))
+            .slice(0, 20)}
+        />
+        <Link
+          href="/contratos/historico"
+          className="inline-block py-3 text-sm text-emerald-300"
+        >
+          Ver histórico completo dos contratos →
+        </Link>
+        {!(data.history?.events ?? []).some((e) =>
+          eventMatches(e, `supplier:${supplier.id}`),
+        ) && (
+          <p className="text-sm text-zinc-400">
+            Nenhuma mudança observada desde a referência inicial.
+          </p>
+        )}
+      </section>
       <section className="grid gap-4 sm:grid-cols-3">
         {[
           [String(contracts.length), "contratos no recorte"],

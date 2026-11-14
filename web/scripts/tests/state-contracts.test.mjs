@@ -12,7 +12,7 @@ const compiled = ts.transpileModule(source, {
     target: ts.ScriptTarget.ES2022,
   },
 }).outputText;
-const { contractDate, contractProfilePath, isContractFocusCurrent } =
+const { contractDate, contractSourceDate, contractObservedAt, contractProfilePath, isContractFocusCurrent } =
   await import(
     `data:text/javascript;base64,${Buffer.from(compiled).toString("base64")}`
   );
@@ -120,4 +120,11 @@ test("supplier profile links cannot silently reuse a node from another snapshot"
     isContractFocusCurrent(params.get("cv"), "2026-11-14T00:12:00Z"),
     false,
   );
+});
+
+test("history preserves timestamp-only changes and distinguishes source timezone from observation time", () => {
+  assert.notEqual(contractSourceDate("2026-11-13T10:00:00"), contractSourceDate("2026-11-13T15:00:00"));
+  assert.match(contractSourceDate("2026-11-13T10:00:00"), /fuso não informado/);
+  assert.match(contractObservedAt("2026-11-14T01:00:00Z"), /22:00:00 BRT/);
+  assert.equal(contractSourceDate(null), "Não informado");
 });

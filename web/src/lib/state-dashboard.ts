@@ -59,6 +59,9 @@ export function summarizeStateContracts(
     period: data.period,
     version: data.version,
     fetchedAt: data.fetchedAt,
+    refresh: data.refresh,
+    historySequence: data.history?.sequence ?? 0,
+    historyBaseline: data.history?.baselineVersion ?? data.version,
   };
 }
 export type StateContractSummary = NonNullable<

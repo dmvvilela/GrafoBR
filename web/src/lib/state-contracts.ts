@@ -34,6 +34,8 @@ export interface StateContract {
   sourceUrl: string;
 }
 export interface StateContractsSnapshot {
+  history?: ContractHistory;
+  refresh?: ContractRefresh;
   schemaVersion: 1;
   version: string;
   fetchedAt: string;
@@ -126,3 +128,41 @@ export function contractDirectoryData(
     })),
   };
 }
+
+export type ContractEvent = {
+  id: string;
+  sequence: number;
+  observedAt: string;
+  previousObservedAt: string;
+  fromVersion: string;
+  toVersion: string;
+  kind: "added" | "changed" | "removed";
+  fields: (keyof StateContract)[];
+  before: StateContract | null;
+  after: StateContract | null;
+};
+export type ContractHistory = {
+  schemaVersion: 1;
+  baselineAt: string;
+  baselineVersion: string;
+  sequence: number;
+  events: ContractEvent[];
+};
+export type ContractRefresh = {
+  status: "success" | "failed" | "running";
+  attemptedAt: string;
+  lastSuccessAt: string;
+};
+
+export const contractObservedAt = (v: string) =>
+  new Date(v).toLocaleString("pt-BR", {
+    timeZone: "America/Sao_Paulo",
+    dateStyle: "short",
+    timeStyle: "medium",
+  }) + " BRT";
+export const contractSourceDate = (v: string | null) => {
+  if (!v) return "Não informado";
+  if (!v.includes("T")) return contractDate(v);
+  if (/(?:Z|[+-]\d{2}:\d{2})$/.test(v)) return contractObservedAt(v);
+  return `${contractDate(v)} ${v.slice(11)} (fuso não informado pela fonte)`;
+};

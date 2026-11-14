@@ -17,12 +17,15 @@ import {
   contractPeriod,
 } from "@/lib/state-contracts";
 import {
+  DASHBOARD_STATES,
   dashboardPath,
   readDashboardSelection,
   type DashboardSelection,
   type DashboardSlug,
   type StateContractSummary,
 } from "@/lib/state-dashboard";
+import FollowButton from "./FollowButton";
+import ContractFreshness from "./ContractFreshness";
 import StateDashboardShare from "./StateDashboardShare";
 
 const AREAS = ["10", "12", "06"] as const;
@@ -172,6 +175,20 @@ export default function StateDashboard({
           ))}
         </nav>
       </header>
+      {contracts && (
+        <>
+          <FollowButton
+            target={`state:${slug.toUpperCase()}`}
+            name={DASHBOARD_STATES[slug]}
+            sequence={contracts.historySequence}
+            baseline={contracts.historyBaseline}
+          />
+          <ContractFreshness
+            fetchedAt={contracts.fetchedAt}
+            refresh={contracts.refresh}
+          />
+        </>
+      )}
       {notice && (
         <p
           role="status"

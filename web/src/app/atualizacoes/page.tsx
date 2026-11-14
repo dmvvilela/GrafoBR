@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 import UpdatesFeed from "@/components/UpdatesFeed";
 import { getUpdates } from "@/lib/data";
@@ -16,6 +17,12 @@ export default async function UpdatesPage() {
         </p>
         <h1 className="mt-3 text-3xl font-semibold">Atualizações dos dados</h1>
       </header>
+      <Link
+        href="/contratos/historico"
+        className="block rounded-xl border border-emerald-300/20 p-5 text-emerald-300"
+      >
+        Novo: histórico de contratos de SP e MG · ver o que mudou →
+      </Link>
       <UpdatesFeed history={await getUpdates()} />
     </div>
   );

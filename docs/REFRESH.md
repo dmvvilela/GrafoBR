@@ -301,8 +301,8 @@ matching suppliers by display name. The importer uses validated CNPJ roots priva
 refreshes for stable URLs. It must never be copied into `data/` or `web/public/`.
 
 Daily raw responses are cached under `.cache/pncp/publications`. `--refresh` refetches the
-whole requested period, including historical corrections; omit only to resume an interrupted
-import. Requests are globally spaced, with shared backoff on HTTP 429. Keep the last public
+whole requested period, including historical corrections. Since the history release the
+CLI also refetches without this flag; cached pages are only reused within the same attempt. Requests are globally spaced, with shared backoff on HTTP 429. Keep the last public
 snapshot if the official source fails. The import writes atomically only after the schema,
 coverage and identity checks pass. `pnpm sync-data` copies the resulting sidecar independently.
 The core source freshness dates are unchanged by this import. No scheduler was enabled.
@@ -348,3 +348,56 @@ and copy-link success. Exact-value tables scroll inside their container on narro
 Edge's browser connection was unavailable in this session. Browser URL policy blocked
 an automated data-URL PNG download, so only preview rendering and download-link metadata
 were verified for this release, not the browser file-save action.
+
+## Contract history and safe PNCP refreshes (November 2026)
+
+The PNCP CLI now always refetches every page of the complete publication window,
+including old days, to detect corrections. `--refresh` remains accepted for compatibility.
+Keep the window start at `2026-10-01`; extend the end only to a completed day in
+`America/Sao_Paulo`. A moving or shrinking window is rejected so it cannot manufacture
+removal events. This is a **manual local refresh command**, not a new scheduler;
+GitHub Actions schedules remain disabled. A web build never fetches PNCP.
+
+```sh
+cd pipeline
+PYTHONPATH=src .venv/bin/python -m grafobr_pipeline.state_contracts \
+  --start 2026-10-01 --end YYYY-MM-DD --refresh
+```
+
+Keep `data/_state-contracts.json` from the latest publication and the private persistent
+`.cache/pncp/state-supplier-identities.json` registry. On a fresh checkout the command restores its baseline from the
+committed `_state-contracts.json` in `--graph-dir` when the output is absent.
+The identity bridge must still match the current profile graphs. Private identity files
+must never enter Git or public data. A missing registry fails an existing-history refresh.
+
+`contract_history.py` acquires an OS file lock, marks the attempt, builds a candidate,
+validates schema, pagination, identity bridge and coverage, then atomically replaces
+**one file containing both snapshot and history**. Errors retain the previous records,
+source consultation date, version and history, and only change refresh status to `failed`.
+A killed process can leave `running`; the UI explicitly treats that as unconfirmed and
+keeps the last completed consultation date. Retrying releases/recovers via the OS lock.
+The supplier registry is also written through an atomic private file. The web sync
+rejects a missing, older or unrelated history over an existing committed history.
+
+The first snapshot is a baseline, not thousands of new-contract alerts. Later successful
+checks append stable events with full sanitized before/after records, observation times,
+source versions and changed fields. Unchanged checks advance freshness only. A record
+not returning is **not** labeled cancelled. Returning records are new observations in
+the recorte, not assertions that the legal contract was newly signed. Historical contract,
+supplier and individual change URLs remain available after records leave the current set.
+History covers fields of the main contract record; it is not an import of amendment
+instruments or payments. Changes before our baseline cannot be reconstructed.
+
+After success, run the pipeline tests, `pnpm --dir web sync-data`, frontend tests,
+typecheck and build, review the history diff, then commit/push the public bundle with
+its source changes. A failed refresh status becomes public only in a subsequent deployment.
+There is no runtime API or unattended deployment added by this feature.
+
+`/acompanhando` saves SP/MG and supplier IDs in versioned browser localStorage. Changes
+are counted after following/marking as seen, deduplicated across overlapping follows,
+and matched against both sides when a supplier or state changes. Reloads and tabs share
+preferences; separate devices do not. Storage failure is shown rather than pretending
+the preference was saved. Individual change cards link to immutable observed events;
+no recipient, email alert, account or cross-device profile is created.
+
+Release validation: a full fresh recheck completed at `2026-11-14T02:09:43.441451+00:00`. All 43 days / 514 pages and 244,263 national records were checked. The 3,641 scoped contracts and 2,017 suppliers were unchanged from version `4b926ddae7d60c02`, so history correctly retained sequence 0 with no fabricated events. The baseline keeps its original `2026-11-14T00:39:29.061987+00:00` date. Mobile 320/393 px, preference persistence, unfollowing, filters and PNG previews were checked. A clearly labelled local-only fixture verified before/after cards and unread/seen transitions, then was removed before the production build. Automatic file saving was not exercised; PNG previews and download links were verified.
