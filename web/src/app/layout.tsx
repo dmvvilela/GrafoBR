@@ -116,6 +116,12 @@ export default async function RootLayout({
                   Contratos
                 </Link>
                 <Link
+                  href="/contratos/federais"
+                  className="transition hover:text-zinc-100"
+                >
+                  Federal
+                </Link>
+                <Link
                   href="/meu-estado"
                   className="transition hover:text-zinc-100"
                 >

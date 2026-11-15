@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ContractFreshness from "@/components/ContractFreshness";
 import { Suspense } from "react";
 import type { Metadata } from "next";
@@ -24,8 +25,9 @@ export default async function ContractsPage() {
         </h1>
         <p className="mt-4 leading-relaxed text-zinc-400">
           Siga o caminho do órgão ao contrato e à empresa. Explore valores,
-          documentos oficiais e conexões já registradas nos grafos.
-          SP, MG e RJ: esfera estadual. DF: esfera distrital. Contratos federais ficam fora deste recorte.
+          documentos oficiais e conexões já registradas nos grafos. SP, MG e RJ:
+          esfera estadual. DF: esfera distrital. Contratos federais ficam fora
+          deste recorte.
         </p>
         {data && (
           <p className="mt-4 text-xs text-zinc-400">
@@ -34,6 +36,24 @@ export default async function ContractsPage() {
           </p>
         )}
       </header>
+      <nav
+        aria-label="Esfera dos contratos"
+        className="flex flex-wrap gap-3 text-sm"
+      >
+        <Link
+          href="/contratos"
+          aria-current="page"
+          className="rounded-full border border-emerald-300/50 bg-emerald-300/10 px-4 py-2 text-emerald-200"
+        >
+          Estados e DF
+        </Link>
+        <Link
+          href="/contratos/federais"
+          className="rounded-full border border-white/15 px-4 py-2 text-sky-300"
+        >
+          Painel federal →
+        </Link>
+      </nav>
       {data ? (
         <>
           <ContractFreshness

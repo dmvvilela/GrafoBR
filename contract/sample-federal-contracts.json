@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "scope": "F",
+  "fetchedAt": "2026-10-02T12:00:00+00:00",
+  "collection": {
+    "mode": "fresh",
+    "startedAt": "2026-10-02T12:00:00+00:00",
+    "finishedAt": "2026-10-02T12:00:00+00:00"
+  },
+  "period": {
+    "start": "2026-10-01",
+    "end": "2026-10-01",
+    "basis": "publication"
+  },
+  "source": "https://pncp.gov.br/api/consulta/v1/contratos",
+  "coverage": {
+    "states": [
+      "AC",
+      "AL",
+      "AP",
+      "AM",
+      "BA",
+      "CE",
+      "DF",
+      "ES",
+      "GO",
+      "MA",
+      "MT",
+      "MS",
+      "MG",
+      "PA",
+      "PB",
+      "PR",
+      "PE",
+      "PI",
+      "RJ",
+      "RN",
+      "RS",
+      "RO",
+      "RR",
+      "SC",
+      "SP",
+      "SE",
+      "TO",
+      "EX"
+    ],
+    "nationalRecordsChecked": 1,
+    "federalRecordsChecked": 1,
+    "excluded": {},
+    "days": [
+      {
+        "date": "2026-10-01",
+        "pages": 1,
+        "nationalRecords": 1,
+        "federalRecords": 1
+      }
+    ]
+  },
+  "suppliers": [
+    {
+      "id": "f00000000000000000000",
+      "name": "Fornecedor sintético",
+      "aliases": [
+        "Fornecedor sintético"
+      ]
+    }
+  ],
+  "contracts": [
+    {
+      "id": "c00000000000000000000",
+      "supplierId": "f00000000000000000000",
+      "supplierName": "Fornecedor sintético",
+      "uf": "DF",
+      "agency": "Órgão federal sintético",
+      "unit": "Unidade sintética",
+      "power": "J",
+      "number": "EXEMPLO",
+      "year": 2026,
+      "object": "Dado sintético para testes; não representa um contrato real.",
+      "initialValue": 100000,
+      "signedAt": null,
+      "startsAt": null,
+      "endsAt": null,
+      "publishedAt": "2026-10-01T12:00:00",
+      "updatedAt": "2026-10-01T12:00:00",
+      "sourceUrl": "https://pncp.gov.br/app/contratos/00000000000000/2026/1",
+      "sphere": "F",
+      "agencyId": "a00000000000000000000"
+    }
+  ],
+  "version": "synthetic-federal",
+  "history": {
+    "schemaVersion": 1,
+    "baselineAt": "2026-10-02T12:00:00+00:00",
+    "baselineVersion": "synthetic-federal",
+    "sequence": 0,
+    "events": []
+  },
+  "refresh": {
+    "status": "success",
+    "attemptedAt": "2026-10-02T12:00:00+00:00",
+    "lastSuccessAt": "2026-10-02T12:00:00+00:00"
+  }
+}

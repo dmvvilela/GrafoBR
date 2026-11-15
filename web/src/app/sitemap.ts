@@ -1,4 +1,5 @@
 export const dynamic = "force-static";
+import { getFederalContracts } from "@/lib/federal-data";
 import { allKnownContracts, allKnownSuppliers } from "@/lib/contract-history";
 import type { MetadataRoute } from "next";
 import {
@@ -23,6 +24,7 @@ const STATIC_ROUTES = [
   "/meu-estado/rj",
   "/meu-estado/df",
   "/contratos",
+  "/contratos/federais",
   "/contratos/historico",
   "/dados",
   "/dados/qa",
@@ -32,12 +34,13 @@ const STATIC_ROUTES = [
 ];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [index, meta, obras, spending, contracts] = await Promise.all([
+  const [index, meta, obras, spending, contracts, federal] = await Promise.all([
     getIndex(),
     getMeta(),
     getObras(),
     getStateSpending(),
     getStateContracts(),
+    getFederalContracts(),
   ]);
   const snapshotDate = meta?.generatedAt
     ? new Date(meta.generatedAt)
@@ -49,22 +52,25 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return [
     ...STATIC_ROUTES.map((route) => ({
       url: absoluteUrl(route || "/"),
-      lastModified: route.startsWith("/meu-estado")
-        ? new Date(
-            Math.max(
-              ...[spending?.fetchedAt, contracts?.fetchedAt]
-                .filter((v): v is string => !!v)
-                .map((v) => new Date(v).getTime()),
-              0,
-            ),
-          )
-        : route === "/contratos" && contracts
-          ? new Date(contracts.fetchedAt)
-          : route === "/estados" && spending
-            ? new Date(spending.fetchedAt)
-            : route.startsWith("/obras")
-              ? obrasDate
-              : snapshotDate,
+      lastModified:
+        route === "/contratos/federais"
+          ? new Date(federal.fetchedAt)
+          : route.startsWith("/meu-estado")
+            ? new Date(
+                Math.max(
+                  ...[spending?.fetchedAt, contracts?.fetchedAt]
+                    .filter((v): v is string => !!v)
+                    .map((v) => new Date(v).getTime()),
+                  0,
+                ),
+              )
+            : route === "/contratos" && contracts
+              ? new Date(contracts.fetchedAt)
+              : route === "/estados" && spending
+                ? new Date(spending.fetchedAt)
+                : route.startsWith("/obras")
+                  ? obrasDate
+                  : snapshotDate,
     })),
     ...(contracts ? allKnownContracts(contracts) : []).map((c) => ({
       url: absoluteUrl(`/contratos/${c.id}`),

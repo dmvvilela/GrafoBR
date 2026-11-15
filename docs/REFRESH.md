@@ -459,3 +459,48 @@ graph rendering, N power labeling, per-UF history start dates and a rendered DF
 PNG card. The browser automation did not complete the PNG file-save event;
 preview content and the download link were verified. The export contains 19,811
 static files, below the current free Cloudflare limit of 20,000.
+
+## Federal contracts dashboard (2026-11-15)
+
+`/contratos/federais` is an independent PNCP dashboard. Sphere F determines
+inclusion, regardless of unit location (including DF). Never concatenate federal
+rows into `_state-contracts.json` or annual fiscal totals. The federal import does
+not rebuild the core graph or alter state supplier identities/history.
+
+Manual refresh (from `pipeline/`, use the same start and a nondecreasing end):
+
+```sh
+PYTHONPATH=src .venv/bin/python -m grafobr_pipeline.federal_contracts \
+  --start 2026-10-01 --end 2026-11-12
+cd ../web
+pnpm run sync-data
+```
+
+The default federal cache is `.cache/pncp/federal-publications`. Every normal run
+refetches all requested days, validates complete pagination and schema, then
+atomically publishes `data/_federal-contracts.json` with its own history.
+Keep `.cache/pncp/federal-supplier-identities.json` private and persistent.
+Do not refresh overlapping caches simultaneously. A failed run retains prior
+records, timestamps and history, marking the failure for the UI. GitHub Actions
+schedules remain disabled; this change adds no scheduler.
+
+The initial baseline explicitly reused the 514 national PNCP pages collected
+November 15 at 19:50:27–20:17:26 UTC for the state expansion (publications October
+1–November 12). `--reuse-cache --cache-dir .cache/pncp/publications` validates
+all pages without network fallback, fingerprints them before/after validation,
+and preserves their original collection timestamps. This option is refused once
+a federal snapshot exists. Missing/inconsistent pages fail closed. Do not touch
+cache mtimes or use copied cache files with new timestamps for this mode.
+
+Initial federal snapshot: 244,263 national records checked; 31,987 sphere-F
+records before eligibility exclusions; 5,465 contracts, 3,643 suppliers and 519
+federal agencies after exclusions. These include 994 contracts for federal units
+in DF; the 101 district contracts remain exclusively in the state/DF dataset.
+The new federal history begins with zero changes. The UI offers combined location,
+power, agency and text filters, reconciled summaries, major suppliers/agencies,
+contract details, PNCP links and version-aware sharing. The 5 MB JSON is fetched
+once when opening this dashboard, rather than embedding it in every page.
+
+Before release run pipeline tests, web tests/typecheck/export and the Cloudflare
+build/dry-run. Check the actual exported file count against the 20,000 free asset
+limit. The single federal route avoids per-contract/supplier static pages.

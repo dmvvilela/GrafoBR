@@ -1,0 +1,510 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "version": {
+      "type": "string"
+    },
+    "fetchedAt": {
+      "type": "string"
+    },
+    "period": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "type": "string"
+        },
+        "end": {
+          "type": "string"
+        },
+        "basis": {
+          "const": "publication"
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "basis"
+      ]
+    },
+    "source": {
+      "const": "https://pncp.gov.br/api/consulta/v1/contratos"
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "states": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "AC",
+              "AL",
+              "AP",
+              "AM",
+              "BA",
+              "CE",
+              "DF",
+              "ES",
+              "GO",
+              "MA",
+              "MT",
+              "MS",
+              "MG",
+              "PA",
+              "PB",
+              "PR",
+              "PE",
+              "PI",
+              "RJ",
+              "RN",
+              "RS",
+              "RO",
+              "RR",
+              "SC",
+              "SP",
+              "SE",
+              "TO",
+              "EX"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "nationalRecordsChecked": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "excluded": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "days": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "date": {
+                "type": "string"
+              },
+              "nationalRecords": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "pages": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "federalRecords": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "required": [
+              "date",
+              "nationalRecords",
+              "pages",
+              "federalRecords"
+            ]
+          }
+        },
+        "federalRecordsChecked": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "states",
+        "nationalRecordsChecked",
+        "federalRecordsChecked",
+        "excluded",
+        "days"
+      ]
+    },
+    "suppliers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^f[0-9a-f]{20}$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "aliases"
+        ]
+      }
+    },
+    "contracts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^c[0-9a-f]{20}$"
+          },
+          "supplierId": {
+            "type": "string",
+            "pattern": "^f[0-9a-f]{20}$"
+          },
+          "supplierName": {
+            "type": "string"
+          },
+          "uf": {
+            "enum": [
+              "AC",
+              "AL",
+              "AP",
+              "AM",
+              "BA",
+              "CE",
+              "DF",
+              "ES",
+              "GO",
+              "MA",
+              "MT",
+              "MS",
+              "MG",
+              "PA",
+              "PB",
+              "PR",
+              "PE",
+              "PI",
+              "RJ",
+              "RN",
+              "RS",
+              "RO",
+              "RR",
+              "SC",
+              "SP",
+              "SE",
+              "TO",
+              "EX"
+            ]
+          },
+          "agency": {
+            "type": "string"
+          },
+          "unit": {
+            "type": "string"
+          },
+          "power": {
+            "enum": [
+              "E",
+              "L",
+              "J",
+              "N"
+            ]
+          },
+          "number": {
+            "type": "string"
+          },
+          "year": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "object": {
+            "type": "string"
+          },
+          "initialValue": {
+            "type": "number",
+            "minimum": 0
+          },
+          "signedAt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "startsAt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "endsAt": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "publishedAt": {
+            "type": "string"
+          },
+          "updatedAt": {
+            "type": "string"
+          },
+          "sourceUrl": {
+            "type": "string",
+            "pattern": "^https://pncp.gov.br/app/contratos/[0-9]{14}/[0-9]{4}/[0-9]+$"
+          },
+          "sphere": {
+            "const": "F"
+          },
+          "agencyId": {
+            "type": "string",
+            "pattern": "^a[0-9a-f]{20}$"
+          }
+        },
+        "required": [
+          "id",
+          "supplierId",
+          "supplierName",
+          "uf",
+          "agency",
+          "unit",
+          "power",
+          "number",
+          "year",
+          "object",
+          "initialValue",
+          "signedAt",
+          "startsAt",
+          "endsAt",
+          "publishedAt",
+          "updatedAt",
+          "sourceUrl",
+          "sphere",
+          "agencyId"
+        ]
+      }
+    },
+    "history": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schemaVersion",
+        "baselineAt",
+        "baselineVersion",
+        "sequence",
+        "events"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": 1
+        },
+        "baselineAt": {
+          "type": "string"
+        },
+        "baselineVersion": {
+          "type": "string"
+        },
+        "sequence": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "events": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "sequence",
+              "observedAt",
+              "previousObservedAt",
+              "fromVersion",
+              "toVersion",
+              "kind",
+              "fields",
+              "before",
+              "after"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^h[0-9a-f]{20}$"
+              },
+              "sequence": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "observedAt": {
+                "type": "string"
+              },
+              "previousObservedAt": {
+                "type": "string"
+              },
+              "fromVersion": {
+                "type": "string"
+              },
+              "toVersion": {
+                "type": "string"
+              },
+              "kind": {
+                "enum": [
+                  "added",
+                  "changed",
+                  "removed"
+                ]
+              },
+              "fields": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "before": {
+                "anyOf": [
+                  {
+                    "$ref": "#/properties/contracts/items"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "after": {
+                "anyOf": [
+                  {
+                    "$ref": "#/properties/contracts/items"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "stateBaselines": {
+          "type": "object",
+          "propertyNames": {
+            "enum": [
+              "AC",
+              "AL",
+              "AP",
+              "AM",
+              "BA",
+              "CE",
+              "DF",
+              "ES",
+              "GO",
+              "MA",
+              "MT",
+              "MS",
+              "MG",
+              "PA",
+              "PB",
+              "PR",
+              "PE",
+              "PI",
+              "RJ",
+              "RN",
+              "RS",
+              "RO",
+              "RR",
+              "SC",
+              "SP",
+              "SE",
+              "TO",
+              "EX"
+            ]
+          },
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "observedAt",
+              "version"
+            ],
+            "properties": {
+              "observedAt": {
+                "type": "string"
+              },
+              "version": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "refresh": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "attemptedAt",
+        "lastSuccessAt"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "success",
+            "failed",
+            "running"
+          ]
+        },
+        "attemptedAt": {
+          "type": "string"
+        },
+        "lastSuccessAt": {
+          "type": "string"
+        }
+      }
+    },
+    "scope": {
+      "const": "F"
+    },
+    "collection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "startedAt",
+        "finishedAt"
+      ],
+      "properties": {
+        "mode": {
+          "enum": [
+            "fresh",
+            "validated-cache"
+          ]
+        },
+        "startedAt": {
+          "type": "string"
+        },
+        "finishedAt": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "version",
+    "fetchedAt",
+    "period",
+    "source",
+    "coverage",
+    "suppliers",
+    "contracts",
+    "scope",
+    "collection"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GrafoBR federal contracts (independent PNCP snapshot)"
+}

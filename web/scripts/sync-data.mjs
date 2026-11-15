@@ -16,9 +16,10 @@ for (const file of [
   "_elections-2026.json",
   "_state-spending.json",
   "_state-contracts.json",
+  "_federal-contracts.json",
 ]) {
   if (
-    file === "_state-contracts.json" &&
+    ["_state-contracts.json", "_federal-contracts.json"].includes(file) &&
     existsSync(path.join(srcDir, file)) &&
     existsSync(path.join(outDir, file))
   ) {

@@ -43,6 +43,15 @@ export default function Page() {
           </Link>
         ))}
       </div>
+      <Link
+        href="/contratos/federais"
+        className="block rounded-2xl border border-sky-300/20 bg-sky-400/5 p-5 text-sm leading-relaxed text-zinc-300"
+      >
+        <span className="font-medium text-sky-200">Contratos federais →</span>
+        <br />
+        Órgãos da União em todo o país, inclusive no DF. Painel e totais
+        separados dos estados e do Distrito Federal.
+      </Link>
       <p className="text-sm leading-relaxed text-zinc-400">
         Painéis disponíveis para SP, MG, RJ e DF. A{" "}
         <Link href="/estados" className="text-emerald-300 underline">

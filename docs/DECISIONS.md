@@ -113,3 +113,13 @@ publication-window semantics, private supplier identities and prior history;
 newly covered states start their own observed baselines without false alerts.
 DF fiscal comparisons retain its combined state/municipal and federal-financing
 context. Existing manual refresh and static Cloudflare hosting remain.
+
+### D12 — Separate federal contracts dashboard
+**Approved 2026-11-15:** add `/contratos/federais`, using PNCP sphere F nationwide,
+including federal agencies located in DF. The contracting unit's UF is only a
+location filter, never a government-sphere classifier or spending destination.
+Keep `_federal-contracts.json`, supplier identities, source dates, history and totals
+independent of `_state-contracts.json` and annual Siconfi accounts. Federal records
+never enter Meu estado totals or the state supplier/profile graph. The dashboard
+loads one static dataset and opens official contract records; it does not generate
+thousands of additional detail pages on the capacity-limited free host.

@@ -171,3 +171,29 @@ the original history, sequence and supplier IDs. Optional `history.stateBaseline
 records each UF's first observation time/version. Previously unseen contracts of
 new UFs do not produce `added` events during expansion; later changes do. `refresh.status` is `running`, `success`, or `failed`; only successful complete
 checks advance `fetchedAt`. A separate UI build never advances source freshness.
+
+## Federal contracts (2026-11-15, schema version 1)
+
+`contract/federal-contracts.schema.json` governs `_federal-contracts.json`;
+`web/src/lib/federal-contracts.ts` mirrors it. The top-level `scope` and each
+contract's `sphere` are always F. All 27 UFs plus EX (overseas units) are eligible;
+coverage does not imply records exist for every location. `agencyId` groups by
+validated government CNPJ identity rather than potentially repeated agency names.
+Suppliers use a separate private persistent registry; there are no inferred graph
+connections or links into the state supplier directory. Same normalization,
+privacy, initial-value and publication-date rules as the state snapshot apply.
+
+`coverage.federalRecordsChecked` counts federal records before eligibility
+exclusions. The full national pagination is verified. `collection` records its
+original first/last page collection times and whether this first baseline was
+extracted from an already collected, fully validated national cache. `fetchedAt`
+is the collection's end, never the frontend build time. Explicit cache reuse is
+only permitted for the initial baseline; subsequent checks refetch every day.
+The private page receipt retains SHA-256 checksums and collection timestamps.
+
+Federal observed history has its own baseline, sequence and full before/after
+events. The dashboard summarizes observation batches; the JSON preserves all
+records. Initial import produces no change alerts. Failed checks preserve the
+last complete records and history and report failed status. State and federal
+snapshot sync both reject historical regressions. No federal event enters
+state/DF following notifications.

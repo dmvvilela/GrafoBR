@@ -176,6 +176,13 @@ export default function StateDashboard({
           ))}
         </nav>
       </header>
+      <Link
+        href="/contratos/federais"
+        className="block rounded-xl border border-sky-300/15 p-4 text-sm text-sky-200"
+      >
+        Procurando órgãos da União? Explore o painel federal, com totais
+        separados dos estados e do DF →
+      </Link>
       {contracts && (
         <>
           <FollowButton
@@ -200,9 +207,10 @@ export default function StateDashboard({
       )}
       {slug === "df" && (
         <p className="rounded-xl border border-indigo-300/20 bg-indigo-300/5 p-4 text-sm leading-relaxed text-indigo-100">
-          O DF acumula competências estaduais e municipais e recebe financiamento federal específico.
-          Isso limita a comparação direta com os estados. Os contratos deste painel são da esfera
-          distrital; não incluem órgãos federais sediados em Brasília.
+          O DF acumula competências estaduais e municipais e recebe
+          financiamento federal específico. Isso limita a comparação direta com
+          os estados. Os contratos deste painel são da esfera distrital; não
+          incluem órgãos federais sediados em Brasília.
         </p>
       )}
       <section id="gastos" className="space-y-5 scroll-mt-40">
@@ -480,9 +488,10 @@ export default function StateDashboard({
               <p className="mt-3 text-sm leading-relaxed text-zinc-400">
                 Publicações de {contractPeriod(contracts.period)}. Este recorte
                 inclui contratos iniciais de despesa com pessoas jurídicas, de
-                todos os poderes {slug === "df" ? "distritais" : "estaduais"}; não é o estoque completo de
-                contratos vigentes. Órgãos federais e municípios ficam fora deste recorte.
-                Histórico observado para {state.uf} desde {contractDate(contracts.historyObservedAt)}.
+                todos os poderes {slug === "df" ? "distritais" : "estaduais"};
+                não é o estoque completo de contratos vigentes. Órgãos federais
+                e municípios ficam fora deste recorte. Histórico observado para{" "}
+                {state.uf} desde {contractDate(contracts.historyObservedAt)}.
               </p>
             </div>
             <div className="grid gap-4 sm:grid-cols-3">
@@ -697,7 +706,11 @@ export default function StateDashboard({
               `${METRICS[metric]}: ${formatSpending(spendingValue(record, metric, selection.unit), selection.unit)}`,
           ),
           "Despesa liquidada, sem operações intraorçamentárias. Valores nominais.",
-          ...(slug === "df" ? ["DF: competências estaduais e municipais e financiamento federal específico limitam a comparação direta com estados."] : []),
+          ...(slug === "df"
+            ? [
+                "DF: competências estaduais e municipais e financiamento federal específico limitam a comparação direta com estados.",
+              ]
+            : []),
         ]}
         contracts={contractFacts}
         sources={[

@@ -123,11 +123,15 @@ def fetch_page(day: date, page: int, cache: Path) -> dict:
     raise AssertionError("unreachable")
 
 
-def collect_day(day: date, cache: Path) -> tuple[list[dict], dict]:
+def collect_day(day: date, cache: Path, *, scope=in_scope, count_key="stateRecords", cached_only=False) -> tuple[list[dict], dict]:
+    if cached_only and not (cache / f"{day.isoformat()}-1.json").exists():
+        raise ValueError(f"Missing cached PNCP day {day}")
     first = fetch_page(day, 1, cache)
     total, pages = first["totalRegistros"], first["totalPaginas"]
     seen, selected = set(), []
     for page in range(1, max(pages, 1) + 1):
+        if cached_only and not (cache / f"{day.isoformat()}-{page}.json").exists():
+            raise ValueError(f"Missing cached PNCP page {day}/{page}")
         result = first if page == 1 else fetch_page(day, page, cache)
         if (
             result["totalRegistros"] != total
@@ -144,26 +148,26 @@ def collect_day(day: date, cache: Path) -> tuple[list[dict], dict]:
             seen.add(key)
             if row["dataPublicacaoPncp"][:10] != day.isoformat():
                 raise ValueError("PNCP publication date escaped requested window")
-            if in_scope(row):
+            if scope(row):
                 selected.append(row)
     if len(seen) != total:
         raise ValueError(f"Incomplete PNCP day {day}: {len(seen)}/{total}")
     print(
-        f"{day}: {total} national records checked; {len(selected)} SP/MG/RJ/DF state/district records",
+        f"{day}: {total} national records checked; {len(selected)} {count_key}",
         flush=True,
     )
     return selected, {
         "date": day.isoformat(),
         "nationalRecords": total,
         "pages": pages,
-        "stateRecords": len(selected),
+        count_key: len(selected),
     }
 
 
-def collect_consistent_day(day: date, cache: Path) -> tuple[list[dict], dict]:
+def collect_consistent_day(day: date, cache: Path, **kwargs) -> tuple[list[dict], dict]:
     for attempt in range(3):
         try:
-            return collect_day(day, cache)
+            return collect_day(day, cache, **kwargs)
         except ValueError:
             if attempt == 2:
                 raise
@@ -178,8 +182,8 @@ def collect_consistent_day(day: date, cache: Path) -> tuple[list[dict], dict]:
     raise AssertionError("unreachable")
 
 
-def normalize(row: dict, registry: dict) -> tuple[dict | None, str]:
-    if not in_scope(row):
+def normalize(row: dict, registry: dict, *, scope=in_scope) -> tuple[dict | None, str]:
+    if not scope(row):
         return None, "outsideScope"
     if row.get("orgaoSubRogado") or row.get("unidadeSubRogada"):
         return None, "transferred"
