@@ -5,6 +5,11 @@
   "outputDirectory": "redirect-output",
   "redirects": [
     {
+      "source": "/",
+      "destination": "https://grafo-br.dmvvilela.workers.dev/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "destination": "https://grafo-br.dmvvilela.workers.dev/:path*",
       "permanent": true
