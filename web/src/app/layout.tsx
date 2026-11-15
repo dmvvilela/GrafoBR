@@ -8,6 +8,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  icons: { icon: [{ url: "/favicon.svg", type: "image/svg+xml" }] },
   title: "GrafoBR — conexões de dados públicos",
   description:
     "Grafo aberto das conexões de representantes públicos a partir de dados públicos. Conexões não são acusações.",

@@ -1,7 +1,7 @@
 {
   "framework": null,
   "installCommand": "echo 'Redirect only'",
-  "buildCommand": "mkdir -p redirect-output",
+  "buildCommand": "mkdir -p redirect-output && printf \"GrafoBR moved to Cloudflare\" > redirect-output/index.html",
   "outputDirectory": "redirect-output",
   "redirects": [
     {
