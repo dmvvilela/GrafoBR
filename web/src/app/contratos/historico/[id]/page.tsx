@@ -3,10 +3,9 @@ import { getStateContracts } from "@/lib/data";
 import ContractChangeView from "@/components/ContractChangeView";
 export const dynamicParams = false;
 export async function generateStaticParams() {
-  return (
-    (await getStateContracts())?.history?.events.map((e) => ({ id: e.id })) ??
-    []
-  );
+  const params = (await getStateContracts())?.history?.events.map((e) => ({ id: e.id })) ?? [];
+  // Next export requires a nonempty list. The sentinel renders notFound(), never a fake event.
+  return params.length ? params : [{ id: "__no-events__" }];
 }
 export async function generateMetadata({
   params,

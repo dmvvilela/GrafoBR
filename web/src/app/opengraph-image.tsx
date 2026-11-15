@@ -1,3 +1,4 @@
+export const dynamic = "force-static";
 import { ImageResponse } from "next/og";
 import { getIndex } from "@/lib/data";
 import { SITE_HOST } from "@/lib/site";

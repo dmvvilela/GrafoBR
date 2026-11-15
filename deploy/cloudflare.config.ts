@@ -1,0 +1,1 @@
+export default { accountId: "235381f799dba828e850ebd60c5063aa", worker: { name: "grafo-br", compatibilityDate: "2026-11-15", workersDev: true, assets: { htmlHandling: "drop-trailing-slash", notFoundHandling: "404-page" } } };

@@ -1,3 +1,4 @@
+export const dynamic = "force-static";
 import { allKnownContracts, allKnownSuppliers } from "@/lib/contract-history";
 import type { MetadataRoute } from "next";
 import {

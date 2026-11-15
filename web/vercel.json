@@ -1,0 +1,13 @@
+{
+  "framework": null,
+  "installCommand": "echo 'Redirect only'",
+  "buildCommand": "mkdir -p redirect-output",
+  "outputDirectory": "redirect-output",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://grafo-br.dmvvilela.workers.dev/:path*",
+      "permanent": true
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+export const dynamic = "force-static";
+export const dynamicParams = false;
 import { ImageResponse } from "next/og";
 import { getEgo, getEmendaRanking, getIndex } from "@/lib/data";
 import { officeLabel } from "@/lib/offices";

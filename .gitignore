@@ -39,3 +39,11 @@ reference/*
 
 # AI review artifact (intermediate; applied summaries live in committed data)
 ai/summaries.json
+
+# Local dependencies and Cloudflare build artifacts
+web/node_modules
+.cloudflare/
+
+deploy/node_modules/
+
+web/redirect-output/

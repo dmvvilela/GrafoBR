@@ -1,3 +1,4 @@
+export const dynamicParams = false;
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getEgo, getIndex } from "@/lib/data";
