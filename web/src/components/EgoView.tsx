@@ -1001,7 +1001,7 @@ function EgoViewInner({
                 {stateSuppliers.filter(s => s.nodeId === selected.id).map(s => (
                   <Link key={s.id} href={`/fornecedores/${s.id}`} className="mt-4 block rounded-xl border border-emerald-300/20 bg-emerald-300/5 p-4 text-sm text-emerald-200">
                     Contratos estaduais desta empresa →
-                    <span className="mt-2 block text-xs text-zinc-400">{s.count} contrato(s) de SP/MG no recorte PNCP. Correspondência por raiz documental; não atribui os contratos ao perfil.</span>
+                    <span className="mt-2 block text-xs text-zinc-400">{s.count} contrato(s) de SP/MG/RJ/DF no recorte PNCP. Correspondência por raiz documental; não atribui os contratos ao perfil.</span>
                   </Link>
                 ))}
                 {selectedEntity && (

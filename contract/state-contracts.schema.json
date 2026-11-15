@@ -46,9 +46,12 @@
           "items": {
             "enum": [
               "SP",
-              "MG"
+              "MG",
+              "RJ",
+              "DF"
             ]
-          }
+          },
+          "uniqueItems": true
         },
         "nationalRecordsChecked": {
           "type": "integer",
@@ -205,7 +208,9 @@
           "uf": {
             "enum": [
               "SP",
-              "MG"
+              "MG",
+              "RJ",
+              "DF"
             ]
           },
           "agency": {
@@ -218,7 +223,8 @@
             "enum": [
               "E",
               "L",
-              "J"
+              "J",
+              "N"
             ]
           },
           "number": {
@@ -379,6 +385,33 @@
                     "type": "null"
                   }
                 ]
+              }
+            }
+          }
+        },
+        "stateBaselines": {
+          "type": "object",
+          "propertyNames": {
+            "enum": [
+              "SP",
+              "MG",
+              "RJ",
+              "DF"
+            ]
+          },
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "observedAt",
+              "version"
+            ],
+            "properties": {
+              "observedAt": {
+                "type": "string"
+              },
+              "version": {
+                "type": "string"
               }
             }
           }

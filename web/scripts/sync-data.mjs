@@ -35,6 +35,16 @@ for (const file of [
           published.history.baselineVersion ||
         candidate.history.sequence < published.history.sequence ||
         candidate.fetchedAt < published.fetchedAt ||
+        Object.entries(published.history.stateBaselines ?? {}).some(
+          ([uf, baseline]) => {
+            const next = candidate.history.stateBaselines?.[uf];
+            return (
+              !next ||
+              next.observedAt !== baseline.observedAt ||
+              next.version !== baseline.version
+            );
+          },
+        ) ||
         JSON.stringify(
           candidate.history.events.slice(0, published.history.events.length),
         ) !== JSON.stringify(published.history.events))

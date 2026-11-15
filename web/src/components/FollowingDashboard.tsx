@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import type { ContractHistory } from "@/lib/state-contracts";
-import { contractDate } from "@/lib/state-contracts";
+import { contractHistoryBaselines } from "@/lib/state-contracts";
 import { eventMatches, unreadEvents } from "@/lib/contract-history";
 import FollowButton, { useFollowing } from "./FollowButton";
 import ContractEventList from "./ContractEventList";
@@ -41,6 +41,8 @@ export default function FollowingDashboard({
           {[
             ["SP", "São Paulo"],
             ["MG", "Minas Gerais"],
+            ["RJ", "Rio de Janeiro"],
+            ["DF", "Distrito Federal"],
           ].map(([uf, name]) => (
             <div key={uf}>
               <Link
@@ -116,7 +118,7 @@ export default function FollowingDashboard({
         )}
         {ready && !items.length && (
           <p className="mt-4 rounded-xl border border-white/10 p-5 text-zinc-400">
-            Escolha SP, MG ou um fornecedor para acompanhar as próximas
+            Escolha SP, MG, RJ, DF ou um fornecedor para acompanhar as próximas
             mudanças.
           </p>
         )}
@@ -180,8 +182,7 @@ export default function FollowingDashboard({
         </div>
         <p className="text-sm text-zinc-400">
           Novidades contam a partir do momento em que você começa a acompanhar
-          ou marca como visto. Histórico disponível desde{" "}
-          {contractDate(history.baselineAt)}.
+          ou marca como visto. Início do histórico por UF: {contractHistoryBaselines(history).join(" ")}
         </p>
         {items.some(
           (f) =>
@@ -224,7 +225,7 @@ export default function FollowingDashboard({
           href="/contratos/historico"
           className="inline-block py-3 text-emerald-300"
         >
-          Ver histórico completo de SP e MG →
+          Ver histórico completo de SP, MG, RJ e DF →
         </Link>
       </section>
     </div>

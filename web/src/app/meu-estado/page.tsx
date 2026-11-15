@@ -4,7 +4,7 @@ import { DASHBOARD_STATES } from "@/lib/state-dashboard";
 export const metadata: Metadata = {
   title: "Meu estado — GrafoBR",
   description:
-    "Escolha São Paulo ou Minas Gerais para explorar gastos anuais, fornecedores e contratos com fontes oficiais.",
+    "Escolha São Paulo, Minas Gerais, Rio de Janeiro ou Distrito Federal para explorar gastos anuais, fornecedores e contratos com fontes oficiais.",
   alternates: { canonical: "/meu-estado" },
 };
 export default function Page() {
@@ -44,7 +44,7 @@ export default function Page() {
         ))}
       </div>
       <p className="text-sm leading-relaxed text-zinc-400">
-        Painéis disponíveis para SP e MG. A{" "}
+        Painéis disponíveis para SP, MG, RJ e DF. A{" "}
         <Link href="/estados" className="text-emerald-300 underline">
           comparação de contas anuais
         </Link>{" "}

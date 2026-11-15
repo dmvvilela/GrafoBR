@@ -6,9 +6,9 @@ import ContractsDirectory from "@/components/ContractsDirectory";
 import ContractCoverage from "@/components/ContractCoverage";
 import { contractPeriod, contractDirectoryData } from "@/lib/state-contracts";
 export const metadata: Metadata = {
-  title: "Contratos e fornecedores de SP e MG — GrafoBR",
+  title: "Contratos e fornecedores de SP, MG, RJ e DF — GrafoBR",
   description:
-    "Explore contratos estaduais publicados no PNCP, seus fornecedores, valores iniciais e conexões documentais.",
+    "Explore contratos estaduais e distritais publicados no PNCP, seus fornecedores, valores iniciais e conexões documentais.",
   alternates: { canonical: "/contratos" },
 };
 export default async function ContractsPage() {
@@ -17,7 +17,7 @@ export default async function ContractsPage() {
     <div className="space-y-8">
       <header className="max-w-3xl pt-3 sm:pt-6">
         <p className="text-xs font-medium uppercase tracking-widest text-emerald-300">
-          SP + MG · CONTRATOS ESTADUAIS · PNCP
+          SP + MG + RJ + DF · CONTRATOS ESTADUAIS E DISTRITAIS · PNCP
         </p>
         <h1 className="mt-4 text-3xl font-semibold tracking-tight sm:text-5xl">
           Quem fornece para o estado?
@@ -25,6 +25,7 @@ export default async function ContractsPage() {
         <p className="mt-4 leading-relaxed text-zinc-400">
           Siga o caminho do órgão ao contrato e à empresa. Explore valores,
           documentos oficiais e conexões já registradas nos grafos.
+          SP, MG e RJ: esfera estadual. DF: esfera distrital. Contratos federais ficam fora deste recorte.
         </p>
         {data && (
           <p className="mt-4 text-xs text-zinc-400">

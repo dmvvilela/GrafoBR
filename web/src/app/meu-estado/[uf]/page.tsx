@@ -49,7 +49,9 @@ export default async function Page({
   // Only the two comparison states and a bounded summary cross the client boundary.
   const scoped = {
     ...spending,
-    states: spending.states.filter((s) => s.uf === "SP" || s.uf === "MG"),
+    states: spending.states.filter(
+      (s) => s.uf === uf.toUpperCase() || s.uf === (uf === "sp" ? "MG" : "SP"),
+    ),
   };
   return (
     <StateDashboard

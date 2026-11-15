@@ -38,15 +38,16 @@ export default function ContractCoverage({
           Versão {data.version}.
         </p>
         <p>
-          Órgãos classificados no PNCP como esfera estadual, de todos os
-          poderes, com unidade contratante em SP ou MG. Somente o instrumento
+          Órgãos classificados no PNCP como esfera estadual (E) em SP, MG e RJ,
+          ou distrital (D) no DF, de todos os poderes. A UF é a da unidade contratante. Somente o instrumento
           “Contrato” (tipo 1), de despesa, com fornecedor pessoa jurídica e
           identificação validada. Não inclui municípios, órgãos federais,
-          empenhos, convênios, receitas ou registros com sub-rogação.
+          empenhos, convênios, receitas ou registros com sub-rogação. O código N
+          no campo poder é preservado como “não se aplica”; ele não altera o filtro de esfera.
         </p>
         <p>
           O PNCP depende da publicação pelos órgãos. Este recorte não representa
-          todos os contratos vigentes ou todo o gasto estadual. Soma de valores
+          todos os contratos vigentes ou todo o gasto estadual ou distrital. Soma de valores
           iniciais nominais, sem atualização monetária, aditivos ou pagamentos.
           Contratos plurianuais não são gastos de um único ano e não se somam às
           despesas liquidadas da página Estados.
@@ -63,7 +64,7 @@ export default function ContractCoverage({
           {data.coverage.nationalRecordsChecked.toLocaleString("pt-BR")}{" "}
           registros nacionais, com todas as páginas de cada dia.{" "}
           {data.coverage.stateRecordsChecked.toLocaleString("pt-BR")} registros
-          tinham esfera estadual e unidade em SP/MG;{" "}
+          atenderam ao filtro de esfera e UF (SP/MG/RJ/DF);{" "}
           {data.contracts.length.toLocaleString("pt-BR")} atenderam aos
           critérios.
         </p>

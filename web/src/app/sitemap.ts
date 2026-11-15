@@ -20,6 +20,8 @@ const STATIC_ROUTES = [
   "/meu-estado",
   "/meu-estado/sp",
   "/meu-estado/mg",
+  "/meu-estado/rj",
+  "/meu-estado/df",
   "/contratos",
   "/contratos/historico",
   "/dados",

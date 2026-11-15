@@ -34,10 +34,10 @@ export async function generateMetadata({
   const s = (data ? allKnownSuppliers(data) : []).find((s) => s.id === id);
   return {
     title: s
-      ? `${s.name} · contratos estaduais — GrafoBR`
+      ? `${s.name} · contratos estaduais e distritais — GrafoBR`
       : "Fornecedor — GrafoBR",
     description:
-      "Contratos estaduais publicados no PNCP e conexões documentais verificadas.",
+      "Contratos estaduais e distritais publicados no PNCP e conexões documentais verificadas.",
     alternates: { canonical: `/fornecedores/${id}` },
   };
 }
@@ -62,7 +62,7 @@ export default async function SupplierPage({
         href="/contratos?view=suppliers"
         className="inline-block py-2 text-sm text-zinc-400"
       >
-        ← Fornecedores estaduais
+        ← Fornecedores dos estados e do DF
       </Link>
       <ContractVersion version={data.version} />
       <header className="max-w-4xl">
@@ -237,7 +237,7 @@ export default async function SupplierPage({
           title={supplier.name}
           amount={contractMoney(total)}
           facts={[
-            `${contracts.length} contrato${contracts.length === 1 ? " estadual" : "s estaduais"} em ${ufs.join(" e ")}. Soma dos valores iniciais.`,
+            `${contracts.length} contrato${contracts.length === 1 ? "" : "s"} em ${ufs.join(" e ")}. Soma dos valores iniciais.`,
             `Publicações de ${contractPeriod(data.period)}. Não inclui todo o histórico da empresa.`,
             `Fornecedores agrupados por raiz de CNPJ. Consulta em ${contractDate(data.fetchedAt)}.`,
           ]}

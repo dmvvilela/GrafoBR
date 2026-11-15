@@ -30,9 +30,11 @@ export default function ContractHistoryFeed({
             }}
             className="ml-2 rounded-lg border border-white/20 bg-zinc-950 p-3"
           >
-            <option value="">SP + MG</option>
+            <option value="">SP + MG + RJ + DF</option>
             <option>SP</option>
             <option>MG</option>
+            <option>RJ</option>
+            <option>DF</option>
           </select>
         </label>
         <label className="text-sm">

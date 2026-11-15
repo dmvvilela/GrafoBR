@@ -21,7 +21,7 @@ Authenticate `cf` separately from Wrangler. Deployment requires account read,
 Workers read/write, Workers Scripts Write, and Workers Deployments Read.
 Do not authorize unrelated scopes.
 
-The current export contains 17,759 assets (free account limit: 20,000), so check
+The current export contains 19,811 assets (free account limit: 20,000), so check
 asset counts on every deployment. Do not enable paid upgrades automatically.
 Cloudflare clean URLs use drop-trailing-slash and the exported 404 page.
 

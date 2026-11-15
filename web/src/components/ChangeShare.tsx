@@ -58,7 +58,7 @@ export default function ChangeShare({
       block(title, 42, "#ffffff");
       lines.forEach((line) => block(line, 26, "#e4e4e7"));
       block(
-        "Mudanças observadas no recorte SP/MG. Não são prova de aditivo, pagamento, cancelamento ou irregularidade.",
+        "Mudanças observadas no recorte SP/MG/RJ/DF. Não são prova de aditivo, pagamento, cancelamento ou irregularidade.",
         22,
         "#a1a1aa",
       );

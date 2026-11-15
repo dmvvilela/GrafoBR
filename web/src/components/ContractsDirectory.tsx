@@ -121,9 +121,11 @@ export default function ContractsDirectory({
               value={filters.uf}
               onChange={(e) => change("uf", e.target.value)}
             >
-              <option value="">SP e MG</option>
+              <option value="">SP, MG, RJ e DF</option>
               <option value="SP">São Paulo</option>
               <option value="MG">Minas Gerais</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="DF">Distrito Federal</option>
             </select>
           </label>
           <label className="flex min-h-11 items-center gap-3 text-sm sm:col-span-3">

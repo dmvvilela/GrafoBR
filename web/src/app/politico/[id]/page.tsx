@@ -48,7 +48,7 @@ export default async function PoliticoPage({
   return (
     <>
       {entry?.chamber === "governo" && entry.uf && <Link href={`/estados?a=${entry.uf}&b=${entry.uf === "SP" ? "MG" : "SP"}`} className="mb-6 block rounded-xl border border-emerald-300/20 bg-emerald-300/5 p-4 text-sm text-emerald-200">Compare as despesas de {entry.uf} com outros estados →<span className="mt-1 block text-xs text-zinc-400">Contas estaduais de anos completos. Não representam despesas pessoais do titular atual.</span></Link>}
-      {entry?.chamber === "governo" && ["SP", "MG"].includes(entry.uf ?? "") && <Link href={`/contratos?uf=${entry.uf}`} className="mb-6 block rounded-xl border border-white/10 p-4 text-sm text-emerald-200">Explore os contratos estaduais de {entry.uf} no PNCP →<span className="mt-1 block text-xs text-zinc-400">Órgãos, fornecedores e documentos. Não representa contratação pessoal do governador.</span></Link>}
+      {entry?.chamber === "governo" && ["SP", "MG", "RJ", "DF"].includes(entry.uf ?? "") && <Link href={`/contratos?uf=${entry.uf}`} className="mb-6 block rounded-xl border border-white/10 p-4 text-sm text-emerald-200">Explore os contratos {entry.uf === "DF" ? "distritais" : "estaduais"} de {entry.uf} no PNCP →<span className="mt-1 block text-xs text-zinc-400">Órgãos, fornecedores e documentos. Não representa contratação pessoal do governador.</span></Link>}
       <EgoView ego={ego} entry={entry} stateSuppliers={stateSuppliers} />
       <ProfileContext
         snapshot={elections}

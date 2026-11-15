@@ -61,7 +61,7 @@ export default async function ContractPage({
       )}
       <header>
         <p className="text-xs uppercase tracking-widest text-emerald-300">
-          PNCP · CONTRATO ESTADUAL · {c.uf}
+          PNCP · CONTRATO {c.uf === "DF" ? "DISTRITAL" : "ESTADUAL"} · {c.uf}
         </p>
         <h1 className="mt-4 break-words text-3xl font-semibold sm:text-4xl">
           Contrato {c.number}/{c.year}
@@ -96,8 +96,8 @@ export default async function ContractPage({
           </p>
           <p className="mt-3 text-xs text-zinc-500">
             Poder{" "}
-            {{ E: "Executivo", L: "Legislativo", J: "Judiciário" }[c.power]} ·
-            esfera estadual
+            {{ E: "Executivo", L: "Legislativo", J: "Judiciário", N: "Não se aplica (classificação PNCP)" }[c.power]} ·
+            esfera {c.uf === "DF" ? "distrital" : "estadual"}
           </p>
         </div>
         <div className="min-w-0 rounded-2xl border border-emerald-300/20 bg-emerald-300/[0.03] p-5">
@@ -134,8 +134,8 @@ export default async function ContractPage({
       <section id="historico" className="space-y-4">
         <h2 className="text-2xl font-semibold">Histórico observado</h2>
         <p className="text-sm text-zinc-400">
-          Acompanhamento desde{" "}
-          {contractDate(data.history?.baselineAt ?? data.fetchedAt)}. As datas
+          Acompanhamento desta UF desde{" "}
+          {contractDate(data.history?.stateBaselines?.[c.uf]?.observedAt ?? data.history?.baselineAt ?? data.fetchedAt)}. As datas
           abaixo indicam quando observamos os registros; não reconstituem
           alterações anteriores à primeira consulta.
         </p>
@@ -157,6 +157,7 @@ export default async function ContractPage({
         title={`Contrato ${c.number}/${c.year} · ${c.uf}`}
         amount={contractMoney(c.initialValue)}
         facts={[
+          `Esfera ${c.uf === "DF" ? "distrital" : "estadual"}; contratos federais excluídos.`,
           `Fornecedor: ${c.supplierName}`,
           `Objeto: ${c.object.length > 220 ? c.object.slice(0, 220) + "…" : c.object}`,
           `Órgão: ${c.agency}`,

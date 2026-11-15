@@ -18,7 +18,17 @@ from zoneinfo import ZoneInfo
 import requests
 
 API = "https://pncp.gov.br/api/consulta/v1/contratos"
-UFS = {"SP", "MG"}
+STATE_SPHERES = {"SP": "E", "MG": "E", "RJ": "E", "DF": "D"}
+
+
+def in_scope(row: dict) -> bool:
+    uf = row.get("unidadeOrgao", {}).get("ufSigla")
+    return (
+        uf in STATE_SPHERES
+        and row.get("orgaoEntidade", {}).get("esferaId") == STATE_SPHERES[uf]
+    )
+
+
 _REQUEST_LOCK = threading.Lock()
 _NEXT_REQUEST = 0.0
 
@@ -134,15 +144,12 @@ def collect_day(day: date, cache: Path) -> tuple[list[dict], dict]:
             seen.add(key)
             if row["dataPublicacaoPncp"][:10] != day.isoformat():
                 raise ValueError("PNCP publication date escaped requested window")
-            if (
-                row.get("orgaoEntidade", {}).get("esferaId") == "E"
-                and row.get("unidadeOrgao", {}).get("ufSigla") in UFS
-            ):
+            if in_scope(row):
                 selected.append(row)
     if len(seen) != total:
         raise ValueError(f"Incomplete PNCP day {day}: {len(seen)}/{total}")
     print(
-        f"{day}: {total} national records checked; {len(selected)} SP/MG state records",
+        f"{day}: {total} national records checked; {len(selected)} SP/MG/RJ/DF state/district records",
         flush=True,
     )
     return selected, {
@@ -172,10 +179,7 @@ def collect_consistent_day(day: date, cache: Path) -> tuple[list[dict], dict]:
 
 
 def normalize(row: dict, registry: dict) -> tuple[dict | None, str]:
-    if (
-        row.get("orgaoEntidade", {}).get("esferaId") != "E"
-        or row.get("unidadeOrgao", {}).get("ufSigla") not in UFS
-    ):
+    if not in_scope(row):
         return None, "outsideScope"
     if row.get("orgaoSubRogado") or row.get("unidadeSubRogada"):
         return None, "transferred"
@@ -311,7 +315,7 @@ def build(args: argparse.Namespace) -> dict:
         "graphFingerprint": private["graphFingerprint"],
         "source": API,
         "coverage": {
-            "states": ["SP", "MG"],
+            "states": list(STATE_SPHERES),
             "nationalRecordsChecked": sum(a["nationalRecords"] for _, a in batches),
             "stateRecordsChecked": len(seen),
             "excluded": dict(exclusions),
@@ -353,6 +357,10 @@ def main():
         "--refresh",
         action="store_true",
         help="Refetch every day in the requested publication period",
+    )
+    parser.add_argument(
+        "--expand-states", action="store_true",
+        help="Establish baselines for newly covered states without reporting old contracts as additions",
     )
     parser.add_argument("--start", required=True)
     parser.add_argument("--end", required=True)

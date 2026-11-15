@@ -103,3 +103,13 @@ DCA and IBGE population from the same year. Keep it a separate static sidecar/pa
 not governor-to-spending graph edges. Begin with complete 2024/2025 accounts. Liquidated
 spending excludes intra-budget transactions; investment is a separate economic category,
 not an extra spending function. No performance ranking or attribution to current holders.
+
+
+### D11 — Expand state contracts to RJ and DF
+**Approved 2026-11-15:** include RJ and DF alongside SP/MG in the PNCP contracts
+and Meu estado dashboards. Keep federal contracts separate: require PNCP sphere
+E for SP/MG/RJ and D for DF, in addition to the contracting unit's UF. Retain
+publication-window semantics, private supplier identities and prior history;
+newly covered states start their own observed baselines without false alerts.
+DF fiscal comparisons retain its combined state/municipal and federal-financing
+context. Existing manual refresh and static Cloudflare hosting remain.

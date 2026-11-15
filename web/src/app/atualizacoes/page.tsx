@@ -21,7 +21,7 @@ export default async function UpdatesPage() {
         href="/contratos/historico"
         className="block rounded-xl border border-emerald-300/20 p-5 text-emerald-300"
       >
-        Novo: histórico de contratos de SP e MG · ver o que mudou →
+        Novo: histórico de contratos de SP, MG, RJ e DF · ver o que mudou →
       </Link>
       <UpdatesFeed history={await getUpdates()} />
     </div>

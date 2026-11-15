@@ -51,7 +51,7 @@ test("published PNCP snapshot reconciles coverage, identities and source records
   const graphCache = new Map();
   for (const c of d.contracts) {
     assert.ok(supplierIds.has(c.supplierId));
-    assert.ok(["SP", "MG"].includes(c.uf));
+    assert.ok(["SP", "MG", "RJ", "DF"].includes(c.uf));
     assert.ok(Number.isFinite(c.initialValue) && c.initialValue >= 0);
     assert.ok(
       c.publishedAt.slice(0, 10) >= d.period.start &&

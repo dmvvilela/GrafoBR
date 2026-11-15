@@ -27,7 +27,7 @@ const snapshot = JSON.parse(
   ),
 );
 test("state summaries reconcile all contracts, supplier shares and publication days without crossing states", () => {
-  for (const uf of ["SP", "MG"]) {
+  for (const uf of snapshot.coverage.states) {
     const result = summarizeStateContracts(snapshot, uf);
     const rows = snapshot.contracts.filter((c) => c.uf === uf);
     assert.equal(result.count, rows.length);
@@ -43,7 +43,7 @@ test("state summaries reconcile all contracts, supplier shares and publication d
       result.days.reduce((n, d) => n + d.count, 0),
       rows.length,
     );
-    assert.equal(result.days.length, 43);
+    assert.equal(result.days.length, snapshot.coverage.days.length);
     for (const leader of result.leaders) {
       const value = rows
         .filter((c) => c.supplierId === leader.id)
@@ -60,7 +60,7 @@ test("state summaries reconcile all contracts, supplier shares and publication d
         .at(-1),
     );
   }
-  assert.equal(summarizeStateContracts(snapshot, "RJ"), null);
+  assert.equal(summarizeStateContracts(snapshot, "BA"), null);
 });
 test("supplier grouping uses IDs, preserves zero and has no percentage for an empty denominator", () => {
   const fixture = {
@@ -120,5 +120,27 @@ test("dashboard sharing preserves controls and independently detects either revi
   assert.deepEqual(invalid.selection, { year: 2025, unit: "perCapita" });
   assert.equal(invalid.corrected, true);
   assert.equal(isDashboardSlug("__proto__"), false);
-  assert.equal(isDashboardSlug("rj"), false);
+  assert.equal(isDashboardSlug("rj"), true);
+  assert.equal(isDashboardSlug("df"), true);
+  assert.equal(isDashboardSlug("ba"), false);
+});
+
+test("RJ and DF links preserve selections and use their own history start", () => {
+  for (const uf of ["RJ", "DF"]) {
+    const fixture = structuredClone(snapshot);
+    fixture.coverage.states = [uf];
+    fixture.contracts = snapshot.contracts.slice(0, 1).map(c => ({ ...c, uf }));
+    fixture.history = { baselineAt: "old", baselineVersion: "base", sequence: 3,
+      stateBaselines: { [uf]: { observedAt: "new", version: "expanded" } } };
+    const result = summarizeStateContracts(fixture, uf);
+    assert.equal(result.count, 1);
+    assert.equal(result.historyObservedAt, "new");
+    assert.equal(result.historyBaseline, "base");
+    assert.equal(result.historySequence, 3);
+    const path = dashboardPath(uf.toLowerCase(), { year: 2024, unit: "total" }, "fiscal", "expanded");
+    assert.match(path, new RegExp(`^/meu-estado/${uf.toLowerCase()}\\?`));
+    const params = new URL(path, "https://example.test").searchParams;
+    assert.deepEqual(readDashboardSelection(params, [2024, 2025], "fiscal", "expanded").selection,
+      { year: 2024, unit: "total" });
+  }
 });

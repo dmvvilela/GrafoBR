@@ -133,13 +133,17 @@ Each annual record carries official API URLs and its actual collection timestamp
 The content-derived `version` excludes collection timestamps; shared links warn after
 substantive revisions. This file does not change profile graph identities or core dates.
 
-## State contracts and suppliers (SP/MG pilot)
+## State contracts and suppliers (SP/MG/RJ/DF)
 
 `contract/state-contracts.schema.json` defines `_state-contracts.json`; TypeScript mirror:
 `web/src/lib/state-contracts.ts`. This independent sidecar preserves the core ego seam.
 Publication window and source coverage are explicit. Contract amounts are initial nominal
-values, not payments or annual DCA spending. Only PNCP instrument 1, expenditure, state
-sphere, SP/MG contracting units and validated legal-entity suppliers are included.
+values, not payments or annual DCA spending. Only PNCP instrument 1, expenditure,
+state sphere E with SP/MG/RJ contracting units or district sphere D with DF units,
+and validated legal-entity suppliers are included. Federal F, municipal M, unknown N
+and mismatched sphere/UF records are excluded. DF geography alone never includes federal agencies. The distinct `power` field
+retains E/L/J and N (PNCP “Não se aplica”), without inferring an Executive branch
+from the agency name. N power does not permit an N or federal sphere.
 
 Supplier IDs are persistent opaque random IDs from a **private** registry; matrix and
 branches share the validated CNPJ root. Private documents never enter public supplier
@@ -161,6 +165,9 @@ increments `sequence` once and appends events with stable IDs, full public befor
 contract records, both consultation times and source versions. No-op checks retain history
 and sequence. `added` means entered the observed recorte; `removed` means absent from the
 next complete consultation, never legal cancellation. Events and historical URLs are
-retained. The publication-window start and state scope cannot move, and the end cannot
-shrink. `refresh.status` is `running`, `success`, or `failed`; only successful complete
+retained. The publication-window start cannot move and the end/state scope cannot shrink.
+An explicit `--expand-states` establishes initial baselines for added UFs, retaining
+the original history, sequence and supplier IDs. Optional `history.stateBaselines`
+records each UF's first observation time/version. Previously unseen contracts of
+new UFs do not produce `added` events during expansion; later changes do. `refresh.status` is `running`, `success`, or `failed`; only successful complete
 checks advance `fetchedAt`. A separate UI build never advances source freshness.

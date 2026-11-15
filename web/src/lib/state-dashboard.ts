@@ -3,6 +3,8 @@ import type { StateContractsSnapshot, StateContract } from "./state-contracts";
 export const DASHBOARD_STATES = {
   sp: "São Paulo",
   mg: "Minas Gerais",
+  rj: "Rio de Janeiro",
+  df: "Distrito Federal",
 } as const;
 export type DashboardSlug = keyof typeof DASHBOARD_STATES;
 export const isDashboardSlug = (value: string): value is DashboardSlug =>
@@ -60,6 +62,7 @@ export function summarizeStateContracts(
     version: data.version,
     fetchedAt: data.fetchedAt,
     refresh: data.refresh,
+    historyObservedAt: data.history?.stateBaselines?.[uf]?.observedAt ?? data.history?.baselineAt ?? data.fetchedAt,
     historySequence: data.history?.sequence ?? 0,
     historyBaseline: data.history?.baselineVersion ?? data.version,
   };

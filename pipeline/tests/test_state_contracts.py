@@ -71,6 +71,30 @@ class StateContractsTests(unittest.TestCase):
         municipal["orgaoEntidade"]["esferaId"] = "M"
         self.assertEqual(normalize(municipal, {})[1], "outsideScope")
 
+    def test_states_and_district_never_include_federal_or_municipal_contracts(self):
+        for uf, sphere in [('SP', 'E'), ('MG', 'E'), ('RJ', 'E'), ('DF', 'D')]:
+            for actual in ['E', 'D', 'F', 'M', 'N', None]:
+                with self.subTest(uf=uf, sphere=actual):
+                    row = copy.deepcopy(ROW)
+                    row['unidadeOrgao']['ufSigla'] = uf
+                    row['orgaoEntidade']['esferaId'] = actual
+                    result, reason = normalize(row, {})
+                    self.assertEqual(result is not None, actual == sphere)
+                    if actual != sphere:
+                        self.assertEqual(reason, 'outsideScope')
+
+    def test_not_applicable_power_is_preserved_without_changing_sphere(self):
+        from jsonschema import validate
+        row = copy.deepcopy(ROW)
+        row['unidadeOrgao']['ufSigla'] = 'RJ'
+        row['orgaoEntidade']['poderId'] = 'N'
+        result, _ = normalize(row, {})
+        self.assertEqual(result['power'], 'N')
+        schema = json.loads((Path(__file__).resolve().parents[2] / 'contract/state-contracts.schema.json').read_text())
+        validate(result, schema['properties']['contracts']['items'])
+        row['orgaoEntidade']['esferaId'] = 'F'
+        self.assertEqual(normalize(row, {})[1], 'outsideScope')
+
     def test_zero_is_valid_and_private_documents_are_removed(self):
         self.assertEqual(
             normalize({**ROW, "valorInicial": 0}, {})[0]["initialValue"], 0

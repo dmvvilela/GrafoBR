@@ -86,3 +86,11 @@ test("removed contract and supplier links remain resolvable without inventing cu
   assert.equal(allKnownContracts(snapshot).length, 1);
   assert.equal(allKnownContracts(snapshot)[0].supplierId, other);
 });
+
+test("RJ and DF follows persist alongside existing states and only count later observations", () => {
+  const items = ["SP", "MG", "RJ", "DF"].map(uf => ({ key: `state:${uf}`, name: uf, seen: 2, baseline: "base" }));
+  assert.deepEqual(parseFollows(JSON.stringify({ version: 1, items })), items);
+  const events = ["RJ", "DF"].map(uf => ({ sequence: 3, before: null, after: { ...after, uf } }));
+  assert.equal(unreadEvents(events, items, "base").length, 2);
+  assert.equal(unreadEvents(events, items.map(f => ({ ...f, seen: 3 })), "base").length, 0);
+});

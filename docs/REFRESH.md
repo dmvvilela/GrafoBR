@@ -401,3 +401,61 @@ the preference was saved. Individual change cards link to immutable observed eve
 no recipient, email alert, account or cross-device profile is created.
 
 Release validation: a full fresh recheck completed at `2026-11-14T02:09:43.441451+00:00`. All 43 days / 514 pages and 244,263 national records were checked. The 3,641 scoped contracts and 2,017 suppliers were unchanged from version `4b926ddae7d60c02`, so history correctly retained sequence 0 with no fabricated events. The baseline keeps its original `2026-11-14T00:39:29.061987+00:00` date. Mobile 320/393 px, preference persistence, unfollowing, filters and PNG previews were checked. A clearly labelled local-only fixture verified before/after cards and unread/seen transitions, then was removed before the production build. Automatic file saving was not exercised; PNG previews and download links were verified.
+
+
+## RJ and DF expansion (2026-11-15)
+
+The contracts directory, supplier views, Meu estado dashboards, history filters,
+follow preferences, share cards and sitemap now support SP, MG, RJ and DF.
+The annual Siconfi/IBGE snapshot already includes RJ/DF and is reused unchanged.
+Each dashboard transfers only its selected fiscal state plus a comparison peer
+(SP, or MG when viewing SP), retaining the bounded client payload.
+
+PNCP scope is explicit: sphere E for SP/MG/RJ, sphere D for DF. Federal F records
+are excluded even when the contracting unit is in Brasília; municipalities,
+unknown spheres and mismatched sphere/UF records are excluded too. See the
+[official sphere codes](https://pncp.gov.br/manual/pt-br/latest/contrato_empenho/consultar_contrato_ou_empenho.html).
+DF fiscal comparisons and exported cards explain its combined state/municipal
+competencies and specific federal financing.
+
+The one-time coverage expansion uses the same complete publication window:
+
+```sh
+cd pipeline
+PYTHONPATH=src .venv/bin/python -m grafobr_pipeline.state_contracts \
+  --start 2026-10-01 --end 2026-11-12 --expand-states --refresh
+```
+
+`--expand-states` permits a strict coverage superset, never removal of a UF.
+It retains SP/MG history and persistent supplier URLs, and records the initial
+observation/version of each UF in `history.stateBaselines`. Existing contracts
+in newly covered UFs establish a baseline without creating false additions or
+unread notifications. Later refreshes compare all four UFs normally. A previously
+populated UF becoming empty aborts publication even when other UFs still have data.
+Ordinary future refreshes need no expansion flag. No scheduler is enabled.
+
+
+Expansion snapshot `d52d7a5e8b385ee0` was validated at
+`2026-11-15T20:19:02.449730+00:00`: 514 pages over 43 days, 244,263 national
+records and 18,099 matching sphere/UF records. Published 4,245 contracts:
+SP 2,913; MG 728; RJ 503; DF 101, with 2,436 suppliers (16 linked to existing
+profile graphs). Every public contract was checked against its raw PNCP sphere/UF.
+All 3,641 old SP/MG records and supplier IDs were unchanged; history stays at
+sequence 0 with no fabricated events for the new UFs.
+
+The first validation found the official `power = N` (Não se aplica) code in
+443 RJ and 3 DF contracts. The schema and detail labels now retain N without
+inferring a branch of government. Sphere filtering remains E/D only. All 514
+responses had been freshly collected in this attempt and passed pagination;
+after the schema correction they were revalidated in full without re-downloading.
+No old response was substituted. Future ordinary refreshes still refetch all pages.
+
+
+Release checks: 46 pipeline tests, 31 web tests and the canonical-normalization
+test passed; typecheck and the production export succeeded. Browser checks covered
+320px/393px and desktop layouts, RJ/DF filters with 503/101 results, preserved
+fiscal selections, follow persistence, district contract/source links, supplier
+graph rendering, N power labeling, per-UF history start dates and a rendered DF
+PNG card. The browser automation did not complete the PNG file-save event;
+preview content and the download link were verified. The export contains 19,811
+static files, below the current free Cloudflare limit of 20,000.

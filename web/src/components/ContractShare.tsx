@@ -51,7 +51,7 @@ export default function ContractShare({
         ctx!.fillText(line, 64, y);
         return y + size * 1.35;
       }
-      let y = text("GrafoBR / CONTRATOS ESTADUAIS · PNCP", 70, 24, "#6ee7b7");
+      let y = text("GrafoBR / CONTRATOS · PNCP", 70, 24, "#6ee7b7");
       y = text(title, y + 44, 42);
       y = text(amount, y + 42, 52, "#a5b4fc");
       y = text(

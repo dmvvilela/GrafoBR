@@ -72,7 +72,7 @@ export function parseFollows(raw: string | null): Follow[] {
       (f: Follow) =>
         !f ||
         typeof f.key !== "string" ||
-        !/^(state:(SP|MG)|supplier:f[0-9a-f]{20})$/.test(f.key) ||
+        !/^(state:(SP|MG|RJ|DF)|supplier:f[0-9a-f]{20})$/.test(f.key) ||
         typeof f.name !== "string" ||
         f.name.length > 500 ||
         !Number.isSafeInteger(f.seen) ||

@@ -18,10 +18,10 @@ export interface StateContract {
   id: string;
   supplierId: string;
   supplierName: string;
-  uf: "SP" | "MG";
+  uf: "SP" | "MG" | "RJ" | "DF";
   agency: string;
   unit: string;
-  power: "E" | "L" | "J";
+  power: "E" | "L" | "J" | "N";
   number: string;
   year: number;
   object: string;
@@ -142,6 +142,7 @@ export type ContractEvent = {
   after: StateContract | null;
 };
 export type ContractHistory = {
+  stateBaselines?: Record<string, { observedAt: string; version: string }>;
   schemaVersion: 1;
   baselineAt: string;
   baselineVersion: string;
@@ -166,3 +167,13 @@ export const contractSourceDate = (v: string | null) => {
   if (/(?:Z|[+-]\d{2}:\d{2})$/.test(v)) return contractObservedAt(v);
   return `${contractDate(v)} ${v.slice(11)} (fuso não informado pela fonte)`;
 };
+
+export function contractHistoryBaselines(history: ContractHistory) {
+  const baselines = history.stateBaselines ?? {
+    SP: { observedAt: history.baselineAt, version: history.baselineVersion },
+    MG: { observedAt: history.baselineAt, version: history.baselineVersion },
+  };
+  return Object.entries(baselines).map(
+    ([uf, baseline]) => `${uf}: desde ${contractObservedAt(baseline.observedAt)}.`,
+  );
+}

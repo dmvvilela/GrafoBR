@@ -113,6 +113,7 @@ export default function StateDashboard({
   const contractFacts = contracts
     ? [
         `Publicações: ${contractPeriod(contracts.period)}.`,
+        `${slug === "df" ? "Esfera distrital" : "Esfera estadual"}; contratos federais excluídos.`,
         `${number(contracts.count)} contratos · ${number(contracts.supplierCount)} fornecedores.`,
         `${contractMoney(contracts.total)} em valores iniciais nominais; não são pagamentos.`,
         ...(contracts.leaders[0]
@@ -134,8 +135,8 @@ export default function StateDashboard({
           >
             ← Meu estado
           </Link>
-          <nav aria-label="Escolher estado" className="flex gap-2">
-            {(["sp", "mg"] as const).map((s) => (
+          <nav aria-label="Escolher estado" className="flex flex-wrap gap-2">
+            {(Object.keys(DASHBOARD_STATES) as DashboardSlug[]).map((s) => (
               <Link
                 key={s}
                 aria-current={s === slug ? "page" : undefined}
@@ -195,6 +196,13 @@ export default function StateDashboard({
           className="rounded-xl border border-amber-300/30 bg-amber-300/5 p-4 text-sm text-amber-200"
         >
           {notice}
+        </p>
+      )}
+      {slug === "df" && (
+        <p className="rounded-xl border border-indigo-300/20 bg-indigo-300/5 p-4 text-sm leading-relaxed text-indigo-100">
+          O DF acumula competências estaduais e municipais e recebe financiamento federal específico.
+          Isso limita a comparação direta com os estados. Os contratos deste painel são da esfera
+          distrital; não incluem órgãos federais sediados em Brasília.
         </p>
       )}
       <section id="gastos" className="space-y-5 scroll-mt-40">
@@ -472,8 +480,9 @@ export default function StateDashboard({
               <p className="mt-3 text-sm leading-relaxed text-zinc-400">
                 Publicações de {contractPeriod(contracts.period)}. Este recorte
                 inclui contratos iniciais de despesa com pessoas jurídicas, de
-                todos os poderes estaduais; não é o estoque completo de
-                contratos vigentes.
+                todos os poderes {slug === "df" ? "distritais" : "estaduais"}; não é o estoque completo de
+                contratos vigentes. Órgãos federais e municípios ficam fora deste recorte.
+                Histórico observado para {state.uf} desde {contractDate(contracts.historyObservedAt)}.
               </p>
             </div>
             <div className="grid gap-4 sm:grid-cols-3">
@@ -558,8 +567,8 @@ export default function StateDashboard({
                 Explorar todos os fornecedores e seus grafos →
               </Link>
               <p className="mt-2 text-xs text-zinc-500">
-                O perfil de um fornecedor pode incluir contratos dos dois
-                estados; os valores acima consideram apenas {state.uf}.
+                O perfil de um fornecedor pode incluir contratos de outras UFs
+                cobertas; os valores acima consideram apenas {state.uf}.
               </p>
             </section>
           </section>
@@ -688,6 +697,7 @@ export default function StateDashboard({
               `${METRICS[metric]}: ${formatSpending(spendingValue(record, metric, selection.unit), selection.unit)}`,
           ),
           "Despesa liquidada, sem operações intraorçamentárias. Valores nominais.",
+          ...(slug === "df" ? ["DF: competências estaduais e municipais e financiamento federal específico limitam a comparação direta com estados."] : []),
         ]}
         contracts={contractFacts}
         sources={[

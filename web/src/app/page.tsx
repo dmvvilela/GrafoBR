@@ -72,7 +72,7 @@ export default async function Home() {
       </Link>
 
       <Link href="/meu-estado" className="block rounded-2xl border border-emerald-300/20 bg-gradient-to-r from-emerald-400/10 to-indigo-400/5 p-6 transition hover:border-emerald-300/40 sm:p-8">
-        <p className="text-xs font-medium uppercase tracking-widest text-emerald-300">Meu estado · SP + MG</p>
+        <p className="text-xs font-medium uppercase tracking-widest text-emerald-300">Meu estado · SP + MG + RJ + DF</p>
         <h2 className="mt-3 text-2xl font-semibold">Seu estado, dos gastos aos fornecedores.</h2>
         <p className="mt-2 text-sm leading-relaxed text-zinc-400">Conheça as prioridades das contas anuais, explore fornecedores e siga as publicações de contratos. Cada base com seu período, fontes e cards para compartilhar.</p>
         <span className="mt-4 inline-block text-sm font-medium text-emerald-300">Escolher meu estado →</span>

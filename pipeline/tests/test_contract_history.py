@@ -12,13 +12,24 @@ SOURCE = Path(__file__).resolve().parents[2] / 'web/public/data/_state-contracts
 
 def fixture():
     data = json.loads(SOURCE.read_text())
-    data['contracts'] = data['contracts'][:2]
+    # Keep the history unit fixture independent of the live ranking's state mix.
+    data['contracts'] = [dict(c, uf='SP') for c in data['contracts'][:2]]
+    data['coverage']['states'] = ['SP', 'MG']
     data.pop('history', None)
     data.pop('refresh', None)
     return data
 
 
 class HistoryTests(unittest.TestCase):
+    def test_fresh_history_records_all_covered_state_baselines(self):
+        data = fixture()
+        data['coverage']['states'] = ['SP', 'MG', 'RJ', 'DF']
+        history = baseline(data)
+        self.assertEqual(set(history['stateBaselines']), set(data['coverage']['states']))
+        self.assertEqual(history['stateBaselines']['DF'],
+                         {'observedAt': data['fetchedAt'], 'version': data['version']})
+        self.assertEqual(history['events'], [])
+
     def test_baseline_noop_then_field_changes_and_reappearance(self):
         old = fixture()
         same = advance(old, copy.deepcopy(old))
@@ -48,6 +59,39 @@ class HistoryTests(unittest.TestCase):
         for start, end in [('2026-10-02',old['period']['end']), (old['period']['start'],'2026-10-31')]:
             new = copy.deepcopy(old); new['period'].update(start=start,end=end)
             with self.assertRaises(ValueError): advance(old,new)
+
+    def test_expansion_preserves_history_and_baselines_new_states_without_false_additions(self):
+        old = fixture()
+        old['coverage']['states'] = ['SP', 'MG']
+        old['contracts'] = [dict(old['contracts'][0], uf='SP')]
+        changed = copy.deepcopy(old)
+        changed['contracts'][0]['initialValue'] += 1
+        old = advance(old, changed)
+        new = copy.deepcopy(old)
+        new['coverage']['states'] += ['RJ', 'DF']
+        new['fetchedAt'] = '2026-11-15T12:00:00+00:00'
+        new['version'] = 'expanded'
+        for uf in ['RJ', 'DF']:
+            new['contracts'].append(dict(old['contracts'][0], id=uf, uf=uf))
+        with self.assertRaisesRegex(ValueError, 'expansion requires'):
+            advance(old, copy.deepcopy(new))
+        result = advance(old, new, expand_states=True)
+        self.assertEqual(result['history']['events'], old['history']['events'])
+        self.assertEqual(result['history']['sequence'], old['history']['sequence'])
+        self.assertEqual(result['history']['baselineVersion'], old['history']['baselineVersion'])
+        self.assertEqual(result['history']['stateBaselines']['DF']['observedAt'], new['fetchedAt'])
+        later = copy.deepcopy(result)
+        later['contracts'][-1]['initialValue'] += 10
+        later = advance(result, later)
+        self.assertEqual(later['history']['events'][-1]['after']['uf'], 'DF')
+        self.assertEqual(later['history']['events'][-1]['kind'], 'changed')
+        shrink = copy.deepcopy(result)
+        shrink['coverage']['states'].remove('DF')
+        with self.assertRaises(ValueError): advance(result, shrink, expand_states=True)
+        empty_sp = copy.deepcopy(result)
+        empty_sp['contracts'] = [c for c in empty_sp['contracts'] if c['uf'] != 'SP']
+        with self.assertRaisesRegex(ValueError, 'previously populated state SP'):
+            advance(result, empty_sp)
 
     def test_unexpected_empty_window_requires_review(self):
         old = fixture(); new = copy.deepcopy(old); new['contracts'] = []

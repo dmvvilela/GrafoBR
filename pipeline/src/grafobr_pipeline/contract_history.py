@@ -29,23 +29,39 @@ def atomic_json(path, value, private=False):
 
 def baseline(snapshot):
     return {'schemaVersion': 1, 'baselineAt': snapshot['fetchedAt'],
-            'baselineVersion': snapshot['version'], 'sequence': 0, 'events': []}
+            'baselineVersion': snapshot['version'], 'sequence': 0, 'events': [],
+            'stateBaselines': {uf: {'observedAt': snapshot['fetchedAt'], 'version': snapshot['version']}
+                               for uf in snapshot['coverage']['states']}}
 
 
-def advance(previous, candidate):
+def advance(previous, candidate, *, expand_states=False):
     """Only compare a growing publication window; a disappearance is not a cancellation."""
     if previous['period']['start'] != candidate['period']['start'] or previous['period']['end'] > candidate['period']['end']:
         raise ValueError('Publication coverage cannot shrink or move its start')
-    if previous['coverage']['states'] != candidate['coverage']['states']:
-        raise ValueError('State coverage cannot change in this history')
+    old_states, new_states = set(previous['coverage']['states']), set(candidate['coverage']['states'])
+    added_states = new_states - old_states
+    if not old_states <= new_states or (added_states and not expand_states):
+        raise ValueError('State coverage cannot shrink; expansion requires --expand-states')
+    for uf in old_states:
+        if any(c['uf'] == uf for c in previous['contracts']) and not any(c['uf'] == uf for c in candidate['contracts']):
+            raise ValueError(f'Unexpected empty result for previously populated state {uf}')
     if previous['contracts'] and not candidate['contracts']:
         raise ValueError('Unexpected empty result for a previously populated window; review the source before publishing')
     history = copy.deepcopy(previous.get('history') or baseline(previous))
+    if added_states:
+        baselines = history.setdefault('stateBaselines', {
+            uf: {'observedAt': history['baselineAt'], 'version': history['baselineVersion']}
+            for uf in sorted(old_states)
+        })
+        for uf in sorted(added_states):
+            baselines[uf] = {'observedAt': candidate['fetchedAt'], 'version': candidate['version']}
     before = {c['id']: c for c in previous['contracts']}
     after = {c['id']: c for c in candidate['contracts']}
     changes = []
     for key in sorted(before.keys() | after.keys()):
         old, new = before.get(key), after.get(key)
+        if old is None and new['uf'] in added_states:
+            continue  # First observation for this state is a baseline, not a new contract.
         if old == new:
             continue
         fields = sorted(k for k in (new or old) if k != 'id' and (old or {}).get(k) != (new or {}).get(k))
@@ -91,7 +107,7 @@ def refresh(args, builder=None):
             candidate_args.refresh = True  # Always recheck every day, including old records.
             candidate = builder(candidate_args)
             if previous:
-                candidate = advance(previous, candidate)
+                candidate = advance(previous, candidate, expand_states=getattr(args, 'expand_states', False))
             else:
                 candidate['history'] = baseline(candidate)
             candidate['refresh'] = {'status': 'success', 'attemptedAt': started, 'lastSuccessAt': candidate['fetchedAt']}
