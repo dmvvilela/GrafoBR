@@ -28,7 +28,7 @@ Cloudflare clean URLs use drop-trailing-slash and the exported 404 page.
 ## Cutover safety
 
 Keep the original Vercel deployment working until Cloudflare HTTP and browser
-checks pass. Only then deploy a path-preserving redirect on Vercel. Production now redirects via HTTP 308. If validation fails in a future release,
+checks pass. Only then deploy a path-preserving redirect on Vercel. Production now redirects via HTTP 301. If validation fails in a future release,
 roll back the Cloudflare version before changing the old URL.
 
 GitHub Actions schedules remain disabled. This deployment setup does not enable
@@ -36,7 +36,7 @@ paid CI or change data ingestion.
 
 
 The user accepted that browser-local followed items do not transfer across origins.
-Old-origin localStorage is not erased. Vercel remains a minimal server-side 308
+Old-origin localStorage is not erased. Vercel remains a minimal server-side 301
 redirect preserving paths and query strings; the public domain remains free.
 
 `bash deploy/publish.sh` runs the tests, typecheck, export, canonical normalization,

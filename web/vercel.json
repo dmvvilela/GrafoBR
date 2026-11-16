@@ -7,12 +7,12 @@
     {
       "source": "/",
       "destination": "https://grafo-br.dmvvilela.workers.dev/",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/:path*",
       "destination": "https://grafo-br.dmvvilela.workers.dev/:path*",
-      "permanent": true
+      "statusCode": 301
     }
   ]
 }
